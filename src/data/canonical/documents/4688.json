@@ -1,0 +1,83 @@
+{
+  "id": "4688",
+  "legacyPostId": 4688,
+  "referenceNumber": "TT-CSIRT 342.08.24.20",
+  "classification": "advisory",
+  "title": "Blindingcan malware",
+  "rawTitle": "TTCSIRT-342.08.24.20: TT-CSIRT ADVISORY &#8211; BLINDINGCAN Malware",
+  "slug": "ttcsirt-342-08-24-20-tt-csirt-advisory-blindingcan-malware",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "On August 19, 2020, The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) publicly released a Malware Analysis Report (MAR) and associated samples labeled BLINDINGCAN . The information contained in the report is the result of analytic efforts between the Department of Homeland Security (DHS) and the FBI to provide technical details on the tools and infrastructure used by cyber actors of the North Korean (DPRK) government.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:21:52",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:21:52",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">On August 19, 2020, The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) publicly released a <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=1cb6e67975&amp;e=64e3bb0ab9\">Malware Analysis Report (MAR) and associated samples labeled BLINDINGCAN</a>. The information contained in the report is the result of analytic efforts between the Department of Homeland Security (DHS) and the FBI to provide technical details on the tools and infrastructure used by cyber actors of the North Korean (DPRK) government.<br><br>This malware variant has been identified as BLINDINGCAN. The U.S. government refers to malicious cyber activity by the North Korean government as HIDDEN COBRA. For more information on HIDDEN COBRA activity, visit <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=29acaeb609&amp;e=64e3bb0ab9\">www.us-cert.gov/NorthKorea</a>.<br><br>The FBI has high confidence that a threat group with a DPRK-nexus are using targeting government contractors to gather intelligence surrounding key military and energy technologies. DHS and the FBI are distributing this MAR to enable network defense and reduce exposure to DPRK malicious cyber activity.<br><br>This MAR includes malware descriptions related to BLINDINGCAN, suggested response actions and recommended mitigation techniques. Users or administrators should flag activity associated with the malware and report the activity to the Cybersecurity and Infrastructure Security Agency (CISA) or the FBI Cyber Watch (CyWatch), and give the activity the highest priority for enhanced mitigation.<br><br>Reporting forms can be found on CISA&#8217;s homepage at <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=6dd23582d7&amp;e=64e3bb0ab9\">www.cisa.gov</a>.<br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "On August 19, 2020, The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) publicly released a Malware Analysis Report (MAR) and associated…",
+  "sourceExcerpt": "<p>On August 19, 2020, The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) publicly released a Malware Analysis Report (MAR) and associated samples labeled BLINDINGCAN. The information contained in the report is the result of analytic efforts between the Department of Homeland Security (DHS) and the FBI to provide technical [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-342-08-24-20-tt-csirt-advisory-blindingcan-malware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>On August 19, 2020, The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) publicly released a <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=1cb6e67975&amp;e=64e3bb0ab9\">Malware Analysis Report (MAR) and associated samples labeled BLINDINGCAN</a>. The information contained in the report is the result of analytic efforts between the Department of Homeland Security (DHS) and the FBI to provide technical details on the tools and infrastructure used by cyber actors of the North Korean (DPRK) government.</p>",
+          "text": "On August 19, 2020, The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) publicly released a Malware Analysis Report (MAR) and associated samples labeled BLINDINGCAN . The information contained in the report is the result of analytic efforts between the Department of Homeland Security (DHS) and the FBI to provide technical details on the tools and infrastructure used by cyber actors of the North Korean (DPRK) government."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This malware variant has been identified as BLINDINGCAN. The U.S. government refers to malicious cyber activity by the North Korean government as HIDDEN COBRA. For more information on HIDDEN COBRA activity, visit <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=29acaeb609&amp;e=64e3bb0ab9\">www.us-cert.gov/NorthKorea</a>.</p>",
+          "text": "This malware variant has been identified as BLINDINGCAN. The U.S. government refers to malicious cyber activity by the North Korean government as HIDDEN COBRA. For more information on HIDDEN COBRA activity, visit www.us-cert.gov/NorthKorea ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The FBI has high confidence that a threat group with a DPRK-nexus are using targeting government contractors to gather intelligence surrounding key military and energy technologies. DHS and the FBI are distributing this MAR to enable network defense and reduce exposure to DPRK malicious cyber activity.</p>",
+          "text": "The FBI has high confidence that a threat group with a DPRK-nexus are using targeting government contractors to gather intelligence surrounding key military and energy technologies. DHS and the FBI are distributing this MAR to enable network defense and reduce exposure to DPRK malicious cyber activity."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This MAR includes malware descriptions related to BLINDINGCAN, suggested response actions and recommended mitigation techniques. Users or administrators should flag activity associated with the malware and report the activity to the Cybersecurity and Infrastructure Security Agency (CISA) or the FBI Cyber Watch (CyWatch), and give the activity the highest priority for enhanced mitigation.</p>",
+          "text": "This MAR includes malware descriptions related to BLINDINGCAN, suggested response actions and recommended mitigation techniques. Users or administrators should flag activity associated with the malware and report the activity to the Cybersecurity and Infrastructure Security Agency (CISA) or the FBI Cyber Watch (CyWatch), and give the activity the highest priority for enhanced mitigation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Reporting forms can be found on CISA&#8217;s homepage at <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=6dd23582d7&amp;e=64e3bb0ab9\">www.cisa.gov</a>.</p>",
+          "text": "Reporting forms can be found on CISA’s homepage at www.cisa.gov ."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-342-08-24-20-tt-csirt-advisory-blindingcan-malware/",
+    "upstreamDisclosedAt": "2020-09-22T23:21:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

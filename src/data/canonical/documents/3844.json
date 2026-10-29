@@ -1,0 +1,80 @@
+{
+  "id": "3844",
+  "legacyPostId": 3844,
+  "referenceNumber": "TT-CSIRT #234",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-234.101419: TT-CSIRT ADVISORY – CHROME SECURITY UPDATES",
+  "slug": "ttcsirt-234-101419-tt-csirt-advisory-chrome-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 77.0.3865.120 for Windows, Mac, and Linux. This new version addresses vulnerabilities that an attacker could exploit to take control of an affected system. TTCSIRT encourages users and administrators to review the following blog post from Google and update to the latest version of Chrome on all devices. Issues addressed include the following high level vulnerabilities:",
+  "cveList": [
+    "CVE-2019-13693",
+    "CVE-2019-13694",
+    "CVE-2019-13695",
+    "CVE-2019-13696",
+    "CVE-2019-13697"
+  ],
+  "date": "14 October 2019",
+  "rawDate": "2019-10-14T07:55:23",
+  "modifiedDate": "14 October 2019",
+  "rawModifiedDate": "2019-10-14T07:55:23",
+  "contentHtml": "<p>Google has released Chrome version 77.0.3865.120 for Windows, Mac, and Linux. This new version addresses vulnerabilities that an attacker could exploit to take control of an affected system. TTCSIRT encourages users and administrators to review the following blog post from Google and update to the latest version of Chrome on all devices. Issues addressed include the following high level vulnerabilities:</p>\n<ul>\n<li>CVE-2019-13693: Use-after-free in IndexedDB.</li>\n<li>CVE-2019-13694: Use-after-free in WebRTC.</li>\n<li>CVE-2019-13695: Use-after-free in audio.</li>\n<li>CVE-2019-13696: Use-after-free in V8.</li>\n<li>CVE-2019-13697: Cross-origin size leak</li>\n</ul>\n<p>Google Blog Post:<br />\n<a href=\"https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html</a></p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Google has released Chrome version 77.0.3865.120 for Windows, Mac, and Linux. This new version addresses vulnerabilities that an attacker could exploit to take control of an affected system.",
+  "sourceExcerpt": "<p>Google has released Chrome version 77.0.3865.120 for Windows, Mac, and Linux. This new version addresses vulnerabilities that an attacker could exploit to take control of an affected system. TTCSIRT encourages users and administrators to review the following blog post from Google and update to the latest version of Chrome on all devices. Issues addressed include [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-234-101419-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released Chrome version 77.0.3865.120 for Windows, Mac, and Linux. This new version addresses vulnerabilities that an attacker could exploit to take control of an affected system. TTCSIRT encourages users and administrators to review the following blog post from Google and update to the latest version of Chrome on all devices. Issues addressed include the following high level vulnerabilities:</p>",
+          "text": "Google has released Chrome version 77.0.3865.120 for Windows, Mac, and Linux. This new version addresses vulnerabilities that an attacker could exploit to take control of an affected system. TTCSIRT encourages users and administrators to review the following blog post from Google and update to the latest version of Chrome on all devices. Issues addressed include the following high level vulnerabilities:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-13693: Use-after-free in IndexedDB.</li>\n<li>CVE-2019-13694: Use-after-free in WebRTC.</li>\n<li>CVE-2019-13695: Use-after-free in audio.</li>\n<li>CVE-2019-13696: Use-after-free in V8.</li>\n<li>CVE-2019-13697: Cross-origin size leak</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Google Blog Post:<br />\n<a href=\"https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html</a></p>",
+          "text": "Google Blog Post: https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-234-101419-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2019-10-14T07:55:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

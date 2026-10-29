@@ -1,0 +1,142 @@
+{
+  "id": "5132",
+  "legacyPostId": 5132,
+  "referenceNumber": "TT-CSIRT #5132",
+  "classification": "alert",
+  "title": "Increased cyber activity in Trinidad and Tobago and the region",
+  "rawTitle": "Increased Cyber Activity in Trinidad and Tobago and the Region",
+  "slug": "threat-alert-2022",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a sharp increase in malicious cyber activity targeting local and regional entities over the past two (2) months. The TT-CSIRT is urging all entities (public and private) to adopt a heightened state of awareness and be guided by the following:",
+  "cveList": [],
+  "date": "29 April 2022",
+  "rawDate": "2022-04-29T10:53:29",
+  "modifiedDate": "29 April 2022",
+  "rawModifiedDate": "2022-04-29T10:53:29",
+  "contentHtml": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a sharp increase in malicious cyber activity targeting local and regional entities over the past two (2) months. The TT-CSIRT is urging all entities (public and private) to adopt a heightened state of awareness and be guided by the following:</p>\n<h4>Top Threats to T&amp;T</h4>\n<p>The most prominent threats (by size of impact) that TT-CSIRT has observed include:</p>\n<ul>\n<li>Ransomware</li>\n<li>Social Engineering (Phishing)</li>\n<li>Malicious Insiders</li>\n</ul>\n<h4>Attack Vectors</h4>\n<p>Cyber attacks can be initiated through multiple attack vectors. The most prominent vectors used against local entities are:</p>\n<ul>\n<li>Exploitation of system vulnerabilities (particularly outdated firewall appliances and email systems)</li>\n<li>Phishing emails with infected attachments or links</li>\n<li>Compromised user credentials</li>\n</ul>\n<h4>Incident Reporting</h4>\n<p>Should your organization fall victim to a cyber attack, we encourage you to contact TT-CSIRT immediately via our <a href=\"https://ttcsirt.gov.tt/report-an-incident/\">online form</a> for incident management guidance and technical assistance. The Cyber Crime and Social Media Unit of the Trinidad and Tobago Police Service via the information at <a href=\"https://ttcsirt.gov.tt/ttps-cyber-crime-unit/\">this link</a>.</p>\n<h4>Measures for Securing Your Systems</h4>\n<p>The TT-CSIRT recommends organizations review the following resources and take the necessary actions:</p>\n<ul>\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\" target=\"_blank\" rel=\"noopener\">Ransomware Prevention Guide</a></li>\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\" target=\"_blank\" rel=\"noopener\">Ransomware Response Checklist</a></li>\n<li><a href=\"https://ttcsirt.gov.tt/social-engineering/\" target=\"_blank\" rel=\"noopener\">TT-CSIRT Social Engineering Guidance</a></li>\n<li><a href=\"https://www.getsafeonline.tt/\" target=\"_blank\" rel=\"noopener\">Get Safe Online TT (Individuals)</a></li>\n<li><a href=\"https://www.getsafeonline.tt/business/\" target=\"_blank\" rel=\"noopener\">Get Safe Online TT (Businesses)</a></li>\n</ul>\n",
+  "displaySummary": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a sharp increase in malicious cyber activity targeting local and regional entities over the past two (2) months.",
+  "sourceExcerpt": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a sharp increase in malicious cyber activity targeting local and regional entities over the past two (2) months. The TT-CSIRT is urging all entities (public and private) to adopt a heightened state of awareness and be guided by the following: Top Threats to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/threat-alert-2022/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a sharp increase in malicious cyber activity targeting local and regional entities over the past two (2) months. The TT-CSIRT is urging all entities (public and private) to adopt a heightened state of awareness and be guided by the following:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a sharp increase in malicious cyber activity targeting local and regional entities over the past two (2) months. The TT-CSIRT is urging all entities (public and private) to adopt a heightened state of awareness and be guided by the following:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Top threats to t&t",
+          "id": "top-threats-to-tt"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The most prominent threats (by size of impact) that TT-CSIRT has observed include:</p>",
+          "text": "The most prominent threats (by size of impact) that TT-CSIRT has observed include:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Ransomware</li>\n<li>Social Engineering (Phishing)</li>\n<li>Malicious Insiders</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack vectors",
+          "id": "attack-vectors"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cyber attacks can be initiated through multiple attack vectors. The most prominent vectors used against local entities are:</p>",
+          "text": "Cyber attacks can be initiated through multiple attack vectors. The most prominent vectors used against local entities are:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Exploitation of system vulnerabilities (particularly outdated firewall appliances and email systems)</li>\n<li>Phishing emails with infected attachments or links</li>\n<li>Compromised user credentials</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Incident reporting",
+          "id": "incident-reporting"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Should your organization fall victim to a cyber attack, we encourage you to contact TT-CSIRT immediately via our <a href=\"https://ttcsirt.gov.tt/report-an-incident/\">online form</a> for incident management guidance and technical assistance. The Cyber Crime and Social Media Unit of the Trinidad and Tobago Police Service via the information at <a href=\"https://ttcsirt.gov.tt/ttps-cyber-crime-unit/\">this link</a>.</p>",
+          "text": "Should your organization fall victim to a cyber attack, we encourage you to contact TT-CSIRT immediately via our online form for incident management guidance and technical assistance. The Cyber Crime and Social Media Unit of the Trinidad and Tobago Police Service via the information at this link ."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Measures for securing your systems",
+          "id": "measures-for-securing-your-systems"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The TT-CSIRT recommends organizations review the following resources and take the necessary actions:</p>",
+          "text": "The TT-CSIRT recommends organizations review the following resources and take the necessary actions:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\" target=\"_blank\" rel=\"noopener\">Ransomware Prevention Guide</a></li>\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\" target=\"_blank\" rel=\"noopener\">Ransomware Response Checklist</a></li>\n<li><a href=\"https://ttcsirt.gov.tt/social-engineering/\" target=\"_blank\" rel=\"noopener\">TT-CSIRT Social Engineering Guidance</a></li>\n<li><a href=\"https://www.getsafeonline.tt/\" target=\"_blank\" rel=\"noopener\">Get Safe Online TT (Individuals)</a></li>\n<li><a href=\"https://www.getsafeonline.tt/business/\" target=\"_blank\" rel=\"noopener\">Get Safe Online TT (Businesses)</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "top-threats-to-tt",
+      "label": "Top threats to t&t",
+      "isSubItem": true
+    },
+    {
+      "id": "attack-vectors",
+      "label": "Attack vectors",
+      "isSubItem": true
+    },
+    {
+      "id": "incident-reporting",
+      "label": "Incident reporting",
+      "isSubItem": true
+    },
+    {
+      "id": "measures-for-securing-your-systems",
+      "label": "Measures for securing your systems",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.getsafeonline.tt/",
+    "https://www.getsafeonline.tt/business/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/threat-alert-2022/",
+    "upstreamDisclosedAt": "2022-04-29T10:53:29",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "3187",
+  "legacyPostId": 3187,
+  "referenceNumber": "TT-CSIRT #086",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-086.020518: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-086-013018-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe reports that a vulnerability has been discovered in Adobe Flash Player that could allow for remote code execution. This vulnerability occurs due to a use-after-free error (CVE-2018-4878).",
+  "cveList": [
+    "CVE-2018-4878"
+  ],
+  "date": "5 February 2018",
+  "rawDate": "2018-02-05T14:16:57",
+  "modifiedDate": "5 February 2018",
+  "rawModifiedDate": "2018-02-05T14:16:57",
+  "contentHtml": "<p>Adobe reports that a vulnerability has been discovered in Adobe Flash Player that could allow for remote code execution. This vulnerability occurs due to a use-after-free error (CVE-2018-4878).</p>\n<p>Depending on the privileges associated with this application, an attacker could then install programs, view, change, or delete data or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of this vulnerability could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-remote-code-execution-apsa18-01_2018-016/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-remote-code-execution-apsa18-01_2018-016/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe reports that a vulnerability has been discovered in Adobe Flash Player that could allow for remote code execution. This vulnerability occurs due to a use-after-free error (CVE-2018-4878).",
+  "sourceExcerpt": "<p>Adobe reports that a vulnerability has been discovered in Adobe Flash Player that could allow for remote code execution. This vulnerability occurs due to a use-after-free error (CVE-2018-4878). Depending on the privileges associated with this application, an attacker could then install programs, view, change, or delete data or create new accounts with full user rights. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-086-013018-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe reports that a vulnerability has been discovered in Adobe Flash Player that could allow for remote code execution. This vulnerability occurs due to a use-after-free error (CVE-2018-4878).</p>",
+          "text": "Adobe reports that a vulnerability has been discovered in Adobe Flash Player that could allow for remote code execution. This vulnerability occurs due to a use-after-free error (CVE-2018-4878)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Depending on the privileges associated with this application, an attacker could then install programs, view, change, or delete data or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of this vulnerability could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Depending on the privileges associated with this application, an attacker could then install programs, view, change, or delete data or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of this vulnerability could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-remote-code-execution-apsa18-01_2018-016/\">https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-remote-code-execution-apsa18-01_2018-016/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-remote-code-execution-apsa18-01_2018-016/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-remote-code-execution-apsa18-01_2018-016/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-086-013018-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-02-05T14:16:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

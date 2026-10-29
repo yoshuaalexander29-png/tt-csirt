@@ -1,0 +1,82 @@
+{
+  "id": "4795",
+  "legacyPostId": 4795,
+  "referenceNumber": "TT-CSIRT 373.11.03.20",
+  "classification": "advisory",
+  "title": "Google security updates for Chrome",
+  "rawTitle": "TTCSIRT-373.11.03.20: TT-CSIRT ADVISORY – Google Security Updates for Chrome",
+  "slug": "ttcsirt-373-11-03-20-tt-csirt-advisory-google-security-updates-for-chrome",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 86.0.4240.183 for Windows, Mac, and Linux addressing multiple vulnerabilities, including vulnerability CVE-2020-16009.",
+  "cveList": [
+    "CVE-2020-16009"
+  ],
+  "date": "3 November 2020",
+  "rawDate": "2020-11-03T15:37:59",
+  "modifiedDate": "3 November 2020",
+  "rawModifiedDate": "2020-11-03T15:37:59",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Google has released Chrome version 86.0.4240.183 for Windows, Mac, and Linux addressing multiple vulnerabilities, including vulnerability CVE-2020-16009.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Exploit code for this vulnerability exists in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages users and administrators to review and apply the necessary updates immediately.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further information and support, please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMDMuMjk4MzM1NzEiLCJ1cmwiOiJodHRwczovL2Nocm9tZXJlbGVhc2VzLmdvb2dsZWJsb2cuY29tLzIwMjAvMTEvc3RhYmxlLWNoYW5uZWwtdXBkYXRlLWZvci1kZXNrdG9wLmh0bWwifQ.49eag-r6-ehXqIbg4BaU9T7saz5Ax8els5MznAbEyj8/s/1193638257/br/87862614019-l\">Chrome Release Note</a></p>\n",
+  "displaySummary": "Google has released Chrome version 86.0.4240.183 for Windows, Mac, and Linux addressing multiple vulnerabilities, including vulnerability CVE-2020-16009.",
+  "sourceExcerpt": "<p>Google has released Chrome version 86.0.4240.183 for Windows, Mac, and Linux addressing multiple vulnerabilities, including vulnerability CVE-2020-16009. Exploit code for this vulnerability exists in the wild. TTCSIRT encourages users and administrators to review and apply the necessary updates immediately. For further information and support, please visit the link below:Chrome Release Note</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-373-11-03-20-tt-csirt-advisory-google-security-updates-for-chrome/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released Chrome version 86.0.4240.183 for Windows, Mac, and Linux addressing multiple vulnerabilities, including vulnerability CVE-2020-16009.</p>",
+          "text": "Google has released Chrome version 86.0.4240.183 for Windows, Mac, and Linux addressing multiple vulnerabilities, including vulnerability CVE-2020-16009."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Exploit code for this vulnerability exists in the wild.</p>",
+          "text": "Exploit code for this vulnerability exists in the wild."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review and apply the necessary updates immediately.</p>",
+          "text": "TTCSIRT encourages users and administrators to review and apply the necessary updates immediately."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMDMuMjk4MzM1NzEiLCJ1cmwiOiJodHRwczovL2Nocm9tZXJlbGVhc2VzLmdvb2dsZWJsb2cuY29tLzIwMjAvMTEvc3RhYmxlLWNoYW5uZWwtdXBkYXRlLWZvci1kZXNrdG9wLmh0bWwifQ.49eag-r6-ehXqIbg4BaU9T7saz5Ax8els5MznAbEyj8/s/1193638257/br/87862614019-l\">Chrome Release Note</a></p>",
+          "text": "For further information and support, please visit the link below: Chrome Release Note"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMDMuMjk4MzM1NzEiLCJ1cmwiOiJodHRwczovL2Nocm9tZXJlbGVhc2VzLmdvb2dsZWJsb2cuY29tLzIwMjAvMTEvc3RhYmxlLWNoYW5uZWwtdXBkYXRlLWZvci1kZXNrdG9wLmh0bWwifQ.49eag-r6-ehXqIbg4BaU9T7saz5Ax8els5MznAbEyj8/s/1193638257/br/87862614019-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-373-11-03-20-tt-csirt-advisory-google-security-updates-for-chrome/",
+    "upstreamDisclosedAt": "2020-11-03T15:37:59",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

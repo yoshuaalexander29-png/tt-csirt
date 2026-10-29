@@ -1,0 +1,94 @@
+{
+  "id": "3697",
+  "legacyPostId": 3697,
+  "referenceNumber": "TT-CSIRT #207",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-207.042319: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-207-042319-tt-csirt-advisory-drupal-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:",
+  "cveList": [
+    "CVE-2019-10909",
+    "CVE-2019-10910",
+    "CVE-2019-10911"
+  ],
+  "date": "23 April 2019",
+  "rawDate": "2019-04-23T18:15:00",
+  "modifiedDate": "23 April 2019",
+  "rawModifiedDate": "2019-04-23T18:15:00",
+  "contentHtml": "<p>Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:</p>\n<p>a) Validation messages were not escaped when using the form theme of the PHP templating engine which, when validation messages may contain user input, could result in an XSS &#8211; (CVE-2019-10909).</p>\n<p>b) Service IDs derived from unfiltered user input could result in the execution of any arbitrary code, resulting in possible remote code execution &#8211; (CVE-2019-10910).</p>\n<p>c) Part of an expiry time in a cookie could be considered part of the username, or part of the username could be considered part of the expiry time. An attacker could modify the remember me cookie and authenticate as a different user. (CVE-2019-10911)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution and depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2019-005\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/sa-core-2019-005</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module: a) Validation messages were not escaped when using the form theme…",
+  "sourceExcerpt": "<p>Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module: a) Validation messages were not escaped when using the form theme of the PHP templating engine which, when validation messages may contain user input, could result in an XSS &#8211; (CVE-2019-10909). b) Service IDs derived from [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-207-042319-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:</p>",
+          "text": "Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Validation messages were not escaped when using the form theme of the PHP templating engine which, when validation messages may contain user input, could result in an XSS &#8211; (CVE-2019-10909).</p>",
+          "text": "a) Validation messages were not escaped when using the form theme of the PHP templating engine which, when validation messages may contain user input, could result in an XSS – (CVE-2019-10909)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Service IDs derived from unfiltered user input could result in the execution of any arbitrary code, resulting in possible remote code execution &#8211; (CVE-2019-10910).</p>",
+          "text": "b) Service IDs derived from unfiltered user input could result in the execution of any arbitrary code, resulting in possible remote code execution – (CVE-2019-10910)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Part of an expiry time in a cookie could be considered part of the username, or part of the username could be considered part of the expiry time. An attacker could modify the remember me cookie and authenticate as a different user. (CVE-2019-10911)</p>",
+          "text": "c) Part of an expiry time in a cookie could be considered part of the username, or part of the username could be considered part of the expiry time. An attacker could modify the remember me cookie and authenticate as a different user. (CVE-2019-10911)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution and depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution and depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2019-005\">https://www.drupal.org/sa-core-2019-005</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Drupal Website at https://www.drupal.org/sa-core-2019-005"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/sa-core-2019-005"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-207-042319-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2019-04-23T18:15:00",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

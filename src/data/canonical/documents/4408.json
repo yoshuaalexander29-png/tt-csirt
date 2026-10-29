@@ -1,0 +1,84 @@
+{
+  "id": "4408",
+  "legacyPostId": 4408,
+  "referenceNumber": "TT-CSIRT #301",
+  "classification": "advisory",
+  "title": "Microsoft RCE vulnerabilities affecting Windows, Windows server",
+  "rawTitle": "TTCSIRT-301.032520: TT-CSIRT ADVISORY- MICROSOFT RCE VULNERABILITIES AFFECTING WINDOWS, WINDOWS SERVER",
+  "slug": "ttcsirt-301-032520-tt-csirt-advisory-microsoft-rce-vulnerabilities-affecting-windows-windows-server",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security advisory to address remote code execution vulnerabilities in Adobe Type Manager Library affecting all currently supported versions of Windows and Windows Server operating systems. A remote attacker can exploit these vulnerabilities to take control of an affected system. Microsoft is aware of limited, targeted attacks exploiting these vulnerabilities in the wild.",
+  "cveList": [],
+  "date": "25 March 2020",
+  "rawDate": "2020-03-25T14:54:32",
+  "modifiedDate": "25 March 2020",
+  "rawModifiedDate": "2020-03-25T14:54:32",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released a security advisory to address remote code execution vulnerabilities in Adobe Type Manager Library affecting all currently supported versions of Windows and Windows Server operating systems. A remote attacker can exploit these vulnerabilities to take control of an affected system. Microsoft is aware of limited, targeted attacks exploiting these vulnerabilities in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary mitigations until patches are available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kindly review the following links for a more detailed breakdown of the Vulnerabilities and relevant workarounds:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Microsoft Advisory&nbsp;ADV200006:&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006</a></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>CERT Coordination Center\n(CERT/CC) Vulnerability Note&nbsp;VU#354840: <a href=\"https://kb.cert.org/vuls/id/354840/\">https://kb.cert.org/vuls/id/354840/</a></li></ul>\n",
+  "displaySummary": "Microsoft has released a security advisory to address remote code execution vulnerabilities in Adobe Type Manager Library affecting all currently supported versions of Windows and Windows Server…",
+  "sourceExcerpt": "<p>Microsoft has released a security advisory to address remote code execution vulnerabilities in Adobe Type Manager Library affecting all currently supported versions of Windows and Windows Server operating systems. A remote attacker can exploit these vulnerabilities to take control of an affected system. Microsoft is aware of limited, targeted attacks exploiting these vulnerabilities in the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-301-032520-tt-csirt-advisory-microsoft-rce-vulnerabilities-affecting-windows-windows-server/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security advisory to address remote code execution vulnerabilities in Adobe Type Manager Library affecting all currently supported versions of Windows and Windows Server operating systems. A remote attacker can exploit these vulnerabilities to take control of an affected system. Microsoft is aware of limited, targeted attacks exploiting these vulnerabilities in the wild.</p>",
+          "text": "Microsoft has released a security advisory to address remote code execution vulnerabilities in Adobe Type Manager Library affecting all currently supported versions of Windows and Windows Server operating systems. A remote attacker can exploit these vulnerabilities to take control of an affected system. Microsoft is aware of limited, targeted attacks exploiting these vulnerabilities in the wild."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary mitigations until patches are available.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary mitigations until patches are available."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Kindly review the following links for a more detailed breakdown of the Vulnerabilities and relevant workarounds:</p>",
+          "text": "Kindly review the following links for a more detailed breakdown of the Vulnerabilities and relevant workarounds:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Microsoft Advisory&nbsp;ADV200006:&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>CERT Coordination Center\n(CERT/CC) Vulnerability Note&nbsp;VU#354840: <a href=\"https://kb.cert.org/vuls/id/354840/\">https://kb.cert.org/vuls/id/354840/</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006",
+    "https://kb.cert.org/vuls/id/354840/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-301-032520-tt-csirt-advisory-microsoft-rce-vulnerabilities-affecting-windows-windows-server/",
+    "upstreamDisclosedAt": "2020-03-25T14:54:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

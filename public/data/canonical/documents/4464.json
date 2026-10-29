@@ -1,0 +1,104 @@
+{
+  "id": "4464",
+  "legacyPostId": 4464,
+  "referenceNumber": "TT-CSIRT #4464",
+  "classification": "alert",
+  "title": "COVID-19 exploited by malicious cyber actors",
+  "rawTitle": "COVID-19 EXPLOITED BY MALICIOUS CYBER ACTORS",
+  "slug": "covid-19-exploited-by-malicious-cyber-actors",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The United States Department of Homeland Security (DHS) Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC) did a joint alert talking to the exploitation by cyber criminal and Advanced Persistent Threat (APT) groups and a list of Indicators of Compromise (IOCs) for both detection and mitigation.",
+  "cveList": [],
+  "date": "10 April 2020",
+  "rawDate": "2020-04-10T17:08:28",
+  "modifiedDate": "10 April 2020",
+  "rawModifiedDate": "2020-04-10T17:08:28",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The United States Department of Homeland Security (DHS) Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC) did a joint alert talking to the exploitation by cyber criminal and Advanced Persistent Threat (APT) groups and a list of Indicators of Compromise (IOCs) for both detection and mitigation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Both APT groups and cyber criminals are likely to continue to exploit the COVID-19 pandemic over the coming weeks and months.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Threats observed include:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Phishing, using the subject of coronavirus or COVID-19 as a lure,</li><li>Malware distribution, using coronavirus- or COVID-19- themed lures,</li><li>Registration of new domain names containing wording related to coronavirus or COVID-19, and</li><li>Attacks against newly—and often rapidly—deployed remote access and teleworking infrastructure.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">Following the CISA and NCSC advice set out below will help mitigate the risk to individuals and organizations from malicious cyber activity related to both COVID-19 and other themes:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>CISA guidance for defending against COVID-19 cyber scams</li><li>CISA Insights: Risk Management for Novel Coronavirus (COVID-19), which provides guidance for executives regarding physical, supply chain, and cybersecurity issues related to COVID-19</li><li>CISA Alert: Enterprise VPN Security</li><li>CISA webpage providing a repository of the agency’s COVID-19 guidance</li><li>NCSC guidance to help spot, understand, and deal with suspicious messages and emails</li><li>NCSC phishing guidance for organizations and cyber security professionals</li><li>NCSC guidance on mitigating malware and ransomware attacks</li><li>NCSC guidance on home working</li><li>NCSC guidance on end user device security</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages all organisations to review the CISA Alert (AA20-099A) by referring to the following link for comprehensive detailing of the aforementioned threats and mitigations:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.us-cert.gov/ncas/alerts/aa20-099a\">https://www.us-cert.gov/ncas/alerts/aa20-099a</a></p>\n",
+  "displaySummary": "The United States Department of Homeland Security (DHS) Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC) did a joint alert…",
+  "sourceExcerpt": "<p>The United States Department of Homeland Security (DHS) Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC) did a joint alert talking to the exploitation by cyber criminal and Advanced Persistent Threat (APT) groups and a list of Indicators of Compromise (IOCs) for both detection and mitigation. Both [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/covid-19-exploited-by-malicious-cyber-actors/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The United States Department of Homeland Security (DHS) Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC) did a joint alert talking to the exploitation by cyber criminal and Advanced Persistent Threat (APT) groups and a list of Indicators of Compromise (IOCs) for both detection and mitigation.</p>",
+          "text": "The United States Department of Homeland Security (DHS) Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC) did a joint alert talking to the exploitation by cyber criminal and Advanced Persistent Threat (APT) groups and a list of Indicators of Compromise (IOCs) for both detection and mitigation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Both APT groups and cyber criminals are likely to continue to exploit the COVID-19 pandemic over the coming weeks and months.</p>",
+          "text": "Both APT groups and cyber criminals are likely to continue to exploit the COVID-19 pandemic over the coming weeks and months."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Threats observed include",
+          "id": "threats-observed-include"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Phishing, using the subject of coronavirus or COVID-19 as a lure,</li><li>Malware distribution, using coronavirus- or COVID-19- themed lures,</li><li>Registration of new domain names containing wording related to coronavirus or COVID-19, and</li><li>Attacks against newly—and often rapidly—deployed remote access and teleworking infrastructure.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Following the CISA and NCSC advice set out below will help mitigate the risk to individuals and organizations from malicious cyber activity related to both COVID-19 and other themes:</p>",
+          "text": "Following the CISA and NCSC advice set out below will help mitigate the risk to individuals and organizations from malicious cyber activity related to both COVID-19 and other themes:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>CISA guidance for defending against COVID-19 cyber scams</li><li>CISA Insights: Risk Management for Novel Coronavirus (COVID-19), which provides guidance for executives regarding physical, supply chain, and cybersecurity issues related to COVID-19</li><li>CISA Alert: Enterprise VPN Security</li><li>CISA webpage providing a repository of the agency’s COVID-19 guidance</li><li>NCSC guidance to help spot, understand, and deal with suspicious messages and emails</li><li>NCSC phishing guidance for organizations and cyber security professionals</li><li>NCSC guidance on mitigating malware and ransomware attacks</li><li>NCSC guidance on home working</li><li>NCSC guidance on end user device security</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages all organisations to review the CISA Alert (AA20-099A) by referring to the following link for comprehensive detailing of the aforementioned threats and mitigations:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages all organisations to review the CISA Alert (AA20-099A) by referring to the following link for comprehensive detailing of the aforementioned threats and mitigations:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.us-cert.gov/ncas/alerts/aa20-099a\">https://www.us-cert.gov/ncas/alerts/aa20-099a</a></p>",
+          "text": "https://www.us-cert.gov/ncas/alerts/aa20-099a"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "threats-observed-include",
+      "label": "Threats observed include",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.us-cert.gov/ncas/alerts/aa20-099a"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/covid-19-exploited-by-malicious-cyber-actors/",
+    "upstreamDisclosedAt": "2020-04-10T17:08:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "4539",
+  "legacyPostId": 4539,
+  "referenceNumber": "TT-CSIRT 322.07.08.20",
+  "classification": "advisory",
+  "title": "Palo Alto OS command injection vulnerability",
+  "rawTitle": "TTCSIRT-322.07.08.20: TT-CSIRT ADVISORY-  PALOALTO OS COMMAND INJECTION VULNERABILITY",
+  "slug": "ttcsirt-322-07-08-20-tt-csirt-advisory-paloalto-os-command-injection-vulnerability",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows an unauthenticated network based attacker to execute arbitrary OS commands with root privileges.",
+  "cveList": [],
+  "date": "8 July 2020",
+  "rawDate": "2020-07-08T13:55:23",
+  "modifiedDate": "8 July 2020",
+  "rawModifiedDate": "2020-07-08T13:55:23",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows an unauthenticated network based attacker to execute arbitrary OS commands with root privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker requires some knowledge of the firewall to exploit this issue</p>\n\n\n\n<p class=\"wp-block-paragraph\">This issue cannot be exploited if GlobalProtect portal feature is not enabled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This issue impacts PAN-OS 9.1 versions earlier than PAN-OS 9.1.3; PAN-OS 8.1 versions earlier than PAN-OS 8.1.15; PAN-OS 9.0 versions earlier than PAN-OS 9.0.9; all versions of PAN-OS 8.0 and PAN-OS 7.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Prisma Access services are not impacted by this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This issue is applicable only where GlobalProtect portal is enabled.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This issue is fixed in PAN-OS 8.1.15, PAN-OS 9.0.9, PAN-OS 9.1.3, and all later PAN-OS versions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">PAN-OS 7.1 and PAN-OS 8.0 are end-of-life (as of June 30, 2020 and October 31, 2019 respectively) and are no longer covered by Paloalto’s Product Security Assurance policies.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are no workarounds and mitigations for this severity 8.1 (High) vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">To obtain a more comprehensive outlook of this weakness type; kindly follow the link below:</p>\n\n\n\n<pre class=\"wp-block-preformatted\"><a href=\"https://cwe.mitre.org/data/definitions/78\">https://cwe.mitre.org/data/definitions/78</a></pre>\n\n\n\n<pre class=\"wp-block-preformatted\">&nbsp;</pre>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows an unauthenticated network based attacker to execute arbitrary OS commands with root privileges.",
+  "sourceExcerpt": "<p>An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows an unauthenticated network based attacker to execute arbitrary OS commands with root privileges. An attacker requires some knowledge of the firewall to exploit this issue This issue cannot be exploited if GlobalProtect portal feature is not enabled. This issue impacts PAN-OS 9.1 versions earlier [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-322-07-08-20-tt-csirt-advisory-paloalto-os-command-injection-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows an unauthenticated network based attacker to execute arbitrary OS commands with root privileges.</p>",
+          "text": "An OS Command Injection vulnerability in the PAN-OS GlobalProtect portal allows an unauthenticated network based attacker to execute arbitrary OS commands with root privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker requires some knowledge of the firewall to exploit this issue</p>",
+          "text": "An attacker requires some knowledge of the firewall to exploit this issue"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue cannot be exploited if GlobalProtect portal feature is not enabled.</p>",
+          "text": "This issue cannot be exploited if GlobalProtect portal feature is not enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue impacts PAN-OS 9.1 versions earlier than PAN-OS 9.1.3; PAN-OS 8.1 versions earlier than PAN-OS 8.1.15; PAN-OS 9.0 versions earlier than PAN-OS 9.0.9; all versions of PAN-OS 8.0 and PAN-OS 7.1.</p>",
+          "text": "This issue impacts PAN-OS 9.1 versions earlier than PAN-OS 9.1.3; PAN-OS 8.1 versions earlier than PAN-OS 8.1.15; PAN-OS 9.0 versions earlier than PAN-OS 9.0.9; all versions of PAN-OS 8.0 and PAN-OS 7.1."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Prisma Access services are not impacted by this vulnerability.</p>",
+          "text": "Prisma Access services are not impacted by this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is applicable only where GlobalProtect portal is enabled.</p>",
+          "text": "This issue is applicable only where GlobalProtect portal is enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is fixed in PAN-OS 8.1.15, PAN-OS 9.0.9, PAN-OS 9.1.3, and all later PAN-OS versions.</p>",
+          "text": "This issue is fixed in PAN-OS 8.1.15, PAN-OS 9.0.9, PAN-OS 9.1.3, and all later PAN-OS versions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>PAN-OS 7.1 and PAN-OS 8.0 are end-of-life (as of June 30, 2020 and October 31, 2019 respectively) and are no longer covered by Paloalto’s Product Security Assurance policies.</p>",
+          "text": "PAN-OS 7.1 and PAN-OS 8.0 are end-of-life (as of June 30, 2020 and October 31, 2019 respectively) and are no longer covered by Paloalto’s Product Security Assurance policies."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There are no workarounds and mitigations for this severity 8.1 (High) vulnerability.</p>",
+          "text": "There are no workarounds and mitigations for this severity 8.1 (High) vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To obtain a more comprehensive outlook of this weakness type; kindly follow the link below:</p>",
+          "text": "To obtain a more comprehensive outlook of this weakness type; kindly follow the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://cwe.mitre.org/data/definitions/78\">https://cwe.mitre.org/data/definitions/78</a></p>",
+          "text": "https://cwe.mitre.org/data/definitions/78"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://cwe.mitre.org/data/definitions/78"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-322-07-08-20-tt-csirt-advisory-paloalto-os-command-injection-vulnerability/",
+    "upstreamDisclosedAt": "2020-07-08T13:55:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

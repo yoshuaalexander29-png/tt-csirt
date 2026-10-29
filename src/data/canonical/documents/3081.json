@@ -1,0 +1,72 @@
+{
+  "id": "3081",
+  "legacyPostId": 3081,
+  "referenceNumber": "TT-CSIRT #064",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-064.112017: TT-CSIRT Advisory – Oracle Security Updates",
+  "slug": "ttcsirt-064-112017-tt-csirt-advisory-oracle-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released a security alert to address multiple vulnerabilities in Oracle Tuxedo. A remote attacker could exploit these vulnerabilities to take control of an affected system.",
+  "cveList": [
+    "CVE-2017-10269"
+  ],
+  "date": "20 November 2017",
+  "rawDate": "2017-11-20T11:51:12",
+  "modifiedDate": "20 November 2017",
+  "rawModifiedDate": "2017-11-20T11:51:12",
+  "contentHtml": "<p>Oracle has released a security alert to address multiple vulnerabilities in Oracle Tuxedo. A remote attacker could exploit these vulnerabilities to take control of an affected system.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html\"><font size=\"2\" color=\"maroon\">http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Oracle has released a security alert to address multiple vulnerabilities in Oracle Tuxedo. A remote attacker could exploit these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Oracle has released a security alert to address multiple vulnerabilities in Oracle Tuxedo. A remote attacker could exploit these vulnerabilities to take control of an affected system. Further information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-064-112017-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released a security alert to address multiple vulnerabilities in Oracle Tuxedo. A remote attacker could exploit these vulnerabilities to take control of an affected system.</p>",
+          "text": "Oracle has released a security alert to address multiple vulnerabilities in Oracle Tuxedo. A remote attacker could exploit these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html\">http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.oracle.com/technetwork/security-advisory/alert-cve-2017-10269-4021872.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-064-112017-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2017-11-20T11:51:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

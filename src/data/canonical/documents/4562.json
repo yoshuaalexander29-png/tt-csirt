@@ -1,0 +1,90 @@
+{
+  "id": "4562",
+  "legacyPostId": 4562,
+  "referenceNumber": "TT-CSIRT 324.07.17.20",
+  "classification": "advisory",
+  "title": "APT29 targets COVID-19 vaccine development",
+  "rawTitle": "TTCSIRT-324.07.17.20: TT-CSIRT ADVISORY-APT29 TARGETS COVID-19 VACCINE DEVELOPMENT",
+  "slug": "ttcsirt-324-07-17-20-tt-csirt-advisory-apt29-targets-covid-19-vaccine-development",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "APT29 (also known as ‘the Dukes’ or ‘Cozy Bear’) is a suspected Russian Intelligence Cyber Espionage Group.",
+  "cveList": [],
+  "date": "17 July 2020",
+  "rawDate": "2020-07-17T09:13:37",
+  "modifiedDate": "17 July 2020",
+  "rawModifiedDate": "2020-07-17T09:13:37",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">APT29 (also known as ‘the Dukes’ or ‘Cozy Bear’) is a suspected Russian Intelligence Cyber Espionage Group.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The United Kingdom’s National Cyber Security Centre issued detection and mitigation advice for organisations involved in coronavirus vaccine development with custom malware by APT29.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The report goes into detail regarding recent Tactics, Techniques and Procedures (TTPs) of the APT29 group also known as ‘the Dukes’ or ‘Cozy Bear’</p>\n\n\n\n<p class=\"wp-block-paragraph\">The United States National Security Agency (NSA) also agrees with the claims and details of the United Kingdom’s National Cyber Security Centre APT29 advisory report.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the link provided for a more comprehensive insight into the aforementioned report:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development\">https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development</a></p>\n",
+  "displaySummary": "APT29 (also known as ‘the Dukes’ or ‘Cozy Bear’) is a suspected Russian Intelligence Cyber Espionage Group.",
+  "sourceExcerpt": "<p>APT29 (also known as ‘the Dukes’ or ‘Cozy Bear’) is a suspected Russian Intelligence Cyber Espionage Group. The United Kingdom’s National Cyber Security Centre issued detection and mitigation advice for organisations involved in coronavirus vaccine development with custom malware by APT29. The report goes into detail regarding recent Tactics, Techniques and Procedures (TTPs) of the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-324-07-17-20-tt-csirt-advisory-apt29-targets-covid-19-vaccine-development/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>APT29 (also known as ‘the Dukes’ or ‘Cozy Bear’) is a suspected Russian Intelligence Cyber Espionage Group.</p>",
+          "text": "APT29 (also known as ‘the Dukes’ or ‘Cozy Bear’) is a suspected Russian Intelligence Cyber Espionage Group."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The United Kingdom’s National Cyber Security Centre issued detection and mitigation advice for organisations involved in coronavirus vaccine development with custom malware by APT29.</p>",
+          "text": "The United Kingdom’s National Cyber Security Centre issued detection and mitigation advice for organisations involved in coronavirus vaccine development with custom malware by APT29."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The report goes into detail regarding recent Tactics, Techniques and Procedures (TTPs) of the APT29 group also known as ‘the Dukes’ or ‘Cozy Bear’</p>",
+          "text": "The report goes into detail regarding recent Tactics, Techniques and Procedures (TTPs) of the APT29 group also known as ‘the Dukes’ or ‘Cozy Bear’"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The United States National Security Agency (NSA) also agrees with the claims and details of the United Kingdom’s National Cyber Security Centre APT29 advisory report.</p>",
+          "text": "The United States National Security Agency (NSA) also agrees with the claims and details of the United Kingdom’s National Cyber Security Centre APT29 advisory report."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the link provided for a more comprehensive insight into the aforementioned report:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the link provided for a more comprehensive insight into the aforementioned report:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development\">https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development</a></p>",
+          "text": "https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-324-07-17-20-tt-csirt-advisory-apt29-targets-covid-19-vaccine-development/",
+    "upstreamDisclosedAt": "2020-07-17T09:13:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

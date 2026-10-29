@@ -1,0 +1,114 @@
+{
+  "id": "5146",
+  "legacyPostId": 5146,
+  "referenceNumber": "TT-CSIRT #5146",
+  "classification": "advisory",
+  "title": "Ransomware joint advisory",
+  "rawTitle": "Ransomware Joint Advisory",
+  "slug": "ransomware-joint-advisory",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "This is a joint cyber security advisory from the Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT), Trinidad and Tobago Police Service Cyber and Social Media Unit ( TTPS CSMU ) and the National Information and Communication Technology Company Limited ( iGovTT ). This advisory serves to warn all entities within Trinidad and Tobago about increased ransomware attacks in the Latin American and Caribbean region. Entities in the region are being specially targeted by sophisticated threat actors leading to the compromise of both private sector and government entities.",
+  "cveList": [],
+  "date": "13 May 2022",
+  "rawDate": "2022-05-13T14:06:13",
+  "modifiedDate": "13 May 2022",
+  "rawModifiedDate": "2022-05-13T14:06:13",
+  "contentHtml": "<p>This is a joint cyber security advisory from the Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT), Trinidad and Tobago Police Service Cyber and Social Media Unit (<a href=\"https://www.ttps.gov.tt/\" target=\"_blank\" rel=\"noopener\">TTPS CSMU</a>) and the National Information and Communication Technology Company Limited (<a href=\"https://www.igovtt.tt/\" target=\"_blank\" rel=\"noopener\">iGovTT</a>). This advisory serves to warn all entities within Trinidad and Tobago about increased ransomware attacks in the Latin American and Caribbean region. Entities in the region are being specially targeted by sophisticated threat actors leading to the compromise of both private sector and government entities.</p>\n<p>The members of this joint cyber security advisory urge all organizations to adopt a heightened state of awareness and be prepared for potential attacks. Detailed information on how to prepare for and response to ransomware can be found at the following links:</p>\n<ul>\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\" target=\"_blank\" rel=\"noopener\">Ransomware Prevention Guide</a></li>\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\" target=\"_blank\" rel=\"noopener\">Ransomware Response Checklist</a></li>\n</ul>\n<h4>Incident Reporting</h4>\n<p>Should your organization fall victim to a ransomware attack, contact the following organizations immediately:</p>\n<ul>\n<li>TT-CSIRT\n<ul>\n<li><a href=\"https://ttcsirt.gov.tt/report-an-incident/\" target=\"_blank\" rel=\"noopener\">Online Form</a></li>\n<li>Email: contacts@ttcsirt.gov.tt</li>\n<li>Tel: 1-868-623-5439</li>\n</ul>\n</li>\n<li>TTPS CSMU\n<ul>\n<li>Email: cybercrime@ttps.gov.tt</li>\n<li>Tel 1: 1-868-612-0742</li>\n<li>Tel 2: 1-868-715-2072</li>\n</ul>\n</li>\n<li>iGovTT (additional for government MDAs)\n<ul>\n<li>Email: iGovTT-Security@gov.tt</li>\n<li>Tel: 1-868-623-5600</li>\n</ul>\n</li>\n</ul>\n<p><strong>How your information is handled:</strong></p>\n<ul>\n<li>Information provided to the TT-CSIRT is protected in the same way we protect our own confidential information: held securely, with limited access.</li>\n<li>Depending on the situation and with your consent, we may share details with the TTPS CSMU to help investigations and identify solutions and mitigation opportunities.</li>\n<li>The information we hold will be anonymized and depicted as aggregate statistics.</li>\n</ul>\n",
+  "displaySummary": "This is a joint cyber security advisory from the Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT), Trinidad and Tobago Police Service Cyber and Social Media Unit (TTPS CSMU)…",
+  "sourceExcerpt": "<p>This is a joint cyber security advisory from the Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT), Trinidad and Tobago Police Service Cyber and Social Media Unit (TTPS CSMU) and the National Information and Communication Technology Company Limited (iGovTT). This advisory serves to warn all entities within Trinidad and Tobago about increased ransomware attacks [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ransomware-joint-advisory/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>This is a joint cyber security advisory from the Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT), Trinidad and Tobago Police Service Cyber and Social Media Unit (<a href=\"https://www.ttps.gov.tt/\" target=\"_blank\" rel=\"noopener\">TTPS CSMU</a>) and the National Information and Communication Technology Company Limited (<a href=\"https://www.igovtt.tt/\" target=\"_blank\" rel=\"noopener\">iGovTT</a>). This advisory serves to warn all entities within Trinidad and Tobago about increased ransomware attacks in the Latin American and Caribbean region. Entities in the region are being specially targeted by sophisticated threat actors leading to the compromise of both private sector and government entities.</p>",
+          "text": "This is a joint cyber security advisory from the Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT), Trinidad and Tobago Police Service Cyber and Social Media Unit ( TTPS CSMU ) and the National Information and Communication Technology Company Limited ( iGovTT ). This advisory serves to warn all entities within Trinidad and Tobago about increased ransomware attacks in the Latin American and Caribbean region. Entities in the region are being specially targeted by sophisticated threat actors leading to the compromise of both private sector and government entities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The members of this joint cyber security advisory urge all organizations to adopt a heightened state of awareness and be prepared for potential attacks. Detailed information on how to prepare for and response to ransomware can be found at the following links:</p>",
+          "text": "The members of this joint cyber security advisory urge all organizations to adopt a heightened state of awareness and be prepared for potential attacks. Detailed information on how to prepare for and response to ransomware can be found at the following links:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\" target=\"_blank\" rel=\"noopener\">Ransomware Prevention Guide</a></li>\n<li><a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\" target=\"_blank\" rel=\"noopener\">Ransomware Response Checklist</a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Incident reporting",
+          "id": "incident-reporting"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Should your organization fall victim to a ransomware attack, contact the following organizations immediately:</p>",
+          "text": "Should your organization fall victim to a ransomware attack, contact the following organizations immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Email: cybercrime@ttps.gov.tt</li>\n<li>Tel 1: 1-868-612-0742</li>\n<li>Tel 2: 1-868-715-2072</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Email: iGovTT-Security@gov.tt</li>\n<li>Tel: 1-868-623-5600</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "How your information is handled",
+          "id": "how-your-information-is-handled"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Information provided to the TT-CSIRT is protected in the same way we protect our own confidential information: held securely, with limited access.</li>\n<li>Depending on the situation and with your consent, we may share details with the TTPS CSMU to help investigations and identify solutions and mitigation opportunities.</li>\n<li>The information we hold will be anonymized and depicted as aggregate statistics.</li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "incident-reporting",
+      "label": "Incident reporting",
+      "isSubItem": true
+    },
+    {
+      "id": "how-your-information-is-handled",
+      "label": "How your information is handled",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.ttps.gov.tt/",
+    "https://www.igovtt.tt/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ransomware-joint-advisory/",
+    "upstreamDisclosedAt": "2022-05-13T14:06:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

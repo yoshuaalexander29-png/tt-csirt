@@ -1,0 +1,70 @@
+{
+  "id": "2878",
+  "legacyPostId": 2878,
+  "referenceNumber": "TT-CSIRT #027",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-027.072717: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-027-072717-tt-csirt-advisory-google-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 60.0.3112.78 for Windows, Mac, and Linux. This version addresses multiple vulnerabilities that, if exploited, may allow an attacker to take control of an affected system.",
+  "cveList": [],
+  "date": "27 July 2017",
+  "rawDate": "2017-07-27T11:12:15",
+  "modifiedDate": "27 July 2017",
+  "rawModifiedDate": "2017-07-27T11:12:15",
+  "contentHtml": "<p>Google has released Chrome version 60.0.3112.78 for Windows, Mac, and Linux. This version addresses multiple vulnerabilities that, if exploited, may allow an attacker to take control of an affected system.</p>\n<p>Further information on these vulnerabilities can be seen on the Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html</font></a></p>\n",
+  "displaySummary": "Google has released Chrome version 60.0.3112.78 for Windows, Mac, and Linux.",
+  "sourceExcerpt": "<p>Google has released Chrome version 60.0.3112.78 for Windows, Mac, and Linux. This version addresses multiple vulnerabilities that, if exploited, may allow an attacker to take control of an affected system. Further information on these vulnerabilities can be seen on the Google Chrome Website at https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-027-072717-tt-csirt-advisory-google-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released Chrome version 60.0.3112.78 for Windows, Mac, and Linux. This version addresses multiple vulnerabilities that, if exploited, may allow an attacker to take control of an affected system.</p>",
+          "text": "Google has released Chrome version 60.0.3112.78 for Windows, Mac, and Linux. This version addresses multiple vulnerabilities that, if exploited, may allow an attacker to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities can be seen on the Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html</a></p>",
+          "text": "Further information on these vulnerabilities can be seen on the Google Chrome Website at https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2017/07/stable-channel-update-for-desktop.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-027-072717-tt-csirt-advisory-google-chrome-security-updates/",
+    "upstreamDisclosedAt": "2017-07-27T11:12:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

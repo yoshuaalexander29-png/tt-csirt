@@ -1,0 +1,75 @@
+{
+  "id": "3545",
+  "legacyPostId": 3545,
+  "referenceNumber": "TT-CSIRT #169",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-169.092818: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-169-092818-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Windows JET Database Engine due to an out-of-bounds write error.",
+  "cveList": [],
+  "date": "28 September 2018",
+  "rawDate": "2018-09-28T14:25:15",
+  "modifiedDate": "28 September 2018",
+  "rawModifiedDate": "2018-09-28T14:25:15",
+  "contentHtml": "<p>Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Windows JET Database Engine due to an out-of-bounds write error.</p>\n<p>Successful exploitation of this vulnerability could allow for a remote attacker to execute code in the context of the current process. </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-windows-jet-database-engine-could-allow-for-remote-code-execution_2018-105/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-windows-jet-database-engine-could-allow-for-remote-code-execution_2018-105/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Windows JET Database Engine due to an out-of-bounds write error.",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Windows JET Database Engine due to an out-of-bounds write error. Successful exploitation of this vulnerability could allow for a remote attacker to execute code in the context of the current process. Further information on this vulnerability and how it can [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-169-092818-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Windows JET Database Engine due to an out-of-bounds write error.</p>",
+          "text": "Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Windows JET Database Engine due to an out-of-bounds write error."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability could allow for a remote attacker to execute code in the context of the current process.</p>",
+          "text": "Successful exploitation of this vulnerability could allow for a remote attacker to execute code in the context of the current process."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-windows-jet-database-engine-could-allow-for-remote-code-execution_2018-105/\">https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-windows-jet-database-engine-could-allow-for-remote-code-execution_2018-105/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-windows-jet-database-engine-could-allow-for-remote-code-execution_2018-105/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-windows-jet-database-engine-could-allow-for-remote-code-execution_2018-105/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-169-092818-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-09-28T14:25:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

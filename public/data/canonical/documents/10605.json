@@ -1,0 +1,114 @@
+{
+  "id": "10605",
+  "legacyPostId": 10605,
+  "referenceNumber": "TT-CSIRT 441.10.07.25",
+  "classification": "advisory",
+  "title": "Fortinet security advisories – SQL injection in GUI",
+  "rawTitle": "TT-CSIRT – 441.10.07.25 &#8211; Fortinet Security Advisories &#8211; SQL injection in GUI",
+  "slug": "tt-csirt-441-10-07-25-fortinet-security-advisories-sql-injection-in-gui",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The critical vulnerability CVE-2025-25257, which affects FortiWeb. This issue stems from improper handling of special characters in SQL commands, leading to a SQL Injection vulnerability (CWE-89). This vulnerability enables an attacker to execute unauthorized SQL code by sending specially crafted HTTP or HTTPS requests.",
+  "cveList": [
+    "CVE-2025-25257"
+  ],
+  "date": "10 July 2025",
+  "rawDate": "2025-07-10T11:30:51",
+  "modifiedDate": "10 July 2025",
+  "rawModifiedDate": "2025-07-10T11:31:36",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">Please be advised of the critical vulnerability CVE-2025-25257, which affects FortiWeb. This issue stems from improper handling of special characters in SQL commands, leading to a SQL Injection vulnerability (CWE-89). This vulnerability enables an attacker to execute unauthorized SQL code by sending specially crafted HTTP or HTTPS requests.<br><br></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected Versions and solutions:</strong></p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>Version</strong></td><td><strong>Affected</strong></td><td><strong>Solution</strong></td></tr><tr><td>FortiWeb 7.6</td><td>7.6.0 through 7.6.3</td><td>Upgrade to 7.6.4 or above</td></tr><tr><td>FortiWeb 7.4</td><td>7.4.0 through 7.4.7</td><td>Upgrade to 7.4.8 or above</td></tr><tr><td>FortiWeb 7.2</td><td>7.2.0 through 7.2.10</td><td>Upgrade to 7.2.11 or above</td></tr><tr><td>FortiWeb 7.0</td><td>7.0.0 through 7.0.10</td><td>Upgrade to 7.0.11 or above</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Workaround</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Disable HTTP/HTTPS administrative interface</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References:<br><br></strong><a href=\"https://www.fortiguard.com/psirt/FG-IR-25-151\">https://www.fortiguard.com/psirt/FG-IR-25-151</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n\n\n\n<p class=\"wp-block-paragraph\"> </p>\n",
+  "displaySummary": "The critical vulnerability CVE-2025-25257, which affects FortiWeb. This issue stems from improper handling of special characters in SQL commands, leading to a SQL Injection vulnerability (CWE-89).",
+  "sourceExcerpt": "<p>Please be advised of the critical vulnerability CVE-2025-25257, which affects FortiWeb. This issue stems from improper handling of special characters in SQL commands, leading to a SQL Injection vulnerability (CWE-89). This vulnerability enables an attacker to execute unauthorized SQL code by sending specially crafted HTTP or HTTPS requests. Affected Versions and solutions: Version Affected Solution [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-441-10-07-25-fortinet-security-advisories-sql-injection-in-gui/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The critical vulnerability CVE-2025-25257, which affects FortiWeb. This issue stems from improper handling of special characters in SQL commands, leading to a SQL Injection vulnerability (CWE-89). This vulnerability enables an attacker to execute unauthorized SQL code by sending specially crafted HTTP or HTTPS requests.</p>",
+          "text": "The critical vulnerability CVE-2025-25257, which affects FortiWeb. This issue stems from improper handling of special characters in SQL commands, leading to a SQL Injection vulnerability (CWE-89). This vulnerability enables an attacker to execute unauthorized SQL code by sending specially crafted HTTP or HTTPS requests."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Affected versions and solutions",
+          "id": "affected-versions-and-solutions"
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Version</th><th scope=\"col\" class=\"govuk-table__header\">Affected</th><th scope=\"col\" class=\"govuk-table__header\">Solution</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">FortiWeb 7.6</th><td class=\"govuk-table__cell\">7.6.0 through 7.6.3</td><td class=\"govuk-table__cell\">Upgrade to 7.6.4 or above</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">FortiWeb 7.4</th><td class=\"govuk-table__cell\">7.4.0 through 7.4.7</td><td class=\"govuk-table__cell\">Upgrade to 7.4.8 or above</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">FortiWeb 7.2</th><td class=\"govuk-table__cell\">7.2.0 through 7.2.10</td><td class=\"govuk-table__cell\">Upgrade to 7.2.11 or above</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">FortiWeb 7.0</th><td class=\"govuk-table__cell\">7.0.0 through 7.0.10</td><td class=\"govuk-table__cell\">Upgrade to 7.0.11 or above</td></tr></tbody>\n      </table>\n    </div>"
+        }
+      ]
+    },
+    {
+      "id": "workaround",
+      "title": "Workaround",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Disable HTTP/HTTPS administrative interface</p>",
+          "text": "Disable HTTP/HTTPS administrative interface"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p></strong><a href=\"https://www.fortiguard.com/psirt/FG-IR-25-151\">https://www.fortiguard.com/psirt/FG-IR-25-151</a></p>",
+          "text": "https://www.fortiguard.com/psirt/FG-IR-25-151"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "affected-versions-and-solutions",
+      "label": "Affected versions and solutions",
+      "isSubItem": true
+    },
+    {
+      "id": "workaround",
+      "label": "Workaround"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fortiguard.com/psirt/FG-IR-25-151"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-441-10-07-25-fortinet-security-advisories-sql-injection-in-gui/",
+    "upstreamDisclosedAt": "2025-07-10T11:30:51",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

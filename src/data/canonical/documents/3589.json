@@ -1,0 +1,113 @@
+{
+  "id": "3589",
+  "legacyPostId": 3589,
+  "referenceNumber": "TT-CSIRT #179",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-179.110518: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-179-110518-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Edge which could allow for arbitrary code execution.",
+  "cveList": [],
+  "date": "5 November 2018",
+  "rawDate": "2018-11-05T18:13:20",
+  "modifiedDate": "5 November 2018",
+  "rawModifiedDate": "2018-11-05T18:13:20",
+  "contentHtml": "<p>Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Edge which could allow for arbitrary code execution.</p>\n<p>There are currently two ways in which it can be exploited:</p>\n<p>1) File-based</p>\n<p>a. An attacker crafts a malicious document file to leverage the issue and to carry out some actions on their behalf.</p>\n<p>b. The attacker uses email or other means to distribute the malicious document and entices an unsuspecting user to open it.</p>\n<p>c. When the victim opens the document file, the issue is triggered.</p>\n<p>2) Web-based</p>\n<p>a. The attacker crafts a malicious webpage to leverage this issue and to carry out some actions on their behalf. The page may include malicious code, replacement memory addresses, and possibly NOP instructions.</p>\n<p>b. The attacker uses email or other means to entice an unsuspecting user to view the malicious page.</p>\n<p>c. When the user views the page, this issue is triggered.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2018-122/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2018-122/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Edge which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Edge which could allow for arbitrary code execution. There are currently two ways in which it can be exploited: 1) File-based a. An attacker crafts a malicious document file to leverage the issue and to carry out some actions on [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-179-110518-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Edge which could allow for arbitrary code execution.</p>",
+          "text": "Microsoft has released a security update stating that a vulnerability has been discovered in Microsoft Edge which could allow for arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There are currently two ways in which it can be exploited:</p>",
+          "text": "There are currently two ways in which it can be exploited:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>File-based</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a. An attacker crafts a malicious document file to leverage the issue and to carry out some actions on their behalf.</p>",
+          "text": "a. An attacker crafts a malicious document file to leverage the issue and to carry out some actions on their behalf."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b. The attacker uses email or other means to distribute the malicious document and entices an unsuspecting user to open it.</p>",
+          "text": "b. The attacker uses email or other means to distribute the malicious document and entices an unsuspecting user to open it."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c. When the victim opens the document file, the issue is triggered.</p>",
+          "text": "c. When the victim opens the document file, the issue is triggered."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>Web-based</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a. The attacker crafts a malicious webpage to leverage this issue and to carry out some actions on their behalf. The page may include malicious code, replacement memory addresses, and possibly NOP instructions.</p>",
+          "text": "a. The attacker crafts a malicious webpage to leverage this issue and to carry out some actions on their behalf. The page may include malicious code, replacement memory addresses, and possibly NOP instructions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b. The attacker uses email or other means to entice an unsuspecting user to view the malicious page.</p>",
+          "text": "b. The attacker uses email or other means to entice an unsuspecting user to view the malicious page."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c. When the user views the page, this issue is triggered.</p>",
+          "text": "c. When the user views the page, this issue is triggered."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2018-122/\">https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2018-122/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2018-122/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-microsoft-edge-could-allow-for-arbitrary-code-execution_2018-122/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-179-110518-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-11-05T18:13:20",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

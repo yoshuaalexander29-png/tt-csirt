@@ -1,0 +1,77 @@
+{
+  "id": "2889",
+  "legacyPostId": 2889,
+  "referenceNumber": "TT-CSIRT #029",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-029.073117: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-029-073117-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update for Microsoft Office Outlook stating An information disclosure vulnerability exists when Microsoft Office improperly discloses the contents of its memory. An attacker who exploited the vulnerability could use the information to compromise the user’s computer or data.",
+  "cveList": [
+    "CVE-2017-8572"
+  ],
+  "date": "31 July 2017",
+  "rawDate": "2017-07-31T10:16:23",
+  "modifiedDate": "31 July 2017",
+  "rawModifiedDate": "2017-07-31T10:16:23",
+  "contentHtml": "<p>Microsoft has released a security update for Microsoft Office Outlook stating An information disclosure vulnerability exists when Microsoft Office improperly discloses the contents of its memory. An attacker who exploited the vulnerability could use the information to compromise the user’s computer or data.</p>\n<p>To exploit the vulnerability, an attacker could craft a special document file and then convince the user to open it. An attacker must know the memory address location where the object was created.</p>\n<table>\n<tr>\n<td>Further information on this security update and how it can fixed can is available on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8572\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8572</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update for Microsoft Office Outlook stating An information disclosure vulnerability exists when Microsoft Office improperly discloses the contents of its memory.",
+  "sourceExcerpt": "<p>Microsoft has released a security update for Microsoft Office Outlook stating An information disclosure vulnerability exists when Microsoft Office improperly discloses the contents of its memory. An attacker who exploited the vulnerability could use the information to compromise the user’s computer or data. To exploit the vulnerability, an attacker could craft a special document file [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-029-073117-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update for Microsoft Office Outlook stating An information disclosure vulnerability exists when Microsoft Office improperly discloses the contents of its memory. An attacker who exploited the vulnerability could use the information to compromise the user’s computer or data.</p>",
+          "text": "Microsoft has released a security update for Microsoft Office Outlook stating An information disclosure vulnerability exists when Microsoft Office improperly discloses the contents of its memory. An attacker who exploited the vulnerability could use the information to compromise the user’s computer or data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To exploit the vulnerability, an attacker could craft a special document file and then convince the user to open it. An attacker must know the memory address location where the object was created.</p>",
+          "text": "To exploit the vulnerability, an attacker could craft a special document file and then convince the user to open it. An attacker must know the memory address location where the object was created."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this security update and how it can fixed can is available on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8572\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8572</a></p>",
+          "text": "Further information on this security update and how it can fixed can is available on the Microsoft Website at https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8572"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8572"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-029-073117-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2017-07-31T10:16:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

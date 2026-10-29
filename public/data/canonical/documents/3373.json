@@ -1,0 +1,141 @@
+{
+  "id": "3373",
+  "legacyPostId": 3373,
+  "referenceNumber": "TT-CSIRT #122",
+  "classification": "advisory",
+  "title": "Thunderbird security updates",
+  "rawTitle": "TTCSIRT-122.052118: TT-CSIRT Advisory – Thunderbird Security Updates",
+  "slug": "ttcsirt-122-052118-tt-csirt-advisory-thunderbird-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that multiple vulnerabilities have been identified in Mozilla Thunderbird:",
+  "cveList": [
+    "CVE-2018-5150",
+    "CVE-2018-5154",
+    "CVE-2018-5155",
+    "CVE-2018-5159",
+    "CVE-2018-5161",
+    "CVE-2018-5162",
+    "CVE-2018-5168",
+    "CVE-2018-5170",
+    "CVE-2018-5184",
+    "CVE-2018-5185"
+  ],
+  "date": "21 May 2018",
+  "rawDate": "2018-05-21T15:53:57",
+  "modifiedDate": "21 May 2018",
+  "rawModifiedDate": "2018-05-21T15:53:57",
+  "contentHtml": "<p>Mozilla has released a security update stating that multiple vulnerabilities have been identified in Mozilla Thunderbird:</p>\n<p>a) Multiple memory corruption vulnerabilities which could result in arbitrary code execution &#8211; (CVE-2018-5150).</p>\n<p>b) A use-after-free vulnerability can occur while enumerating attributes during SVG animations with clip paths. This results in a potentially exploitable crash &#8211; (CVE-2018-5154).</p>\n<p>c) A use-after-free vulnerability can occur while adjusting layout during SVG animations with text paths. This results in a potentially exploitable crash &#8211; (CVE-2018-5155).</p>\n<p>d) An integer overflow can occur in the Skia library due to 32-bit integer use in an array without integer overflow checks, resulting in possible out-of-bounds writes. This could lead to a potentially exploitable crash triggerable by web content &#8211; (CVE-2018-5159).</p>\n<p>e) Crafted message headers can cause a Thunderbird process to hang on receiving the message &#8211; (CVE-2018-5161).</p>\n<p>f) Plaintext of decrypted emails can leak through the src attribute of remote images, or links &#8211; (CVE-2018-5162).</p>\n<p>g) Sites can bypass security checks on permissions to install lightweight themes by manipulating the baseURI property of the theme element. This could allow a malicious site to install a theme without user interaction which could contain offensive or embarrassing images &#8211; (CVE-2018-5168).</p>\n<p>h) It is possible to spoof the filename of an attachment and display an arbitrary attachment name. This could lead to a user opening a remote attachment which is a different file type than expected &#8211; (CVE-2018-5170).</p>\n<p>i) Using remote content in encrypted messages can lead to the disclosure of plaintext &#8211; (CVE-2018-5184).</p>\n<p>j) Plaintext of decrypted emails can leak through by user submitting an embedded form &#8211; (CVE-2018-5185).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution.</p>\n<p>In addition, depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data and create new accounts with full user rights. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2018-058/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2018-058/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that multiple vulnerabilities have been identified in Mozilla Thunderbird: a) Multiple memory corruption vulnerabilities which could result in…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that multiple vulnerabilities have been identified in Mozilla Thunderbird: a) Multiple memory corruption vulnerabilities which could result in arbitrary code execution &#8211; (CVE-2018-5150). b) A use-after-free vulnerability can occur while enumerating attributes during SVG animations with clip paths. This results in a potentially exploitable crash &#8211; (CVE-2018-5154). c) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-122-052118-tt-csirt-advisory-thunderbird-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that multiple vulnerabilities have been identified in Mozilla Thunderbird:</p>",
+          "text": "Mozilla has released a security update stating that multiple vulnerabilities have been identified in Mozilla Thunderbird:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Multiple memory corruption vulnerabilities which could result in arbitrary code execution &#8211; (CVE-2018-5150).</p>",
+          "text": "a) Multiple memory corruption vulnerabilities which could result in arbitrary code execution – (CVE-2018-5150)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A use-after-free vulnerability can occur while enumerating attributes during SVG animations with clip paths. This results in a potentially exploitable crash &#8211; (CVE-2018-5154).</p>",
+          "text": "b) A use-after-free vulnerability can occur while enumerating attributes during SVG animations with clip paths. This results in a potentially exploitable crash – (CVE-2018-5154)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A use-after-free vulnerability can occur while adjusting layout during SVG animations with text paths. This results in a potentially exploitable crash &#8211; (CVE-2018-5155).</p>",
+          "text": "c) A use-after-free vulnerability can occur while adjusting layout during SVG animations with text paths. This results in a potentially exploitable crash – (CVE-2018-5155)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) An integer overflow can occur in the Skia library due to 32-bit integer use in an array without integer overflow checks, resulting in possible out-of-bounds writes. This could lead to a potentially exploitable crash triggerable by web content &#8211; (CVE-2018-5159).</p>",
+          "text": "d) An integer overflow can occur in the Skia library due to 32-bit integer use in an array without integer overflow checks, resulting in possible out-of-bounds writes. This could lead to a potentially exploitable crash triggerable by web content – (CVE-2018-5159)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Crafted message headers can cause a Thunderbird process to hang on receiving the message &#8211; (CVE-2018-5161).</p>",
+          "text": "e) Crafted message headers can cause a Thunderbird process to hang on receiving the message – (CVE-2018-5161)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Plaintext of decrypted emails can leak through the src attribute of remote images, or links &#8211; (CVE-2018-5162).</p>",
+          "text": "f) Plaintext of decrypted emails can leak through the src attribute of remote images, or links – (CVE-2018-5162)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Sites can bypass security checks on permissions to install lightweight themes by manipulating the baseURI property of the theme element. This could allow a malicious site to install a theme without user interaction which could contain offensive or embarrassing images &#8211; (CVE-2018-5168).</p>",
+          "text": "g) Sites can bypass security checks on permissions to install lightweight themes by manipulating the baseURI property of the theme element. This could allow a malicious site to install a theme without user interaction which could contain offensive or embarrassing images – (CVE-2018-5168)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) It is possible to spoof the filename of an attachment and display an arbitrary attachment name. This could lead to a user opening a remote attachment which is a different file type than expected &#8211; (CVE-2018-5170).</p>",
+          "text": "h) It is possible to spoof the filename of an attachment and display an arbitrary attachment name. This could lead to a user opening a remote attachment which is a different file type than expected – (CVE-2018-5170)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Using remote content in encrypted messages can lead to the disclosure of plaintext &#8211; (CVE-2018-5184).</p>",
+          "text": "i) Using remote content in encrypted messages can lead to the disclosure of plaintext – (CVE-2018-5184)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Plaintext of decrypted emails can leak through by user submitting an embedded form &#8211; (CVE-2018-5185).</p>",
+          "text": "j) Plaintext of decrypted emails can leak through by user submitting an embedded form – (CVE-2018-5185)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In addition, depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data and create new accounts with full user rights.</p>",
+          "text": "In addition, depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data and create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2018-058/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2018-058/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2018-058/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2018-058/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-122-052118-tt-csirt-advisory-thunderbird-security-updates/",
+    "upstreamDisclosedAt": "2018-05-21T15:53:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

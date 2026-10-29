@@ -1,0 +1,75 @@
+{
+  "id": "2855",
+  "legacyPostId": 2855,
+  "referenceNumber": "TT-CSIRT #022",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-022.071717: TT-CSIRT Advisory – CISCO Security Updates",
+  "slug": "ttcsirt-022-071717-tt-csirt-advisory-juniper-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Simple Network Management Protocol subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6.",
+  "cveList": [],
+  "date": "17 July 2017",
+  "rawDate": "2017-07-17T12:02:21",
+  "modifiedDate": "17 July 2017",
+  "rawModifiedDate": "2017-07-17T12:02:21",
+  "contentHtml": "<p>The Simple Network Management Protocol subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6.</p>\n<p>The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software. </p>\n<table>\n<tr>\n<td>Further information on this security update and how it can resolved can be found on the CISCO Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp</font></td>\n</tr>\n</table>\n",
+  "displaySummary": "The Simple Network Management Protocol subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on…",
+  "sourceExcerpt": "<p>The Simple Network Management Protocol subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-022-071717-tt-csirt-advisory-juniper-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Simple Network Management Protocol subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6.</p>",
+          "text": "The Simple Network Management Protocol subsystem of Cisco IOS and IOS XE Software contains multiple vulnerabilities that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload. An attacker could exploit these vulnerabilities by sending a crafted SNMP packet to an affected system via IPv4 or IPv6."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software.</p>",
+          "text": "The vulnerabilities are due to a buffer overflow condition in the SNMP subsystem of the affected software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this security update and how it can resolved can be found on the CISCO Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp</p>",
+          "text": "Further information on this security update and how it can resolved can be found on the CISCO Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-022-071717-tt-csirt-advisory-juniper-security-updates/",
+    "upstreamDisclosedAt": "2017-07-17T12:02:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

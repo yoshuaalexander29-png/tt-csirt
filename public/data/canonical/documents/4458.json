@@ -1,0 +1,108 @@
+{
+  "id": "4458",
+  "legacyPostId": 4458,
+  "referenceNumber": "TT-CSIRT #304",
+  "classification": "advisory",
+  "title": "Palo Alto network privilege assignment vulnerability",
+  "rawTitle": "TTCSIRT-304.041020: TT-CSIRT ADVISORY- PALO ALTO NETWORK PRIVILEGE ASSIGNMENT VULNERABILITY.",
+  "slug": "ttcsirt-304-041020-tt-csirt-advisory-palo-alto-network-privilege-assignment-vulnerability",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An incorrect privilege assignment vulnerability when writing application-specific files in the Palo Alto Networks GlobalProtect Agent for Linux on ARM platform allows a local authenticated user to gain root privileges on the system.",
+  "cveList": [
+    "CVE-2020-1989"
+  ],
+  "date": "10 April 2020",
+  "rawDate": "2020-04-10T16:52:52",
+  "modifiedDate": "10 April 2020",
+  "rawModifiedDate": "2020-04-10T16:52:52",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An incorrect privilege assignment vulnerability when writing application-specific files in the Palo Alto Networks GlobalProtect Agent for Linux on ARM platform allows a local authenticated user to gain root privileges on the system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This issue affects Palo Alto Networks GlobalProtect Agent for Linux 5.0 versions before 5.0.8; 5.1 versions before 5.1.1.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Severity</em>: High (7)</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Solution:</em>  This issue is fixed in GlobalProtect Agent 5.0.8, GlobalProtect Agent 5.1.1 and all later versions.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Workarounds and Mitigations:</em> There are no viable workarounds for this issue.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kindly review the following link for further reference:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://security.paloaltonetworks.com/CVE-2020-1989\">https://security.paloaltonetworks.com/CVE-2020-1989</a></p>\n",
+  "displaySummary": "An incorrect privilege assignment vulnerability when writing application-specific files in the Palo Alto Networks GlobalProtect Agent for Linux on ARM platform allows a local authenticated user…",
+  "sourceExcerpt": "<p>An incorrect privilege assignment vulnerability when writing application-specific files in the Palo Alto Networks GlobalProtect Agent for Linux on ARM platform allows a local authenticated user to gain root privileges on the system. This issue affects Palo Alto Networks GlobalProtect Agent for Linux 5.0 versions before 5.0.8; 5.1 versions before 5.1.1. Severity: High (7) Solution: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-304-041020-tt-csirt-advisory-palo-alto-network-privilege-assignment-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An incorrect privilege assignment vulnerability when writing application-specific files in the Palo Alto Networks GlobalProtect Agent for Linux on ARM platform allows a local authenticated user to gain root privileges on the system.</p>",
+          "text": "An incorrect privilege assignment vulnerability when writing application-specific files in the Palo Alto Networks GlobalProtect Agent for Linux on ARM platform allows a local authenticated user to gain root privileges on the system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue affects Palo Alto Networks GlobalProtect Agent for Linux 5.0 versions before 5.0.8; 5.1 versions before 5.1.1.</p>",
+          "text": "This issue affects Palo Alto Networks GlobalProtect Agent for Linux 5.0 versions before 5.0.8; 5.1 versions before 5.1.1."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Severity</em>: High (7)</p>",
+          "text": "Severity : High (7)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Solution:</em>  This issue is fixed in GlobalProtect Agent 5.0.8, GlobalProtect Agent 5.1.1 and all later versions.</p>",
+          "text": "Solution: This issue is fixed in GlobalProtect Agent 5.0.8, GlobalProtect Agent 5.1.1 and all later versions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Workarounds and Mitigations:</em> There are no viable workarounds for this issue.</p>",
+          "text": "Workarounds and Mitigations: There are no viable workarounds for this issue."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Kindly review the following link for further reference",
+          "id": "kindly-review-the-following-link-for-further-reference"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://security.paloaltonetworks.com/CVE-2020-1989\">https://security.paloaltonetworks.com/CVE-2020-1989</a></p>",
+          "text": "https://security.paloaltonetworks.com/CVE-2020-1989"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "kindly-review-the-following-link-for-further-reference",
+      "label": "Kindly review the following link for further reference",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://security.paloaltonetworks.com/CVE-2020-1989"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-304-041020-tt-csirt-advisory-palo-alto-network-privilege-assignment-vulnerability/",
+    "upstreamDisclosedAt": "2020-04-10T16:52:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

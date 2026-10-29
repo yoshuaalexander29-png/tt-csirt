@@ -1,0 +1,80 @@
+{
+  "id": "3667",
+  "legacyPostId": 3667,
+  "referenceNumber": "TT-CSIRT #201",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-201.022119: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-201-022119-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it has discovered a vulnerability in the Open Container Initiative runc CLI tool used by multiple products which could allow an unauthenticated, remote attacker to escalate privileges on a targeted system.",
+  "cveList": [],
+  "date": "20 February 2019",
+  "rawDate": "2019-02-20T20:12:13",
+  "modifiedDate": "20 February 2019",
+  "rawModifiedDate": "2019-02-20T20:12:13",
+  "contentHtml": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the Open Container Initiative runc CLI tool used by multiple products which could allow an unauthenticated, remote attacker to escalate privileges on a targeted system.</p>\n<p>This issue exists because the affected software improperly handles file descriptors related to /proc/self/exe.</p>\n<p>An attacker could exploit the vulnerability either by persuading a user to create a new container using an attacker-controlled image or by using the docker exec command to attach into an existing container that the attacker already has write access to.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it has discovered a vulnerability in the Open Container Initiative runc CLI tool used by multiple products which could allow an unauthenticated,…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the Open Container Initiative runc CLI tool used by multiple products which could allow an unauthenticated, remote attacker to escalate privileges on a targeted system. This issue exists because the affected software improperly handles file descriptors related to /proc/self/exe. An attacker [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-201-022119-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the Open Container Initiative runc CLI tool used by multiple products which could allow an unauthenticated, remote attacker to escalate privileges on a targeted system.</p>",
+          "text": "Cisco has released a security update stating that it has discovered a vulnerability in the Open Container Initiative runc CLI tool used by multiple products which could allow an unauthenticated, remote attacker to escalate privileges on a targeted system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue exists because the affected software improperly handles file descriptors related to /proc/self/exe.</p>",
+          "text": "This issue exists because the affected software improperly handles file descriptors related to /proc/self/exe."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit the vulnerability either by persuading a user to create a new container using an attacker-controlled image or by using the docker exec command to attach into an existing container that the attacker already has write access to.</p>",
+          "text": "An attacker could exploit the vulnerability either by persuading a user to create a new container using an attacker-controlled image or by using the docker exec command to attach into an existing container that the attacker already has write access to."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-201-022119-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2019-02-20T20:12:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

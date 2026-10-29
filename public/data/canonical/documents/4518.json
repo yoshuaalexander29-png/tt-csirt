@@ -1,0 +1,80 @@
+{
+  "id": "4518",
+  "legacyPostId": 4518,
+  "referenceNumber": "TT-CSIRT #317",
+  "classification": "advisory",
+  "title": "Cisco releases security updates for multiple products",
+  "rawTitle": "TTCSIRT-317.051520: TT-CSIRT ADVISORY – CISCO RELEASES SECURITY UPDATES FOR MULTIPLE PRODUCTS",
+  "slug": "ttcsirt-317-051520-tt-csirt-advisory-cisco-releases-security-updates-for-multiple-products",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "15 May 2020",
+  "rawDate": "2020-05-15T19:57:27",
+  "modifiedDate": "15 May 2020",
+  "rawModifiedDate": "2020-05-15T19:57:27",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Cisco Security Advisories page and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further reference please review the following links below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&amp;sort=-day_sir#~Vulnerabilities\">https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&amp;sort=-day_sir#~Vulnerabilities</a></p>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Cisco Security Advisories page and apply the necessary updates. For further reference please [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-317-051520-tt-csirt-advisory-cisco-releases-security-updates-for-multiple-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Cisco Security Advisories page and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Cisco Security Advisories page and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further reference please review the following links below:</p>",
+          "text": "For further reference please review the following links below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&amp;sort=-day_sir#~Vulnerabilities\">https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&amp;sort=-day_sir#~Vulnerabilities</a></p>",
+          "text": "https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&sort=-day_sir#~Vulnerabilities"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/publicationListing.x?product=Cisco&amp;sort=-day_sir#~Vulnerabilities"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-317-051520-tt-csirt-advisory-cisco-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2020-05-15T19:57:27",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

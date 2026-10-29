@@ -1,0 +1,75 @@
+{
+  "id": "3134",
+  "legacyPostId": 3134,
+  "referenceNumber": "TT-CSIRT #078",
+  "classification": "advisory",
+  "title": "Sidechannel vulnerabilities",
+  "rawTitle": "TTCSIRT-078.010418: TT-CSIRT Advisory – SideChannel Vulnerabilities",
+  "slug": "ttcsirt-078-010417-tt-csirt-advisory-sidechannel-vulnerabilities",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Security updates have been released stating that CPU hardware implementations are vulnerable to side-channel attacks referred to as Meltdown and Spectre.",
+  "cveList": [],
+  "date": "4 January 2018",
+  "rawDate": "2018-01-04T11:39:34",
+  "modifiedDate": "4 January 2018",
+  "rawModifiedDate": "2018-01-04T11:39:34",
+  "contentHtml": "<p>Security updates have been released stating that CPU hardware implementations are vulnerable to side-channel attacks referred to as Meltdown and Spectre. </p>\n<p>These vulnerabilities affect many modern processors and operating systems including Intel, AMD, and ARM which can be used to read the content of memory across a trusted boundary and can therefore lead to information disclosure. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Security updates have been released stating that CPU hardware implementations are vulnerable to side-channel attacks referred to as Meltdown and Spectre.",
+  "sourceExcerpt": "<p>Security updates have been released stating that CPU hardware implementations are vulnerable to side-channel attacks referred to as Meltdown and Spectre. These vulnerabilities affect many modern processors and operating systems including Intel, AMD, and ARM which can be used to read the content of memory across a trusted boundary and can therefore lead to information [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-078-010417-tt-csirt-advisory-sidechannel-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Security updates have been released stating that CPU hardware implementations are vulnerable to side-channel attacks referred to as Meltdown and Spectre.</p>",
+          "text": "Security updates have been released stating that CPU hardware implementations are vulnerable to side-channel attacks referred to as Meltdown and Spectre."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These vulnerabilities affect many modern processors and operating systems including Intel, AMD, and ARM which can be used to read the content of memory across a trusted boundary and can therefore lead to information disclosure.</p>",
+          "text": "These vulnerabilities affect many modern processors and operating systems including Intel, AMD, and ARM which can be used to read the content of memory across a trusted boundary and can therefore lead to information disclosure."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-078-010417-tt-csirt-advisory-sidechannel-vulnerabilities/",
+    "upstreamDisclosedAt": "2018-01-04T11:39:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

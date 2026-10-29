@@ -1,0 +1,75 @@
+{
+  "id": "3593",
+  "legacyPostId": 3593,
+  "referenceNumber": "TT-CSIRT #180",
+  "classification": "advisory",
+  "title": "Apache security updates",
+  "rawTitle": "TTCSIRT-180.111318: TT-CSIRT Advisory – Apache Security Updates",
+  "slug": "ttcsirt-180-111318-tt-csirt-advisory-apache-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apache has released a security update stating that all web applications using Apache Struts be upgraded to ver 2.3.36 as previous versions are vulnerable to Remote Code Execution attackers from attackers.",
+  "cveList": [],
+  "date": "13 November 2018",
+  "rawDate": "2018-11-13T15:41:12",
+  "modifiedDate": "13 November 2018",
+  "rawModifiedDate": "2018-11-13T15:41:12",
+  "contentHtml": "<p>Apache has released a security update stating that all web applications using Apache Struts be upgraded to ver 2.3.36 as previous versions are vulnerable to Remote Code Execution attackers from attackers.</p>\n<p>This vulnerability is due to commons-fileupload jar file having a flaw where it can be replaced with a malicious file if an attacker is able to get access to it.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Apache Website at <a href=\"http://mail-archives.us.apache.org/mod_mbox/www-announce/201811.mbox/%3CCAMopvkMo8WiP%3DfqVQuZ1Fyx%3D6CGz0Epzfe0gG5XAqP1wdJCoBQ%40mail.gmail.com%3E\"><font size=\"2\" color=\"maroon\">http://mail-archives.us.apache.org/mod_mbox/www-announce/201811.mbox/browser</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apache has released a security update stating that all web applications using Apache Struts be upgraded to ver 2.3.36 as previous versions are vulnerable to Remote Code Execution attackers from…",
+  "sourceExcerpt": "<p>Apache has released a security update stating that all web applications using Apache Struts be upgraded to ver 2.3.36 as previous versions are vulnerable to Remote Code Execution attackers from attackers. This vulnerability is due to commons-fileupload jar file having a flaw where it can be replaced with a malicious file if an attacker is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-180-111318-tt-csirt-advisory-apache-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apache has released a security update stating that all web applications using Apache Struts be upgraded to ver 2.3.36 as previous versions are vulnerable to Remote Code Execution attackers from attackers.</p>",
+          "text": "Apache has released a security update stating that all web applications using Apache Struts be upgraded to ver 2.3.36 as previous versions are vulnerable to Remote Code Execution attackers from attackers."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability is due to commons-fileupload jar file having a flaw where it can be replaced with a malicious file if an attacker is able to get access to it.</p>",
+          "text": "This vulnerability is due to commons-fileupload jar file having a flaw where it can be replaced with a malicious file if an attacker is able to get access to it."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Apache Website at <a href=\"http://mail-archives.us.apache.org/mod_mbox/www-announce/201811.mbox/%3CCAMopvkMo8WiP%3DfqVQuZ1Fyx%3D6CGz0Epzfe0gG5XAqP1wdJCoBQ%40mail.gmail.com%3E\">http://mail-archives.us.apache.org/mod_mbox/www-announce/201811.mbox/browser</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Apache Website at http://mail-archives.us.apache.org/mod_mbox/www-announce/201811.mbox/browser"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://mail-archives.us.apache.org/mod_mbox/www-announce/201811.mbox/%3CCAMopvkMo8WiP%3DfqVQuZ1Fyx%3D6CGz0Epzfe0gG5XAqP1wdJCoBQ%40mail.gmail.com%3E"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-180-111318-tt-csirt-advisory-apache-security-updates/",
+    "upstreamDisclosedAt": "2018-11-13T15:41:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

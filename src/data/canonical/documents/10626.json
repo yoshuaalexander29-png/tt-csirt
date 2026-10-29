@@ -1,0 +1,195 @@
+{
+  "id": "10626",
+  "legacyPostId": 10626,
+  "referenceNumber": "TT-CSIRT 443.30.07.25",
+  "classification": "advisory",
+  "title": "Vulnerabilities found in some dahua products",
+  "rawTitle": "TT-CSIRT – 443.30.07.25 – Vulnerabilities found in some Dahua products",
+  "slug": "tt-csirt-443-30-07-25-vulnerabilities-found-in-some-dahua-products",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Dahua has released a security update to address two critical buffer overflow vulnerabilities CVE-2025-31700 and CVE-2025-31701 reported by the Bitdefender IoT Research Team.",
+  "cveList": [
+    "CVE-2025-31700",
+    "CVE-2025-31701"
+  ],
+  "date": "30 July 2025",
+  "rawDate": "2025-07-30T11:04:53",
+  "modifiedDate": "30 July 2025",
+  "rawModifiedDate": "2025-07-30T11:04:54",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that Dahua has released a security update to address two critical buffer overflow vulnerabilities <strong>CVE-2025-31700</strong> and <strong>CVE-2025-31701 </strong>reported by the Bitdefender IoT Research Team.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>May allow remote code execution (RCE) by unauthenticated attackers.</li>\n\n\n\n<li>Could result in denial-of-service (DoS), such as service crashes.</li>\n\n\n\n<li>Exploitation occurs via specially crafted malicious packets.</li>\n\n\n\n<li>Some devices use ASLR to mitigate RCE risk; however service disruption remains possible despite protective measures.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>\n\n\n\n<figure class=\"wp-block-table aligncenter is-style-regular\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>CVE ID</strong></td><td><strong>Affected Models</strong></td><td><strong>Affected Version</strong></td></tr><tr><td>CVE-2025-31700 <br>CVE-2025-31701</td><td>IPC-1XXX Series<br>IPC-2XXX Series <br>IPC-WX Series <br>IPC-ECXX Series <br>SD3A Series <br>SD2A Series <br>SD3D Series <br>SDT2A Series <br>SD2C Series</td><td>Build time before 2025/04/16</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Full affected model list:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://materialfile.dahuasecurity.com/uploads/soft/20250723/Affected-Models.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">https://materialfile.dahuasecurity.com/uploads/soft/20250723/Affected-Models.pdf</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Solution: Update Firmware</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Please upgrade affected devices to the latest firmware version. Options:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Cloud Upgrade:</strong> For compatible devices, updates will be pushed within 30 working days.</li>\n\n\n\n<li><strong>Manual Download:</strong><br> <a href=\"https://www.dahuasecurity.com/support/downloadCenter\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.dahuasecurity.com/support/downloadCenter</a></li>\n\n\n\n<li><strong>Contact:</strong> Dahua Technical Support:  psirt@dahuatech.com.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Workaround</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Restrict external access to device web interfaces</li>\n\n\n\n<li>Segment vulnerable devices from public networks</li>\n\n\n\n<li>Monitor for abnormal traffic behaviour</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.dahuasecurity.com/aboutUs/trustedCenter/details/775\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.dahuasecurity.com/aboutUs/trustedCenter/details/775</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-31700\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-31700</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-31701\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-31701</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Additional Links:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.dahuasecurity.com/support/downloadCenter\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.dahuasecurity.com/support/downloadCenter</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Dahua has released a security update to address two critical buffer overflow vulnerabilities CVE-2025-31700 and CVE-2025-31701 reported by the Bitdefender IoT Research Team.",
+  "sourceExcerpt": "<p>Please be advised that Dahua has released a security update to address two critical buffer overflow vulnerabilities CVE-2025-31700 and CVE-2025-31701 reported by the Bitdefender IoT Research Team. Impact Affected Products&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE ID Affected Models Affected Version CVE-2025-31700 CVE-2025-31701 IPC-1XXX SeriesIPC-2XXX Series IPC-WX Series IPC-ECXX Series SD3A Series SD2A Series SD3D Series SDT2A Series SD2C Series [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-443-30-07-25-vulnerabilities-found-in-some-dahua-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Dahua has released a security update to address two critical buffer overflow vulnerabilities <strong>CVE-2025-31700</strong> and <strong>CVE-2025-31701 </strong>reported by the Bitdefender IoT Research Team.</p>",
+          "text": "Dahua has released a security update to address two critical buffer overflow vulnerabilities CVE-2025-31700 and CVE-2025-31701 reported by the Bitdefender IoT Research Team."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>May allow remote code execution (RCE) by unauthenticated attackers.</li>\n\n\n\n<li>Could result in denial-of-service (DoS), such as service crashes.</li>\n\n\n\n<li>Exploitation occurs via specially crafted malicious packets.</li>\n\n\n\n<li>Some devices use ASLR to mitigate RCE risk; however service disruption remains possible despite protective measures.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected products",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">CVE ID</th><th scope=\"col\" class=\"govuk-table__header\">Affected Models</th><th scope=\"col\" class=\"govuk-table__header\">Affected Version</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">CVE-2025-31700 <br>CVE-2025-31701</th><td class=\"govuk-table__cell\">IPC-1XXX Series<br>IPC-2XXX Series <br>IPC-WX Series <br>IPC-ECXX Series <br>SD3A Series <br>SD2A Series <br>SD3D Series <br>SDT2A Series <br>SD2C Series</td><td class=\"govuk-table__cell\">Build time before 2025/04/16</td></tr></tbody>\n      </table>\n    </div>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Full affected model list",
+          "id": "full-affected-model-list"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://materialfile.dahuasecurity.com/uploads/soft/20250723/Affected-Models.pdf\" target=\"_blank\" rel=\"noreferrer noopener\">https://materialfile.dahuasecurity.com/uploads/soft/20250723/Affected-Models.pdf</a></p>",
+          "text": "https://materialfile.dahuasecurity.com/uploads/soft/20250723/Affected-Models.pdf"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Solution: update firmware",
+          "id": "solution-update-firmware"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please upgrade affected devices to the latest firmware version. Options:</p>",
+          "text": "Please upgrade affected devices to the latest firmware version. Options:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Cloud Upgrade:</strong> For compatible devices, updates will be pushed within 30 working days.</li>\n\n\n\n<li><strong>Manual Download:</strong><br> <a href=\"https://www.dahuasecurity.com/support/downloadCenter\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.dahuasecurity.com/support/downloadCenter</a></li>\n\n\n\n<li><strong>Contact:</strong> Dahua Technical Support:  psirt@dahuatech.com.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "workaround",
+      "title": "Workaround",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Restrict external access to device web interfaces</li>\n\n\n\n<li>Segment vulnerable devices from public networks</li>\n\n\n\n<li>Monitor for abnormal traffic behaviour</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.dahuasecurity.com/aboutUs/trustedCenter/details/775\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.dahuasecurity.com/aboutUs/trustedCenter/details/775</a></p>",
+          "text": "https://www.dahuasecurity.com/aboutUs/trustedCenter/details/775"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-31700\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-31700</a></p>",
+          "text": "https://nvd.nist.gov/vuln/detail/CVE-2025-31700"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-31701\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-31701</a></p>",
+          "text": "https://nvd.nist.gov/vuln/detail/CVE-2025-31701"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Additional links",
+          "id": "additional-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.dahuasecurity.com/support/downloadCenter\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.dahuasecurity.com/support/downloadCenter</a></p>",
+          "text": "https://www.dahuasecurity.com/support/downloadCenter"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected products"
+    },
+    {
+      "id": "full-affected-model-list",
+      "label": "Full affected model list",
+      "isSubItem": true
+    },
+    {
+      "id": "solution-update-firmware",
+      "label": "Solution: update firmware",
+      "isSubItem": true
+    },
+    {
+      "id": "workaround",
+      "label": "Workaround"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "additional-links",
+      "label": "Additional links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://materialfile.dahuasecurity.com/uploads/soft/20250723/Affected-Models.pdf",
+    "https://www.dahuasecurity.com/support/downloadCenter",
+    "https://www.dahuasecurity.com/aboutUs/trustedCenter/details/775",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-31700",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-31701"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-443-30-07-25-vulnerabilities-found-in-some-dahua-products/",
+    "upstreamDisclosedAt": "2025-07-30T11:04:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

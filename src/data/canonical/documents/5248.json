@@ -1,0 +1,75 @@
+{
+  "id": "5248",
+  "legacyPostId": 5248,
+  "referenceNumber": "TT-CSIRT 405.25.07.22",
+  "classification": "advisory",
+  "title": "SonicWall security vulnerabilities",
+  "rawTitle": "TT-CSIRT-405.25.07.22: SonicWall Security Vulnerabilities",
+  "slug": "tt-csirt-405-25-07-22-sonicwall-security-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "SonicWall has released security updates to address vulnerabilities in SonicWall Global Management System (GMS) and SonicWall Analytics On-Prem . Exploitation of these vulnerabilities could allow for an attacker to gain unauthorized access to an affected system.",
+  "cveList": [],
+  "date": "25 July 2022",
+  "rawDate": "2022-07-25T10:55:09",
+  "modifiedDate": "25 July 2022",
+  "rawModifiedDate": "2022-07-25T10:55:09",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">SonicWall has released security updates to address vulnerabilities in SonicWall Global Management System (GMS) and SonicWall Analytics On-Prem . Exploitation of these vulnerabilities could allow for an attacker to gain unauthorized access to an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly encourages administrators to review the following releases from SonicWall and apply the necessary updates immediately:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a rel=\"noreferrer noopener\" href=\"https://www.sonicwall.com/support/notices/security-notice-sonicwall-gms-sql-injection-vulnerability/220613083124303/\" target=\"_blank\">SonicWall Global Management System (GMS)</a></li><li><a href=\"https://www.sonicwall.com/support/knowledge-base/security-notice-sonicwall-analytics-on-prem-sql-injection-vulnerability/220613083254037/\" target=\"_blank\" rel=\"noreferrer noopener\">SonicWall Analytics On-Prem</a></li></ul>\n",
+  "displaySummary": "SonicWall has released security updates to address vulnerabilities in SonicWall Global Management System (GMS) and SonicWall Analytics On-Prem .",
+  "sourceExcerpt": "<p>SonicWall has released security updates to address vulnerabilities in SonicWall Global Management System (GMS) and SonicWall Analytics On-Prem . Exploitation of these vulnerabilities could allow for an attacker to gain unauthorized access to an affected system. TT-CSIRT strongly encourages administrators to review the following releases from SonicWall and apply the necessary updates immediately: SonicWall Global [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-405-25-07-22-sonicwall-security-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>SonicWall has released security updates to address vulnerabilities in SonicWall Global Management System (GMS) and SonicWall Analytics On-Prem . Exploitation of these vulnerabilities could allow for an attacker to gain unauthorized access to an affected system.</p>",
+          "text": "SonicWall has released security updates to address vulnerabilities in SonicWall Global Management System (GMS) and SonicWall Analytics On-Prem . Exploitation of these vulnerabilities could allow for an attacker to gain unauthorized access to an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT strongly encourages administrators to review the following releases from SonicWall and apply the necessary updates immediately:</p>",
+          "text": "TT-CSIRT strongly encourages administrators to review the following releases from SonicWall and apply the necessary updates immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a rel=\"noreferrer noopener\" href=\"https://www.sonicwall.com/support/notices/security-notice-sonicwall-gms-sql-injection-vulnerability/220613083124303/\" target=\"_blank\">SonicWall Global Management System (GMS)</a></li><li><a href=\"https://www.sonicwall.com/support/knowledge-base/security-notice-sonicwall-analytics-on-prem-sql-injection-vulnerability/220613083254037/\" target=\"_blank\" rel=\"noreferrer noopener\">SonicWall Analytics On-Prem</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.sonicwall.com/support/notices/security-notice-sonicwall-gms-sql-injection-vulnerability/220613083124303/",
+    "https://www.sonicwall.com/support/knowledge-base/security-notice-sonicwall-analytics-on-prem-sql-injection-vulnerability/220613083254037/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-405-25-07-22-sonicwall-security-vulnerabilities/",
+    "upstreamDisclosedAt": "2022-07-25T10:55:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

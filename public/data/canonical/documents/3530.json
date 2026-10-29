@@ -1,0 +1,94 @@
+{
+  "id": "3530",
+  "legacyPostId": 3530,
+  "referenceNumber": "TT-CSIRT #163",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-163.091318: TT-CSIRT Advisory –  Adobe Security Updates",
+  "slug": "ttcsirt-163-091318-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that the following issues have been discovered in Adobe ColdFusion:",
+  "cveList": [
+    "CVE-2018-15963",
+    "CVE-2018-15962",
+    "CVE-2018-15961"
+  ],
+  "date": "13 September 2018",
+  "rawDate": "2018-09-13T11:54:58",
+  "modifiedDate": "13 September 2018",
+  "rawModifiedDate": "2018-09-13T11:54:58",
+  "contentHtml": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe ColdFusion:</p>\n<p>a) A security bypass vulnerability that could allow for arbitrary folder creation &#8211; (CVE-2018-15963).</p>\n<p>b) A directory listing vulnerability that could allow for information disclosure &#8211; (CVE-2018-15962).</p>\n<p>c) An unrestricted file upload vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-15961).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker executing arbitrary code in the context of the affected application.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/coldfusion/apsb18-33.html\"><font size=\"2\" color=\"maroon\">https://helpx.adobe.com/security/products/coldfusion/apsb18-33.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that the following issues have been discovered in Adobe ColdFusion: a) A security bypass vulnerability that could allow for arbitrary folder creation…",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe ColdFusion: a) A security bypass vulnerability that could allow for arbitrary folder creation &#8211; (CVE-2018-15963). b) A directory listing vulnerability that could allow for information disclosure &#8211; (CVE-2018-15962). c) An unrestricted file upload vulnerability that could allow for arbitrary [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-163-091318-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe ColdFusion:</p>",
+          "text": "Adobe has released a security update stating that the following issues have been discovered in Adobe ColdFusion:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A security bypass vulnerability that could allow for arbitrary folder creation &#8211; (CVE-2018-15963).</p>",
+          "text": "a) A security bypass vulnerability that could allow for arbitrary folder creation – (CVE-2018-15963)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A directory listing vulnerability that could allow for information disclosure &#8211; (CVE-2018-15962).</p>",
+          "text": "b) A directory listing vulnerability that could allow for information disclosure – (CVE-2018-15962)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An unrestricted file upload vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-15961).</p>",
+          "text": "c) An unrestricted file upload vulnerability that could allow for arbitrary code execution – (CVE-2018-15961)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker executing arbitrary code in the context of the affected application.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in an attacker executing arbitrary code in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/coldfusion/apsb18-33.html\">https://helpx.adobe.com/security/products/coldfusion/apsb18-33.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at https://helpx.adobe.com/security/products/coldfusion/apsb18-33.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/coldfusion/apsb18-33.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-163-091318-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-09-13T11:54:58",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

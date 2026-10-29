@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Original Fantasy Duo — Three.js Character Test</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div><p class="eyebrow">THREE.JS CHARACTER LAB</p><h1>THE RELIC HUNTER <span>×</span> THE GROVE ORACLE</h1><p class="sub">Two recolored, rigged character prototypes · procedural bone animations</p></div>
+      <div class="legend"><span class="dot teal"></span> Relic Hunter <span class="dot gold"></span> Grove Oracle</div>
+    </header>
+    <main>
+      <div id="viewport"><div id="loading">Loading rigged characters…</div><div id="error" hidden></div></div>
+      <section class="control-panel">
+        <article class="control-card hunter-card">
+          <div class="card-title"><span class="avatar teal">R</span><div><h2>Relic Hunter</h2><p>Teal & ember palette · agile explorer</p></div></div>
+          <div class="buttons" data-character="hunter">
+            <button data-anim="idle" class="active">Idle</button><button data-anim="walk">Walk</button><button data-anim="special">Scan Relic</button>
+          </div>
+          <p class="status" id="hunter-status">Preparing character…</p>
+        </article>
+        <article class="control-card oracle-card">
+          <div class="card-title"><span class="avatar gold">G</span><div><h2>Grove Oracle</h2><p>Royal purple & moon-gold · winged mystic</p></div></div>
+          <div class="buttons" data-character="oracle">
+            <button data-anim="idle" class="active">Idle</button><button data-anim="walk">Walk</button><button data-anim="special">Cast Spell</button><button data-anim="wing">Wing Flutter</button>
+          </div>
+          <p class="status" id="oracle-status">Preparing character…</p>
+        </article>
+      </section>
+      <footer>Drag to orbit · scroll to zoom · character movement is generated at runtime from the skeleton bones.</footer>
+    </main>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

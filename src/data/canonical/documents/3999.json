@@ -1,0 +1,120 @@
+{
+  "id": "3999",
+  "legacyPostId": 3999,
+  "referenceNumber": "TT-CSIRT #265",
+  "classification": "advisory",
+  "title": "Intel releases security updates",
+  "rawTitle": "TTCSIRT-265.011520: TT-CSIRT ADVISORY- INTEL RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-265-011520-tt-csirt-advisory-intel-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges.",
+  "cveList": [],
+  "date": "15 January 2020",
+  "rawDate": "2020-01-15T11:37:30",
+  "modifiedDate": "15 January 2020",
+  "rawModifiedDate": "2020-01-15T11:37:30",
+  "contentHtml": "<p>Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Intel advisories and apply the necessary updates:</p>\n<ul>\n<li>SNMP Subagent Stand-Alone Advisory for Windows INTEL-SA-00300</li>\n<li>Chipset Device Software Advisory INTEL-SA-00306</li>\n<li>RWC 3 for Windows Advisory INTEL-SA-00308</li>\n<li>Processor Graphics Advisory INTEL-SA-00314</li>\n<li>VTune Amplifier for Windows Advisory INTEL-SA-00325</li>\n<li>DAAL Advisory INTEL-SA-00332</li>\n</ul>\n<p>&nbsp;</p>\n<p>For further review please see the following links:</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00300.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00300.html</a></p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00306.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00306.html</a></p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00308.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00308.html</a></p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html</a></p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00325.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00325.html</a></p>\n<p>&nbsp;</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00332.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00332.html</a></p>\n",
+  "displaySummary": "Intel has released security updates to address vulnerabilities in multiple products.",
+  "sourceExcerpt": "<p>Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Intel advisories and apply the necessary updates: SNMP Subagent [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-265-011520-tt-csirt-advisory-intel-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges.</p>",
+          "text": "Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Intel advisories and apply the necessary updates:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Intel advisories and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>SNMP Subagent Stand-Alone Advisory for Windows INTEL-SA-00300</li>\n<li>Chipset Device Software Advisory INTEL-SA-00306</li>\n<li>RWC 3 for Windows Advisory INTEL-SA-00308</li>\n<li>Processor Graphics Advisory INTEL-SA-00314</li>\n<li>VTune Amplifier for Windows Advisory INTEL-SA-00325</li>\n<li>DAAL Advisory INTEL-SA-00332</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00300.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00300.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00300.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00306.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00306.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00306.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00308.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00308.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00308.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00325.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00325.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00325.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00332.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00332.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00332.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00300.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00306.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00308.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00314.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00325.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00332.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-265-011520-tt-csirt-advisory-intel-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-01-15T11:37:30",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "4714",
+  "legacyPostId": 4714,
+  "referenceNumber": "TT-CSIRT 355.09.07.20",
+  "classification": "advisory",
+  "title": "WordPress file manager plugin vulnerability",
+  "rawTitle": "TTCSIRT-355.09.07.20: TT-CSIRT ADVISORY – WordPress File Manager Plugin Vulnerability",
+  "slug": "ttcsirt-355-09-07-20-tt-csirt-advisory-wordpress-file-manager-plugin-vulnerability",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Security researchers have identified a high severity vulnerability in the WordPress File Manager plugin.   This vulnerability allows unauthenticated users to execute commands and upload malicious files on a target site.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:30:31",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:30:31",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Security researchers have identified a&nbsp;high severity vulnerability&nbsp;in the WordPress File Manager plugin.<strong>&nbsp;</strong>This vulnerability allows unauthenticated users to execute commands and upload malicious files on a target site.<br><br><strong>All WordPress versions running the File Manager plug-in before version 6.9 are vulnerable.</strong><br><br>The File Manager plugin is designed to help WordPress administrators manage files on their sites. The plugin contains an additional library, elFinder, which is an open-source file manager designed to create a simple file management interface and provides the core functionality behind the file manager. The File Manager plugin uses the library in a way that introduced a vulnerability.<br><br><strong>CISA encourages users to immediately patch the File Manager plug-in to version 6.9 in order to mitigate this vulnerability.</strong><br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=5ed28fe6dc&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.wordfence.com/blog/2020/09/700000-wordpress-users-affected-by-zero-day-vulnerability-in-file-manager-plugin/</a><br><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Security researchers have identified a high severity vulnerability in the WordPress File Manager plugin.",
+  "sourceExcerpt": "<p>Security researchers have identified a&nbsp;high severity vulnerability&nbsp;in the WordPress File Manager plugin.&nbsp;This vulnerability allows unauthenticated users to execute commands and upload malicious files on a target site. All WordPress versions running the File Manager plug-in before version 6.9 are vulnerable. The File Manager plugin is designed to help WordPress administrators manage files on their sites. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-355-09-07-20-tt-csirt-advisory-wordpress-file-manager-plugin-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Security researchers have identified a&nbsp;high severity vulnerability&nbsp;in the WordPress File Manager plugin.<strong>&nbsp;</strong>This vulnerability allows unauthenticated users to execute commands and upload malicious files on a target site.</p>",
+          "text": "Security researchers have identified a high severity vulnerability in the WordPress File Manager plugin.   This vulnerability allows unauthenticated users to execute commands and upload malicious files on a target site."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>All WordPress versions running the File Manager plug-in before version 6.9 are vulnerable.</strong></p>",
+          "text": "All WordPress versions running the File Manager plug-in before version 6.9 are vulnerable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The File Manager plugin is designed to help WordPress administrators manage files on their sites. The plugin contains an additional library, elFinder, which is an open-source file manager designed to create a simple file management interface and provides the core functionality behind the file manager. The File Manager plugin uses the library in a way that introduced a vulnerability.</p>",
+          "text": "The File Manager plugin is designed to help WordPress administrators manage files on their sites. The plugin contains an additional library, elFinder, which is an open-source file manager designed to create a simple file management interface and provides the core functionality behind the file manager. The File Manager plugin uses the library in a way that introduced a vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>CISA encourages users to immediately patch the File Manager plug-in to version 6.9 in order to mitigate this vulnerability.</strong></p>",
+          "text": "CISA encourages users to immediately patch the File Manager plug-in to version 6.9 in order to mitigate this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=5ed28fe6dc&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.wordfence.com/blog/2020/09/700000-wordpress-users-affected-by-zero-day-vulnerability-in-file-manager-plugin/</a></p>",
+          "text": "For further information and support, please visit the following link: https://www.wordfence.com/blog/2020/09/700000-wordpress-users-affected-by-zero-day-vulnerability-in-file-manager-plugin/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-355-09-07-20-tt-csirt-advisory-wordpress-file-manager-plugin-vulnerability/",
+    "upstreamDisclosedAt": "2020-09-22T23:30:31",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "5064",
+  "legacyPostId": 5064,
+  "referenceNumber": "TT-CSIRT 399.10.11.21",
+  "classification": "advisory",
+  "title": "Critical vulnerability in Palo Alto globalprotect portal",
+  "rawTitle": "TT-CSIRT-399.10.11.21: Critical Vulnerability in Palo Alto GlobalProtect Portal",
+  "slug": "tt-csirt-399-10-11-21-critical-vulnerability-in-palo-alto-globalprotect-portal",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A critical (9.8/10) memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17.",
+  "cveList": [
+    "CVE-2021-3064"
+  ],
+  "date": "10 November 2021",
+  "rawDate": "2021-11-10T14:51:08",
+  "modifiedDate": "10 November 2021",
+  "rawModifiedDate": "2021-11-10T14:51:08",
+  "contentHtml": "<p>A critical (9.8/10) memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17.</p>\n<p>TT-CSIRT encourages administrators to review the following release from Palo Alto and apply the necessary patched immediately: <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=64855bb92a&amp;e=b82e9eb1c0\">https://security.paloaltonetworks.com/CVE-2021-3064</a></p>\n",
+  "displaySummary": "A critical (9.8/10) memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt…",
+  "sourceExcerpt": "<p>A critical (9.8/10) memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17. TT-CSIRT encourages administrators to review the following release from Palo Alto [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-399-10-11-21-critical-vulnerability-in-palo-alto-globalprotect-portal/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A critical (9.8/10) memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17.</p>",
+          "text": "A critical (9.8/10) memory corruption vulnerability exists in Palo Alto Networks GlobalProtect portal and gateway interfaces that enables an unauthenticated network-based attacker to disrupt system processes and potentially execute arbitrary code with root privileges. This issue impacts PAN-OS 8.1 versions earlier than PAN-OS 8.1.17."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following release from Palo Alto and apply the necessary patched immediately: <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=64855bb92a&amp;e=b82e9eb1c0\">https://security.paloaltonetworks.com/CVE-2021-3064</a></p>",
+          "text": "TT-CSIRT encourages administrators to review the following release from Palo Alto and apply the necessary patched immediately: https://security.paloaltonetworks.com/CVE-2021-3064"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-399-10-11-21-critical-vulnerability-in-palo-alto-globalprotect-portal/",
+    "upstreamDisclosedAt": "2021-11-10T14:51:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

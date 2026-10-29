@@ -1,0 +1,85 @@
+{
+  "id": "4288",
+  "legacyPostId": 4288,
+  "referenceNumber": "TT-CSIRT #292",
+  "classification": "advisory",
+  "title": "030620: tt-csirtadvisory – update Cisco email security appliances: uncontrolled resource exhaution vulnerability",
+  "rawTitle": "TTCSIRT – 292-030620: TT-CSIRTADVISORY &#8211; UPDATE CISCO EMAIL SECURITY APPLIANCES: UNCONTROLLED RESOURCE EXHAUTION VULNERABILITY",
+  "slug": "ttcsirt-292-030620-tt-csirtadvisory-update-cisco-email-security-appliances-uncontrolled-resource-exhaution-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability in the malware detection functionality in Cisco Advanced Malware Protection (AMP) in Cisco AsyncOS Software for Cisco Email Security Appliances (ESAs) could allow an unauthenticated remote attacker to exhaust resources on an affected device.",
+  "cveList": [],
+  "date": "6 March 2020",
+  "rawDate": "2020-03-06T11:56:36",
+  "modifiedDate": "6 March 2020",
+  "rawModifiedDate": "2020-03-06T11:56:36",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability in the malware detection functionality in Cisco Advanced Malware Protection (AMP) in Cisco AsyncOS Software for Cisco Email Security Appliances (ESAs) could allow an unauthenticated remote attacker to exhaust resources on an affected device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is due to insufficient control over system\nmemory allocation. An attacker could exploit this vulnerability by sending a crafted\nemail through the targeted device. A successful exploit could allow the attacker\nto cause an email attachment that contains malware to be delivered to a user\nand cause email processing delays.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco has released software updates that address this\nvulnerability. There are no workarounds that address this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT)\nencourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further review please see the following\nlink:\n\nOriginal Advisory: <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD</a></p>\n",
+  "displaySummary": "A vulnerability in the malware detection functionality in Cisco Advanced Malware Protection (AMP) in Cisco AsyncOS Software for Cisco Email Security Appliances (ESAs) could allow an…",
+  "sourceExcerpt": "<p>A vulnerability in the malware detection functionality in Cisco Advanced Malware Protection (AMP) in Cisco AsyncOS Software for Cisco Email Security Appliances (ESAs) could allow an unauthenticated remote attacker to exhaust resources on an affected device. The vulnerability is due to insufficient control over system memory allocation. An attacker could exploit this vulnerability by sending [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-292-030620-tt-csirtadvisory-update-cisco-email-security-appliances-uncontrolled-resource-exhaution-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability in the malware detection functionality in Cisco Advanced Malware Protection (AMP) in Cisco AsyncOS Software for Cisco Email Security Appliances (ESAs) could allow an unauthenticated remote attacker to exhaust resources on an affected device.</p>",
+          "text": "A vulnerability in the malware detection functionality in Cisco Advanced Malware Protection (AMP) in Cisco AsyncOS Software for Cisco Email Security Appliances (ESAs) could allow an unauthenticated remote attacker to exhaust resources on an affected device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to insufficient control over system\nmemory allocation. An attacker could exploit this vulnerability by sending a crafted\nemail through the targeted device. A successful exploit could allow the attacker\nto cause an email attachment that contains malware to be delivered to a user\nand cause email processing delays.</p>",
+          "text": "The vulnerability is due to insufficient control over system memory allocation. An attacker could exploit this vulnerability by sending a crafted email through the targeted device. A successful exploit could allow the attacker to cause an email attachment that contains malware to be delivered to a user and cause email processing delays."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released software updates that address this\nvulnerability. There are no workarounds that address this vulnerability.</p>",
+          "text": "Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT)\nencourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further review please see the following\nlink:\n\nOriginal Advisory: <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD</a></p>",
+          "text": "For further review please see the following link: Original Advisory: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-292-030620-tt-csirtadvisory-update-cisco-email-security-appliances-uncontrolled-resource-exhaution-vulnerability/",
+    "upstreamDisclosedAt": "2020-03-06T11:56:36",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

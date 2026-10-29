@@ -1,0 +1,78 @@
+{
+  "id": "2869",
+  "legacyPostId": 2869,
+  "referenceNumber": "TT-CSIRT #025",
+  "classification": "advisory",
+  "title": "Ibm security updates",
+  "rawTitle": "TTCSIRT-025.072517: TT-CSIRT Advisory – IBM Security Updates",
+  "slug": "ttcsirt-025-072517-tt-csirt-advisory-ibm-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "IBM has issued a high severity security alert stating that the IBM Cisco MDS Series Switches have a vulnerability that could allow an unauthenticated, remote attacker to log in to the administrative console of a DCNM server by using an account that has a default, static password. The account could be granted root or system-level privileges.",
+  "cveList": [
+    "CVE-2017-6639",
+    "CVE-2017-6640"
+  ],
+  "date": "25 July 2017",
+  "rawDate": "2017-07-25T10:33:19",
+  "modifiedDate": "25 July 2017",
+  "rawModifiedDate": "2017-07-25T10:33:19",
+  "contentHtml": "<p>IBM has issued a high severity security alert stating that the IBM Cisco MDS Series Switches have a vulnerability that could allow an unauthenticated, remote attacker to log in to the administrative console of a DCNM server by using an account that has a default, static password. The account could be granted root or system-level privileges. </p>\n<p>This could result in an unauthenticated, remote attacker accessing sensitive information or executing arbitrary code with root privileges on an affected system.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be resolved can viewed on the IBM Blog at <a href=\"https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-cisco-mds-series-switches-dcnm-is-affected-by-unauthenticated-remote-attacker-vulnerability-cve-2017-6639-cve-2017-6640/\"><font size=\"2\" color=\"maroon\">https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-cisco-mds-series-switches-dcnm-is-affected-by-unauthenticated-remote-attacker-vulnerability-cve-2017-6639-cve-2017-6640/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "IBM has issued a high severity security alert stating that the IBM Cisco MDS Series Switches have a vulnerability that could allow an unauthenticated, remote attacker to log in to the…",
+  "sourceExcerpt": "<p>IBM has issued a high severity security alert stating that the IBM Cisco MDS Series Switches have a vulnerability that could allow an unauthenticated, remote attacker to log in to the administrative console of a DCNM server by using an account that has a default, static password. The account could be granted root or system-level [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-025-072517-tt-csirt-advisory-ibm-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>IBM has issued a high severity security alert stating that the IBM Cisco MDS Series Switches have a vulnerability that could allow an unauthenticated, remote attacker to log in to the administrative console of a DCNM server by using an account that has a default, static password. The account could be granted root or system-level privileges.</p>",
+          "text": "IBM has issued a high severity security alert stating that the IBM Cisco MDS Series Switches have a vulnerability that could allow an unauthenticated, remote attacker to log in to the administrative console of a DCNM server by using an account that has a default, static password. The account could be granted root or system-level privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This could result in an unauthenticated, remote attacker accessing sensitive information or executing arbitrary code with root privileges on an affected system.</p>",
+          "text": "This could result in an unauthenticated, remote attacker accessing sensitive information or executing arbitrary code with root privileges on an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be resolved can viewed on the IBM Blog at <a href=\"https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-cisco-mds-series-switches-dcnm-is-affected-by-unauthenticated-remote-attacker-vulnerability-cve-2017-6639-cve-2017-6640/\">https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-cisco-mds-series-switches-dcnm-is-affected-by-unauthenticated-remote-attacker-vulnerability-cve-2017-6639-cve-2017-6640/</a></p>",
+          "text": "Further information on this vulnerability and how it can be resolved can viewed on the IBM Blog at https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-cisco-mds-series-switches-dcnm-is-affected-by-unauthenticated-remote-attacker-vulnerability-cve-2017-6639-cve-2017-6640/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.ibm.com/blogs/psirt/ibm-security-bulletin-ibm-cisco-mds-series-switches-dcnm-is-affected-by-unauthenticated-remote-attacker-vulnerability-cve-2017-6639-cve-2017-6640/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-025-072517-tt-csirt-advisory-ibm-security-updates/",
+    "upstreamDisclosedAt": "2017-07-25T10:33:19",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

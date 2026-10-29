@@ -1,0 +1,75 @@
+{
+  "id": "4007",
+  "legacyPostId": 4007,
+  "referenceNumber": "TT-CSIRT #268",
+  "classification": "advisory",
+  "title": "Microsoft releases security advisory on internet explorer vulnerability",
+  "rawTitle": "TTCSIRT-268.012020: TT-CSIRT ADVISORY – MICROSOFT RELEASES SECURITY ADVISORY ON INTERNET EXPLORER VULNERABILITY",
+  "slug": "ttcsirt-268-012020-tt-csirt-advisory-internet-explorer-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security advisory to address a critical vulnerability in Internet Explorer. A remote attacker could exploit this vulnerability to take control of an affected system.",
+  "cveList": [],
+  "date": "20 January 2020",
+  "rawDate": "2020-01-20T11:01:48",
+  "modifiedDate": "20 January 2020",
+  "rawModifiedDate": "2020-01-20T11:01:48",
+  "contentHtml": "<p>Microsoft has released a security advisory to address a critical vulnerability in Internet Explorer. A remote attacker could exploit this vulnerability to take control of an affected system.</p>\n<p>TT-CSIRT encourages users and administrators to review Microsoft’s Advisory <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001\">ADV20001</a> and CERT/CC&#8217;s Vulnerability Note <a href=\"https://kb.cert.org/vuls/id/338824/\">VU#338824</a> for more information, implement workarounds, and apply updates when available. Consider using Microsoft Edge or an alternate browser until patches are made available.</p>\n<ul>\n<li><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001</a></li>\n<li><a href=\"https://kb.cert.org/vuls/id/338824/\">https://kb.cert.org/vuls/id/338824/</a></li>\n</ul>\n",
+  "displaySummary": "Microsoft has released a security advisory to address a critical vulnerability in Internet Explorer. A remote attacker could exploit this vulnerability to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released a security advisory to address a critical vulnerability in Internet Explorer. A remote attacker could exploit this vulnerability to take control of an affected system. TT-CSIRT encourages users and administrators to review Microsoft’s Advisory ADV20001 and CERT/CC&#8217;s Vulnerability Note VU#338824 for more information, implement workarounds, and apply updates when available. Consider using [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-268-012020-tt-csirt-advisory-internet-explorer-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security advisory to address a critical vulnerability in Internet Explorer. A remote attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "Microsoft has released a security advisory to address a critical vulnerability in Internet Explorer. A remote attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review Microsoft’s Advisory <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001\">ADV20001</a> and CERT/CC&#8217;s Vulnerability Note <a href=\"https://kb.cert.org/vuls/id/338824/\">VU#338824</a> for more information, implement workarounds, and apply updates when available. Consider using Microsoft Edge or an alternate browser until patches are made available.</p>",
+          "text": "TT-CSIRT encourages users and administrators to review Microsoft’s Advisory ADV20001 and CERT/CC’s Vulnerability Note VU#338824 for more information, implement workarounds, and apply updates when available. Consider using Microsoft Edge or an alternate browser until patches are made available."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001</a></li>\n<li><a href=\"https://kb.cert.org/vuls/id/338824/\">https://kb.cert.org/vuls/id/338824/</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001",
+    "https://kb.cert.org/vuls/id/338824/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-268-012020-tt-csirt-advisory-internet-explorer-vulnerability/",
+    "upstreamDisclosedAt": "2020-01-20T11:01:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

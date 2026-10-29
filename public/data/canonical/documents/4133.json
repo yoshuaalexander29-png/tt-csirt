@@ -1,0 +1,248 @@
+{
+  "id": "4133",
+  "legacyPostId": 4133,
+  "referenceNumber": "TT-CSIRT #288",
+  "classification": "advisory",
+  "title": "Microsoft internet explorer scripting engine memory corruption vulnerability",
+  "rawTitle": "TTCSIRT-288.022620: TT-CSIRT ADVISORY-  MICROSOFT INTERNET EXPLORER SCRIPTING ENGINE MEMORY CORRUPTION VULNERABILITY.",
+  "slug": "ttcsirt-288-022620-tt-csirt-advisory-microsoft-internet-explorer-scripting-engine-memory-corruption-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Microsoft Internet Explorer Scripting Engine contains a memory corruption vulnerability, which can allow a remote, unauthenticated attacker to execute arbitrary code.",
+  "cveList": [
+    "CVE-2020-0674"
+  ],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T14:30:59",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T14:30:59",
+  "contentHtml": "<p>The Microsoft Internet Explorer Scripting Engine contains a memory corruption vulnerability, which can allow a remote, unauthenticated attacker to execute arbitrary code.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Description</u></em></strong></p>\n<p>Microsoft Internet Explorer contains a scripting engine, which handles execution of scripting languages such as VBScript and JScript. The scripting engine JScript component contains an unspecified memory corruption vulnerability. Any application that supports embedding Internet Explorer or its scripting engine component may be used as an attack vector for this vulnerability.</p>\n<p>&nbsp;</p>\n<p>This vulnerability was detected in exploits in the wild.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Impact</u></em></strong></p>\n<p>By convincing a user to view a specially crafted HTML document (e.g., a web page an email attachment), PDF file, Microsoft Office document, or any other document that supports embedded Internet Explorer scripting engine content, an attacker may be able to execute arbitrary code.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Solution</u></em></strong></p>\n<p>Apply an update</p>\n<p>&nbsp;</p>\n<p>This issue is addressed in the Microsoft update for CVE-2020-0674. Please also consider the following workaround:</p>\n<p>&nbsp;</p>\n<p>Restrict access to jscript.dll</p>\n<p>&nbsp;</p>\n<p>jscript.dll is a library that provides compatibility with a deprecated version of JScript that was released in 2009. Blocking access to this library can prevent exploitation of this and similar vulnerabilities that may be present in this old technology. When Internet Explorer is used to browse the modern web, jscript9.dll is used by default. Note, however, that any given website has the ability to opt in to using the legacy jscript.dll instead of the default.</p>\n<p>&nbsp;</p>\n<p>From Security Advisory ADV200001:</p>\n<p>&nbsp;</p>\n<p>For 32-bit systems, enter the following command at an administrative command prompt:</p>\n<p>&nbsp;</p>\n<p>takeown /f %windir%\\system32\\jscript.dll</p>\n<p>cacls %windir%\\system32\\jscript.dll /E /P everyone:N</p>\n<p>&nbsp;</p>\n<p>For 64-bit systems, enter the following command at an administrative command prompt:</p>\n<p>takeown /f %windir%\\syswow64\\jscript.dll</p>\n<p>cacls %windir%\\syswow64\\jscript.dll /E /P everyone:N</p>\n<p>takeown /f %windir%\\system32\\jscript.dll</p>\n<p>cacls %windir%\\system32\\jscript.dll /E /P everyone:N</p>\n<p>&nbsp;</p>\n<p>To revert the above changes:</p>\n<p>&nbsp;</p>\n<p>For 32-bit systems, enter the following command at an administrative command prompt:</p>\n<p>cacls %windir%\\system32\\jscript.dll /E /R everyone</p>\n<p>&nbsp;</p>\n<p>For 64-bit systems, enter the following command at an administrative command prompt:</p>\n<p>cacls %windir%\\system32\\jscript.dll /E /R everyone</p>\n<p>cacls %windir%\\syswow64\\jscript.dll /E /R everyone</p>\n<p>&nbsp;</p>\n<p>By default, IE11, IE10, and IE9 uses Jscript9.dll which is not impacted by this vulnerability. This vulnerability only affects certain websites that utilize jscript as the scripting engine.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<h3><em><u>References</u></em></h3>\n<ul>\n<li><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001</a></li>\n<li><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0674\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0674</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "The Microsoft Internet Explorer Scripting Engine contains a memory corruption vulnerability, which can allow a remote, unauthenticated attacker to execute arbitrary code.",
+  "sourceExcerpt": "<p>The Microsoft Internet Explorer Scripting Engine contains a memory corruption vulnerability, which can allow a remote, unauthenticated attacker to execute arbitrary code. &nbsp; Description Microsoft Internet Explorer contains a scripting engine, which handles execution of scripting languages such as VBScript and JScript. The scripting engine JScript component contains an unspecified memory corruption vulnerability. Any application [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-288-022620-tt-csirt-advisory-microsoft-internet-explorer-scripting-engine-memory-corruption-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Microsoft Internet Explorer Scripting Engine contains a memory corruption vulnerability, which can allow a remote, unauthenticated attacker to execute arbitrary code.</p>",
+          "text": "The Microsoft Internet Explorer Scripting Engine contains a memory corruption vulnerability, which can allow a remote, unauthenticated attacker to execute arbitrary code."
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft Internet Explorer contains a scripting engine, which handles execution of scripting languages such as VBScript and JScript. The scripting engine JScript component contains an unspecified memory corruption vulnerability. Any application that supports embedding Internet Explorer or its scripting engine component may be used as an attack vector for this vulnerability.</p>",
+          "text": "Microsoft Internet Explorer contains a scripting engine, which handles execution of scripting languages such as VBScript and JScript. The scripting engine JScript component contains an unspecified memory corruption vulnerability. Any application that supports embedding Internet Explorer or its scripting engine component may be used as an attack vector for this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability was detected in exploits in the wild.</p>",
+          "text": "This vulnerability was detected in exploits in the wild."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>By convincing a user to view a specially crafted HTML document (e.g., a web page an email attachment), PDF file, Microsoft Office document, or any other document that supports embedded Internet Explorer scripting engine content, an attacker may be able to execute arbitrary code.</p>",
+          "text": "By convincing a user to view a specially crafted HTML document (e.g., a web page an email attachment), PDF file, Microsoft Office document, or any other document that supports embedded Internet Explorer scripting engine content, an attacker may be able to execute arbitrary code."
+        }
+      ]
+    },
+    {
+      "id": "solution",
+      "title": "Solution",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apply an update</p>",
+          "text": "Apply an update"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is addressed in the Microsoft update for CVE-2020-0674. Please also consider the following workaround:</p>",
+          "text": "This issue is addressed in the Microsoft update for CVE-2020-0674. Please also consider the following workaround:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Restrict access to jscript.dll</p>",
+          "text": "Restrict access to jscript.dll"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>jscript.dll is a library that provides compatibility with a deprecated version of JScript that was released in 2009. Blocking access to this library can prevent exploitation of this and similar vulnerabilities that may be present in this old technology. When Internet Explorer is used to browse the modern web, jscript9.dll is used by default. Note, however, that any given website has the ability to opt in to using the legacy jscript.dll instead of the default.</p>",
+          "text": "jscript.dll is a library that provides compatibility with a deprecated version of JScript that was released in 2009. Blocking access to this library can prevent exploitation of this and similar vulnerabilities that may be present in this old technology. When Internet Explorer is used to browse the modern web, jscript9.dll is used by default. Note, however, that any given website has the ability to opt in to using the legacy jscript.dll instead of the default."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "From security advisory adv200001",
+          "id": "from-security-advisory-adv200001"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For 32-bit systems, enter the following command at an administrative command prompt:</p>",
+          "text": "For 32-bit systems, enter the following command at an administrative command prompt:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>takeown /f %windir%\\system32\\jscript.dll</p>",
+          "text": "takeown /f %windir%\\system32\\jscript.dll"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>cacls %windir%\\system32\\jscript.dll /E /P everyone:N</p>",
+          "text": "cacls %windir%\\system32\\jscript.dll /E /P everyone:N"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For 64-bit systems, enter the following command at an administrative command prompt:</p>",
+          "text": "For 64-bit systems, enter the following command at an administrative command prompt:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>takeown /f %windir%\\syswow64\\jscript.dll</p>",
+          "text": "takeown /f %windir%\\syswow64\\jscript.dll"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>cacls %windir%\\syswow64\\jscript.dll /E /P everyone:N</p>",
+          "text": "cacls %windir%\\syswow64\\jscript.dll /E /P everyone:N"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>takeown /f %windir%\\system32\\jscript.dll</p>",
+          "text": "takeown /f %windir%\\system32\\jscript.dll"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>cacls %windir%\\system32\\jscript.dll /E /P everyone:N</p>",
+          "text": "cacls %windir%\\system32\\jscript.dll /E /P everyone:N"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "To revert the above changes",
+          "id": "to-revert-the-above-changes"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For 32-bit systems, enter the following command at an administrative command prompt:</p>",
+          "text": "For 32-bit systems, enter the following command at an administrative command prompt:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>cacls %windir%\\system32\\jscript.dll /E /R everyone</p>",
+          "text": "cacls %windir%\\system32\\jscript.dll /E /R everyone"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For 64-bit systems, enter the following command at an administrative command prompt:</p>",
+          "text": "For 64-bit systems, enter the following command at an administrative command prompt:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>cacls %windir%\\system32\\jscript.dll /E /R everyone</p>",
+          "text": "cacls %windir%\\system32\\jscript.dll /E /R everyone"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>cacls %windir%\\syswow64\\jscript.dll /E /R everyone</p>",
+          "text": "cacls %windir%\\syswow64\\jscript.dll /E /R everyone"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>By default, IE11, IE10, and IE9 uses Jscript9.dll which is not impacted by this vulnerability. This vulnerability only affects certain websites that utilize jscript as the scripting engine.</p>",
+          "text": "By default, IE11, IE10, and IE9 uses Jscript9.dll which is not impacted by this vulnerability. This vulnerability only affects certain websites that utilize jscript as the scripting engine."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "References",
+          "id": "references"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001</a></li>\n<li><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0674\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0674</a></li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "solution",
+      "label": "Solution"
+    },
+    {
+      "id": "from-security-advisory-adv200001",
+      "label": "From security advisory adv200001",
+      "isSubItem": true
+    },
+    {
+      "id": "to-revert-the-above-changes",
+      "label": "To revert the above changes",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200001",
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0674"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-288-022620-tt-csirt-advisory-microsoft-internet-explorer-scripting-engine-memory-corruption-vulnerability/",
+    "upstreamDisclosedAt": "2020-02-26T14:30:59",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "2956",
+  "legacyPostId": 2956,
+  "referenceNumber": "TT-CSIRT #037",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-037.090117: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-037-082917-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security updates stating that Adobe Flash Player is prone to the following vulnerabilities:",
+  "cveList": [
+    "CVE-2017-3106"
+  ],
+  "date": "1 September 2017",
+  "rawDate": "2017-09-01T10:01:49",
+  "modifiedDate": "1 September 2017",
+  "rawModifiedDate": "2017-09-01T10:01:49",
+  "contentHtml": "<p>Adobe has released a security updates stating that Adobe Flash Player is prone to the following vulnerabilities:</p>\n<p>a) A security bypass vulnerability that could lead to information disclosure.</p>\n<p>b) A type confusion vulnerability that could lead to code execution (CVE-2017-3106)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb17-23/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb17-23/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security updates stating that Adobe Flash Player is prone to the following vulnerabilities: a) A security bypass vulnerability that could lead to information disclosure. b)…",
+  "sourceExcerpt": "<p>Adobe has released a security updates stating that Adobe Flash Player is prone to the following vulnerabilities: a) A security bypass vulnerability that could lead to information disclosure. b) A type confusion vulnerability that could lead to code execution (CVE-2017-3106) Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-037-082917-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security updates stating that Adobe Flash Player is prone to the following vulnerabilities:</p>",
+          "text": "Adobe has released a security updates stating that Adobe Flash Player is prone to the following vulnerabilities:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A security bypass vulnerability that could lead to information disclosure.</p>",
+          "text": "a) A security bypass vulnerability that could lead to information disclosure."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A type confusion vulnerability that could lead to code execution (CVE-2017-3106)</p>",
+          "text": "b) A type confusion vulnerability that could lead to code execution (CVE-2017-3106)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb17-23/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb17-23/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb17-23/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb17-23/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-037-082917-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2017-09-01T10:01:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "4730",
+  "legacyPostId": 4730,
+  "referenceNumber": "TT-CSIRT 363.09.25.20",
+  "classification": "advisory",
+  "title": "Lokibot malware",
+  "rawTitle": "TTCSIRT-363.09.25.20: TT-CSIRT ADVISORY – LokiBot Malware",
+  "slug": "ttcsirt-363-09-25-20-tt-csirt-advisory-lokibot-malware",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "There has been a notable increase in the use of LokiBot malware by malicious cyber actors since July 2020.",
+  "cveList": [],
+  "date": "25 September 2020",
+  "rawDate": "2020-09-25T15:01:03",
+  "modifiedDate": "25 September 2020",
+  "rawModifiedDate": "2020-09-25T15:01:03",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">There has been a notable increase in the use of LokiBot malware by malicious cyber actors since July 2020.<br><br>Throughout this period, CISA’s EINSTEIN Intrusion Detection System has detected persistent malicious LokiBot activity.<br><br>LokiBot uses a credential- and information-stealing malware, often sent as a malicious attachment and known for being simple, yet effective, making it an attractive tool for a broad range of cyber actors across a wide variety of data compromise use cases.<br><br>LokiBot, also known as Lokibot, Loki PWS, and Loki-bot—employs Trojan malware to steal sensitive information such as usernames, passwords, cryptocurrency wallets, and other credentials.<br><br>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://us-cert.cisa.gov/ncas/alerts/aa20-266a\" target=\"_blank\">https://us-cert.cisa.gov/ncas/alerts/aa20-266a</a></p>\n",
+  "displaySummary": "A notable increase in the use of LokiBot malware by malicious cyber actors since July 2020.",
+  "sourceExcerpt": "<p>There has been a notable increase in the use of LokiBot malware by malicious cyber actors since July 2020. Throughout this period, CISA’s EINSTEIN Intrusion Detection System has detected persistent malicious LokiBot activity. LokiBot uses a credential- and information-stealing malware, often sent as a malicious attachment and known for being simple, yet effective, making it [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-363-09-25-20-tt-csirt-advisory-lokibot-malware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>There has been a notable increase in the use of LokiBot malware by malicious cyber actors since July 2020.</p>",
+          "text": "There has been a notable increase in the use of LokiBot malware by malicious cyber actors since July 2020."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Throughout this period, CISA’s EINSTEIN Intrusion Detection System has detected persistent malicious LokiBot activity.</p>",
+          "text": "Throughout this period, CISA’s EINSTEIN Intrusion Detection System has detected persistent malicious LokiBot activity."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>LokiBot uses a credential- and information-stealing malware, often sent as a malicious attachment and known for being simple, yet effective, making it an attractive tool for a broad range of cyber actors across a wide variety of data compromise use cases.</p>",
+          "text": "LokiBot uses a credential- and information-stealing malware, often sent as a malicious attachment and known for being simple, yet effective, making it an attractive tool for a broad range of cyber actors across a wide variety of data compromise use cases."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>LokiBot, also known as Lokibot, Loki PWS, and Loki-bot—employs Trojan malware to steal sensitive information such as usernames, passwords, cryptocurrency wallets, and other credentials.</p>",
+          "text": "LokiBot, also known as Lokibot, Loki PWS, and Loki-bot—employs Trojan malware to steal sensitive information such as usernames, passwords, cryptocurrency wallets, and other credentials."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://us-cert.cisa.gov/ncas/alerts/aa20-266a\" target=\"_blank\">https://us-cert.cisa.gov/ncas/alerts/aa20-266a</a></p>",
+          "text": "For further information and support, please visit the following link: https://us-cert.cisa.gov/ncas/alerts/aa20-266a"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://us-cert.cisa.gov/ncas/alerts/aa20-266a"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-363-09-25-20-tt-csirt-advisory-lokibot-malware/",
+    "upstreamDisclosedAt": "2020-09-25T15:01:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

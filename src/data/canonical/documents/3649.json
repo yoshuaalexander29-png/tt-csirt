@@ -1,0 +1,80 @@
+{
+  "id": "3649",
+  "legacyPostId": 3649,
+  "referenceNumber": "TT-CSIRT #196",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-196.012319: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-196-012319-tt-csirt-advisory-drupal-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released a security update stating that a remote code execution vulnerability exists in PHP’s built-in phar stream wrapper when performing file operations on an untrusted phar:// URI.",
+  "cveList": [],
+  "date": "23 January 2019",
+  "rawDate": "2019-01-23T16:48:10",
+  "modifiedDate": "23 January 2019",
+  "rawModifiedDate": "2019-01-23T16:48:10",
+  "contentHtml": "<p>Drupal has released a security update stating that a remote code execution vulnerability exists in PHP&#8217;s built-in phar stream wrapper when performing file operations on an untrusted phar:// URI.</p>\n<p>Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability.</p>\n<p>This issue is mitigated by the fact that such code paths typically require access to an administrative permission or an atypical configuration.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2019-002\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/sa-core-2019-002</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released a security update stating that a remote code execution vulnerability exists in PHP&#8217;s built-in phar stream wrapper when performing file operations on an untrusted phar:// URI.",
+  "sourceExcerpt": "<p>Drupal has released a security update stating that a remote code execution vulnerability exists in PHP&#8217;s built-in phar stream wrapper when performing file operations on an untrusted phar:// URI. Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability. This issue is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-196-012319-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released a security update stating that a remote code execution vulnerability exists in PHP&#8217;s built-in phar stream wrapper when performing file operations on an untrusted phar:// URI.</p>",
+          "text": "Drupal has released a security update stating that a remote code execution vulnerability exists in PHP’s built-in phar stream wrapper when performing file operations on an untrusted phar:// URI."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability.</p>",
+          "text": "Some Drupal code (core, contrib, and custom) may be performing file operations on insufficiently validated user input, thereby being exposed to this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is mitigated by the fact that such code paths typically require access to an administrative permission or an atypical configuration.</p>",
+          "text": "This issue is mitigated by the fact that such code paths typically require access to an administrative permission or an atypical configuration."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2019-002\">https://www.drupal.org/sa-core-2019-002</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at https://www.drupal.org/sa-core-2019-002"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/sa-core-2019-002"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-196-012319-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2019-01-23T16:48:10",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

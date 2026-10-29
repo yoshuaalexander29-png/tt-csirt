@@ -1,0 +1,88 @@
+{
+  "id": "3764",
+  "legacyPostId": 3764,
+  "referenceNumber": "TT-CSIRT #223",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-223.082719: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-223-082719-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it has discovered the following issues in Cisco Small Business 220 Series Smart Switches:",
+  "cveList": [
+    "CVE-2019-1912",
+    "CVE-2019-1914"
+  ],
+  "date": "26 August 2019",
+  "rawDate": "2019-08-26T20:10:44",
+  "modifiedDate": "26 August 2019",
+  "rawModifiedDate": "2019-08-26T20:10:44",
+  "contentHtml": "<p>Cisco has released a security update stating that it has discovered the following issues in Cisco Small Business 220 Series Smart Switches:</p>\n<p>a) An authentication bypass vulnerability which could allow for remote file upload due to incomplete authorization checks in the web management interface &#8211; (CVE-2019-1912).</p>\n<p>b) A command injection vulnerability could allow for arbitrary code execution by an authenticated attacker due to insufficient validation of user-supplied input &#8211; (CVE-2019-1914).</p>\n<p>An attacker could exploit these vulnerabilities by sending malicious requests to the web management interface of an affected device. The vulnerabilities are due to insufficient validation of user-supplied input and improper boundary checks when reading data into an internal buffer. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190806-sb220-auth_bypass\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190806-sb220-auth_bypass</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it has discovered the following issues in Cisco Small Business 220 Series Smart Switches: a) An authentication bypass vulnerability which could…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it has discovered the following issues in Cisco Small Business 220 Series Smart Switches: a) An authentication bypass vulnerability which could allow for remote file upload due to incomplete authorization checks in the web management interface &#8211; (CVE-2019-1912). b) A command injection vulnerability could allow for arbitrary [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-223-082719-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it has discovered the following issues in Cisco Small Business 220 Series Smart Switches:</p>",
+          "text": "Cisco has released a security update stating that it has discovered the following issues in Cisco Small Business 220 Series Smart Switches:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) An authentication bypass vulnerability which could allow for remote file upload due to incomplete authorization checks in the web management interface &#8211; (CVE-2019-1912).</p>",
+          "text": "a) An authentication bypass vulnerability which could allow for remote file upload due to incomplete authorization checks in the web management interface – (CVE-2019-1912)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A command injection vulnerability could allow for arbitrary code execution by an authenticated attacker due to insufficient validation of user-supplied input &#8211; (CVE-2019-1914).</p>",
+          "text": "b) A command injection vulnerability could allow for arbitrary code execution by an authenticated attacker due to insufficient validation of user-supplied input – (CVE-2019-1914)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit these vulnerabilities by sending malicious requests to the web management interface of an affected device. The vulnerabilities are due to insufficient validation of user-supplied input and improper boundary checks when reading data into an internal buffer.</p>",
+          "text": "An attacker could exploit these vulnerabilities by sending malicious requests to the web management interface of an affected device. The vulnerabilities are due to insufficient validation of user-supplied input and improper boundary checks when reading data into an internal buffer."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190806-sb220-auth_bypass\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190806-sb220-auth_bypass</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190806-sb220-auth_bypass"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190806-sb220-auth_bypass"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-223-082719-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2019-08-26T20:10:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

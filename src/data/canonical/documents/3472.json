@@ -1,0 +1,75 @@
+{
+  "id": "3472",
+  "legacyPostId": 3472,
+  "referenceNumber": "TT-CSIRT #148",
+  "classification": "advisory",
+  "title": "Bluetooth security updates",
+  "rawTitle": "TTCSIRT-148.072418: TT-CSIRT Advisory – Bluetooth Security Updates",
+  "slug": "ttcsirt-148-072418-tt-csirt-advisory-bluetooth-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "CERT has released a security update stating that Bluetooth firmware or operating system software drivers may not sufficiently validate elliptic curve parameters used to generate public keys during a Diffie-Hellman key exchange.",
+  "cveList": [],
+  "date": "24 July 2018",
+  "rawDate": "2018-07-24T12:34:12",
+  "modifiedDate": "24 July 2018",
+  "rawModifiedDate": "2018-07-24T12:34:12",
+  "contentHtml": "<p>CERT has released a security update stating that Bluetooth firmware or operating system software drivers may not sufficiently validate elliptic curve parameters used to generate public keys during a Diffie-Hellman key exchange.</p>\n<p>This may allow an unauthenticated, remote attacker to be able to utilize a man-in-the-middle network position to determine the cryptographic keys used by the device thereby allowing the interception, decryption and injection of device messages.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability can be found on the CERT Website at <a href=\"https://www.kb.cert.org/vuls/id/304725\"><font size=\"2\" color=\"maroon\">https://www.kb.cert.org/vuls/id/304725</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "CERT has released a security update stating that Bluetooth firmware or operating system software drivers may not sufficiently validate elliptic curve parameters used to generate public keys…",
+  "sourceExcerpt": "<p>CERT has released a security update stating that Bluetooth firmware or operating system software drivers may not sufficiently validate elliptic curve parameters used to generate public keys during a Diffie-Hellman key exchange. This may allow an unauthenticated, remote attacker to be able to utilize a man-in-the-middle network position to determine the cryptographic keys used by [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-148-072418-tt-csirt-advisory-bluetooth-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>CERT has released a security update stating that Bluetooth firmware or operating system software drivers may not sufficiently validate elliptic curve parameters used to generate public keys during a Diffie-Hellman key exchange.</p>",
+          "text": "CERT has released a security update stating that Bluetooth firmware or operating system software drivers may not sufficiently validate elliptic curve parameters used to generate public keys during a Diffie-Hellman key exchange."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This may allow an unauthenticated, remote attacker to be able to utilize a man-in-the-middle network position to determine the cryptographic keys used by the device thereby allowing the interception, decryption and injection of device messages.</p>",
+          "text": "This may allow an unauthenticated, remote attacker to be able to utilize a man-in-the-middle network position to determine the cryptographic keys used by the device thereby allowing the interception, decryption and injection of device messages."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability can be found on the CERT Website at <a href=\"https://www.kb.cert.org/vuls/id/304725\">https://www.kb.cert.org/vuls/id/304725</a></p>",
+          "text": "Further information on this vulnerability can be found on the CERT Website at https://www.kb.cert.org/vuls/id/304725"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.kb.cert.org/vuls/id/304725"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-148-072418-tt-csirt-advisory-bluetooth-security-updates/",
+    "upstreamDisclosedAt": "2018-07-24T12:34:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

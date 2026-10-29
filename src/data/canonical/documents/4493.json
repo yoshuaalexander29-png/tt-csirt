@@ -1,0 +1,109 @@
+{
+  "id": "4493",
+  "legacyPostId": 4493,
+  "referenceNumber": "TT-CSIRT #312",
+  "classification": "advisory",
+  "title": "VMware ESXi stored cross-site scripting (XSS) vulnerability",
+  "rawTitle": "TTCSIRT-312.050420: TT-CSIRT ADVISORY – VMWARE ESXI STORED CROSS-SITE SCRIPTING (XSS) VULNERABILITY",
+  "slug": "ttcsirt-312-050420-tt-csirt-advisory-vmware-esxi-stored-cross-site-scripting-xss-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A Stored Cross-Site Scripting (XSS) vulnerability in VMware ESXi was privately reported to VMware. Patches are available to address this vulnerability in affected VMware products.",
+  "cveList": [
+    "CVE-2020-3955"
+  ],
+  "date": "4 May 2020",
+  "rawDate": "2020-05-04T10:59:23",
+  "modifiedDate": "4 May 2020",
+  "rawModifiedDate": "2020-05-04T10:59:23",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A Stored Cross-Site Scripting (XSS) vulnerability in VMware ESXi was privately reported to VMware. Patches are available to address this vulnerability in affected VMware products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">VMware ESXi patches address Stored Cross-Site Scripting (XSS) vulnerability (CVE-2020-3955).</p>\n\n\n\n<p class=\"wp-block-paragraph\">The VMware ESXi Host Client does not properly neutralize script-related HTML when viewing virtual machines attributes. VMware has evaluated the severity of this issue to be in the “Important” severity range with a maximum CVSSv3 base score of 8.3.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A malicious actor with access to modify the system properties of a virtual machine from inside the guest os (such as changing the hostname of the virtual machine) may be able to inject malicious script which will be executed by a victim&#8217;s browser when viewing this virtual machine via the ESXi Host Client.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are no workarounds. However, to remediate CVE-2020-3955 refer to and apply the updates listed in the links below:</p>\n\n\n\n<p class=\"wp-block-paragraph\">ESXi 7.0 – Unaffected</p>\n\n\n\n<p class=\"wp-block-paragraph\">ESXi 6.7 –<a href=\"https://my.vmware.com/group/vmware/patch\">https://my.vmware.com/group/vmware/patch</a><br><a href=\"https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202004002.html\">https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202004002.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">ESXi 6.5 –<strong> </strong><a href=\"https://my.vmware.com/group/vmware/patch\">https://my.vmware.com/group/vmware/patch</a><br><a href=\"https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-201912002.html\">https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-201912002.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "A Stored Cross-Site Scripting (XSS) vulnerability in VMware ESXi was privately reported to VMware. Patches are available to address this vulnerability in affected VMware products.",
+  "sourceExcerpt": "<p>A Stored Cross-Site Scripting (XSS) vulnerability in VMware ESXi was privately reported to VMware. Patches are available to address this vulnerability in affected VMware products. VMware ESXi patches address Stored Cross-Site Scripting (XSS) vulnerability (CVE-2020-3955). The VMware ESXi Host Client does not properly neutralize script-related HTML when viewing virtual machines attributes. VMware has evaluated the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-312-050420-tt-csirt-advisory-vmware-esxi-stored-cross-site-scripting-xss-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A Stored Cross-Site Scripting (XSS) vulnerability in VMware ESXi was privately reported to VMware. Patches are available to address this vulnerability in affected VMware products.</p>",
+          "text": "A Stored Cross-Site Scripting (XSS) vulnerability in VMware ESXi was privately reported to VMware. Patches are available to address this vulnerability in affected VMware products."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>VMware ESXi patches address Stored Cross-Site Scripting (XSS) vulnerability (CVE-2020-3955).</p>",
+          "text": "VMware ESXi patches address Stored Cross-Site Scripting (XSS) vulnerability (CVE-2020-3955)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The VMware ESXi Host Client does not properly neutralize script-related HTML when viewing virtual machines attributes. VMware has evaluated the severity of this issue to be in the “Important” severity range with a maximum CVSSv3 base score of 8.3.</p>",
+          "text": "The VMware ESXi Host Client does not properly neutralize script-related HTML when viewing virtual machines attributes. VMware has evaluated the severity of this issue to be in the “Important” severity range with a maximum CVSSv3 base score of 8.3."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A malicious actor with access to modify the system properties of a virtual machine from inside the guest os (such as changing the hostname of the virtual machine) may be able to inject malicious script which will be executed by a victim&#8217;s browser when viewing this virtual machine via the ESXi Host Client.</p>",
+          "text": "A malicious actor with access to modify the system properties of a virtual machine from inside the guest os (such as changing the hostname of the virtual machine) may be able to inject malicious script which will be executed by a victim’s browser when viewing this virtual machine via the ESXi Host Client."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There are no workarounds. However, to remediate CVE-2020-3955 refer to and apply the updates listed in the links below:</p>",
+          "text": "There are no workarounds. However, to remediate CVE-2020-3955 refer to and apply the updates listed in the links below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>ESXi 7.0 – Unaffected</p>",
+          "text": "ESXi 7.0 – Unaffected"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>ESXi 6.7 –<a href=\"https://my.vmware.com/group/vmware/patch\">https://my.vmware.com/group/vmware/patch</a><br><a href=\"https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202004002.html\">https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202004002.html</a></p>",
+          "text": "ESXi 6.7 – https://my.vmware.com/group/vmware/patch https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202004002.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>ESXi 6.5 –<a href=\"https://my.vmware.com/group/vmware/patch\">https://my.vmware.com/group/vmware/patch</a><br><a href=\"https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-201912002.html\">https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-201912002.html</a></p>",
+          "text": "ESXi 6.5 – https://my.vmware.com/group/vmware/patch https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-201912002.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://my.vmware.com/group/vmware/patch",
+    "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/esxi670-202004002.html",
+    "https://docs.vmware.com/en/VMware-vSphere/6.5/rn/esxi650-201912002.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-312-050420-tt-csirt-advisory-vmware-esxi-stored-cross-site-scripting-xss-vulnerability/",
+    "upstreamDisclosedAt": "2020-05-04T10:59:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

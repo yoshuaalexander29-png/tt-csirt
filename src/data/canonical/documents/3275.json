@@ -1,0 +1,131 @@
+{
+  "id": "3275",
+  "legacyPostId": 3275,
+  "referenceNumber": "TT-CSIRT #106",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-106.040318: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-106-040318-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released a security update stating that multiple vulnerabilities have been discovered in iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, iTunes, Xcode, tvOS, watchOS and iOS.",
+  "cveList": [
+    "CVE-2018-4144",
+    "CVE-2018-4106",
+    "CVE-2018-4110",
+    "CVE-2018-4117",
+    "CVE-2018-4133",
+    "CVE-2018-4142",
+    "CVE-2018-4139",
+    "CVE-2018-4175",
+    "CVE-2018-4176",
+    "CVE-2017-13890",
+    "CVE-2018-4146",
+    "CVE-2018-4113",
+    "CVE-2018-4102",
+    "CVE-2018-4116",
+    "CVE-2018-4134",
+    "CVE-2018-4174",
+    "CVE-2018-4123",
+    "CVE-2018-4105",
+    "CVE-2018-4108",
+    "CVE-2017-8816",
+    "CVE-2018-4115",
+    "CVE-2018-4111",
+    "CVE-2018-4107",
+    "CVE-2018-4136",
+    "CVE-2018-4160",
+    "CVE-2018-4140",
+    "CVE-2018-4151",
+    "CVE-2018-4152",
+    "CVE-2018-4154",
+    "CVE-2018-4155",
+    "CVE-2018-4156",
+    "CVE-2018-4157",
+    "CVE-2018-4158",
+    "CVE-2018-4166",
+    "CVE-2018-4167",
+    "CVE-2018-4172",
+    "CVE-2018-4149",
+    "CVE-2018-4112",
+    "CVE-2018-4104",
+    "CVE-2018-4138",
+    "CVE-2018-4131",
+    "CVE-2018-4164",
+    "CVE-2018-4137",
+    "CVE-2018-4168",
+    "CVE-2018-4170"
+  ],
+  "date": "3 April 2018",
+  "rawDate": "2018-04-03T11:35:26",
+  "modifiedDate": "3 April 2018",
+  "rawModifiedDate": "2018-04-03T11:35:26",
+  "contentHtml": "<p>Apple has released a security update stating that multiple vulnerabilities have been discovered in iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, iTunes, Xcode, tvOS, watchOS and iOS.</p>\n<p>Details are as follows:</p>\n<p>1) A buffer overflow was addressed with improved size validation &#8211; (CVE-2018-4144)</p>\n<p>2) A command injection issue existed in the handling of Bracketed Paste Mode. This issue was addressed through improved validation of special characters &#8211; (CVE-2018-4106)</p>\n<p>3) A cookie management issue was addressed through improved state management &#8211; (CVE-2018-4110)</p>\n<p>4) A cross-origin issue existed with the fetch API. This was addressed through improved input validation &#8211; (CVE-2018-4117)</p>\n<p>5) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2018-4133)</p>\n<p>6) A denial of service issue was addressed through improved memory handling &#8211; (CVE-2018-4142)</p>\n<p>7) A logic issue existed resulting in memory corruption. This was addressed with improved state management &#8211; (CVE-2018-4139)</p>\n<p>8) Multiple logic issues were addressed with improved validation &#8211; (CVE-2018-4175, CVE-2018-4176)</p>\n<p>9) A logic issue was addressed with improved restrictions &#8211; (CVE-2017-13890)</p>\n<p>10) A memory corruption issue was addressed through improved input validation &#8211; (CVE-2018-4146)</p>\n<p>11) An array indexing issue existed in the handling of a function in javascript core. This issue was addressed through improved checks &#8211; (CVE-2018-4113)</p>\n<p>12) Multiple inconsistent user interface issues were addressed with improved state management &#8211; (CVE-2018-4102, CVE-2018-4116, CVE-2018-4134, CVE-2018-4174)</p>\n<p>13) An information disclosure issue existed in the handling of alarms and timers. This issue was addressed through improved access restrictions &#8211; (CVE-2018-4123)</p>\n<p>14) Multiple injection issues were addressed through improved input validation &#8211; (CVE-2018-4105, CVE-2018-4108)</p>\n<p>15) An integer overflow existed in curl. This issue was addressed through improved bounds checking &#8211; (CVE-2017-8816)</p>\n<p>16) An issue existed in CFPreferences. This issue was addressed through improved preferences cleanup &#8211; (CVE-2018-4115)</p>\n<p>17) An issue existed in the handling of S/MIME HTML e-mail. This issue was addressed by not loading remote resources on S/MIME encrypted messages by default if the message has an invalid or missing S/MIME signature &#8211; (CVE-2018-4111)</p>\n<p>18) An issue existed in the parsing of URLs in PDFs. This issue was addressed through improved input validation &#8211; (CVE-2018-4107)</p>\n<p>19) An out-of-bounds read was addressed through improved bounds checking &#8211; (CVE-2018-4136, CVE-2018-4160)</p>\n<p>20) A null pointer dereference issue existed when handling Class 0 SMS messages. This issue was addressed through improved message validation &#8211; (CVE-2018-4140)</p>\n<p>21) Multiple race conditions were addressed with additional validation &#8211; (CVE-2018-4151, CVE-2018-4152, CVE-2018-4154, CVE-2018-4155, CVE-2018-4156, CVE-2018-4157, CVE-2018-4158, CVE-2018-4166, CVE-2018-4167)</p>\n<p>22) A state management issue existed when restoring from a backup. This issue was addressed through improved state checking during restore &#8211; (CVE-2018-4172)</p>\n<p>23) A state management issue was addressed by disabling text input until the destination page loads &#8211; (CVE-2018-4149)</p>\n<p>24) A validation issue existed in the handling of symlinks. This issue was addressed through improved validation of symlinks &#8211; (CVE-2018-4112)</p>\n<p>25) Multiple validation issues were addressed with improved input sanitization &#8211; (CVE-2018-4104, CVE-2018-4138)</p>\n<p>26) By scanning key states, an unprivileged application could log keystrokes entered into other applications even when secure input mode was enabled. This issue was addressed by improved state management &#8211; (CVE-2018-4131)</p>\n<p>27) Multiple issues were addressed by updating to version the current version of LLVM shipping with Xcode &#8211; (CVE-2018-4164)</p>\n<p>28) Safari autofill did not require explicit user interaction before taking place. The issue was addressed through improved autofill heuristics &#8211; (CVE-2018-4137)</p>\n<p>29) The File Widget was displaying cached data when in the locked state. This issue was addressed with improved state management &#8211; (CVE-2018-4168)</p>\n<p>30) The sysadminctl command-line tool required that passwords be passed to it in its arguments, potentially exposing the passwords to other local users. This update makes the password parameter optional, and sysadminctl will prompt for the password if needed &#8211; (CVE-2018-4170)</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-035/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-035/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released a security update stating that multiple vulnerabilities have been discovered in iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, iTunes, Xcode, tvOS,…",
+  "sourceExcerpt": "<p>Apple has released a security update stating that multiple vulnerabilities have been discovered in iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, iTunes, Xcode, tvOS, watchOS and iOS. Details are as follows: 1) A buffer overflow was addressed with improved size validation &#8211; (CVE-2018-4144) 2) A command injection issue existed in the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-106-040318-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released a security update stating that multiple vulnerabilities have been discovered in iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, iTunes, Xcode, tvOS, watchOS and iOS.</p>",
+          "text": "Apple has released a security update stating that multiple vulnerabilities have been discovered in iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, iTunes, Xcode, tvOS, watchOS and iOS."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Details are as follows",
+          "id": "details-are-as-follows"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>A buffer overflow was addressed with improved size validation &#8211; (CVE-2018-4144)</li>\n  <li>A command injection issue existed in the handling of Bracketed Paste Mode. This issue was addressed through improved validation of special characters &#8211; (CVE-2018-4106)</li>\n  <li>A cookie management issue was addressed through improved state management &#8211; (CVE-2018-4110)</li>\n  <li>A cross-origin issue existed with the fetch API. This was addressed through improved input validation &#8211; (CVE-2018-4117)</li>\n  <li>A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2018-4133)</li>\n  <li>A denial of service issue was addressed through improved memory handling &#8211; (CVE-2018-4142)</li>\n  <li>A logic issue existed resulting in memory corruption. This was addressed with improved state management &#8211; (CVE-2018-4139)</li>\n  <li>Multiple logic issues were addressed with improved validation &#8211; (CVE-2018-4175, CVE-2018-4176)</li>\n  <li>A logic issue was addressed with improved restrictions &#8211; (CVE-2017-13890)</li>\n  <li>A memory corruption issue was addressed through improved input validation &#8211; (CVE-2018-4146)</li>\n  <li>An array indexing issue existed in the handling of a function in javascript core. This issue was addressed through improved checks &#8211; (CVE-2018-4113)</li>\n  <li>Multiple inconsistent user interface issues were addressed with improved state management &#8211; (CVE-2018-4102, CVE-2018-4116, CVE-2018-4134, CVE-2018-4174)</li>\n  <li>An information disclosure issue existed in the handling of alarms and timers. This issue was addressed through improved access restrictions &#8211; (CVE-2018-4123)</li>\n  <li>Multiple injection issues were addressed through improved input validation &#8211; (CVE-2018-4105, CVE-2018-4108)</li>\n  <li>An integer overflow existed in curl. This issue was addressed through improved bounds checking &#8211; (CVE-2017-8816)</li>\n  <li>An issue existed in CFPreferences. This issue was addressed through improved preferences cleanup &#8211; (CVE-2018-4115)</li>\n  <li>An issue existed in the handling of S/MIME HTML e-mail. This issue was addressed by not loading remote resources on S/MIME encrypted messages by default if the message has an invalid or missing S/MIME signature &#8211; (CVE-2018-4111)</li>\n  <li>An issue existed in the parsing of URLs in PDFs. This issue was addressed through improved input validation &#8211; (CVE-2018-4107)</li>\n  <li>An out-of-bounds read was addressed through improved bounds checking &#8211; (CVE-2018-4136, CVE-2018-4160)</li>\n  <li>A null pointer dereference issue existed when handling Class 0 SMS messages. This issue was addressed through improved message validation &#8211; (CVE-2018-4140)</li>\n  <li>Multiple race conditions were addressed with additional validation &#8211; (CVE-2018-4151, CVE-2018-4152, CVE-2018-4154, CVE-2018-4155, CVE-2018-4156, CVE-2018-4157, CVE-2018-4158, CVE-2018-4166, CVE-2018-4167)</li>\n  <li>A state management issue existed when restoring from a backup. This issue was addressed through improved state checking during restore &#8211; (CVE-2018-4172)</li>\n  <li>A state management issue was addressed by disabling text input until the destination page loads &#8211; (CVE-2018-4149)</li>\n  <li>A validation issue existed in the handling of symlinks. This issue was addressed through improved validation of symlinks &#8211; (CVE-2018-4112)</li>\n  <li>Multiple validation issues were addressed with improved input sanitization &#8211; (CVE-2018-4104, CVE-2018-4138)</li>\n  <li>By scanning key states, an unprivileged application could log keystrokes entered into other applications even when secure input mode was enabled. This issue was addressed by improved state management &#8211; (CVE-2018-4131)</li>\n  <li>Multiple issues were addressed by updating to version the current version of LLVM shipping with Xcode &#8211; (CVE-2018-4164)</li>\n  <li>Safari autofill did not require explicit user interaction before taking place. The issue was addressed through improved autofill heuristics &#8211; (CVE-2018-4137)</li>\n  <li>The File Widget was displaying cached data when in the locked state. This issue was addressed with improved state management &#8211; (CVE-2018-4168)</li>\n  <li>The sysadminctl command-line tool required that passwords be passed to it in its arguments, potentially exposing the passwords to other local users. This update makes the password parameter optional, and sysadminctl will prompt for the password if needed &#8211; (CVE-2018-4170)</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-035/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-035/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-035/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "details-are-as-follows",
+      "label": "Details are as follows",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-035/"
+  ],
+  "readingTimeMinutes": 4,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-106-040318-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2018-04-03T11:35:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

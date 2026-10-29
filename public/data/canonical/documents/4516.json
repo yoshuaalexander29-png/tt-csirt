@@ -1,0 +1,86 @@
+{
+  "id": "4516",
+  "legacyPostId": 4516,
+  "referenceNumber": "TT-CSIRT #316",
+  "classification": "advisory",
+  "title": "Microsoft releases may 2020 security updates",
+  "rawTitle": "TTCSIRT-316.051520: TT-CSIRT ADVISORY –MICROSOFT RELEASES MAY 2020 SECURITY UPDATES",
+  "slug": "ttcsirt-316-051520-tt-csirt-advisory-microsoft-releases-may-2020-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "15 May 2020",
+  "rawDate": "2020-05-15T19:47:43",
+  "modifiedDate": "15 May 2020",
+  "rawModifiedDate": "2020-05-15T19:47:43",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s May 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further reference please review the following links below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.microsoft.com/en-us/help/20200512/security-update-deployment-information-may-12-2020\">https://support.microsoft.com/en-us/help/20200512/security-update-deployment-information-may-12-2020</a></p>\n",
+  "displaySummary": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s May 2020 Security Update Summary and Deployment Information and apply the necessary updates. For further [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-316-051520-tt-csirt-advisory-microsoft-releases-may-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s May 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s May 2020 Security Update Summary and Deployment Information and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further reference please review the following links below:</p>",
+          "text": "For further reference please review the following links below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.microsoft.com/en-us/help/20200512/security-update-deployment-information-may-12-2020\">https://support.microsoft.com/en-us/help/20200512/security-update-deployment-information-may-12-2020</a></p>",
+          "text": "https://support.microsoft.com/en-us/help/20200512/security-update-deployment-information-may-12-2020"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-May",
+    "https://support.microsoft.com/en-us/help/20200512/security-update-deployment-information-may-12-2020"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-316-051520-tt-csirt-advisory-microsoft-releases-may-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-05-15T19:47:43",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

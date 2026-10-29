@@ -1,0 +1,75 @@
+{
+  "id": "3174",
+  "legacyPostId": 3174,
+  "referenceNumber": "TT-CSIRT #083",
+  "classification": "advisory",
+  "title": "Javascript security updates",
+  "rawTitle": "TTCSIRT-083.013018: TT-CSIRT Advisory – JavaScript Security Updates",
+  "slug": "ttcsirt-083-013018-tt-csirt-advisory-javascript-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A security update has been released for the popular Electron JavaScript library which is used in the development of desktop applications that utilize web components such as Skype and Slack.",
+  "cveList": [],
+  "date": "30 January 2018",
+  "rawDate": "2018-01-30T12:08:26",
+  "modifiedDate": "30 January 2018",
+  "rawModifiedDate": "2018-01-30T12:08:26",
+  "contentHtml": "<p>A security update has been released for the popular Electron JavaScript library which is used in the development of desktop applications that utilize web components such as Skype and Slack.</p>\n<p>A vulnerability has been identified in the library where if the victim navigates to a specially crafted link that calls the app.setAsDefaultProtocolClient method in the Electron API, remote code execution could take place which would allow the attacker to install programs; view, change, or delete data; or create new accounts with full user rights. </p>\n<table>\n<tr>\n<td>Further information on how this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-electron-could-allow-for-remote-code-execution_2018-012/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-electron-could-allow-for-remote-code-execution_2018-012/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "A security update has been released for the popular Electron JavaScript library which is used in the development of desktop applications that utilize web components such as Skype and Slack.",
+  "sourceExcerpt": "<p>A security update has been released for the popular Electron JavaScript library which is used in the development of desktop applications that utilize web components such as Skype and Slack. A vulnerability has been identified in the library where if the victim navigates to a specially crafted link that calls the app.setAsDefaultProtocolClient method in the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-083-013018-tt-csirt-advisory-javascript-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A security update has been released for the popular Electron JavaScript library which is used in the development of desktop applications that utilize web components such as Skype and Slack.</p>",
+          "text": "A security update has been released for the popular Electron JavaScript library which is used in the development of desktop applications that utilize web components such as Skype and Slack."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability has been identified in the library where if the victim navigates to a specially crafted link that calls the app.setAsDefaultProtocolClient method in the Electron API, remote code execution could take place which would allow the attacker to install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "A vulnerability has been identified in the library where if the victim navigates to a specially crafted link that calls the app.setAsDefaultProtocolClient method in the Electron API, remote code execution could take place which would allow the attacker to install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on how this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-electron-could-allow-for-remote-code-execution_2018-012/\">https://www.cisecurity.org/advisory/a-vulnerability-in-electron-could-allow-for-remote-code-execution_2018-012/</a></p>",
+          "text": "Further information on how this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-electron-could-allow-for-remote-code-execution_2018-012/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-electron-could-allow-for-remote-code-execution_2018-012/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-083-013018-tt-csirt-advisory-javascript-security-updates/",
+    "upstreamDisclosedAt": "2018-01-30T12:08:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

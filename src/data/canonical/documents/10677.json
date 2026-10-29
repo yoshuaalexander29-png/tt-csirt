@@ -1,0 +1,159 @@
+{
+  "id": "10677",
+  "legacyPostId": 10677,
+  "referenceNumber": "TT-CSIRT 449.22.08.25",
+  "classification": "advisory",
+  "title": "Microsoft 365 adfs exploit",
+  "rawTitle": "TT-CSIRT – 449.22.08.25 – Microsoft 365 ADFS Exploit",
+  "slug": "tt-csirt-449-22-08-25-microsoft-365-adfs-exploit",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, a sophisticated phishing campaign have been uncovered, that exploits Microsoft’s Active Directory Federation Services (ADFS) to create legitimate-looking login URLs that redirect users to malicious credential-harvesting sites, effectively turning Microsoft’s own infrastructure into an unwitting accomplice in credential theft operations.",
+  "cveList": [],
+  "date": "22 August 2025",
+  "rawDate": "2025-08-22T12:02:46",
+  "modifiedDate": "22 August 2025",
+  "rawModifiedDate": "2025-08-22T12:03:59",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised, a sophisticated phishing campaign have been uncovered, that exploits Microsoft’s Active Directory Federation Services (ADFS) to create legitimate-looking login URLs that redirect users to malicious credential-harvesting sites, effectively turning Microsoft’s own infrastructure into an unwitting accomplice in credential theft operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Exploit</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Malicious Google ads clicked on by users who are then redirected through a complex chain that ultimately leads to authentic-looking Microsoft login pages designed to steal credentials and bypass multi-factor authentication (MFA) through adversary-in-the-middle (AiTM) techniques.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Method</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Threat actors creates custom Microsoft tenants with ADFS configured, generating legitimate office.com URLs that Microsoft’s servers will redirect to attacker-controlled domains, abusing Microsoft’s ADFS infrastructure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Dubbed “ADFSjacking”, the technique mirrors the SAMLjacking attack technique but exploits Microsoft’s federation services instead. This is essentially an open redirect vulnerability, attackers found a way to redirect from a legitimate outlook.office.com link to a phishing Website.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The fake domains are leveraged, like bluegraintours[.]com, which appears to be an AI-generated travel blog designed to evade domain categorization systems used by security tools.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The phishing sites themselves employ reverse-proxy configurations to intercept user sessions during authentication, effectively stealing both credentials and session tokens to bypass MFA protections.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This conditional loading technique prevents automated analysis tools from fully recreating the attack flow, adding another layer of evasion.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img decoding=\"async\" width=\"1024\" height=\"865\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2025/08/ADFS-exploit.png\" alt=\"\" class=\"wp-image-10678\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2025/08/ADFS-exploit.png 1024w, https://ttcsirt.gov.tt/wp-content/uploads/2025/08/ADFS-exploit-300x253.png 300w, https://ttcsirt.gov.tt/wp-content/uploads/2025/08/ADFS-exploit-768x649.png 768w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p class=\"has-text-align-center wp-block-paragraph\"><strong><u>Illustration of exploit execution</u></strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Recommendations</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Monitor proxy logs for suspicious ADFS redirects, particularly those directing to unauthorized domains with /adfs/ls/ in the path, to identify potential threats.</li>\n\n\n\n<li>Monitor for Google redirects to office.com containing advertisement parameters, which may indicate malvertising-based attacks.</li>\n\n\n\n<li>Deploy enterprise-wide ad blockers to reduce exposure to malvertising campaigns, though attackers continue to diversify their delivery methods beyond traditional advertising channels.</li>\n\n\n\n<li>Implement behavior-based detection system to identify malicious activity regardless of the delivery mechanism or infrastructure abuse employed by threat actors.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<figure class=\"wp-block-embed is-type-wp-embed is-provider-cyber-security-news wp-block-embed-cyber-security-news\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"wp-embedded-content\" data-secret=\"ICruWu0KSn\"><a href=\"https://cyberpress.org/credential-theft/\">Microsoft 365 Accounts Under Siege &#8211;  Hackers Exploit ADFS and Office.com for Credential Theft</a></blockquote><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; visibility: hidden;\" title=\"&#8220;Microsoft 365 Accounts Under Siege &#8211;  Hackers Exploit ADFS and Office.com for Credential Theft&#8221; &#8212; Cyber Security News\" src=\"https://cyberpress.org/credential-theft/embed/#?secret=Gaz2yVJIqC#?secret=ICruWu0KSn\" data-secret=\"ICruWu0KSn\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe>\n</div></figure>\n",
+  "displaySummary": "A sophisticated phishing campaign have been uncovered, that exploits Microsoft’s Active Directory Federation Services (ADFS) to create legitimate-looking login URLs that redirect users to…",
+  "sourceExcerpt": "<p>Please be advised, a sophisticated phishing campaign have been uncovered, that exploits Microsoft’s Active Directory Federation Services (ADFS) to create legitimate-looking login URLs that redirect users to malicious credential-harvesting sites, effectively turning Microsoft’s own infrastructure into an unwitting accomplice in credential theft operations. Exploit Malicious Google ads clicked on by users who are then redirected [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-449-22-08-25-microsoft-365-adfs-exploit/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised, a sophisticated phishing campaign have been uncovered, that exploits Microsoft’s Active Directory Federation Services (ADFS) to create legitimate-looking login URLs that redirect users to malicious credential-harvesting sites, effectively turning Microsoft’s own infrastructure into an unwitting accomplice in credential theft operations.</p>",
+          "text": "Please be advised, a sophisticated phishing campaign have been uncovered, that exploits Microsoft’s Active Directory Federation Services (ADFS) to create legitimate-looking login URLs that redirect users to malicious credential-harvesting sites, effectively turning Microsoft’s own infrastructure into an unwitting accomplice in credential theft operations."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Exploit",
+          "id": "exploit"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Malicious Google ads clicked on by users who are then redirected through a complex chain that ultimately leads to authentic-looking Microsoft login pages designed to steal credentials and bypass multi-factor authentication (MFA) through adversary-in-the-middle (AiTM) techniques.</p>",
+          "text": "Malicious Google ads clicked on by users who are then redirected through a complex chain that ultimately leads to authentic-looking Microsoft login pages designed to steal credentials and bypass multi-factor authentication (MFA) through adversary-in-the-middle (AiTM) techniques."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Method",
+          "id": "method"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Threat actors creates custom Microsoft tenants with ADFS configured, generating legitimate office.com URLs that Microsoft’s servers will redirect to attacker-controlled domains, abusing Microsoft’s ADFS infrastructure.</p>",
+          "text": "Threat actors creates custom Microsoft tenants with ADFS configured, generating legitimate office.com URLs that Microsoft’s servers will redirect to attacker-controlled domains, abusing Microsoft’s ADFS infrastructure."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Dubbed “ADFSjacking”, the technique mirrors the SAMLjacking attack technique but exploits Microsoft’s federation services instead. This is essentially an open redirect vulnerability, attackers found a way to redirect from a legitimate outlook.office.com link to a phishing Website.</p>",
+          "text": "Dubbed “ADFSjacking”, the technique mirrors the SAMLjacking attack technique but exploits Microsoft’s federation services instead. This is essentially an open redirect vulnerability, attackers found a way to redirect from a legitimate outlook.office.com link to a phishing Website."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The fake domains are leveraged, like bluegraintours[.]com, which appears to be an AI-generated travel blog designed to evade domain categorization systems used by security tools.</p>",
+          "text": "The fake domains are leveraged, like bluegraintours[.]com, which appears to be an AI-generated travel blog designed to evade domain categorization systems used by security tools."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The phishing sites themselves employ reverse-proxy configurations to intercept user sessions during authentication, effectively stealing both credentials and session tokens to bypass MFA protections.</p>",
+          "text": "The phishing sites themselves employ reverse-proxy configurations to intercept user sessions during authentication, effectively stealing both credentials and session tokens to bypass MFA protections."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This conditional loading technique prevents automated analysis tools from fully recreating the attack flow, adding another layer of evasion.</p>",
+          "text": "This conditional loading technique prevents automated analysis tools from fully recreating the attack flow, adding another layer of evasion."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Illustration of exploit execution",
+          "id": "illustration-of-exploit-execution"
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Monitor proxy logs for suspicious ADFS redirects, particularly those directing to unauthorized domains with /adfs/ls/ in the path, to identify potential threats.</li>\n\n\n\n<li>Monitor for Google redirects to office.com containing advertisement parameters, which may indicate malvertising-based attacks.</li>\n\n\n\n<li>Deploy enterprise-wide ad blockers to reduce exposure to malvertising campaigns, though attackers continue to diversify their delivery methods beyond traditional advertising channels.</li>\n\n\n\n<li>Implement behavior-based detection system to identify malicious activity regardless of the delivery mechanism or infrastructure abuse employed by threat actors.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://cyberpress.org/credential-theft/\">Microsoft 365 Accounts Under Siege &#8211;  Hackers Exploit ADFS and Office.com for Credential Theft</a></p>",
+          "text": "Microsoft 365 Accounts Under Siege – Hackers Exploit ADFS and Office.com for Credential Theft"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "exploit",
+      "label": "Exploit",
+      "isSubItem": true
+    },
+    {
+      "id": "method",
+      "label": "Method",
+      "isSubItem": true
+    },
+    {
+      "id": "illustration-of-exploit-execution",
+      "label": "Illustration of exploit execution",
+      "isSubItem": true
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://cyberpress.org/credential-theft/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-449-22-08-25-microsoft-365-adfs-exploit/",
+    "upstreamDisclosedAt": "2025-08-22T12:02:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

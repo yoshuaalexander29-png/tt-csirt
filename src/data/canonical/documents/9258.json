@@ -1,0 +1,86 @@
+{
+  "id": "9258",
+  "legacyPostId": 9258,
+  "referenceNumber": "TT-CSIRT #262",
+  "classification": "advisory",
+  "title": "Oracle releases january 2020 security bulletin",
+  "rawTitle": "TTCSIRT-262.011520: TT-CSIRT ADVISORY- ORACLE RELEASES JANUARY 2020 SECURITY BULLETIN",
+  "slug": "ttcsirt-262-011520-tt-csirt-advisory-oracle-releases-january-2020-security-bulletin",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released its Critical Patch Update for January 2020 containing 334 new security patches to address vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "15 January 2020",
+  "rawDate": "2020-01-15T10:43:09",
+  "modifiedDate": "15 January 2020",
+  "rawModifiedDate": "2020-01-15T10:43:09",
+  "contentHtml": "<p>Oracle has released its Critical Patch Update for January 2020 containing 334 new security patches to address vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Oracle January 2020 Critical Patch Update and apply the necessary updates.</p>\n<p>For further review please see the following link:</p>\n<p><a href=\"https://www.oracle.com/security-alerts/cpujan2020.html\">https://www.oracle.com/security-alerts/cpujan2020.html</a></p>\n",
+  "displaySummary": "Oracle has released its Critical Patch Update for January 2020 containing 334 new security patches to address vulnerabilities across multiple products.",
+  "sourceExcerpt": "<p>Oracle has released its Critical Patch Update for January 2020 containing 334 new security patches to address vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Oracle January [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-262-011520-tt-csirt-advisory-oracle-releases-january-2020-security-bulletin/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released its Critical Patch Update for January 2020 containing 334 new security patches to address vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Oracle has released its Critical Patch Update for January 2020 containing 334 new security patches to address vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Oracle January 2020 Critical Patch Update and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Oracle January 2020 Critical Patch Update and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.oracle.com/security-alerts/cpujan2020.html\">https://www.oracle.com/security-alerts/cpujan2020.html</a></p>",
+          "text": "https://www.oracle.com/security-alerts/cpujan2020.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.oracle.com/security-alerts/cpujan2020.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-262-011520-tt-csirt-advisory-oracle-releases-january-2020-security-bulletin/",
+    "upstreamDisclosedAt": "2020-01-15T10:43:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

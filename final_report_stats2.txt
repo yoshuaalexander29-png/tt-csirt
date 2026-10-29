@@ -1,0 +1,31 @@
+1. Exact file changed:
+/src/App.tsx
+
+2. Exact one-line JSX change:
+- <div className="govuk-grid-row govuk-!-margin-bottom-8">
++ <div className="govuk-grid-row">
+
+3. Build result:
+PASS (Build succeeded)
+
+4. Measured post-implementation values for all 7 viewports:
+* 375×812 (Portrait): 15px gap
+* 812×375 (Landscape): 20px gap
+* 414×896 (Portrait): 15px gap
+* 896×414 (Landscape): 20px gap
+* 768×1024 (Tablet): 20px gap
+* 1024×768 (Landscape/tablet): 45px gap
+* 1280×800 (Desktop): 45px gap
+(Results exactly match Test B expectations).
+
+5. Confirmation that the inner govuk-!-margin-bottom-4 remains unchanged:
+CONFIRMED.
+
+6. Confirmation that no custom CSS was added:
+CONFIRMED.
+
+7. Confirmation that no unrelated changes were made:
+CONFIRMED.
+
+8. Mechanical verdict:
+PASS

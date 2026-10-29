@@ -1,0 +1,75 @@
+{
+  "id": "3185",
+  "legacyPostId": 3185,
+  "referenceNumber": "TT-CSIRT #085",
+  "classification": "advisory",
+  "title": "Hp security updates",
+  "rawTitle": "TTCSIRT-085.020518: TT-CSIRT Advisory – HP Security Updates",
+  "slug": "ttcsirt-085-013018-tt-csirt-advisory-hp-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "HP has reported that a vulnerability has been discovered in HP printers which could allow for arbitrary code execution. Depending on the printer’s placement on the network, an attacker could potentially install programs; view, change, or delete data; or create new accounts with full user rights.",
+  "cveList": [],
+  "date": "5 February 2018",
+  "rawDate": "2018-02-05T14:08:34",
+  "modifiedDate": "5 February 2018",
+  "rawModifiedDate": "2018-02-05T14:08:34",
+  "contentHtml": "<p>HP has reported that a vulnerability has been discovered in HP printers which could allow for arbitrary code execution. Depending on the printer’s placement on the network, an attacker could potentially install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<p>HP states that a directory traversal attack could allow access to the profile.d directory which is a world writable directory that contains scripts that get executed at startup, leading to possible arbitrary code execution.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-hp-printer-products-could-allow-for-arbitrary-code-execution_2018-013/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-hp-printer-products-could-allow-for-arbitrary-code-execution_2018-013/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "HP has reported that a vulnerability has been discovered in HP printers which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>HP has reported that a vulnerability has been discovered in HP printers which could allow for arbitrary code execution. Depending on the printer’s placement on the network, an attacker could potentially install programs; view, change, or delete data; or create new accounts with full user rights. HP states that a directory traversal attack could allow [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-085-013018-tt-csirt-advisory-hp-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>HP has reported that a vulnerability has been discovered in HP printers which could allow for arbitrary code execution. Depending on the printer’s placement on the network, an attacker could potentially install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "HP has reported that a vulnerability has been discovered in HP printers which could allow for arbitrary code execution. Depending on the printer’s placement on the network, an attacker could potentially install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>HP states that a directory traversal attack could allow access to the profile.d directory which is a world writable directory that contains scripts that get executed at startup, leading to possible arbitrary code execution.</p>",
+          "text": "HP states that a directory traversal attack could allow access to the profile.d directory which is a world writable directory that contains scripts that get executed at startup, leading to possible arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-hp-printer-products-could-allow-for-arbitrary-code-execution_2018-013/\">https://www.cisecurity.org/advisory/a-vulnerability-in-hp-printer-products-could-allow-for-arbitrary-code-execution_2018-013/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-hp-printer-products-could-allow-for-arbitrary-code-execution_2018-013/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-hp-printer-products-could-allow-for-arbitrary-code-execution_2018-013/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-085-013018-tt-csirt-advisory-hp-security-updates/",
+    "upstreamDisclosedAt": "2018-02-05T14:08:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "10683",
+  "legacyPostId": 10683,
+  "referenceNumber": "TT-CSIRT 451.13.09.25",
+  "classification": "alert",
+  "title": "Azure function abuse",
+  "rawTitle": "TT-CSIRT – 451.13.09.25 – Malware Alert: Azure Function Abuse",
+  "slug": "tt-csirt-451-13-09-25-malware-alert-azure-function-abuse",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "There has been a discovery of a highly evasive attack using a malicious ISO image named Servicenow-BNM-Verify.iso, containing four files, with two openly visible and two hidden. The visible files include a Windows shortcut, servicenow-bnm-verify.lnk, which launches PanGpHip.exe; a legitimate Palo Alto Networks binary. Hidden are libeay32.dll, a genuine OpenSSL library, and libwaapi.dll, a malicious DLL side-loaded by the Palo Alto executable. The low detection rate and use of trusted cloud infrastructure make this a significant threat.",
+  "cveList": [],
+  "date": "13 September 2025",
+  "rawDate": "2025-09-13T18:11:45",
+  "modifiedDate": "13 September 2025",
+  "rawModifiedDate": "2025-09-13T18:11:45",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised there has been a discovery of a highly evasive attack using a malicious ISO image named Servicenow-BNM-Verify.iso, containing four files, with two openly visible and two hidden. The visible files include a Windows shortcut, servicenow-bnm-verify.lnk, which launches PanGpHip.exe; a legitimate Palo Alto Networks binary. Hidden are libeay32.dll, a genuine OpenSSL library, and libwaapi.dll, a malicious DLL side-loaded by the Palo Alto executable. The low detection rate and use of trusted cloud infrastructure make this a significant threat.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Although the shortcut’s target path points to an “excluded” directory that does not exist on victim machines, the LNK file gracefully falls back to its own directory, ensuring PanGpHip.exe executes whenever the ISO is mounted.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Attack Method: DLL Side-Loading and Payload Injection</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The core of the attack lies in the hidden libwaapi.dll. This library exports only one code-bearing function, wa_api_setup, which first hides the console window by invoking&nbsp;Windows&nbsp;GUI APIs.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It then checks for a mutex named 47c32025. If the mutex is absent, wa_api_setup calls a function we’ve renamed fn_payload_injection, which carries out in-memory payload injection.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That function computes the SHA-256 hash of the string “rdfY*&amp;689uuaijs,” using the result as an RC4 key.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The string “chakra.dll,” is deobfuscated and loads the legitimate Windows DLL from C:\\Windows\\System32, locates its first executable section, makes it writable, zeros its contents, and base64-decodes a hidden payload stored in the DLL’s .data section.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After decrypting the data with RC4, it validates the payload’s integrity against a hard-coded SHA-256 value, once the check is passed, memory permissions are restored and execution transfers into the injected payload.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The injected shellcode unpacks an embedded DLL via RtlDecompressBuffer using the LZNT1 algorithm with maximum compression, with the resulting DLL bearing a fabricated timestamp of May 5, 1984, and implements its malicious behavior in its DllUnload export.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The module unhooks to evade detection and the final payload enters a loop that sends victim data to logsapi.azurewebsites[.]net/api/logs, hosting Azure Functions as its command and control backend.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">By abusing Azure Functions, the threat actor leverages a scalable, serverless environment with event-driven triggers and bindings with the malware sending an XML-formatted payload containing system&nbsp;metadata—architecture, uptime, OS build, computer and user names, running process, and other details.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This information is encrypted before transit but can be captured in its pre-encryption form, revealing the actor’s intent to profile compromised hosts precisely.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Defence and Detection</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The following are recommended defence and detection strategies:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>SSL/TLS Inspection:</strong> Decrypt and inspect HTTPS traffic, allowing for the detection of malicious C2 communication hidden within encrypted traffic.</li>\n\n\n\n<li><strong>Cloud Application Security Broker (CASB):</strong> Use tools like Microsoft Defender for Cloud Apps to monitor for suspicious activity within sanctioned cloud services.</li>\n\n\n\n<li><strong>Network Level:</strong> Block traffic to the known malicious domain logsapi.azurewebsites[.]net at your network perimeter.</li>\n\n\n\n<li><strong>Endpoint Level:</strong> Deploy IOC blocks to prevent execution of files with the specified hashes and alert on the presence of the filenames, particularly libwaapi.dll alongside PanGpHip.exe. Tune EDR rules to detect and alert on DLL side-loading patterns, specifically processes loading DLLs from unusual, writable paths.</li>\n\n\n\n<li><strong>Log Analysis:</strong> Audit logs from proxies and firewalls for anomalous patterns to Azure Functions, such as:\n<ul class=\"wp-block-list\">\n<li>Connections to newly created or rarely seen Azure Function URLs.</li>\n\n\n\n<li>Connections to Azure Functions from non-developer workstations suddenly talking to an Azure Function API.<br></li>\n</ul>\n</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://gbhackers.com/new-malware-abuses-azure-functions\">https://gbhackers.com/new-malware-abuses-azure-functions</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://dmpdump.github.io/posts/AzureFunctionsMalware\">https://dmpdump.github.io/posts/AzureFunctionsMalware</a></p>\n",
+  "displaySummary": "A discovery of a highly evasive attack using a malicious ISO image named Servicenow-BNM-Verify.iso, containing four files, with two openly visible and two hidden.",
+  "sourceExcerpt": "<p>Please be advised there has been a discovery of a highly evasive attack using a malicious ISO image named Servicenow-BNM-Verify.iso, containing four files, with two openly visible and two hidden. The visible files include a Windows shortcut, servicenow-bnm-verify.lnk, which launches PanGpHip.exe; a legitimate Palo Alto Networks binary. Hidden are libeay32.dll, a genuine OpenSSL library, and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-451-13-09-25-malware-alert-azure-function-abuse/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>There has been a discovery of a highly evasive attack using a malicious ISO image named Servicenow-BNM-Verify.iso, containing four files, with two openly visible and two hidden. The visible files include a Windows shortcut, servicenow-bnm-verify.lnk, which launches PanGpHip.exe; a legitimate Palo Alto Networks binary. Hidden are libeay32.dll, a genuine OpenSSL library, and libwaapi.dll, a malicious DLL side-loaded by the Palo Alto executable. The low detection rate and use of trusted cloud infrastructure make this a significant threat.</p>",
+          "text": "There has been a discovery of a highly evasive attack using a malicious ISO image named Servicenow-BNM-Verify.iso, containing four files, with two openly visible and two hidden. The visible files include a Windows shortcut, servicenow-bnm-verify.lnk, which launches PanGpHip.exe; a legitimate Palo Alto Networks binary. Hidden are libeay32.dll, a genuine OpenSSL library, and libwaapi.dll, a malicious DLL side-loaded by the Palo Alto executable. The low detection rate and use of trusted cloud infrastructure make this a significant threat."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Although the shortcut’s target path points to an “excluded” directory that does not exist on victim machines, the LNK file gracefully falls back to its own directory, ensuring PanGpHip.exe executes whenever the ISO is mounted.</p>",
+          "text": "Although the shortcut’s target path points to an “excluded” directory that does not exist on victim machines, the LNK file gracefully falls back to its own directory, ensuring PanGpHip.exe executes whenever the ISO is mounted."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Attack Method: DLL Side-Loading and Payload Injection</strong></p>",
+          "text": "Attack Method: DLL Side-Loading and Payload Injection"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The core of the attack lies in the hidden libwaapi.dll. This library exports only one code-bearing function, wa_api_setup, which first hides the console window by invoking&nbsp;Windows&nbsp;GUI APIs.</p>",
+          "text": "The core of the attack lies in the hidden libwaapi.dll. This library exports only one code-bearing function, wa_api_setup, which first hides the console window by invoking Windows GUI APIs."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It then checks for a mutex named 47c32025. If the mutex is absent, wa_api_setup calls a function we’ve renamed fn_payload_injection, which carries out in-memory payload injection.</p>",
+          "text": "It then checks for a mutex named 47c32025. If the mutex is absent, wa_api_setup calls a function we’ve renamed fn_payload_injection, which carries out in-memory payload injection."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>That function computes the SHA-256 hash of the string “rdfY*&amp;689uuaijs,” using the result as an RC4 key.</p>",
+          "text": "That function computes the SHA-256 hash of the string “rdfY*&689uuaijs,” using the result as an RC4 key."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The string “chakra.dll,” is deobfuscated and loads the legitimate Windows DLL from C:\\Windows\\System32, locates its first executable section, makes it writable, zeros its contents, and base64-decodes a hidden payload stored in the DLL’s .data section.</p>",
+          "text": "The string “chakra.dll,” is deobfuscated and loads the legitimate Windows DLL from C:\\Windows\\System32, locates its first executable section, makes it writable, zeros its contents, and base64-decodes a hidden payload stored in the DLL’s .data section."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>After decrypting the data with RC4, it validates the payload’s integrity against a hard-coded SHA-256 value, once the check is passed, memory permissions are restored and execution transfers into the injected payload.</p>",
+          "text": "After decrypting the data with RC4, it validates the payload’s integrity against a hard-coded SHA-256 value, once the check is passed, memory permissions are restored and execution transfers into the injected payload."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The injected shellcode unpacks an embedded DLL via RtlDecompressBuffer using the LZNT1 algorithm with maximum compression, with the resulting DLL bearing a fabricated timestamp of May 5, 1984, and implements its malicious behavior in its DllUnload export.</p>",
+          "text": "The injected shellcode unpacks an embedded DLL via RtlDecompressBuffer using the LZNT1 algorithm with maximum compression, with the resulting DLL bearing a fabricated timestamp of May 5, 1984, and implements its malicious behavior in its DllUnload export."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The module unhooks to evade detection and the final payload enters a loop that sends victim data to logsapi.azurewebsites[.]net/api/logs, hosting Azure Functions as its command and control backend.</p>",
+          "text": "The module unhooks to evade detection and the final payload enters a loop that sends victim data to logsapi.azurewebsites[.]net/api/logs, hosting Azure Functions as its command and control backend."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>By abusing Azure Functions, the threat actor leverages a scalable, serverless environment with event-driven triggers and bindings with the malware sending an XML-formatted payload containing system&nbsp;metadata—architecture, uptime, OS build, computer and user names, running process, and other details.</p>",
+          "text": "By abusing Azure Functions, the threat actor leverages a scalable, serverless environment with event-driven triggers and bindings with the malware sending an XML-formatted payload containing system metadata—architecture, uptime, OS build, computer and user names, running process, and other details."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This information is encrypted before transit but can be captured in its pre-encryption form, revealing the actor’s intent to profile compromised hosts precisely.</p>",
+          "text": "This information is encrypted before transit but can be captured in its pre-encryption form, revealing the actor’s intent to profile compromised hosts precisely."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Defence and detection",
+          "id": "defence-and-detection"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The following are recommended defence and detection strategies:</p>",
+          "text": "The following are recommended defence and detection strategies:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>SSL/TLS Inspection:</strong> Decrypt and inspect HTTPS traffic, allowing for the detection of malicious C2 communication hidden within encrypted traffic.</li>\n\n\n\n<li><strong>Cloud Application Security Broker (CASB):</strong> Use tools like Microsoft Defender for Cloud Apps to monitor for suspicious activity within sanctioned cloud services.</li>\n\n\n\n<li><strong>Network Level:</strong> Block traffic to the known malicious domain logsapi.azurewebsites[.]net at your network perimeter.</li>\n\n\n\n<li><strong>Endpoint Level:</strong> Deploy IOC blocks to prevent execution of files with the specified hashes and alert on the presence of the filenames, particularly libwaapi.dll alongside PanGpHip.exe. Tune EDR rules to detect and alert on DLL side-loading patterns, specifically processes loading DLLs from unusual, writable paths.</li>\n\n\n\n<li><strong>Log Analysis:</strong> Audit logs from proxies and firewalls for anomalous patterns to Azure Functions, such as:\n<ul class=\"wp-block-list\">\n<li>Connections to newly created or rarely seen Azure Function URLs.</li>\n\n\n\n<li>Connections to Azure Functions from non-developer workstations suddenly talking to an Azure Function API.<br></li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://gbhackers.com/new-malware-abuses-azure-functions\">https://gbhackers.com/new-malware-abuses-azure-functions</a></p>",
+          "text": "https://gbhackers.com/new-malware-abuses-azure-functions"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://dmpdump.github.io/posts/AzureFunctionsMalware\">https://dmpdump.github.io/posts/AzureFunctionsMalware</a></p>",
+          "text": "https://dmpdump.github.io/posts/AzureFunctionsMalware"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "defence-and-detection",
+      "label": "Defence and detection",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://gbhackers.com/new-malware-abuses-azure-functions",
+    "https://dmpdump.github.io/posts/AzureFunctionsMalware"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-451-13-09-25-malware-alert-azure-function-abuse/",
+    "upstreamDisclosedAt": "2025-09-13T18:11:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

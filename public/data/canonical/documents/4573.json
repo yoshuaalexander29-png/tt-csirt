@@ -1,0 +1,94 @@
+{
+  "id": "4573",
+  "legacyPostId": 4573,
+  "referenceNumber": "TT-CSIRT 325.07.17.20",
+  "classification": "advisory",
+  "title": "Cisco releases security updates for multiple products",
+  "rawTitle": "TTCSIRT-325.07.17.20: TT-CSIRT ADVISORY-CISCO RELEASES SECURITY UPDATES FOR MULTIPLE PRODUCTS",
+  "slug": "ttcsirt-325-07-17-20-tt-csirt-advisory-cisco-releases-security-updates-for-multiple-products",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities affecting multiple products. An unauthenticated, remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "17 July 2020",
+  "rawDate": "2020-07-17T09:36:31",
+  "modifiedDate": "17 July 2020",
+  "rawModifiedDate": "2020-07-17T09:36:31",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released security updates to address vulnerabilities affecting multiple products. An unauthenticated, remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The following are affected appliances along with links detailing its respective vulnerability:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Small Business RV110W Wireless-N VPN Firewall Static Default Credential Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv110w-static-cred-BMTWBWTy\">cisco-sa-rv110w-static-cred-BMTWBWTy</a></li><li>Small Business RV110W, RV130, RV130W, and RV215W Routers Management Interface Remote Command Execution Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-rce-AQKREqp\">cisco-sa-rv-rce-AQKREqp</a></li><li>RV110W, RV130, RV130W, and RV215W Routers Authentication Bypass Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-auth-bypass-cGv9EruZ\">cisco-sa-rv-auth-bypass-cGv9EruZ</a></li><li>RV110W and RV215W Series Routers Arbitrary Code Execution Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-code-exec-wH3BNFb\">cisco-sa-code-exec-wH3BNFb</a></li><li>Cisco Prime License Manager Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-prime-priv-esc-HyhwdzBA\">cisco-sa-cisco-prime-priv-esc-HyhwdzBA</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Cisco Advisories and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://tools.cisco.com/security/center/publicationListing.x\">https://tools.cisco.com/security/center/publicationListing.x</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities affecting multiple products.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. An unauthenticated, remote attacker could exploit some of these vulnerabilities to take control of an affected system. The following are affected appliances along with links detailing its respective vulnerability: Small Business RV110W Wireless-N VPN Firewall Static Default Credential Vulnerability cisco-sa-rv110w-static-cred-BMTWBWTy Small Business RV110W, RV130, RV130W, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-325-07-17-20-tt-csirt-advisory-cisco-releases-security-updates-for-multiple-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. An unauthenticated, remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities affecting multiple products. An unauthenticated, remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The following are affected appliances along with links detailing its respective vulnerability:</p>",
+          "text": "The following are affected appliances along with links detailing its respective vulnerability:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Small Business RV110W Wireless-N VPN Firewall Static Default Credential Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv110w-static-cred-BMTWBWTy\">cisco-sa-rv110w-static-cred-BMTWBWTy</a></li><li>Small Business RV110W, RV130, RV130W, and RV215W Routers Management Interface Remote Command Execution Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-rce-AQKREqp\">cisco-sa-rv-rce-AQKREqp</a></li><li>RV110W, RV130, RV130W, and RV215W Routers Authentication Bypass Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-auth-bypass-cGv9EruZ\">cisco-sa-rv-auth-bypass-cGv9EruZ</a></li><li>RV110W and RV215W Series Routers Arbitrary Code Execution Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-code-exec-wH3BNFb\">cisco-sa-code-exec-wH3BNFb</a></li><li>Cisco Prime License Manager Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-prime-priv-esc-HyhwdzBA\">cisco-sa-cisco-prime-priv-esc-HyhwdzBA</a></li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Cisco Advisories and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following Cisco Advisories and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page:</p>",
+          "text": "For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/publicationListing.x\">https://tools.cisco.com/security/center/publicationListing.x</a></p>",
+          "text": "https://tools.cisco.com/security/center/publicationListing.x"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv110w-static-cred-BMTWBWTy",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-rce-AQKREqp",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-rv-auth-bypass-cGv9EruZ",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-code-exec-wH3BNFb",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cisco-prime-priv-esc-HyhwdzBA",
+    "https://tools.cisco.com/security/center/publicationListing.x"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-325-07-17-20-tt-csirt-advisory-cisco-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2020-07-17T09:36:31",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

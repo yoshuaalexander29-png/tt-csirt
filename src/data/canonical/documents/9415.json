@@ -1,0 +1,77 @@
+{
+  "id": "9415",
+  "legacyPostId": 9415,
+  "referenceNumber": "TT-CSIRT 429.10.07.24",
+  "classification": "alert",
+  "title": "Citrix releases security updates for multiple products",
+  "rawTitle": "TT-CSIRT 429.10.07.24: Citrix Releases Security Updates for Multiple Products",
+  "slug": "tt-csirt-429-10-07-24-citrix-releases-security-updates-for-multiple-products",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Citrix has announced significant security updates to address vulnerabilities across multiple products. Administrators should promptly review and implement the following updates:",
+  "cveList": [
+    "CVE-2024-5491",
+    "CVE-2024-5492",
+    "CVE-2024-6235",
+    "CVE-2024-6236",
+    "CVE-2024-6148",
+    "CVE-2024-6149",
+    "CVE-2024-6150",
+    "CVE-2024-6151",
+    "CVE-2024-6286"
+  ],
+  "date": "11 July 2024",
+  "rawDate": "2024-07-11T13:59:04",
+  "modifiedDate": "11 July 2024",
+  "rawModifiedDate": "2024-07-11T13:59:04",
+  "contentHtml": "<p>Citrix has announced significant security updates to address vulnerabilities across multiple products. Administrators should promptly review and implement the following updates:</p>\n<ul>\n<li><strong>NetScaler ADC and NetScaler Gateway</strong>: CVE-2024-5491, CVE-2024-5492</li>\n<li><strong>NetScaler Console, Agent, and SVM</strong>: CVE-2024-6235, CVE-2024-6236</li>\n<li><strong>Citrix Workspace app for HTML5</strong>: CVE-2024-6148, CVE-2024-6149</li>\n<li><strong>Citrix Provisioning</strong>: CVE-2024-6150</li>\n<li><strong>Windows Virtual Delivery Agent for CVAD and Citrix DaaS</strong>: CVE-2024-6151</li>\n<li><strong>Citrix Workspace app for Windows</strong>: CVE-2024-6286</li>\n</ul>\n<p>For queries or assistance, contact TT-CSIRT at <a rel=\"noreferrer\">contacts@ttcsirt.gov.tt</a>.</p>\n",
+  "displaySummary": "Citrix has announced significant security updates to address vulnerabilities across multiple products.",
+  "sourceExcerpt": "<p>Citrix has announced significant security updates to address vulnerabilities across multiple products. Administrators should promptly review and implement the following updates: NetScaler ADC and NetScaler Gateway: CVE-2024-5491, CVE-2024-5492 NetScaler Console, Agent, and SVM: CVE-2024-6235, CVE-2024-6236 Citrix Workspace app for HTML5: CVE-2024-6148, CVE-2024-6149 Citrix Provisioning: CVE-2024-6150 Windows Virtual Delivery Agent for CVAD and Citrix DaaS: CVE-2024-6151 [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-429-10-07-24-citrix-releases-security-updates-for-multiple-products/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Citrix has announced significant security updates to address vulnerabilities across multiple products. Administrators should promptly review and implement the following updates:</p>",
+          "text": "Citrix has announced significant security updates to address vulnerabilities across multiple products. Administrators should promptly review and implement the following updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><strong>NetScaler ADC and NetScaler Gateway</strong>: CVE-2024-5491, CVE-2024-5492</li>\n<li><strong>NetScaler Console, Agent, and SVM</strong>: CVE-2024-6235, CVE-2024-6236</li>\n<li><strong>Citrix Workspace app for HTML5</strong>: CVE-2024-6148, CVE-2024-6149</li>\n<li><strong>Citrix Provisioning</strong>: CVE-2024-6150</li>\n<li><strong>Windows Virtual Delivery Agent for CVAD and Citrix DaaS</strong>: CVE-2024-6151</li>\n<li><strong>Citrix Workspace app for Windows</strong>: CVE-2024-6286</li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-429-10-07-24-citrix-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2024-07-11T13:59:04",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

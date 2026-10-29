@@ -1,0 +1,74 @@
+{
+  "id": "3880",
+  "legacyPostId": 3880,
+  "referenceNumber": "TT-CSIRT #241",
+  "classification": "advisory",
+  "title": "Bluekeep active exploitation",
+  "rawTitle": "TTCSIRT-241.110419: TT-CSIRT ADVISORY – BLUEKEEP ACTIVE EXPLOITATION",
+  "slug": "ttcsirt-241-110419-tt-csirt-advisory-bluekeep-active-exploitation",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "There are confirmed reports that the BlueKeep RDP flaw in Windows based systems is now being actively exploited in the wild. BlueKeep (CVE-2019-0708) is a security vulnerability that was discovered in Microsoft’s Remote Desktop Protocol implementation, which allows for the possibility of remote code execution. BlueKeep has the potential to cause significant damage like the WannaCry and NotPetya outbreaks of previous years.",
+  "cveList": [
+    "CVE-2019-0708"
+  ],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:26:29",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:26:29",
+  "contentHtml": "<p>There are confirmed reports that the BlueKeep RDP flaw in Windows based systems is now being actively exploited in the wild. BlueKeep (CVE-2019-0708) is a security vulnerability that was discovered in Microsoft&#8217;s Remote Desktop Protocol implementation, which allows for the possibility of remote code execution. BlueKeep has the potential to cause significant damage like the WannaCry and NotPetya outbreaks of previous years.</p>\n<p>TTCSIRT strongly recommends that administrators update all Windows based systems immediately. Microsoft released a security patch for this vulnerability in May 2019. If applying the security patch in your organization is not immediately possible, then you can take these mitigations:</p>\n<ul>\n<li>Disable RDP services, if not required.</li>\n<li>Block port 3389 using a firewall or make it accessible only over a private VPN.</li>\n<li>Enable Network Level Authentication (NLA) – this is partial mitigation to prevent any unauthenticated attacker from exploiting this Wormable flaw.</li>\n</ul>\n",
+  "displaySummary": "There are confirmed reports that the BlueKeep RDP flaw in Windows based systems is now being actively exploited in the wild.",
+  "sourceExcerpt": "<p>There are confirmed reports that the BlueKeep RDP flaw in Windows based systems is now being actively exploited in the wild. BlueKeep (CVE-2019-0708) is a security vulnerability that was discovered in Microsoft&#8217;s Remote Desktop Protocol implementation, which allows for the possibility of remote code execution. BlueKeep has the potential to cause significant damage like the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-241-110419-tt-csirt-advisory-bluekeep-active-exploitation/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>There are confirmed reports that the BlueKeep RDP flaw in Windows based systems is now being actively exploited in the wild. BlueKeep (CVE-2019-0708) is a security vulnerability that was discovered in Microsoft&#8217;s Remote Desktop Protocol implementation, which allows for the possibility of remote code execution. BlueKeep has the potential to cause significant damage like the WannaCry and NotPetya outbreaks of previous years.</p>",
+          "text": "There are confirmed reports that the BlueKeep RDP flaw in Windows based systems is now being actively exploited in the wild. BlueKeep (CVE-2019-0708) is a security vulnerability that was discovered in Microsoft’s Remote Desktop Protocol implementation, which allows for the possibility of remote code execution. BlueKeep has the potential to cause significant damage like the WannaCry and NotPetya outbreaks of previous years."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT strongly recommends that administrators update all Windows based systems immediately. Microsoft released a security patch for this vulnerability in May 2019. If applying the security patch in your organization is not immediately possible, then you can take these mitigations:</p>",
+          "text": "TTCSIRT strongly recommends that administrators update all Windows based systems immediately. Microsoft released a security patch for this vulnerability in May 2019. If applying the security patch in your organization is not immediately possible, then you can take these mitigations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Disable RDP services, if not required.</li>\n<li>Block port 3389 using a firewall or make it accessible only over a private VPN.</li>\n<li>Enable Network Level Authentication (NLA) – this is partial mitigation to prevent any unauthenticated attacker from exploiting this Wormable flaw.</li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-241-110419-tt-csirt-advisory-bluekeep-active-exploitation/",
+    "upstreamDisclosedAt": "2019-11-13T08:26:29",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

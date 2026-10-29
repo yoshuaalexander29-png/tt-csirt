@@ -1,0 +1,191 @@
+{
+  "id": "10680",
+  "legacyPostId": 10680,
+  "referenceNumber": "TT-CSIRT 450.29.08.25",
+  "classification": "alert",
+  "title": "FreePBX vulnerability",
+  "rawTitle": "TT-CSIRT – 450.29.08.25 – FreePBX Vulnerability",
+  "slug": "tt-csirt-450-29-08-25-freepbx-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, A critical vulnerability has been discovered in the FreePBX Endpoint module, affecting versions 15, 16, and 17. The vulnerability arises from improper sanitization of user-supplied data, which can be exploited by unauthenticated attackers to gain unauthorized access to the FreePBX Administrator Control Panel. Successful exploitation can result in arbitrary database manipulation and remote code execution.",
+  "cveList": [
+    "CVE-2025-57819"
+  ],
+  "date": "29 August 2025",
+  "rawDate": "2025-08-29T15:55:49",
+  "modifiedDate": "29 August 2025",
+  "rawModifiedDate": "2025-08-29T15:55:49",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised, A critical vulnerability has been discovered in the FreePBX Endpoint module, affecting versions 15, 16, and 17. The vulnerability arises from improper sanitization of user-supplied data, which can be exploited by unauthenticated attackers to gain unauthorized access to the FreePBX Administrator Control Panel. Successful exploitation can result in arbitrary database manipulation and remote code execution.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Detection Method:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>1.</strong> <strong>Check for broken FreePBX Administrator web interface:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>If the FreePBX Administrator web interface is broken or not loading properly, check for the existence of the file <code>/etc/freepbx.conf</code> using the command:  <code>$ ls -l /etc/freepbx.conf</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>2.</strong> <strong>Check for an exploit-related file:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The file <code>/var/www/html/.clean.sh</code> should not exist on a normal system. Check for its presence with the following command:  <code>$ ls -l /var/www/html/.clean.sh</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>3.</strong> <strong>Review Apache logs for suspicious activity:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Search for <code>POST</code> requests to <code>modular.php</code> in your Apache logs, dating back to at least August 21st, using the command:  <code>$ zgrep modular.php /var/log/{httpd,apache2}/access*</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>4.</strong> <strong>Review Asterisk logs for suspicious calls:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Check for calls to extension <code>9998</code> in your Asterisk logs, dating back to at least August 21st, using the command:  <code>$ grep 9998 /var/log/asterisk/full*</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>5.</strong> <strong>Review MariaDB/MySQL logs and tables for unauthorized users:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Examine the <code>ampusers</code> table for suspicious or unknown users with the following command:  <code>$ mysql -e \"SELECT * FROM ampusers\" asterisk</code></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Immediate Actions:</strong></p>\n\n\n\n<ol start=\"1\" class=\"wp-block-list\">\n<li><strong>Determine internet exposure:</strong> <br>Assess if your FreePBX/PBXAct system is accessible from the public internet.</li>\n\n\n\n<li><strong>Activate and configure the FreePBX Firewall:</strong><br>Configure the FreePBX Firewall module to restrict access to the Web Management interfaces.<br>Lock down access to only your IP address and other known trusted hosts.<br>Disallow all access from the Internet/External zone to the Web Management interfaces.</li>\n\n\n\n<li><strong>Upgrade the Endpoint module:</strong><br>Immediately upgrade the FreePBX Endpoint module to the latest available version.<br>The patched versions are <strong>15.0.66</strong>, <strong>16.0.89</strong>, and <strong>17.0.3</strong>.<br>Confirm the update via the <strong>Admin -> Module Admin</strong> menu.<br><strong>Note:</strong> If the update fails, you may need to renew your commercial module licenses via the <a href=\"https://portal.sangoma.com/\">Sangoma Portal</a> and try again.</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>If “endpoint” is NOT installed, then your system is probably NOT at risk of infection</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-57819\">https://www.cve.org/CVERecord?id=CVE-2025-57819</a><a href=\"https://community.freepbx.org/t/security-advisory-please-lock-down-your-administrator-access/107203\">https://community.freepbx.org/t/security-advisory-please-lock-down-your-administrator-access/107203</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "A critical vulnerability has been discovered in the FreePBX Endpoint module, affecting versions 15, 16, and 17.",
+  "sourceExcerpt": "<p>Please be advised, A critical vulnerability has been discovered in the FreePBX Endpoint module, affecting versions 15, 16, and 17. The vulnerability arises from improper sanitization of user-supplied data, which can be exploited by unauthenticated attackers to gain unauthorized access to the FreePBX Administrator Control Panel. Successful exploitation can result in arbitrary database manipulation and remote [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-450-29-08-25-freepbx-vulnerability/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised, A critical vulnerability has been discovered in the FreePBX Endpoint module, affecting versions 15, 16, and 17. The vulnerability arises from improper sanitization of user-supplied data, which can be exploited by unauthenticated attackers to gain unauthorized access to the FreePBX Administrator Control Panel. Successful exploitation can result in arbitrary database manipulation and remote code execution.</p>",
+          "text": "Please be advised, A critical vulnerability has been discovered in the FreePBX Endpoint module, affecting versions 15, 16, and 17. The vulnerability arises from improper sanitization of user-supplied data, which can be exploited by unauthenticated attackers to gain unauthorized access to the FreePBX Administrator Control Panel. Successful exploitation can result in arbitrary database manipulation and remote code execution."
+        }
+      ]
+    },
+    {
+      "id": "detection-method",
+      "title": "Detection method",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Check for broken FreePBX administrator web interface",
+          "id": "check-for-broken-freepbx-administrator-web-interface"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>If the FreePBX Administrator web interface is broken or not loading properly, check for the existence of the file <code>/etc/freepbx.conf</code> using the command:  <code>$ ls -l /etc/freepbx.conf</code></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Check for an exploit-related file",
+          "id": "check-for-an-exploit-related-file"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>The file <code>/var/www/html/.clean.sh</code> should not exist on a normal system. Check for its presence with the following command:  <code>$ ls -l /var/www/html/.clean.sh</code></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Review Apache logs for suspicious activity",
+          "id": "review-apache-logs-for-suspicious-activity"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Search for <code>POST</code> requests to <code>modular.php</code> in your Apache logs, dating back to at least August 21st, using the command:  <code>$ zgrep modular.php /var/log/{httpd,apache2}/access*</code></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Review Asterisk logs for suspicious calls",
+          "id": "review-asterisk-logs-for-suspicious-calls"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Check for calls to extension <code>9998</code> in your Asterisk logs, dating back to at least August 21st, using the command:  <code>$ grep 9998 /var/log/asterisk/full*</code></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Review MariaDB/MySQL logs and tables for unauthorized users",
+          "id": "review-mariadbmysql-logs-and-tables-for-unauthorized-users"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Examine the <code>ampusers</code> table for suspicious or unknown users with the following command:  <code>$ mysql -e \"SELECT * FROM ampusers\" asterisk</code></li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "immediate-actions",
+      "title": "Immediate actions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"1\" class=\"wp-block-list\">\n<li><strong>Determine internet exposure:</strong> <br>Assess if your FreePBX/PBXAct system is accessible from the public internet.</li>\n\n\n\n<li><strong>Activate and configure the FreePBX Firewall:</strong><br>Configure the FreePBX Firewall module to restrict access to the Web Management interfaces.<br>Lock down access to only your IP address and other known trusted hosts.<br>Disallow all access from the Internet/External zone to the Web Management interfaces.</li>\n\n\n\n<li><strong>Upgrade the Endpoint module:</strong><br>Immediately upgrade the FreePBX Endpoint module to the latest available version.<br>The patched versions are <strong>15.0.66</strong>, <strong>16.0.89</strong>, and <strong>17.0.3</strong>.<br>Confirm the update via the <strong>Admin -> Module Admin</strong> menu.</p><p><strong>Note:</strong> If the update fails, you may need to renew your commercial module licenses via the <a href=\"https://portal.sangoma.com/\">Sangoma Portal</a> and try again.</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>If “endpoint” is NOT installed, then your system is probably NOT at risk of infection</strong></p>",
+          "text": "If “endpoint” is NOT installed, then your system is probably NOT at risk of infection"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-57819\">https://www.cve.org/CVERecord?id=CVE-2025-57819</a><a href=\"https://community.freepbx.org/t/security-advisory-please-lock-down-your-administrator-access/107203\">https://community.freepbx.org/t/security-advisory-please-lock-down-your-administrator-access/107203</a></p>",
+          "text": "https://www.cve.org/CVERecord?id=CVE-2025-57819 https://community.freepbx.org/t/security-advisory-please-lock-down-your-administrator-access/107203"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "detection-method",
+      "label": "Detection method"
+    },
+    {
+      "id": "check-for-broken-freepbx-administrator-web-interface",
+      "label": "Check for broken FreePBX administrator web interface",
+      "isSubItem": true
+    },
+    {
+      "id": "check-for-an-exploit-related-file",
+      "label": "Check for an exploit-related file",
+      "isSubItem": true
+    },
+    {
+      "id": "review-apache-logs-for-suspicious-activity",
+      "label": "Review Apache logs for suspicious activity",
+      "isSubItem": true
+    },
+    {
+      "id": "review-asterisk-logs-for-suspicious-calls",
+      "label": "Review Asterisk logs for suspicious calls",
+      "isSubItem": true
+    },
+    {
+      "id": "review-mariadbmysql-logs-and-tables-for-unauthorized-users",
+      "label": "Review MariaDB/MySQL logs and tables for unauthorized users",
+      "isSubItem": true
+    },
+    {
+      "id": "immediate-actions",
+      "label": "Immediate actions"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.sangoma.com/",
+    "https://www.cve.org/CVERecord?id=CVE-2025-57819",
+    "https://community.freepbx.org/t/security-advisory-please-lock-down-your-administrator-access/107203"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-450-29-08-25-freepbx-vulnerability/",
+    "upstreamDisclosedAt": "2025-08-29T15:55:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

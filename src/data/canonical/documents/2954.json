@@ -1,0 +1,70 @@
+{
+  "id": "2954",
+  "legacyPostId": 2954,
+  "referenceNumber": "TT-CSIRT #036",
+  "classification": "advisory",
+  "title": "Hp security updates",
+  "rawTitle": "TTCSIRT-036.082917: TT-CSIRT Advisory – HP Security Updates",
+  "slug": "ttcsirt-036-082917-tt-csirt-advisory-hp-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "HP has released a security update to address a potential security vulnerability that has been identified in HPE Integrated Lights-out which could be exploited remotely to allow authentication bypass and execution of code.",
+  "cveList": [],
+  "date": "29 August 2017",
+  "rawDate": "2017-08-29T19:45:03",
+  "modifiedDate": "29 August 2017",
+  "rawModifiedDate": "2017-08-29T19:45:03",
+  "contentHtml": "<p>HP has released a security update to address a potential security vulnerability that has been identified in HPE Integrated Lights-out which could be exploited remotely to allow authentication bypass and execution of code.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on the HP Website at <a href=\"http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us\"><font size=\"2\" color=\"maroon\">http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "HP has released a security update to address a potential security vulnerability that has been identified in HPE Integrated Lights-out which could be exploited remotely to allow authentication…",
+  "sourceExcerpt": "<p>HP has released a security update to address a potential security vulnerability that has been identified in HPE Integrated Lights-out which could be exploited remotely to allow authentication bypass and execution of code. Further information on this vulnerability and how it can be fixed can be found on the HP Website at http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-036-082917-tt-csirt-advisory-hp-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>HP has released a security update to address a potential security vulnerability that has been identified in HPE Integrated Lights-out which could be exploited remotely to allow authentication bypass and execution of code.</p>",
+          "text": "HP has released a security update to address a potential security vulnerability that has been identified in HPE Integrated Lights-out which could be exploited remotely to allow authentication bypass and execution of code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on the HP Website at <a href=\"http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us\">http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on the HP Website at http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://h20565.www2.hpe.com/hpsc/doc/public/display?docId=hpesbhf03769en_us"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-036-082917-tt-csirt-advisory-hp-security-updates/",
+    "upstreamDisclosedAt": "2017-08-29T19:45:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

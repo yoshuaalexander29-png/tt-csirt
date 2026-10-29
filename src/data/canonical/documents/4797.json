@@ -1,0 +1,150 @@
+{
+  "id": "4797",
+  "legacyPostId": 4797,
+  "referenceNumber": "TT-CSIRT #4797",
+  "classification": "alert",
+  "title": "Ransomware activity targeting the healthcare and public health sector",
+  "rawTitle": "TTCSIRT-THREAT ALERT: Ransomware Activity Targeting the Healthcare and Public Health Sector",
+  "slug": "ttcsirt-threat-alert-ransomware-activity-targeting-the-healthcare-and-public-health-sector",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, there is an observed significant increase in ransomware attacks targeting Healthcare and the Health Sector in neighboring countries. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access.",
+  "cveList": [],
+  "date": "6 November 2020",
+  "rawDate": "2020-11-06T15:50:07",
+  "modifiedDate": "6 November 2020",
+  "rawModifiedDate": "2020-11-06T15:50:07",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised, there is an observed significant increase in ransomware attacks targeting Healthcare and the Health Sector in neighboring countries. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT is urging all entities to adopt a heighten state of awareness and be guided by the following:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Attack Vectors</strong><br>Ransomware attacks can be initiated through multiple attack vectors. The most prominent ones that TT-CSIRT has seen used against local entities are:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Exploiting system vulnerabilities (particularly outdated firewall devices and exposed remote desktop protocol)</li><li>Phishing emails with infected attachments or links</li><li>Compromising user credentials</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">These threat actors increasingly use loaders—like TrickBot and BazarLoader (or BazarBackdoor)—as part of their malicious cyber campaigns. Cybercriminals disseminate TrickBot and BazarLoader via phishing campaigns that contain either links to malicious websites that host the malware or attachments with the malware. Loaders start the infection chain by distributing the payload; they deploy and execute the backdoor from the command and control (C2) server and install it on the victim’s machine.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>TrickBot Indicators of Compromise</strong><br>After successful execution of the malware, TrickBot copies itself as an executable file with a 12-character&nbsp;randomly generated file name (e.g.&nbsp;<code>mfjdieks.exe</code>) and places this file in one of the following directories.</p>\n\n\n\n<ul class=\"wp-block-list\"><li>C:\\Windows\\</li><li>C:\\Windows\\SysWOW64\\</li><li>C:\\Users\\[Username]\\AppData\\Roaming\\</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">When ransomware is deployed and installed by the threat actors, it will then seek to encrypt documents and files within the computer and other connected systems on the network. Once the ransomware has completed file encryption, it creates and displays a ransom note containing instructions on how the victim can pay the ransom. Again, payment of the ransom does not guarantee that an organization will regain access to their data.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Network Best Practices</h4>\n\n\n\n<ul class=\"wp-block-list\"><li>Patch operating systems, software, and firmware as soon as manufacturers release updates.</li><li>Check configurations for every operating system version for&nbsp;organization-owned assets to prevent issues from arising that local users are unable to fix due to having local administration disabled.</li><li>Regularly change passwords to network systems and accounts and avoid reusing passwords for different accounts.</li><li>Use multi-factor authentication where possible.</li><li>Disable unused remote access/Remote Desktop Protocol (RDP) ports and monitor remote access/RDP logs.</li><li>Implement application and remote access allow listing to only allow systems to execute programs known and permitted by the established security policy.</li><li>Audit user accounts with administrative privileges and configure access controls with least privilege in mind.</li><li>Audit logs to ensure new accounts are legitimate.</li><li>Scan for open or listening ports and mediate those that are not needed.</li><li>Identify critical assets such as patient database servers, medical records; create backups of these systems and house the backups offline from the network.</li><li>Implement network segmentation. Sensitive data should not reside on the same server and network segment as the email environment.</li><li>Set antivirus and anti-malware solutions to automatically update; conduct regular scans.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">If you become infected, isolate the affected system(s) immediately by removing the infected system from all networks, and disable all potential networking capabilities. Ensure all shared and networked drives are disconnected whether wired or wireless. Infected systems will have to be analyzed by your security team or your security provider to determine whether the encrypted data is recoverable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further details on this threat alert, visit the link below:<br><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa20-302a\" target=\"_blank\" rel=\"noreferrer noopener\">Alert (AA20-302A)</a></p>\n",
+  "displaySummary": "There is an observed significant increase in ransomware attacks targeting Healthcare and the Health Sector in neighboring countries.",
+  "sourceExcerpt": "<p>Please be advised, there is an observed significant increase in ransomware attacks targeting Healthcare and the Health Sector in neighboring countries. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access. Threat actors have also threaten to publish or sell [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-threat-alert-ransomware-activity-targeting-the-healthcare-and-public-health-sector/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised, there is an observed significant increase in ransomware attacks targeting Healthcare and the Health Sector in neighboring countries. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access.</p>",
+          "text": "Please be advised, there is an observed significant increase in ransomware attacks targeting Healthcare and the Health Sector in neighboring countries. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data.</p>",
+          "text": "Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT is urging all entities to adopt a heighten state of awareness and be guided by the following:</p>",
+          "text": "TT-CSIRT is urging all entities to adopt a heighten state of awareness and be guided by the following:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack vectors",
+          "id": "attack-vectors"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Ransomware attacks can be initiated through multiple attack vectors. The most prominent ones that TT-CSIRT has seen used against local entities are:</p>",
+          "text": "Ransomware attacks can be initiated through multiple attack vectors. The most prominent ones that TT-CSIRT has seen used against local entities are:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Exploiting system vulnerabilities (particularly outdated firewall devices and exposed remote desktop protocol)</li><li>Phishing emails with infected attachments or links</li><li>Compromising user credentials</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These threat actors increasingly use loaders—like TrickBot and BazarLoader (or BazarBackdoor)—as part of their malicious cyber campaigns. Cybercriminals disseminate TrickBot and BazarLoader via phishing campaigns that contain either links to malicious websites that host the malware or attachments with the malware. Loaders start the infection chain by distributing the payload; they deploy and execute the backdoor from the command and control (C2) server and install it on the victim’s machine.</p>",
+          "text": "These threat actors increasingly use loaders—like TrickBot and BazarLoader (or BazarBackdoor)—as part of their malicious cyber campaigns. Cybercriminals disseminate TrickBot and BazarLoader via phishing campaigns that contain either links to malicious websites that host the malware or attachments with the malware. Loaders start the infection chain by distributing the payload; they deploy and execute the backdoor from the command and control (C2) server and install it on the victim’s machine."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Trickbot indicators of compromise",
+          "id": "trickbot-indicators-of-compromise"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>After successful execution of the malware, TrickBot copies itself as an executable file with a 12-character&nbsp;randomly generated file name (e.g.&nbsp;<code>mfjdieks.exe</code>) and places this file in one of the following directories.</p>",
+          "text": "After successful execution of the malware, TrickBot copies itself as an executable file with a 12-character randomly generated file name (e.g.  mfjdieks.exe ) and places this file in one of the following directories."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>C:\\Windows\\</li><li>C:\\Windows\\SysWOW64\\</li><li>C:\\Users\\[Username]\\AppData\\Roaming\\</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>When ransomware is deployed and installed by the threat actors, it will then seek to encrypt documents and files within the computer and other connected systems on the network. Once the ransomware has completed file encryption, it creates and displays a ransom note containing instructions on how the victim can pay the ransom. Again, payment of the ransom does not guarantee that an organization will regain access to their data.</p>",
+          "text": "When ransomware is deployed and installed by the threat actors, it will then seek to encrypt documents and files within the computer and other connected systems on the network. Once the ransomware has completed file encryption, it creates and displays a ransom note containing instructions on how the victim can pay the ransom. Again, payment of the ransom does not guarantee that an organization will regain access to their data."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Network best practices",
+          "id": "network-best-practices"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Patch operating systems, software, and firmware as soon as manufacturers release updates.</li><li>Check configurations for every operating system version for&nbsp;organization-owned assets to prevent issues from arising that local users are unable to fix due to having local administration disabled.</li><li>Regularly change passwords to network systems and accounts and avoid reusing passwords for different accounts.</li><li>Use multi-factor authentication where possible.</li><li>Disable unused remote access/Remote Desktop Protocol (RDP) ports and monitor remote access/RDP logs.</li><li>Implement application and remote access allow listing to only allow systems to execute programs known and permitted by the established security policy.</li><li>Audit user accounts with administrative privileges and configure access controls with least privilege in mind.</li><li>Audit logs to ensure new accounts are legitimate.</li><li>Scan for open or listening ports and mediate those that are not needed.</li><li>Identify critical assets such as patient database servers, medical records; create backups of these systems and house the backups offline from the network.</li><li>Implement network segmentation. Sensitive data should not reside on the same server and network segment as the email environment.</li><li>Set antivirus and anti-malware solutions to automatically update; conduct regular scans.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you become infected, isolate the affected system(s) immediately by removing the infected system from all networks, and disable all potential networking capabilities. Ensure all shared and networked drives are disconnected whether wired or wireless. Infected systems will have to be analyzed by your security team or your security provider to determine whether the encrypted data is recoverable.</p>",
+          "text": "If you become infected, isolate the affected system(s) immediately by removing the infected system from all networks, and disable all potential networking capabilities. Ensure all shared and networked drives are disconnected whether wired or wireless. Infected systems will have to be analyzed by your security team or your security provider to determine whether the encrypted data is recoverable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further details on this threat alert, visit the link below:<br><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa20-302a\" target=\"_blank\" rel=\"noreferrer noopener\">Alert (AA20-302A)</a></p>",
+          "text": "For further details on this threat alert, visit the link below: Alert (AA20-302A)"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "attack-vectors",
+      "label": "Attack vectors",
+      "isSubItem": true
+    },
+    {
+      "id": "trickbot-indicators-of-compromise",
+      "label": "Trickbot indicators of compromise",
+      "isSubItem": true
+    },
+    {
+      "id": "network-best-practices",
+      "label": "Network best practices",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://us-cert.cisa.gov/ncas/alerts/aa20-302a"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-threat-alert-ransomware-activity-targeting-the-healthcare-and-public-health-sector/",
+    "upstreamDisclosedAt": "2020-11-06T15:50:07",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

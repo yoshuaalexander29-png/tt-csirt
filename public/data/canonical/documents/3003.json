@@ -1,0 +1,179 @@
+{
+  "id": "3003",
+  "legacyPostId": 3003,
+  "referenceNumber": "TT-CSIRT #048",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-048.092917: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-048-092917-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has confirmed the following vulnerabilities in Firefox and Firefox Extended Support Release (ESR):",
+  "cveList": [
+    "CVE-2017-7793",
+    "CVE-2017-7817",
+    "CVE-2017-7818",
+    "CVE-2017-7819",
+    "CVE-2017-7824",
+    "CVE-2017-7805",
+    "CVE-2017-7812",
+    "CVE-2017-7814",
+    "CVE-2017-7813",
+    "CVE-2017-7825",
+    "CVE-2017-7815",
+    "CVE-2017-7816",
+    "CVE-2017-7821",
+    "CVE-2017-7823",
+    "CVE-2017-7822",
+    "CVE-2017-7820",
+    "CVE-2017-7810",
+    "CVE-2017-7811"
+  ],
+  "date": "29 September 2017",
+  "rawDate": "2017-09-29T14:13:41",
+  "modifiedDate": "29 September 2017",
+  "rawModifiedDate": "2017-09-29T14:13:41",
+  "contentHtml": "<p>Mozilla has confirmed the following vulnerabilities in Firefox and Firefox Extended Support Release (ESR):</p>\n<p>a) A use-after-free vulnerability can occur in the Fetch API when the worker or the associated window are freed when still in use, resulting in a potentially exploitable crash &#8211; (CVE-2017-7793)</p>\n<p>b) A spoofing vulnerability for Firefox for Android, that can occur when a page switches to fullscreen mode without user notification, allowing a fake address bar to be displayed &#8211; (CVE-2017-7817)</p>\n<p>c) A use-after-free vulnerability can occur when manipulating arrays of Accessible Rich Internet Applications (ARIA) elements within containers through the DOM. This results in a potentially exploitable crash &#8211; (CVE-2017-7818)</p>\n<p>d) A use-after-free vulnerability can occur in design mode when image objects are resized if objects referenced during the resizing have been freed from memory. This results in a potentially exploitable crash &#8211; (CVE-2017-7819)</p>\n<p>e) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content. This is due to an incorrect value being passed within the library during checks and results in a potentially exploitable crash &#8211; (CVE-2017-7824)</p>\n<p>f) Use-after-free vulnerability can occur in TLS 1.2 generating handshake hashes. During TLS 1.2 exchanges, handshake hashes are generated which point to a message buffer. This saved data is used for later messages but in some cases, the handshake transcript can exceed the space available in the current buffer, causing the allocation of a new buffer. This leaves a pointer pointing to the old, freed buffer, resulting in a use-after-free when handshake hashes are then calculated afterwards. This can result in a potentially exploitable crash &#8211; (CVE-2017-7805)</p>\n<p>g) Drag and drop of malicious page content to the tab bar can open locally stored files. If web content on a page is dragged onto portions of the browser UI, such as the tab bar, links can be opened that otherwise would not be allowed to open. This can allow malicious web content to open a locally stored file through file: URLs &#8211; (CVE-2017-7812)</p>\n<p>h) File downloads encoded with blob: and data: URL elements bypassed normal file download checks though the Phishing and Malware Protection feature and its block lists of suspicious sites and files, which could possibly allow malicious sites to have users download executables that would otherwise be detected as suspicious &#8211; (CVE-2017-7814)</p>\n<p>i) Inside the JavaScript parser, a cast of an integer to a narrower type can result in data read from outside the buffer being parsed. This usually results in a non-exploitable crash, but can leak a limited amount of information from memory if it matches JavaScript identifier syntax &#8211; (CVE-2017-7813)</p>\n<p>j) OS X fonts display some Tibetan and Arabic characters as whitespace, and if used as part of an IDN (internationalized domain name) in the address bar could be used for domain name spoofing attacks. Note: This attack only affects OS X operating systems &#8211; (CVE-2017-7825)</p>\n<p>k) On pages containing an iframe, the data: protocol can be used to create a modal dialog through Javascript that will have an arbitrary domains as the dialog&#8217;s location, spoofing of the origin of the modal dialog from the user view. Note: This attack only affects installations with e10 multiprocess turned off. Installations with e10s turned on do not support the modal dialog functionality &#8211; (CVE-2017-7815)</p>\n<p>l) A vulnerability where WebExtensions could use popups and panels in the extension UI to load an about: privileged URL, violating security checks that disallow this behavior &#8211; (CVE-2017-7816)</p>\n<p>m) A vulnerability where WebExtensions can download and attempt to open a file of some non-executable file types. This can be triggered without specific user interaction for the file download and open actions. This could be used to trigger known vulnerabilities in the programs that handle those document types &#8211; (CVE-2017-7821)</p>\n<p>n) A Cross-Site Scripting (XSS) vulnerability exists, because the content security policy (CSP) sandbox directive does not create a unique origin for the document, causing it to behave as if the allow-same-origin keyword were always specified &#8211; (CVE-2017-7823)</p>\n<p>o) The AES-GCM implementation in WebCrypto API accepts 0-length IV when it should require a length of 1 according to the NIST Special Publication 800-38D specification. This might allow for the authentication key to be determined in some instances &#8211; (CVE-2017-7822)</p>\n<p>p) The instanceof operator can bypass the Xray wrapper mechanism. When called on web content from the browser itself or an extension the web content can provide its own result for that operator, possibly tricking the browser or extension into mishandling the element &#8211; (CVE-2017-7820)</p>\n<p>q) Multiple memory safety bugs have been reported —some of which showed evidence of memory corruption— that could be exploited to run arbitrary code &#8211; (CVE-2017-7810, CVE-2017-7811)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution_2017-092/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution_2017-092/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has confirmed the following vulnerabilities in Firefox and Firefox Extended Support Release (ESR): a) A use-after-free vulnerability can occur in the Fetch API when the worker or the…",
+  "sourceExcerpt": "<p>Mozilla has confirmed the following vulnerabilities in Firefox and Firefox Extended Support Release (ESR): a) A use-after-free vulnerability can occur in the Fetch API when the worker or the associated window are freed when still in use, resulting in a potentially exploitable crash &#8211; (CVE-2017-7793) b) A spoofing vulnerability for Firefox for Android, that can [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-048-092917-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has confirmed the following vulnerabilities in Firefox and Firefox Extended Support Release (ESR):</p>",
+          "text": "Mozilla has confirmed the following vulnerabilities in Firefox and Firefox Extended Support Release (ESR):"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A use-after-free vulnerability can occur in the Fetch API when the worker or the associated window are freed when still in use, resulting in a potentially exploitable crash &#8211; (CVE-2017-7793)</p>",
+          "text": "a) A use-after-free vulnerability can occur in the Fetch API when the worker or the associated window are freed when still in use, resulting in a potentially exploitable crash – (CVE-2017-7793)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A spoofing vulnerability for Firefox for Android, that can occur when a page switches to fullscreen mode without user notification, allowing a fake address bar to be displayed &#8211; (CVE-2017-7817)</p>",
+          "text": "b) A spoofing vulnerability for Firefox for Android, that can occur when a page switches to fullscreen mode without user notification, allowing a fake address bar to be displayed – (CVE-2017-7817)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A use-after-free vulnerability can occur when manipulating arrays of Accessible Rich Internet Applications (ARIA) elements within containers through the DOM. This results in a potentially exploitable crash &#8211; (CVE-2017-7818)</p>",
+          "text": "c) A use-after-free vulnerability can occur when manipulating arrays of Accessible Rich Internet Applications (ARIA) elements within containers through the DOM. This results in a potentially exploitable crash – (CVE-2017-7818)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) A use-after-free vulnerability can occur in design mode when image objects are resized if objects referenced during the resizing have been freed from memory. This results in a potentially exploitable crash &#8211; (CVE-2017-7819)</p>",
+          "text": "d) A use-after-free vulnerability can occur in design mode when image objects are resized if objects referenced during the resizing have been freed from memory. This results in a potentially exploitable crash – (CVE-2017-7819)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content. This is due to an incorrect value being passed within the library during checks and results in a potentially exploitable crash &#8211; (CVE-2017-7824)</p>",
+          "text": "e) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content. This is due to an incorrect value being passed within the library during checks and results in a potentially exploitable crash – (CVE-2017-7824)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Use-after-free vulnerability can occur in TLS 1.2 generating handshake hashes. During TLS 1.2 exchanges, handshake hashes are generated which point to a message buffer. This saved data is used for later messages but in some cases, the handshake transcript can exceed the space available in the current buffer, causing the allocation of a new buffer. This leaves a pointer pointing to the old, freed buffer, resulting in a use-after-free when handshake hashes are then calculated afterwards. This can result in a potentially exploitable crash &#8211; (CVE-2017-7805)</p>",
+          "text": "f) Use-after-free vulnerability can occur in TLS 1.2 generating handshake hashes. During TLS 1.2 exchanges, handshake hashes are generated which point to a message buffer. This saved data is used for later messages but in some cases, the handshake transcript can exceed the space available in the current buffer, causing the allocation of a new buffer. This leaves a pointer pointing to the old, freed buffer, resulting in a use-after-free when handshake hashes are then calculated afterwards. This can result in a potentially exploitable crash – (CVE-2017-7805)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Drag and drop of malicious page content to the tab bar can open locally stored files. If web content on a page is dragged onto portions of the browser UI, such as the tab bar, links can be opened that otherwise would not be allowed to open. This can allow malicious web content to open a locally stored file through file: URLs &#8211; (CVE-2017-7812)</p>",
+          "text": "g) Drag and drop of malicious page content to the tab bar can open locally stored files. If web content on a page is dragged onto portions of the browser UI, such as the tab bar, links can be opened that otherwise would not be allowed to open. This can allow malicious web content to open a locally stored file through file: URLs – (CVE-2017-7812)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) File downloads encoded with blob: and data: URL elements bypassed normal file download checks though the Phishing and Malware Protection feature and its block lists of suspicious sites and files, which could possibly allow malicious sites to have users download executables that would otherwise be detected as suspicious &#8211; (CVE-2017-7814)</p>",
+          "text": "h) File downloads encoded with blob: and data: URL elements bypassed normal file download checks though the Phishing and Malware Protection feature and its block lists of suspicious sites and files, which could possibly allow malicious sites to have users download executables that would otherwise be detected as suspicious – (CVE-2017-7814)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Inside the JavaScript parser, a cast of an integer to a narrower type can result in data read from outside the buffer being parsed. This usually results in a non-exploitable crash, but can leak a limited amount of information from memory if it matches JavaScript identifier syntax &#8211; (CVE-2017-7813)</p>",
+          "text": "i) Inside the JavaScript parser, a cast of an integer to a narrower type can result in data read from outside the buffer being parsed. This usually results in a non-exploitable crash, but can leak a limited amount of information from memory if it matches JavaScript identifier syntax – (CVE-2017-7813)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) OS X fonts display some Tibetan and Arabic characters as whitespace, and if used as part of an IDN (internationalized domain name) in the address bar could be used for domain name spoofing attacks. Note: This attack only affects OS X operating systems &#8211; (CVE-2017-7825)</p>",
+          "text": "j) OS X fonts display some Tibetan and Arabic characters as whitespace, and if used as part of an IDN (internationalized domain name) in the address bar could be used for domain name spoofing attacks. Note: This attack only affects OS X operating systems – (CVE-2017-7825)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) On pages containing an iframe, the data: protocol can be used to create a modal dialog through Javascript that will have an arbitrary domains as the dialog&#8217;s location, spoofing of the origin of the modal dialog from the user view. Note: This attack only affects installations with e10 multiprocess turned off. Installations with e10s turned on do not support the modal dialog functionality &#8211; (CVE-2017-7815)</p>",
+          "text": "k) On pages containing an iframe, the data: protocol can be used to create a modal dialog through Javascript that will have an arbitrary domains as the dialog’s location, spoofing of the origin of the modal dialog from the user view. Note: This attack only affects installations with e10 multiprocess turned off. Installations with e10s turned on do not support the modal dialog functionality – (CVE-2017-7815)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) A vulnerability where WebExtensions could use popups and panels in the extension UI to load an about: privileged URL, violating security checks that disallow this behavior &#8211; (CVE-2017-7816)</p>",
+          "text": "l) A vulnerability where WebExtensions could use popups and panels in the extension UI to load an about: privileged URL, violating security checks that disallow this behavior – (CVE-2017-7816)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) A vulnerability where WebExtensions can download and attempt to open a file of some non-executable file types. This can be triggered without specific user interaction for the file download and open actions. This could be used to trigger known vulnerabilities in the programs that handle those document types &#8211; (CVE-2017-7821)</p>",
+          "text": "m) A vulnerability where WebExtensions can download and attempt to open a file of some non-executable file types. This can be triggered without specific user interaction for the file download and open actions. This could be used to trigger known vulnerabilities in the programs that handle those document types – (CVE-2017-7821)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>n) A Cross-Site Scripting (XSS) vulnerability exists, because the content security policy (CSP) sandbox directive does not create a unique origin for the document, causing it to behave as if the allow-same-origin keyword were always specified &#8211; (CVE-2017-7823)</p>",
+          "text": "n) A Cross-Site Scripting (XSS) vulnerability exists, because the content security policy (CSP) sandbox directive does not create a unique origin for the document, causing it to behave as if the allow-same-origin keyword were always specified – (CVE-2017-7823)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o) The AES-GCM implementation in WebCrypto API accepts 0-length IV when it should require a length of 1 according to the NIST Special Publication 800-38D specification. This might allow for the authentication key to be determined in some instances &#8211; (CVE-2017-7822)</p>",
+          "text": "o) The AES-GCM implementation in WebCrypto API accepts 0-length IV when it should require a length of 1 according to the NIST Special Publication 800-38D specification. This might allow for the authentication key to be determined in some instances – (CVE-2017-7822)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>p) The instanceof operator can bypass the Xray wrapper mechanism. When called on web content from the browser itself or an extension the web content can provide its own result for that operator, possibly tricking the browser or extension into mishandling the element &#8211; (CVE-2017-7820)</p>",
+          "text": "p) The instanceof operator can bypass the Xray wrapper mechanism. When called on web content from the browser itself or an extension the web content can provide its own result for that operator, possibly tricking the browser or extension into mishandling the element – (CVE-2017-7820)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>q) Multiple memory safety bugs have been reported —some of which showed evidence of memory corruption— that could be exploited to run arbitrary code &#8211; (CVE-2017-7810, CVE-2017-7811)</p>",
+          "text": "q) Multiple memory safety bugs have been reported —some of which showed evidence of memory corruption— that could be exploited to run arbitrary code – (CVE-2017-7810, CVE-2017-7811)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution_2017-092/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution_2017-092/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution_2017-092/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-could-allow-for-arbitrary-code-execution_2017-092/"
+  ],
+  "readingTimeMinutes": 5,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-048-092917-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2017-09-29T14:13:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

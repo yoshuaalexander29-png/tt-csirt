@@ -1,0 +1,80 @@
+{
+  "id": "4807",
+  "legacyPostId": 4807,
+  "referenceNumber": "TT-CSIRT 377.11.16.20",
+  "classification": "advisory",
+  "title": "Cisco releases security update for iOS xr software",
+  "rawTitle": "TTCSIRT-377.11.16.20: TT-CSIRT ADVISORY – Cisco Releases Security Update for IOS XR Software",
+  "slug": "ttcsirt-377-11-16-20-tt-csirt-advisory-cisco-releases-security-update-for-ios-xr-software",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update to address a vulnerability in IOS XR Software for ASR 9000 Series Aggregation Services Routers.",
+  "cveList": [],
+  "date": "16 November 2020",
+  "rawDate": "2020-11-16T15:05:51",
+  "modifiedDate": "16 November 2020",
+  "rawModifiedDate": "2020-11-16T15:05:51",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released a security update to address a vulnerability in IOS XR Software for ASR 9000 Series Aggregation Services Routers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An unauthenticated, remote attacker could exploit this vulnerability to cause a denial-of-service condition.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that&nbsp;users and administrators,&nbsp;review&nbsp;and apply the necessary update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fur further information and support, please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMTg2MzEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EteHItY3AtZG9zLWVqOFZCOVFZIn0.dhx18x2DrOUv0CLrEAcG0X99uDTsmuBvxHE8q_PyZmA/s/1193638257/br/88340121943-l\">Cisco security advisory</a></p>\n",
+  "displaySummary": "Cisco has released a security update to address a vulnerability in IOS XR Software for ASR 9000 Series Aggregation Services Routers.",
+  "sourceExcerpt": "<p>Cisco has released a security update to address a vulnerability in IOS XR Software for ASR 9000 Series Aggregation Services Routers. An unauthenticated, remote attacker could exploit this vulnerability to cause a denial-of-service condition. It is encouraged that&nbsp;users and administrators,&nbsp;review&nbsp;and apply the necessary update. Fur further information and support, please visit the link below:Cisco security [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-377-11-16-20-tt-csirt-advisory-cisco-releases-security-update-for-ios-xr-software/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update to address a vulnerability in IOS XR Software for ASR 9000 Series Aggregation Services Routers.</p>",
+          "text": "Cisco has released a security update to address a vulnerability in IOS XR Software for ASR 9000 Series Aggregation Services Routers."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An unauthenticated, remote attacker could exploit this vulnerability to cause a denial-of-service condition.</p>",
+          "text": "An unauthenticated, remote attacker could exploit this vulnerability to cause a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that&nbsp;users and administrators,&nbsp;review&nbsp;and apply the necessary update.</p>",
+          "text": "It is encouraged that users and administrators, review and apply the necessary update."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Fur further information and support, please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMTg2MzEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EteHItY3AtZG9zLWVqOFZCOVFZIn0.dhx18x2DrOUv0CLrEAcG0X99uDTsmuBvxHE8q_PyZmA/s/1193638257/br/88340121943-l\">Cisco security advisory</a></p>",
+          "text": "Fur further information and support, please visit the link below: Cisco security advisory"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMTg2MzEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EteHItY3AtZG9zLWVqOFZCOVFZIn0.dhx18x2DrOUv0CLrEAcG0X99uDTsmuBvxHE8q_PyZmA/s/1193638257/br/88340121943-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-377-11-16-20-tt-csirt-advisory-cisco-releases-security-update-for-ios-xr-software/",
+    "upstreamDisclosedAt": "2020-11-16T15:05:51",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,10 @@
+.gcds-data-table {
+  display: block;
+  min-width: 0;
+  margin-block: 1.25rem;
+}
+
+.gcds-data-table gcds-table {
+  display: block;
+  min-width: 100%;
+}

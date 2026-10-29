@@ -1,0 +1,83 @@
+{
+  "id": "4496",
+  "legacyPostId": 4496,
+  "referenceNumber": "TT-CSIRT #313",
+  "classification": "advisory",
+  "title": "Suse security update for APACHE2",
+  "rawTitle": "TTCSIRT-313.050420: TT-CSIRT ADVISORY – SUSE SECURITY UPDATE FOR APACHE2",
+  "slug": "ttcsirt-313-050420-tt-csirt-advisory-suse-security-update-for-apache2",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Suse has released security update for Apache2 to address three vulnerabilities such as CVE-2020-1927, CVE-2020-1934 and CVE-2020-1938. This update fixes the following issues:",
+  "cveList": [
+    "CVE-2020-1927",
+    "CVE-2020-1934",
+    "CVE-2020-1938"
+  ],
+  "date": "4 May 2020",
+  "rawDate": "2020-05-04T15:18:13",
+  "modifiedDate": "4 May 2020",
+  "rawModifiedDate": "2020-05-04T15:18:13",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Suse has released security update for Apache2 to address three vulnerabilities such as CVE-2020-1927, CVE-2020-1934 and CVE-2020-1938. This update fixes the following issues:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>CVE-2020-1927:</strong> mod_rewrite configurations vulnerable to open redirect (bsc#1168407).</li><li><strong>CVE-2020-1934:</strong> mod_proxy_ftp may use uninitialized memory when proxying to a malicious FTP server (bsc#1168404).</li><li><strong>CVE-2020-1938: </strong>mod_proxy_ajp: Add &#8220;secret&#8221; parameter to proxy workers to implement legacy AJP13 authentication (bsc#1169066).</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages users and administrators to review the Suse Security Update and apply the necessary updates:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.suse.com/support/update/announcement/2020/suse-su-20201126-1/\">https://www.suse.com/support/update/announcement/2020/suse-su-20201126-1/</a></p>\n",
+  "displaySummary": "Suse has released security update for Apache2 to address three vulnerabilities such as CVE-2020-1927, CVE-2020-1934 and CVE-2020-1938.",
+  "sourceExcerpt": "<p>Suse has released security update for Apache2 to address three vulnerabilities such as CVE-2020-1927, CVE-2020-1934 and CVE-2020-1938. This update fixes the following issues: CVE-2020-1927: mod_rewrite configurations vulnerable to open redirect (bsc#1168407). CVE-2020-1934: mod_proxy_ftp may use uninitialized memory when proxying to a malicious FTP server (bsc#1168404). CVE-2020-1938: mod_proxy_ajp: Add &#8220;secret&#8221; parameter to proxy workers to implement [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-313-050420-tt-csirt-advisory-suse-security-update-for-apache2/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Suse has released security update for Apache2 to address three vulnerabilities such as CVE-2020-1927, CVE-2020-1934 and CVE-2020-1938. This update fixes the following issues:</p>",
+          "text": "Suse has released security update for Apache2 to address three vulnerabilities such as CVE-2020-1927, CVE-2020-1934 and CVE-2020-1938. This update fixes the following issues:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><strong>CVE-2020-1927:</strong> mod_rewrite configurations vulnerable to open redirect (bsc#1168407).</li><li><strong>CVE-2020-1934:</strong> mod_proxy_ftp may use uninitialized memory when proxying to a malicious FTP server (bsc#1168404).</li><li><strong>CVE-2020-1938: </strong>mod_proxy_ajp: Add &#8220;secret&#8221; parameter to proxy workers to implement legacy AJP13 authentication (bsc#1169066).</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review the Suse Security Update and apply the necessary updates:</p>",
+          "text": "TTCSIRT encourages users and administrators to review the Suse Security Update and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.suse.com/support/update/announcement/2020/suse-su-20201126-1/\">https://www.suse.com/support/update/announcement/2020/suse-su-20201126-1/</a></p>",
+          "text": "https://www.suse.com/support/update/announcement/2020/suse-su-20201126-1/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.suse.com/support/update/announcement/2020/suse-su-20201126-1/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-313-050420-tt-csirt-advisory-suse-security-update-for-apache2/",
+    "upstreamDisclosedAt": "2020-05-04T15:18:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

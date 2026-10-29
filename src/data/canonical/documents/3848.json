@@ -1,0 +1,70 @@
+{
+  "id": "3848",
+  "legacyPostId": 3848,
+  "referenceNumber": "TT-CSIRT #235",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-235.101619: TT-CSIRT ADVISORY – ORACLE SECURITY UPDATES",
+  "slug": "ttcsirt-235-101619-tt-csirt-advisory-oracle-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released its Critical Patch Update for October 2019 to address 219 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Due to the threat posed by a successful attack, TTCSIRT strongly recommends that administrators apply the Critical Security Patch Update as soon as possible.",
+  "cveList": [],
+  "date": "16 October 2019",
+  "rawDate": "2019-10-16T07:38:45",
+  "modifiedDate": "16 October 2019",
+  "rawModifiedDate": "2019-10-16T07:38:45",
+  "contentHtml": "<p>Oracle has released its Critical Patch Update for October 2019 to address 219 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Due to the threat posed by a successful attack, TTCSIRT strongly recommends that administrators apply the Critical Security Patch Update as soon as possible.<u><br />\n</u></p>\n<p>Oracle Critical Patch Advisory – October 2019:<br />\n<a href=\"https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html\">https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html</a></p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Oracle has released its Critical Patch Update for October 2019 to address 219 vulnerabilities across multiple products.",
+  "sourceExcerpt": "<p>Oracle has released its Critical Patch Update for October 2019 to address 219 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Due to the threat posed by a successful attack, TTCSIRT strongly recommends that administrators apply the Critical Security Patch Update as soon [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-235-101619-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released its Critical Patch Update for October 2019 to address 219 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Due to the threat posed by a successful attack, TTCSIRT strongly recommends that administrators apply the Critical Security Patch Update as soon as possible.<u><br />\n</u></p>",
+          "text": "Oracle has released its Critical Patch Update for October 2019 to address 219 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Due to the threat posed by a successful attack, TTCSIRT strongly recommends that administrators apply the Critical Security Patch Update as soon as possible."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle Critical Patch Advisory – October 2019:<br />\n<a href=\"https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html\">https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html</a></p>",
+          "text": "Oracle Critical Patch Advisory – October 2019: https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.oracle.com/technetwork/security-advisory/cpuoct2019-5072832.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-235-101619-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2019-10-16T07:38:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

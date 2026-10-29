@@ -1,0 +1,80 @@
+{
+  "id": "3468",
+  "legacyPostId": 3468,
+  "referenceNumber": "TT-CSIRT #146",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-146.072018: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-146-072018-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it has found an issue in the Cluster Manager of Cisco Policy Suite which could allow an unauthenticated, remote attacker to log in to an affected system using the root account which has default, static user credentials.",
+  "cveList": [],
+  "date": "20 July 2018",
+  "rawDate": "2018-07-20T12:34:38",
+  "modifiedDate": "20 July 2018",
+  "rawModifiedDate": "2018-07-20T12:34:38",
+  "contentHtml": "<p>Cisco has released a security update stating that it has found an issue in the Cluster Manager of Cisco Policy Suite which could allow an unauthenticated, remote attacker to log in to an affected system using the root account which has default, static user credentials.</p>\n<p>The vulnerability is due to the presence of undocumented, static user credentials for the root account.</p>\n<p>This exploit could allow the attacker to log in to the affected system and execute arbitrary commands as the root user.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it has found an issue in the Cluster Manager of Cisco Policy Suite which could allow an unauthenticated, remote attacker to log in to an…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it has found an issue in the Cluster Manager of Cisco Policy Suite which could allow an unauthenticated, remote attacker to log in to an affected system using the root account which has default, static user credentials. The vulnerability is due to the presence of undocumented, static [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-146-072018-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it has found an issue in the Cluster Manager of Cisco Policy Suite which could allow an unauthenticated, remote attacker to log in to an affected system using the root account which has default, static user credentials.</p>",
+          "text": "Cisco has released a security update stating that it has found an issue in the Cluster Manager of Cisco Policy Suite which could allow an unauthenticated, remote attacker to log in to an affected system using the root account which has default, static user credentials."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to the presence of undocumented, static user credentials for the root account.</p>",
+          "text": "The vulnerability is due to the presence of undocumented, static user credentials for the root account."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This exploit could allow the attacker to log in to the affected system and execute arbitrary commands as the root user.</p>",
+          "text": "This exploit could allow the attacker to log in to the affected system and execute arbitrary commands as the root user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-146-072018-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-07-20T12:34:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

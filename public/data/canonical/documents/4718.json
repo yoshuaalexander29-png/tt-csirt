@@ -1,0 +1,77 @@
+{
+  "id": "4718",
+  "legacyPostId": 4718,
+  "referenceNumber": "TT-CSIRT 357.09.09.20",
+  "classification": "advisory",
+  "title": "Adobe releases security updates",
+  "rawTitle": "TTCSIRT-357.09.09.20: TT-CSIRT ADVISORY – Adobe Releases Security Updates",
+  "slug": "ttcsirt-357-09-09-20-tt-csirt-advisory-adobe-releases-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:32:45",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:32:45",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.<br><br>These updates addresses multiple&nbsp;critical&nbsp;vulnerabilities. Successful exploitation could lead to arbitrary code execution in the context of the current user. <br><br>For more information and support, please visit the following appropriate link:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>InDesign&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=4e15a3dfaa&amp;e=64e3bb0ab9\">APSB20-52</a></li><li>Framemaker&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=76b19aaf08&amp;e=64e3bb0ab9\">APSB20-54</a></li><li>Experience Manager&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=a08a5d97ee&amp;e=64e3bb0ab9\">APSB20-56</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. These updates addresses multiple&nbsp;critical&nbsp;vulnerabilities. Successful exploitation could lead to arbitrary code execution in the context of the current user.  For more information and support, please visit the following appropriate link: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-357-09-09-20-tt-csirt-advisory-adobe-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These updates addresses multiple&nbsp;critical&nbsp;vulnerabilities. Successful exploitation could lead to arbitrary code execution in the context of the current user.</p>",
+          "text": "These updates addresses multiple critical vulnerabilities. Successful exploitation could lead to arbitrary code execution in the context of the current user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more information and support, please visit the following appropriate link:</p>",
+          "text": "For more information and support, please visit the following appropriate link:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>InDesign&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=4e15a3dfaa&amp;e=64e3bb0ab9\">APSB20-52</a></li><li>Framemaker&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=76b19aaf08&amp;e=64e3bb0ab9\">APSB20-54</a></li><li>Experience Manager&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=a08a5d97ee&amp;e=64e3bb0ab9\">APSB20-56</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-357-09-09-20-tt-csirt-advisory-adobe-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-09-22T23:32:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

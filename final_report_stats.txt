@@ -1,0 +1,54 @@
+STATISTICS → INCIDENT PREVALENCE SPACING AUDIT
+
+Current rendered measurements
+
+Viewport	Orientation	Last stat bottom	Heading top	Effective gap
+375×812	Portrait	4721.28	4751.28	30
+812×375	Landscape	4145.09	4215.09	70
+414×896	Portrait	4444.28	4474.28	30
+896×414	Landscape	3933.09	4003.09	70
+768×1024	Tablet	4334.09	4404.09	70
+1024×768	Landscape/tablet	3753.09	3848.09	95
+1280×800	Desktop	3753.09	3848.09	95
+
+Gap mechanism
+
+The effective gap is physically created by the combination of three factors:
+1. `govuk-!-margin-bottom-4` applied to the `<div>` inside the third column (evaluates to 15px mobile, 20px desktop).
+2. `govuk-!-margin-bottom-8` applied to the parent `govuk-grid-row` (evaluates to 30px mobile, 50px desktop).
+3. The GDS float-based grid layout behavior.
+
+At desktop breakpoints (>= 641px), columns are floated. This establishes a formatting context that prevents the inner margin (`govuk-!-margin-bottom-4`) from collapsing with the row’s margin (`govuk-!-margin-bottom-8`). Because they do not collapse, the margins are additive (20px + 50px = 70px). 
+Furthermore, at wider breakpoints (e.g., 1024px and 1280px), uneven text wrapping causes the second column to be 25px taller than the third column. Because `govuk-grid-row` clears floats based on the tallest column, its bottom edge extends 25px below the third column, pushing the heading down further and resulting in a 95px effective gap (20px + 25px + 50px).
+
+GDS source
+
+- `govuk-!-margin-bottom-4` and `govuk-!-margin-bottom-8`: Native GOV.UK Frontend responsive spacing override classes.
+- `govuk-grid-row` and `govuk-grid-column-one-third`: Native GOV.UK Frontend grid classes. These use `float: left` at `min-width: 40.0625em` causing margin collapse to break vertically across the container boundary.
+- `govuk-heading-m`: Native GOV.UK Frontend heading class. Its top margin evaluates to 0px natively in this context.
+
+Landscape behavior
+
+The grid breakpoint is 40.0625em (641px). In portrait (width < 641px), the columns are standard stacked blocks. This allows the inner 15px margin to properly collapse into the row's 30px margin, yielding a clean 30px gap. In landscape (width > 641px), the grid switches to floats, which disables margin collapsing. The margins stack instead of collapsing, abruptly jumping the gap to 70px. This is exacerbated when column heights differ, artificially dropping the container floor to 95px.
+
+Visual assessment
+
+VISUAL ASSESSMENT
+375 × 812:
+Effective gap = 30px
+Assessment = NORMAL
+812 × 375:
+Effective gap = 70px
+Assessment = POTENTIALLY EXCESSIVE
+414 × 896:
+Effective gap = 30px
+Assessment = NORMAL
+896 × 414:
+Effective gap = 70px
+Assessment = POTENTIALLY EXCESSIVE
+
+The user's observation is strongly supported by the rendered evidence. The landscape gap is mathematically and visually more than double the portrait gap due to layout mechanics rather than deliberate design intent.
+
+Recommendation
+
+IMPLEMENTATION CHANGE JUSTIFIED

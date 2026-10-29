@@ -1,0 +1,75 @@
+{
+  "id": "3251",
+  "legacyPostId": 3251,
+  "referenceNumber": "TT-CSIRT #102",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-102.031618: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-102-031618-tt-csirt-advisory-vmware-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that VMware Workstation and Fusion contain a denial-of-service vulnerability which can be triggered by opening a large number of VNC sessions.",
+  "cveList": [],
+  "date": "16 March 2018",
+  "rawDate": "2018-03-16T13:43:16",
+  "modifiedDate": "16 March 2018",
+  "rawModifiedDate": "2018-03-16T13:43:16",
+  "contentHtml": "<p>VMware has released a security update stating that VMware Workstation and Fusion contain a denial-of-service vulnerability which can be triggered by opening a large number of VNC sessions.   </p>\n<p>In order for the exploitation to take place a VNC must be manually enabled.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the WMWare Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0008.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0008.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that VMware Workstation and Fusion contain a denial-of-service vulnerability which can be triggered by opening a large number of VNC sessions.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that VMware Workstation and Fusion contain a denial-of-service vulnerability which can be triggered by opening a large number of VNC sessions. In order for the exploitation to take place a VNC must be manually enabled. Further information on this vulnerability and how it can be mitigated can be [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-102-031618-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that VMware Workstation and Fusion contain a denial-of-service vulnerability which can be triggered by opening a large number of VNC sessions.</p>",
+          "text": "VMware has released a security update stating that VMware Workstation and Fusion contain a denial-of-service vulnerability which can be triggered by opening a large number of VNC sessions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In order for the exploitation to take place a VNC must be manually enabled.</p>",
+          "text": "In order for the exploitation to take place a VNC must be manually enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the WMWare Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0008.html\">https://www.vmware.com/security/advisories/VMSA-2018-0008.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the WMWare Website at https://www.vmware.com/security/advisories/VMSA-2018-0008.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0008.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-102-031618-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-03-16T13:43:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

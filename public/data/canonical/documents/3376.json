@@ -1,0 +1,75 @@
+{
+  "id": "3376",
+  "legacyPostId": 3376,
+  "referenceNumber": "TT-CSIRT #123",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-123.052518: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-123-052118-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that a vulnerability in Cisco Digital Network Architecture (DNA) Center which could allow an unauthenticated, remote attacker to log in to an affected system by using an administrative account that has default, static user credentials.This is due to the presence of undocumented, static user credentials for the default administrative account for the affected software.",
+  "cveList": [],
+  "date": "25 May 2018",
+  "rawDate": "2018-05-25T10:50:08",
+  "modifiedDate": "25 May 2018",
+  "rawModifiedDate": "2018-05-25T10:50:08",
+  "contentHtml": "<p>Cisco has released a security update stating that a vulnerability in Cisco Digital Network Architecture (DNA) Center which could allow an unauthenticated, remote attacker to log in to an affected system by using an administrative account that has default, static user credentials.This is due to the presence of undocumented, static user credentials for the default administrative account for the affected software. </p>\n<p>An attacker could exploit this vulnerability by using the account to log into an affected system and execute arbitrary commands with root privileges.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180516-dnac\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180516-dnac</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that a vulnerability in Cisco Digital Network Architecture (DNA) Center which could allow an unauthenticated, remote attacker to log in to an…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that a vulnerability in Cisco Digital Network Architecture (DNA) Center which could allow an unauthenticated, remote attacker to log in to an affected system by using an administrative account that has default, static user credentials.This is due to the presence of undocumented, static user credentials for the default [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-123-052118-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that a vulnerability in Cisco Digital Network Architecture (DNA) Center which could allow an unauthenticated, remote attacker to log in to an affected system by using an administrative account that has default, static user credentials.This is due to the presence of undocumented, static user credentials for the default administrative account for the affected software.</p>",
+          "text": "Cisco has released a security update stating that a vulnerability in Cisco Digital Network Architecture (DNA) Center which could allow an unauthenticated, remote attacker to log in to an affected system by using an administrative account that has default, static user credentials.This is due to the presence of undocumented, static user credentials for the default administrative account for the affected software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability by using the account to log into an affected system and execute arbitrary commands with root privileges.</p>",
+          "text": "An attacker could exploit this vulnerability by using the account to log into an affected system and execute arbitrary commands with root privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180516-dnac\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180516-dnac</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180516-dnac"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180516-dnac"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-123-052118-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-05-25T10:50:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

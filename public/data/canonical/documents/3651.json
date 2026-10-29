@@ -1,0 +1,102 @@
+{
+  "id": "3651",
+  "legacyPostId": 3651,
+  "referenceNumber": "TT-CSIRT #197",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-197.012319: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-197-012319-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released a security update stating that the following vulnerabilities were patched in iCloud, Safari, watchOS, tvOS, Mojave, High Sierra, Sierra, and iOS:",
+  "cveList": [
+    "CVE-2019-6224",
+    "CVE-2019-6228",
+    "CVE-2019-6209",
+    "CVE-2019-6214",
+    "CVE-2019-6215",
+    "CVE-2018-4452"
+  ],
+  "date": "23 January 2019",
+  "rawDate": "2019-01-23T16:55:46",
+  "modifiedDate": "23 January 2019",
+  "rawModifiedDate": "2019-01-23T16:55:46",
+  "contentHtml": "<p>Apple has released a security update stating that the following vulnerabilities were patched in iCloud, Safari, watchOS, tvOS, Mojave, High Sierra, Sierra, and iOS:</p>\n<p>a) A buffer overflow issue was addressed with improved memory handling &#8211; (CVE-2019-6224).</p>\n<p>b) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2019-6228).</p>\n<p>c) An out-of-bounds read issue existed that led to the disclosure of memory. This was addressed with improved input validation &#8211; (CVE-2019-6209).</p>\n<p>d) Multiple type confusion issues were addressed with improved memory handling &#8211; (CVE-2019-6214, CVE-2019-6215).</p>\n<p>e) A memory consumption issue was addressed with improved memory handling &#8211; (CVE-2018-4452).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT209443\"><font size=\"2\" color=\"maroon\">https://support.apple.com/en-us/HT209443</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released a security update stating that the following vulnerabilities were patched in iCloud, Safari, watchOS, tvOS, Mojave, High Sierra, Sierra, and iOS: a) A buffer overflow issue…",
+  "sourceExcerpt": "<p>Apple has released a security update stating that the following vulnerabilities were patched in iCloud, Safari, watchOS, tvOS, Mojave, High Sierra, Sierra, and iOS: a) A buffer overflow issue was addressed with improved memory handling &#8211; (CVE-2019-6224). b) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2019-6228). [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-197-012319-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released a security update stating that the following vulnerabilities were patched in iCloud, Safari, watchOS, tvOS, Mojave, High Sierra, Sierra, and iOS:</p>",
+          "text": "Apple has released a security update stating that the following vulnerabilities were patched in iCloud, Safari, watchOS, tvOS, Mojave, High Sierra, Sierra, and iOS:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A buffer overflow issue was addressed with improved memory handling &#8211; (CVE-2019-6224).</p>",
+          "text": "a) A buffer overflow issue was addressed with improved memory handling – (CVE-2019-6224)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2019-6228).</p>",
+          "text": "b) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation – (CVE-2019-6228)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An out-of-bounds read issue existed that led to the disclosure of memory. This was addressed with improved input validation &#8211; (CVE-2019-6209).</p>",
+          "text": "c) An out-of-bounds read issue existed that led to the disclosure of memory. This was addressed with improved input validation – (CVE-2019-6209)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple type confusion issues were addressed with improved memory handling &#8211; (CVE-2019-6214, CVE-2019-6215).</p>",
+          "text": "d) Multiple type confusion issues were addressed with improved memory handling – (CVE-2019-6214, CVE-2019-6215)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A memory consumption issue was addressed with improved memory handling &#8211; (CVE-2018-4452).</p>",
+          "text": "e) A memory consumption issue was addressed with improved memory handling – (CVE-2018-4452)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT209443\">https://support.apple.com/en-us/HT209443</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at https://support.apple.com/en-us/HT209443"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT209443"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-197-012319-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2019-01-23T16:55:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

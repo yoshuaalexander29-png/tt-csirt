@@ -1,0 +1,125 @@
+{
+  "id": "3295",
+  "legacyPostId": 3295,
+  "referenceNumber": "TT-CSIRT #110",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-110.041918: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-110-041918-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution.",
+  "cveList": [
+    "CVE-2018-6085",
+    "CVE-2018-6086",
+    "CVE-2018-6087",
+    "CVE-2018-6088",
+    "CVE-2018-6089",
+    "CVE-2018-6090",
+    "CVE-2018-6091",
+    "CVE-2018-6092",
+    "CVE-2018-6093",
+    "CVE-2018-6094",
+    "CVE-2018-6095",
+    "CVE-2018-6096",
+    "CVE-2018-6097",
+    "CVE-2018-6098",
+    "CVE-2018-6100",
+    "CVE-2018-6102",
+    "CVE-2018-6104",
+    "CVE-2018-6105",
+    "CVE-2018-6107",
+    "CVE-2018-6108",
+    "CVE-2018-6099",
+    "CVE-2018-6101",
+    "CVE-2018-6103",
+    "CVE-2018-6106",
+    "CVE-2018-6109",
+    "CVE-2018-6110",
+    "CVE-2018-6111",
+    "CVE-2018-6112",
+    "CVE-2018-6113",
+    "CVE-2018-6114",
+    "CVE-2018-6115",
+    "CVE-2018-6116",
+    "CVE-2018-6117",
+    "CVE-2018-6084"
+  ],
+  "date": "19 April 2018",
+  "rawDate": "2018-04-19T12:17:05",
+  "modifiedDate": "19 April 2018",
+  "rawModifiedDate": "2018-04-19T12:17:05",
+  "contentHtml": "<p>Google has released a security update stating that multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. </p>\n<p>Details are as follows:</p>\n<p>1) Use after free in Disk Cache &#8211; (CVE-2018-6085, CVE-2018-6086)</p>\n<p>2) Use after free in WebAssembly &#8211; (CVE-2018-6087)</p>\n<p>3) Use after free in PDFium &#8211; (CVE-2018-6088)</p>\n<p>4) Same origin policy bypass in Service Worker &#8211; (CVE-2018-6089)</p>\n<p>5) Heap buffer overfin Skia &#8211; (CVE-2018-6090)</p>\n<p>6) Incorrect handling of plug-ins by Service Worker &#8211; (CVE-2018-6091)</p>\n<p>7) Integer overfin WebAssembly &#8211; (CVE-2018-6092)</p>\n<p>8) Same origin bypass in Service Worker &#8211; (CVE-2018-6093)</p>\n<p>9) Exploit hardening regression in Oilpan &#8211; (CVE-2018-6094)</p>\n<p>10) Lack of meaningful user interaction requirement before file upload &#8211; (CVE-2018-6095)</p>\n<p>11) Fullscreen UI spoof &#8211; (CVE-2018-6096, CVE-2018-6097)</p>\n<p>12) URL spoof in Omnibox &#8211; (CVE-2018-6098, CVE-2018-6100, CVE-2018-6102, CVE-2018-6104, CVE-2018-6105, CVE-2018-6107, CVE-2018-6108)</p>\n<p>13) CORS bypass in ServiceWorker &#8211; (CVE-2018-6099)</p>\n<p>14) Insufficient protection of remote debugging prototol in DevTools &#8211; (CVE-2018-6101)</p>\n<p>15) UI spoof in Permissions &#8211; (CVE-2018-6103)</p>\n<p>16) Incorrect handling of promises in V8 &#8211; (CVE-2018-6106)</p>\n<p>17) Incorrect handling of files by FileAPI &#8211; (CVE-2018-6109)</p>\n<p>18) Incorrect handling of plaintext files via file &#8211; (CVE-2018-6110)</p>\n<p>19) Heap-use-after-free in DevTools &#8211; (CVE-2018-6111)</p>\n<p>20) Incorrect URL handling in DevTools &#8211; (CVE-2018-6112)</p>\n<p>21) URL spoof in Navigation &#8211; (CVE-2018-6113)</p>\n<p>22) CSP bypass &#8211; (CVE-2018-6114)</p>\n<p>23) SmartScreen bypass in downloads &#8211; (CVE-2018-6115)</p>\n<p>24) Incorrect memory handling in WebAssembly &#8211; (CVE-2018-6116)</p>\n<p>25) Confusing autofill settings &#8211; (CVE-2018-6117)</p>\n<p>26) Incorrect use of Distributed Objects in Google Software Updater on MacOS &#8211; (CVE-2018-6084)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-043/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-043/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution.",
+  "sourceExcerpt": "<p>Google has released a security update stating that multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. Details are as follows: 1) Use after free in Disk Cache &#8211; (CVE-2018-6085, CVE-2018-6086) 2) Use after free in WebAssembly &#8211; (CVE-2018-6087) 3) Use after free in PDFium [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-110-041918-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution.</p>",
+          "text": "Google has released a security update stating that multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Details are as follows",
+          "id": "details-are-as-follows"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>Use after free in Disk Cache &#8211; (CVE-2018-6085, CVE-2018-6086)</li>\n  <li>Use after free in WebAssembly &#8211; (CVE-2018-6087)</li>\n  <li>Use after free in PDFium &#8211; (CVE-2018-6088)</li>\n  <li>Same origin policy bypass in Service Worker &#8211; (CVE-2018-6089)</li>\n  <li>Heap buffer overfin Skia &#8211; (CVE-2018-6090)</li>\n  <li>Incorrect handling of plug-ins by Service Worker &#8211; (CVE-2018-6091)</li>\n  <li>Integer overfin WebAssembly &#8211; (CVE-2018-6092)</li>\n  <li>Same origin bypass in Service Worker &#8211; (CVE-2018-6093)</li>\n  <li>Exploit hardening regression in Oilpan &#8211; (CVE-2018-6094)</li>\n  <li>Lack of meaningful user interaction requirement before file upload &#8211; (CVE-2018-6095)</li>\n  <li>Fullscreen UI spoof &#8211; (CVE-2018-6096, CVE-2018-6097)</li>\n  <li>URL spoof in Omnibox &#8211; (CVE-2018-6098, CVE-2018-6100, CVE-2018-6102, CVE-2018-6104, CVE-2018-6105, CVE-2018-6107, CVE-2018-6108)</li>\n  <li>CORS bypass in ServiceWorker &#8211; (CVE-2018-6099)</li>\n  <li>Insufficient protection of remote debugging prototol in DevTools &#8211; (CVE-2018-6101)</li>\n  <li>UI spoof in Permissions &#8211; (CVE-2018-6103)</li>\n  <li>Incorrect handling of promises in V8 &#8211; (CVE-2018-6106)</li>\n  <li>Incorrect handling of files by FileAPI &#8211; (CVE-2018-6109)</li>\n  <li>Incorrect handling of plaintext files via file &#8211; (CVE-2018-6110)</li>\n  <li>Heap-use-after-free in DevTools &#8211; (CVE-2018-6111)</li>\n  <li>Incorrect URL handling in DevTools &#8211; (CVE-2018-6112)</li>\n  <li>URL spoof in Navigation &#8211; (CVE-2018-6113)</li>\n  <li>CSP bypass &#8211; (CVE-2018-6114)</li>\n  <li>SmartScreen bypass in downloads &#8211; (CVE-2018-6115)</li>\n  <li>Incorrect memory handling in WebAssembly &#8211; (CVE-2018-6116)</li>\n  <li>Confusing autofill settings &#8211; (CVE-2018-6117)</li>\n  <li>Incorrect use of Distributed Objects in Google Software Updater on MacOS &#8211; (CVE-2018-6084)</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-043/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-043/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-043/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "details-are-as-follows",
+      "label": "Details are as follows",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-043/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-110-041918-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-04-19T12:17:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

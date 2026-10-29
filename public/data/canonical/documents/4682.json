@@ -1,0 +1,88 @@
+{
+  "id": "4682",
+  "legacyPostId": 4682,
+  "referenceNumber": "TT-CSIRT 339.08.19.20",
+  "classification": "advisory",
+  "title": "Google Chrome 0-day that allow attackers to fully bypass csp rules",
+  "rawTitle": "TTCSIRT-339.08.19.20: TT-CSIRT ADVISORY &#8211; Google Chrome Zero-Day That Allow Attackers To Fully Bypass CSP Rules",
+  "slug": "ttcsirt-339-08-19-20-tt-csirt-advisory-google-chrome-zero-day-that-allow-attackers-to-fully-bypass-csp-rules",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A Zero-day vulnerability has been affecting the Chromium-based browsers like Chrome, Opera, Edge – on Windows, Mac, and Android.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:19:25",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:19:25",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A Zero-day vulnerability has been affecting the Chromium-based browsers like Chrome, Opera, Edge – on Windows, Mac, and Android.<br><br>And more importantly, they are allowing the attackers to completely bypass the CSP rules on Chrome versions 73 (March 2019) through 83 (July 2020).<br><br>CSP is a skill that has a set of rules that are set by the website, but the role of the browser is to recognize and support all the rules in the name of the website.<br><br>All these rules can help the user to ask the browser to either block or allow particular application calls, specific types of javascript code execution, and many more.<br><br>Doing this ensures the more robust security for site visitors and shield them from potential implanted ill-disposed scripts or any cross-site-scripting (XSS).<br><br>Updates are available to mitigate against this vulnerability. Please visit the following links for further information and support:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=93e64efd51&amp;e=64e3bb0ab9\">https://cybersecuritynews.com/google-chrome-browser-zero-day/</a><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=b9d8abc3d9&amp;e=64e3bb0ab9\">https://www.google.com/chrome/update/</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A Zero-day vulnerability has been affecting the Chromium-based browsers like Chrome, Opera, Edge – on Windows, Mac, and Android.",
+  "sourceExcerpt": "<p>A Zero-day vulnerability has been affecting the Chromium-based browsers like Chrome, Opera, Edge – on Windows, Mac, and Android. And more importantly, they are allowing the attackers to completely bypass the CSP rules on Chrome versions 73 (March 2019) through 83 (July 2020). CSP is a skill that has a set of rules that are [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-339-08-19-20-tt-csirt-advisory-google-chrome-zero-day-that-allow-attackers-to-fully-bypass-csp-rules/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A Zero-day vulnerability has been affecting the Chromium-based browsers like Chrome, Opera, Edge – on Windows, Mac, and Android.</p>",
+          "text": "A Zero-day vulnerability has been affecting the Chromium-based browsers like Chrome, Opera, Edge – on Windows, Mac, and Android."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>And more importantly, they are allowing the attackers to completely bypass the CSP rules on Chrome versions 73 (March 2019) through 83 (July 2020).</p>",
+          "text": "And more importantly, they are allowing the attackers to completely bypass the CSP rules on Chrome versions 73 (March 2019) through 83 (July 2020)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CSP is a skill that has a set of rules that are set by the website, but the role of the browser is to recognize and support all the rules in the name of the website.</p>",
+          "text": "CSP is a skill that has a set of rules that are set by the website, but the role of the browser is to recognize and support all the rules in the name of the website."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>All these rules can help the user to ask the browser to either block or allow particular application calls, specific types of javascript code execution, and many more.</p>",
+          "text": "All these rules can help the user to ask the browser to either block or allow particular application calls, specific types of javascript code execution, and many more."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Doing this ensures the more robust security for site visitors and shield them from potential implanted ill-disposed scripts or any cross-site-scripting (XSS).</p>",
+          "text": "Doing this ensures the more robust security for site visitors and shield them from potential implanted ill-disposed scripts or any cross-site-scripting (XSS)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Updates are available to mitigate against this vulnerability. Please visit the following links for further information and support:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=93e64efd51&amp;e=64e3bb0ab9\">https://cybersecuritynews.com/google-chrome-browser-zero-day/</a><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=b9d8abc3d9&amp;e=64e3bb0ab9\">https://www.google.com/chrome/update/</a></p>",
+          "text": "Updates are available to mitigate against this vulnerability. Please visit the following links for further information and support: https://cybersecuritynews.com/google-chrome-browser-zero-day/ https://www.google.com/chrome/update/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-339-08-19-20-tt-csirt-advisory-google-chrome-zero-day-that-allow-attackers-to-fully-bypass-csp-rules/",
+    "upstreamDisclosedAt": "2020-09-22T23:19:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

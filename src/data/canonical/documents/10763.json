@@ -1,0 +1,116 @@
+{
+  "id": "10763",
+  "legacyPostId": 10763,
+  "referenceNumber": "TT-CSIRT 453.24.09.25",
+  "classification": "alert",
+  "title": "Shai-Hulud self-replicating worm supply chain compromise",
+  "rawTitle": "TT-CSIRT – 453.24.09.25 – Shai-Hulud Self-Replicating Worm Supply Chain Compromise",
+  "slug": "tt-csirt-453-24-09-25-shai-hulud-self-replicating-worm-supply-chain-compromise",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, CISA has issued a critical alert regarding a widespread supply chain attack involving npmjs.com, the largest JavaScript package registry. A self-replicating worm named “Shai-Hulud” has compromised over 500 npm packages. After initial access, the attacker deployed malware scans for sensitive credentials such as GitHub Personal Access Tokens (PATs) and cloud service API keys from AWS, GCP, and Azure.",
+  "cveList": [],
+  "date": "24 September 2025",
+  "rawDate": "2025-09-24T15:50:21",
+  "modifiedDate": "24 September 2025",
+  "rawModifiedDate": "2025-09-24T15:50:21",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised, CISA has issued a critical alert regarding a widespread supply chain attack involving npmjs.com, the largest JavaScript package registry. A self-replicating worm named “Shai-Hulud” has compromised over 500 npm packages. After initial access, the attacker deployed malware scans for sensitive credentials such as GitHub Personal Access Tokens (PATs) and cloud service API keys from AWS, GCP, and Azure.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Attack Details:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>The malware exfiltrates harvested credentials to a command-and-control endpoint controlled by the actor.</li>\n\n\n\n<li>Stolen credentials are uploaded to a public GitHub repository named Shai-Hulud via the GitHub user/repos API.</li>\n\n\n\n<li>The worm uses stolen developer credentials to authenticate to npm, injecting malicious code into other packages.</li>\n\n\n\n<li>Compromised versions of packages are published to the npm registry, allowing automated, rapid spread and persistence.</li>\n\n\n\n<li>The attack propagates autonomously by exploiting existing trust in the open-source ecosystem through post-install scripts.</li>\n\n\n\n<li>The worm also deploys Unix shell scripts and uses tools such as TruffleHog to discover more secrets and broaden its impact.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Recommended Mitigations:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Conduct comprehensive dependency reviews of all software using npm packages.</li>\n\n\n\n<li>Identify affected packages via package-lock.json or yarn.lock files, including transitive dependencies.</li>\n\n\n\n<li>Search artifact repositories and package caches for compromised versions.</li>\n\n\n\n<li>Pin package versions to safe releases published before September 16, 2025.</li>\n\n\n\n<li>Immediately rotate all developer and CI/CD credentials.</li>\n\n\n\n<li>Enforce phishing-resistant MFA for all developer accounts, especially on critical platforms like GitHub and npm.</li>\n\n\n\n<li>Monitor network traffic for anomalous behavior and block outbound connections to suspicious domains such as webhook.site.</li>\n\n\n\n<li>Audit and harden GitHub configurations by removing unnecessary apps, OAuth tokens, and auditing repository webhooks and secrets.</li>\n\n\n\n<li>Enable branch protection rules, GitHub Secret Scanning alerts, and Dependabot security updates.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">This supply chain compromise highlights the escalating risks and the need for rigorous access controls, credential hygiene, and proactive detection strategies in development environments.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Reference:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem\">https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem</a></p>\n",
+  "displaySummary": "CISA has issued a critical alert regarding a widespread supply chain attack involving npmjs.com, the largest JavaScript package registry.",
+  "sourceExcerpt": "<p>Please be advised, CISA has issued a critical alert regarding a widespread supply chain attack involving npmjs.com, the largest JavaScript package registry. A self-replicating worm named “Shai-Hulud” has compromised over 500 npm packages. After initial access, the attacker deployed malware scans for sensitive credentials such as GitHub Personal Access Tokens (PATs) and cloud service API [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-453-24-09-25-shai-hulud-self-replicating-worm-supply-chain-compromise/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised, CISA has issued a critical alert regarding a widespread supply chain attack involving npmjs.com, the largest JavaScript package registry. A self-replicating worm named “Shai-Hulud” has compromised over 500 npm packages. After initial access, the attacker deployed malware scans for sensitive credentials such as GitHub Personal Access Tokens (PATs) and cloud service API keys from AWS, GCP, and Azure.</p>",
+          "text": "Please be advised, CISA has issued a critical alert regarding a widespread supply chain attack involving npmjs.com, the largest JavaScript package registry. A self-replicating worm named “Shai-Hulud” has compromised over 500 npm packages. After initial access, the attacker deployed malware scans for sensitive credentials such as GitHub Personal Access Tokens (PATs) and cloud service API keys from AWS, GCP, and Azure."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack details",
+          "id": "attack-details"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>The malware exfiltrates harvested credentials to a command-and-control endpoint controlled by the actor.</li>\n\n\n\n<li>Stolen credentials are uploaded to a public GitHub repository named Shai-Hulud via the GitHub user/repos API.</li>\n\n\n\n<li>The worm uses stolen developer credentials to authenticate to npm, injecting malicious code into other packages.</li>\n\n\n\n<li>Compromised versions of packages are published to the npm registry, allowing automated, rapid spread and persistence.</li>\n\n\n\n<li>The attack propagates autonomously by exploiting existing trust in the open-source ecosystem through post-install scripts.</li>\n\n\n\n<li>The worm also deploys Unix shell scripts and uses tools such as TruffleHog to discover more secrets and broaden its impact.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Recommended mitigations",
+          "id": "recommended-mitigations"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Conduct comprehensive dependency reviews of all software using npm packages.</li>\n\n\n\n<li>Identify affected packages via package-lock.json or yarn.lock files, including transitive dependencies.</li>\n\n\n\n<li>Search artifact repositories and package caches for compromised versions.</li>\n\n\n\n<li>Pin package versions to safe releases published before September 16, 2025.</li>\n\n\n\n<li>Immediately rotate all developer and CI/CD credentials.</li>\n\n\n\n<li>Enforce phishing-resistant MFA for all developer accounts, especially on critical platforms like GitHub and npm.</li>\n\n\n\n<li>Monitor network traffic for anomalous behavior and block outbound connections to suspicious domains such as webhook.site.</li>\n\n\n\n<li>Audit and harden GitHub configurations by removing unnecessary apps, OAuth tokens, and auditing repository webhooks and secrets.</li>\n\n\n\n<li>Enable branch protection rules, GitHub Secret Scanning alerts, and Dependabot security updates.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This supply chain compromise highlights the escalating risks and the need for rigorous access controls, credential hygiene, and proactive detection strategies in development environments.</p>",
+          "text": "This supply chain compromise highlights the escalating risks and the need for rigorous access controls, credential hygiene, and proactive detection strategies in development environments."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem\">https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem</a></p>",
+          "text": "https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "attack-details",
+      "label": "Attack details",
+      "isSubItem": true
+    },
+    {
+      "id": "recommended-mitigations",
+      "label": "Recommended mitigations",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-453-24-09-25-shai-hulud-self-replicating-worm-supply-chain-compromise/",
+    "upstreamDisclosedAt": "2025-09-24T15:50:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

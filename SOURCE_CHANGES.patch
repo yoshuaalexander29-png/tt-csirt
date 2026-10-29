@@ -1,0 +1,106 @@
+--- a/src/App.tsx
++++ b/src/App.tsx
+@@ -42,18 +42,9 @@
+ interface TtcsirtHeaderProps {
+   currentPath: string;
+   onNavigate: (path: string, hash?: string) => void;
+-  isVariantB?: boolean;
+ }
+ 
+-function TtcsirtHeader({
+-  currentPath,
+-  onNavigate,
+-  isVariantB: isVariantBProp,
+-}: TtcsirtHeaderProps) {
+-  // Variant B is active by default; reversible via ?variant=a URL parameter or prop
+-  const isVariantB = isVariantBProp !== undefined
+-    ? isVariantBProp
+-    : (typeof window !== "undefined" ? !window.location.search.includes("variant=a") : true);
++function TtcsirtHeader({ currentPath, onNavigate }: TtcsirtHeaderProps) {
+ 
+   const [searchQuery, setSearchQuery] = useState("");
+   const [searchOpen, setSearchOpen] = useState(false);
+@@ -133,12 +124,7 @@
+   };
+ 
+   return (
+-    <header
+-      className={`govuk-generic-header${
+-        isVariantB ? " govuk-generic-header--variant-b" : ""
+-      }`}
+-      data-module="govuk-generic-header"
+-    >
++    <header className="govuk-generic-header" data-module="govuk-generic-header">
+       <div className="government-masthead__government-band">
+         <div className="govuk-generic-header__container govuk-width-container">
+           <div className="government-masthead__identity-row">
+@@ -395,7 +381,6 @@
+       <TtcsirtNavigation
+         currentPath={currentPath}
+         onNavigate={(path) => onNavigate(path)}
+-        isVariantB={isVariantB}
+         mobileOpen={navOpen}
+         onMobileToggle={() => setNavOpen((prev) => !prev)}
+         mobileMenuId={mobileMenuId}
+--- a/src/components/TtcsirtNavigation.tsx
++++ b/src/components/TtcsirtNavigation.tsx
+@@ -20,7 +20,6 @@
+ export type TtcsirtNavigationProps = {
+   currentPath: string;
+   onNavigate: (path: string) => void;
+-  isVariantB?: boolean;
+   mobileOpen?: boolean;
+   onMobileToggle?: () => void;
+   mobileMenuId?: string;
+@@ -167,7 +166,6 @@
+ export default function TtcsirtNavigation({
+   currentPath,
+   onNavigate,
+-  isVariantB = true,
+   mobileOpen: mobileOpenProp,
+   onMobileToggle,
+   mobileMenuId: mobileMenuIdProp,
+@@ -217,9 +215,7 @@
+     <nav
+       ref={rootRef}
+       id={mobileMenuId}
+-      className={`ttcsirt-navigation${
+-        isVariantB ? " ttcsirt-navigation--variant-b" : ""
+-      }${isMenuOpen ? " ttcsirt-navigation--open" : ""}`}
++      className={`ttcsirt-navigation${isMenuOpen ? " ttcsirt-navigation--open" : ""}`}
+       aria-label="TT-CSIRT service navigation"
+       aria-hidden={!isMenuOpen}
+     >
+--- a/src/styles/ttcsirt-header-search.scss
++++ b/src/styles/ttcsirt-header-search.scss
+@@ -7,8 +7,7 @@
+ ////
+ 
+ /* Keep the institutional identity on the same white surface as page content. */
+-.govuk-generic-header,
+-.govuk-generic-header--variant-b {
++.govuk-generic-header {
+   background-color: #ffffff !important;
+   border-bottom: 0;
+ 
+@@ -409,8 +408,7 @@
+ }
+ 
+ /* Reference masthead structure: government identity, disclosure, then service identity. */
+-.govuk-generic-header,
+-.govuk-generic-header--variant-b {
++.govuk-generic-header {
+   position: static;
+   z-index: auto;
+   background: #ffffff !important;
+--- a/apps/publishing/src/components/GdsHeader.tsx
++++ b/apps/publishing/src/components/GdsHeader.tsx
+@@ -34,7 +34,7 @@
+   return (
+     <>
+       <header
+-        className="govuk-generic-header govuk-generic-header--variant-b"
++        className="govuk-generic-header"
+         data-module="govuk-generic-header"
+       >
+         <div className="govuk-generic-header__container govuk-width-container">

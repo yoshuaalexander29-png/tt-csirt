@@ -1,0 +1,94 @@
+{
+  "id": "3438",
+  "legacyPostId": 3438,
+  "referenceNumber": "TT-CSIRT #138",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-138.062918: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-138-062918-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that it has discovered the following vulnerabilities Firefox ESR 52.9:",
+  "cveList": [
+    "CVE-2018-12359",
+    "CVE-2018-12360",
+    "CVE-2018-12362"
+  ],
+  "date": "29 June 2018",
+  "rawDate": "2018-06-29T12:33:57",
+  "modifiedDate": "29 June 2018",
+  "rawModifiedDate": "2018-06-29T12:33:57",
+  "contentHtml": "<p>Mozilla has released a security update stating that it has discovered the following vulnerabilities Firefox ESR 52.9:</p>\n<p>a) Buffer overflow using computed size of canvas element &#8211; CVE-2018-12359.</p>\n<p>b) Use-after-free when using focus() &#8211; CVE-2018-12360.</p>\n<p>c) Integer overflow in SSSE3 scaler &#8211; CVE-2018-12362.</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-17/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-17/</font></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that it has discovered the following vulnerabilities Firefox ESR 52.9: a) Buffer overflow using computed size of canvas element &#8211;…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that it has discovered the following vulnerabilities Firefox ESR 52.9: a) Buffer overflow using computed size of canvas element &#8211; CVE-2018-12359. b) Use-after-free when using focus() &#8211; CVE-2018-12360. c) Integer overflow in SSSE3 scaler &#8211; CVE-2018-12362. Successful exploitation of the most severe of these vulnerabilities could allow for [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-138-062918-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that it has discovered the following vulnerabilities Firefox ESR 52.9:</p>",
+          "text": "Mozilla has released a security update stating that it has discovered the following vulnerabilities Firefox ESR 52.9:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Buffer overflow using computed size of canvas element &#8211; CVE-2018-12359.</p>",
+          "text": "a) Buffer overflow using computed size of canvas element – CVE-2018-12359."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Use-after-free when using focus() &#8211; CVE-2018-12360.</p>",
+          "text": "b) Use-after-free when using focus() – CVE-2018-12360."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Integer overflow in SSSE3 scaler &#8211; CVE-2018-12362.</p>",
+          "text": "c) Integer overflow in SSSE3 scaler – CVE-2018-12362."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-17/\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-17/</p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2018-17/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2018-17/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-138-062918-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2018-06-29T12:33:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

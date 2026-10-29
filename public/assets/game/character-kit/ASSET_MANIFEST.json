@@ -1,0 +1,35 @@
+{
+  "relicHunter": {
+    "source": "User-supplied Lady Impa FBX",
+    "model": "public/models/relic-hunter/Impa.fbx",
+    "changedTextures": [
+      "MI_body_alb.png"
+    ],
+    "animationClips": [
+      "idle",
+      "walk",
+      "special"
+    ]
+  },
+  "groveOracle": {
+    "source": "User-supplied Great Fairy FBX",
+    "model": "public/models/grove-oracle/GreatFairy.fbx",
+    "changedTextures": [
+      "MI_body_alb.png",
+      "MI_hair_alb.png",
+      "MI_wing_alb.png"
+    ],
+    "animationClips": [
+      "idle",
+      "walk",
+      "special",
+      "wing"
+    ],
+    "hairStyle": {
+      "name": "Blonde pixie cut",
+      "implementation": "Runtime-generated Three.js golden-blonde cap with honey-gold side locks and champagne swept fringe; follows head bone",
+      "sourceHairMeshes": "Hidden at runtime in the demo; original FBX preserved"
+    }
+  },
+  "animationMode": "Procedural runtime AnimationClip tracks; not baked into the FBX files."
+}

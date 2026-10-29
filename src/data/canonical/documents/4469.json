@@ -1,0 +1,88 @@
+{
+  "id": "4469",
+  "legacyPostId": 4469,
+  "referenceNumber": "TT-CSIRT #307",
+  "classification": "advisory",
+  "title": "VMware vrealize log insight vulnerabilities",
+  "rawTitle": "TTCSIRT-307.041520: TT-CSIRT ADVISORY – VMWARE VREALIZE LOG INSIGHT VULNERABILITIES",
+  "slug": "ttcsirt-307-041520-tt-csirt-advisory-vmware-vrealize-log-insight-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cross Site Scripting (XSS) and Open Redirect vulnerabilities exist in vRealize Log Insight due to improper Input validation; (CVE-2020-3953) and (CVE-2020-3954) respectively.",
+  "cveList": [
+    "CVE-2020-3953",
+    "CVE-2020-3954"
+  ],
+  "date": "15 April 2020",
+  "rawDate": "2020-04-15T17:23:52",
+  "modifiedDate": "15 April 2020",
+  "rawModifiedDate": "2020-04-15T17:23:52",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cross Site Scripting (XSS) and Open Redirect vulnerabilities exist in vRealize Log Insight due to improper Input validation; (CVE-2020-3953) and (CVE-2020-3954) respectively.</p>\n\n\n\n<p class=\"wp-block-paragraph\">VMware has evaluated the severity of these issues to be in the important and moderate severity ranges with the Cross Site Scripting vulnerability having a maximum CVSSv3 base score of 8.4 and Open Redirect vulnerability reflecting a moderate severity range with a maximum CVSSv3 base score of 6.1</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further reference and to remediate CVE-2020-3953 and CVE-2020-3954 apply the updates listed in the &#8216;Fixed Version&#8217; column of the &#8216;Response Matrix&#8217; by following the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0007.html\">https://www.vmware.com/security/advisories/VMSA-2020-0007.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "Cross Site Scripting (XSS) and Open Redirect vulnerabilities exist in vRealize Log Insight due to improper Input validation; (CVE-2020-3953) and (CVE-2020-3954) respectively.",
+  "sourceExcerpt": "<p>Cross Site Scripting (XSS) and Open Redirect vulnerabilities exist in vRealize Log Insight due to improper Input validation; (CVE-2020-3953) and (CVE-2020-3954) respectively. VMware has evaluated the severity of these issues to be in the important and moderate severity ranges with the Cross Site Scripting vulnerability having a maximum CVSSv3 base score of 8.4 and Open [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-307-041520-tt-csirt-advisory-vmware-vrealize-log-insight-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cross Site Scripting (XSS) and Open Redirect vulnerabilities exist in vRealize Log Insight due to improper Input validation; (CVE-2020-3953) and (CVE-2020-3954) respectively.</p>",
+          "text": "Cross Site Scripting (XSS) and Open Redirect vulnerabilities exist in vRealize Log Insight due to improper Input validation; (CVE-2020-3953) and (CVE-2020-3954) respectively."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has evaluated the severity of these issues to be in the important and moderate severity ranges with the Cross Site Scripting vulnerability having a maximum CVSSv3 base score of 8.4 and Open Redirect vulnerability reflecting a moderate severity range with a maximum CVSSv3 base score of 6.1</p>",
+          "text": "VMware has evaluated the severity of these issues to be in the important and moderate severity ranges with the Cross Site Scripting vulnerability having a maximum CVSSv3 base score of 8.4 and Open Redirect vulnerability reflecting a moderate severity range with a maximum CVSSv3 base score of 6.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further reference and to remediate CVE-2020-3953 and CVE-2020-3954 apply the updates listed in the &#8216;Fixed Version&#8217; column of the &#8216;Response Matrix&#8217; by following the link below:</p>",
+          "text": "For further reference and to remediate CVE-2020-3953 and CVE-2020-3954 apply the updates listed in the ‘Fixed Version’ column of the ‘Response Matrix’ by following the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0007.html\">https://www.vmware.com/security/advisories/VMSA-2020-0007.html</a></p>",
+          "text": "https://www.vmware.com/security/advisories/VMSA-2020-0007.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2020-0007.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-307-041520-tt-csirt-advisory-vmware-vrealize-log-insight-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-04-15T17:23:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

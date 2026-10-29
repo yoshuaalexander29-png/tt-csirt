@@ -1,0 +1,95 @@
+{
+  "id": "2922",
+  "legacyPostId": 2922,
+  "referenceNumber": "TT-CSIRT #031",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-031.080917: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-031-080917-tt-csirt-advisory-mozilla-firefox-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released security updates to address multiple vulnerabilities in Firefox and Firefox ESR:",
+  "cveList": [],
+  "date": "9 August 2017",
+  "rawDate": "2017-08-09T14:25:15",
+  "modifiedDate": "9 August 2017",
+  "rawModifiedDate": "2017-08-09T14:25:15",
+  "contentHtml": "<p>Mozilla has released security updates to address multiple vulnerabilities in Firefox and Firefox ESR:</p>\n<p>a) Developer Tools feature suffers from a XUL injection vulnerability due to improper sanitization of the web page source code. </p>\n<p>b) A use-after-free vulnerability can occur in WebSockets when the object holding the connection is freed before the disconnection operation is finished. This results in an exploitable crash.</p>\n<p>c) A use-after-free vulnerability can occur while re-computing layout for a marquee element during window resizing where the updated style object is freed while still in use. This results in a potentially exploitable crash.</p>\n<p>d) A use-after-free vulnerability can occur when an editor DOM node is deleted prematurely during tree traversal while still bound to the document. This results in a potentially exploitable crash.</p>\n<p>e) A use-after-free vulnerability can occur when reading an image observer during frame reconstruction after the observer has been freed. This results in a potentially exploitable crash.</p>\n<table>\n<tr>\n<td>Further information on these security updates can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2017-18/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2017-18/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released security updates to address multiple vulnerabilities in Firefox and Firefox ESR: a) Developer Tools feature suffers from a XUL injection vulnerability due to improper…",
+  "sourceExcerpt": "<p>Mozilla has released security updates to address multiple vulnerabilities in Firefox and Firefox ESR: a) Developer Tools feature suffers from a XUL injection vulnerability due to improper sanitization of the web page source code. b) A use-after-free vulnerability can occur in WebSockets when the object holding the connection is freed before the disconnection operation is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-031-080917-tt-csirt-advisory-mozilla-firefox-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released security updates to address multiple vulnerabilities in Firefox and Firefox ESR:</p>",
+          "text": "Mozilla has released security updates to address multiple vulnerabilities in Firefox and Firefox ESR:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Developer Tools feature suffers from a XUL injection vulnerability due to improper sanitization of the web page source code.</p>",
+          "text": "a) Developer Tools feature suffers from a XUL injection vulnerability due to improper sanitization of the web page source code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A use-after-free vulnerability can occur in WebSockets when the object holding the connection is freed before the disconnection operation is finished. This results in an exploitable crash.</p>",
+          "text": "b) A use-after-free vulnerability can occur in WebSockets when the object holding the connection is freed before the disconnection operation is finished. This results in an exploitable crash."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A use-after-free vulnerability can occur while re-computing layout for a marquee element during window resizing where the updated style object is freed while still in use. This results in a potentially exploitable crash.</p>",
+          "text": "c) A use-after-free vulnerability can occur while re-computing layout for a marquee element during window resizing where the updated style object is freed while still in use. This results in a potentially exploitable crash."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) A use-after-free vulnerability can occur when an editor DOM node is deleted prematurely during tree traversal while still bound to the document. This results in a potentially exploitable crash.</p>",
+          "text": "d) A use-after-free vulnerability can occur when an editor DOM node is deleted prematurely during tree traversal while still bound to the document. This results in a potentially exploitable crash."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A use-after-free vulnerability can occur when reading an image observer during frame reconstruction after the observer has been freed. This results in a potentially exploitable crash.</p>",
+          "text": "e) A use-after-free vulnerability can occur when reading an image observer during frame reconstruction after the observer has been freed. This results in a potentially exploitable crash."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these security updates can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2017-18/\">https://www.mozilla.org/en-US/security/advisories/mfsa2017-18/</a></p>",
+          "text": "Further information on these security updates can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2017-18/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2017-18/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-031-080917-tt-csirt-advisory-mozilla-firefox-security-updates/",
+    "upstreamDisclosedAt": "2017-08-09T14:25:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

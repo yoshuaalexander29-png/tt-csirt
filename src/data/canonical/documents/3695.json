@@ -1,0 +1,75 @@
+{
+  "id": "3695",
+  "legacyPostId": 3695,
+  "referenceNumber": "TT-CSIRT #206",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-206.042319: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-206-042319-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it has discovered a vulnerability in the development shell (devshell) authentication for Cisco Aironet Series Access Points (APs) where an attacker could access the development shell without proper authentication, which allows for root access to the underlying Linux OS.",
+  "cveList": [],
+  "date": "23 April 2019",
+  "rawDate": "2019-04-23T18:05:56",
+  "modifiedDate": "23 April 2019",
+  "rawModifiedDate": "2019-04-23T18:05:56",
+  "contentHtml": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the development shell (devshell) authentication for Cisco Aironet Series Access Points (APs) where an attacker could access the development shell without proper authentication, which allows for root access to the underlying Linux OS.</p>\n<p>This vulnerability exists because the software improperly validates user-supplied input at the CLI authentication prompts for development shell access. An attacker could exploit this by authenticating to the device and entering crafted input at the CLI. </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190417-aironet-shell\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190417-aironet-shell</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it has discovered a vulnerability in the development shell (devshell) authentication for Cisco Aironet Series Access Points (APs) where an…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the development shell (devshell) authentication for Cisco Aironet Series Access Points (APs) where an attacker could access the development shell without proper authentication, which allows for root access to the underlying Linux OS. This vulnerability exists because the software improperly validates [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-206-042319-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the development shell (devshell) authentication for Cisco Aironet Series Access Points (APs) where an attacker could access the development shell without proper authentication, which allows for root access to the underlying Linux OS.</p>",
+          "text": "Cisco has released a security update stating that it has discovered a vulnerability in the development shell (devshell) authentication for Cisco Aironet Series Access Points (APs) where an attacker could access the development shell without proper authentication, which allows for root access to the underlying Linux OS."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability exists because the software improperly validates user-supplied input at the CLI authentication prompts for development shell access. An attacker could exploit this by authenticating to the device and entering crafted input at the CLI.</p>",
+          "text": "This vulnerability exists because the software improperly validates user-supplied input at the CLI authentication prompts for development shell access. An attacker could exploit this by authenticating to the device and entering crafted input at the CLI."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190417-aironet-shell\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190417-aironet-shell</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190417-aironet-shell"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190417-aironet-shell"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-206-042319-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2019-04-23T18:05:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

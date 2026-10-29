@@ -1,0 +1,95 @@
+{
+  "id": "3579",
+  "legacyPostId": 3579,
+  "referenceNumber": "TT-CSIRT #177",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-177.102918: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-177-102918-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security stating that it has discovered the following vulnerabilities in Mozilla Firefox ver 63.0:",
+  "cveList": [
+    "CVE-2018-12392",
+    "CVE-2018-12393",
+    "CVE-2018-12395",
+    "CVE-2018-12396"
+  ],
+  "date": "29 October 2018",
+  "rawDate": "2018-10-29T17:06:36",
+  "modifiedDate": "29 October 2018",
+  "rawModifiedDate": "2018-10-29T17:06:36",
+  "contentHtml": "<p>Mozilla has released a security stating that it has discovered the following vulnerabilities in Mozilla Firefox ver 63.0:</p>\n<p>a) Crash with nested event loops &#8211; when manipulating user events in nested loops while opening a document through script, it is possible to trigger a potentially exploitable crash due to poor event handling (CVE-2018-12392).</p>\n<p>b) Integer overflow during Unicode conversion while loading JavaScript &#8211; integer overflow during the conversion of scripts to an internal UTF-16 representation could result in allocating a buffer too small for the conversion. This leads to a possible out-of-bounds write (CVE-2018-12393).</p>\n<p>c) WebExtension bypass of domain restrictions through header rewriting &#8211; by rewriting the Host request headers using the webRequest API, a WebExtension can bypass domain restrictions through domain fronting. This would allow access to domains that share a host that are otherwise restricted (CVE-2018-12395).</p>\n<p>d) WebExtension content scripts can execute in disallowed contexts &#8211; a vulnerability where a WebExtension can run content scripts in disallowed contexts following navigation or other events. This allows for potential privilege escalation by the WebExtension on sites where content scripts should not be run (CVE-2018-12396).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-26/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-26/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security stating that it has discovered the following vulnerabilities in Mozilla Firefox ver 63.0: a) Crash with nested event loops &#8211; when manipulating user events…",
+  "sourceExcerpt": "<p>Mozilla has released a security stating that it has discovered the following vulnerabilities in Mozilla Firefox ver 63.0: a) Crash with nested event loops &#8211; when manipulating user events in nested loops while opening a document through script, it is possible to trigger a potentially exploitable crash due to poor event handling (CVE-2018-12392). b) Integer [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-177-102918-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security stating that it has discovered the following vulnerabilities in Mozilla Firefox ver 63.0:</p>",
+          "text": "Mozilla has released a security stating that it has discovered the following vulnerabilities in Mozilla Firefox ver 63.0:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Crash with nested event loops &#8211; when manipulating user events in nested loops while opening a document through script, it is possible to trigger a potentially exploitable crash due to poor event handling (CVE-2018-12392).</p>",
+          "text": "a) Crash with nested event loops – when manipulating user events in nested loops while opening a document through script, it is possible to trigger a potentially exploitable crash due to poor event handling (CVE-2018-12392)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Integer overflow during Unicode conversion while loading JavaScript &#8211; integer overflow during the conversion of scripts to an internal UTF-16 representation could result in allocating a buffer too small for the conversion. This leads to a possible out-of-bounds write (CVE-2018-12393).</p>",
+          "text": "b) Integer overflow during Unicode conversion while loading JavaScript – integer overflow during the conversion of scripts to an internal UTF-16 representation could result in allocating a buffer too small for the conversion. This leads to a possible out-of-bounds write (CVE-2018-12393)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) WebExtension bypass of domain restrictions through header rewriting &#8211; by rewriting the Host request headers using the webRequest API, a WebExtension can bypass domain restrictions through domain fronting. This would allow access to domains that share a host that are otherwise restricted (CVE-2018-12395).</p>",
+          "text": "c) WebExtension bypass of domain restrictions through header rewriting – by rewriting the Host request headers using the webRequest API, a WebExtension can bypass domain restrictions through domain fronting. This would allow access to domains that share a host that are otherwise restricted (CVE-2018-12395)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) WebExtension content scripts can execute in disallowed contexts &#8211; a vulnerability where a WebExtension can run content scripts in disallowed contexts following navigation or other events. This allows for potential privilege escalation by the WebExtension on sites where content scripts should not be run (CVE-2018-12396).</p>",
+          "text": "d) WebExtension content scripts can execute in disallowed contexts – a vulnerability where a WebExtension can run content scripts in disallowed contexts following navigation or other events. This allows for potential privilege escalation by the WebExtension on sites where content scripts should not be run (CVE-2018-12396)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-26/\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-26/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2018-26/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2018-26/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-177-102918-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2018-10-29T17:06:36",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

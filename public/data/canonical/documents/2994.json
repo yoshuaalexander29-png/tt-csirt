@@ -1,0 +1,89 @@
+{
+  "id": "2994",
+  "legacyPostId": 2994,
+  "referenceNumber": "TT-CSIRT #045",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-045.092617: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-045-092617-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Google Chrome, which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-5121",
+    "CVE-2017-5122"
+  ],
+  "date": "26 September 2017",
+  "rawDate": "2017-09-26T11:29:39",
+  "modifiedDate": "26 September 2017",
+  "rawModifiedDate": "2017-09-26T11:29:39",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Google Chrome, which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:</p>\n<p><strong>Out-of-bounds access in V8. (CVE-2017-5121, CVE-2017-5122)</strong></p>\n<p>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the browser, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-089/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-089/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Google Chrome, which could result in arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Google Chrome, which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows: Out-of-bounds access in V8. (CVE-2017-5121, CVE-2017-5122) Successful exploitation of these vulnerabilities could allow an attacker [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-045-092617-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Google Chrome, which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Google Chrome, which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out-of-bounds access in v8. (cve-2017-5121, CVE-2017-5122)",
+          "id": "out-of-bounds-access-in-v8-cve-2017-5121-cve-2017-5122"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the browser, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the browser, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-089/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-089/</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-089/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "out-of-bounds-access-in-v8-cve-2017-5121-cve-2017-5122",
+      "label": "Out-of-bounds access in v8. (cve-2017-5121, CVE-2017-5122)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-089/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-045-092617-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2017-09-26T11:29:39",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

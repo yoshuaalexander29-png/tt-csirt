@@ -1,0 +1,70 @@
+{
+  "id": "3534",
+  "legacyPostId": 3534,
+  "referenceNumber": "TT-CSIRT #165",
+  "classification": "advisory",
+  "title": "Hp security updates",
+  "rawTitle": "TTCSIRT-165.091418: TT-CSIRT Advisory – HP Security Updates",
+  "slug": "ttcsirt-165-091418-tt-csirt-advisory-hp-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "HP has released a security update stating that it has discovered a vulnerability in some versions of its inkjet printers where a maliciously crafted file sent to an affected device can cause a stack or static buffer overflow which could allow remote code execution.",
+  "cveList": [],
+  "date": "14 September 2018",
+  "rawDate": "2018-09-14T13:39:47",
+  "modifiedDate": "14 September 2018",
+  "rawModifiedDate": "2018-09-14T13:39:47",
+  "contentHtml": "<p>HP has released a security update stating that it has discovered a vulnerability in some versions of its inkjet printers where a maliciously crafted file sent to an affected device can cause a stack or static buffer overflow which could allow remote code execution.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and which inkjet printer versions it affects can be found on the HP Website at <a href=\"https://support.hp.com/us-en/document/c06097712\"><font size=\"2\" color=\"maroon\">https://support.hp.com/us-en/document/c06097712</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "HP has released a security update stating that it has discovered a vulnerability in some versions of its inkjet printers where a maliciously crafted file sent to an affected device can cause a…",
+  "sourceExcerpt": "<p>HP has released a security update stating that it has discovered a vulnerability in some versions of its inkjet printers where a maliciously crafted file sent to an affected device can cause a stack or static buffer overflow which could allow remote code execution. Further information on this vulnerability and which inkjet printer versions it [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-165-091418-tt-csirt-advisory-hp-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>HP has released a security update stating that it has discovered a vulnerability in some versions of its inkjet printers where a maliciously crafted file sent to an affected device can cause a stack or static buffer overflow which could allow remote code execution.</p>",
+          "text": "HP has released a security update stating that it has discovered a vulnerability in some versions of its inkjet printers where a maliciously crafted file sent to an affected device can cause a stack or static buffer overflow which could allow remote code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and which inkjet printer versions it affects can be found on the HP Website at <a href=\"https://support.hp.com/us-en/document/c06097712\">https://support.hp.com/us-en/document/c06097712</a></p>",
+          "text": "Further information on this vulnerability and which inkjet printer versions it affects can be found on the HP Website at https://support.hp.com/us-en/document/c06097712"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.hp.com/us-en/document/c06097712"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-165-091418-tt-csirt-advisory-hp-security-updates/",
+    "upstreamDisclosedAt": "2018-09-14T13:39:47",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

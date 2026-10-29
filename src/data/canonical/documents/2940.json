@@ -1,0 +1,83 @@
+{
+  "id": "2940",
+  "legacyPostId": 2940,
+  "referenceNumber": "TT-CSIRT #035",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-035.081817: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-035-081817-tt-csirt-advisory-drupal-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released an advisory to address several vulnerabilities in Drupal 8.x:",
+  "cveList": [
+    "CVE-2017-6924",
+    "CVE-2017-6925"
+  ],
+  "date": "18 August 2017",
+  "rawDate": "2017-08-18T15:14:18",
+  "modifiedDate": "18 August 2017",
+  "rawModifiedDate": "2017-08-18T15:14:18",
+  "contentHtml": "<p>Drupal has released an advisory to address several vulnerabilities in Drupal 8.x:</p>\n<p>a) CVE-2017-6924 &#8211; REST API can bypass comment approval &#8211; when using the REST API, users without the correct permission can post comments via REST that are approved even if the user does not have permission to post approved comments. This issue only affects sites that have the RESTful Web Services (rest) module enabled, the comment entity REST resource enabled, and where an attacker can access a user account on the site with permissions to post comments, or where anonymous users can post comments.</p>\n<p>b) CVE-2017-6925 &#8211; there is a vulnerability in the entity access system that could allow unwanted access to view, create, update, or delete entities. This only affects entities that do not use or do not have UUIDs and entities that have different access restrictions on different revisions of the same entity.</p>\n<p>Further information on these vulnerabilities and how they can be fixed can be found on the Drupal Website at <a href=\"https://www.drupal.org/SA-CORE-2017-004\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/SA-CORE-2017-004</font></a></p>\n",
+  "displaySummary": "Drupal has released an advisory to address several vulnerabilities in Drupal 8.x: a) CVE-2017-6924 &#8211; REST API can bypass comment approval &#8211; when using the REST API, users without the…",
+  "sourceExcerpt": "<p>Drupal has released an advisory to address several vulnerabilities in Drupal 8.x: a) CVE-2017-6924 &#8211; REST API can bypass comment approval &#8211; when using the REST API, users without the correct permission can post comments via REST that are approved even if the user does not have permission to post approved comments. This issue only [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-035-081817-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released an advisory to address several vulnerabilities in Drupal 8.x:</p>",
+          "text": "Drupal has released an advisory to address several vulnerabilities in Drupal 8.x:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) CVE-2017-6924 &#8211; REST API can bypass comment approval &#8211; when using the REST API, users without the correct permission can post comments via REST that are approved even if the user does not have permission to post approved comments. This issue only affects sites that have the RESTful Web Services (rest) module enabled, the comment entity REST resource enabled, and where an attacker can access a user account on the site with permissions to post comments, or where anonymous users can post comments.</p>",
+          "text": "a) CVE-2017-6924 – REST API can bypass comment approval – when using the REST API, users without the correct permission can post comments via REST that are approved even if the user does not have permission to post approved comments. This issue only affects sites that have the RESTful Web Services (rest) module enabled, the comment entity REST resource enabled, and where an attacker can access a user account on the site with permissions to post comments, or where anonymous users can post comments."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) CVE-2017-6925 &#8211; there is a vulnerability in the entity access system that could allow unwanted access to view, create, update, or delete entities. This only affects entities that do not use or do not have UUIDs and entities that have different access restrictions on different revisions of the same entity.</p>",
+          "text": "b) CVE-2017-6925 – there is a vulnerability in the entity access system that could allow unwanted access to view, create, update, or delete entities. This only affects entities that do not use or do not have UUIDs and entities that have different access restrictions on different revisions of the same entity."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on the Drupal Website at <a href=\"https://www.drupal.org/SA-CORE-2017-004\">https://www.drupal.org/SA-CORE-2017-004</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on the Drupal Website at https://www.drupal.org/SA-CORE-2017-004"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/SA-CORE-2017-004"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-035-081817-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2017-08-18T15:14:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

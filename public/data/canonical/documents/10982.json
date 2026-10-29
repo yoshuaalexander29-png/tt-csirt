@@ -1,0 +1,216 @@
+{
+  "id": "10982",
+  "legacyPostId": 10982,
+  "referenceNumber": "TT-CSIRT 458.15.06.26",
+  "classification": "advisory",
+  "title": "Critical authentication bypass vulnerabilities in Palo Alto Networks PAN-OS",
+  "rawTitle": "TT-CSIRT – 458.15.06.26- Critical Authentication bypass vulnerabilities in Palo Alto Networks PAN-OS (CVE-2026-0257)",
+  "slug": "tt-csirt-458-15-06-26-critical-authentication-bypass-vulnerabilities-in-palo-alto-networks-pan-os-cve-2026-0257",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A critical vulnerability, designated as CVE-2026-0257 , has been identified in Palo Alto Networks PAN-OS, specifically affecting the portal and gateway components of the PAN-OS software. Successful exploitation of CVE-2026-0257 may allow threat actors to bypass security controls and establish unauthorized VPN connections.",
+  "cveList": [
+    "CVE-2026-0257"
+  ],
+  "date": "15 June 2026",
+  "rawDate": "2026-06-15T08:15:00",
+  "modifiedDate": "16 June 2026",
+  "rawModifiedDate": "2026-06-16T08:16:29",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that a critical vulnerability, designated as <strong>CVE-2026-0257</strong>, has been identified in Palo Alto Networks PAN-OS, specifically affecting the portal and gateway components of the PAN-OS software. Successful exploitation of <strong>CVE-2026-0257</strong> may allow threat actors to bypass security controls and establish unauthorized VPN connections.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Please note:</strong> Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected Systems&nbsp;and solutions<br></strong><em>Panorama and Cloud NGFW are not impacted by these issues.<strong><br><br></strong></em><strong></strong></p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>Product</strong></td><td><strong>Affected Versions</strong></td><td><strong>Recommended Solution</strong></td></tr><tr><td><strong>Cloud NGFW</strong></td><td>None</td><td>No action required</td></tr><tr><td><strong>PAN-OS 12.1</strong></td><td>12.1.2 through 12.1.6</td><td>Upgrade to 12.1.7 or applicable fixed hotfix</td></tr><tr><td><strong>PAN-OS 11.2</strong></td><td>11.2.0 through 11.2.11</td><td>Upgrade to 11.2.12 or applicable fixed hotfix</td></tr><tr><td><strong>PAN-OS 11.1</strong></td><td>11.1.0 through 11.1.14</td><td>Upgrade to 11.1.15 or applicable fixed hotfix</td></tr><tr><td><strong>PAN-OS 10.2</strong></td><td>10.2.0 through 10.2.18-h*</td><td>Upgrade to 10.2.18-h6 or applicable fixed hotfix</td></tr><tr><td><strong>Older PAN-OS versions</strong></td><td>Unsupported versions</td><td>Upgrade to a supported fixed version</td></tr><tr><td><strong>Prisma Access 10.2</strong></td><td>10.2.0 through 10.2.10-h*</td><td>Upgrade to 10.2.10-h36 or later</td></tr><tr><td><strong>Prisma Access 11.2</strong></td><td>11.2.0 through 11.2.7-h*</td><td>Upgrade to 11.2.7-h13 or later</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><br><br>Recommendations and Mitigation Measures</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>TT-CSIRT recommends that organizations using affected Palo Alto Networks PAN-OS versions review the official security advisory : <a href=\"https://security.paloaltonetworks.com/CVE-2026-0257\" target=\"_blank\" rel=\"noreferrer noopener\">https://security.paloaltonetworks.com/CVE-2026-0257</a>.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Customers are advised to implement one or more of the following mitigation measures to reduce the risk associated with this vulnerability:</p>\n\n\n\n<ol start=\"1\" class=\"wp-block-list\">\n<li><strong>Use a Dedicated Certificate for Authentication Override Cookies</strong>\n<ul class=\"wp-block-list\">\n<li>Generate and deploy a new certificate exclusively for Authentication Override cookies.</li>\n\n\n\n<li>Ensure that the certificate is stored securely and is not reused for the GlobalProtect portal, gateway, or any other features or users.</li>\n</ul>\n</li>\n</ol>\n\n\n\n<ol start=\"2\" class=\"wp-block-list\">\n<li><strong>Disable Authentication Override</strong>\n<ul class=\"wp-block-list\">\n<li>Disable the Authentication Override functionality by unchecking the options for generating and accepting Authentication Override cookies within the GlobalProtect portal and gateway configurations.</li>\n</ul>\n</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\">Implementing these measures can significantly reduce the likelihood of successful exploitation until a permanent remediation or security update is applied.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><br></strong><strong>Indicators of Compromise (IoCs)</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Palo Alto Networks has also released the following Indicators of Compromise (IoCs) associated with the observed malicious activity:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>IP addresses &#8211;</strong><ul><li>23.128.228[.]6</li></ul><ul><li>104.207.144[.]154</li></ul><ul><li>146.19.216[.]119</li></ul><ul><li>146.19.216[.]120</li></ul><ul><li>146.19.216[.]125</li></ul><ul><li>179.43.172[.]213</li></ul><ul><li>185.195.232[.]139</li></ul><ul><li>198.12.106[.]60</li></ul>\n<ul class=\"wp-block-list\">\n<li>202.144.192[.]47</li>\n</ul>\n</li>\n</ul>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Host Names and MAC Addresses &#8211;</strong><ul><li>aa:bb:cc:dd:ee:ff</li></ul><ul><li>00:11:22:33:44:55</li></ul><ul><li>WINDOWS-LAPTOP-001</li></ul><ul><li>DESKTOP-GP01</li></ul>\n<ul class=\"wp-block-list\">\n<li>GP-CLIENT</li>\n</ul>\n</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Reference(s):<br></strong><a href=\"https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html\" target=\"_blank\" rel=\"noreferrer noopener\">https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html</a><strong><br></strong><a href=\"https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html\" target=\"_blank\" rel=\"noreferrer noopener\">https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html</a><strong><br></strong><a href=\"https://security.paloaltonetworks.com/CVE-2026-0257\" target=\"_blank\" rel=\"noreferrer noopener\">https://security.paloaltonetworks.com/CVE-2026-0257</a><strong><br></strong><a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-0257\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/cve-2026-0257</a><strong> </strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><br></strong><strong>Contact Information:</strong><br>If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via&nbsp;<a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a><br><br></p>\n",
+  "displaySummary": "A critical vulnerability, designated as CVE-2026-0257, has been identified in Palo Alto Networks PAN-OS, specifically affecting the portal and gateway components of the PAN-OS software.",
+  "sourceExcerpt": "<p>Please be advised that a critical vulnerability, designated as CVE-2026-0257, has been identified in Palo Alto Networks PAN-OS, specifically affecting the portal and gateway components of the PAN-OS software. Successful exploitation of CVE-2026-0257 may allow threat actors to bypass security controls and establish unauthorized VPN connections. Please note: Palo Alto Networks has confirmed that this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-458-15-06-26-critical-authentication-bypass-vulnerabilities-in-palo-alto-networks-pan-os-cve-2026-0257/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A critical vulnerability, designated as <strong>CVE-2026-0257</strong>, has been identified in Palo Alto Networks PAN-OS, specifically affecting the portal and gateway components of the PAN-OS software. Successful exploitation of <strong>CVE-2026-0257</strong> may allow threat actors to bypass security controls and establish unauthorized VPN connections.</p>",
+          "text": "A critical vulnerability, designated as CVE-2026-0257 , has been identified in Palo Alto Networks PAN-OS, specifically affecting the portal and gateway components of the PAN-OS software. Successful exploitation of CVE-2026-0257 may allow threat actors to bypass security controls and establish unauthorized VPN connections."
+        },
+        {
+          "type": "warning",
+          "html": "<strong>Please note:</strong> Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild.",
+          "text": "Please note: Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild."
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected systems and solutions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><em>Panorama and Cloud NGFW are not impacted by these issues.<strong></p>",
+          "text": "Panorama and Cloud NGFW are not impacted by these issues."
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Product</th><th scope=\"col\" class=\"govuk-table__header\">Affected Versions</th><th scope=\"col\" class=\"govuk-table__header\">Recommended Solution</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>Cloud NGFW</strong></th><td class=\"govuk-table__cell\">None</td><td class=\"govuk-table__cell\">No action required</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>PAN-OS 12.1</strong></th><td class=\"govuk-table__cell\">12.1.2 through 12.1.6</td><td class=\"govuk-table__cell\">Upgrade to 12.1.7 or applicable fixed hotfix</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>PAN-OS 11.2</strong></th><td class=\"govuk-table__cell\">11.2.0 through 11.2.11</td><td class=\"govuk-table__cell\">Upgrade to 11.2.12 or applicable fixed hotfix</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>PAN-OS 11.1</strong></th><td class=\"govuk-table__cell\">11.1.0 through 11.1.14</td><td class=\"govuk-table__cell\">Upgrade to 11.1.15 or applicable fixed hotfix</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>PAN-OS 10.2</strong></th><td class=\"govuk-table__cell\">10.2.0 through 10.2.18-h*</td><td class=\"govuk-table__cell\">Upgrade to 10.2.18-h6 or applicable fixed hotfix</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>Older PAN-OS versions</strong></th><td class=\"govuk-table__cell\">Unsupported versions</td><td class=\"govuk-table__cell\">Upgrade to a supported fixed version</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>Prisma Access 10.2</strong></th><td class=\"govuk-table__cell\">10.2.0 through 10.2.10-h*</td><td class=\"govuk-table__cell\">Upgrade to 10.2.10-h36 or later</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>Prisma Access 11.2</strong></th><td class=\"govuk-table__cell\">11.2.0 through 11.2.7-h*</td><td class=\"govuk-table__cell\">Upgrade to 11.2.7-h13 or later</td></tr></tbody>\n      </table>\n    </div>"
+        }
+      ]
+    },
+    {
+      "id": "recommendations-and-mitigation-measures",
+      "title": "Recommendations and mitigation measures",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>TT-CSIRT recommends that organizations using affected Palo Alto Networks PAN-OS versions review the official security advisory : <a href=\"https://security.paloaltonetworks.com/CVE-2026-0257\" target=\"_blank\" rel=\"noreferrer noopener\">https://security.paloaltonetworks.com/CVE-2026-0257</a>.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Customers are advised to implement one or more of the following mitigation measures to reduce the risk associated with this vulnerability:</p>",
+          "text": "Customers are advised to implement one or more of the following mitigation measures to reduce the risk associated with this vulnerability:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"1\" class=\"wp-block-list\">\n<li><strong>Use a Dedicated Certificate for Authentication Override Cookies</strong>\n<ul class=\"wp-block-list\">\n<li>Generate and deploy a new certificate exclusively for Authentication Override cookies.</li>\n\n\n\n<li>Ensure that the certificate is stored securely and is not reused for the GlobalProtect portal, gateway, or any other features or users.</li>\n</ul>\n</li>\n</ol>"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"2\" class=\"wp-block-list\">\n<li><strong>Disable Authentication Override</strong>\n<ul class=\"wp-block-list\">\n<li>Disable the Authentication Override functionality by unchecking the options for generating and accepting Authentication Override cookies within the GlobalProtect portal and gateway configurations.</li>\n</ul>\n</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Implementing these measures can significantly reduce the likelihood of successful exploitation until a permanent remediation or security update is applied.</p>",
+          "text": "Implementing these measures can significantly reduce the likelihood of successful exploitation until a permanent remediation or security update is applied."
+        }
+      ]
+    },
+    {
+      "id": "indicators-of-compromise-iocs",
+      "title": "Indicators of compromise (IoCs)",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Palo Alto Networks has also released the following Indicators of Compromise (IoCs) associated with the observed malicious activity:</p>",
+          "text": "Palo Alto Networks has also released the following Indicators of Compromise (IoCs) associated with the observed malicious activity:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>IP addresses &#8211;</strong><ul><li>23.128.228[.]6</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>104.207.144[.]154</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>146.19.216[.]119</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>146.19.216[.]120</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>146.19.216[.]125</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>179.43.172[.]213</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>185.195.232[.]139</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>198.12.106[.]60</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>202.144.192[.]47</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Host Names and MAC Addresses &#8211;</strong><ul><li>aa:bb:cc:dd:ee:ff</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>00:11:22:33:44:55</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>WINDOWS-LAPTOP-001</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>DESKTOP-GP01</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>GP-CLIENT</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html\" target=\"_blank\" rel=\"noreferrer noopener\">https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html</a><strong><br></strong><a href=\"https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html\" target=\"_blank\" rel=\"noreferrer noopener\">https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html</a><strong><br></strong><a href=\"https://security.paloaltonetworks.com/CVE-2026-0257\" target=\"_blank\" rel=\"noreferrer noopener\">https://security.paloaltonetworks.com/CVE-2026-0257</a><strong><br></strong><a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-0257\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/cve-2026-0257</a></p>",
+          "text": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html https://security.paloaltonetworks.com/CVE-2026-0257 https://nvd.nist.gov/vuln/detail/cve-2026-0257"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected systems and solutions"
+    },
+    {
+      "id": "recommendations-and-mitigation-measures",
+      "label": "Recommendations and mitigation measures"
+    },
+    {
+      "id": "indicators-of-compromise-iocs",
+      "label": "Indicators of compromise (IoCs)"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://security.paloaltonetworks.com/CVE-2026-0257",
+    "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+    "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+    "https://nvd.nist.gov/vuln/detail/cve-2026-0257"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-458-15-06-26-critical-authentication-bypass-vulnerabilities-in-palo-alto-networks-pan-os-cve-2026-0257/",
+    "upstreamDisclosedAt": "2026-06-15T08:15:00",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

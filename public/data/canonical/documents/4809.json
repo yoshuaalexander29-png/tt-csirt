@@ -1,0 +1,80 @@
+{
+  "id": "4809",
+  "legacyPostId": 4809,
+  "referenceNumber": "TT-CSIRT 378.11.17.20",
+  "classification": "advisory",
+  "title": "Cisco releases security updates for security manager",
+  "rawTitle": "TTCSIRT-378.11.17.20: TT-CSIRT ADVISORY – Cisco Releases Security Updates for Security Manager",
+  "slug": "ttcsirt-378-11-17-20-tt-csirt-advisory-cisco-releases-security-updates-for-security-manager",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities in Cisco Security Manager.",
+  "cveList": [],
+  "date": "17 November 2020",
+  "rawDate": "2020-11-17T14:23:18",
+  "modifiedDate": "17 November 2020",
+  "rawModifiedDate": "2020-11-17T14:23:18",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released security updates to address vulnerabilities in Cisco Security Manager.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A remote attacker could exploit these vulnerabilities to obtain sensitive information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that&nbsp;users and administrators,&nbsp;review the following Cisco Security Advisories and apply the necessary updates.</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Cisco Security Manager Path Traversal Vulnerability <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTcuMzA2MzA3NTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtY3NtLXBhdGgtdHJhdi1OZ2VSbnFnUiJ9.o-pIHtLAto8eIEWuuAQVWFFH32nN3LmXEuZhVL3XFEQ/s/1193638257/br/89926810906-l\">cisco-sa-csm-path-trav-NgeRnqgR</a><br></li><li>Cisco Security Manager Static Credential Vulnerability <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTcuMzA2MzA3NTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtY3NtLXJjZS04Z2pVejlmVyJ9.E0scaCuxUbsnLjatJQtYvIBXMCgOgicUHtGj6QMXTj8/s/1193638257/br/89926810906-l\">cisco-sa-csm-rce-8gjUz</a></li></ul>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities in Cisco Security Manager. A remote attacker could exploit these vulnerabilities to obtain sensitive information.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities in Cisco Security Manager. A remote attacker could exploit these vulnerabilities to obtain sensitive information. It is encouraged that&nbsp;users and administrators,&nbsp;review the following Cisco Security Advisories and apply the necessary updates. Cisco Security Manager Path Traversal Vulnerability cisco-sa-csm-path-trav-NgeRnqgR Cisco Security Manager Static Credential Vulnerability cisco-sa-csm-rce-8gjUz</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-378-11-17-20-tt-csirt-advisory-cisco-releases-security-updates-for-security-manager/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities in Cisco Security Manager.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities in Cisco Security Manager."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A remote attacker could exploit these vulnerabilities to obtain sensitive information.</p>",
+          "text": "A remote attacker could exploit these vulnerabilities to obtain sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that&nbsp;users and administrators,&nbsp;review the following Cisco Security Advisories and apply the necessary updates.</p>",
+          "text": "It is encouraged that users and administrators, review the following Cisco Security Advisories and apply the necessary updates."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Cisco Security Manager Path Traversal Vulnerability <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTcuMzA2MzA3NTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtY3NtLXBhdGgtdHJhdi1OZ2VSbnFnUiJ9.o-pIHtLAto8eIEWuuAQVWFFH32nN3LmXEuZhVL3XFEQ/s/1193638257/br/89926810906-l\">cisco-sa-csm-path-trav-NgeRnqgR</a><br></li><li>Cisco Security Manager Static Credential Vulnerability <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTcuMzA2MzA3NTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtY3NtLXJjZS04Z2pVejlmVyJ9.E0scaCuxUbsnLjatJQtYvIBXMCgOgicUHtGj6QMXTj8/s/1193638257/br/89926810906-l\">cisco-sa-csm-rce-8gjUz</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTcuMzA2MzA3NTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtY3NtLXBhdGgtdHJhdi1OZ2VSbnFnUiJ9.o-pIHtLAto8eIEWuuAQVWFFH32nN3LmXEuZhVL3XFEQ/s/1193638257/br/89926810906-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTcuMzA2MzA3NTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtY3NtLXJjZS04Z2pVejlmVyJ9.E0scaCuxUbsnLjatJQtYvIBXMCgOgicUHtGj6QMXTj8/s/1193638257/br/89926810906-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-378-11-17-20-tt-csirt-advisory-cisco-releases-security-updates-for-security-manager/",
+    "upstreamDisclosedAt": "2020-11-17T14:23:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

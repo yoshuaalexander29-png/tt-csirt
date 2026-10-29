@@ -1,0 +1,111 @@
+{
+  "id": "2823",
+  "legacyPostId": 2823,
+  "referenceNumber": "TT-CSIRT #019",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-019.070617: TT-CSIRT Advisory – CISCO Security Updates",
+  "slug": "ttcsirt-019-070617-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released updates to address vulnerabilities affecting multiple products. A remote attacker could exploit one of these vulnerabilities to take control of a system.",
+  "cveList": [],
+  "date": "6 July 2017",
+  "rawDate": "2017-07-06T15:35:45",
+  "modifiedDate": "6 July 2017",
+  "rawModifiedDate": "2017-07-06T15:35:45",
+  "contentHtml": "<p>Cisco has released updates to address vulnerabilities affecting multiple products. A remote attacker could exploit one of these vulnerabilities to take control of a system.</p>\n<p>Users and administrators are encouraged to review the following Cisco Security Advisories and apply the necessary updates:</p>\n<table>\n<tr>\n<td>a) Elastic Services Controller Unauthorized Access Vulnerability &#8211;  <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-esc2\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-esc2</font></a></td>\n</tr>\n<tr>\n<td>b) Ultra Services Framework UAS Unauthenticated Access Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-uas\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-uas</font></a></td>\n</tr>\n<tr>\n<td>c) Ultra Services Framework Staging Server Arbitrary Command Execution Vulnerability &#8211;  <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf3\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-usf3</font></a></td>\n</tr>\n<tr>\n<td>d) StarOS CLI Command Injection Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-asrcmd\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-asrcmd</font></a></td>\n</tr>\n<tr>\n<td>e) Elastic Services Controller Arbitrary Command Execution Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-esc1\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-esc1</font></a></td>\n</tr>\n<tr>\n<td>f) Ultra Services Framework AutoVNF Symbolic Link Handling Information Disclosure Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf1\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-usf1</font></a></td>\n</tr>\n<tr>\n<td>g) Ultra Services Framework AutoVNF Log File User Credential Information Disclosure Vulnerability &#8211;  <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf2\"><font size=\"2\" color=\"maroon\">cisco-sa-20170705-usf2</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released updates to address vulnerabilities affecting multiple products. A remote attacker could exploit one of these vulnerabilities to take control of a system.",
+  "sourceExcerpt": "<p>Cisco has released updates to address vulnerabilities affecting multiple products. A remote attacker could exploit one of these vulnerabilities to take control of a system. Users and administrators are encouraged to review the following Cisco Security Advisories and apply the necessary updates: a) Elastic Services Controller Unauthorized Access Vulnerability &#8211; cisco-sa-20170705-esc2 b) Ultra Services Framework [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-019-070617-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released updates to address vulnerabilities affecting multiple products. A remote attacker could exploit one of these vulnerabilities to take control of a system.</p>",
+          "text": "Cisco has released updates to address vulnerabilities affecting multiple products. A remote attacker could exploit one of these vulnerabilities to take control of a system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users and administrators are encouraged to review the following Cisco Security Advisories and apply the necessary updates:</p>",
+          "text": "Users and administrators are encouraged to review the following Cisco Security Advisories and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Elastic Services Controller Unauthorized Access Vulnerability &#8211;  <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-esc2\">cisco-sa-20170705-esc2</a></p>",
+          "text": "a) Elastic Services Controller Unauthorized Access Vulnerability – cisco-sa-20170705-esc2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Ultra Services Framework UAS Unauthenticated Access Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-uas\">cisco-sa-20170705-uas</a></p>",
+          "text": "b) Ultra Services Framework UAS Unauthenticated Access Vulnerability – cisco-sa-20170705-uas"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Ultra Services Framework Staging Server Arbitrary Command Execution Vulnerability &#8211;  <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf3\">cisco-sa-20170705-usf3</a></p>",
+          "text": "c) Ultra Services Framework Staging Server Arbitrary Command Execution Vulnerability – cisco-sa-20170705-usf3"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) StarOS CLI Command Injection Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-asrcmd\">cisco-sa-20170705-asrcmd</a></p>",
+          "text": "d) StarOS CLI Command Injection Vulnerability – cisco-sa-20170705-asrcmd"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Elastic Services Controller Arbitrary Command Execution Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-esc1\">cisco-sa-20170705-esc1</a></p>",
+          "text": "e) Elastic Services Controller Arbitrary Command Execution Vulnerability – cisco-sa-20170705-esc1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Ultra Services Framework AutoVNF Symbolic Link Handling Information Disclosure Vulnerability &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf1\">cisco-sa-20170705-usf1</a></p>",
+          "text": "f) Ultra Services Framework AutoVNF Symbolic Link Handling Information Disclosure Vulnerability – cisco-sa-20170705-usf1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Ultra Services Framework AutoVNF Log File User Credential Information Disclosure Vulnerability &#8211;  <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf2\">cisco-sa-20170705-usf2</a></p>",
+          "text": "g) Ultra Services Framework AutoVNF Log File User Credential Information Disclosure Vulnerability – cisco-sa-20170705-usf2"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-esc2",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-uas",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf3",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-asrcmd",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-esc1",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf1",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170705-usf2"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-019-070617-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2017-07-06T15:35:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

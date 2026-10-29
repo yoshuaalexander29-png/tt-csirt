@@ -1,0 +1,108 @@
+{
+  "id": "4376",
+  "legacyPostId": 4376,
+  "referenceNumber": "TT-CSIRT #4376",
+  "classification": "alert",
+  "title": "Ransomware attacks targeting critical infrastructure and hospitals amid COVID-19 global pandemic",
+  "rawTitle": "Ransomware Attacks Targeting Critical Infrastructure and Hospitals Amid COVID-19 Global Pandemic",
+  "slug": "ransomware-covid-19",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "TT-CSIRT’s international partners have detected attempts to compromise and execute ransomware against key organizations and infrastructure required to assist in the global response to COVID-19.",
+  "cveList": [],
+  "date": "24 March 2020",
+  "rawDate": "2020-03-24T22:29:22",
+  "modifiedDate": "24 March 2020",
+  "rawModifiedDate": "2020-03-24T22:29:22",
+  "contentHtml": "\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">TT-CSIRT&#8217;s international partners have detected attempts to compromise and execute ransomware against key organizations and infrastructure required to assist in the global response to COVID-19. </p>\n\n\n\n<h4 class=\"has-very-dark-gray-color has-text-color wp-block-heading\">Attack Vectors</h4>\n\n\n\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">Ransomware attacks can be initiated through multiple attack vectors. The prominent ones are: <br>&#8211; Compromising system user credentials<br>&#8211; Malicious emails with infected attachments<br>&#8211; Exploiting a system vulnerability or previous malware infection. <br>.<br>Once a system is compromised, a ransomware may self-initiate or allow malicious attackers to access the system. The actors can then issue a series of commands, which will attempt to modify user accounts, change passwords, log users out of systems and allow the attackers to detect vulnerabilities and targets for the deployment of ransomware. <br>.<br>When the ransomware is deployed and installed by the attackers, it will then seek to encrypt or delete all documents and files within the computer and connected systems. It may also enumerate the infected systems Wi-Fi and Ethernet network adapters to disable them and disconnect the system from any outside connection. <br>.<br>Following the deployment of the ransomware, there will be minimal opportunity for victims to recover their files and restore their systems regardless of the payment.  </p>\n\n\n\n<h4 class=\"has-very-dark-gray-color has-text-color wp-block-heading\">Recommended Countermeasures</h4>\n\n\n\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">TT-CSIRT encourages the relevant institutions to adopt a heighten state of awareness during this time and be guided by the following recommendations: <br>&#8211; Performing regular online and offline secure backing up of files<br>&#8211; Keeping systems and applications updated, including anti-virus platforms<br>&#8211; Securing email gateways to thwart threats via spam<br>&#8211; Avoiding opening suspicious emails and clicking on links in unrecognized emails and attachments<br>&#8211; Securing system administrations tools that attackers could abuse<br>&#8211; Implementing network segmentation and data categorization to minimize further exposure of mission-critical and sensitive data<br>&#8211; Disabling third-party or outdated components that could be used as entry points. </p>\n\n\n\n<p class=\"has-text-color has-medium-font-size has-vivid-red-color wp-block-paragraph\">Should your institution fall victim to a ransomware attack or any other type of cyber attack, please contact TT-CSIRT immediately.</p>\n",
+  "displaySummary": "&#8217;s international partners have detected attempts to compromise and execute ransomware against key organizations and infrastructure required to assist in the global response to COVID-19.",
+  "sourceExcerpt": "<p>TT-CSIRT&#8217;s international partners have detected attempts to compromise and execute ransomware against key organizations and infrastructure required to assist in the global response to COVID-19. Attack Vectors Ransomware attacks can be initiated through multiple attack vectors. The prominent ones are: &#8211; Compromising system user credentials&#8211; Malicious emails with infected attachments&#8211; Exploiting a system vulnerability or [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ransomware-covid-19/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT&#8217;s international partners have detected attempts to compromise and execute ransomware against key organizations and infrastructure required to assist in the global response to COVID-19.</p>",
+          "text": "TT-CSIRT’s international partners have detected attempts to compromise and execute ransomware against key organizations and infrastructure required to assist in the global response to COVID-19."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack vectors",
+          "id": "attack-vectors"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Ransomware attacks can be initiated through multiple attack vectors. The prominent ones are:</p>",
+          "text": "Ransomware attacks can be initiated through multiple attack vectors. The prominent ones are:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Compromising system user credentials</li>\n  <li>&#8211; Malicious emails with infected attachments</li>\n  <li>&#8211; Exploiting a system vulnerability or previous malware infection. . Once a system is compromised, a ransomware may self-initiate or allow malicious attackers to access the system. The actors can then issue a series of commands, which will attempt to modify user accounts, change passwords, log users out of systems and allow the attackers to detect vulnerabilities and targets for the deployment of ransomware. . When the ransomware is deployed and installed by the attackers, it will then seek to encrypt or delete all documents and files within the computer and connected systems. It may also enumerate the infected systems Wi-Fi and Ethernet network adapters to disable them and disconnect the system from any outside connection. . Following the deployment of the ransomware, there will be minimal opportunity for victims to recover their files and restore their systems regardless of the payment.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Recommended countermeasures",
+          "id": "recommended-countermeasures"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages the relevant institutions to adopt a heighten state of awareness during this time and be guided by the following recommendations:</p>",
+          "text": "TT-CSIRT encourages the relevant institutions to adopt a heighten state of awareness during this time and be guided by the following recommendations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Performing regular online and offline secure backing up of files</li>\n  <li>&#8211; Keeping systems and applications updated, including anti-virus platforms</li>\n  <li>&#8211; Securing email gateways to thwart threats via spam</li>\n  <li>&#8211; Avoiding opening suspicious emails and clicking on links in unrecognized emails and attachments</li>\n  <li>&#8211; Securing system administrations tools that attackers could abuse</li>\n  <li>&#8211; Implementing network segmentation and data categorization to minimize further exposure of mission-critical and sensitive data</li>\n  <li>&#8211; Disabling third-party or outdated components that could be used as entry points.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Should your institution fall victim to a ransomware attack or any other type of cyber attack, please contact TT-CSIRT immediately.</p>",
+          "text": "Should your institution fall victim to a ransomware attack or any other type of cyber attack, please contact TT-CSIRT immediately."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "attack-vectors",
+      "label": "Attack vectors",
+      "isSubItem": true
+    },
+    {
+      "id": "recommended-countermeasures",
+      "label": "Recommended countermeasures",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ransomware-covid-19/",
+    "upstreamDisclosedAt": "2020-03-24T22:29:22",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

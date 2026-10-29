@@ -1,0 +1,70 @@
+{
+  "id": "3030",
+  "legacyPostId": 3030,
+  "referenceNumber": "TT-CSIRT #053",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-053.101917: TT-CSIRT Advisory – Oracle Security Updates",
+  "slug": "ttcsirt-053-101917-tt-csirt-advisory-oracle-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released its Critical Patch Update for October 2017 to address 252 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "19 October 2017",
+  "rawDate": "2017-10-19T15:56:33",
+  "modifiedDate": "19 October 2017",
+  "rawModifiedDate": "2017-10-19T15:56:33",
+  "contentHtml": "<p>Oracle has released its Critical Patch Update for October 2017 to address 252 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>Information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html\"><font size=\"2\" color=\"maroon\">http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html</font></a></p>\n",
+  "displaySummary": "Oracle has released its Critical Patch Update for October 2017 to address 252 vulnerabilities across multiple products.",
+  "sourceExcerpt": "<p>Oracle has released its Critical Patch Update for October 2017 to address 252 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-053-101917-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released its Critical Patch Update for October 2017 to address 252 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Oracle has released its Critical Patch Update for October 2017 to address 252 vulnerabilities across multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html\">http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html</a></p>",
+          "text": "Information on these vulnerabilities and how they can be fixed can be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuoct2017-3236626.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-053-101917-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2017-10-19T15:56:33",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

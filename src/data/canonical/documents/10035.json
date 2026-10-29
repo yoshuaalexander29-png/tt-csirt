@@ -1,0 +1,73 @@
+{
+  "id": "10035",
+  "legacyPostId": 10035,
+  "referenceNumber": "TT-CSIRT 438.05.11.24",
+  "classification": "advisory",
+  "title": "Microsoft SharePoint remote code execution vulnerability",
+  "rawTitle": "TT-CSIRT &#8211; 438.05.11.24. Security Update &#8211; Microsoft SharePoint Remote Code Execution Vulnerability",
+  "slug": "tt-csirt-438-05-11-24-security-update-microsoft-sharepoint-remote-code-execution-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Critical Microsoft SharePoint vulnerability, CVE-2024-38094, has been listed by our partners at the Cybersecurity & Infrastructure Security Agency (CISA) in their “Known Exploited Vulnerabilities Catalogue” .",
+  "cveList": [
+    "CVE-2024-38094"
+  ],
+  "date": "5 November 2024",
+  "rawDate": "2024-11-05T10:39:28",
+  "modifiedDate": "5 November 2024",
+  "rawModifiedDate": "2024-11-05T10:39:28",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\">Please be advised of the following critical Microsoft SharePoint vulnerability, CVE-2024-38094, has been listed by our partners at the Cybersecurity &amp; Infrastructure Security Agency (CISA) in their <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" target=\"_blank\" rel=\"noreferrer noopener\">“Known Exploited Vulnerabilities Catalogue”</a>.</p>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\">TTCSIRT encourages administrators to visit the following link for more information and take necessary actions immediately: <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38094\">CVE-2024-38094 &#8211; Security Update Guide &#8211; Microsoft &#8211; Microsoft SharePoint Remote Code Execution Vulnerability</a></p>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\"></p>\n\n\n\n<p class=\"has-text-align-left wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Critical Microsoft SharePoint vulnerability, CVE-2024-38094, has been listed by our partners at the Cybersecurity &amp; Infrastructure Security Agency (CISA) in their “Known Exploited…",
+  "sourceExcerpt": "<p>Please be advised of the following critical Microsoft SharePoint vulnerability, CVE-2024-38094, has been listed by our partners at the Cybersecurity &amp; Infrastructure Security Agency (CISA) in their “Known Exploited Vulnerabilities Catalogue”. TTCSIRT encourages administrators to visit the following link for more information and take necessary actions immediately: CVE-2024-38094 &#8211; Security Update Guide &#8211; Microsoft &#8211; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-438-05-11-24-security-update-microsoft-sharepoint-remote-code-execution-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Critical Microsoft SharePoint vulnerability, CVE-2024-38094, has been listed by our partners at the Cybersecurity &amp; Infrastructure Security Agency (CISA) in their <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" target=\"_blank\" rel=\"noreferrer noopener\">“Known Exploited Vulnerabilities Catalogue”</a>.</p>",
+          "text": "Critical Microsoft SharePoint vulnerability, CVE-2024-38094, has been listed by our partners at the Cybersecurity & Infrastructure Security Agency (CISA) in their “Known Exploited Vulnerabilities Catalogue” ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages administrators to visit the following link for more information and take necessary actions immediately: <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38094\">CVE-2024-38094 &#8211; Security Update Guide &#8211; Microsoft &#8211; Microsoft SharePoint Remote Code Execution Vulnerability</a></p>",
+          "text": "TTCSIRT encourages administrators to visit the following link for more information and take necessary actions immediately: CVE-2024-38094 – Security Update Guide – Microsoft – Microsoft SharePoint Remote Code Execution Vulnerability"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38094"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-438-05-11-24-security-update-microsoft-sharepoint-remote-code-execution-vulnerability/",
+    "upstreamDisclosedAt": "2024-11-05T10:39:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

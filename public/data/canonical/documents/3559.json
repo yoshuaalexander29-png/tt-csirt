@@ -1,0 +1,158 @@
+{
+  "id": "3559",
+  "legacyPostId": 3559,
+  "referenceNumber": "TT-CSIRT #172",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-172.101618: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-172-101618-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:",
+  "cveList": [
+    "CVE-2018-17468",
+    "CVE-2018-17469",
+    "CVE-2018-17472",
+    "CVE-2018-5179",
+    "CVE-2018-17466",
+    "CVE-2018-17470",
+    "CVE-2018-17463",
+    "CVE-2018-17462",
+    "CVE-2018-17471",
+    "CVE-2018-17476",
+    "CVE-2018-17477",
+    "CVE-2018-17467",
+    "CVE-2018-17464",
+    "CVE-2018-17475",
+    "CVE-2018-17473",
+    "CVE-2018-17474",
+    "CVE-2018-17465"
+  ],
+  "date": "16 October 2018",
+  "rawDate": "2018-10-16T18:18:08",
+  "modifiedDate": "16 October 2018",
+  "rawModifiedDate": "2018-10-16T18:18:08",
+  "contentHtml": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:</p>\n<p>a) Cross-origin URL disclosure in Blink &#8211; (CVE-2018-17468).</p>\n<p>b) Heap buffer overflow in PDFium &#8211; (CVE-2018-17469).</p>\n<p>c) iframe sandbox escape on iOS &#8211; (CVE-2018-17472).</p>\n<p>d) Lack of limits on update() in ServiceWorker &#8211; (CVE-2018-5179).</p>\n<p>e) Memory corruption in Angle &#8211; (CVE-2018-17466).</p>\n<p>f) Memory corruption in GPU Internals &#8211; (CVE-2018-17470).</p>\n<p>g) Remote code execution in V8 &#8211; (CVE-2018-17463).</p>\n<p>h) Sandbox escape in AppCache &#8211; (CVE-2018-17462).</p>\n<p>i) Security UI occlusion in full screen mode &#8211; (CVE-2018-17471, CVE-2018-17476).</p>\n<p>j) UI spoof in Extensions &#8211; (CVE-2018-17477).</p>\n<p>k) URL spoof in Omnibox &#8211; (CVE-2018-17467, CVE-2018-17464, CVE-2018-17475, CVE-2018-17473).</p>\n<p>l) Use after free in Blink &#8211; (CVE-2018-17474).</p>\n<p>m) Use after free in V8 &#8211; (CVE-2018-17465).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute remote code in through the browser and depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/search/label/Stable%20updates\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/search/label/Stable%20updates</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome: a) Cross-origin URL disclosure in Blink &#8211; (CVE-2018-17468). b) Heap…",
+  "sourceExcerpt": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome: a) Cross-origin URL disclosure in Blink &#8211; (CVE-2018-17468). b) Heap buffer overflow in PDFium &#8211; (CVE-2018-17469). c) iframe sandbox escape on iOS &#8211; (CVE-2018-17472). d) Lack of limits on update() in ServiceWorker &#8211; (CVE-2018-5179). e) Memory corruption in [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-172-101618-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:</p>",
+          "text": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Cross-origin URL disclosure in Blink &#8211; (CVE-2018-17468).</p>",
+          "text": "a) Cross-origin URL disclosure in Blink – (CVE-2018-17468)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Heap buffer overflow in PDFium &#8211; (CVE-2018-17469).</p>",
+          "text": "b) Heap buffer overflow in PDFium – (CVE-2018-17469)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) iframe sandbox escape on iOS &#8211; (CVE-2018-17472).</p>",
+          "text": "c) iframe sandbox escape on iOS – (CVE-2018-17472)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Lack of limits on update() in ServiceWorker &#8211; (CVE-2018-5179).</p>",
+          "text": "d) Lack of limits on update() in ServiceWorker – (CVE-2018-5179)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Memory corruption in Angle &#8211; (CVE-2018-17466).</p>",
+          "text": "e) Memory corruption in Angle – (CVE-2018-17466)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Memory corruption in GPU Internals &#8211; (CVE-2018-17470).</p>",
+          "text": "f) Memory corruption in GPU Internals – (CVE-2018-17470)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Remote code execution in V8 &#8211; (CVE-2018-17463).</p>",
+          "text": "g) Remote code execution in V8 – (CVE-2018-17463)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Sandbox escape in AppCache &#8211; (CVE-2018-17462).</p>",
+          "text": "h) Sandbox escape in AppCache – (CVE-2018-17462)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Security UI occlusion in full screen mode &#8211; (CVE-2018-17471, CVE-2018-17476).</p>",
+          "text": "i) Security UI occlusion in full screen mode – (CVE-2018-17471, CVE-2018-17476)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) UI spoof in Extensions &#8211; (CVE-2018-17477).</p>",
+          "text": "j) UI spoof in Extensions – (CVE-2018-17477)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) URL spoof in Omnibox &#8211; (CVE-2018-17467, CVE-2018-17464, CVE-2018-17475, CVE-2018-17473).</p>",
+          "text": "k) URL spoof in Omnibox – (CVE-2018-17467, CVE-2018-17464, CVE-2018-17475, CVE-2018-17473)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) Use after free in Blink &#8211; (CVE-2018-17474).</p>",
+          "text": "l) Use after free in Blink – (CVE-2018-17474)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) Use after free in V8 &#8211; (CVE-2018-17465).</p>",
+          "text": "m) Use after free in V8 – (CVE-2018-17465)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute remote code in through the browser and depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute remote code in through the browser and depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/search/label/Stable%20updates\">https://chromereleases.googleblog.com/search/label/Stable%20updates</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on Google Chrome Website at https://chromereleases.googleblog.com/search/label/Stable%20updates"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/search/label/Stable%20updates"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-172-101618-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-10-16T18:18:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "4825",
+  "legacyPostId": 4825,
+  "referenceNumber": "TT-CSIRT #4825",
+  "classification": "alert",
+  "title": "Russian state-sponsored malicious cyber actors exploiting",
+  "rawTitle": "TTCSIRT-THREAT ALERT: Russian State-Sponsored Malicious Cyber Actors Exploiting CVE-2020-4006",
+  "slug": "ttcsirt-threat-alert-russian-state-sponsored-malicious-cyber-actors-exploiting-cve-2020-4006",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, Russian state-sponsored actors exploiting CVE-2020-4006, a command-injection vulnerability in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.",
+  "cveList": [
+    "CVE-2020-4006"
+  ],
+  "date": "7 December 2020",
+  "rawDate": "2020-12-07T15:13:18",
+  "modifiedDate": "7 December 2020",
+  "rawModifiedDate": "2020-12-07T15:13:18",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised,&nbsp;Russian state-sponsored actors exploiting CVE-2020-4006, a command-injection vulnerability in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The actors were found exploiting this vulnerability to access protected data on affected systems via a Command Injection Vulnerability in the administrative configurator.</p>\n\n\n\n<p class=\"wp-block-paragraph\">VMware has evaluated this issue to be of &#8216;<a href=\"https://www.vmware.com/support/policies/security_response.html\">Important</a>&#8216; severity with a maximum CVSSv3 base score of&nbsp;<a href=\"https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H\">7.2</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impacted Products</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>VMware Workspace One Access (Access)</li><li>VMware Workspace One Access Connector (Access Connector)</li><li>VMware Identity Manager (vIDM)</li><li>VMware Identity Manager Connector (vIDM Connector)</li><li>VMware Cloud Foundation</li><li>vRealize Suite Lifecycle Manager</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following resources and apply the necessary updates and detection guidance.<br><br>For further information and support, please visit the links below:&nbsp;</p>\n\n\n\n<ul class=\"wp-block-list\"><li>NSA Cybersecurity Advisory <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL21lZGlhLmRlZmVuc2UuZ292LzIwMjAvRGVjLzA3LzIwMDI1NDcwNzEvLTEvLTEvMC9DU0FfVk1XQVJFJTIwQUNDRVNTX1VfT09fMTk1MDc2XzIwLlBERiJ9.nALw2Q7KGKVnDGcw8SxmIe66uW2erN6h5Gwwl-MGBnQ/s/1193638257/br/91218244369-l\">Russian State-Sponsored Actors Exploiting Vulnerability in VMware Workspace ONEAccess Using Compromised Credentials</a></li><li>VMware Security Advisory <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL3d3dy52bXdhcmUuY29tL3NlY3VyaXR5L2Fkdmlzb3JpZXMvVk1TQS0yMDIwLTAwMjcuaHRtbCJ9.y6RpjhPjQ6DkoUm5hhpNRIE2w8V0Q6DlxIo1kCjUbns/s/1193638257/br/91218244369-l\">VMSA-2020-0027.2</a></li><li>CERT Coordination Center (CERT/CC) Vulnerability Note <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL3d3dy5rYi5jZXJ0Lm9yZy92dWxzL2lkLzcyNDM2NyJ9.NZ60FtDm2utTWHuPaezOw837fhVepsfhxt78Zsouloc/s/1193638257/br/91218244369-l\">VU#724367</a></li></ul>\n",
+  "displaySummary": "Russian state-sponsored actors exploiting CVE-2020-4006, a command-injection vulnerability in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.",
+  "sourceExcerpt": "<p>Please be advised,&nbsp;Russian state-sponsored actors exploiting CVE-2020-4006, a command-injection vulnerability in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector. The actors were found exploiting this vulnerability to access protected data on affected systems via a Command Injection Vulnerability in the administrative configurator. VMware has evaluated this issue to be of &#8216;Important&#8216; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-threat-alert-russian-state-sponsored-malicious-cyber-actors-exploiting-cve-2020-4006/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised,&nbsp;Russian state-sponsored actors exploiting CVE-2020-4006, a command-injection vulnerability in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.</p>",
+          "text": "Please be advised, Russian state-sponsored actors exploiting CVE-2020-4006, a command-injection vulnerability in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The actors were found exploiting this vulnerability to access protected data on affected systems via a Command Injection Vulnerability in the administrative configurator.</p>",
+          "text": "The actors were found exploiting this vulnerability to access protected data on affected systems via a Command Injection Vulnerability in the administrative configurator."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has evaluated this issue to be of &#8216;<a href=\"https://www.vmware.com/support/policies/security_response.html\">Important</a>&#8216; severity with a maximum CVSSv3 base score of&nbsp;<a href=\"https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H\">7.2</a>.</p>",
+          "text": "VMware has evaluated this issue to be of ‘ Important ‘ severity with a maximum CVSSv3 base score of  7.2 ."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Impacted products",
+          "id": "impacted-products"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>VMware Workspace One Access (Access)</li><li>VMware Workspace One Access Connector (Access Connector)</li><li>VMware Identity Manager (vIDM)</li><li>VMware Identity Manager Connector (vIDM Connector)</li><li>VMware Cloud Foundation</li><li>vRealize Suite Lifecycle Manager</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following resources and apply the necessary updates and detection guidance.</p>",
+          "text": "The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following resources and apply the necessary updates and detection guidance."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the links below:&nbsp;</p>",
+          "text": "For further information and support, please visit the links below:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>NSA Cybersecurity Advisory <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL21lZGlhLmRlZmVuc2UuZ292LzIwMjAvRGVjLzA3LzIwMDI1NDcwNzEvLTEvLTEvMC9DU0FfVk1XQVJFJTIwQUNDRVNTX1VfT09fMTk1MDc2XzIwLlBERiJ9.nALw2Q7KGKVnDGcw8SxmIe66uW2erN6h5Gwwl-MGBnQ/s/1193638257/br/91218244369-l\">Russian State-Sponsored Actors Exploiting Vulnerability in VMware Workspace ONEAccess Using Compromised Credentials</a></li><li>VMware Security Advisory <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL3d3dy52bXdhcmUuY29tL3NlY3VyaXR5L2Fkdmlzb3JpZXMvVk1TQS0yMDIwLTAwMjcuaHRtbCJ9.y6RpjhPjQ6DkoUm5hhpNRIE2w8V0Q6DlxIo1kCjUbns/s/1193638257/br/91218244369-l\">VMSA-2020-0027.2</a></li><li>CERT Coordination Center (CERT/CC) Vulnerability Note <a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL3d3dy5rYi5jZXJ0Lm9yZy92dWxzL2lkLzcyNDM2NyJ9.NZ60FtDm2utTWHuPaezOw837fhVepsfhxt78Zsouloc/s/1193638257/br/91218244369-l\">VU#724367</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impacted-products",
+      "label": "Impacted products",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/support/policies/security_response.html",
+    "https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL21lZGlhLmRlZmVuc2UuZ292LzIwMjAvRGVjLzA3LzIwMDI1NDcwNzEvLTEvLTEvMC9DU0FfVk1XQVJFJTIwQUNDRVNTX1VfT09fMTk1MDc2XzIwLlBERiJ9.nALw2Q7KGKVnDGcw8SxmIe66uW2erN6h5Gwwl-MGBnQ/s/1193638257/br/91218244369-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL3d3dy52bXdhcmUuY29tL3NlY3VyaXR5L2Fkdmlzb3JpZXMvVk1TQS0yMDIwLTAwMjcuaHRtbCJ9.y6RpjhPjQ6DkoUm5hhpNRIE2w8V0Q6DlxIo1kCjUbns/s/1193638257/br/91218244369-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2Nzk2NjEiLCJ1cmwiOiJodHRwczovL3d3dy5rYi5jZXJ0Lm9yZy92dWxzL2lkLzcyNDM2NyJ9.NZ60FtDm2utTWHuPaezOw837fhVepsfhxt78Zsouloc/s/1193638257/br/91218244369-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-threat-alert-russian-state-sponsored-malicious-cyber-actors-exploiting-cve-2020-4006/",
+    "upstreamDisclosedAt": "2020-12-07T15:13:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

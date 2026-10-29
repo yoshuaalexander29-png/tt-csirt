@@ -1,0 +1,70 @@
+{
+  "id": "5067",
+  "legacyPostId": 5067,
+  "referenceNumber": "TT-CSIRT 400.10.12.21",
+  "classification": "advisory",
+  "title": "Apache Log4j critical RCE vulnerability",
+  "rawTitle": "TT-CSIRT-400.10.12.21: Apache Log4j Critical RCE Vulnerability",
+  "slug": "tt-csirt-400-10-12-21-apache-log4j-critical-rce-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Apache Software Foundation has released a security advisory to address a remote code execution vulnerability (CVE-2021-44228) affecting Log4j versions 2.0-beta9 to 2.14.1. A remote attacker could exploit this vulnerability to take control of an affected system. Log4j is an open-source, Java-based logging utility widely used by enterprise applications and cloud services. This vulnerability is under active global exploitation and requires immediate action to safeguard your organization.",
+  "cveList": [
+    "CVE-2021-44228"
+  ],
+  "date": "21 December 2021",
+  "rawDate": "2021-12-21T11:51:47",
+  "modifiedDate": "21 December 2021",
+  "rawModifiedDate": "2021-12-21T11:51:47",
+  "contentHtml": "<p>The Apache Software Foundation has released a security advisory to address a remote code execution vulnerability (CVE-2021-44228) affecting Log4j versions 2.0-beta9 to 2.14.1. A remote attacker could exploit this vulnerability to take control of an affected system. Log4j is an open-source, Java-based logging utility widely used by enterprise applications and cloud services. This vulnerability is under active global exploitation and requires immediate action to safeguard your organization.</p>\n<p>The TT-CSIRT strongly urges users and administrators to review the <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2dd165ed21&amp;e=b82e9eb1c0\">Apache Log4j 2.15.0 Announcement</a> and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.</p>\n",
+  "displaySummary": "The Apache Software Foundation has released a security advisory to address a remote code execution vulnerability (CVE-2021-44228) affecting Log4j versions 2.0-beta9 to 2.14.1.",
+  "sourceExcerpt": "<p>The Apache Software Foundation has released a security advisory to address a remote code execution vulnerability (CVE-2021-44228) affecting Log4j versions 2.0-beta9 to 2.14.1. A remote attacker could exploit this vulnerability to take control of an affected system. Log4j is an open-source, Java-based logging utility widely used by enterprise applications and cloud services. This vulnerability is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-400-10-12-21-apache-log4j-critical-rce-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Apache Software Foundation has released a security advisory to address a remote code execution vulnerability (CVE-2021-44228) affecting Log4j versions 2.0-beta9 to 2.14.1. A remote attacker could exploit this vulnerability to take control of an affected system. Log4j is an open-source, Java-based logging utility widely used by enterprise applications and cloud services. This vulnerability is under active global exploitation and requires immediate action to safeguard your organization.</p>",
+          "text": "The Apache Software Foundation has released a security advisory to address a remote code execution vulnerability (CVE-2021-44228) affecting Log4j versions 2.0-beta9 to 2.14.1. A remote attacker could exploit this vulnerability to take control of an affected system. Log4j is an open-source, Java-based logging utility widely used by enterprise applications and cloud services. This vulnerability is under active global exploitation and requires immediate action to safeguard your organization."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The TT-CSIRT strongly urges users and administrators to review the <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2dd165ed21&amp;e=b82e9eb1c0\">Apache Log4j 2.15.0 Announcement</a> and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately.</p>",
+          "text": "The TT-CSIRT strongly urges users and administrators to review the Apache Log4j 2.15.0 Announcement and upgrade to Log4j 2.15.0 or apply the recommended mitigations immediately."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-400-10-12-21-apache-log4j-critical-rce-vulnerability/",
+    "upstreamDisclosedAt": "2021-12-21T11:51:47",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

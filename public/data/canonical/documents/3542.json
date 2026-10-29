@@ -1,0 +1,75 @@
+{
+  "id": "3542",
+  "legacyPostId": 3542,
+  "referenceNumber": "TT-CSIRT #168",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-168.092818: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-168-092818-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that an in the web user interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload. The vulnerability is due to a double-free-in-memory handling by the affected software when specific HTTP requests are processed.",
+  "cveList": [],
+  "date": "28 September 2018",
+  "rawDate": "2018-09-28T14:16:46",
+  "modifiedDate": "28 September 2018",
+  "rawModifiedDate": "2018-09-28T14:16:46",
+  "contentHtml": "<p>Cisco has released a security update stating that an in the web user interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload.<br />\nThe vulnerability is due to a double-free-in-memory handling by the affected software when specific HTTP requests are processed.</p>\n<p>An attacker could exploit this by sending specific HTTP requests to the web user interface of the affected software. </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180926-webuidos\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180926-webuidos</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that an in the web user interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload.",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that an in the web user interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload. The vulnerability is due to a double-free-in-memory handling by the affected software when specific HTTP requests are processed. An attacker could exploit this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-168-092818-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that an in the web user interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload.<br />\nThe vulnerability is due to a double-free-in-memory handling by the affected software when specific HTTP requests are processed.</p>",
+          "text": "Cisco has released a security update stating that an in the web user interface of Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload. The vulnerability is due to a double-free-in-memory handling by the affected software when specific HTTP requests are processed."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this by sending specific HTTP requests to the web user interface of the affected software.</p>",
+          "text": "An attacker could exploit this by sending specific HTTP requests to the web user interface of the affected software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180926-webuidos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180926-webuidos</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180926-webuidos"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180926-webuidos"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-168-092818-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-09-28T14:16:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

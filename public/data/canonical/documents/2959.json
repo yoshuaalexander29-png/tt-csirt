@@ -1,0 +1,80 @@
+{
+  "id": "2959",
+  "legacyPostId": 2959,
+  "referenceNumber": "TT-CSIRT #038",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-038.090117: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-038-090117-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code:",
+  "cveList": [],
+  "date": "1 September 2017",
+  "rawDate": "2017-09-01T10:10:53",
+  "modifiedDate": "1 September 2017",
+  "rawModifiedDate": "2017-09-01T10:10:53",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code:</p>\n<p>a)Fixed bug #74947 (Segfault in scanner on INF number).<br />\nb) Fixed bug #74954 (null deref and segfault in zend_generator_resume()).<br />\nc) Fixed bug #74725 (html_errors=1 breaks unhandled exceptions).<br />\nd) Fixed bug #74125 (Fixed finding CURL on systems with multiarch support).<br />\ne) Fixed bug #75002 (Null Pointer Dereference in timelib_time_clone).<br />\nf) Fixed bug #74993 (Wrong reflection on some locale_* functions).<br />\ng) Fixed bug #71606 (Segmentation fault mb_strcut with HTML-ENTITIES encoding).<br />\nh)bFixed bug #62934 (mb_convert_kana() does not convert iteration marks).<br />\ni) Fixed bug #75001 (Wrong reflection on mb_eregi_replace).<br />\nj) Fixed bug #74968 (PHP crashes when calling mysqli_result::fetch_object with an abstract class).<br />\nk) Fixed bug #74991 (include_path has a 4096 char limit in some cases).<br />\nl) Fixed bug #74949 (null pointer dereference in _function_string).<br />\nm) Fixed bug #74833 (SID constant created with wrong module number).<br />\nn) Fixed bug #74950 (nullpointer deref in simplexml_element_getDocNamespaces).<br />\no) Fixed bug #75049 (spl_autoload_unregister can&#8217;t handle spl_autoload_functions results).<br />\np) Fixed bug #74669 (Unserialize ArrayIterator broken).<br />\nq) Fixed bug #75015 (Crash in recursive iterator destructors).<br />\nr) Fixed bug #75075 (unpack with X* causes infinity loop).<br />\ns) Fixed bug #74103 (heap-use-after-free when unserializing invalid array size).<br />\nt) Fixed bug #75054 (A Denial of Service Vulnerability was found when performing deserialization).<br />\nu) Fixed bug #73793 (WDDX uses wrong decimal seperator).<br />\nv) Fixed bug #74975 (Incorrect xmlrpc serialization for classes with declared properties).</p>\n<p>Successfully exploiting the most severe of these vulnerabilities could allow for remote attackers to execute arbitrary code in the context of the affected application. Failed exploitation could result in a denial-of-service condition.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution-14/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution-14/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code: a)Fixed bug #74947 (Segfault in scanner on INF number). b) Fixed…",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code: a)Fixed bug #74947 (Segfault in scanner on INF number). b) Fixed bug #74954 (null deref and segfault in zend_generator_resume()). c) Fixed bug #74725 (html_errors=1 breaks unhandled exceptions). d) Fixed bug #74125 (Fixed finding CURL on [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-038-090117-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code:</p>",
+          "text": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a)Fixed bug #74947 (Segfault in scanner on INF number).<br />\nb) Fixed bug #74954 (null deref and segfault in zend_generator_resume()).<br />\nc) Fixed bug #74725 (html_errors=1 breaks unhandled exceptions).<br />\nd) Fixed bug #74125 (Fixed finding CURL on systems with multiarch support).<br />\ne) Fixed bug #75002 (Null Pointer Dereference in timelib_time_clone).<br />\nf) Fixed bug #74993 (Wrong reflection on some locale_* functions).<br />\ng) Fixed bug #71606 (Segmentation fault mb_strcut with HTML-ENTITIES encoding).<br />\nh)bFixed bug #62934 (mb_convert_kana() does not convert iteration marks).<br />\ni) Fixed bug #75001 (Wrong reflection on mb_eregi_replace).<br />\nj) Fixed bug #74968 (PHP crashes when calling mysqli_result::fetch_object with an abstract class).<br />\nk) Fixed bug #74991 (include_path has a 4096 char limit in some cases).<br />\nl) Fixed bug #74949 (null pointer dereference in _function_string).<br />\nm) Fixed bug #74833 (SID constant created with wrong module number).<br />\nn) Fixed bug #74950 (nullpointer deref in simplexml_element_getDocNamespaces).<br />\no) Fixed bug #75049 (spl_autoload_unregister can&#8217;t handle spl_autoload_functions results).<br />\np) Fixed bug #74669 (Unserialize ArrayIterator broken).<br />\nq) Fixed bug #75015 (Crash in recursive iterator destructors).<br />\nr) Fixed bug #75075 (unpack with X* causes infinity loop).<br />\ns) Fixed bug #74103 (heap-use-after-free when unserializing invalid array size).<br />\nt) Fixed bug #75054 (A Denial of Service Vulnerability was found when performing deserialization).<br />\nu) Fixed bug #73793 (WDDX uses wrong decimal seperator).<br />\nv) Fixed bug #74975 (Incorrect xmlrpc serialization for classes with declared properties).</p>",
+          "text": "a)Fixed bug #74947 (Segfault in scanner on INF number). b) Fixed bug #74954 (null deref and segfault in zend_generator_resume()). c) Fixed bug #74725 (html_errors=1 breaks unhandled exceptions). d) Fixed bug #74125 (Fixed finding CURL on systems with multiarch support). e) Fixed bug #75002 (Null Pointer Dereference in timelib_time_clone). f) Fixed bug #74993 (Wrong reflection on some locale_* functions). g) Fixed bug #71606 (Segmentation fault mb_strcut with HTML-ENTITIES encoding). h)bFixed bug #62934 (mb_convert_kana() does not convert iteration marks). i) Fixed bug #75001 (Wrong reflection on mb_eregi_replace). j) Fixed bug #74968 (PHP crashes when calling mysqli_result::fetch_object with an abstract class). k) Fixed bug #74991 (include_path has a 4096 char limit in some cases). l) Fixed bug #74949 (null pointer dereference in _function_string). m) Fixed bug #74833 (SID constant created with wrong module number). n) Fixed bug #74950 (nullpointer deref in simplexml_element_getDocNamespaces). o) Fixed bug #75049 (spl_autoload_unregister can’t handle spl_autoload_functions results). p) Fixed bug #74669 (Unserialize ArrayIterator broken). q) Fixed bug #75015 (Crash in recursive iterator destructors). r) Fixed bug #75075 (unpack with X* causes infinity loop). s) Fixed bug #74103 (heap-use-after-free when unserializing invalid array size). t) Fixed bug #75054 (A Denial of Service Vulnerability was found when performing deserialization). u) Fixed bug #73793 (WDDX uses wrong decimal seperator). v) Fixed bug #74975 (Incorrect xmlrpc serialization for classes with declared properties)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting the most severe of these vulnerabilities could allow for remote attackers to execute arbitrary code in the context of the affected application. Failed exploitation could result in a denial-of-service condition.</p>",
+          "text": "Successfully exploiting the most severe of these vulnerabilities could allow for remote attackers to execute arbitrary code in the context of the affected application. Failed exploitation could result in a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution-14/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution-14/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution-14/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution-14/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-038-090117-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2017-09-01T10:10:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

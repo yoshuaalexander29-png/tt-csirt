@@ -1,0 +1,75 @@
+{
+  "id": "5532",
+  "legacyPostId": 5532,
+  "referenceNumber": "TT-CSIRT #414",
+  "classification": "advisory",
+  "title": "Royal ransomware",
+  "rawTitle": "TT-CSIRT-414.3.3.23: Royal Ransomware",
+  "slug": "tt-csirt-414-3-3-23-royal-ransomware",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The U.S. Federal Bureau of Investigation (FBI) and the U.S. Cybersecurity and Infrastructure Security Agency (CISA) released a joint cyber security advisory on Royal Ransomware to provide network defenders with the tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with Royal ransomware variants.",
+  "cveList": [],
+  "date": "3 March 2023",
+  "rawDate": "2023-03-03T09:49:27",
+  "modifiedDate": "3 March 2023",
+  "rawModifiedDate": "2023-03-03T09:49:27",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The U.S. Federal Bureau of Investigation (FBI) and the U.S. Cybersecurity and Infrastructure Security Agency (CISA) released a joint cyber security advisory on Royal Ransomware to provide network defenders with the tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with Royal ransomware variants.<br><br>Several local organizations have been affected by Royal ransomware in the recent past. With this in mind, TT-CSIRT strongly encourages network defenders to review the advisory and implement the recommended mitigations to limit potential adversarial techniques and reduce the risk of compromise.<br><br>Advisory: <a href=\"https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a\">https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a</a></p>\n",
+  "displaySummary": "The U.S. Federal Bureau of Investigation (FBI) and the U.S.",
+  "sourceExcerpt": "<p>The U.S. Federal Bureau of Investigation (FBI) and the U.S. Cybersecurity and Infrastructure Security Agency (CISA) released a joint cyber security advisory on Royal Ransomware to provide network defenders with the tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with Royal ransomware variants. Several local organizations have been affected by Royal ransomware [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-414-3-3-23-royal-ransomware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The U.S. Federal Bureau of Investigation (FBI) and the U.S. Cybersecurity and Infrastructure Security Agency (CISA) released a joint cyber security advisory on Royal Ransomware to provide network defenders with the tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with Royal ransomware variants.</p>",
+          "text": "The U.S. Federal Bureau of Investigation (FBI) and the U.S. Cybersecurity and Infrastructure Security Agency (CISA) released a joint cyber security advisory on Royal Ransomware to provide network defenders with the tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with Royal ransomware variants."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Several local organizations have been affected by Royal ransomware in the recent past. With this in mind, TT-CSIRT strongly encourages network defenders to review the advisory and implement the recommended mitigations to limit potential adversarial techniques and reduce the risk of compromise.</p>",
+          "text": "Several local organizations have been affected by Royal ransomware in the recent past. With this in mind, TT-CSIRT strongly encourages network defenders to review the advisory and implement the recommended mitigations to limit potential adversarial techniques and reduce the risk of compromise."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Advisory: <a href=\"https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a\">https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a</a></p>",
+          "text": "Advisory: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-414-3-3-23-royal-ransomware/",
+    "upstreamDisclosedAt": "2023-03-03T09:49:27",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "5671",
+  "legacyPostId": 5671,
+  "referenceNumber": "TT-CSIRT #423",
+  "classification": "advisory",
+  "title": "02.01.24: terrapin CVE-2023-48795 vulnerability in secure shell (SSH) cryptographic network protocol",
+  "rawTitle": "TT-CSIRT &#8211; 423 02.01.24: Terrapin CVE-2023-48795 vulnerability in Secure Shell (SSH) cryptographic network protocol",
+  "slug": "tt-csirt-423-02-01-24-terrapin-cve-2023-48795-vulnerability-in-secure-shell-ssh-cryptographic-network-protocol",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Terrapin ( CVE-2023-48795 , CVSS score: 5.9) allows remote attackers to bypass integrity checks such that some packets are omitted causing security features to be downgraded or disabled within a client and server connection (a Terrapin Attack). This allows attackers to exploit the SSH protocol, potentially gaining unauthorized access to sensitive information or compromising network security.",
+  "cveList": [
+    "CVE-2023-48795",
+    "CVE-2023-46445",
+    "CVE-2023-46446"
+  ],
+  "date": "2 January 2024",
+  "rawDate": "2024-01-02T13:30:20",
+  "modifiedDate": "2 January 2024",
+  "rawModifiedDate": "2024-01-02T13:30:20",
+  "contentHtml": "<p><strong>Severity: Medium</strong></p>\n<p><strong>Overview:</strong></p>\n<p>Terrapin (<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2023-48795\">CVE-2023-48795</a>, CVSS score: 5.9) allows remote attackers to bypass integrity checks such that some packets are omitted causing security features to be downgraded or disabled within a client and server connection (a Terrapin Attack). This allows attackers to exploit the SSH protocol, potentially gaining unauthorized access to sensitive information or compromising network security.</p>\n<p><strong>Affected Systems:</strong></p>\n<p>The exploit affects many <a href=\"https://terrapin-attack.com/patches.html\">SSH client and server implementations</a>, such as OpenSSH, Paramiko, PuTTY, KiTTY, WinSCP, libssh, libssh2, AsyncSSH, FileZilla, and Dropbear.</p>\n<p><strong>Description:</strong></p>\n<p>This vulnerability carefully adjusts the sequence numbers during the handshake, allowing attackers to remove an arbitrary amount of messages sent by the client or server at the beginning of the secure channel without the client or server detecting it. According to experts, the attack can be performed in practice, allowing an attacker to downgrade the connection&#8217;s security by truncating the extension negotiation message (RFC8308) from the transcript. This process leads to using less secure client authentication algorithms and deactivating specific countermeasures against keystroke timing attacks in OpenSSH 9.5.</p>\n<p>Furthermore the attacker exploits this vulnerability to intercept sensitive data and/or gain control over critical systems using administrator privileged access. This risk specifically targets organizations with large, interconnected networks that provide access to privileged data.</p>\n<p><strong>Recommendations:</strong></p>\n<p>It is important for companies to ensure appropriate measures are taken to patch servers and ensure that a vulnerable client connecting to a patched server does not result in a vulnerable connection.</p>\n<p>Identifying vulnerable occurrences in a timely manner on both client and server side and apply mitigations and best practices throughout the entire infrastructure will reduce the impact.</p>\n<p><strong>Exploitation Details:</strong></p>\n<p>If your SSH implementations supports (and is configured to offer) the chacha20-poly1305@openssh.com encryption algorithm, or any encryption algorithm suffixed -cbc in combination with any MAC algorithm suffixed -etm@openssh.com, you are vulnerable to Terrapin. Here are a few other CVE numbers that are related to the vulnerability:</p>\n<ul>\n<li>CVE-2023-48795: General Protocol Flaw</li>\n<li>CVE-2023-46445: Rogue Extension Negotiation Attack in AsyncSSH</li>\n<li>CVE-2023-46446: Rogue Session Attack in AsyncSSH</li>\n</ul>\n<p><strong>References:</strong></p>\n<ul>\n<li><a href=\"https://thehackernews.com/2024/01/new-terrapin-flaw-could-let-attackers.html\">https://thehackernews.com/2024/01/new-terrapin-flaw-could-let-attackers.html</a></li>\n<li><a href=\"https://terrapin-attack.com/\">https://terrapin-attack.com/</a></li>\n<li><a href=\"https://fossa.com/blog/terrapin-cve-2023-48795-new-attack-ssh-protocol/\">https://fossa.com/blog/terrapin-cve-2023-48795-new-attack-ssh-protocol/</a></li>\n<li><a href=\"https://cybersecuritynews.com/new-terrapin-attacking-ssh-protocol/\">https://cybersecuritynews.com/new-terrapin-attacking-ssh-protocol/</a></li>\n<li><a href=\"https://blog.qualys.com/vulnerabilities-threat-research/2023/12/21/ssh-attack-surface-cve-2023-48795-find-and-patch-before-the-grinch-arrives-with-cybersecurity-asset-management\">https://blog.qualys.com/vulnerabilities-threat-research/2023/12/21/ssh-attack-surface-cve-2023-48795-find-and-patch-before-the-grinch-arrives-with-cybersecurity-asset-management</a></li>\n</ul>\n<p><strong>Contact Information:</strong></p>\n<p>If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n<p><strong> Additional Information:</strong></p>\n<ul>\n<li>Monitor network and logs</li>\n<li>Apply patches to servers as often as possible.</li>\n<li>Utilize vulnerability scans to determine levels of vulnerabilities on servers or clients.</li>\n<li>Timely detection of unsecured and vulnerable connections.</li>\n<li><a href=\"https://terrapin-attack.com/patches.html\">https://terrapin-attack.com/patches.html</a> includes a list of patches applicable.</li>\n</ul>\n",
+  "displaySummary": "Technical advisory detailing security vulnerabilities, affected versions, and remediation guidance.",
+  "sourceExcerpt": "<p>Severity: Medium Overview: Terrapin (CVE-2023-48795, CVSS score: 5.9) allows remote attackers to bypass integrity checks such that some packets are omitted causing security features to be downgraded or disabled within a client and server connection (a Terrapin Attack). This allows attackers to exploit the SSH protocol, potentially gaining unauthorized access to sensitive information or compromising network [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-423-02-01-24-terrapin-cve-2023-48795-vulnerability-in-secure-shell-ssh-cryptographic-network-protocol/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Severity: medium",
+          "id": "severity-medium"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Terrapin (<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2023-48795\">CVE-2023-48795</a>, CVSS score: 5.9) allows remote attackers to bypass integrity checks such that some packets are omitted causing security features to be downgraded or disabled within a client and server connection (a Terrapin Attack). This allows attackers to exploit the SSH protocol, potentially gaining unauthorized access to sensitive information or compromising network security.</p>",
+          "text": "Terrapin ( CVE-2023-48795 , CVSS score: 5.9) allows remote attackers to bypass integrity checks such that some packets are omitted causing security features to be downgraded or disabled within a client and server connection (a Terrapin Attack). This allows attackers to exploit the SSH protocol, potentially gaining unauthorized access to sensitive information or compromising network security."
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected systems",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The exploit affects many <a href=\"https://terrapin-attack.com/patches.html\">SSH client and server implementations</a>, such as OpenSSH, Paramiko, PuTTY, KiTTY, WinSCP, libssh, libssh2, AsyncSSH, FileZilla, and Dropbear.</p>",
+          "text": "The exploit affects many SSH client and server implementations , such as OpenSSH, Paramiko, PuTTY, KiTTY, WinSCP, libssh, libssh2, AsyncSSH, FileZilla, and Dropbear."
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability carefully adjusts the sequence numbers during the handshake, allowing attackers to remove an arbitrary amount of messages sent by the client or server at the beginning of the secure channel without the client or server detecting it. According to experts, the attack can be performed in practice, allowing an attacker to downgrade the connection&#8217;s security by truncating the extension negotiation message (RFC8308) from the transcript. This process leads to using less secure client authentication algorithms and deactivating specific countermeasures against keystroke timing attacks in OpenSSH 9.5.</p>",
+          "text": "This vulnerability carefully adjusts the sequence numbers during the handshake, allowing attackers to remove an arbitrary amount of messages sent by the client or server at the beginning of the secure channel without the client or server detecting it. According to experts, the attack can be performed in practice, allowing an attacker to downgrade the connection’s security by truncating the extension negotiation message (RFC8308) from the transcript. This process leads to using less secure client authentication algorithms and deactivating specific countermeasures against keystroke timing attacks in OpenSSH 9.5."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Furthermore the attacker exploits this vulnerability to intercept sensitive data and/or gain control over critical systems using administrator privileged access. This risk specifically targets organizations with large, interconnected networks that provide access to privileged data.</p>",
+          "text": "Furthermore the attacker exploits this vulnerability to intercept sensitive data and/or gain control over critical systems using administrator privileged access. This risk specifically targets organizations with large, interconnected networks that provide access to privileged data."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>It is important for companies to ensure appropriate measures are taken to patch servers and ensure that a vulnerable client connecting to a patched server does not result in a vulnerable connection.</p>",
+          "text": "It is important for companies to ensure appropriate measures are taken to patch servers and ensure that a vulnerable client connecting to a patched server does not result in a vulnerable connection."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Identifying vulnerable occurrences in a timely manner on both client and server side and apply mitigations and best practices throughout the entire infrastructure will reduce the impact.</p>",
+          "text": "Identifying vulnerable occurrences in a timely manner on both client and server side and apply mitigations and best practices throughout the entire infrastructure will reduce the impact."
+        }
+      ]
+    },
+    {
+      "id": "exploitation-details",
+      "title": "Exploitation details",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>If your SSH implementations supports (and is configured to offer) the chacha20-poly1305@openssh.com encryption algorithm, or any encryption algorithm suffixed -cbc in combination with any MAC algorithm suffixed -etm@openssh.com, you are vulnerable to Terrapin. Here are a few other CVE numbers that are related to the vulnerability:</p>",
+          "text": "If your SSH implementations supports (and is configured to offer) the chacha20-poly1305@openssh.com encryption algorithm, or any encryption algorithm suffixed -cbc in combination with any MAC algorithm suffixed -etm@openssh.com, you are vulnerable to Terrapin. Here are a few other CVE numbers that are related to the vulnerability:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2023-48795: General Protocol Flaw</li>\n<li>CVE-2023-46445: Rogue Extension Negotiation Attack in AsyncSSH</li>\n<li>CVE-2023-46446: Rogue Session Attack in AsyncSSH</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://thehackernews.com/2024/01/new-terrapin-flaw-could-let-attackers.html\">https://thehackernews.com/2024/01/new-terrapin-flaw-could-let-attackers.html</a></li>\n<li><a href=\"https://terrapin-attack.com/\">https://terrapin-attack.com/</a></li>\n<li><a href=\"https://fossa.com/blog/terrapin-cve-2023-48795-new-attack-ssh-protocol/\">https://fossa.com/blog/terrapin-cve-2023-48795-new-attack-ssh-protocol/</a></li>\n<li><a href=\"https://cybersecuritynews.com/new-terrapin-attacking-ssh-protocol/\">https://cybersecuritynews.com/new-terrapin-attacking-ssh-protocol/</a></li>\n<li><a href=\"https://blog.qualys.com/vulnerabilities-threat-research/2023/12/21/ssh-attack-surface-cve-2023-48795-find-and-patch-before-the-grinch-arrives-with-cybersecurity-asset-management\">https://blog.qualys.com/vulnerabilities-threat-research/2023/12/21/ssh-attack-surface-cve-2023-48795-find-and-patch-before-the-grinch-arrives-with-cybersecurity-asset-management</a></li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "additional-information",
+      "title": "Additional information",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Monitor network and logs</li>\n<li>Apply patches to servers as often as possible.</li>\n<li>Utilize vulnerability scans to determine levels of vulnerabilities on servers or clients.</li>\n<li>Timely detection of unsecured and vulnerable connections.</li>\n<li><a href=\"https://terrapin-attack.com/patches.html\">https://terrapin-attack.com/patches.html</a> includes a list of patches applicable.</li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "severity-medium",
+      "label": "Severity: medium",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected systems"
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "exploitation-details",
+      "label": "Exploitation details"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "additional-information",
+      "label": "Additional information"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://nvd.nist.gov/vuln/detail/CVE-2023-48795",
+    "https://terrapin-attack.com/patches.html",
+    "https://thehackernews.com/2024/01/new-terrapin-flaw-could-let-attackers.html",
+    "https://terrapin-attack.com/",
+    "https://fossa.com/blog/terrapin-cve-2023-48795-new-attack-ssh-protocol/",
+    "https://cybersecuritynews.com/new-terrapin-attacking-ssh-protocol/",
+    "https://blog.qualys.com/vulnerabilities-threat-research/2023/12/21/ssh-attack-surface-cve-2023-48795-find-and-patch-before-the-grinch-arrives-with-cybersecurity-asset-management"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-423-02-01-24-terrapin-cve-2023-48795-vulnerability-in-secure-shell-ssh-cryptographic-network-protocol/",
+    "upstreamDisclosedAt": "2024-01-02T13:30:20",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

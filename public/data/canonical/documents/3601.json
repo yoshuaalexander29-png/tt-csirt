@@ -1,0 +1,75 @@
+{
+  "id": "3601",
+  "legacyPostId": 3601,
+  "referenceNumber": "TT-CSIRT #182",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-182.112118: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-182-112118-tt-csirt-advisory-adobe-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that it has discovered a vulnerability in Adobe Flash Player where an attacker can perform remote code execution due to a confusion bug.",
+  "cveList": [],
+  "date": "21 November 2018",
+  "rawDate": "2018-11-21T18:48:05",
+  "modifiedDate": "21 November 2018",
+  "rawModifiedDate": "2018-11-21T18:48:05",
+  "contentHtml": "<p>Adobe has released a security update stating that it has discovered a vulnerability in Adobe Flash Player where an attacker can perform remote code execution due to a confusion bug.</p>\n<p>This issue is caused by the interpreter code of the Action Script Virtual Machine (AVM) not resetting a with-scope pointer when an exception is caught thereby leading to the type confusion bug.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/flash-player/apsb18-44.html\"><font size=\"2\" color=\"maroon\">https://helpx.adobe.com/security/products/flash-player/apsb18-44.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that it has discovered a vulnerability in Adobe Flash Player where an attacker can perform remote code execution due to a confusion bug.",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that it has discovered a vulnerability in Adobe Flash Player where an attacker can perform remote code execution due to a confusion bug. This issue is caused by the interpreter code of the Action Script Virtual Machine (AVM) not resetting a with-scope pointer when an exception is caught [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-182-112118-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that it has discovered a vulnerability in Adobe Flash Player where an attacker can perform remote code execution due to a confusion bug.</p>",
+          "text": "Adobe has released a security update stating that it has discovered a vulnerability in Adobe Flash Player where an attacker can perform remote code execution due to a confusion bug."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is caused by the interpreter code of the Action Script Virtual Machine (AVM) not resetting a with-scope pointer when an exception is caught thereby leading to the type confusion bug.</p>",
+          "text": "This issue is caused by the interpreter code of the Action Script Virtual Machine (AVM) not resetting a with-scope pointer when an exception is caught thereby leading to the type confusion bug."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/flash-player/apsb18-44.html\">https://helpx.adobe.com/security/products/flash-player/apsb18-44.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Adobe Website at https://helpx.adobe.com/security/products/flash-player/apsb18-44.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/flash-player/apsb18-44.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-182-112118-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-11-21T18:48:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

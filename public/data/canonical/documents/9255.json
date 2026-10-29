@@ -1,0 +1,86 @@
+{
+  "id": "9255",
+  "legacyPostId": 9255,
+  "referenceNumber": "TT-CSIRT #076",
+  "classification": "advisory",
+  "title": "Google security updates",
+  "rawTitle": "TTCSIRT-076.122717: TT-CSIRT Advisory – Google Security Updates",
+  "slug": "ttcsirt-076-122717-tt-csirt-advisory-google-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update warning customers that some of the files provided by third-party vendors through its advertising platform can introduce cross-site scripting (XSS) vulnerabilities.",
+  "cveList": [],
+  "date": "27 December 2017",
+  "rawDate": "2017-12-27T12:16:58",
+  "modifiedDate": "27 December 2017",
+  "rawModifiedDate": "2017-12-27T12:16:58",
+  "contentHtml": "<p>Google has released a security update warning customers that some of the files provided by third-party vendors through its advertising platform can introduce cross-site scripting (XSS) vulnerabilities.</p>\n<p>Some of these vendors include:</p>\n<p>a) adform/IFrameManager.html<br />\nb) admotion/afa-iframe.htm<br />\nc) bonzai/bonzaiBuster.html<br />\nd) exponential/buster.html<br />\ne) eyeblaster/addineyeV2.html<br />\nf) eyewonder/interim.html<br />\ng) flashtalking/ftlocal.html<br />\nh) ipinyou/py_buster.html<br />\ni) jivox/jivoxibuster.html<br />\nj) mediaplex/mojofb_v9.html<br />\nk) mixpo/framebust.html<br />\nl) predicta/predicta_bf.html<br />\nm) rockabox/rockabox_buster.html<br />\nn) liquidus/iframeX.htm<br />\no) controbox/iframebuster.html<br />\np) spongecell/spongecell-spongecellbuster.html<br />\nq) unicast/unicastIFD.html<br />\nr) adrime/adrime_burst.2.0.0.htm<br />\ns) revjet/revjet_buster.html<br />\nt) kpsule/iframebuster.html</p>\n<table>\n<tr>\n<td>Further information on this security update can be found on the Google Website at <a href=\"https://support.google.com/dfp_premium/answer/7622991\"><font size=\"2\" color=\"maroon\">https://support.google.com/dfp_premium/answer/7622991</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update warning customers that some of the files provided by third-party vendors through its advertising platform can introduce cross-site scripting (XSS)…",
+  "sourceExcerpt": "<p>Google has released a security update warning customers that some of the files provided by third-party vendors through its advertising platform can introduce cross-site scripting (XSS) vulnerabilities. Some of these vendors include: a) adform/IFrameManager.html b) admotion/afa-iframe.htm c) bonzai/bonzaiBuster.html d) exponential/buster.html e) eyeblaster/addineyeV2.html f) eyewonder/interim.html g) flashtalking/ftlocal.html h) ipinyou/py_buster.html i) jivox/jivoxibuster.html j) mediaplex/mojofb_v9.html k) mixpo/framebust.html l) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-076-122717-tt-csirt-advisory-google-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update warning customers that some of the files provided by third-party vendors through its advertising platform can introduce cross-site scripting (XSS) vulnerabilities.</p>",
+          "text": "Google has released a security update warning customers that some of the files provided by third-party vendors through its advertising platform can introduce cross-site scripting (XSS) vulnerabilities."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Some of these vendors include",
+          "id": "some-of-these-vendors-include"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) adform/IFrameManager.html<br />\nb) admotion/afa-iframe.htm<br />\nc) bonzai/bonzaiBuster.html<br />\nd) exponential/buster.html<br />\ne) eyeblaster/addineyeV2.html<br />\nf) eyewonder/interim.html<br />\ng) flashtalking/ftlocal.html<br />\nh) ipinyou/py_buster.html<br />\ni) jivox/jivoxibuster.html<br />\nj) mediaplex/mojofb_v9.html<br />\nk) mixpo/framebust.html<br />\nl) predicta/predicta_bf.html<br />\nm) rockabox/rockabox_buster.html<br />\nn) liquidus/iframeX.htm<br />\no) controbox/iframebuster.html<br />\np) spongecell/spongecell-spongecellbuster.html<br />\nq) unicast/unicastIFD.html<br />\nr) adrime/adrime_burst.2.0.0.htm<br />\ns) revjet/revjet_buster.html<br />\nt) kpsule/iframebuster.html</p>",
+          "text": "a) adform/IFrameManager.html b) admotion/afa-iframe.htm c) bonzai/bonzaiBuster.html d) exponential/buster.html e) eyeblaster/addineyeV2.html f) eyewonder/interim.html g) flashtalking/ftlocal.html h) ipinyou/py_buster.html i) jivox/jivoxibuster.html j) mediaplex/mojofb_v9.html k) mixpo/framebust.html l) predicta/predicta_bf.html m) rockabox/rockabox_buster.html n) liquidus/iframeX.htm o) controbox/iframebuster.html p) spongecell/spongecell-spongecellbuster.html q) unicast/unicastIFD.html r) adrime/adrime_burst.2.0.0.htm s) revjet/revjet_buster.html t) kpsule/iframebuster.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this security update can be found on the Google Website at <a href=\"https://support.google.com/dfp_premium/answer/7622991\">https://support.google.com/dfp_premium/answer/7622991</a></p>",
+          "text": "Further information on this security update can be found on the Google Website at https://support.google.com/dfp_premium/answer/7622991"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "some-of-these-vendors-include",
+      "label": "Some of these vendors include",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.google.com/dfp_premium/answer/7622991"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-076-122717-tt-csirt-advisory-google-security-updates/",
+    "upstreamDisclosedAt": "2017-12-27T12:16:58",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

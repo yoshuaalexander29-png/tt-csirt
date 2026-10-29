@@ -1,0 +1,90 @@
+{
+  "id": "4580",
+  "legacyPostId": 4580,
+  "referenceNumber": "TT-CSIRT 327.07.23.20",
+  "classification": "advisory",
+  "title": "Cisco only path traversal vulnerability",
+  "rawTitle": "TTCSIRT-327.07.23.20: TT-CSIRT ADVISORY- CISCO ONLY PATH TRAVERSAL VULNERABILITY",
+  "slug": "ttcsirt-327-07-23-20-tt-csirt-advisory-cisco-only-path-traversal-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system.",
+  "cveList": [],
+  "date": "23 July 2020",
+  "rawDate": "2020-07-23T08:52:22",
+  "modifiedDate": "23 July 2020",
+  "rawModifiedDate": "2020-07-23T08:52:22",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is due to a lack of proper input validation of URLs in HTTP requests processed by an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences to an affected device. A successful exploit could allow the attacker to view arbitrary files within the web services file system on the targeted device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The web services file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability cannot be used to obtain access to ASA or FTD system files or underlying operating system (OS) files.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following link to get a more comprehensive understanding as well as to view affected products and the respective updates:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86</a></p>\n",
+  "displaySummary": "A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote…",
+  "sourceExcerpt": "<p>A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system. The vulnerability is due to a lack of proper input validation of URLs in HTTP [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-327-07-23-20-tt-csirt-advisory-cisco-only-path-traversal-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system.</p>",
+          "text": "A vulnerability in the web services interface of Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to conduct directory traversal attacks and read sensitive files on a targeted system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to a lack of proper input validation of URLs in HTTP requests processed by an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences to an affected device. A successful exploit could allow the attacker to view arbitrary files within the web services file system on the targeted device.</p>",
+          "text": "The vulnerability is due to a lack of proper input validation of URLs in HTTP requests processed by an affected device. An attacker could exploit this vulnerability by sending a crafted HTTP request containing directory traversal character sequences to an affected device. A successful exploit could allow the attacker to view arbitrary files within the web services file system on the targeted device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The web services file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability cannot be used to obtain access to ASA or FTD system files or underlying operating system (OS) files.</p>",
+          "text": "The web services file system is enabled when the affected device is configured with either WebVPN or AnyConnect features. This vulnerability cannot be used to obtain access to ASA or FTD system files or underlying operating system (OS) files."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>",
+          "text": "Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following link to get a more comprehensive understanding as well as to view affected products and the respective updates:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following link to get a more comprehensive understanding as well as to view affected products and the respective updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86</a></p>",
+          "text": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-327-07-23-20-tt-csirt-advisory-cisco-only-path-traversal-vulnerability/",
+    "upstreamDisclosedAt": "2020-07-23T08:52:22",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

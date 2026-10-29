@@ -1,0 +1,182 @@
+{
+  "id": "3538",
+  "legacyPostId": 3538,
+  "referenceNumber": "TT-CSIRT #167",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-167.092018: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-167-092018-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.10 &#038; Version 7.1.22:",
+  "cveList": [],
+  "date": "20 September 2018",
+  "rawDate": "2018-09-20T12:25:41",
+  "modifiedDate": "20 September 2018",
+  "rawModifiedDate": "2018-09-20T12:25:41",
+  "contentHtml": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.10 &#038; Version 7.1.22:</p>\n<p>a) Bug #55146 &#8211; (iconv_mime_decode_headers() skips some headers)</p>\n<p>b) Bug #60494 &#8211; (iconv_mime_decode does ignore special characters)</p>\n<p>c) Bug #63839 &#8211; (iconv_mime_decode_headers function is skipping headers)</p>\n<p>d) Bug #65988 &#8211; (Zlib version check fails when an include/zlib/ style dir is passed to the &#8211;with-zlib configure option)</p>\n<p>e) Bug #68175 &#8211; (RegexIterator pregFlags are NULL instead of 0)</p>\n<p>f) Bug #68180 &#8211; (iconv_mime_decode can return extra characters in a header)</p>\n<p>g) Bug #68825 &#8211; (Exception in DirectoryIterator::getLinkTarget())</p>\n<p>h) Bug #72443 &#8211; (Generate enabled extension)</p>\n<p>i) Bug #74484 &#8211; (MessageFormatter::formatMessage memory corruption with 11+ named placeholders)</p>\n<p>j) Bug #76517 &#8211; (incorrect restoring of LDFLAGS)</p>\n<p>k) Bug #76582 &#8211; (Apache bucket brigade sometimes becomes invalid)</p>\n<p>l) Bug #76595 &#8211; (phpdbg man page contains outdated information)</p>\n<p>m) Bug #76704 &#8211; (mb_detect_order return value varies based on argument type)</p>\n<p>n) Bug #76705 &#8211; (unusable ssl => peer_fingerprint in stream_context_create())</p>\n<p>o) Bug #76709 &#8211; (Minimal required zlib library is 1.2.0.4)</p>\n<p>p) Bug #76747 &#8211; (Opcache treats path containing &#8220;test.pharma.tld&#8221; as a phar file)</p>\n<p>q) Bug #76754 &#8211; (parent private constant in extends class memory leak)</p>\n<p>r) Bug #76777 &#8211; (&#8220;public id&#8221; parameter of libxml_set_external_entity_loader callback undefined)</p>\n<p>s) Bug #76778 &#8211; (array_reduce leaks memory if callback throws exception)</p>\n<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-101/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-101/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.10 &#038; Version 7.1.22: a) Bug #55146 &#8211; (iconv_mime_decode_headers()…",
+  "sourceExcerpt": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.10 &#038; Version 7.1.22: a) Bug #55146 &#8211; (iconv_mime_decode_headers() skips some headers) b) Bug #60494 &#8211; (iconv_mime_decode does ignore special characters) c) Bug #63839 &#8211; (iconv_mime_decode_headers function is skipping headers) d) Bug #65988 &#8211; (Zlib version check fails [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-167-092018-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.10 &#038; Version 7.1.22:</p>",
+          "text": "PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.10 &#038; Version 7.1.22:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Bug #55146 &#8211; (iconv_mime_decode_headers() skips some headers)</p>",
+          "text": "a) Bug #55146 – (iconv_mime_decode_headers() skips some headers)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Bug #60494 &#8211; (iconv_mime_decode does ignore special characters)</p>",
+          "text": "b) Bug #60494 – (iconv_mime_decode does ignore special characters)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Bug #63839 &#8211; (iconv_mime_decode_headers function is skipping headers)</p>",
+          "text": "c) Bug #63839 – (iconv_mime_decode_headers function is skipping headers)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Bug #65988 &#8211; (Zlib version check fails when an include/zlib/ style dir is passed to the &#8211;with-zlib configure option)</p>",
+          "text": "d) Bug #65988 – (Zlib version check fails when an include/zlib/ style dir is passed to the –with-zlib configure option)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Bug #68175 &#8211; (RegexIterator pregFlags are NULL instead of 0)</p>",
+          "text": "e) Bug #68175 – (RegexIterator pregFlags are NULL instead of 0)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Bug #68180 &#8211; (iconv_mime_decode can return extra characters in a header)</p>",
+          "text": "f) Bug #68180 – (iconv_mime_decode can return extra characters in a header)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Bug #68825 &#8211; (Exception in DirectoryIterator::getLinkTarget())</p>",
+          "text": "g) Bug #68825 – (Exception in DirectoryIterator::getLinkTarget())"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Bug #72443 – (generate enabled extension)",
+          "id": "bug-72443-generate-enabled-extension"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Bug #74484 &#8211; (MessageFormatter::formatMessage memory corruption with 11+ named placeholders)</p>",
+          "text": "i) Bug #74484 – (MessageFormatter::formatMessage memory corruption with 11+ named placeholders)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Bug #76517 – (incorrect restoring of ldflags)",
+          "id": "bug-76517-incorrect-restoring-of-ldflags"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Bug #76582 &#8211; (Apache bucket brigade sometimes becomes invalid)</p>",
+          "text": "k) Bug #76582 – (Apache bucket brigade sometimes becomes invalid)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) Bug #76595 &#8211; (phpdbg man page contains outdated information)</p>",
+          "text": "l) Bug #76595 – (phpdbg man page contains outdated information)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) Bug #76704 &#8211; (mb_detect_order return value varies based on argument type)</p>",
+          "text": "m) Bug #76704 – (mb_detect_order return value varies based on argument type)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>n) Bug #76705 &#8211; (unusable ssl => peer_fingerprint in stream_context_create())</p>",
+          "text": "n) Bug #76705 – (unusable ssl => peer_fingerprint in stream_context_create())"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o) Bug #76709 &#8211; (Minimal required zlib library is 1.2.0.4)</p>",
+          "text": "o) Bug #76709 – (Minimal required zlib library is 1.2.0.4)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>p) Bug #76747 &#8211; (Opcache treats path containing &#8220;test.pharma.tld&#8221; as a phar file)</p>",
+          "text": "p) Bug #76747 – (Opcache treats path containing “test.pharma.tld” as a phar file)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>q) Bug #76754 &#8211; (parent private constant in extends class memory leak)</p>",
+          "text": "q) Bug #76754 – (parent private constant in extends class memory leak)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>r) Bug #76777 &#8211; (&#8220;public id&#8221; parameter of libxml_set_external_entity_loader callback undefined)</p>",
+          "text": "r) Bug #76777 – (“public id” parameter of libxml_set_external_entity_loader callback undefined)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>s) Bug #76778 &#8211; (array_reduce leaks memory if callback throws exception)</p>",
+          "text": "s) Bug #76778 – (array_reduce leaks memory if callback throws exception)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-101/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-101/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-101/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "bug-72443-generate-enabled-extension",
+      "label": "Bug #72443 – (generate enabled extension)",
+      "isSubItem": true
+    },
+    {
+      "id": "bug-76517-incorrect-restoring-of-ldflags",
+      "label": "Bug #76517 – (incorrect restoring of ldflags)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-101/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-167-092018-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2018-09-20T12:25:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

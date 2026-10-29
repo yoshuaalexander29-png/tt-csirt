@@ -1,0 +1,90 @@
+{
+  "id": "4837",
+  "legacyPostId": 4837,
+  "referenceNumber": "TT-CSIRT #4837",
+  "classification": "alert",
+  "title": "Supplemental guidance for emergency directive on SolarWinds Orion compromise",
+  "rawTitle": "TTCSIRT-THREAT ALERT: Supplemental Guidance for Emergency Directive on SolarWinds Orion Compromise",
+  "slug": "ttcsirt-threat-alert-supplemental-guidance-for-emergency-directive-on-solarwinds-orion-compromise",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, for situational awareness, the Cybersecurity and Infrastructure Security Agency (CISA) has released Emergency Directive (ED) 21-01 – Mitigate SolarWinds Orion Code Compromise – Supplemental Guidance Version 2, which provides additional guidance that supplements Emergency Directive (ED) 21-01 and Supplemental Guidance v1 issued on December 18, 2020. Can be accessed here: https://cyber.dhs.gov/ed/21-01/#supplemental-guidance .",
+  "cveList": [],
+  "date": "31 December 2020",
+  "rawDate": "2020-12-31T10:23:37",
+  "modifiedDate": "31 December 2020",
+  "rawModifiedDate": "2020-12-31T10:23:37",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised, for situational awareness, the Cybersecurity and Infrastructure Security Agency (CISA) has released Emergency Directive (ED) 21-01 – Mitigate SolarWinds Orion Code Compromise &#8211; Supplemental Guidance Version 2, which provides additional guidance that supplements Emergency Directive (ED) 21-01 and Supplemental Guidance v1 issued on December 18, 2020. Can be accessed here: <a href=\"https://cyber.dhs.gov/ed/21-01/#supplemental-guidance\">https://cyber.dhs.gov/ed/21-01/#supplemental-guidance</a>.<br> <br>This guidance requires all agencies operating versions of the SolarWinds Orion platform –other than those identified as “affected versions” below—to use at least SolarWinds Orion Platform version 2020.2.1HF2 (please refer to the table below). The National Security Agency (NSA) has examined this version and verified that it eliminates the previously identified malicious code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Given the number and nature of disclosed and undisclosed vulnerabilities in SolarWinds Orion, all instances that remain connected to networks must be updated to 2020.2.1 HF2 .</p>\n\n\n\n<figure class=\"wp-block-table\"><table><tbody><tr><td><strong>Orion Platform Version</strong></td><td><strong>Continued use of SolarWinds Orion permitted at this time</strong></td><td><strong>Update required?</strong></td></tr><tr><td>Affected versions: 2019.4 HF5, 2020.2 RC1, 2020.2 RC2, 2020.2, 2020.2 HF1 (should be powered down or removed from networks based on ED 21-01)</td><td><strong>No</strong></td><td>N/A</td></tr><tr><td>All other versions that are currently online (if the instance did not previously use an affected version)</td><td>Yes</td><td>Yes (2020.2.1HF2)</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Please note, CISA will follow up with additional supplemental guidance to include further clarifications and hardening requirements. CISA encourages you to visit CISA’s main supply chain compromise webpage for additional information on this incident and related malicious activity, and resources to help organizations detect and prevent compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Further information and support can be found and the following link:<br><a href=\"https://www.cisa.gov/supply-chain-compromise\">https://www.cisa.gov/supply-chain-compromise</a></p>\n",
+  "displaySummary": "For situational awareness, the Cybersecurity and Infrastructure Security Agency (CISA) has released Emergency Directive (ED) 21-01 – Mitigate SolarWinds Orion Code Compromise &#8211;…",
+  "sourceExcerpt": "<p>Please be advised, for situational awareness, the Cybersecurity and Infrastructure Security Agency (CISA) has released Emergency Directive (ED) 21-01 – Mitigate SolarWinds Orion Code Compromise &#8211; Supplemental Guidance Version 2, which provides additional guidance that supplements Emergency Directive (ED) 21-01 and Supplemental Guidance v1 issued on December 18, 2020. Can be accessed here: https://cyber.dhs.gov/ed/21-01/#supplemental-guidance. This guidance requires [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-threat-alert-supplemental-guidance-for-emergency-directive-on-solarwinds-orion-compromise/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised, for situational awareness, the Cybersecurity and Infrastructure Security Agency (CISA) has released Emergency Directive (ED) 21-01 – Mitigate SolarWinds Orion Code Compromise &#8211; Supplemental Guidance Version 2, which provides additional guidance that supplements Emergency Directive (ED) 21-01 and Supplemental Guidance v1 issued on December 18, 2020. Can be accessed here: <a href=\"https://cyber.dhs.gov/ed/21-01/#supplemental-guidance\">https://cyber.dhs.gov/ed/21-01/#supplemental-guidance</a>.</p>",
+          "text": "Please be advised, for situational awareness, the Cybersecurity and Infrastructure Security Agency (CISA) has released Emergency Directive (ED) 21-01 – Mitigate SolarWinds Orion Code Compromise – Supplemental Guidance Version 2, which provides additional guidance that supplements Emergency Directive (ED) 21-01 and Supplemental Guidance v1 issued on December 18, 2020. Can be accessed here: https://cyber.dhs.gov/ed/21-01/#supplemental-guidance ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This guidance requires all agencies operating versions of the SolarWinds Orion platform –other than those identified as “affected versions” below—to use at least SolarWinds Orion Platform version 2020.2.1HF2 (please refer to the table below). The National Security Agency (NSA) has examined this version and verified that it eliminates the previously identified malicious code.</p>",
+          "text": "This guidance requires all agencies operating versions of the SolarWinds Orion platform –other than those identified as “affected versions” below—to use at least SolarWinds Orion Platform version 2020.2.1HF2 (please refer to the table below). The National Security Agency (NSA) has examined this version and verified that it eliminates the previously identified malicious code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Given the number and nature of disclosed and undisclosed vulnerabilities in SolarWinds Orion, all instances that remain connected to networks must be updated to 2020.2.1 HF2 .</p>",
+          "text": "Given the number and nature of disclosed and undisclosed vulnerabilities in SolarWinds Orion, all instances that remain connected to networks must be updated to 2020.2.1 HF2 ."
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Orion Platform Version</th><th scope=\"col\" class=\"govuk-table__header\">Continued use of SolarWinds Orion permitted at this time</th><th scope=\"col\" class=\"govuk-table__header\">Update required?</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Affected versions: 2019.4 HF5, 2020.2 RC1, 2020.2 RC2, 2020.2, 2020.2 HF1 (should be powered down or removed from networks based on ED 21-01)</th><td class=\"govuk-table__cell\"><strong>No</strong></td><td class=\"govuk-table__cell\">N/A</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">All other versions that are currently online (if the instance did not previously use an affected version)</th><td class=\"govuk-table__cell\">Yes</td><td class=\"govuk-table__cell\">Yes (2020.2.1HF2)</td></tr></tbody>\n      </table>\n    </div>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please note, CISA will follow up with additional supplemental guidance to include further clarifications and hardening requirements. CISA encourages you to visit CISA’s main supply chain compromise webpage for additional information on this incident and related malicious activity, and resources to help organizations detect and prevent compromise.</p>",
+          "text": "Please note, CISA will follow up with additional supplemental guidance to include further clarifications and hardening requirements. CISA encourages you to visit CISA’s main supply chain compromise webpage for additional information on this incident and related malicious activity, and resources to help organizations detect and prevent compromise."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information and support can be found and the following link:<br><a href=\"https://www.cisa.gov/supply-chain-compromise\">https://www.cisa.gov/supply-chain-compromise</a></p>",
+          "text": "Further information and support can be found and the following link: https://www.cisa.gov/supply-chain-compromise"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://cyber.dhs.gov/ed/21-01/#supplemental-guidance",
+    "https://www.cisa.gov/supply-chain-compromise"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-threat-alert-supplemental-guidance-for-emergency-directive-on-solarwinds-orion-compromise/",
+    "upstreamDisclosedAt": "2020-12-31T10:23:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

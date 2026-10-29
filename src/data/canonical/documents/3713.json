@@ -1,0 +1,75 @@
+{
+  "id": "3713",
+  "legacyPostId": 3713,
+  "referenceNumber": "TT-CSIRT #210",
+  "classification": "advisory",
+  "title": "Ibm security updates",
+  "rawTitle": "TTCSIRT-210.053119: TT-CSIRT Advisory – IBM Security Updates",
+  "slug": "ttcsirt-210-053119-tt-csirt-advisory-ibm-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "IBM has released a security update stating that it has discovered a vulnerability in IBM WebSphere Application Server that could allow for remote code execution. This issue occurs when serializing an object from an untrusted source.",
+  "cveList": [],
+  "date": "31 May 2019",
+  "rawDate": "2019-05-31T14:30:34",
+  "modifiedDate": "31 May 2019",
+  "rawModifiedDate": "2019-05-31T14:30:34",
+  "contentHtml": "<p>IBM has released a security update stating that it has discovered a vulnerability in IBM WebSphere Application Server that could allow for remote code execution. This issue occurs when serializing an object from an untrusted source.</p>\n<p>IBM WebSphere Application Server is a software framework and middleware that hosts Java-based web applications.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the IBM Website at <a href=\"https://www-01.ibm.com/support/docview.wss?uid=ibm10883628\"><font size=\"2\" color=\"maroon\">https://www-01.ibm.com/support/docview.wss?uid=ibm10883628</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "IBM has released a security update stating that it has discovered a vulnerability in IBM WebSphere Application Server that could allow for remote code execution.",
+  "sourceExcerpt": "<p>IBM has released a security update stating that it has discovered a vulnerability in IBM WebSphere Application Server that could allow for remote code execution. This issue occurs when serializing an object from an untrusted source. IBM WebSphere Application Server is a software framework and middleware that hosts Java-based web applications. Further information on this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-210-053119-tt-csirt-advisory-ibm-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>IBM has released a security update stating that it has discovered a vulnerability in IBM WebSphere Application Server that could allow for remote code execution. This issue occurs when serializing an object from an untrusted source.</p>",
+          "text": "IBM has released a security update stating that it has discovered a vulnerability in IBM WebSphere Application Server that could allow for remote code execution. This issue occurs when serializing an object from an untrusted source."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>IBM WebSphere Application Server is a software framework and middleware that hosts Java-based web applications.</p>",
+          "text": "IBM WebSphere Application Server is a software framework and middleware that hosts Java-based web applications."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the IBM Website at <a href=\"https://www-01.ibm.com/support/docview.wss?uid=ibm10883628\">https://www-01.ibm.com/support/docview.wss?uid=ibm10883628</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the IBM Website at https://www-01.ibm.com/support/docview.wss?uid=ibm10883628"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www-01.ibm.com/support/docview.wss?uid=ibm10883628"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-210-053119-tt-csirt-advisory-ibm-security-updates/",
+    "upstreamDisclosedAt": "2019-05-31T14:30:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

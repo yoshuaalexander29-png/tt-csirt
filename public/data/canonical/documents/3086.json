@@ -1,0 +1,70 @@
+{
+  "id": "3086",
+  "legacyPostId": 3086,
+  "referenceNumber": "TT-CSIRT #066",
+  "classification": "advisory",
+  "title": "Intel security updates",
+  "rawTitle": "TTCSIRT-066.112217: TT-CSIRT Advisory – Intel Security Updates",
+  "slug": "ttcsirt-066-112217-tt-csirt-advisory-intel-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address vulnerabilities in the firmware of the following Intel products: Management Engine, Server Platform Services, and Trusted Execution Engine. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "22 November 2017",
+  "rawDate": "2017-11-22T10:47:11",
+  "modifiedDate": "22 November 2017",
+  "rawModifiedDate": "2017-11-22T10:47:11",
+  "contentHtml": "<p>Intel has released security updates to address vulnerabilities in the firmware of the following Intel products: Management Engine, Server Platform Services, and Trusted Execution Engine. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found on Intel Website at <a href=\"https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&#038;languageid=en-fr\"><font size=\"2\" color=\"maroon\">https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&#038;languageid=en-fr</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Intel has released security updates to address vulnerabilities in the firmware of the following Intel products: Management Engine, Server Platform Services, and Trusted Execution Engine.",
+  "sourceExcerpt": "<p>Intel has released security updates to address vulnerabilities in the firmware of the following Intel products: Management Engine, Server Platform Services, and Trusted Execution Engine. An attacker could exploit some of these vulnerabilities to take control of an affected system. Further information on these vulnerabilities and how they can be fixed can be found on [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-066-112217-tt-csirt-advisory-intel-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address vulnerabilities in the firmware of the following Intel products: Management Engine, Server Platform Services, and Trusted Execution Engine. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Intel has released security updates to address vulnerabilities in the firmware of the following Intel products: Management Engine, Server Platform Services, and Trusted Execution Engine. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on Intel Website at <a href=\"https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&#038;languageid=en-fr\">https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&#038;languageid=en-fr</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on Intel Website at https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&#038;languageid=en-fr"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&#038;languageid=en-fr"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-066-112217-tt-csirt-advisory-intel-security-updates/",
+    "upstreamDisclosedAt": "2017-11-22T10:47:11",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

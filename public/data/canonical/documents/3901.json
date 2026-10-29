@@ -1,0 +1,70 @@
+{
+  "id": "3901",
+  "legacyPostId": 3901,
+  "referenceNumber": "TT-CSIRT #248",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-248.120619: TT-CSIRT ADVISORY – VMWARE SECURITY UPDATES",
+  "slug": "ttcsirt-248-120619-tt-csirt-advisory-vmware-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released security updates to address a critical vulnerability in ESXi and Horizon DaaS. An attacker could exploit this vulnerability to take control of an affected system. TTCSIRT encourages users and administrators to review the following release from VMware and apply the necessary solutions:",
+  "cveList": [],
+  "date": "6 December 2019",
+  "rawDate": "2019-12-06T14:10:53",
+  "modifiedDate": "6 December 2019",
+  "rawModifiedDate": "2019-12-06T14:10:53",
+  "contentHtml": "<p>VMware has released security updates to address a critical vulnerability in ESXi and Horizon DaaS. An attacker could exploit this vulnerability to take control of an affected system. TTCSIRT encourages users and administrators to review the following release from VMware and apply the necessary solutions:</p>\n<p><a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0022.html\">https://www.vmware.com/security/advisories/VMSA-2019-0022.html</a></p>\n",
+  "displaySummary": "VMware has released security updates to address a critical vulnerability in ESXi and Horizon DaaS. An attacker could exploit this vulnerability to take control of an affected system.",
+  "sourceExcerpt": "<p>VMware has released security updates to address a critical vulnerability in ESXi and Horizon DaaS. An attacker could exploit this vulnerability to take control of an affected system. TTCSIRT encourages users and administrators to review the following release from VMware and apply the necessary solutions: https://www.vmware.com/security/advisories/VMSA-2019-0022.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-248-120619-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released security updates to address a critical vulnerability in ESXi and Horizon DaaS. An attacker could exploit this vulnerability to take control of an affected system. TTCSIRT encourages users and administrators to review the following release from VMware and apply the necessary solutions:</p>",
+          "text": "VMware has released security updates to address a critical vulnerability in ESXi and Horizon DaaS. An attacker could exploit this vulnerability to take control of an affected system. TTCSIRT encourages users and administrators to review the following release from VMware and apply the necessary solutions:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0022.html\">https://www.vmware.com/security/advisories/VMSA-2019-0022.html</a></p>",
+          "text": "https://www.vmware.com/security/advisories/VMSA-2019-0022.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2019-0022.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-248-120619-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2019-12-06T14:10:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

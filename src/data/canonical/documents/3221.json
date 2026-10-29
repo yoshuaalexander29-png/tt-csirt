@@ -1,0 +1,100 @@
+{
+  "id": "3221",
+  "legacyPostId": 3221,
+  "referenceNumber": "TT-CSIRT #092",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-092.022318: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-092-022318-tt-csirt-advisory-drupal-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released several security updates to make developers ware that multiple vulnerabilities exist in both Drupal 7 and Drupal 8 including",
+  "cveList": [],
+  "date": "23 February 2018",
+  "rawDate": "2018-02-23T11:49:20",
+  "modifiedDate": "23 February 2018",
+  "rawModifiedDate": "2018-02-23T11:49:20",
+  "contentHtml": "<p>Drupal has released several security updates to make developers ware that multiple vulnerabilities exist in both Drupal 7 and Drupal 8 including</p>\n<p>a) Users with permission to post comments are able to view content and comments they do not have access to, and are also able to add comments to this content.</p>\n<p>b) Drupal has a Drupal.checkPlain() JavaScript function which is used to escape potentially dangerous text before outputting it to HTML (as JavaScript output does not typically go through Twig autoescaping). This function does not correctly handle all methods of injecting malicious HTML, leading to a cross-site scripting vulnerability under certain circumstances.</p>\n<p>c) When using Drupal&#8217;s private file system, Drupal will check to make sure a user has access to a file before allowing the user to view or download it. This check fails under certain conditions in which one module is trying to grant access to the file and another is trying to deny it, leading to an access bypass vulnerability.</p>\n<p>d) A jQuery cross site scripting vulnerability is present when making Ajax requests to untrusted domains.</p>\n<p>e) When using node access controls with a multilingual site, Drupal marks the untranslated version of a node as the default fallback for access queries. This fallback is used for languages that do not yet have a translated version of the created node. This can result in an access bypass vulnerability.</p>\n<p>f) Drupal core has an external link injection vulnerability when the language switcher block is used. A similar vulnerability exists in various custom and contributed modules. This vulnerability could allow an attacker to trick users into unwillingly navigating to an external site.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-001\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/sa-core-2018-001</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released several security updates to make developers ware that multiple vulnerabilities exist in both Drupal 7 and Drupal 8 including a) Users with permission to post comments are…",
+  "sourceExcerpt": "<p>Drupal has released several security updates to make developers ware that multiple vulnerabilities exist in both Drupal 7 and Drupal 8 including a) Users with permission to post comments are able to view content and comments they do not have access to, and are also able to add comments to this content. b) Drupal has [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-092-022318-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released several security updates to make developers ware that multiple vulnerabilities exist in both Drupal 7 and Drupal 8 including</p>",
+          "text": "Drupal has released several security updates to make developers ware that multiple vulnerabilities exist in both Drupal 7 and Drupal 8 including"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Users with permission to post comments are able to view content and comments they do not have access to, and are also able to add comments to this content.</p>",
+          "text": "a) Users with permission to post comments are able to view content and comments they do not have access to, and are also able to add comments to this content."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Drupal has a Drupal.checkPlain() JavaScript function which is used to escape potentially dangerous text before outputting it to HTML (as JavaScript output does not typically go through Twig autoescaping). This function does not correctly handle all methods of injecting malicious HTML, leading to a cross-site scripting vulnerability under certain circumstances.</p>",
+          "text": "b) Drupal has a Drupal.checkPlain() JavaScript function which is used to escape potentially dangerous text before outputting it to HTML (as JavaScript output does not typically go through Twig autoescaping). This function does not correctly handle all methods of injecting malicious HTML, leading to a cross-site scripting vulnerability under certain circumstances."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) When using Drupal&#8217;s private file system, Drupal will check to make sure a user has access to a file before allowing the user to view or download it. This check fails under certain conditions in which one module is trying to grant access to the file and another is trying to deny it, leading to an access bypass vulnerability.</p>",
+          "text": "c) When using Drupal’s private file system, Drupal will check to make sure a user has access to a file before allowing the user to view or download it. This check fails under certain conditions in which one module is trying to grant access to the file and another is trying to deny it, leading to an access bypass vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) A jQuery cross site scripting vulnerability is present when making Ajax requests to untrusted domains.</p>",
+          "text": "d) A jQuery cross site scripting vulnerability is present when making Ajax requests to untrusted domains."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) When using node access controls with a multilingual site, Drupal marks the untranslated version of a node as the default fallback for access queries. This fallback is used for languages that do not yet have a translated version of the created node. This can result in an access bypass vulnerability.</p>",
+          "text": "e) When using node access controls with a multilingual site, Drupal marks the untranslated version of a node as the default fallback for access queries. This fallback is used for languages that do not yet have a translated version of the created node. This can result in an access bypass vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Drupal core has an external link injection vulnerability when the language switcher block is used. A similar vulnerability exists in various custom and contributed modules. This vulnerability could allow an attacker to trick users into unwillingly navigating to an external site.</p>",
+          "text": "f) Drupal core has an external link injection vulnerability when the language switcher block is used. A similar vulnerability exists in various custom and contributed modules. This vulnerability could allow an attacker to trick users into unwillingly navigating to an external site."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-001\">https://www.drupal.org/sa-core-2018-001</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on the Drupal Website at https://www.drupal.org/sa-core-2018-001"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/sa-core-2018-001"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-092-022318-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2018-02-23T11:49:20",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

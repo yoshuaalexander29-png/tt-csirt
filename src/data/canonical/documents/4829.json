@@ -1,0 +1,82 @@
+{
+  "id": "4829",
+  "legacyPostId": 4829,
+  "referenceNumber": "TT-CSIRT 384.12.07.20",
+  "classification": "advisory",
+  "title": "Cisco security advisory for vulnerability in anyconnect",
+  "rawTitle": "TTCSIRT-384.12.07.20: TT-CSIRT ADVISORY – Cisco Security Advisory for Vulnerability in AnyConnect",
+  "slug": "ttcsirt-384-12-07-20-tt-csirt-advisory-cisco-security-advisory-for-vulnerability-in-anyconnect",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security advisory on an Arbitrary Code Execution vulnerability—CVE-2020-3556—affecting Cisco AnyConnect Secure Mobility Client devices.",
+  "cveList": [
+    "CVE-2020-3556"
+  ],
+  "date": "7 December 2020",
+  "rawDate": "2020-12-07T15:33:02",
+  "modifiedDate": "7 December 2020",
+  "rawModifiedDate": "2020-12-07T15:33:02",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released a security advisory on an Arbitrary Code Execution vulnerability—CVE-2020-3556—affecting Cisco AnyConnect Secure Mobility Client devices.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A remote attacker could exploit this vulnerability to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is&nbsp;encouraged that&nbsp;users and administrators to review&nbsp;and apply the necessary updates or workarounds.<br><br>For further information and support, please visit the following link:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2ODU3MTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtYW55Y29ubmVjdC1pcGMtS2ZRTzlRaEsifQ.KCLCKt0gLdE0BXFcIpdTY7n1XOB8qnhrYukhk_Rn4lk/s/1193638257/br/91222543957-l\">Cisco Security Advisory</a></p>\n",
+  "displaySummary": "Cisco has released a security advisory on an Arbitrary Code Execution vulnerability—CVE-2020-3556—affecting Cisco AnyConnect Secure Mobility Client devices.",
+  "sourceExcerpt": "<p>Cisco has released a security advisory on an Arbitrary Code Execution vulnerability—CVE-2020-3556—affecting Cisco AnyConnect Secure Mobility Client devices. A remote attacker could exploit this vulnerability to take control of an affected system. It is&nbsp;encouraged that&nbsp;users and administrators to review&nbsp;and apply the necessary updates or workarounds. For further information and support, please visit the following link:Cisco [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-384-12-07-20-tt-csirt-advisory-cisco-security-advisory-for-vulnerability-in-anyconnect/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security advisory on an Arbitrary Code Execution vulnerability—CVE-2020-3556—affecting Cisco AnyConnect Secure Mobility Client devices.</p>",
+          "text": "Cisco has released a security advisory on an Arbitrary Code Execution vulnerability—CVE-2020-3556—affecting Cisco AnyConnect Secure Mobility Client devices."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A remote attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "A remote attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is&nbsp;encouraged that&nbsp;users and administrators to review&nbsp;and apply the necessary updates or workarounds.</p>",
+          "text": "It is encouraged that users and administrators to review and apply the necessary updates or workarounds."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2ODU3MTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtYW55Y29ubmVjdC1pcGMtS2ZRTzlRaEsifQ.KCLCKt0gLdE0BXFcIpdTY7n1XOB8qnhrYukhk_Rn4lk/s/1193638257/br/91222543957-l\">Cisco Security Advisory</a></p>",
+          "text": "For further information and support, please visit the following link: Cisco Security Advisory"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDcuMzE2ODU3MTEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvY29udGVudC9DaXNjb1NlY3VyaXR5QWR2aXNvcnkvY2lzY28tc2EtYW55Y29ubmVjdC1pcGMtS2ZRTzlRaEsifQ.KCLCKt0gLdE0BXFcIpdTY7n1XOB8qnhrYukhk_Rn4lk/s/1193638257/br/91222543957-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-384-12-07-20-tt-csirt-advisory-cisco-security-advisory-for-vulnerability-in-anyconnect/",
+    "upstreamDisclosedAt": "2020-12-07T15:33:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "5267",
+  "legacyPostId": 5267,
+  "referenceNumber": "TT-CSIRT 406.30.09.22",
+  "classification": "alert",
+  "title": "Critical Microsoft Exchange 0-day vulnerability actively exploited",
+  "rawTitle": "TTCSIRT-406.30.09.22: Critical Microsoft Exchange 0-Day Vulnerability Actively Exploited",
+  "slug": "ttcsirt-406-30-09-22-critical-microsoft-exchange-0-day-vulnerability-actively-exploited",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Critical Microsoft Exchange 0-Day Vulnerability Actively Exploited",
+  "cveList": [
+    "CVE-2022-41040",
+    "CVE-2022-41082"
+  ],
+  "date": "30 September 2022",
+  "rawDate": "2022-09-30T11:33:29",
+  "modifiedDate": "30 September 2022",
+  "rawModifiedDate": "2022-09-30T11:33:29",
+  "contentHtml": "\n<p class=\"has-medium-font-size wp-block-paragraph\"><strong>Critical Microsoft Exchange 0-Day Vulnerability Actively Exploited</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Description</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The two vulnerabilities for on-premise Microsoft Exchange have been discovered and are now being tracked as a Server-Side Request Forgery vulnerability, CVE-2022-41040, and a remote code execution vulnerability, CVE-2022-41082. The two vulnerabilities are being exploited together to remotely trigger arbitrary code execution which essentially allows threat actors to gain a foothold in the victim&#8217;s systems, enabling adversaries to drop web shells and carry out lateral movements across the compromised network.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Detection</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Exchange servers that have been targeted and successfully exploited may have obfuscated web shells dropped onto the server, in the paths listed below, through POST requests coming from a user-agent, Antsword.</p>\n\n\n\n<figure class=\"wp-block-table\"><table><tbody><tr><td><strong>FileName</strong></td><td><strong>Path</strong></td></tr><tr><td>RedirSuiteServiceProxy.aspx</td><td>C:\\ProgramFiles\\Microsoft\\Exchange Server\\V15\\FrontEnd\\HttpProxy\\owa\\auth</td></tr><tr><td>Xml.ashx</td><td>C:\\inetpub\\wwwroot\\aspnet_client</td></tr><tr><td>pxh4HG1v.ashx</td><td>C:\\ProgramFiles\\Microsoft\\Exchange Server\\V15\\FrontEnd\\HttpProxy\\owa\\auth</td></tr></tbody></table></figure>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><a href=\"http://192.168.70.12/wp-content/uploads/2022/09/image.png\"><img loading=\"lazy\" decoding=\"async\" src=\"http://192.168.70.12/wp-content/uploads/2022/09/image.png\" alt=\"\" class=\"wp-image-5268\" width=\"839\" height=\"148\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2022/09/image.png 724w, https://ttcsirt.gov.tt/wp-content/uploads/2022/09/image-300x53.png 300w\" sizes=\"(max-width: 839px) 100vw, 839px\" /></a></figure>\n\n\n\n<p class=\"wp-block-paragraph\">The following methods can be used to detect if an organization’s Exchange Server has been exploited thanks to the team over at GTSC, a Technology company in Vietnam.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Method 1: Use PowerShell command:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Get-ChildItem -Recurse -Path &lt;Path_IIS_Logs&gt; -Filter &#8220;*.log&#8221; | Select-String -Pattern &#8216;powershell.*autodiscover\\.json.*\\@.*200</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Method 2: Use the tool developed by GTSC:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Based on the exploit signature, we build a tool to search with a much shorter time needed than using Powershell. The link to download: <a href=\"https://github.com/ncsgroupvn/NCSE0Scanner\">https://github.com/ncsgroupvn/NCSE0Scanner</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Prevention</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">There is currently no patch from Microsoft, however, Microsoft is urging customers to add a blocking rule in IIS Manager as a temporary workaround to mitigate potential threats. This can be done by following the steps below.</p>\n\n\n\n<ol class=\"wp-block-list\" type=\"1\"><li>Open IIS Manager. </li><li>Select Default Web Site.</li><li>In the Feature View, click URL Rewrite.</li><li>In the Actions pane on the right-hand side, click Add Rule(s)…  </li><li>Select Request Blocking and click OK. </li><li>Add the string “<strong>(?=.*autodiscover)(?=.*powershell)</strong>” (excluding quotes).</li><li>Select Regular Expression under <strong>Using</strong>.</li><li>Select Abort Request under <strong>How to block</strong> and then click OK.</li><li>Expand the rule and select the rule with the pattern: <strong>(?=.*autodiscover)(?=.*powershell) </strong>and click Edit under <strong>Conditions</strong>. </li><li>Change the <strong>Condition</strong> <strong>input </strong>from {URL} to {UrlDecode:{REQUEST_URI}} and then click OK. </li></ol>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>References</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html\">https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://thehackernews.com/2022/09/microsoft-confirms-2-new-exchange-zero.html\">https://thehackernews.com/2022/09/microsoft-confirms-2-new-exchange-zero.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/\">https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/</a></p>\n",
+  "displaySummary": "Description The two vulnerabilities for on-premise Microsoft Exchange have been discovered and are now being tracked as a Server-Side Request Forgery vulnerability, CVE-2022-41040, and a remote…",
+  "sourceExcerpt": "<p>Critical Microsoft Exchange 0-Day Vulnerability Actively Exploited Description The two vulnerabilities for on-premise Microsoft Exchange have been discovered and are now being tracked as a Server-Side Request Forgery vulnerability, CVE-2022-41040, and a remote code execution vulnerability, CVE-2022-41082. The two vulnerabilities are being exploited together to remotely trigger arbitrary code execution which essentially allows threat actors [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-406-30-09-22-critical-microsoft-exchange-0-day-vulnerability-actively-exploited/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Critical Microsoft Exchange 0-Day Vulnerability Actively Exploited</strong></p>",
+          "text": "Critical Microsoft Exchange 0-Day Vulnerability Actively Exploited"
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The two vulnerabilities for on-premise Microsoft Exchange have been discovered and are now being tracked as a Server-Side Request Forgery vulnerability, CVE-2022-41040, and a remote code execution vulnerability, CVE-2022-41082. The two vulnerabilities are being exploited together to remotely trigger arbitrary code execution which essentially allows threat actors to gain a foothold in the victim&#8217;s systems, enabling adversaries to drop web shells and carry out lateral movements across the compromised network.</p>",
+          "text": "The two vulnerabilities for on-premise Microsoft Exchange have been discovered and are now being tracked as a Server-Side Request Forgery vulnerability, CVE-2022-41040, and a remote code execution vulnerability, CVE-2022-41082. The two vulnerabilities are being exploited together to remotely trigger arbitrary code execution which essentially allows threat actors to gain a foothold in the victim’s systems, enabling adversaries to drop web shells and carry out lateral movements across the compromised network."
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Exchange servers that have been targeted and successfully exploited may have obfuscated web shells dropped onto the server, in the paths listed below, through POST requests coming from a user-agent, Antsword.</p>",
+          "text": "Exchange servers that have been targeted and successfully exploited may have obfuscated web shells dropped onto the server, in the paths listed below, through POST requests coming from a user-agent, Antsword."
+        },
+        {
+          "type": "metadata-block",
+          "html": "<dl class=\"govuk-summary-list govuk-!-margin-top-4 govuk-!-margin-bottom-6\">\n              <div class=\"govuk-summary-list__row\">\n                <dt class=\"govuk-summary-list__key\">FileName</dt>\n                <dd class=\"govuk-summary-list__value\"><strong>Path</strong></dd>\n              </div>\n            \n              <div class=\"govuk-summary-list__row\">\n                <dt class=\"govuk-summary-list__key\">RedirSuiteServiceProxy.aspx</dt>\n                <dd class=\"govuk-summary-list__value\">C:\\ProgramFiles\\Microsoft\\Exchange Server\\V15\\FrontEnd\\HttpProxy\\owa\\auth</dd>\n              </div>\n            \n              <div class=\"govuk-summary-list__row\">\n                <dt class=\"govuk-summary-list__key\">Xml.ashx</dt>\n                <dd class=\"govuk-summary-list__value\">C:\\inetpub\\wwwroot\\aspnet_client</dd>\n              </div>\n            \n              <div class=\"govuk-summary-list__row\">\n                <dt class=\"govuk-summary-list__key\">pxh4HG1v.ashx</dt>\n                <dd class=\"govuk-summary-list__value\">C:\\ProgramFiles\\Microsoft\\Exchange Server\\V15\\FrontEnd\\HttpProxy\\owa\\auth</dd>\n              </div>\n            </dl>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The following methods can be used to detect if an organization’s Exchange Server has been exploited thanks to the team over at GTSC, a Technology company in Vietnam.</p>",
+          "text": "The following methods can be used to detect if an organization’s Exchange Server has been exploited thanks to the team over at GTSC, a Technology company in Vietnam."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Method 1: use powershell command",
+          "id": "method-1-use-powershell-command"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Get-ChildItem -Recurse -Path &lt;Path_IIS_Logs&gt; -Filter &#8220;*.log&#8221; | Select-String -Pattern &#8216;powershell.*autodiscover\\.json.*\\@.*200</p>",
+          "text": "Get-ChildItem -Recurse -Path <Path_IIS_Logs> -Filter “*.log” | Select-String -Pattern ‘powershell.*autodiscover\\.json.*\\@.*200"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Method 2: use the tool developed by gtsc",
+          "id": "method-2-use-the-tool-developed-by-gtsc"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Based on the exploit signature, we build a tool to search with a much shorter time needed than using Powershell. The link to download: <a href=\"https://github.com/ncsgroupvn/NCSE0Scanner\">https://github.com/ncsgroupvn/NCSE0Scanner</a></p>",
+          "text": "Based on the exploit signature, we build a tool to search with a much shorter time needed than using Powershell. The link to download: https://github.com/ncsgroupvn/NCSE0Scanner"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Prevention",
+          "id": "prevention"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There is currently no patch from Microsoft, however, Microsoft is urging customers to add a blocking rule in IIS Manager as a temporary workaround to mitigate potential threats. This can be done by following the steps below.</p>",
+          "text": "There is currently no patch from Microsoft, however, Microsoft is urging customers to add a blocking rule in IIS Manager as a temporary workaround to mitigate potential threats. This can be done by following the steps below."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"wp-block-list\" type=\"1\"><li>Open IIS Manager.</li><li>Select Default Web Site.</li><li>In the Feature View, click URL Rewrite.</li><li>In the Actions pane on the right-hand side, click Add Rule(s)…</li><li>Select Request Blocking and click OK.</li><li>Add the string “<strong>(?=.*autodiscover)(?=.*powershell)</strong>” (excluding quotes).</li><li>Select Regular Expression under <strong>Using</strong>.</li><li>Select Abort Request under <strong>How to block</strong> and then click OK.</li><li>Expand the rule and select the rule with the pattern: <strong>(?=.*autodiscover)(?=.*powershell) </strong>and click Edit under <strong>Conditions</strong>.</li><li>Change the <strong>Condition</strong> <strong>input </strong>from {URL} to {UrlDecode:{REQUEST_URI}} and then click OK.</li></ol>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html\">https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html</a></p>",
+          "text": "https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://thehackernews.com/2022/09/microsoft-confirms-2-new-exchange-zero.html\">https://thehackernews.com/2022/09/microsoft-confirms-2-new-exchange-zero.html</a></p>",
+          "text": "https://thehackernews.com/2022/09/microsoft-confirms-2-new-exchange-zero.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/\">https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/</a></p>",
+          "text": "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "detection",
+      "label": "Detection"
+    },
+    {
+      "id": "method-1-use-powershell-command",
+      "label": "Method 1: use powershell command",
+      "isSubItem": true
+    },
+    {
+      "id": "method-2-use-the-tool-developed-by-gtsc",
+      "label": "Method 2: use the tool developed by gtsc",
+      "isSubItem": true
+    },
+    {
+      "id": "prevention",
+      "label": "Prevention",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://192.168.70.12/wp-content/uploads/2022/09/image.png",
+    "https://github.com/ncsgroupvn/NCSE0Scanner",
+    "https://www.gteltsc.vn/blog/warning-new-attack-campaign-utilized-a-new-0day-rce-vulnerability-on-microsoft-exchange-server-12715.html",
+    "https://thehackernews.com/2022/09/microsoft-confirms-2-new-exchange-zero.html",
+    "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-406-30-09-22-critical-microsoft-exchange-0-day-vulnerability-actively-exploited/",
+    "upstreamDisclosedAt": "2022-09-30T11:33:29",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3916",
+  "legacyPostId": 3916,
+  "referenceNumber": "TT-CSIRT #252",
+  "classification": "advisory",
+  "title": "Google Chrome security updates",
+  "rawTitle": "TTCSIRT-252.121119: TT-CSIRT ADVISORY – GOOGLE CHROME SECURITY UPDATES",
+  "slug": "ttcsirt-252-121119-tt-csirt-advisory-google-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released security updates to address vulnerabilities in Google Chrome in Windows, Mac, and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "11 December 2019",
+  "rawDate": "2019-12-11T09:20:46",
+  "modifiedDate": "11 December 2019",
+  "rawModifiedDate": "2019-12-11T09:20:46",
+  "contentHtml": "<p>Please be advised that Google has released security updates to address vulnerabilities in Google Chrome in Windows, Mac, and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>TTCSIRT encourages users and administrators to review the following release from Google and apply the necessary updates:</p>\n<p><a href=\"https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html</a></p>\n",
+  "displaySummary": "Google has released security updates to address vulnerabilities in Google Chrome in Windows, Mac, and Linux.",
+  "sourceExcerpt": "<p>Please be advised that Google has released security updates to address vulnerabilities in Google Chrome in Windows, Mac, and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following release from Google and apply the necessary updates: https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-252-121119-tt-csirt-advisory-google-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released security updates to address vulnerabilities in Google Chrome in Windows, Mac, and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Google has released security updates to address vulnerabilities in Google Chrome in Windows, Mac, and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review the following release from Google and apply the necessary updates:</p>",
+          "text": "TTCSIRT encourages users and administrators to review the following release from Google and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html</a></p>",
+          "text": "https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2019/12/stable-channel-update-for-desktop.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-252-121119-tt-csirt-advisory-google-chrome-security-updates/",
+    "upstreamDisclosedAt": "2019-12-11T09:20:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

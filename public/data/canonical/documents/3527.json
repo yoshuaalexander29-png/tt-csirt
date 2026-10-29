@@ -1,0 +1,75 @@
+{
+  "id": "3527",
+  "legacyPostId": 3527,
+  "referenceNumber": "TT-CSIRT #162",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-162.090718: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-162-090718-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it has discovered a vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local attacker to modify locally stored files and execute code on a targeted device with the privilege level of the user. This issue is due to folder permissions that grant a user the permission to read, write and execute files in the Webex folders.",
+  "cveList": [],
+  "date": "7 September 2018",
+  "rawDate": "2018-09-07T15:00:28",
+  "modifiedDate": "7 September 2018",
+  "rawModifiedDate": "2018-09-07T15:00:28",
+  "contentHtml": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local attacker to modify locally stored files and execute code on a targeted device with the privilege level of the user. This issue is due to folder permissions that grant a user the permission to read, write and execute files in the Webex folders. </p>\n<p>An attacker could exploit this vulnerability to write malicious files to the Webex client directory, affecting all other users of the targeted device. A successful exploit could allow a user to execute commands with elevated privileges.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180905-webex-pe\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180905-webex-pe</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it has discovered a vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local attacker to modify locally stored files and execute code on a targeted device with the privilege level of the user. This issue is due to folder [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-162-090718-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local attacker to modify locally stored files and execute code on a targeted device with the privilege level of the user. This issue is due to folder permissions that grant a user the permission to read, write and execute files in the Webex folders.</p>",
+          "text": "Cisco has released a security update stating that it has discovered a vulnerability in the folder permissions of Cisco Webex Meetings client for Windows could allow an authenticated, local attacker to modify locally stored files and execute code on a targeted device with the privilege level of the user. This issue is due to folder permissions that grant a user the permission to read, write and execute files in the Webex folders."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability to write malicious files to the Webex client directory, affecting all other users of the targeted device. A successful exploit could allow a user to execute commands with elevated privileges.</p>",
+          "text": "An attacker could exploit this vulnerability to write malicious files to the Webex client directory, affecting all other users of the targeted device. A successful exploit could allow a user to execute commands with elevated privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180905-webex-pe\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180905-webex-pe</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180905-webex-pe"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180905-webex-pe"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-162-090718-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-09-07T15:00:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

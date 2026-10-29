@@ -1,0 +1,70 @@
+{
+  "id": "3876",
+  "legacyPostId": 3876,
+  "referenceNumber": "TT-CSIRT #239",
+  "classification": "advisory",
+  "title": "Emotet malware campaign",
+  "rawTitle": "TTCSIRT-239.102519: TT-CSIRT ADVISORY – EMOTET MALWARE CAMPAIGN",
+  "slug": "ttcsirt-239-102519-tt-csirt-advisory-emotet-malware-campaign",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Australian Cyber Security Centre (ACSC) has released an advisory on an ongoing, widespread Emotet malware campaign. Emotet is a Trojan—commonly spread via malicious email attachments—that attempts to proliferate within a network by brute forcing user credentials and writing to shared drives. ACSC provides indicators of compromise (IOCs) and recommendations to help organizations defend against Emotet malware. TTCSIRT encourages users and administrators to review the following advisory from ACSC and implement the necessary remediation actions:",
+  "cveList": [],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:23:58",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:23:58",
+  "contentHtml": "<p>The Australian Cyber Security Centre (ACSC) has released an advisory on an ongoing, widespread Emotet malware campaign. Emotet is a Trojan—commonly spread via malicious email attachments—that attempts to proliferate within a network by brute forcing user credentials and writing to shared drives. ACSC provides indicators of compromise (IOCs) and recommendations to help organizations defend against Emotet malware. TTCSIRT encourages users and administrators to review the following advisory from ACSC and implement the necessary remediation actions:</p>\n<p><a href=\"https://www.cyber.gov.au/threats/advisory-2019-131-emotet-malware-campaign\">https://www.cyber.gov.au/threats/advisory-2019-131-emotet-malware-campaign</a></p>\n",
+  "displaySummary": "The Australian Cyber Security Centre (ACSC) has released an advisory on an ongoing, widespread Emotet malware campaign.",
+  "sourceExcerpt": "<p>The Australian Cyber Security Centre (ACSC) has released an advisory on an ongoing, widespread Emotet malware campaign. Emotet is a Trojan—commonly spread via malicious email attachments—that attempts to proliferate within a network by brute forcing user credentials and writing to shared drives. ACSC provides indicators of compromise (IOCs) and recommendations to help organizations defend against [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-239-102519-tt-csirt-advisory-emotet-malware-campaign/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Australian Cyber Security Centre (ACSC) has released an advisory on an ongoing, widespread Emotet malware campaign. Emotet is a Trojan—commonly spread via malicious email attachments—that attempts to proliferate within a network by brute forcing user credentials and writing to shared drives. ACSC provides indicators of compromise (IOCs) and recommendations to help organizations defend against Emotet malware. TTCSIRT encourages users and administrators to review the following advisory from ACSC and implement the necessary remediation actions:</p>",
+          "text": "The Australian Cyber Security Centre (ACSC) has released an advisory on an ongoing, widespread Emotet malware campaign. Emotet is a Trojan—commonly spread via malicious email attachments—that attempts to proliferate within a network by brute forcing user credentials and writing to shared drives. ACSC provides indicators of compromise (IOCs) and recommendations to help organizations defend against Emotet malware. TTCSIRT encourages users and administrators to review the following advisory from ACSC and implement the necessary remediation actions:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.cyber.gov.au/threats/advisory-2019-131-emotet-malware-campaign\">https://www.cyber.gov.au/threats/advisory-2019-131-emotet-malware-campaign</a></p>",
+          "text": "https://www.cyber.gov.au/threats/advisory-2019-131-emotet-malware-campaign"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cyber.gov.au/threats/advisory-2019-131-emotet-malware-campaign"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-239-102519-tt-csirt-advisory-emotet-malware-campaign/",
+    "upstreamDisclosedAt": "2019-11-13T08:23:58",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "4726",
+  "legacyPostId": 4726,
+  "referenceNumber": "TT-CSIRT 361.09.25.20",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-361.09.25.20: TT-CSIRT ADVISORY – Apple Security Updates",
+  "slug": "ttcsirt-361-09-25-20-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in multiple products.",
+  "cveList": [],
+  "date": "25 September 2020",
+  "rawDate": "2020-09-25T14:25:15",
+  "modifiedDate": "25 September 2020",
+  "rawModifiedDate": "2020-09-25T14:25:15",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Apple has released security updates to address vulnerabilities in multiple products. </p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Users and administrators need to&nbsp;review the Apple security pages for the following products and apply the necessary updates:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzYzNzEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExODQ2In0.-Bi8mcA6e9Xry2PL9yCMZNGnp47g1bPX2CisQyW8Lvw/s/1193638257/br/85966324174-l\">iCloud for Windows 11.4</a></li><li><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzYzNzEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3YlMjBodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExODQ5In0.DhNg_SCdyVZ8g-MGAcO9P0PKV8M-cfDLawD1CqBhmRQ/s/1193638257/br/85966324174-l\">macOS Catalina 10.15.7, Security Update 2020-005 High Sierra, Security Update 2020-005 Mojave</a></li></ul>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. Users and administrators need to&nbsp;review the Apple security pages for the following products and apply the necessary updates: iCloud for Windows 11.4 macOS Catalina 10.15.7, Security Update 2020-005 High [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-361-09-25-20-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates to address vulnerabilities in multiple products.</p>",
+          "text": "Apple has released security updates to address vulnerabilities in multiple products."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users and administrators need to&nbsp;review the Apple security pages for the following products and apply the necessary updates:</p>",
+          "text": "Users and administrators need to review the Apple security pages for the following products and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzYzNzEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExODQ2In0.-Bi8mcA6e9Xry2PL9yCMZNGnp47g1bPX2CisQyW8Lvw/s/1193638257/br/85966324174-l\">iCloud for Windows 11.4</a></li><li><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzYzNzEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3YlMjBodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExODQ5In0.DhNg_SCdyVZ8g-MGAcO9P0PKV8M-cfDLawD1CqBhmRQ/s/1193638257/br/85966324174-l\">macOS Catalina 10.15.7, Security Update 2020-005 High Sierra, Security Update 2020-005 Mojave</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzYzNzEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExODQ2In0.-Bi8mcA6e9Xry2PL9yCMZNGnp47g1bPX2CisQyW8Lvw/s/1193638257/br/85966324174-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzYzNzEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3YlMjBodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExODQ5In0.DhNg_SCdyVZ8g-MGAcO9P0PKV8M-cfDLawD1CqBhmRQ/s/1193638257/br/85966324174-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-361-09-25-20-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2020-09-25T14:25:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "3332",
+  "legacyPostId": 3332,
+  "referenceNumber": "TT-CSIRT #116",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-116.050918: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-116-050918-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that vulnerabilities have been found in several of its products which could allow for remote code execution.",
+  "cveList": [],
+  "date": "9 May 2018",
+  "rawDate": "2018-05-09T12:31:49",
+  "modifiedDate": "9 May 2018",
+  "rawModifiedDate": "2018-05-09T12:31:49",
+  "contentHtml": "<p>Microsoft has released a security update stating that vulnerabilities have been found in several of its products which could allow for remote code execution.</p>\n<p>Products affected include:</p>\n<p>1) Microsoft Windows 7, 8, RT 8.1, and 10<br />\n2) Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016<br />\n3) Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016, versions 1709, 1803<br />\n4) Microsoft Office 2010, 2013, 2013 RT, 2016, 2016 Click-to-Run, 2016 for Mac<br />\n5) Microsoft Office Compatibility Pack<br />\n6) Microsoft Office Web Apps 2010<br />\n7) Microsoft Office Web Apps Server 2010, 2013<br />\n8) Microsoft Word 2013, 2013 RT, 2016<br />\n9) Microsoft Excel 2010, 2013, 2013 RT, 2016<br />\n10) Word Automation Services<br />\n11) Microsoft Internet Explorer 9, 10, 11<br />\n12) Microsoft Edge<br />\n13) Microsoft .NET Framework 2.0, 3.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2<br />\n14) .NET Core 2.0<br />\n15) Microsoft Exchange Server 2010, 2013, 2016<br />\n16) Microsoft Project Server 2010, 2013<br />\n17) Microsoft Infopath 2013<br />\n18) Microsoft SharePoint Foundation 2013<br />\n19) Microsoft SharePoint Server 2010<br />\n20) Microsoft SharePoint Enterprise Server 2013, 2016<br />\n21) ChakraCore<br />\n22) C SDK for Azure IoT<br />\n23) C# SDK for Azure IoT<br />\n24) Java SDK for Azure IoT<br />\n25) Windows Host Compute Service Shim</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user.</p>\n<table>\n<tr>\n<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-may-8-2018_2018-053/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-may-8-2018_2018-053/</font></a></p>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that vulnerabilities have been found in several of its products which could allow for remote code execution.",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that vulnerabilities have been found in several of its products which could allow for remote code execution. Products affected include: 1) Microsoft Windows 7, 8, RT 8.1, and 10 2) Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016 3) Microsoft Windows Server Core Installation 2008, 2008 [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-116-050918-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that vulnerabilities have been found in several of its products which could allow for remote code execution.</p>",
+          "text": "Microsoft has released a security update stating that vulnerabilities have been found in several of its products which could allow for remote code execution."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Products affected include",
+          "id": "products-affected-include"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>Microsoft Windows 7, 8, RT 8.1, and 10</li>\n  <li>Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016</li>\n  <li>Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016, versions 1709, 1803</li>\n  <li>Microsoft Office 2010, 2013, 2013 RT, 2016, 2016 Click-to-Run, 2016 for Mac</li>\n  <li>Microsoft Office Compatibility Pack</li>\n  <li>Microsoft Office Web Apps 2010</li>\n  <li>Microsoft Office Web Apps Server 2010, 2013</li>\n  <li>Microsoft Word 2013, 2013 RT, 2016</li>\n  <li>Microsoft Excel 2010, 2013, 2013 RT, 2016</li>\n  <li>Word Automation Services</li>\n  <li>Microsoft Internet Explorer 9, 10, 11</li>\n  <li>Microsoft Edge</li>\n  <li>Microsoft .NET Framework 2.0, 3.0, 3.5, 3.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2</li>\n  <li>.NET Core 2.0</li>\n  <li>Microsoft Exchange Server 2010, 2013, 2016</li>\n  <li>Microsoft Project Server 2010, 2013</li>\n  <li>Microsoft Infopath 2013</li>\n  <li>Microsoft SharePoint Foundation 2013</li>\n  <li>Microsoft SharePoint Server 2010</li>\n  <li>Microsoft SharePoint Enterprise Server 2013, 2016</li>\n  <li>ChakraCore</li>\n  <li>C SDK for Azure IoT</li>\n  <li>C# SDK for Azure IoT</li>\n  <li>Java SDK for Azure IoT</li>\n  <li>Windows Host Compute Service Shim</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user."
+        },
+        {
+          "type": "paragraph",
+          "html": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "products-affected-include",
+      "label": "Products affected include",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-may-8-2018_2018-053/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-116-050918-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-05-09T12:31:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

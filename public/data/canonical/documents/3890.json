@@ -1,0 +1,77 @@
+{
+  "id": "3890",
+  "legacyPostId": 3890,
+  "referenceNumber": "TT-CSIRT #246",
+  "classification": "advisory",
+  "title": "Intel security updates",
+  "rawTitle": "TTCSIRT-246.111319: TT-CSIRT ADVISORY – INTEL SECURITY UPDATES",
+  "slug": "ttcsirt-246-111319-tt-csirt-advisory-intel-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address 68 vulnerabilities across multiple products. TTCSIRT encourages users and administrators to review the following releases from Intel and apply the necessary security updates:",
+  "cveList": [],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:31:35",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:31:35",
+  "contentHtml": "<p>Intel has released security updates to address 68 vulnerabilities across multiple products. TTCSIRT encourages users and administrators to review the following releases from Intel and apply the necessary security updates:</p>\n<ul>\n<li>INTEL-SA-00313 &#8211; BMC &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00313.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00313.html<br />\n</a></li>\n<li>INTEL-SA-00280 &#8211; UEFI &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00280.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00280.html<br />\n</a></li>\n<li>INTEL-SA-00220 &#8211; SGX and TXT &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00220.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00220.html<br />\n</a></li>\n<li>INTEL-SA-00240 &#8211; Processor Security &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00240.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00240.html<br />\n</a></li>\n<li>INTEL-SA-00241 &#8211; CSME, SPS, TXE, AMT, PTT and DAL  &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00241.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00241.html<br />\n</a></li>\n<li>INTEL-SA-00242 &#8211; Graphics Drive &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00242.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00242.html<br />\n</a></li>\n<li>INTEL-SA-00255 &#8211; Ethernet 700 Series Controllers &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00255.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00255.html<br />\n</a></li>\n<li>INTEL-SA-00288 &#8211; Proset/Wireless WiFi Software &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00288.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00288.html<br />\n</a></li>\n<li>INTEL-SA-00287 &#8211; WiFi Drivers &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00287.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00287.html</a></li>\n</ul>\n",
+  "displaySummary": "Intel has released security updates to address 68 vulnerabilities across multiple products.",
+  "sourceExcerpt": "<p>Intel has released security updates to address 68 vulnerabilities across multiple products. TTCSIRT encourages users and administrators to review the following releases from Intel and apply the necessary security updates: INTEL-SA-00313 &#8211; BMC &#8211; https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00313.html INTEL-SA-00280 &#8211; UEFI &#8211; https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00280.html INTEL-SA-00220 &#8211; SGX and TXT &#8211; https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00220.html INTEL-SA-00240 &#8211; Processor Security &#8211; https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00240.html INTEL-SA-00241 &#8211; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-246-111319-tt-csirt-advisory-intel-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address 68 vulnerabilities across multiple products. TTCSIRT encourages users and administrators to review the following releases from Intel and apply the necessary security updates:</p>",
+          "text": "Intel has released security updates to address 68 vulnerabilities across multiple products. TTCSIRT encourages users and administrators to review the following releases from Intel and apply the necessary security updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>INTEL-SA-00313 &#8211; BMC &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00313.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00313.html<br />\n</a></li>\n<li>INTEL-SA-00280 &#8211; UEFI &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00280.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00280.html<br />\n</a></li>\n<li>INTEL-SA-00220 &#8211; SGX and TXT &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00220.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00220.html<br />\n</a></li>\n<li>INTEL-SA-00240 &#8211; Processor Security &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00240.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00240.html<br />\n</a></li>\n<li>INTEL-SA-00241 &#8211; CSME, SPS, TXE, AMT, PTT and DAL  &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00241.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00241.html<br />\n</a></li>\n<li>INTEL-SA-00242 &#8211; Graphics Drive &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00242.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00242.html<br />\n</a></li>\n<li>INTEL-SA-00255 &#8211; Ethernet 700 Series Controllers &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00255.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00255.html<br />\n</a></li>\n<li>INTEL-SA-00288 &#8211; Proset/Wireless WiFi Software &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00288.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00288.html<br />\n</a></li>\n<li>INTEL-SA-00287 &#8211; WiFi Drivers &#8211; <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00287.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00287.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00313.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00280.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00220.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00240.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00241.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00242.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00255.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00288.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00287.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-246-111319-tt-csirt-advisory-intel-security-updates/",
+    "upstreamDisclosedAt": "2019-11-13T08:31:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

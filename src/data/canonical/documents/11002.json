@@ -1,0 +1,126 @@
+{
+  "id": "11002",
+  "legacyPostId": 11002,
+  "referenceNumber": "TT-CSIRT #11002",
+  "classification": "advisory",
+  "title": "Invitation to register for the cyber paths training program",
+  "rawTitle": "Invitation to Register for the Cyber Paths Training Program",
+  "slug": "invitation-to-register-for-the-cyber-paths-training-program",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Get ready! An exciting cybersecurity opportunity is here!",
+  "cveList": [],
+  "date": "21 July 2026",
+  "rawDate": "2026-07-21T13:20:54",
+  "modifiedDate": "21 July 2026",
+  "rawModifiedDate": "2026-07-21T13:20:55",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"><strong>Get ready! An exciting cybersecurity opportunity is here!</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Ministry of Homeland Security via TT-CSIRT, together with the Organization of American States (OAS), the Citi Foundation, and the SANS Institute, is thrilled to invite passionate young adults ages 18 to 25 to express their interest in the OAS &amp; Citi Foundation Cyber Paths Training Program.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This is your chance to jump-start a future in cybersecurity and stand out in a rapidly growing field.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Key details:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Only 500 spots are available for the pre-assessment so move fast!</li>\n\n\n\n<li>The top 40 performers will earn a place in the full training program.</li>\n\n\n\n<li>Registration for the pre-assessment runs from July 20 to August 5.</li>\n\n\n\n<li>The full training runs from August 24 to 28, 2026.</li>\n</ul>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img fetchpriority=\"high\" decoding=\"async\" width=\"584\" height=\"335\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2026/07/image.jpeg\" alt=\"\" class=\"wp-image-11003\" style=\"aspect-ratio:1.743287203742513;width:734px;height:auto\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2026/07/image.jpeg 584w, https://ttcsirt.gov.tt/wp-content/uploads/2026/07/image-300x172.jpeg 300w\" sizes=\"(max-width: 584px) 100vw, 584px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">As part of the selection process, candidates will complete a SANS Cyber Talent Assessment — a powerful tool used worldwide to identify rising cybersecurity talent.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Ready to take the first step?</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Register here</strong>: <a href=\"https://www.sans.org/assessment/ng8eyyux5vboksyblr6o33zcn2qdt8\">https://www.sans.org/assessment/ng8eyyux5vboksyblr6o33zcn2qdt8</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Please register with a valid email address, as it will be used to create your SANS account and grant access to the assessment. Additional program details and next steps will be shared with eligible candidates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you&#8217;re passionate about cybersecurity, eager to learn, and ready to challenge yourself, we encourage you to apply!</p>\n",
+  "displaySummary": "Get ready! An exciting cybersecurity opportunity is here!",
+  "sourceExcerpt": "<p>Get ready! An exciting cybersecurity opportunity is here! The Ministry of Homeland Security via TT-CSIRT, together with the Organization of American States (OAS), the Citi Foundation, and the SANS Institute, is thrilled to invite passionate young adults ages 18 to 25 to express their interest in the OAS &amp; Citi Foundation Cyber Paths Training Program. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/invitation-to-register-for-the-cyber-paths-training-program/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Get ready! An exciting cybersecurity opportunity is here!</strong></p>",
+          "text": "Get ready! An exciting cybersecurity opportunity is here!"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Ministry of Homeland Security via TT-CSIRT, together with the Organization of American States (OAS), the Citi Foundation, and the SANS Institute, is thrilled to invite passionate young adults ages 18 to 25 to express their interest in the OAS &amp; Citi Foundation Cyber Paths Training Program.</p>",
+          "text": "The Ministry of Homeland Security via TT-CSIRT, together with the Organization of American States (OAS), the Citi Foundation, and the SANS Institute, is thrilled to invite passionate young adults ages 18 to 25 to express their interest in the OAS & Citi Foundation Cyber Paths Training Program."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This is your chance to jump-start a future in cybersecurity and stand out in a rapidly growing field.</p>",
+          "text": "This is your chance to jump-start a future in cybersecurity and stand out in a rapidly growing field."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Key details",
+          "id": "key-details"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Only 500 spots are available for the pre-assessment so move fast!</li>\n\n\n\n<li>The top 40 performers will earn a place in the full training program.</li>\n\n\n\n<li>Registration for the pre-assessment runs from July 20 to August 5.</li>\n\n\n\n<li>The full training runs from August 24 to 28, 2026.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As part of the selection process, candidates will complete a SANS Cyber Talent Assessment — a powerful tool used worldwide to identify rising cybersecurity talent.</p>",
+          "text": "As part of the selection process, candidates will complete a SANS Cyber Talent Assessment — a powerful tool used worldwide to identify rising cybersecurity talent."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Ready to take the first step?</strong></p>",
+          "text": "Ready to take the first step?"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Register here",
+          "id": "register-here"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>: <a href=\"https://www.sans.org/assessment/ng8eyyux5vboksyblr6o33zcn2qdt8\">https://www.sans.org/assessment/ng8eyyux5vboksyblr6o33zcn2qdt8</a></p>",
+          "text": ": https://www.sans.org/assessment/ng8eyyux5vboksyblr6o33zcn2qdt8"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please register with a valid email address, as it will be used to create your SANS account and grant access to the assessment. Additional program details and next steps will be shared with eligible candidates.</p>",
+          "text": "Please register with a valid email address, as it will be used to create your SANS account and grant access to the assessment. Additional program details and next steps will be shared with eligible candidates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you&#8217;re passionate about cybersecurity, eager to learn, and ready to challenge yourself, we encourage you to apply!</p>",
+          "text": "If you’re passionate about cybersecurity, eager to learn, and ready to challenge yourself, we encourage you to apply!"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "key-details",
+      "label": "Key details",
+      "isSubItem": true
+    },
+    {
+      "id": "register-here",
+      "label": "Register here",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.sans.org/assessment/ng8eyyux5vboksyblr6o33zcn2qdt8"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/invitation-to-register-for-the-cyber-paths-training-program/",
+    "upstreamDisclosedAt": "2026-07-21T13:20:54",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

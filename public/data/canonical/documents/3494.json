@@ -1,0 +1,75 @@
+{
+  "id": "3494",
+  "legacyPostId": 3494,
+  "referenceNumber": "TT-CSIRT #153",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-153.080718: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-153-080718-tt-csirt-advisory-drupal-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released a security update stating that a vulnerability has been discovered in Drupal ver 8.5.5 and before where within the Symfony Library an attacker can override the path in the request URL via the X-Original-URL or X-Rewrite-URL within the IIS Web Server through the making of a HTTP request header.",
+  "cveList": [],
+  "date": "7 August 2018",
+  "rawDate": "2018-08-07T11:59:02",
+  "modifiedDate": "7 August 2018",
+  "rawModifiedDate": "2018-08-07T11:59:02",
+  "contentHtml": "<p>Drupal has released a security update stating that a vulnerability has been discovered in Drupal ver 8.5.5 and before where within the Symfony Library an attacker can override the path in the request URL via the X-Original-URL or X-Rewrite-URL within the IIS Web Server through the making of a HTTP request header.</p>\n<p>Once the override occurs, the attacker will then have the ability to take control of both the webserver and any sites hosted on it.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/SA-CORE-2018-005\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/SA-CORE-2018-005</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released a security update stating that a vulnerability has been discovered in Drupal ver 8.5.5 and before where within the Symfony Library an attacker can override the path in the…",
+  "sourceExcerpt": "<p>Drupal has released a security update stating that a vulnerability has been discovered in Drupal ver 8.5.5 and before where within the Symfony Library an attacker can override the path in the request URL via the X-Original-URL or X-Rewrite-URL within the IIS Web Server through the making of a HTTP request header. Once the override [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-153-080718-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released a security update stating that a vulnerability has been discovered in Drupal ver 8.5.5 and before where within the Symfony Library an attacker can override the path in the request URL via the X-Original-URL or X-Rewrite-URL within the IIS Web Server through the making of a HTTP request header.</p>",
+          "text": "Drupal has released a security update stating that a vulnerability has been discovered in Drupal ver 8.5.5 and before where within the Symfony Library an attacker can override the path in the request URL via the X-Original-URL or X-Rewrite-URL within the IIS Web Server through the making of a HTTP request header."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once the override occurs, the attacker will then have the ability to take control of both the webserver and any sites hosted on it.</p>",
+          "text": "Once the override occurs, the attacker will then have the ability to take control of both the webserver and any sites hosted on it."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/SA-CORE-2018-005\">https://www.drupal.org/SA-CORE-2018-005</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at https://www.drupal.org/SA-CORE-2018-005"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/SA-CORE-2018-005"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-153-080718-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2018-08-07T11:59:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

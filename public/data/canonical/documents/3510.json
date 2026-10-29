@@ -1,0 +1,77 @@
+{
+  "id": "3510",
+  "legacyPostId": 3510,
+  "referenceNumber": "TT-CSIRT #157",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-157.081718: TT-CSIRT Advisory – Oracle Security Updates",
+  "slug": "ttcsirt-157-081718-tt-csirt-advisory-oracle-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released a security update stating that a vulnerability has been discovered in Oracle Database Server that could allow for complete compromise of the database.",
+  "cveList": [
+    "CVE-2018-3110"
+  ],
+  "date": "17 August 2018",
+  "rawDate": "2018-08-17T11:47:53",
+  "modifiedDate": "17 August 2018",
+  "rawModifiedDate": "2018-08-17T11:47:53",
+  "contentHtml": "<p>Oracle has released a security update stating that a vulnerability has been discovered in Oracle Database Server that could allow for complete compromise of the database.</p>\n<p>The issue resides in the Oracle Database Server where low-privileged attackers that have Create Session privileges can compromise the Java Virtual Machine component and take complete control of the product and even establish shell access to the underlying server. </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html\"><font size=\"2\" color=\"maroon\">http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Oracle has released a security update stating that a vulnerability has been discovered in Oracle Database Server that could allow for complete compromise of the database.",
+  "sourceExcerpt": "<p>Oracle has released a security update stating that a vulnerability has been discovered in Oracle Database Server that could allow for complete compromise of the database. The issue resides in the Oracle Database Server where low-privileged attackers that have Create Session privileges can compromise the Java Virtual Machine component and take complete control of the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-157-081718-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released a security update stating that a vulnerability has been discovered in Oracle Database Server that could allow for complete compromise of the database.</p>",
+          "text": "Oracle has released a security update stating that a vulnerability has been discovered in Oracle Database Server that could allow for complete compromise of the database."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The issue resides in the Oracle Database Server where low-privileged attackers that have Create Session privileges can compromise the Java Virtual Machine component and take complete control of the product and even establish shell access to the underlying server.</p>",
+          "text": "The issue resides in the Oracle Database Server where low-privileged attackers that have Create Session privileges can compromise the Java Virtual Machine component and take complete control of the product and even establish shell access to the underlying server."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html\">http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.oracle.com/technetwork/security-advisory/alert-cve-2018-3110-5032149.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-157-081718-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2018-08-17T11:47:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

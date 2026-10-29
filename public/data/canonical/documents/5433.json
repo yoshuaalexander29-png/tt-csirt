@@ -1,0 +1,85 @@
+{
+  "id": "5433",
+  "legacyPostId": 5433,
+  "referenceNumber": "TT-CSIRT #410",
+  "classification": "advisory",
+  "title": "New emotet malware campaign",
+  "rawTitle": "TT-CSIRT-410.9.11.22: New Emotet Malware Campaign",
+  "slug": "tt-csirt-410-9-11-22-new-emotet-malware-campaign",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Emotet is back again with a new campaign displaying many characteristics of older campaigns. Cisco Talos has observed an increased activity of spam distributing this new strain beginning in early November 2022, and the volume of spam and Emotet infrastructure has been increasing since then to target multiple geographies around the world.",
+  "cveList": [],
+  "date": "9 November 2022",
+  "rawDate": "2022-11-09T14:19:09",
+  "modifiedDate": "9 November 2022",
+  "rawModifiedDate": "2022-11-09T14:19:09",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Emotet is back again with a new campaign displaying many characteristics of older campaigns. Cisco Talos has observed an increased activity of spam distributing this new strain beginning in early November 2022, and the volume of spam and Emotet infrastructure has been increasing since then to target multiple geographies around the world.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>Emotet is a Trojan that is primarily spread through spam emails. The infection may arrive either via malicious script, macro-enabled document files, or malicious link. Emotet emails may contain familiar branding designed to look like a legitimate email. Emotet may try to persuade users to click the malicious files by using tempting language about “Your Invoice,” “Payment Details,” or possibly an upcoming shipment from well-known parcel companies.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>TT-CSIRT encourages users and administrators to review the following releases and take the necessary precautions:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a rel=\"noreferrer noopener\" href=\"https://blog.talosintelligence.com/emotet-coming-in-hot/\" target=\"_blank\">Cisco Talos Intelligence Blog</a> (technical details of new campaign)</li>\n\n\n\n<li><a href=\"https://www.malwarebytes.com/emotet\" target=\"_blank\" rel=\"noreferrer noopener\">Malwarebytes Blog</a></li>\n\n\n\n<li><a href=\"https://ttcsirt.gov.tt/ttcsirt-349-09-03-20-tt-csirt-advisory-emotet-new-delivery-using-a-new-word-lure-document/\" target=\"_blank\" rel=\"noreferrer noopener\">TTCSIRT-349.09.03.20</a></li>\n\n\n\n<li><a href=\"https://ttcsirt.gov.tt/ttcsirt-239-102519-tt-csirt-advisory-emotet-malware-campaign/\" target=\"_blank\" rel=\"noreferrer noopener\">TTCSIRT-239.10.25.19</a></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><br>TT-CSIRT can provide cyber security awareness training to your organization at no cost. For more information please reach out via our <a rel=\"noreferrer noopener\" href=\"https://ttcsirt.gov.tt/contact-us/\" target=\"_blank\">contact form</a>.</p>\n",
+  "displaySummary": "Emotet is back again with a new campaign displaying many characteristics of older campaigns.",
+  "sourceExcerpt": "<p>Emotet is back again with a new campaign displaying many characteristics of older campaigns. Cisco Talos has observed an increased activity of spam distributing this new strain beginning in early November 2022, and the volume of spam and Emotet infrastructure has been increasing since then to target multiple geographies around the world. Emotet is a [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-410-9-11-22-new-emotet-malware-campaign/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Emotet is back again with a new campaign displaying many characteristics of older campaigns. Cisco Talos has observed an increased activity of spam distributing this new strain beginning in early November 2022, and the volume of spam and Emotet infrastructure has been increasing since then to target multiple geographies around the world.</p>",
+          "text": "Emotet is back again with a new campaign displaying many characteristics of older campaigns. Cisco Talos has observed an increased activity of spam distributing this new strain beginning in early November 2022, and the volume of spam and Emotet infrastructure has been increasing since then to target multiple geographies around the world."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>Emotet is a Trojan that is primarily spread through spam emails. The infection may arrive either via malicious script, macro-enabled document files, or malicious link. Emotet emails may contain familiar branding designed to look like a legitimate email. Emotet may try to persuade users to click the malicious files by using tempting language about “Your Invoice,” “Payment Details,” or possibly an upcoming shipment from well-known parcel companies.</p>",
+          "text": "Emotet is a Trojan that is primarily spread through spam emails. The infection may arrive either via malicious script, macro-enabled document files, or malicious link. Emotet emails may contain familiar branding designed to look like a legitimate email. Emotet may try to persuade users to click the malicious files by using tempting language about “Your Invoice,” “Payment Details,” or possibly an upcoming shipment from well-known parcel companies."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>TT-CSIRT encourages users and administrators to review the following releases and take the necessary precautions:</p>",
+          "text": "TT-CSIRT encourages users and administrators to review the following releases and take the necessary precautions:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><a rel=\"noreferrer noopener\" href=\"https://blog.talosintelligence.com/emotet-coming-in-hot/\" target=\"_blank\">Cisco Talos Intelligence Blog</a> (technical details of new campaign)</li>\n\n\n\n<li><a href=\"https://www.malwarebytes.com/emotet\" target=\"_blank\" rel=\"noreferrer noopener\">Malwarebytes Blog</a></li>\n\n\n\n<li><a href=\"https://ttcsirt.gov.tt/ttcsirt-349-09-03-20-tt-csirt-advisory-emotet-new-delivery-using-a-new-word-lure-document/\" target=\"_blank\" rel=\"noreferrer noopener\">TTCSIRT-349.09.03.20</a></li>\n\n\n\n<li><a href=\"https://ttcsirt.gov.tt/ttcsirt-239-102519-tt-csirt-advisory-emotet-malware-campaign/\" target=\"_blank\" rel=\"noreferrer noopener\">TTCSIRT-239.10.25.19</a></li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>TT-CSIRT can provide cyber security awareness training to your organization at no cost. For more information please reach out via our <a rel=\"noreferrer noopener\" href=\"https://ttcsirt.gov.tt/contact-us/\" target=\"_blank\">contact form</a>.</p>",
+          "text": "TT-CSIRT can provide cyber security awareness training to your organization at no cost. For more information please reach out via our contact form ."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://blog.talosintelligence.com/emotet-coming-in-hot/",
+    "https://www.malwarebytes.com/emotet"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-410-9-11-22-new-emotet-malware-campaign/",
+    "upstreamDisclosedAt": "2022-11-09T14:19:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

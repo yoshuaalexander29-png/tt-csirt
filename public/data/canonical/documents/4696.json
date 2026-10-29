@@ -1,0 +1,80 @@
+{
+  "id": "4696",
+  "legacyPostId": 4696,
+  "referenceNumber": "TT-CSIRT 346.08.28.20",
+  "classification": "advisory",
+  "title": "Cisco critical flaw patched in wan software solution",
+  "rawTitle": "TTCSIRT-346.08.28.20: TT-CSIRT ADVISORY &#8211; Cisco Critical Flaw Patched in WAN Software Solution",
+  "slug": "ttcsirt-346-08-28-20-tt-csirt-advisory-cisco-critical-flaw-patched-in-wan-software-solution",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has issued a fix for a critical flaw in its Virtual Wide Area Application Services (vWAAS), software for optimizing WAN on virtual private cloud infrastructure.",
+  "cveList": [
+    "CVE-2020-3446"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:24:22",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:24:22",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has issued a fix for a critical flaw in its Virtual Wide Area Application Services (vWAAS), software for optimizing WAN on virtual private cloud infrastructure.<br><br>The flaw (CVE-2020-3446), which has a critical-severity CVSS score of 9.8 out of 10, exists because user accounts for accessing the software contain default passwords.<br><br>That means an attacker could log in, via a default password, and thus potentially obtain administrator privileges.<br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f5bc5700e3&amp;e=64e3bb0ab9\">https://threatpost.com/cisco-critical-flaw-patched-in-wan-software-solution/158485/</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Cisco has issued a fix for a critical flaw in its Virtual Wide Area Application Services (vWAAS), software for optimizing WAN on virtual private cloud infrastructure.",
+  "sourceExcerpt": "<p>Cisco has issued a fix for a critical flaw in its Virtual Wide Area Application Services (vWAAS), software for optimizing WAN on virtual private cloud infrastructure. The flaw (CVE-2020-3446), which has a critical-severity CVSS score of 9.8 out of 10, exists because user accounts for accessing the software contain default passwords. That means an attacker [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-346-08-28-20-tt-csirt-advisory-cisco-critical-flaw-patched-in-wan-software-solution/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has issued a fix for a critical flaw in its Virtual Wide Area Application Services (vWAAS), software for optimizing WAN on virtual private cloud infrastructure.</p>",
+          "text": "Cisco has issued a fix for a critical flaw in its Virtual Wide Area Application Services (vWAAS), software for optimizing WAN on virtual private cloud infrastructure."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The flaw (CVE-2020-3446), which has a critical-severity CVSS score of 9.8 out of 10, exists because user accounts for accessing the software contain default passwords.</p>",
+          "text": "The flaw (CVE-2020-3446), which has a critical-severity CVSS score of 9.8 out of 10, exists because user accounts for accessing the software contain default passwords."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>That means an attacker could log in, via a default password, and thus potentially obtain administrator privileges.</p>",
+          "text": "That means an attacker could log in, via a default password, and thus potentially obtain administrator privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f5bc5700e3&amp;e=64e3bb0ab9\">https://threatpost.com/cisco-critical-flaw-patched-in-wan-software-solution/158485/</a></p>",
+          "text": "For further information and support, please visit the following link: https://threatpost.com/cisco-critical-flaw-patched-in-wan-software-solution/158485/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-346-08-28-20-tt-csirt-advisory-cisco-critical-flaw-patched-in-wan-software-solution/",
+    "upstreamDisclosedAt": "2020-09-22T23:24:22",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

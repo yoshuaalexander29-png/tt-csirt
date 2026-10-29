@@ -1,0 +1,76 @@
+{
+  "id": "4684",
+  "legacyPostId": 4684,
+  "referenceNumber": "TT-CSIRT 340.08.20.20",
+  "classification": "advisory",
+  "title": "Microsoft issues emergency security updates for Windows 8.1 and server 2012 R2",
+  "rawTitle": "TTCSIRT-340.08.20.20: TT-CSIRT ADVISORY &#8211; Microsoft Issues Emergency Security Updates for Windows 8.1 and Server 2012 R2",
+  "slug": "ttcsirt-340-08-20-20-tt-csirt-advisory-microsoft-issues-emergency-security-updates-for-windows-8-1-and-server-2012-r2",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has issued an emergency out-of-band software update for Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2 systems to patch two new recently disclosed security vulnerabilities.",
+  "cveList": [
+    "CVE-2020-1530",
+    "CVE-2020-1537"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:20:05",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:20:05",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has issued an emergency out-of-band software update for Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2 systems to patch two new recently disclosed security vulnerabilities.<br><br>Tracked as&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=914a34356d&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2020-1530</a>&nbsp;and&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=d94acd721a&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2020-1537</a>, both flaws reside in the Remote Access Service (RAS) in a way it manages memory and file operations and could let remote attackers gain elevated privileges after successful exploitation.<br><br>In brief, the Remote Access Service functionality of the Windows operating system allows remote clients to connect to the server and access internal resources from anywhere via the Internet.<br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Microsoft has issued an emergency out-of-band software update for Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2 systems to patch two new recently disclosed security vulnerabilities.",
+  "sourceExcerpt": "<p>Microsoft has issued an emergency out-of-band software update for Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2 systems to patch two new recently disclosed security vulnerabilities. Tracked as&nbsp;CVE-2020-1530&nbsp;and&nbsp;CVE-2020-1537, both flaws reside in the Remote Access Service (RAS) in a way it manages memory and file operations and could let remote attackers gain elevated [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-340-08-20-20-tt-csirt-advisory-microsoft-issues-emergency-security-updates-for-windows-8-1-and-server-2012-r2/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has issued an emergency out-of-band software update for Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2 systems to patch two new recently disclosed security vulnerabilities.</p>",
+          "text": "Microsoft has issued an emergency out-of-band software update for Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2 systems to patch two new recently disclosed security vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Tracked as&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=914a34356d&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2020-1530</a>&nbsp;and&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=d94acd721a&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2020-1537</a>, both flaws reside in the Remote Access Service (RAS) in a way it manages memory and file operations and could let remote attackers gain elevated privileges after successful exploitation.</p>",
+          "text": "Tracked as  CVE-2020-1530  and  CVE-2020-1537 , both flaws reside in the Remote Access Service (RAS) in a way it manages memory and file operations and could let remote attackers gain elevated privileges after successful exploitation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In brief, the Remote Access Service functionality of the Windows operating system allows remote clients to connect to the server and access internal resources from anywhere via the Internet.</p>",
+          "text": "In brief, the Remote Access Service functionality of the Windows operating system allows remote clients to connect to the server and access internal resources from anywhere via the Internet."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-340-08-20-20-tt-csirt-advisory-microsoft-issues-emergency-security-updates-for-windows-8-1-and-server-2012-r2/",
+    "upstreamDisclosedAt": "2020-09-22T23:20:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

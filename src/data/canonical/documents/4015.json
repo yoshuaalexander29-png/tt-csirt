@@ -1,0 +1,107 @@
+{
+  "id": "4015",
+  "legacyPostId": 4015,
+  "referenceNumber": "TT-CSIRT #270",
+  "classification": "advisory",
+  "title": "Samba releases security updates",
+  "rawTitle": "TTCSIRT-270.012120: TT-CSIRT ADVISORY- SAMBA RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-270-012120-tt-csirt-advisory-samba-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Samba Team has released security updates to address vulnerabilities in multiple versions of Samba.",
+  "cveList": [
+    "CVE-2019-14902",
+    "CVE-2019-14907",
+    "CVE-2019-19344"
+  ],
+  "date": "21 January 2020",
+  "rawDate": "2020-01-21T15:07:06",
+  "modifiedDate": "21 January 2020",
+  "rawModifiedDate": "2020-01-21T15:07:06",
+  "contentHtml": "<p>The Samba Team has released security updates to address vulnerabilities in multiple versions of Samba.</p>\n<p>An attacker could exploit one of these vulnerabilities to take control of an affected system.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Samba Security Announcements for CVE-2019-14902, CVE-2019-14907, and CVE-2019-19344 and apply the necessary updates and workarounds.</p>\n<p>For further review please see the following links:</p>\n<p><a href=\"https://www.samba.org/samba/security/CVE-2019-14902.html\">https://www.samba.org/samba/security/CVE-2019-14902.html </a></p>\n<p><a href=\"https://www.samba.org/samba/security/CVE-2019-14907.html\">https://www.samba.org/samba/security/CVE-2019-14907.html</a></p>\n<p><a href=\"https://www.samba.org/samba/security/CVE-2019-19344.html\">https://www.samba.org/samba/security/CVE-2019-19344.html</a></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "The Samba Team has released security updates to address vulnerabilities in multiple versions of Samba. An attacker could exploit one of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>The Samba Team has released security updates to address vulnerabilities in multiple versions of Samba. An attacker could exploit one of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Samba Security Announcements for CVE-2019-14902, CVE-2019-14907, and CVE-2019-19344 and apply the necessary [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-270-012120-tt-csirt-advisory-samba-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Samba Team has released security updates to address vulnerabilities in multiple versions of Samba.</p>",
+          "text": "The Samba Team has released security updates to address vulnerabilities in multiple versions of Samba."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit one of these vulnerabilities to take control of an affected system.</p>",
+          "text": "An attacker could exploit one of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Samba Security Announcements for CVE-2019-14902, CVE-2019-14907, and CVE-2019-19344 and apply the necessary updates and workarounds.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the Samba Security Announcements for CVE-2019-14902, CVE-2019-14907, and CVE-2019-19344 and apply the necessary updates and workarounds."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.samba.org/samba/security/CVE-2019-14902.html\">https://www.samba.org/samba/security/CVE-2019-14902.html </a></p>",
+          "text": "https://www.samba.org/samba/security/CVE-2019-14902.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.samba.org/samba/security/CVE-2019-14907.html\">https://www.samba.org/samba/security/CVE-2019-14907.html</a></p>",
+          "text": "https://www.samba.org/samba/security/CVE-2019-14907.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.samba.org/samba/security/CVE-2019-19344.html\">https://www.samba.org/samba/security/CVE-2019-19344.html</a></p>",
+          "text": "https://www.samba.org/samba/security/CVE-2019-19344.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.samba.org/samba/security/CVE-2019-14902.html",
+    "https://www.samba.org/samba/security/CVE-2019-14907.html",
+    "https://www.samba.org/samba/security/CVE-2019-19344.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-270-012120-tt-csirt-advisory-samba-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-01-21T15:07:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

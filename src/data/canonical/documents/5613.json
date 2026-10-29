@@ -1,0 +1,88 @@
+{
+  "id": "5613",
+  "legacyPostId": 5613,
+  "referenceNumber": "TT-CSIRT 422.18.10.23",
+  "classification": "advisory",
+  "title": "Cisco security vulnerability",
+  "rawTitle": "TT-CSIRT-422.18.10.23: Cisco Security Vulnerability",
+  "slug": "tt-csirt-422-18-10-23-cisco-security-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security advisory concerning a critical Privilege Escalation Vulnerability in their IOS XE software.",
+  "cveList": [
+    "CVE-2023-20198"
+  ],
+  "date": "18 October 2023",
+  "rawDate": "2023-10-18T10:35:24",
+  "modifiedDate": "18 October 2023",
+  "rawModifiedDate": "2023-10-18T10:35:24",
+  "contentHtml": "<p>Cisco has released a security advisory concerning a critical Privilege Escalation Vulnerability in their IOS XE software.</p>\n<p>Cisco has identified active exploitation of a previously unknown vulnerability in the Web User Interface (Web UI) feature of Cisco IOS XE software (CVE-2023-20198) when exposed to the internet or untrusted networks. This affects both physical and virtual devices running Cisco IOS XE software that also have the HTTP or HTTPS Server feature enabled.</p>\n<p>Successful exploitation of this vulnerability allows an attacker to create an account on the affected device with privilege level 15 access, effectively granting them full control of the compromised device and allowing possible subsequent unauthorized activity.</p>\n<p>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>\n<p>CISCO PSIRT Advisory: <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z\">https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z</a><br />\nCISCO TALOS: <a href=\"https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/\">https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/</a></p>\n",
+  "displaySummary": "Cisco has released a security advisory concerning a critical Privilege Escalation Vulnerability in their IOS XE software.",
+  "sourceExcerpt": "<p>Cisco has released a security advisory concerning a critical Privilege Escalation Vulnerability in their IOS XE software. Cisco has identified active exploitation of a previously unknown vulnerability in the Web User Interface (Web UI) feature of Cisco IOS XE software (CVE-2023-20198) when exposed to the internet or untrusted networks. This affects both physical and virtual [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-422-18-10-23-cisco-security-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security advisory concerning a critical Privilege Escalation Vulnerability in their IOS XE software.</p>",
+          "text": "Cisco has released a security advisory concerning a critical Privilege Escalation Vulnerability in their IOS XE software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has identified active exploitation of a previously unknown vulnerability in the Web User Interface (Web UI) feature of Cisco IOS XE software (CVE-2023-20198) when exposed to the internet or untrusted networks. This affects both physical and virtual devices running Cisco IOS XE software that also have the HTTP or HTTPS Server feature enabled.</p>",
+          "text": "Cisco has identified active exploitation of a previously unknown vulnerability in the Web User Interface (Web UI) feature of Cisco IOS XE software (CVE-2023-20198) when exposed to the internet or untrusted networks. This affects both physical and virtual devices running Cisco IOS XE software that also have the HTTP or HTTPS Server feature enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability allows an attacker to create an account on the affected device with privilege level 15 access, effectively granting them full control of the compromised device and allowing possible subsequent unauthorized activity.</p>",
+          "text": "Successful exploitation of this vulnerability allows an attacker to create an account on the affected device with privilege level 15 access, effectively granting them full control of the compromised device and allowing possible subsequent unauthorized activity."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>",
+          "text": "TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CISCO PSIRT Advisory: <a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z\">https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z</a><br />\nCISCO TALOS: <a href=\"https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/\">https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/</a></p>",
+          "text": "CISCO PSIRT Advisory: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z CISCO TALOS: https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z",
+    "https://blog.talosintelligence.com/active-exploitation-of-cisco-ios-xe-software/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-422-18-10-23-cisco-security-vulnerability/",
+    "upstreamDisclosedAt": "2023-10-18T10:35:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "4844",
+  "legacyPostId": 4844,
+  "referenceNumber": "TT-CSIRT 387.01.14.21",
+  "classification": "advisory",
+  "title": "Microsoft releases january 2021 security updates",
+  "rawTitle": "TTCSIRT-387.01.14.21:TTCSIRT ADVISORY &#8211; Microsoft Releases January 2021 Security Updates",
+  "slug": "ttcsirt-387-01-14-21ttcsirt-advisory-microsoft-releases-january-2021-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released January 2021 Security Updates which prevents remote attackers from exploiting vulnerabilities to gain control of affected systems.",
+  "cveList": [],
+  "date": "14 January 2021",
+  "rawDate": "2021-01-14T08:46:14",
+  "modifiedDate": "14 January 2021",
+  "rawModifiedDate": "2021-01-14T08:46:14",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that Microsoft has released January 2021 Security Updates which prevents remote attackers from exploiting vulnerabilities to gain control of affected systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The following software will be updated:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Microsoft Windows</li><li>Microsoft Edge (EdgeHTML-based)</li><li>Microsoft Office and Microsoft Office Services and Web Apps</li><li>Microsoft Windows Codecs Library</li><li>Visual Studio</li><li>SQL Server</li><li>Microsoft Malware Protection Engine</li><li>.NET Core</li><li>.NET Repository</li><li>ASP .NET</li><li>Azure</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT is urging all entities (public and private) to update to the newest Microsoft release to address multiple vulnerabilities in Microsoft software.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:<br>https://msrc.microsoft.com/update-guide/releaseNote/2021-Jan&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via contacts@ttcsirt.gov.tt</strong></p>\n",
+  "displaySummary": "Microsoft has released January 2021 Security Updates which prevents remote attackers from exploiting vulnerabilities to gain control of affected systems.",
+  "sourceExcerpt": "<p>Please be advised that Microsoft has released January 2021 Security Updates which prevents remote attackers from exploiting vulnerabilities to gain control of affected systems. The following software will be updated: Microsoft Windows Microsoft Edge (EdgeHTML-based) Microsoft Office and Microsoft Office Services and Web Apps Microsoft Windows Codecs Library Visual Studio SQL Server Microsoft Malware Protection [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-387-01-14-21ttcsirt-advisory-microsoft-releases-january-2021-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released January 2021 Security Updates which prevents remote attackers from exploiting vulnerabilities to gain control of affected systems.</p>",
+          "text": "Microsoft has released January 2021 Security Updates which prevents remote attackers from exploiting vulnerabilities to gain control of affected systems."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "The following software will be updated",
+          "id": "the-following-software-will-be-updated"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Microsoft Windows</li><li>Microsoft Edge (EdgeHTML-based)</li><li>Microsoft Office and Microsoft Office Services and Web Apps</li><li>Microsoft Windows Codecs Library</li><li>Visual Studio</li><li>SQL Server</li><li>Microsoft Malware Protection Engine</li><li>.NET Core</li><li>.NET Repository</li><li>ASP .NET</li><li>Azure</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT is urging all entities (public and private) to update to the newest Microsoft release to address multiple vulnerabilities in Microsoft software.</p>",
+          "text": "TT-CSIRT is urging all entities (public and private) to update to the newest Microsoft release to address multiple vulnerabilities in Microsoft software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:<br>https://msrc.microsoft.com/update-guide/releaseNote/2021-Jan&nbsp;</p>",
+          "text": "For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below: https://msrc.microsoft.com/update-guide/releaseNote/2021-Jan"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "the-following-software-will-be-updated",
+      "label": "The following software will be updated",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-387-01-14-21ttcsirt-advisory-microsoft-releases-january-2021-security-updates/",
+    "upstreamDisclosedAt": "2021-01-14T08:46:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

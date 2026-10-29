@@ -1,0 +1,169 @@
+{
+  "id": "3587",
+  "legacyPostId": 3587,
+  "referenceNumber": "TT-CSIRT #178",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-178.110518: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-178-110518-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has a released a security update stating that it has fixed the following vulnerabilities in Safari, iCloud, iTunes, watchOS, iOS, tvOS, Mojave, High Sierra and Sierra:",
+  "cveList": [
+    "CVE-2018-4424",
+    "CVE-2018-4342",
+    "CVE-2018-4377",
+    "CVE-2018-4304",
+    "CVE-2018-4368",
+    "CVE-2018-4406",
+    "CVE-2018-4387",
+    "CVE-2018-4388",
+    "CVE-2018-4369",
+    "CVE-2018-4385",
+    "CVE-2018-4374",
+    "CVE-2018-4423",
+    "CVE-2018-4295",
+    "CVE-2018-4398",
+    "CVE-2018-4203",
+    "CVE-2018-4308",
+    "CVE-2018-4365",
+    "CVE-2018-4371",
+    "CVE-2018-4409",
+    "CVE-2018-4346",
+    "CVE-2018-4396",
+    "CVE-2018-4417",
+    "CVE-2018-4418"
+  ],
+  "date": "5 November 2018",
+  "rawDate": "2018-11-05T18:04:34",
+  "modifiedDate": "5 November 2018",
+  "rawModifiedDate": "2018-11-05T18:04:34",
+  "contentHtml": "<p>Apple has a released a security update stating that it has fixed the following vulnerabilities in Safari, iCloud, iTunes, watchOS, iOS, tvOS, Mojave, High Sierra and Sierra:</p>\n<p>a) A buffer overflow was addressed with improved size validation &#8211; (CVE-2018-4424).</p>\n<p>b) A configuration issue was addressed with additional restrictions &#8211; (CVE-2018-4342).</p>\n<p>c) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2018-4377).</p>\n<p>d) Denial of service issues were addressed with improved validation &#8211; (CVE-2018-4304, CVE-2018-4368, CVE-2018-4406).</p>\n<p>e) A lock screen issue allowed access to photos via Reply With Message on a locked device. This issue was addressed with improved state management &#8211; (CVE-2018-4387).</p>\n<p>f) A lock screen issue allowed access to the share function on a locked device. This issue was addressed by restricting options offered on a locked device &#8211; (CVE-2018-4388).</p>\n<p>g) Logic issues were addressed with improved state management &#8211; (CVE-2018-4369, CVE-2018-4385).</p>\n<p>h) Logic issues were addressed with improved validation &#8211; (CVE-2018-4374, CVE-2018-4423).</p>\n<p>j) An input validation issue was addressed with improved input validation &#8211; (CVE-2018-4295).</p>\n<p>k) An issue existed in the method for determining prime numbers. This issue was addressed by using pseudorandom bases for testing of primes &#8211; (CVE-2018-4398).</p>\n<p>l) An out-of-bounds read was addressed with improved bounds checking &#8211; (CVE-2018-4203, CVE-2018-4308, CVE-2018-4365).</p>\n<p>m) An out-of-bounds read was addressed with improved input validation &#8211; (CVE-2018-4371).</p>\n<p>n) A resource exhaustion issue was addressed with improved input validation &#8211; (CVE-2018-4409).</p>\n<p>o) A validation issue existed which allowed local file access. This was addressed with input sanitization &#8211; (CVE-2018-4346).</p>\n<p>p) Validation issues were addressed with improved input sanitization &#8211; (CVE-2018-4396, CVE-2018-4417, CVE-2018-4418).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and their fixes can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT209192\"><font size=\"2\" color=\"maroon\">https://support.apple.com/en-us/HT209192</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has a released a security update stating that it has fixed the following vulnerabilities in Safari, iCloud, iTunes, watchOS, iOS, tvOS, Mojave, High Sierra and Sierra: a) A buffer overflow…",
+  "sourceExcerpt": "<p>Apple has a released a security update stating that it has fixed the following vulnerabilities in Safari, iCloud, iTunes, watchOS, iOS, tvOS, Mojave, High Sierra and Sierra: a) A buffer overflow was addressed with improved size validation &#8211; (CVE-2018-4424). b) A configuration issue was addressed with additional restrictions &#8211; (CVE-2018-4342). c) A cross-site scripting issue [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-178-110518-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has a released a security update stating that it has fixed the following vulnerabilities in Safari, iCloud, iTunes, watchOS, iOS, tvOS, Mojave, High Sierra and Sierra:</p>",
+          "text": "Apple has a released a security update stating that it has fixed the following vulnerabilities in Safari, iCloud, iTunes, watchOS, iOS, tvOS, Mojave, High Sierra and Sierra:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A buffer overflow was addressed with improved size validation &#8211; (CVE-2018-4424).</p>",
+          "text": "a) A buffer overflow was addressed with improved size validation – (CVE-2018-4424)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A configuration issue was addressed with additional restrictions &#8211; (CVE-2018-4342).</p>",
+          "text": "b) A configuration issue was addressed with additional restrictions – (CVE-2018-4342)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation &#8211; (CVE-2018-4377).</p>",
+          "text": "c) A cross-site scripting issue existed in Safari. This issue was addressed with improved URL validation – (CVE-2018-4377)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Denial of service issues were addressed with improved validation &#8211; (CVE-2018-4304, CVE-2018-4368, CVE-2018-4406).</p>",
+          "text": "d) Denial of service issues were addressed with improved validation – (CVE-2018-4304, CVE-2018-4368, CVE-2018-4406)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A lock screen issue allowed access to photos via Reply With Message on a locked device. This issue was addressed with improved state management &#8211; (CVE-2018-4387).</p>",
+          "text": "e) A lock screen issue allowed access to photos via Reply With Message on a locked device. This issue was addressed with improved state management – (CVE-2018-4387)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) A lock screen issue allowed access to the share function on a locked device. This issue was addressed by restricting options offered on a locked device &#8211; (CVE-2018-4388).</p>",
+          "text": "f) A lock screen issue allowed access to the share function on a locked device. This issue was addressed by restricting options offered on a locked device – (CVE-2018-4388)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Logic issues were addressed with improved state management &#8211; (CVE-2018-4369, CVE-2018-4385).</p>",
+          "text": "g) Logic issues were addressed with improved state management – (CVE-2018-4369, CVE-2018-4385)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Logic issues were addressed with improved validation &#8211; (CVE-2018-4374, CVE-2018-4423).</p>",
+          "text": "h) Logic issues were addressed with improved validation – (CVE-2018-4374, CVE-2018-4423)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) An input validation issue was addressed with improved input validation &#8211; (CVE-2018-4295).</p>",
+          "text": "j) An input validation issue was addressed with improved input validation – (CVE-2018-4295)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) An issue existed in the method for determining prime numbers. This issue was addressed by using pseudorandom bases for testing of primes &#8211; (CVE-2018-4398).</p>",
+          "text": "k) An issue existed in the method for determining prime numbers. This issue was addressed by using pseudorandom bases for testing of primes – (CVE-2018-4398)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) An out-of-bounds read was addressed with improved bounds checking &#8211; (CVE-2018-4203, CVE-2018-4308, CVE-2018-4365).</p>",
+          "text": "l) An out-of-bounds read was addressed with improved bounds checking – (CVE-2018-4203, CVE-2018-4308, CVE-2018-4365)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) An out-of-bounds read was addressed with improved input validation &#8211; (CVE-2018-4371).</p>",
+          "text": "m) An out-of-bounds read was addressed with improved input validation – (CVE-2018-4371)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>n) A resource exhaustion issue was addressed with improved input validation &#8211; (CVE-2018-4409).</p>",
+          "text": "n) A resource exhaustion issue was addressed with improved input validation – (CVE-2018-4409)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o) A validation issue existed which allowed local file access. This was addressed with input sanitization &#8211; (CVE-2018-4346).</p>",
+          "text": "o) A validation issue existed which allowed local file access. This was addressed with input sanitization – (CVE-2018-4346)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>p) Validation issues were addressed with improved input sanitization &#8211; (CVE-2018-4396, CVE-2018-4417, CVE-2018-4418).</p>",
+          "text": "p) Validation issues were addressed with improved input sanitization – (CVE-2018-4396, CVE-2018-4417, CVE-2018-4418)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and their fixes can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT209192\">https://support.apple.com/en-us/HT209192</a></p>",
+          "text": "Further information on these vulnerabilities and their fixes can be found on the Apple Website at https://support.apple.com/en-us/HT209192"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT209192"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-178-110518-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2018-11-05T18:04:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

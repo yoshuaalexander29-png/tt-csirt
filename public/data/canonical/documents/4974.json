@@ -1,0 +1,109 @@
+{
+  "id": "4974",
+  "legacyPostId": 4974,
+  "referenceNumber": "TT-CSIRT 392.04.15.21",
+  "classification": "advisory",
+  "title": "Apply Microsoft april 2021 security update to mitigate newly disclosed Microsoft Exchange vulnerabilities",
+  "rawTitle": "TTCSIRT-392.04.15.21 TTCSIRT ADVISORY- APPLY MICROSOFT APRIL 2021 SECURITY UPDATE TO MITIGATE NEWLY DISCLOSED MICROSOFT EXCHANGE VULNERABILITIES",
+  "slug": "ttcsirt-392-04-15-21-ttcsirt-advisory-apply-microsoft-april-2021-security-update-to-mitigate-newly-disclosed-microsoft-exchange-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft’s April 2021 Security Update mitigates significant vulnerabilities affecting on-premises Exchange Server 2013, 2016, and 2019.",
+  "cveList": [],
+  "date": "15 April 2021",
+  "rawDate": "2021-04-15T13:35:04",
+  "modifiedDate": "15 April 2021",
+  "rawModifiedDate": "2021-04-15T13:35:04",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft&#8217;s April 2021 Security Update mitigates significant vulnerabilities affecting on-premises Exchange Server 2013, 2016, and 2019.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit these vulnerabilities to gain access and maintain persistence on the target host.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Cybersecurity &amp; Infrastructure Security Agency (CISA) strongly urges organizations to apply Microsoft&#8217;s April 2021 Security Update to mitigate against these newly disclosed vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">Note: the Microsoft security updates released in March 2021 do not remediate against these vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">In response to these the newly disclosed vulnerabilities, CISA has issued Supplemental Direction Version 2 to Emergency Directive (ED) 21-02: Mitigate Microsoft Exchange On-Premises Product Vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">ED 20-02 Supplemental Direction V2 requires federal departments and agencies to apply Microsoft&#8217;s April 2021 Security Update to mitigate against these significant vulnerabilities affecting on-premises Exchange Server 2016 and 2019.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the links below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://us-cert.cisa.gov/ncas/current-activity/2021/04/13/apply-microsoft-april-2021-security-update-mitigate-newly\">https://us-cert.cisa.gov/ncas/current-activity/2021/04/13/apply-microsoft-april-2021-security-update-mitigate-newly</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2021-Apr\">https://msrc.microsoft.com/update-guide/releaseNote/2021-Apr</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/deployments\">https://msrc.microsoft.com/update-guide/deployments</a></li><li><a href=\"https://cyber.dhs.gov/ed/21-02/#supplemental-direction-v2\">https://cyber.dhs.gov/ed/21-02/#supplemental-direction-v2</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-062a\">https://us-cert.cisa.gov/ncas/alerts/aa21-062a</a></li><li><a href=\"https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities\">https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "Microsoft&#8217;s April 2021 Security Update mitigates significant vulnerabilities affecting on-premises Exchange Server 2013, 2016, and 2019.",
+  "sourceExcerpt": "<p>Microsoft&#8217;s April 2021 Security Update mitigates significant vulnerabilities affecting on-premises Exchange Server 2013, 2016, and 2019. An attacker could exploit these vulnerabilities to gain access and maintain persistence on the target host. The Cybersecurity &amp; Infrastructure Security Agency (CISA) strongly urges organizations to apply Microsoft&#8217;s April 2021 Security Update to mitigate against these newly disclosed vulnerabilities. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-392-04-15-21-ttcsirt-advisory-apply-microsoft-april-2021-security-update-to-mitigate-newly-disclosed-microsoft-exchange-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft&#8217;s April 2021 Security Update mitigates significant vulnerabilities affecting on-premises Exchange Server 2013, 2016, and 2019.</p>",
+          "text": "Microsoft’s April 2021 Security Update mitigates significant vulnerabilities affecting on-premises Exchange Server 2013, 2016, and 2019."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit these vulnerabilities to gain access and maintain persistence on the target host.</p>",
+          "text": "An attacker could exploit these vulnerabilities to gain access and maintain persistence on the target host."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Cybersecurity &amp; Infrastructure Security Agency (CISA) strongly urges organizations to apply Microsoft&#8217;s April 2021 Security Update to mitigate against these newly disclosed vulnerabilities.</p>",
+          "text": "The Cybersecurity & Infrastructure Security Agency (CISA) strongly urges organizations to apply Microsoft’s April 2021 Security Update to mitigate against these newly disclosed vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Note: the Microsoft security updates released in March 2021 do not remediate against these vulnerabilities.</p>",
+          "text": "Note: the Microsoft security updates released in March 2021 do not remediate against these vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In response to these the newly disclosed vulnerabilities, CISA has issued Supplemental Direction Version 2 to Emergency Directive (ED) 21-02: Mitigate Microsoft Exchange On-Premises Product Vulnerabilities.</p>",
+          "text": "In response to these the newly disclosed vulnerabilities, CISA has issued Supplemental Direction Version 2 to Emergency Directive (ED) 21-02: Mitigate Microsoft Exchange On-Premises Product Vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>ED 20-02 Supplemental Direction V2 requires federal departments and agencies to apply Microsoft&#8217;s April 2021 Security Update to mitigate against these significant vulnerabilities affecting on-premises Exchange Server 2016 and 2019.</p>",
+          "text": "ED 20-02 Supplemental Direction V2 requires federal departments and agencies to apply Microsoft’s April 2021 Security Update to mitigate against these significant vulnerabilities affecting on-premises Exchange Server 2016 and 2019."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the links below:</p>",
+          "text": "For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the links below:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://us-cert.cisa.gov/ncas/current-activity/2021/04/13/apply-microsoft-april-2021-security-update-mitigate-newly\">https://us-cert.cisa.gov/ncas/current-activity/2021/04/13/apply-microsoft-april-2021-security-update-mitigate-newly</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2021-Apr\">https://msrc.microsoft.com/update-guide/releaseNote/2021-Apr</a></li><li><a href=\"https://msrc.microsoft.com/update-guide/deployments\">https://msrc.microsoft.com/update-guide/deployments</a></li><li><a href=\"https://cyber.dhs.gov/ed/21-02/#supplemental-direction-v2\">https://cyber.dhs.gov/ed/21-02/#supplemental-direction-v2</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-062a\">https://us-cert.cisa.gov/ncas/alerts/aa21-062a</a></li><li><a href=\"https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities\">https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities</a></li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://us-cert.cisa.gov/ncas/current-activity/2021/04/13/apply-microsoft-april-2021-security-update-mitigate-newly",
+    "https://msrc.microsoft.com/update-guide/releaseNote/2021-Apr",
+    "https://msrc.microsoft.com/update-guide/deployments",
+    "https://cyber.dhs.gov/ed/21-02/#supplemental-direction-v2",
+    "https://us-cert.cisa.gov/ncas/alerts/aa21-062a",
+    "https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-392-04-15-21-ttcsirt-advisory-apply-microsoft-april-2021-security-update-to-mitigate-newly-disclosed-microsoft-exchange-vulnerabilities/",
+    "upstreamDisclosedAt": "2021-04-15T13:35:04",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "4741",
+  "legacyPostId": 4741,
+  "referenceNumber": "TT-CSIRT 368.10.14.20",
+  "classification": "advisory",
+  "title": "Sap october 2020 security updates",
+  "rawTitle": "TTCSIRT-368.10.14.20: TT-CSIRT ADVISORY – SAP October 2020 Security Updates",
+  "slug": "ttcsirt-368-10-14-20-tt-csirt-advisory-sap-october-2020-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "SAP has released security updates to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [
+    "CVE-2020-6364"
+  ],
+  "date": "14 October 2020",
+  "rawDate": "2020-10-14T13:02:07",
+  "modifiedDate": "14 October 2020",
+  "rawModifiedDate": "2020-10-14T13:02:07",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">SAP has released security updates to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.<br><br>This includes an OS command injection vulnerability (CVE-2020-6364) affecting SAP Solution Manager and SAP Focused Run.<br> <br>Administrators are encouraged to review and apply the necessary updates.<br><br>For further information and support, please visit the following link:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTMuMjg2NTQ0MjEiLCJ1cmwiOiJodHRwczovL3dpa2kuc2NuLnNhcC5jb20vd2lraS9wYWdlcy92aWV3cGFnZS5hY3Rpb24_cGFnZUlkPTU1ODYzMjE5NiJ9.iij4Y7cYQH1wIiI3hWtJz4EbLGXiUhUmh9y1LXNbph0/s/1193638257/br/86784375055-l\">SAP Security Notes for October 2020</a> </p>\n",
+  "displaySummary": "SAP has released security updates to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>SAP has released security updates to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. This includes an OS command injection vulnerability (CVE-2020-6364) affecting SAP Solution Manager and SAP Focused Run. Administrators are encouraged to review and apply the necessary updates. For further information and support, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-368-10-14-20-tt-csirt-advisory-sap-october-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>SAP has released security updates to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "SAP has released security updates to address vulnerabilities affecting multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This includes an OS command injection vulnerability (CVE-2020-6364) affecting SAP Solution Manager and SAP Focused Run.</p>",
+          "text": "This includes an OS command injection vulnerability (CVE-2020-6364) affecting SAP Solution Manager and SAP Focused Run."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are encouraged to review and apply the necessary updates.</p>",
+          "text": "Administrators are encouraged to review and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTMuMjg2NTQ0MjEiLCJ1cmwiOiJodHRwczovL3dpa2kuc2NuLnNhcC5jb20vd2lraS9wYWdlcy92aWV3cGFnZS5hY3Rpb24_cGFnZUlkPTU1ODYzMjE5NiJ9.iij4Y7cYQH1wIiI3hWtJz4EbLGXiUhUmh9y1LXNbph0/s/1193638257/br/86784375055-l\">SAP Security Notes for October 2020</a></p>",
+          "text": "For further information and support, please visit the following link: SAP Security Notes for October 2020"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTMuMjg2NTQ0MjEiLCJ1cmwiOiJodHRwczovL3dpa2kuc2NuLnNhcC5jb20vd2lraS9wYWdlcy92aWV3cGFnZS5hY3Rpb24_cGFnZUlkPTU1ODYzMjE5NiJ9.iij4Y7cYQH1wIiI3hWtJz4EbLGXiUhUmh9y1LXNbph0/s/1193638257/br/86784375055-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-368-10-14-20-tt-csirt-advisory-sap-october-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-10-14T13:02:07",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

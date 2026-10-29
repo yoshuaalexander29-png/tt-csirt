@@ -1,0 +1,75 @@
+{
+  "id": "3506",
+  "legacyPostId": 3506,
+  "referenceNumber": "TT-CSIRT #155",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-155.081318: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-155-081318-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that Horizon ver 6.0 – 7.0 for Windows contains an out-of-bounds read vulnerability in the Message Framework library.",
+  "cveList": [],
+  "date": "13 August 2018",
+  "rawDate": "2018-08-13T13:16:49",
+  "modifiedDate": "13 August 2018",
+  "rawModifiedDate": "2018-08-13T13:16:49",
+  "contentHtml": "<p>VMware has released a security update stating that Horizon ver 6.0 &#8211; 7.0 for Windows contains an out-of-bounds read vulnerability in the Message Framework library.</p>\n<p>This issue may allow a less-privileged user to leak information from a privileged process running on a system where Horizon Connection Server, Horizon Agent or Horizon Client are installed.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0019.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0019.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that Horizon ver 6.0 &#8211; 7.0 for Windows contains an out-of-bounds read vulnerability in the Message Framework library.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that Horizon ver 6.0 &#8211; 7.0 for Windows contains an out-of-bounds read vulnerability in the Message Framework library. This issue may allow a less-privileged user to leak information from a privileged process running on a system where Horizon Connection Server, Horizon Agent or Horizon Client are installed. Further [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-155-081318-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that Horizon ver 6.0 &#8211; 7.0 for Windows contains an out-of-bounds read vulnerability in the Message Framework library.</p>",
+          "text": "VMware has released a security update stating that Horizon ver 6.0 – 7.0 for Windows contains an out-of-bounds read vulnerability in the Message Framework library."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue may allow a less-privileged user to leak information from a privileged process running on a system where Horizon Connection Server, Horizon Agent or Horizon Client are installed.</p>",
+          "text": "This issue may allow a less-privileged user to leak information from a privileged process running on a system where Horizon Connection Server, Horizon Agent or Horizon Client are installed."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0019.html\">https://www.vmware.com/security/advisories/VMSA-2018-0019.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at https://www.vmware.com/security/advisories/VMSA-2018-0019.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0019.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-155-081318-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-08-13T13:16:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

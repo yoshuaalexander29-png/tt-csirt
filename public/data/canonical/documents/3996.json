@@ -1,0 +1,86 @@
+{
+  "id": "3996",
+  "legacyPostId": 3996,
+  "referenceNumber": "TT-CSIRT #264",
+  "classification": "advisory",
+  "title": "VMware releases security update",
+  "rawTitle": "TTCSIRT-264.011520: TT-CSIRT ADVISORY- VMWARE RELEASES SECURITY UPDATE",
+  "slug": "ttcsirt-264-011520-tt-csirt-advisory-vmware-releases-security-update",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update to address a vulnerability in VMware Tools. An attacker could exploit this vulnerability to take control of an affected system.",
+  "cveList": [],
+  "date": "15 January 2020",
+  "rawDate": "2020-01-15T11:20:10",
+  "modifiedDate": "15 January 2020",
+  "rawModifiedDate": "2020-01-15T11:20:10",
+  "contentHtml": "<p>VMware has released a security update to address a vulnerability in VMware Tools. An attacker could exploit this vulnerability to take control of an affected system.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review VMware Security Advisory VMSA-2020-0002 and apply the necessary update.</p>\n<p>For further review please see the following link:</p>\n<p><a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0002.html\">https://www.vmware.com/security/advisories/VMSA-2020-0002.html</a></p>\n",
+  "displaySummary": "VMware has released a security update to address a vulnerability in VMware Tools. An attacker could exploit this vulnerability to take control of an affected system.",
+  "sourceExcerpt": "<p>VMware has released a security update to address a vulnerability in VMware Tools. An attacker could exploit this vulnerability to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review VMware Security Advisory VMSA-2020-0002 and apply the necessary update. For further review please [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-264-011520-tt-csirt-advisory-vmware-releases-security-update/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update to address a vulnerability in VMware Tools. An attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "VMware has released a security update to address a vulnerability in VMware Tools. An attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review VMware Security Advisory VMSA-2020-0002 and apply the necessary update.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review VMware Security Advisory VMSA-2020-0002 and apply the necessary update."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0002.html\">https://www.vmware.com/security/advisories/VMSA-2020-0002.html</a></p>",
+          "text": "https://www.vmware.com/security/advisories/VMSA-2020-0002.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2020-0002.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-264-011520-tt-csirt-advisory-vmware-releases-security-update/",
+    "upstreamDisclosedAt": "2020-01-15T11:20:10",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

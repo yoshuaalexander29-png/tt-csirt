@@ -1,0 +1,84 @@
+{
+  "id": "3427",
+  "legacyPostId": 3427,
+  "referenceNumber": "TT-CSIRT #135",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-135.062618: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-135-062618-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that the following vulnerabilities have been discovered within the Oracle Outside In Technology Module being utilized by Microsoft Exchange Server:",
+  "cveList": [
+    "CVE-2018-2768",
+    "CVE-2018-2806",
+    "CVE-2018-2801"
+  ],
+  "date": "26 June 2018",
+  "rawDate": "2018-06-26T13:17:06",
+  "modifiedDate": "26 June 2018",
+  "rawModifiedDate": "2018-06-26T13:17:06",
+  "contentHtml": "<p>Microsoft has released a security update stating that the following vulnerabilities have been discovered within the Oracle Outside In Technology Module being utilized by Microsoft Exchange Server:</p>\n<p>a) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Filters component to access data and cause partial denial of service conditions &#8211; (CVE-2018-2768, CVE-2018-2806).</p>\n<p>b) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Image Export SDK component to access data and cause partial denial of service conditions &#8211; (CVE-2018-2801).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180010\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180010</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that the following vulnerabilities have been discovered within the Oracle Outside In Technology Module being utilized by Microsoft Exchange…",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that the following vulnerabilities have been discovered within the Oracle Outside In Technology Module being utilized by Microsoft Exchange Server: a) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Filters component to access data and cause partial denial of service conditions [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-135-062618-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that the following vulnerabilities have been discovered within the Oracle Outside In Technology Module being utilized by Microsoft Exchange Server:</p>",
+          "text": "Microsoft has released a security update stating that the following vulnerabilities have been discovered within the Oracle Outside In Technology Module being utilized by Microsoft Exchange Server:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Filters component to access data and cause partial denial of service conditions &#8211; (CVE-2018-2768, CVE-2018-2806).</p>",
+          "text": "a) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Filters component to access data and cause partial denial of service conditions – (CVE-2018-2768, CVE-2018-2806)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Image Export SDK component to access data and cause partial denial of service conditions &#8211; (CVE-2018-2801).</p>",
+          "text": "b) A remote user can exploit a flaw in the Oracle Outside In Technology Outside In Image Export SDK component to access data and cause partial denial of service conditions – (CVE-2018-2801)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180010\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180010</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180010"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180010"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-135-062618-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-06-26T13:17:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,1012 @@
+[
+  {
+    "file": "src/App.tsx",
+    "line": 88,
+    "text": "onNavigate(`/search?q=${encodeURIComponent(trimmed)}`);"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 107,
+    "text": "href=\"/\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 111,
+    "text": "onNavigate(\"/\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 246,
+    "text": "onNavigate={(path) => onNavigate(path)}"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 277,
+    "text": "href=\"/about\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 281,
+    "text": "onNavigate(\"/about\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 292,
+    "text": "<li><a href=\"https://www.ttps.gov.tt/\" className=\"govuk-link\" target=\"_blank\" rel=\"noopener noreferrer\">TTPS CSMU (Trinidad and Tobago Police Service)</a></li>"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 293,
+    "text": "<li><a href=\"https://www.caricomimpacs.org/\" className=\"govuk-link\" target=\"_blank\" rel=\"noopener noreferrer\">CARICOM IMPACS</a></li>"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 294,
+    "text": "<li><a href=\"https://igovtt.tt/\" className=\"govuk-link\" target=\"_blank\" rel=\"noopener noreferrer\">iGovTT</a></li>"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 295,
+    "text": "<li><a href=\"https://csirtamericas.org/\" className=\"govuk-link\" target=\"_blank\" rel=\"noopener noreferrer\">OAS CSIRT Americas</a></li>"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 296,
+    "text": "<li><a href=\"https://www.oas.org/en/topics/cyber_security.asp\" className=\"govuk-link\" target=\"_blank\" rel=\"noopener noreferrer\">OAS Cyber</a></li>"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 317,
+    "text": "<a href=\"tel:+18686257937\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 321,
+    "text": "<a href=\"tel:+18682998827\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 329,
+    "text": "href=\"/services/incident-response\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 336,
+    "text": "onNavigate(\"/services/incident-response\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 384,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 388,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 414,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 417,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 425,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 428,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 436,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 439,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 470,
+    "text": "href=\"/services/proactive-risk-management\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 473,
+    "text": "onNavigate(\"/services/proactive-risk-management\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 481,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 484,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 492,
+    "text": "href=\"/guidance/ransomware-response-guide\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 495,
+    "text": "onNavigate(\"/guidance/ransomware-response-guide\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 532,
+    "text": "<a href=\"/statistics\" onClick={(e) => { e.preventDefault(); onNavigateToStatistics(); }} className=\"govuk-link\">View the full national cyber incident statistics.</a>"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 620,
+    "text": "href=\"/services\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 624,
+    "text": "onNavigate(\"/services\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 639,
+    "text": "href=\"/services/incident-response\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 642,
+    "text": "onNavigate(\"/services/incident-response\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 658,
+    "text": "href=\"/services/proactive-risk-management\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 661,
+    "text": "onNavigate(\"/services/proactive-risk-management\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 692,
+    "text": "href=\"/about\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 695,
+    "text": "onNavigate(\"/about\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 704,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 707,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 716,
+    "text": "href=\"/about/national-cyber-security-strategy\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 719,
+    "text": "onNavigate(\"/about/national-cyber-security-strategy\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 728,
+    "text": "href=\"/contact\""
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 731,
+    "text": "onNavigate(\"/contact\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 903,
+    "text": "<a href=\"#main-content\" className=\"govuk-skip-link\" data-module=\"govuk-skip-link\">"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 952,
+    "text": "return <StatisticsPage onNavigateHome={() => navigateTo(\"/\")} />;"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 956,
+    "text": "onNavigateHome={() => navigateTo(\"/\")}"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 957,
+    "text": "onNavigateToDetail={(idOrSlug) => navigateTo(`/advisories/${idOrSlug}`)}"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 966,
+    "text": "navigateTo(preservedUrl || \"/advisories\");"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 999,
+    "text": "onNavigateToAdvisories={() => navigateTo(\"/advisories\")}"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 1000,
+    "text": "onNavigateToDetail={(idOrSlug) => navigateTo(`/advisories/${idOrSlug}`)}"
+  },
+  {
+    "file": "src/App.tsx",
+    "line": 1005,
+    "text": "<IncidentStatisticsSection onNavigateToStatistics={() => navigateTo(\"/statistics\")} />"
+  },
+  {
+    "file": "src/components/AdvisoryContentRenderer.tsx",
+    "line": 64,
+    "text": "return `<a href=\"${href}\" ${attrs}>${linkText}</a>`;"
+  },
+  {
+    "file": "src/components/AdvisoryContentRenderer.tsx",
+    "line": 77,
+    "text": "return `<a href=\"${href}\" ${attrs}>${linkText}</a>`;"
+  },
+  {
+    "file": "src/components/AdvisoryContentRenderer.tsx",
+    "line": 80,
+    "text": "return `<a href=\"${href}\" ${attrs}>${linkText} <span class=\"govuk-visually-hidden\">(opens in new tab)</span></a>`;"
+  },
+  {
+    "file": "src/components/AdvisoryContentRenderer.tsx",
+    "line": 243,
+    "text": "href={ref.url}"
+  },
+  {
+    "file": "src/components/Breadcrumbs.tsx",
+    "line": 37,
+    "text": "href={item.path || \"/\"}"
+  },
+  {
+    "file": "src/components/Breadcrumbs.tsx",
+    "line": 43,
+    "text": "onNavigate(item.path);"
+  },
+  {
+    "file": "src/components/HomeAdvisoriesSection.tsx",
+    "line": 109,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/components/HomeAdvisoriesSection.tsx",
+    "line": 126,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/components/HomeAdvisoriesSection.tsx",
+    "line": 149,
+    "text": "href={`/advisories/${targetSlug}`}"
+  },
+  {
+    "file": "src/components/HomeAdvisoriesSection.tsx",
+    "line": 188,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/components/HomeAdvisoriesSection.tsx",
+    "line": 202,
+    "text": "<a href=\"#contact\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/components/PageNavigation.tsx",
+    "line": 82,
+    "text": "href={`#${item.id}`}"
+  },
+  {
+    "file": "src/components/TtcsirtNavigation.tsx",
+    "line": 171,
+    "text": "onNavigate(href);"
+  },
+  {
+    "file": "src/components/TtcsirtNavigation.tsx",
+    "line": 233,
+    "text": "href={item.href}"
+  },
+  {
+    "file": "src/components/TtcsirtNavigation.tsx",
+    "line": 270,
+    "text": "href={item.href}"
+  },
+  {
+    "file": "src/components/TtcsirtNavigation.tsx",
+    "line": 338,
+    "text": "href={child.href}"
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 155,
+    "text": "href=\"/about/national-cyber-security-strategy\""
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 159,
+    "text": "onNavigate(\"/about/national-cyber-security-strategy\");"
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 195,
+    "text": "href=\"/about/national-cyber-security-strategy\""
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 199,
+    "text": "onNavigate(\"/about/national-cyber-security-strategy\");"
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 207,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 211,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 219,
+    "text": "href=\"/statistics\""
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 223,
+    "text": "onNavigate(\"/statistics\");"
+  },
+  {
+    "file": "src/pages/AboutPage.tsx",
+    "line": 250,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 671,
+    "text": "href={`/advisories/${targetSlug}`}"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 728,
+    "text": "href={`/advisories?page=${safeCurrentPage - 1}`}"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 771,
+    "text": "href={`/advisories?page=${pageNum}`}"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 792,
+    "text": "href={`/advisories?page=${safeCurrentPage + 1}`}"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 833,
+    "text": "<a href=\"#contact\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 854,
+    "text": "<a href=\"tel:+18686257937\" className=\"govuk-link govuk-body\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 863,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link govuk-body\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 869,
+    "text": "<a href=\"#report\" className=\"govuk-link govuk-!-font-weight-bold\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 884,
+    "text": "<a href=\"https://ttcsirt.gov.tt/category/security-advisories/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 890,
+    "text": "<a href=\"https://ttcsirt.gov.tt/guidance/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/AdvisoriesPage.tsx",
+    "line": 896,
+    "text": "<a href=\"https://ttcsirt.gov.tt/national-cyber-security-strategy/\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 189,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 357,
+    "text": "href={advisory.url}"
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 400,
+    "text": "<a href=\"tel:+18686257937\" className=\"govuk-link govuk-body\">"
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 408,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link govuk-body\">"
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 413,
+    "text": "<a href=\"https://ttcsirt.gov.tt/report-an-incident/\" className=\"govuk-link govuk-!-font-weight-bold\">"
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 428,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 437,
+    "text": "href=\"https://ttcsirt.gov.tt/category/security-advisories/\""
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 448,
+    "text": "href=\"https://ttcsirt.gov.tt/guidance/\""
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 459,
+    "text": "href=\"https://ttcsirt.gov.tt/national-cyber-security-strategy/\""
+  },
+  {
+    "file": "src/pages/AdvisoryDetailPage.tsx",
+    "line": 474,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/ContactPage.tsx",
+    "line": 55,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/ContactPage.tsx",
+    "line": 111,
+    "text": "<a href=\"mailto:cybercrime@ttps.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 17,
+    "text": "href=\"/news-events\""
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 21,
+    "text": "onNavigate(\"/news-events\");"
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 41,
+    "text": "href=\"/news-events\""
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 45,
+    "text": "onNavigate(\"/news-events\");"
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 90,
+    "text": "href={backHref}"
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 94,
+    "text": "onNavigate(backHref);"
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 218,
+    "text": "<a href={`mailto:${item.contactEmail || \"contacts@ttcsirt.gov.tt\"}`} className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 229,
+    "text": "href=\"/news-events\""
+  },
+  {
+    "file": "src/pages/EditorialDetailPage.tsx",
+    "line": 233,
+    "text": "onNavigate(\"/news-events\");"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 23,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 27,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 47,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 51,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 81,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 85,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 288,
+    "text": "<a href=\"tel:+18686257937\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 295,
+    "text": "href={article.whenToReport.reportLinkHref || \"/services/incident-response\"}"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 301,
+    "text": "onNavigate(article.whenToReport.reportLinkHref || \"/services/incident-response\");"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 330,
+    "text": "href={`/guidance/${rel.slug}`}"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 334,
+    "text": "onNavigate(`/guidance/${rel.slug}`);"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 345,
+    "text": "href={`/guidance/${rel.slug}`}"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 349,
+    "text": "onNavigate(`/guidance/${rel.slug}`);"
+  },
+  {
+    "file": "src/pages/GuidanceDetailPage.tsx",
+    "line": 379,
+    "text": "href={src.url}"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 34,
+    "text": "href={`/guidance/${item.slug}`}"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 38,
+    "text": "onNavigate(`/guidance/${item.slug}`);"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 71,
+    "text": "href={`/guidance/${item.slug}`}"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 75,
+    "text": "onNavigate(`/guidance/${item.slug}`);"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 139,
+    "text": "<a href=\"#individuals-families\" className=\"govuk-link gem-c-cards__link\">"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 155,
+    "text": "<a href=\"#organisations-businesses\" className=\"govuk-link gem-c-cards__link\">"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 171,
+    "text": "<a href=\"#government-cni\" className=\"govuk-link gem-c-cards__link\">"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 187,
+    "text": "<a href=\"#technical-standards\" className=\"govuk-link gem-c-cards__link\">"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 309,
+    "text": "<a href=\"tel:+18686257937\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 313,
+    "text": "<a href=\"tel:+18682998827\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 322,
+    "text": "href=\"/services/incident-response\""
+  },
+  {
+    "file": "src/pages/GuidanceHubPage.tsx",
+    "line": 328,
+    "text": "onNavigate(\"/services/incident-response\");"
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 155,
+    "text": "<a href=\"mailto:cybercrime@ttps.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 228,
+    "text": "href=\"/guidance/ransomware-response-guide\""
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 232,
+    "text": "onNavigate(\"/guidance/ransomware-response-guide\");"
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 240,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 244,
+    "text": "onNavigate(\"/advisories\");"
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 252,
+    "text": "href=\"/statistics\""
+  },
+  {
+    "file": "src/pages/IncidentResponsePage.tsx",
+    "line": 256,
+    "text": "onNavigate(\"/statistics\");"
+  },
+  {
+    "file": "src/pages/NationalStrategyPage.tsx",
+    "line": 161,
+    "text": "href=\"/documents/national-cyber-security-strategy-2012.pdf\""
+  },
+  {
+    "file": "src/pages/NationalStrategyPage.tsx",
+    "line": 172,
+    "text": "href=\"/about\""
+  },
+  {
+    "file": "src/pages/NationalStrategyPage.tsx",
+    "line": 176,
+    "text": "onNavigate(\"/about\");"
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 65,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 69,
+    "text": "onNavigate(\"/advisories\");"
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 157,
+    "text": "href={canonicalUrl}"
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 161,
+    "text": "onNavigate(canonicalUrl);"
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 172,
+    "text": "href={canonicalUrl}"
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 176,
+    "text": "onNavigate(canonicalUrl);"
+  },
+  {
+    "file": "src/pages/NewsEventsPage.tsx",
+    "line": 200,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/ProactiveRiskManagementPage.tsx",
+    "line": 54,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/ProactiveRiskManagementPage.tsx",
+    "line": 58,
+    "text": "onNavigate(\"/advisories\");"
+  },
+  {
+    "file": "src/pages/ProactiveRiskManagementPage.tsx",
+    "line": 88,
+    "text": "href=\"/training\""
+  },
+  {
+    "file": "src/pages/ProactiveRiskManagementPage.tsx",
+    "line": 92,
+    "text": "onNavigate(\"/training\");"
+  },
+  {
+    "file": "src/pages/ProactiveRiskManagementPage.tsx",
+    "line": 165,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 39,
+    "text": "onNavigate(`/search?q=${encodeURIComponent(trimmed)}`);"
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 112,
+    "text": "href=\"#\""
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 129,
+    "text": "href=\"#\""
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 152,
+    "text": "href=\"/services\""
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 156,
+    "text": "onNavigate(\"/services\");"
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 164,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 168,
+    "text": "onNavigate(\"/advisories\");"
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 176,
+    "text": "href=\"/guidance\""
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 180,
+    "text": "onNavigate(\"/guidance\");"
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 215,
+    "text": "href={doc.href}"
+  },
+  {
+    "file": "src/pages/SearchPage.tsx",
+    "line": 219,
+    "text": "onNavigate(doc.href);"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 58,
+    "text": "href=\"/services/incident-response\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 62,
+    "text": "onNavigate(\"/services/incident-response\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 81,
+    "text": "href=\"/services/proactive-risk-management\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 85,
+    "text": "onNavigate(\"/services/proactive-risk-management\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 115,
+    "text": "href=\"/training\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 119,
+    "text": "onNavigate(\"/training\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 141,
+    "text": "href=\"/advisories\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 145,
+    "text": "onNavigate(\"/advisories\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 176,
+    "text": "href=\"/guidance/ransomware-response-guide\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 180,
+    "text": "onNavigate(\"/guidance/ransomware-response-guide\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 188,
+    "text": "href=\"/statistics\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 192,
+    "text": "onNavigate(\"/statistics\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 200,
+    "text": "href=\"/about\""
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 204,
+    "text": "onNavigate(\"/about\");"
+  },
+  {
+    "file": "src/pages/ServicesHubPage.tsx",
+    "line": 228,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/StatisticsPage.tsx",
+    "line": 125,
+    "text": "<a href=\"mailto:contactus@ttcsirt.gov.tt\" className=\"govuk-link\">contactus@ttcsirt.gov.tt</a>."
+  },
+  {
+    "file": "src/pages/StatisticsPage.tsx",
+    "line": 131,
+    "text": "href=\"/\""
+  },
+  {
+    "file": "src/pages/StatisticsPage.tsx",
+    "line": 328,
+    "text": "<a href={res.href} className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/StatisticsPage.tsx",
+    "line": 644,
+    "text": "href={`/guidance/${mapping.relevantGuidanceSlugs[0]}`}"
+  },
+  {
+    "file": "src/pages/StatisticsPage.tsx",
+    "line": 656,
+    "text": "<a href={`/guidance/${slug}`} className=\"govuk-link\">"
+  },
+  {
+    "file": "src/pages/StatisticsPage.tsx",
+    "line": 1019,
+    "text": "href=\"/\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 64,
+    "text": "href=\"/training/school-education-program-outreach\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 68,
+    "text": "onNavigate(\"/training/school-education-program-outreach\");"
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 94,
+    "text": "href=\"/training/cyber-paths-training-program\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 98,
+    "text": "onNavigate(\"/training/cyber-paths-training-program\");"
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 124,
+    "text": "href=\"/events/oas-cyber-challenge-trinidad-and-tobago-2026\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 128,
+    "text": "onNavigate(\"/events/oas-cyber-challenge-trinidad-and-tobago-2026\");"
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 154,
+    "text": "href=\"/events/shesecures-trinidad-and-tobago\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 158,
+    "text": "onNavigate(\"/events/shesecures-trinidad-and-tobago\");"
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 179,
+    "text": "href=\"/news/tabletop-exercises-enhancing-national-resilience\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 183,
+    "text": "onNavigate(\"/news/tabletop-exercises-enhancing-national-resilience\");"
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 195,
+    "text": "href=\"/events/cyber-threat-intelligence-crisis-communication-workshop\""
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 199,
+    "text": "onNavigate(\"/events/cyber-threat-intelligence-crisis-communication-workshop\");"
+  },
+  {
+    "file": "src/pages/TrainingPage.tsx",
+    "line": 226,
+    "text": "<a href=\"mailto:contacts@ttcsirt.gov.tt\" className=\"govuk-link\">"
+  }
+]

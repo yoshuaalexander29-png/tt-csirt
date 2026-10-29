@@ -1,0 +1,84 @@
+{
+  "id": "5056",
+  "legacyPostId": 5056,
+  "referenceNumber": "TT-CSIRT 397.27.09.21",
+  "classification": "advisory",
+  "title": "VMware vCenter server vulnerability under active exploit",
+  "rawTitle": "TT-CSIRT-397.27.09.21: TTCSIRT ADVISORY – VMware vCenter Server Vulnerability Under Active Exploit",
+  "slug": "tt-csirt-397-27-09-21ttcsirt-advisory-vmware-vcenter-server-vulnerability-under-active-exploit",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has disclosed that its vCenter Server is affected by an arbitrary file upload vulnerability—CVE-2021-22005—in the Analytics service. A malicious cyber actor with network access to port 443 can exploit this vulnerability to execute code on vCenter Server.",
+  "cveList": [
+    "CVE-2021-22005"
+  ],
+  "date": "6 October 2021",
+  "rawDate": "2021-10-06T11:01:37",
+  "modifiedDate": "6 October 2021",
+  "rawModifiedDate": "2021-10-06T11:01:37",
+  "contentHtml": "<p>VMware has disclosed that its vCenter Server is affected by an arbitrary file upload vulnerability—CVE-2021-22005—in the Analytics service. A malicious cyber actor with network access to port 443 can exploit this vulnerability to execute code on vCenter Server.</p>\n<p>VMware confirmed reports that CVE-2021-22005 is being exploited in the wild. Security researchers are also reporting mass scanning for vulnerable vCenter Servers and publicly available exploit code. Due to the availability of exploit code, CISA expects widespread exploitation of this vulnerability.</p>\n<p>To mitigate CVE-2021-22005, CISA strongly urges critical infrastructure entities and other organizations with affected vCenter Server versions to take the following actions.</p>\n<ul>\n<li>Upgrade to a fixed version as quickly as possible. See VMware Security Advisory <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=dbec652674&amp;e=b82e9eb1c0\">VMSA-2021-0020</a> for patching information.</li>\n<li>Apply the temporary workaround provided by VMware, if unable to upgrade to a fixed version immediately.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Please also review the corrective actions recommended by <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=761766eed4&amp;e=b82e9eb1c0\">CISA</a>.</strong></p>\n",
+  "displaySummary": "VMware has disclosed that its vCenter Server is affected by an arbitrary file upload vulnerability—CVE-2021-22005—in the Analytics service.",
+  "sourceExcerpt": "<p>VMware has disclosed that its vCenter Server is affected by an arbitrary file upload vulnerability—CVE-2021-22005—in the Analytics service. A malicious cyber actor with network access to port 443 can exploit this vulnerability to execute code on vCenter Server. VMware confirmed reports that CVE-2021-22005 is being exploited in the wild. Security researchers are also reporting mass [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-397-27-09-21ttcsirt-advisory-vmware-vcenter-server-vulnerability-under-active-exploit/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has disclosed that its vCenter Server is affected by an arbitrary file upload vulnerability—CVE-2021-22005—in the Analytics service. A malicious cyber actor with network access to port 443 can exploit this vulnerability to execute code on vCenter Server.</p>",
+          "text": "VMware has disclosed that its vCenter Server is affected by an arbitrary file upload vulnerability—CVE-2021-22005—in the Analytics service. A malicious cyber actor with network access to port 443 can exploit this vulnerability to execute code on vCenter Server."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>VMware confirmed reports that CVE-2021-22005 is being exploited in the wild. Security researchers are also reporting mass scanning for vulnerable vCenter Servers and publicly available exploit code. Due to the availability of exploit code, CISA expects widespread exploitation of this vulnerability.</p>",
+          "text": "VMware confirmed reports that CVE-2021-22005 is being exploited in the wild. Security researchers are also reporting mass scanning for vulnerable vCenter Servers and publicly available exploit code. Due to the availability of exploit code, CISA expects widespread exploitation of this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To mitigate CVE-2021-22005, CISA strongly urges critical infrastructure entities and other organizations with affected vCenter Server versions to take the following actions.</p>",
+          "text": "To mitigate CVE-2021-22005, CISA strongly urges critical infrastructure entities and other organizations with affected vCenter Server versions to take the following actions."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Upgrade to a fixed version as quickly as possible. See VMware Security Advisory <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=dbec652674&amp;e=b82e9eb1c0\">VMSA-2021-0020</a> for patching information.</li>\n<li>Apply the temporary workaround provided by VMware, if unable to upgrade to a fixed version immediately.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Please also review the corrective actions recommended by <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=761766eed4&amp;e=b82e9eb1c0\">CISA</a>.</strong></p>",
+          "text": "Please also review the corrective actions recommended by CISA ."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-397-27-09-21ttcsirt-advisory-vmware-vcenter-server-vulnerability-under-active-exploit/",
+    "upstreamDisclosedAt": "2021-10-06T11:01:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

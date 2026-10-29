@@ -1,0 +1,135 @@
+{
+  "id": "3821",
+  "legacyPostId": 3821,
+  "referenceNumber": "TT-CSIRT #232",
+  "classification": "advisory",
+  "title": "VPN security updates",
+  "rawTitle": "TTCSIRT-232.100719: TT-CSIRT ADVISORY – VPN SECURITY UPDATES",
+  "slug": "ttcsirt-232-100719-tt-csirt-advisory-vpn-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The United Kingdom (UK) National Cyber Security Centre (NCSC) has released an alert on advanced persistent threat (APT) actors exploiting vulnerabilities in Virtual Private Network (VPN) applications. Affected applications include those by Fortinet, Palo Alto and Pulse Secure .",
+  "cveList": [],
+  "date": "7 October 2019",
+  "rawDate": "2019-10-07T08:03:44",
+  "modifiedDate": "7 October 2019",
+  "rawModifiedDate": "2019-10-07T08:03:44",
+  "contentHtml": "<p>The United Kingdom (UK) National Cyber Security Centre (NCSC) has released an alert on advanced persistent threat (APT) actors exploiting vulnerabilities in Virtual Private Network (VPN) applications. Affected applications include those by <strong>Fortinet, Palo Alto and Pulse Secure</strong>.</p>\n<p>TTCSIRT encourages users and administrators to read the NCSC alert for more information and see the following advisories from the respective companies and apply the recommended solutions:</p>\n<p><strong>NCSC Alert</strong></p>\n<ul>\n<li><a href=\"https://www.ncsc.gov.uk/news/alert-vpn-vulnerabilities\"><em>https://www.ncsc.gov.uk/news/alert-vpn-vulnerabilities</em></a></li>\n</ul>\n<p><strong>Fortinet</strong></p>\n<ul>\n<li><em><a href=\"https://fortiguard.com/psirt/FG-IR-18-384\" target=\"_blank\" rel=\"noopener\"> FG-IR-18-384 </a></em></li>\n<li><em><a href=\"https://fortiguard.com/psirt/FG-IR-18-388\" target=\"_blank\" rel=\"noopener\">FG-IR-18-388</a></em></li>\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-18-389\" target=\"_blank\" rel=\"noopener\"><em>FG-IR-18-389</em></a></li>\n</ul>\n<p><strong>Palo Alto</strong></p>\n<ul>\n<li><a href=\"https://securityadvisories.paloaltonetworks.com/(X(1)S(klphdezgerjfyhnvfqkwlgqu))/Home/Detail/158?AspxAutoDetectCookieSupport=1\" target=\"_blank\" rel=\"noopener\"><em>PAN-SA-2019-0020</em></a></li>\n</ul>\n<p><strong>Pulse Secure</strong></p>\n<ul>\n<li><em><a href=\"https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44101\" target=\"_blank\" rel=\"noopener\">SA44101</a></em></li>\n</ul>\n<p>&nbsp;</p>\n",
+  "displaySummary": "The United Kingdom (UK) National Cyber Security Centre (NCSC) has released an alert on advanced persistent threat (APT) actors exploiting vulnerabilities in Virtual Private Network (VPN) applications.",
+  "sourceExcerpt": "<p>The United Kingdom (UK) National Cyber Security Centre (NCSC) has released an alert on advanced persistent threat (APT) actors exploiting vulnerabilities in Virtual Private Network (VPN) applications. Affected applications include those by Fortinet, Palo Alto and Pulse Secure. TTCSIRT encourages users and administrators to read the NCSC alert for more information and see the following [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-232-100719-tt-csirt-advisory-vpn-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The United Kingdom (UK) National Cyber Security Centre (NCSC) has released an alert on advanced persistent threat (APT) actors exploiting vulnerabilities in Virtual Private Network (VPN) applications. Affected applications include those by <strong>Fortinet, Palo Alto and Pulse Secure</strong>.</p>",
+          "text": "The United Kingdom (UK) National Cyber Security Centre (NCSC) has released an alert on advanced persistent threat (APT) actors exploiting vulnerabilities in Virtual Private Network (VPN) applications. Affected applications include those by Fortinet, Palo Alto and Pulse Secure ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to read the NCSC alert for more information and see the following advisories from the respective companies and apply the recommended solutions:</p>",
+          "text": "TTCSIRT encourages users and administrators to read the NCSC alert for more information and see the following advisories from the respective companies and apply the recommended solutions:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Ncsc alert",
+          "id": "ncsc-alert"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://www.ncsc.gov.uk/news/alert-vpn-vulnerabilities\"><em>https://www.ncsc.gov.uk/news/alert-vpn-vulnerabilities</em></a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Fortinet",
+          "id": "fortinet"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><em><a href=\"https://fortiguard.com/psirt/FG-IR-18-384\" target=\"_blank\" rel=\"noopener\"> FG-IR-18-384 </a></em></li>\n<li><em><a href=\"https://fortiguard.com/psirt/FG-IR-18-388\" target=\"_blank\" rel=\"noopener\">FG-IR-18-388</a></em></li>\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-18-389\" target=\"_blank\" rel=\"noopener\"><em>FG-IR-18-389</em></a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Palo Alto",
+          "id": "palo-alto"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://securityadvisories.paloaltonetworks.com/(X(1)S(klphdezgerjfyhnvfqkwlgqu))/Home/Detail/158?AspxAutoDetectCookieSupport=1\" target=\"_blank\" rel=\"noopener\"><em>PAN-SA-2019-0020</em></a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Pulse secure",
+          "id": "pulse-secure"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><em><a href=\"https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44101\" target=\"_blank\" rel=\"noopener\">SA44101</a></em></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "ncsc-alert",
+      "label": "Ncsc alert",
+      "isSubItem": true
+    },
+    {
+      "id": "fortinet",
+      "label": "Fortinet",
+      "isSubItem": true
+    },
+    {
+      "id": "palo-alto",
+      "label": "Palo Alto",
+      "isSubItem": true
+    },
+    {
+      "id": "pulse-secure",
+      "label": "Pulse secure",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.ncsc.gov.uk/news/alert-vpn-vulnerabilities",
+    "https://fortiguard.com/psirt/FG-IR-18-384",
+    "https://fortiguard.com/psirt/FG-IR-18-388",
+    "https://fortiguard.com/psirt/FG-IR-18-389",
+    "https://securityadvisories.paloaltonetworks.com/(X(1)S(klphdezgerjfyhnvfqkwlgqu))/Home/Detail/158?AspxAutoDetectCookieSupport=1",
+    "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44101"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-232-100719-tt-csirt-advisory-vpn-security-updates/",
+    "upstreamDisclosedAt": "2019-10-07T08:03:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

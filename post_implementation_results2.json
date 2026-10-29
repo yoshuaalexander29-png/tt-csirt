@@ -1,0 +1,72 @@
+{
+  "375x812": {
+    "orientation": "Portrait",
+    "metrics": {
+      "lastStatElementBottom": 4721.28125,
+      "gridRowBottom": 4721.28125,
+      "headingTop": 4736.28125,
+      "effectiveGap": 15,
+      "gridToHeadingGap": 15
+    }
+  },
+  "812x375": {
+    "orientation": "Landscape",
+    "metrics": {
+      "lastStatElementBottom": 4145.09375,
+      "gridRowBottom": 4165.09375,
+      "headingTop": 4165.09375,
+      "effectiveGap": 20,
+      "gridToHeadingGap": 0
+    }
+  },
+  "414x896": {
+    "orientation": "Portrait",
+    "metrics": {
+      "lastStatElementBottom": 4444.28125,
+      "gridRowBottom": 4444.28125,
+      "headingTop": 4459.28125,
+      "effectiveGap": 15,
+      "gridToHeadingGap": 15
+    }
+  },
+  "896x414": {
+    "orientation": "Landscape",
+    "metrics": {
+      "lastStatElementBottom": 3933.09375,
+      "gridRowBottom": 3953.09375,
+      "headingTop": 3953.09375,
+      "effectiveGap": 20,
+      "gridToHeadingGap": 0
+    }
+  },
+  "768x1024": {
+    "orientation": "Tablet",
+    "metrics": {
+      "lastStatElementBottom": 4334.09375,
+      "gridRowBottom": 4354.09375,
+      "headingTop": 4354.09375,
+      "effectiveGap": 20,
+      "gridToHeadingGap": 0
+    }
+  },
+  "1024x768": {
+    "orientation": "Landscape/tablet",
+    "metrics": {
+      "lastStatElementBottom": 3753.09375,
+      "gridRowBottom": 3798.09375,
+      "headingTop": 3798.09375,
+      "effectiveGap": 45,
+      "gridToHeadingGap": 0
+    }
+  },
+  "1280x800": {
+    "orientation": "Desktop",
+    "metrics": {
+      "lastStatElementBottom": 3753.09375,
+      "gridRowBottom": 3798.09375,
+      "headingTop": 3798.09375,
+      "effectiveGap": 45,
+      "gridToHeadingGap": 0
+    }
+  }
+}

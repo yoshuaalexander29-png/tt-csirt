@@ -1,0 +1,75 @@
+{
+  "id": "5236",
+  "legacyPostId": 5236,
+  "referenceNumber": "TT-CSIRT 404.27.06.22",
+  "classification": "advisory",
+  "title": "Cisco email security vulnerabilities",
+  "rawTitle": "TT-CSIRT-404.27.06.22: Cisco Email Security Vulnerabilities",
+  "slug": "tt-csirt-404-27-06-22-cisco-email-security-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities in Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager. Exploitation of this vulnerability could allow for an unauthenticated attacker to gain unauthorized access to the web-based management interface of the affected device.",
+  "cveList": [],
+  "date": "27 June 2022",
+  "rawDate": "2022-06-27T10:24:21",
+  "modifiedDate": "27 June 2022",
+  "rawModifiedDate": "2022-06-27T10:24:21",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released security updates to address vulnerabilities in Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager. Exploitation of this vulnerability could allow for an unauthenticated attacker to gain unauthorized access to the web-based management interface of the affected device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly encourages administrators to review the following releases from Cisco and apply the necessary workarounds/updates immediately:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-esa-auth-bypass-66kEcxQD\">External Authentication Bypass Vulnerability</a></li><li><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esasma-info-dsc-Q9tLuOvM\">Information Disclosure Vulnerability</a></li></ul>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities in Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities in Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager. Exploitation of this vulnerability could allow for an unauthenticated attacker to gain unauthorized access to the web-based management interface of the affected device. TT-CSIRT strongly encourages administrators to review the following releases from Cisco [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-404-27-06-22-cisco-email-security-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities in Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager. Exploitation of this vulnerability could allow for an unauthenticated attacker to gain unauthorized access to the web-based management interface of the affected device.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities in Cisco Email Security Appliance (ESA) and Cisco Secure Email and Web Manager. Exploitation of this vulnerability could allow for an unauthenticated attacker to gain unauthorized access to the web-based management interface of the affected device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT strongly encourages administrators to review the following releases from Cisco and apply the necessary workarounds/updates immediately:</p>",
+          "text": "TT-CSIRT strongly encourages administrators to review the following releases from Cisco and apply the necessary workarounds/updates immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-esa-auth-bypass-66kEcxQD\">External Authentication Bypass Vulnerability</a></li><li><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esasma-info-dsc-Q9tLuOvM\">Information Disclosure Vulnerability</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sma-esa-auth-bypass-66kEcxQD",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esasma-info-dsc-Q9tLuOvM"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-404-27-06-22-cisco-email-security-vulnerabilities/",
+    "upstreamDisclosedAt": "2022-06-27T10:24:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

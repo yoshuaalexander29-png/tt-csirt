@@ -1,0 +1,87 @@
+{
+  "id": "2982",
+  "legacyPostId": 2982,
+  "referenceNumber": "TT-CSIRT #043",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-043.092117: TT-CSIRT Advisory – CISCO Security Updates",
+  "slug": "ttcsirt-042-092117-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released updates to address vulnerabilities affecting the following products:",
+  "cveList": [],
+  "date": "21 September 2017",
+  "rawDate": "2017-09-21T10:38:25",
+  "modifiedDate": "21 September 2017",
+  "rawModifiedDate": "2017-09-21T10:38:25",
+  "contentHtml": "<p>Cisco has released updates to address vulnerabilities affecting the following products:</p>\n<p>a) Unified Customer Voice Portal Operations Console &#8211; a vulnerability in the Operations, Administration, Maintenance, and Provisioning (OAMP) credential reset functionality could allow an authenticated, remote attacker to gain elevated privileges. The vulnerability is due to a lack of proper input validation. </p>\n<p>b) Cisco Email Security Appliance &#8211; a vulnerability in the email message filtering feature of Cisco AsyncOS Software could allow an unauthenticated, remote attacker to cause an affected device to run out of memory and stop scanning and forwarding email messages. When system memory is depleted, it can cause the filtering process to crash, resulting in a denial of service (DoS) condition on the device.</p>\n<p>c) Cisco Small Business Managed Switches &#8211; a vulnerability in the Secure Shell (SSH) subsystem could allow an authenticated, remote attacker to cause a reload of the affected switch, resulting in a denial of service (DoS) condition. The vulnerability is due to improper processing of SSH connections.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found on the CISCO Website via the following URLs &#8211;<br />\n<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-cvp\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-cvp</font></a> <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-esa\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-esa</font></a> <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-sbms\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-sbms</font></a></p>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released updates to address vulnerabilities affecting the following products: a) Unified Customer Voice Portal Operations Console &#8211; a vulnerability in the Operations,…",
+  "sourceExcerpt": "<p>Cisco has released updates to address vulnerabilities affecting the following products: a) Unified Customer Voice Portal Operations Console &#8211; a vulnerability in the Operations, Administration, Maintenance, and Provisioning (OAMP) credential reset functionality could allow an authenticated, remote attacker to gain elevated privileges. The vulnerability is due to a lack of proper input validation. b) Cisco [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-042-092117-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released updates to address vulnerabilities affecting the following products:</p>",
+          "text": "Cisco has released updates to address vulnerabilities affecting the following products:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Unified Customer Voice Portal Operations Console &#8211; a vulnerability in the Operations, Administration, Maintenance, and Provisioning (OAMP) credential reset functionality could allow an authenticated, remote attacker to gain elevated privileges. The vulnerability is due to a lack of proper input validation.</p>",
+          "text": "a) Unified Customer Voice Portal Operations Console – a vulnerability in the Operations, Administration, Maintenance, and Provisioning (OAMP) credential reset functionality could allow an authenticated, remote attacker to gain elevated privileges. The vulnerability is due to a lack of proper input validation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Cisco Email Security Appliance &#8211; a vulnerability in the email message filtering feature of Cisco AsyncOS Software could allow an unauthenticated, remote attacker to cause an affected device to run out of memory and stop scanning and forwarding email messages. When system memory is depleted, it can cause the filtering process to crash, resulting in a denial of service (DoS) condition on the device.</p>",
+          "text": "b) Cisco Email Security Appliance – a vulnerability in the email message filtering feature of Cisco AsyncOS Software could allow an unauthenticated, remote attacker to cause an affected device to run out of memory and stop scanning and forwarding email messages. When system memory is depleted, it can cause the filtering process to crash, resulting in a denial of service (DoS) condition on the device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Cisco Small Business Managed Switches &#8211; a vulnerability in the Secure Shell (SSH) subsystem could allow an authenticated, remote attacker to cause a reload of the affected switch, resulting in a denial of service (DoS) condition. The vulnerability is due to improper processing of SSH connections.</p>",
+          "text": "c) Cisco Small Business Managed Switches – a vulnerability in the Secure Shell (SSH) subsystem could allow an authenticated, remote attacker to cause a reload of the affected switch, resulting in a denial of service (DoS) condition. The vulnerability is due to improper processing of SSH connections."
+        },
+        {
+          "type": "paragraph",
+          "html": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-cvp",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-esa",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170920-sbms"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-042-092117-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2017-09-21T10:38:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

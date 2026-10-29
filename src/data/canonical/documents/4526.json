@@ -1,0 +1,80 @@
+{
+  "id": "4526",
+  "legacyPostId": 4526,
+  "referenceNumber": "TT-CSIRT 318.06.24.20",
+  "classification": "advisory",
+  "title": "VMware ESXi, workstation and fusion vulnerabilities",
+  "rawTitle": "TTCSIRT-318.06.24.20: TT-CSIRT ADVISORY –  VMWARE ESXI, WORKSTATION AND FUSION VULNERABILITIES",
+  "slug": "ttcsirt-318-06-24-20-tt-csirt-advisory-vmware-esxi-workstation-and-fusion-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities exist in VMware ESXi, Workstation and Fusion. A malicious actor with local access to a virtual machine with 3D graphics enabled may be able to exploit this vulnerability to execute code on the hypervisor from a virtual machine.",
+  "cveList": [],
+  "date": "24 June 2020",
+  "rawDate": "2020-06-24T13:32:25",
+  "modifiedDate": "24 June 2020",
+  "rawModifiedDate": "2020-06-24T13:32:25",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Multiple vulnerabilities exist in VMware ESXi, Workstation and Fusion. A malicious actor with local access to a virtual machine with 3D graphics enabled may be able to exploit this vulnerability to execute code on the hypervisor from a virtual machine.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are however, workarounds, patches and updates available to remediate these vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the VMware link that follow for further review and apply the relevant workarounds, patches or updates:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0015.html\">https://www.vmware.com/security/advisories/VMSA-2020-0015.html</a></p>\n",
+  "displaySummary": "Multiple vulnerabilities exist in VMware ESXi, Workstation and Fusion.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities exist in VMware ESXi, Workstation and Fusion. A malicious actor with local access to a virtual machine with 3D graphics enabled may be able to exploit this vulnerability to execute code on the hypervisor from a virtual machine. There are however, workarounds, patches and updates available to remediate these vulnerabilities. The Trinidad and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-318-06-24-20-tt-csirt-advisory-vmware-esxi-workstation-and-fusion-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities exist in VMware ESXi, Workstation and Fusion. A malicious actor with local access to a virtual machine with 3D graphics enabled may be able to exploit this vulnerability to execute code on the hypervisor from a virtual machine.</p>",
+          "text": "Multiple vulnerabilities exist in VMware ESXi, Workstation and Fusion. A malicious actor with local access to a virtual machine with 3D graphics enabled may be able to exploit this vulnerability to execute code on the hypervisor from a virtual machine."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There are however, workarounds, patches and updates available to remediate these vulnerabilities.</p>",
+          "text": "There are however, workarounds, patches and updates available to remediate these vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the VMware link that follow for further review and apply the relevant workarounds, patches or updates:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the VMware link that follow for further review and apply the relevant workarounds, patches or updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0015.html\">https://www.vmware.com/security/advisories/VMSA-2020-0015.html</a></p>",
+          "text": "https://www.vmware.com/security/advisories/VMSA-2020-0015.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2020-0015.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-318-06-24-20-tt-csirt-advisory-vmware-esxi-workstation-and-fusion-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-06-24T13:32:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

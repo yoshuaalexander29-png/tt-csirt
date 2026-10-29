@@ -1,0 +1,75 @@
+{
+  "id": "3206",
+  "legacyPostId": 3206,
+  "referenceNumber": "TT-CSIRT #090",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-090.021618: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-090-021618-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has stated that it has released critical security updates for several of its products including:",
+  "cveList": [],
+  "date": "16 February 2018",
+  "rawDate": "2018-02-16T14:18:13",
+  "modifiedDate": "16 February 2018",
+  "rawModifiedDate": "2018-02-16T14:18:13",
+  "contentHtml": "<p>Microsoft has stated that it has released critical security updates for several of its products including:</p>\n<p>a) Microsoft Internet Explorer 9, 10, 11<br />\nb) Microsoft Edge<br />\nc) Microsoft Windows: 7, 8.1, RT 8.1, 10<br />\nd) Microsoft Windows Server: 2008, 2008 R2, 2012, 2012 R2, 2016<br />\ne) Microsoft Office Suite 2007<br />\nf) Microsoft Office 2010, 2013, 2016<br />\ng) Microsoft Word<br />\nh) Microsoft Outlook 2007, 2010, 2013, 2016<br />\ni) Microsoft Project Server 2013<br />\nj) Microsoft SharePoint Enterprise Server 2016<br />\nk) ChakraCore</p>\n<table>\n<tr>\n<td>Further information on these security releases can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/summary\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-us/security-guidance/summary</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has stated that it has released critical security updates for several of its products including: a) Microsoft Internet Explorer 9, 10, 11 b) Microsoft Edge c) Microsoft Windows: 7,…",
+  "sourceExcerpt": "<p>Microsoft has stated that it has released critical security updates for several of its products including: a) Microsoft Internet Explorer 9, 10, 11 b) Microsoft Edge c) Microsoft Windows: 7, 8.1, RT 8.1, 10 d) Microsoft Windows Server: 2008, 2008 R2, 2012, 2012 R2, 2016 e) Microsoft Office Suite 2007 f) Microsoft Office 2010, 2013, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-090-021618-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has stated that it has released critical security updates for several of its products including:</p>",
+          "text": "Microsoft has stated that it has released critical security updates for several of its products including:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Microsoft Internet Explorer 9, 10, 11<br />\nb) Microsoft Edge<br />\nc) Microsoft Windows: 7, 8.1, RT 8.1, 10<br />\nd) Microsoft Windows Server: 2008, 2008 R2, 2012, 2012 R2, 2016<br />\ne) Microsoft Office Suite 2007<br />\nf) Microsoft Office 2010, 2013, 2016<br />\ng) Microsoft Word<br />\nh) Microsoft Outlook 2007, 2010, 2013, 2016<br />\ni) Microsoft Project Server 2013<br />\nj) Microsoft SharePoint Enterprise Server 2016<br />\nk) ChakraCore</p>",
+          "text": "a) Microsoft Internet Explorer 9, 10, 11 b) Microsoft Edge c) Microsoft Windows: 7, 8.1, RT 8.1, 10 d) Microsoft Windows Server: 2008, 2008 R2, 2012, 2012 R2, 2016 e) Microsoft Office Suite 2007 f) Microsoft Office 2010, 2013, 2016 g) Microsoft Word h) Microsoft Outlook 2007, 2010, 2013, 2016 i) Microsoft Project Server 2013 j) Microsoft SharePoint Enterprise Server 2016 k) ChakraCore"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these security releases can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/summary\">https://portal.msrc.microsoft.com/en-us/security-guidance/summary</a></p>",
+          "text": "Further information on these security releases can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-us/security-guidance/summary"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/summary"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-090-021618-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-02-16T14:18:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

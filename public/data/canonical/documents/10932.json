@@ -1,0 +1,139 @@
+{
+  "id": "10932",
+  "legacyPostId": 10932,
+  "referenceNumber": "TT-CSIRT 454.17.04.26",
+  "classification": "advisory",
+  "title": "Microsoft SharePoint server 0-day spoofing vulnerability",
+  "rawTitle": "TT-CSIRT-454.17.04.26: Microsoft SharePoint Server Zero-Day Spoofing Vulnerability (CVE-2026-32201)",
+  "slug": "tt-csirt-454-17-04-26-microsoft-sharepoint-server-zero-day-spoofing-vulnerability-cve-2026-32201",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Medium (Elevated due to active exploitation) Overview: A zero-day vulnerability in Microsoft SharePoint Server allows attackers to perform spoofing attacks due to improper input validation. The vulnerability is actively being exploited and can allow unauthorized access to SharePoint environments. Affected Systems: Microsoft SharePoint Server SharePoint Server 2016 SharePoint Server 2019 SharePoint Subscription Edition Description: A spoofing vulnerability, tracked as CVE-2026-32201 , exists in Microsoft SharePoint Server due to improper validation of user-supplied input. This weakness allows attackers to craft malicious requests that bypass trust mechanisms and impersonate legitimate users or services. Successful exploitation does not require authentication and can be performed remotely. Attackers may leverage this vulnerability to gain unauthorized access to SharePoint resources, manipulate sensitive data, or facilitate further compromise within enterprise environments. Although the vulnerability has a CVSS score of 6.5 (Medium), its active exploitation in the wild significantly increases the associated risk . Recommendations:",
+  "cveList": [
+    "CVE-2026-32201"
+  ],
+  "date": "17 April 2026",
+  "rawDate": "2026-04-17T11:07:44",
+  "modifiedDate": "20 April 2026",
+  "rawModifiedDate": "2026-04-20T11:09:24",
+  "contentHtml": "\n<figure class=\"wp-block-table alignleft\"><table class=\"has-fixed-layout\"><tbody><tr><td class=\"has-text-align-left\" data-align=\"left\"><strong>Severity:</strong> Medium (Elevated due to active exploitation)<br><strong> </strong><br><strong>Overview:</strong><br>A zero-day vulnerability in Microsoft SharePoint Server allows attackers to perform spoofing attacks due to improper input validation. The vulnerability is actively being exploited and can allow unauthorized access to SharePoint environments.<br><strong> </strong><br><strong>Affected Systems:</strong><br>Microsoft SharePoint Server<br>SharePoint Server 2016<br>SharePoint Server 2019<br>SharePoint Subscription Edition<br><strong> </strong><br><strong>Description:</strong><br>A spoofing vulnerability, tracked as <strong>CVE-2026-32201</strong>, exists in Microsoft SharePoint Server due to improper validation of user-supplied input. This weakness allows attackers to craft malicious requests that bypass trust mechanisms and impersonate legitimate users or services.<br>Successful exploitation does not require authentication and can be performed remotely. Attackers may leverage this vulnerability to gain unauthorized access to SharePoint resources, manipulate sensitive data, or facilitate further compromise within enterprise environments.<br>Although the vulnerability has a CVSS score of 6.5 (Medium), its <strong>active exploitation in the wild significantly increases the associated risk</strong>.<br><strong> </strong><br><strong>Recommendations:</strong><br><strong>Immediate Update:</strong><br>Apply Microsoft security updates addressing CVE-2026-32201 immediately via the Microsoft Security Update Guide<br><strong>Access Restrictions:</strong><br>Limit external access to SharePoint services where possible<br>Restrict exposure of internet-facing instances<br><strong>Monitoring and Detection:</strong><br>Monitor logs for suspicious authentication attempts and anomalous requests<br>Investigate unusual access patterns or identity misuse<br><strong>Security Hardening:</strong><br>Implement Web Application Firewall (WAF) protections<br>Enforce Multi-Factor Authentication (MFA) across all users<br>Apply least privilege access controls<br><strong> </strong><br><strong>Exploitation Details:</strong><br>The vulnerability is associated with <strong>CWE-20 Improper Input Validation</strong>, where insufficient validation of input allows attackers to manipulate request data.<br>Attackers can exploit this flaw by crafting malicious network requests that bypass authentication and trust boundaries, enabling spoofing of legitimate users or services. This may be used as an entry point for further exploitation, including lateral movement within enterprise environments.<br><strong> </strong><br><strong>References:</strong><br>Microsoft Security Update Guide<br><a href=\"https://msrc.microsoft.com/update-guide/\">https://msrc.microsoft.com/update-guide/</a><br><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-32201?utm_source=chatgpt.com\">https://nvd.nist.gov/vuln/detail/CVE-2026-32201</a><br><a href=\"https://foresiet.com/blog/sharepoint-server-spoofing-vulnerability-cve-2026-32201/?utm_source=chatgpt.com\">https://foresiet.com/blog/sharepoint-server-spoofing-vulnerability-cve-2026-32201/</a><br><strong> </strong><br><strong>Contact Information:</strong><br>If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via <strong><a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong><br><strong> </strong><br><strong>Additional Information:</strong><br>Organizations should prioritize patching due to <strong>active exploitation</strong><br>Review SharePoint exposure and ensure systems are not unnecessarily internet-facing<br>Maintain regular patch management and vulnerability assessment processes<br> </td></tr></tbody></table></figure>\n",
+  "displaySummary": "Microsoft SharePoint Server allows attackers to perform spoofing attacks due to improper input validation.",
+  "sourceExcerpt": "<p>Severity: Medium (Elevated due to active exploitation) Overview:A zero-day vulnerability in Microsoft SharePoint Server allows attackers to perform spoofing attacks due to improper input validation. The vulnerability is actively being exploited and can allow unauthorized access to SharePoint environments. Affected Systems:Microsoft SharePoint ServerSharePoint Server 2016SharePoint Server 2019SharePoint Subscription Edition Description:A spoofing vulnerability, tracked as CVE-2026-32201, exists in Microsoft [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-454-17-04-26-microsoft-sharepoint-server-zero-day-spoofing-vulnerability-cve-2026-32201/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Severity",
+          "id": "severity"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Medium (Elevated due to active exploitation)<br><br><strong>Overview:</strong><br>A zero-day vulnerability in Microsoft SharePoint Server allows attackers to perform spoofing attacks due to improper input validation. The vulnerability is actively being exploited and can allow unauthorized access to SharePoint environments.<br><br><strong>Affected Systems:</strong><br>Microsoft SharePoint Server<br>SharePoint Server 2016<br>SharePoint Server 2019<br>SharePoint Subscription Edition<br><br><strong>Description:</strong><br>A spoofing vulnerability, tracked as <strong>CVE-2026-32201</strong>, exists in Microsoft SharePoint Server due to improper validation of user-supplied input. This weakness allows attackers to craft malicious requests that bypass trust mechanisms and impersonate legitimate users or services.<br>Successful exploitation does not require authentication and can be performed remotely. Attackers may leverage this vulnerability to gain unauthorized access to SharePoint resources, manipulate sensitive data, or facilitate further compromise within enterprise environments.<br>Although the vulnerability has a CVSS score of 6.5 (Medium), its <strong>active exploitation in the wild significantly increases the associated risk</strong>.<br><br><strong>Recommendations:</strong></p>",
+          "text": "Medium (Elevated due to active exploitation) Overview: A zero-day vulnerability in Microsoft SharePoint Server allows attackers to perform spoofing attacks due to improper input validation. The vulnerability is actively being exploited and can allow unauthorized access to SharePoint environments. Affected Systems: Microsoft SharePoint Server SharePoint Server 2016 SharePoint Server 2019 SharePoint Subscription Edition Description: A spoofing vulnerability, tracked as CVE-2026-32201 , exists in Microsoft SharePoint Server due to improper validation of user-supplied input. This weakness allows attackers to craft malicious requests that bypass trust mechanisms and impersonate legitimate users or services. Successful exploitation does not require authentication and can be performed remotely. Attackers may leverage this vulnerability to gain unauthorized access to SharePoint resources, manipulate sensitive data, or facilitate further compromise within enterprise environments. Although the vulnerability has a CVSS score of 6.5 (Medium), its active exploitation in the wild significantly increases the associated risk . Recommendations:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Immediate update",
+          "id": "immediate-update"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Apply Microsoft security updates addressing CVE-2026-32201 immediately via the Microsoft Security Update Guide</p>",
+          "text": "Apply Microsoft security updates addressing CVE-2026-32201 immediately via the Microsoft Security Update Guide"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Access restrictions",
+          "id": "access-restrictions"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Limit external access to SharePoint services where possible<br>Restrict exposure of internet-facing instances</p>",
+          "text": "Limit external access to SharePoint services where possible Restrict exposure of internet-facing instances"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Monitoring and detection",
+          "id": "monitoring-and-detection"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Monitor logs for suspicious authentication attempts and anomalous requests<br>Investigate unusual access patterns or identity misuse</p>",
+          "text": "Monitor logs for suspicious authentication attempts and anomalous requests Investigate unusual access patterns or identity misuse"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Security hardening",
+          "id": "security-hardening"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "severity",
+      "label": "Severity",
+      "isSubItem": true
+    },
+    {
+      "id": "immediate-update",
+      "label": "Immediate update",
+      "isSubItem": true
+    },
+    {
+      "id": "access-restrictions",
+      "label": "Access restrictions",
+      "isSubItem": true
+    },
+    {
+      "id": "monitoring-and-detection",
+      "label": "Monitoring and detection",
+      "isSubItem": true
+    },
+    {
+      "id": "security-hardening",
+      "label": "Security hardening",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/",
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-32201?utm_source=chatgpt.com",
+    "https://foresiet.com/blog/sharepoint-server-spoofing-vulnerability-cve-2026-32201/?utm_source=chatgpt.com"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-454-17-04-26-microsoft-sharepoint-server-zero-day-spoofing-vulnerability-cve-2026-32201/",
+    "upstreamDisclosedAt": "2026-04-17T11:07:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

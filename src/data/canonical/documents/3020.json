@@ -1,0 +1,75 @@
+{
+  "id": "3020",
+  "legacyPostId": 3020,
+  "referenceNumber": "TT-CSIRT #051",
+  "classification": "advisory",
+  "title": "Netgear security updates",
+  "rawTitle": "TTCSIRT-051.101117: TT-CSIRT Advisory – NetGear Security Updates",
+  "slug": "ttcsirt-051-101117-tt-csirt-advisory-netgear-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Netgear products, the most severe of which could allow for arbitrary code execution.",
+  "cveList": [],
+  "date": "10 October 2017",
+  "rawDate": "2017-10-10T20:25:02",
+  "modifiedDate": "10 October 2017",
+  "rawModifiedDate": "2017-10-10T20:25:02",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Netgear products, the most severe of which could allow for arbitrary code execution. </p>\n<p>Netgear is a manufacturer of networked devices such as Network Attached Storage (NAS), routers, switches, cable and DSL modems, and video cameras. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code and gain full control of the affected system. Failed exploit attempts could result in a denial of service condition.</p>\n<p>A full list of all vulnerabilities and how they can be fixed can be found on the NetGear Website at <a href=\"https://www.netgear.com/about/security/\"><font size=\"2\" color=\"maroon\">https://www.netgear.com/about/security/</font></a></p>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Netgear products, the most severe of which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Netgear products, the most severe of which could allow for arbitrary code execution. Netgear is a manufacturer of networked devices such as Network Attached Storage (NAS), routers, switches, cable and DSL modems, and video cameras. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-051-101117-tt-csirt-advisory-netgear-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Netgear products, the most severe of which could allow for arbitrary code execution.</p>",
+          "text": "Multiple vulnerabilities have been discovered in Netgear products, the most severe of which could allow for arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Netgear is a manufacturer of networked devices such as Network Attached Storage (NAS), routers, switches, cable and DSL modems, and video cameras. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code and gain full control of the affected system. Failed exploit attempts could result in a denial of service condition.</p>",
+          "text": "Netgear is a manufacturer of networked devices such as Network Attached Storage (NAS), routers, switches, cable and DSL modems, and video cameras. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code and gain full control of the affected system. Failed exploit attempts could result in a denial of service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A full list of all vulnerabilities and how they can be fixed can be found on the NetGear Website at <a href=\"https://www.netgear.com/about/security/\">https://www.netgear.com/about/security/</a></p>",
+          "text": "A full list of all vulnerabilities and how they can be fixed can be found on the NetGear Website at https://www.netgear.com/about/security/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.netgear.com/about/security/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-051-101117-tt-csirt-advisory-netgear-security-updates/",
+    "upstreamDisclosedAt": "2017-10-10T20:25:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

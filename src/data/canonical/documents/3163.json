@@ -1,0 +1,367 @@
+{
+  "id": "3163",
+  "legacyPostId": 3163,
+  "referenceNumber": "TT-CSIRT #082",
+  "classification": "advisory",
+  "title": "Krack security update",
+  "rawTitle": "TTCSIRT-082.012418: TT-CSIRT Advisory – KRACK Security Update",
+  "slug": "ttcsirt-082-012418-tt-csirt-advisory-krack-security-update",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "TT-CSIRT wishes to advise that weaknesses have been discovered in the Wi-Fi Protected Access 2 (WPA2) protocol used to secure wireless networks. An attacker within range of a victim can exploit these weaknesses using key reinstallation attacks (KRACKs). Attackers can use these exploits to read information transmitted over the air (via Wi-Fi) that was previously assumed to be encrypted.",
+  "cveList": [
+    "CVE-2017-13077",
+    "CVE-2017-13078",
+    "CVE-2017-13079",
+    "CVE-2017-13080",
+    "CVE-2017-13081",
+    "CVE-2017-13082",
+    "CVE-2017-13084",
+    "CVE-2017-13086",
+    "CVE-2017-13087",
+    "CVE-2017-13088"
+  ],
+  "date": "24 January 2018",
+  "rawDate": "2018-01-24T11:41:13",
+  "modifiedDate": "24 January 2018",
+  "rawModifiedDate": "2018-01-24T11:41:13",
+  "contentHtml": "<p><strong>WPA2 Key Reinstallation Attacks (KRACKs)</strong></p>\n<p><strong>Date first published: 23/1/2018</strong></p>\n<p>&nbsp;</p>\n<p><strong>1.0 Introduction</strong></p>\n<p>TT-CSIRT wishes to advise that weaknesses have been discovered in the Wi-Fi Protected Access 2 (WPA2) protocol used to secure wireless networks. An attacker within range of a victim can exploit these weaknesses using key reinstallation attacks (KRACKs). Attackers can use these exploits to read information transmitted over the air (via Wi-Fi) that was previously assumed to be encrypted. </p>\n<p>The vulnerabilities are within the WPA2 standard itself, and not in individual products of implementations. It should be noted that if your device supports Wi-Fi, it is most likely affected. </p>\n<p>It is also important to note that the attacks do not recover the password of the Wi-Fi network, but instead exploit a vulnerability in the WPA2 standard itself, allowing an attacker to eavesdrop on a client(s) communication without having a need to know the network password. The attacker also needs to be in range of the Wi-Fi network. </p>\n<p>&nbsp;</p>\n<p><strong>2.0 Impact</strong></p>\n<p>• Impacts may include arbitrary packet decryption and injection, TCP connection hijacking, HTTP content injection, or the replay of unicast, broadcast, and multicast frames.</p>\n<p>• This vulnerability can be exploited (via KRACKs) to steal sensitive information such as credit card numbers, passwords, chat messages, emails, photos, and so on. The attack works against all modern protected Wi-Fi networks. Depending on the network configuration (networks using Temporal Key Integrity Protocol – TKIP encryption and/or WPA(v1), or Galois/Counter Mode Protocol GCMP), it is also possible to inject and manipulate data. For example, an attacker might be able to inject ransomware or other malware into websites.</p>\n<p>• As stated before, due to the issue being with the protocol implementation vs any specific vendor/product, this issue is considered widespread. The impact is therefore considered high.</p>\n<p>• This issue was first reported in October of 2017 and as such, a number of manufacturers/vendors have released fixes for this issue already.</p>\n<p>&nbsp;</p>\n<p><strong>3.0 Affected Product(s)</strong></p>\n<p>• Most, if not all, Wi-Fi enabled devices are affected (Routers, Access Points, computers, phones, IoT devices, etc). A number of vendors have already released patches. </p>\n<p>• A list of manufacturers affected or possibly affected can be found here, as well as patch release information:<br />\n <a href=\"https://www.kb.cert.org/vuls/byvendor?searchview&#038;Query=FIELD+Reference=228519&#038;SearchOrder=4\"><font size=\"2\" color=\"maroon\">https://www.kb.cert.org/vuls/byvendor?searchview&#038;Query=FIELD+Reference=228519&#038;SearchOrder=4<font></a></p>\n<p>&nbsp;</p>\n<p><strong>4.0 Technical Description</strong></p>\n<p>The main attack is against the 4-way handshake of the WPA2 protocol. This handshake is executed when a client wants to join a protected Wi-Fi network, and is used to confirm that both the client and access point possess the correct credentials (e.g. the pre-shared password of the network). At the same time, the 4-way handshake also negotiates a fresh encryption key that will be used to encrypt all subsequent traffic. Currently, all modern protected Wi-Fi networks use the 4-way handshake. This implies all these networks are affected by (some variant of) the attack. For instance, the attack works against personal and enterprise Wi-Fi networks, against the older WPA and the latest WPA2 standard, and even against networks that only use AES. All attacks against WPA2 use a novel technique called a key reinstallation attack (KRACK):</p>\n<p><strong>Key Reinstallation Attacks: High Level Description</strong></p>\n<p>In a key reinstallation attack, the adversary tricks a victim into reinstalling an already-in-use key. This is achieved by manipulating and replaying cryptographic handshake messages. When the victim reinstalls the key, associated parameters such as the incremental transmit packet number (i.e. nonce) and receive packet number (i.e. replay counter) are reset to their initial value. Essentially, to guarantee security, a key should only be installed and used once. Unfortunately, we found this is not guaranteed by the WPA2 protocol. By manipulating cryptographic handshakes, we can abuse this weakness in practice.</p>\n<p><strong>Key Reinstallation Attacks: Concrete Example Against the 4-Way Handshake</strong></p>\n<p>The idea behind a key reinstallation attack can be summarized as follows. When a client joins a network, it executes the 4-way handshake to negotiate a fresh encryption key. It will install this key after receiving message 3 of the 4-way handshake. Once the key is installed, it will be used to encrypt normal data frames using an encryption protocol. However, because messages may be lost or dropped, the Access Point (AP) will retransmit message 3 if it did not receive an appropriate response as acknowledgment. As a result, the client may receive message 3 multiple times. Each time it receives this message, it will reinstall the same encryption key, and thereby reset the incremental transmit packet number (nonce) and receive replay counter used by the encryption protocol. An attacker can force these nonce resets by collecting and replaying retransmissions of message 3 of the 4-way handshake. By forcing nonce reuse in this manner, the encryption protocol can be attacked, e.g., packets can be replayed, decrypted, and/or forged. The same technique can also be used to attack the group key, PeerKey, TDLS, and fast BSS transition handshake.</p>\n<p><strong>Associated CVEs</strong></p>\n<p>The following CVEs are associated with this exploit:</p>\n<p>• CERT case ID: VU#228519</p>\n<p>• CVE-2017-13077: Reinstallation of the pairwise encryption key (PTK-TK) in the 4-way handshake.</p>\n<p>• CVE-2017-13078: Reinstallation of the group key (GTK) in the 4-way handshake.</p>\n<p>• CVE-2017-13079: Reinstallation of the integrity group key (IGTK) in the 4-way handshake.</p>\n<p>• CVE-2017-13080: Reinstallation of the group key (GTK) in the group key handshake.</p>\n<p>• CVE-2017-13081: Reinstallation of the integrity group key (IGTK) in the group key handshake.</p>\n<p>• CVE-2017-13082: Accepting a retransmitted Fast BSS Transition (FT) Reassociation Request and reinstalling the pairwise encryption key (PTK-TK) while processing it.</p>\n<p>• CVE-2017-13084: Reinstallation of the STK key in the PeerKey handshake.</p>\n<p>• CVE-2017-13086: reinstallation of the Tunneled Direct-Link Setup (TDLS) PeerKey (TPK) key in the TDLS handshake.</p>\n<p>• CVE-2017-13087: reinstallation of the group key (GTK) when processing a Wireless Network Management (WNM) Sleep Mode Response frame.</p>\n<p>• CVE-2017-13088: reinstallation of the integrity group key (IGTK) when processing a Wireless Network Management (WNM) Sleep Mode Response frame.</p>\n<p>&nbsp;</p>\n<p><strong>5.0 Recommendations</strong></p>\n<p><strong>For End Users</strong></p>\n<p>• End users are advised to update their Wi-Fi enabled devices as soon as possible. Devices requiring update include:</p>\n<p>o Computers<br />\no Tablets<br />\no Phones<br />\no Wireless Routers<br />\no IoT devices<br />\no Security cameras</p>\n<p>• Please note, a number of manufacturers have already released fixes for this issue and may have been automatically applied to your device if updated as of January 2018.</p>\n<p>• Disable Wi-Fi for devices that are not updated and connect with Ethernet where possible. This is especially advised for highly sensitive information networks (such as Payment Card networks).</p>\n<p><strong>For System Administrators</strong></p>\n<p>• Update all enterprise wireless access points and endpoints as soon as possible. </p>\n<p>• Please note, a number of manufacturers have already released fixes for this issue and may have been automatically applied to your device if updated as of January 2018.</p>\n<p>• Disable Wi-Fi for devices that are not updated and connect with Ethernet where possible. This is especially advised for highly sensitive information networks (such as Payment Card networks).</p>\n<p>• Ensure networks are properly segmented (hardware, VLANs and IP/subnet) to mitigate the effects of a compromised wireless network against the overall organization network. </p>\n<p>It is not recommended to disable WPA2 since its protections are still worth the risk of someone attempting to exploit the vulnerabilities outlined here. </p>\n<p>Additionally, it is recommended to only browse encrypted websites where possible (denoted by HTTPS in the address bar) since this transport layer encryption is separate from the Wi-Fi encryption and can still afford a level of privacy in your communications. </p>\n<p>HTTPS only isn’t a bulletproof way to eliminate the risk associated with this exploit but a combination of the above recommendations should provide adequate mitigation. </p>\n<p>&nbsp;</p>\n<p>For further enquiries, please contact TT-CSIRT through the following channels:</p>\n<p>E-mail: contacts@ttcsirt.gov.tt or incidents@ttcsirt.gov.tt </p>\n<p>Phone: 1-868-623-5439 (monitored during business hours)</p>\n<p>Fax: 1-868-624-5831</p>\n<p>Business Hours: Mon &#8211; Fri 0:800 AM &#8211; 6:00 PM.  (GMT-4)</p>\n<p>Twitter: http://www.twitter.com/ttcsirt2</p>\n<p>Facebook: http://facebook.com/ttcsirt2</p>\n",
+  "displaySummary": "Wishes to advise that weaknesses have been discovered in the Wi-Fi Protected Access 2 (WPA2) protocol used to secure wireless networks.",
+  "sourceExcerpt": "<p>WPA2 Key Reinstallation Attacks (KRACKs) Date first published: 23/1/2018 &nbsp; 1.0 Introduction TT-CSIRT wishes to advise that weaknesses have been discovered in the Wi-Fi Protected Access 2 (WPA2) protocol used to secure wireless networks. An attacker within range of a victim can exploit these weaknesses using key reinstallation attacks (KRACKs). Attackers can use these exploits [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-082-012418-tt-csirt-advisory-krack-security-update/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Wpa2 key reinstallation attacks (kracks)",
+          "id": "wpa2-key-reinstallation-attacks-kracks"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Date first published: 23/1/2018",
+          "id": "date-first-published-2312018"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT wishes to advise that weaknesses have been discovered in the Wi-Fi Protected Access 2 (WPA2) protocol used to secure wireless networks. An attacker within range of a victim can exploit these weaknesses using key reinstallation attacks (KRACKs). Attackers can use these exploits to read information transmitted over the air (via Wi-Fi) that was previously assumed to be encrypted.</p>",
+          "text": "TT-CSIRT wishes to advise that weaknesses have been discovered in the Wi-Fi Protected Access 2 (WPA2) protocol used to secure wireless networks. An attacker within range of a victim can exploit these weaknesses using key reinstallation attacks (KRACKs). Attackers can use these exploits to read information transmitted over the air (via Wi-Fi) that was previously assumed to be encrypted."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerabilities are within the WPA2 standard itself, and not in individual products of implementations. It should be noted that if your device supports Wi-Fi, it is most likely affected.</p>",
+          "text": "The vulnerabilities are within the WPA2 standard itself, and not in individual products of implementations. It should be noted that if your device supports Wi-Fi, it is most likely affected."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is also important to note that the attacks do not recover the password of the Wi-Fi network, but instead exploit a vulnerability in the WPA2 standard itself, allowing an attacker to eavesdrop on a client(s) communication without having a need to know the network password. The attacker also needs to be in range of the Wi-Fi network.</p>",
+          "text": "It is also important to note that the attacks do not recover the password of the Wi-Fi network, but instead exploit a vulnerability in the WPA2 standard itself, allowing an attacker to eavesdrop on a client(s) communication without having a need to know the network password. The attacker also needs to be in range of the Wi-Fi network."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Impacts may include arbitrary packet decryption and injection, TCP connection hijacking, HTTP content injection, or the replay of unicast, broadcast, and multicast frames.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>This vulnerability can be exploited (via KRACKs) to steal sensitive information such as credit card numbers, passwords, chat messages, emails, photos, and so on. The attack works against all modern protected Wi-Fi networks. Depending on the network configuration (networks using Temporal Key Integrity Protocol – TKIP encryption and/or WPA(v1), or Galois/Counter Mode Protocol GCMP), it is also possible to inject and manipulate data. For example, an attacker might be able to inject ransomware or other malware into websites.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>As stated before, due to the issue being with the protocol implementation vs any specific vendor/product, this issue is considered widespread. The impact is therefore considered high.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>This issue was first reported in October of 2017 and as such, a number of manufacturers/vendors have released fixes for this issue already.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Affected product(s)",
+          "id": "affected-systems"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Most, if not all, Wi-Fi enabled devices are affected (Routers, Access Points, computers, phones, IoT devices, etc). A number of vendors have already released patches.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>A list of manufacturers affected or possibly affected can be found here, as well as patch release information:<br />\n <a href=\"https://www.kb.cert.org/vuls/byvendor?searchview&#038;Query=FIELD+Reference=228519&#038;SearchOrder=4\">https://www.kb.cert.org/vuls/byvendor?searchview&#038;Query=FIELD+Reference=228519&#038;SearchOrder=4</a></li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "technical-description",
+      "title": "Technical description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The main attack is against the 4-way handshake of the WPA2 protocol. This handshake is executed when a client wants to join a protected Wi-Fi network, and is used to confirm that both the client and access point possess the correct credentials (e.g. the pre-shared password of the network). At the same time, the 4-way handshake also negotiates a fresh encryption key that will be used to encrypt all subsequent traffic. Currently, all modern protected Wi-Fi networks use the 4-way handshake. This implies all these networks are affected by (some variant of) the attack. For instance, the attack works against personal and enterprise Wi-Fi networks, against the older WPA and the latest WPA2 standard, and even against networks that only use AES. All attacks against WPA2 use a novel technique called a key reinstallation attack (KRACK):</p>",
+          "text": "The main attack is against the 4-way handshake of the WPA2 protocol. This handshake is executed when a client wants to join a protected Wi-Fi network, and is used to confirm that both the client and access point possess the correct credentials (e.g. the pre-shared password of the network). At the same time, the 4-way handshake also negotiates a fresh encryption key that will be used to encrypt all subsequent traffic. Currently, all modern protected Wi-Fi networks use the 4-way handshake. This implies all these networks are affected by (some variant of) the attack. For instance, the attack works against personal and enterprise Wi-Fi networks, against the older WPA and the latest WPA2 standard, and even against networks that only use AES. All attacks against WPA2 use a novel technique called a key reinstallation attack (KRACK):"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Key reinstallation attacks: high level description",
+          "id": "key-reinstallation-attacks-high-level-description"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In a key reinstallation attack, the adversary tricks a victim into reinstalling an already-in-use key. This is achieved by manipulating and replaying cryptographic handshake messages. When the victim reinstalls the key, associated parameters such as the incremental transmit packet number (i.e. nonce) and receive packet number (i.e. replay counter) are reset to their initial value. Essentially, to guarantee security, a key should only be installed and used once. Unfortunately, we found this is not guaranteed by the WPA2 protocol. By manipulating cryptographic handshakes, we can abuse this weakness in practice.</p>",
+          "text": "In a key reinstallation attack, the adversary tricks a victim into reinstalling an already-in-use key. This is achieved by manipulating and replaying cryptographic handshake messages. When the victim reinstalls the key, associated parameters such as the incremental transmit packet number (i.e. nonce) and receive packet number (i.e. replay counter) are reset to their initial value. Essentially, to guarantee security, a key should only be installed and used once. Unfortunately, we found this is not guaranteed by the WPA2 protocol. By manipulating cryptographic handshakes, we can abuse this weakness in practice."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Key Reinstallation Attacks: Concrete Example Against the 4-Way Handshake</strong></p>",
+          "text": "Key Reinstallation Attacks: Concrete Example Against the 4-Way Handshake"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The idea behind a key reinstallation attack can be summarized as follows. When a client joins a network, it executes the 4-way handshake to negotiate a fresh encryption key. It will install this key after receiving message 3 of the 4-way handshake. Once the key is installed, it will be used to encrypt normal data frames using an encryption protocol. However, because messages may be lost or dropped, the Access Point (AP) will retransmit message 3 if it did not receive an appropriate response as acknowledgment. As a result, the client may receive message 3 multiple times. Each time it receives this message, it will reinstall the same encryption key, and thereby reset the incremental transmit packet number (nonce) and receive replay counter used by the encryption protocol. An attacker can force these nonce resets by collecting and replaying retransmissions of message 3 of the 4-way handshake. By forcing nonce reuse in this manner, the encryption protocol can be attacked, e.g., packets can be replayed, decrypted, and/or forged. The same technique can also be used to attack the group key, PeerKey, TDLS, and fast BSS transition handshake.</p>",
+          "text": "The idea behind a key reinstallation attack can be summarized as follows. When a client joins a network, it executes the 4-way handshake to negotiate a fresh encryption key. It will install this key after receiving message 3 of the 4-way handshake. Once the key is installed, it will be used to encrypt normal data frames using an encryption protocol. However, because messages may be lost or dropped, the Access Point (AP) will retransmit message 3 if it did not receive an appropriate response as acknowledgment. As a result, the client may receive message 3 multiple times. Each time it receives this message, it will reinstall the same encryption key, and thereby reset the incremental transmit packet number (nonce) and receive replay counter used by the encryption protocol. An attacker can force these nonce resets by collecting and replaying retransmissions of message 3 of the 4-way handshake. By forcing nonce reuse in this manner, the encryption protocol can be attacked, e.g., packets can be replayed, decrypted, and/or forged. The same technique can also be used to attack the group key, PeerKey, TDLS, and fast BSS transition handshake."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Associated cves",
+          "id": "associated-cves"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The following CVEs are associated with this exploit:</p>",
+          "text": "The following CVEs are associated with this exploit:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CERT case ID: VU#228519</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13077: Reinstallation of the pairwise encryption key (PTK-TK) in the 4-way handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13078: Reinstallation of the group key (GTK) in the 4-way handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13079: Reinstallation of the integrity group key (IGTK) in the 4-way handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13080: Reinstallation of the group key (GTK) in the group key handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13081: Reinstallation of the integrity group key (IGTK) in the group key handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13082: Accepting a retransmitted Fast BSS Transition (FT) Reassociation Request and reinstalling the pairwise encryption key (PTK-TK) while processing it.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13084: Reinstallation of the STK key in the PeerKey handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13086: reinstallation of the Tunneled Direct-Link Setup (TDLS) PeerKey (TPK) key in the TDLS handshake.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13087: reinstallation of the group key (GTK) when processing a Wireless Network Management (WNM) Sleep Mode Response frame.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>CVE-2017-13088: reinstallation of the integrity group key (IGTK) when processing a Wireless Network Management (WNM) Sleep Mode Response frame.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For end users",
+          "id": "for-end-users"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>End users are advised to update their Wi-Fi enabled devices as soon as possible. Devices requiring update include:</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o Computers<br />\no Tablets<br />\no Phones<br />\no Wireless Routers<br />\no IoT devices<br />\no Security cameras</p>",
+          "text": "o Computers o Tablets o Phones o Wireless Routers o IoT devices o Security cameras"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Please note, a number of manufacturers have already released fixes for this issue and may have been automatically applied to your device if updated as of January 2018.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Disable Wi-Fi for devices that are not updated and connect with Ethernet where possible. This is especially advised for highly sensitive information networks (such as Payment Card networks).</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For system administrators",
+          "id": "for-system-administrators"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Update all enterprise wireless access points and endpoints as soon as possible.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Please note, a number of manufacturers have already released fixes for this issue and may have been automatically applied to your device if updated as of January 2018.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Disable Wi-Fi for devices that are not updated and connect with Ethernet where possible. This is especially advised for highly sensitive information networks (such as Payment Card networks).</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Ensure networks are properly segmented (hardware, VLANs and IP/subnet) to mitigate the effects of a compromised wireless network against the overall organization network.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is not recommended to disable WPA2 since its protections are still worth the risk of someone attempting to exploit the vulnerabilities outlined here.</p>",
+          "text": "It is not recommended to disable WPA2 since its protections are still worth the risk of someone attempting to exploit the vulnerabilities outlined here."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Additionally, it is recommended to only browse encrypted websites where possible (denoted by HTTPS in the address bar) since this transport layer encryption is separate from the Wi-Fi encryption and can still afford a level of privacy in your communications.</p>",
+          "text": "Additionally, it is recommended to only browse encrypted websites where possible (denoted by HTTPS in the address bar) since this transport layer encryption is separate from the Wi-Fi encryption and can still afford a level of privacy in your communications."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>HTTPS only isn’t a bulletproof way to eliminate the risk associated with this exploit but a combination of the above recommendations should provide adequate mitigation.</p>",
+          "text": "HTTPS only isn’t a bulletproof way to eliminate the risk associated with this exploit but a combination of the above recommendations should provide adequate mitigation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further enquiries, please contact TT-CSIRT through the following channels:</p>",
+          "text": "For further enquiries, please contact TT-CSIRT through the following channels:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Phone: 1-868-623-5439 (monitored during business hours)</p>",
+          "text": "Phone: 1-868-623-5439 (monitored during business hours)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Fax: 1-868-624-5831</p>",
+          "text": "Fax: 1-868-624-5831"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Business Hours: Mon &#8211; Fri 0:800 AM &#8211; 6:00 PM.  (GMT-4)</p>",
+          "text": "Business Hours: Mon – Fri 0:800 AM – 6:00 PM. (GMT-4)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Twitter: http://www.twitter.com/ttcsirt2</p>",
+          "text": "Twitter: http://www.twitter.com/ttcsirt2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Facebook: http://facebook.com/ttcsirt2</p>",
+          "text": "Facebook: http://facebook.com/ttcsirt2"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "wpa2-key-reinstallation-attacks-kracks",
+      "label": "Wpa2 key reinstallation attacks (kracks)",
+      "isSubItem": true
+    },
+    {
+      "id": "date-first-published-2312018",
+      "label": "Date first published: 23/1/2018",
+      "isSubItem": true
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected product(s)",
+      "isSubItem": true
+    },
+    {
+      "id": "technical-description",
+      "label": "Technical description"
+    },
+    {
+      "id": "key-reinstallation-attacks-high-level-description",
+      "label": "Key reinstallation attacks: high level description",
+      "isSubItem": true
+    },
+    {
+      "id": "associated-cves",
+      "label": "Associated cves",
+      "isSubItem": true
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "for-end-users",
+      "label": "For end users",
+      "isSubItem": true
+    },
+    {
+      "id": "for-system-administrators",
+      "label": "For system administrators",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.kb.cert.org/vuls/byvendor?searchview&#038;Query=FIELD+Reference=228519&#038;SearchOrder=4"
+  ],
+  "readingTimeMinutes": 7,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-082-012418-tt-csirt-advisory-krack-security-update/",
+    "upstreamDisclosedAt": "2018-01-24T11:41:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

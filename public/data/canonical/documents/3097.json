@@ -1,0 +1,80 @@
+{
+  "id": "3097",
+  "legacyPostId": 3097,
+  "referenceNumber": "TT-CSIRT #067",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-067.113017: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-067-113017-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released a security update stating that Apple MacOS High Sierra (10.13) contains a flaw in how it authenticates disabled accounts. When a privileged action prompts the user for administrative credentials, the user can simply enter the user of “root” with an empty password. The first attempt appears to fail, but in actuality, this action causes MacOS High Sierra to enable the ability to log in as root using the credentials specified. A second attempt to authenticate using the same credentials successfully takes the action with root administrative privileges.",
+  "cveList": [],
+  "date": "30 November 2017",
+  "rawDate": "2017-11-30T14:38:44",
+  "modifiedDate": "30 November 2017",
+  "rawModifiedDate": "2017-11-30T14:38:44",
+  "contentHtml": "<p>Apple has released a security update stating that Apple MacOS High Sierra (10.13) contains a flaw in how it authenticates disabled accounts. When a privileged action prompts the user for administrative credentials, the user can simply enter the user of &#8220;root&#8221; with an empty password. The first attempt appears to fail, but in actuality, this action causes MacOS High Sierra to enable the ability to log in as root using the credentials specified. A second attempt to authenticate using the same credentials successfully takes the action with root administrative privileges. </p>\n<p>Once this vulnerability has been triggered by an authenticated user (either locally, or via remote access such as SSH), the root account will be available to use as a viable authentication mechanism to the system.</p>\n<p>A local or remote user of a MacOS High Sierra system can obtain root privileges without requiring credentials. Any system that has the root account enabled (e.g. via testing for this vulnerability) may also expose the root account for use with remote administrative capabilities, such as the built-in &#8220;Screen Sharing&#8221; or &#8220;Remote Management&#8221; capabilities.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://www.kb.cert.org/vuls/id/113765\"><font size=\"2\" color=\"maroon\">https://www.kb.cert.org/vuls/id/113765</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released a security update stating that Apple MacOS High Sierra (10.13) contains a flaw in how it authenticates disabled accounts.",
+  "sourceExcerpt": "<p>Apple has released a security update stating that Apple MacOS High Sierra (10.13) contains a flaw in how it authenticates disabled accounts. When a privileged action prompts the user for administrative credentials, the user can simply enter the user of &#8220;root&#8221; with an empty password. The first attempt appears to fail, but in actuality, this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-067-113017-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released a security update stating that Apple MacOS High Sierra (10.13) contains a flaw in how it authenticates disabled accounts. When a privileged action prompts the user for administrative credentials, the user can simply enter the user of &#8220;root&#8221; with an empty password. The first attempt appears to fail, but in actuality, this action causes MacOS High Sierra to enable the ability to log in as root using the credentials specified. A second attempt to authenticate using the same credentials successfully takes the action with root administrative privileges.</p>",
+          "text": "Apple has released a security update stating that Apple MacOS High Sierra (10.13) contains a flaw in how it authenticates disabled accounts. When a privileged action prompts the user for administrative credentials, the user can simply enter the user of “root” with an empty password. The first attempt appears to fail, but in actuality, this action causes MacOS High Sierra to enable the ability to log in as root using the credentials specified. A second attempt to authenticate using the same credentials successfully takes the action with root administrative privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once this vulnerability has been triggered by an authenticated user (either locally, or via remote access such as SSH), the root account will be available to use as a viable authentication mechanism to the system.</p>",
+          "text": "Once this vulnerability has been triggered by an authenticated user (either locally, or via remote access such as SSH), the root account will be available to use as a viable authentication mechanism to the system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A local or remote user of a MacOS High Sierra system can obtain root privileges without requiring credentials. Any system that has the root account enabled (e.g. via testing for this vulnerability) may also expose the root account for use with remote administrative capabilities, such as the built-in &#8220;Screen Sharing&#8221; or &#8220;Remote Management&#8221; capabilities.</p>",
+          "text": "A local or remote user of a MacOS High Sierra system can obtain root privileges without requiring credentials. Any system that has the root account enabled (e.g. via testing for this vulnerability) may also expose the root account for use with remote administrative capabilities, such as the built-in “Screen Sharing” or “Remote Management” capabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://www.kb.cert.org/vuls/id/113765\">https://www.kb.cert.org/vuls/id/113765</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found at https://www.kb.cert.org/vuls/id/113765"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.kb.cert.org/vuls/id/113765"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-067-113017-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2017-11-30T14:38:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

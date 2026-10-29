@@ -1,0 +1,85 @@
+{
+  "id": "3064",
+  "legacyPostId": 3064,
+  "referenceNumber": "TT-CSIRT #060",
+  "classification": "advisory",
+  "title": "Joomla security updates",
+  "rawTitle": "TTCSIRT-060.110917: TT-CSIRT Advisory – Joomla Security Updates",
+  "slug": "ttcsirt-060-110217-tt-csirt-advisory-joomla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Joomla has released security updates to address the following vulnerabilities:",
+  "cveList": [],
+  "date": "9 November 2017",
+  "rawDate": "2017-11-09T15:18:52",
+  "modifiedDate": "9 November 2017",
+  "rawModifiedDate": "2017-11-09T15:18:52",
+  "contentHtml": "<p>Joomla has released security updates to address the following vulnerabilities:</p>\n<p>a) Medium Priority &#8211; Core &#8211; LDAP Information Disclosure (affecting Joomla! 1.5.0 through 3.8.1)</p>\n<p>b) Medium Priority &#8211; Core &#8211; Two-Factor Authentication Bypass (affecting Joomla! 3.2.0 through 3.8.1)</p>\n<p>c) Low Priority &#8211; Core &#8211; Information Disclosure (affecting Joomla! 3.7.0 through 3.8.1)</p>\n<p>Further information on these vulnerabilities and how they can be fixed can be found on the Joomla Website at <a href=\"https://www.joomla.org/announcements/release-news/5716-joomla-3-8-2-release.html\"><font size=\"2\" color=\"maroon\">https://www.joomla.org/announcements/release-news/5716-joomla-3-8-2-release.html</font></a></p>\n",
+  "displaySummary": "Joomla has released security updates to address the following vulnerabilities: a) Medium Priority &#8211; Core &#8211; LDAP Information Disclosure (affecting Joomla!",
+  "sourceExcerpt": "<p>Joomla has released security updates to address the following vulnerabilities: a) Medium Priority &#8211; Core &#8211; LDAP Information Disclosure (affecting Joomla! 1.5.0 through 3.8.1) b) Medium Priority &#8211; Core &#8211; Two-Factor Authentication Bypass (affecting Joomla! 3.2.0 through 3.8.1) c) Low Priority &#8211; Core &#8211; Information Disclosure (affecting Joomla! 3.7.0 through 3.8.1) Further information on these [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-060-110217-tt-csirt-advisory-joomla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Joomla has released security updates to address the following vulnerabilities:</p>",
+          "text": "Joomla has released security updates to address the following vulnerabilities:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Medium Priority &#8211; Core &#8211; LDAP Information Disclosure (affecting Joomla! 1.5.0 through 3.8.1)</p>",
+          "text": "a) Medium Priority – Core – LDAP Information Disclosure (affecting Joomla! 1.5.0 through 3.8.1)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Medium Priority &#8211; Core &#8211; Two-Factor Authentication Bypass (affecting Joomla! 3.2.0 through 3.8.1)</p>",
+          "text": "b) Medium Priority – Core – Two-Factor Authentication Bypass (affecting Joomla! 3.2.0 through 3.8.1)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Low Priority &#8211; Core &#8211; Information Disclosure (affecting Joomla! 3.7.0 through 3.8.1)</p>",
+          "text": "c) Low Priority – Core – Information Disclosure (affecting Joomla! 3.7.0 through 3.8.1)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on the Joomla Website at <a href=\"https://www.joomla.org/announcements/release-news/5716-joomla-3-8-2-release.html\">https://www.joomla.org/announcements/release-news/5716-joomla-3-8-2-release.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on the Joomla Website at https://www.joomla.org/announcements/release-news/5716-joomla-3-8-2-release.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.joomla.org/announcements/release-news/5716-joomla-3-8-2-release.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-060-110217-tt-csirt-advisory-joomla-security-updates/",
+    "upstreamDisclosedAt": "2017-11-09T15:18:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "3232",
+  "legacyPostId": 3232,
+  "referenceNumber": "TT-CSIRT #096",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-096.030718: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-096-030718-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has reported that multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process.",
+  "cveList": [
+    "CVE-2017-16525",
+    "CVE-2017-16530",
+    "CVE-2017-16529",
+    "CVE-2017-16531",
+    "CVE-2017-16533",
+    "CVE-2017-16535",
+    "CVE-2017-13248",
+    "CVE-2017-13249",
+    "CVE-2017-13250",
+    "CVE-2017-13251",
+    "CVE-2017-13252",
+    "CVE-2017-13253",
+    "CVE-2017-6281",
+    "CVE-2017-6286",
+    "CVE-2017-17773",
+    "CVE-2016-10393",
+    "CVE-2017-14878",
+    "CVE-2017-14882",
+    "CVE-2017-18069",
+    "CVE-2017-14885",
+    "CVE-2017-15821",
+    "CVE-2017-18056",
+    "CVE-2017-18063",
+    "CVE-2017-18064",
+    "CVE-2017-18068",
+    "CVE-2017-15815",
+    "CVE-2017-18067",
+    "CVE-2017-13255",
+    "CVE-2017-13256",
+    "CVE-2017-13266",
+    "CVE-2017-13272",
+    "CVE-2017-13257",
+    "CVE-2017-13258",
+    "CVE-2017-13259",
+    "CVE-2017-13260",
+    "CVE-2017-13261",
+    "CVE-2017-13262"
+  ],
+  "date": "7 March 2018",
+  "rawDate": "2018-03-07T14:16:57",
+  "modifiedDate": "7 March 2018",
+  "rawModifiedDate": "2018-03-07T14:16:57",
+  "contentHtml": "<p>Google has reported that multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. </p>\n<p>Details of these vulnerabilities are as follows:</p>\n<p>a) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2017-16525, CVE-2017-16530)</p>\n<p>b) Multiple information disclosure vulnerabilities in Kernel components &#8211; (CVE-2017-16529, CVE-2017-16531, CVE-2017-16533, CVE-2017-16535)</p>\n<p>c) Multiple arbitrary code vulnerabilities in Media framework &#8211; (CVE-2017-13248, CVE-2017-13249, CVE-2017-13250)</p>\n<p>d) Multiple elevation of privilege vulnerabilities in Media framework &#8211; (CVE-2017-13251, CVE-2017-13252, CVE-2017-13253)</p>\n<p>e) Multiple elevation of privilege vulnerabilities in NVIDIA components &#8211; (CVE-2017-6281, CVE-2017-6286)</p>\n<p>f) A vulnerability in Qualcomm closed-source components &#8211; (CVE-2017-17773, CVE-2016-10393)</p>\n<p>g) A denial of service vulnerability in Qualcomm components &#8211; (CVE-2017-14878)</p>\n<p>h) Multiple information disclosure vulnerabilities in Qualcomm components &#8211; (CVE-2017-14882, CVE-2017-18069)</p>\n<p>i) Multiple elevation of privilege vulnerabilities in Qualcomm components &#8211; (CVE-2017-14885, CVE-2017-15821, CVE-2017-18056, CVE-2017-18063, CVE-2017-18064, CVE-2017-18068)</p>\n<p>j) Multiple arbitrary code vulnerabilities in Qualcomm components &#8211; (CVE-2017-15815, CVE-2017-18067)</p>\n<p>k) Multiple arbitrary code vulnerabilities in System &#8211; (CVE-2017-13255, CVE-2017-13256, CVE-2017-13266, CVE-2017-13272)</p>\n<p>l) Multiple information disclosure vulnerabilities in System &#8211; (CVE-2017-13257, CVE-2017-13258, CVE-2017-13259, CVE-2017-13260, CVE-2017-13261, CVE-2017-13262)</p>\n<p>These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2018-024/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2018-024/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has reported that multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged…",
+  "sourceExcerpt": "<p>Google has reported that multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. Details of these vulnerabilities are as follows: a) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2017-16525, CVE-2017-16530) b) Multiple information disclosure vulnerabilities [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-096-030718-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has reported that multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process.</p>",
+          "text": "Google has reported that multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Details of these vulnerabilities are as follows:</p>",
+          "text": "Details of these vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2017-16525, CVE-2017-16530)</p>",
+          "text": "a) Multiple elevation of privilege vulnerabilities in Kernel components – (CVE-2017-16525, CVE-2017-16530)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Multiple information disclosure vulnerabilities in Kernel components &#8211; (CVE-2017-16529, CVE-2017-16531, CVE-2017-16533, CVE-2017-16535)</p>",
+          "text": "b) Multiple information disclosure vulnerabilities in Kernel components – (CVE-2017-16529, CVE-2017-16531, CVE-2017-16533, CVE-2017-16535)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Multiple arbitrary code vulnerabilities in Media framework &#8211; (CVE-2017-13248, CVE-2017-13249, CVE-2017-13250)</p>",
+          "text": "c) Multiple arbitrary code vulnerabilities in Media framework – (CVE-2017-13248, CVE-2017-13249, CVE-2017-13250)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple elevation of privilege vulnerabilities in Media framework &#8211; (CVE-2017-13251, CVE-2017-13252, CVE-2017-13253)</p>",
+          "text": "d) Multiple elevation of privilege vulnerabilities in Media framework – (CVE-2017-13251, CVE-2017-13252, CVE-2017-13253)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Multiple elevation of privilege vulnerabilities in NVIDIA components &#8211; (CVE-2017-6281, CVE-2017-6286)</p>",
+          "text": "e) Multiple elevation of privilege vulnerabilities in NVIDIA components – (CVE-2017-6281, CVE-2017-6286)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) A vulnerability in Qualcomm closed-source components &#8211; (CVE-2017-17773, CVE-2016-10393)</p>",
+          "text": "f) A vulnerability in Qualcomm closed-source components – (CVE-2017-17773, CVE-2016-10393)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) A denial of service vulnerability in Qualcomm components &#8211; (CVE-2017-14878)</p>",
+          "text": "g) A denial of service vulnerability in Qualcomm components – (CVE-2017-14878)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Multiple information disclosure vulnerabilities in Qualcomm components &#8211; (CVE-2017-14882, CVE-2017-18069)</p>",
+          "text": "h) Multiple information disclosure vulnerabilities in Qualcomm components – (CVE-2017-14882, CVE-2017-18069)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Multiple elevation of privilege vulnerabilities in Qualcomm components &#8211; (CVE-2017-14885, CVE-2017-15821, CVE-2017-18056, CVE-2017-18063, CVE-2017-18064, CVE-2017-18068)</p>",
+          "text": "i) Multiple elevation of privilege vulnerabilities in Qualcomm components – (CVE-2017-14885, CVE-2017-15821, CVE-2017-18056, CVE-2017-18063, CVE-2017-18064, CVE-2017-18068)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Multiple arbitrary code vulnerabilities in Qualcomm components &#8211; (CVE-2017-15815, CVE-2017-18067)</p>",
+          "text": "j) Multiple arbitrary code vulnerabilities in Qualcomm components – (CVE-2017-15815, CVE-2017-18067)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Multiple arbitrary code vulnerabilities in System &#8211; (CVE-2017-13255, CVE-2017-13256, CVE-2017-13266, CVE-2017-13272)</p>",
+          "text": "k) Multiple arbitrary code vulnerabilities in System – (CVE-2017-13255, CVE-2017-13256, CVE-2017-13266, CVE-2017-13272)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) Multiple information disclosure vulnerabilities in System &#8211; (CVE-2017-13257, CVE-2017-13258, CVE-2017-13259, CVE-2017-13260, CVE-2017-13261, CVE-2017-13262)</p>",
+          "text": "l) Multiple information disclosure vulnerabilities in System – (CVE-2017-13257, CVE-2017-13258, CVE-2017-13259, CVE-2017-13260, CVE-2017-13261, CVE-2017-13262)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.</p>",
+          "text": "These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2018-024/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2018-024/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2018-024/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2018-024/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-096-030718-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2018-03-07T14:16:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

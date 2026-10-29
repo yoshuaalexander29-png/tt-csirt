@@ -1,0 +1,78 @@
+{
+  "id": "4698",
+  "legacyPostId": 4698,
+  "referenceNumber": "TT-CSIRT 347.08.28.20",
+  "classification": "advisory",
+  "title": "Atutor SQL injection",
+  "rawTitle": "TTCSIRT-347.08.28.20: TT-CSIRT ADVISORY &#8211; Atutor SQL Injection",
+  "slug": "ttcsirt-347-08-28-20-tt-csirt-advisory-atutor-sql-injection",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An SQL injection vulnerability exists in ATutor. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands on the affected system.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:24:56",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:24:56",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An SQL injection vulnerability exists in ATutor. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands on the affected system.<br><br>This module exploits a SQL Injection vulnerability and an authentication weakness vulnerability in ATutor. This essentially means an attacker can bypass authentication and reach the administrator&#8217;s interface where they can upload malicious code.<br><br>Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands.<br><br>For further information and support foe solution, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f1269c4c3b&amp;e=64e3bb0ab9\">https://www.checkpoint.com/defense/advisories/public/2020/cpai-2016-0977.html</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "An SQL injection vulnerability exists in ATutor. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands on the affected system.",
+  "sourceExcerpt": "<p>An SQL injection vulnerability exists in ATutor. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands on the affected system. This module exploits a SQL Injection vulnerability and an authentication weakness vulnerability in ATutor. This essentially means an attacker can bypass authentication and reach the administrator&#8217;s interface where they [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-347-08-28-20-tt-csirt-advisory-atutor-sql-injection/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An SQL injection vulnerability exists in ATutor. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands on the affected system.</p>",
+          "text": "An SQL injection vulnerability exists in ATutor. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands on the affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This module exploits a SQL Injection vulnerability and an authentication weakness vulnerability in ATutor. This essentially means an attacker can bypass authentication and reach the administrator&#8217;s interface where they can upload malicious code.</p>",
+          "text": "This module exploits a SQL Injection vulnerability and an authentication weakness vulnerability in ATutor. This essentially means an attacker can bypass authentication and reach the administrator’s interface where they can upload malicious code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands.</p>",
+          "text": "Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary SQL commands."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support foe solution, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f1269c4c3b&amp;e=64e3bb0ab9\">https://www.checkpoint.com/defense/advisories/public/2020/cpai-2016-0977.html</a></p>",
+          "text": "For further information and support foe solution, please visit the following link: https://www.checkpoint.com/defense/advisories/public/2020/cpai-2016-0977.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-347-08-28-20-tt-csirt-advisory-atutor-sql-injection/",
+    "upstreamDisclosedAt": "2020-09-22T23:24:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

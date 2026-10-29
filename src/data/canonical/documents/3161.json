@@ -1,0 +1,132 @@
+{
+  "id": "3161",
+  "legacyPostId": 3161,
+  "referenceNumber": "TT-CSIRT #081",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-081.012418: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-081-012418-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates stating that the following vulnerabilities have been discovered in Safari, watchOS, iOS, High Sierra, Sierra, El Capitan, and tvOS:",
+  "cveList": [
+    "CVE-2018-4086",
+    "CVE-2018-4097",
+    "CVE-2018-4085",
+    "CVE-2018-4090",
+    "CVE-2018-4091",
+    "CVE-2017-8817",
+    "CVE-2018-4092",
+    "CVE-2018-4100",
+    "CVE-2018-4084",
+    "CVE-2018-4093",
+    "CVE-2017-5754"
+  ],
+  "date": "24 January 2018",
+  "rawDate": "2018-01-24T11:15:37",
+  "modifiedDate": "24 January 2018",
+  "rawModifiedDate": "2018-01-24T11:15:37",
+  "contentHtml": "<p>Apple has released security updates stating that the following vulnerabilities have been discovered in Safari, watchOS, iOS, High Sierra, Sierra, El Capitan, and tvOS:</p>\n<p>a) A certificate evaluation issue existed in the handling of name constraints &#8211; (CVE-2018-4086)</p>\n<p>b) An application may be able to execute arbitrary code with kernel privileges &#8211; (CVE-2018-4097)</p>\n<p>c) A memory corruption issue existed in the processing of web content &#8211; (CVE-2018-4085)</p>\n<p>d) A memory initialization issue was addressed through improved memory handling &#8211; (CVE-2018-4090)</p>\n<p>e) An access issue was addressed through additional sandbox restrictions &#8211; (CVE-2018-4091)</p>\n<p>f) An out-of-bounds read issue existed in the curl &#8211; (CVE-2017-8817)</p>\n<p>g) A race condition was addressed through improved locking &#8211; (CVE-2018-4092)</p>\n<p>h) A resource exhaustion issue was addressed through improved input validation &#8211; (CVE-2018-4100)</p>\n<p>i) Multiple validation issues were addressed with improved input sanitization &#8211; (CVE-2018-4084, CVE-2018-4093)</p>\n<p>j) Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis of the data cache &#8211; (CVE-2017-5754)</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-006/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-006/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released security updates stating that the following vulnerabilities have been discovered in Safari, watchOS, iOS, High Sierra, Sierra, El Capitan, and tvOS: a) A certificate…",
+  "sourceExcerpt": "<p>Apple has released security updates stating that the following vulnerabilities have been discovered in Safari, watchOS, iOS, High Sierra, Sierra, El Capitan, and tvOS: a) A certificate evaluation issue existed in the handling of name constraints &#8211; (CVE-2018-4086) b) An application may be able to execute arbitrary code with kernel privileges &#8211; (CVE-2018-4097) c) A [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-081-012418-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates stating that the following vulnerabilities have been discovered in Safari, watchOS, iOS, High Sierra, Sierra, El Capitan, and tvOS:</p>",
+          "text": "Apple has released security updates stating that the following vulnerabilities have been discovered in Safari, watchOS, iOS, High Sierra, Sierra, El Capitan, and tvOS:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A certificate evaluation issue existed in the handling of name constraints &#8211; (CVE-2018-4086)</p>",
+          "text": "a) A certificate evaluation issue existed in the handling of name constraints – (CVE-2018-4086)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) An application may be able to execute arbitrary code with kernel privileges &#8211; (CVE-2018-4097)</p>",
+          "text": "b) An application may be able to execute arbitrary code with kernel privileges – (CVE-2018-4097)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A memory corruption issue existed in the processing of web content &#8211; (CVE-2018-4085)</p>",
+          "text": "c) A memory corruption issue existed in the processing of web content – (CVE-2018-4085)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) A memory initialization issue was addressed through improved memory handling &#8211; (CVE-2018-4090)</p>",
+          "text": "d) A memory initialization issue was addressed through improved memory handling – (CVE-2018-4090)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) An access issue was addressed through additional sandbox restrictions &#8211; (CVE-2018-4091)</p>",
+          "text": "e) An access issue was addressed through additional sandbox restrictions – (CVE-2018-4091)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) An out-of-bounds read issue existed in the curl &#8211; (CVE-2017-8817)</p>",
+          "text": "f) An out-of-bounds read issue existed in the curl – (CVE-2017-8817)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) A race condition was addressed through improved locking &#8211; (CVE-2018-4092)</p>",
+          "text": "g) A race condition was addressed through improved locking – (CVE-2018-4092)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) A resource exhaustion issue was addressed through improved input validation &#8211; (CVE-2018-4100)</p>",
+          "text": "h) A resource exhaustion issue was addressed through improved input validation – (CVE-2018-4100)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Multiple validation issues were addressed with improved input sanitization &#8211; (CVE-2018-4084, CVE-2018-4093)</p>",
+          "text": "i) Multiple validation issues were addressed with improved input sanitization – (CVE-2018-4084, CVE-2018-4093)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis of the data cache &#8211; (CVE-2017-5754)</p>",
+          "text": "j) Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis of the data cache – (CVE-2017-5754)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-006/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-006/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-006/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-006/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-081-012418-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2018-01-24T11:15:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "10673",
+  "legacyPostId": 10673,
+  "referenceNumber": "TT-CSIRT 448.16.08.25",
+  "classification": "advisory",
+  "title": "Windows out-of-box-experience (oobe) exploit",
+  "rawTitle": "TT-CSIRT – 448.16.08.25 – Windows Out-of-Box-Experience (OOBE) Exploit",
+  "slug": "tt-csirt-448-16-08-25-windows-out-of-box-experience-oobe-exploit",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Be advised, a new security vulnerability has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections, granting administrative command line access to Windows machines. The vulnerability allows low-privileged domain users to effectively gain local administrative access.",
+  "cveList": [],
+  "date": "16 August 2025",
+  "rawDate": "2025-08-16T15:46:09",
+  "modifiedDate": "16 August 2025",
+  "rawModifiedDate": "2025-08-16T15:46:09",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Be advised, a new security vulnerability has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections, granting administrative command line access to Windows machines. The vulnerability allows low-privileged domain users to effectively gain local administrative access.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This technique works even when Microsoft’s recommended security measure, the DisableCMDRequest.tag file, is implemented to block the well-known <a href=\"https://call4cloud.nl/the-oobe-massacre-the-beginning-of-shift-f10/\">Shift + F10</a> keyboard shortcut vulnerability, allowing unauthorized users to gain elevated privileges and create backdoor accounts on corporate devices.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>How the Exploit Works</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The method leverages the <code>Win + R</code> keyboard combination to open a hidden Run dialog box during the OOBE process. To execute the exploit, a specific sequence of actions must be performed:</p>\n\n\n\n<ol start=\"1\" class=\"wp-block-list\">\n<li>Open an accessibility tool, such as <code>Magnify.exe</code>, to establish a window with proper focus.</li>\n\n\n\n<li>Press <code>Win + R</code> to launch the Run dialog box, which will remain hidden in the background.</li>\n\n\n\n<li>Use <code>Alt + Tab</code> to cycle through the open windows until the hidden Run dialog box is selected.</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\">The critical part of this vulnerability is that the Run dialog box operates under the temporary <code>defaultuser0</code> account, which is created by Windows during OOBE with full local administrator privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once the Run dialog box is active, an attacker can type <code>cmd.exe</code> and press <code>Ctrl + Shift + Enter</code> to trigger a User Account Control (UAC) prompt for elevation. After the UAC prompt is accepted, a command prompt with administrative privileges opens, allowing the attacker to make system modifications, create new user accounts, or alter security settings.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Microsoft Response</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">This vulnerability poses significant security risks, particularly in enterprise environments where users can initiate device resets using Microsoft Intune Company Portal.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft has not addressed this security issue, since OOBE inherently runs in an administrative session, and leaving devices unattended during setup is equivalent to leaving machines unlocked. The company’s position treats this as an operational security concern rather than a software vulnerability requiring patching.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The primary mitigation strategy requires preventing users from accessing OOBE entirely by hiding the reset button in the Microsoft Intune admin center under <strong>Tenant administration > Customization</strong> and enable the <strong>Hide reset button on corporate Windows devices</strong> setting.</p>\n\n\n\n<p class=\"wp-block-paragraph\">References</p>\n\n\n\n<figure class=\"wp-block-embed is-type-wp-embed is-provider-cyber-security-news wp-block-embed-cyber-security-news\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"wp-embedded-content\" data-secret=\"BO0kc6zCFN\"><a href=\"https://cybersecuritynews.com/breaking-windows-out-of-box-experience/\">Breaking Windows Out-of-Box-Experience to Gain Command Line Access With Admin Privileges</a></blockquote><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; visibility: hidden;\" title=\"&#8220;Breaking Windows Out-of-Box-Experience to Gain Command Line Access With Admin Privileges&#8221; &#8212; Cyber Security News\" src=\"https://cybersecuritynews.com/breaking-windows-out-of-box-experience/embed/#?secret=aXbrOhhmpo#?secret=BO0kc6zCFN\" data-secret=\"BO0kc6zCFN\" width=\"600\" height=\"338\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"></iframe>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "A new security vulnerability has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections, granting administrative command line access to Windows machines.",
+  "sourceExcerpt": "<p>Be advised, a new security vulnerability has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections, granting administrative command line access to Windows machines. The vulnerability allows low-privileged domain users to effectively gain local administrative access. This technique works even when Microsoft’s recommended security measure, the DisableCMDRequest.tag file, is implemented to block the well-known [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-448-16-08-25-windows-out-of-box-experience-oobe-exploit/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Be advised, a new security vulnerability has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections, granting administrative command line access to Windows machines. The vulnerability allows low-privileged domain users to effectively gain local administrative access.</p>",
+          "text": "Be advised, a new security vulnerability has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections, granting administrative command line access to Windows machines. The vulnerability allows low-privileged domain users to effectively gain local administrative access."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This technique works even when Microsoft’s recommended security measure, the DisableCMDRequest.tag file, is implemented to block the well-known <a href=\"https://call4cloud.nl/the-oobe-massacre-the-beginning-of-shift-f10/\">Shift + F10</a> keyboard shortcut vulnerability, allowing unauthorized users to gain elevated privileges and create backdoor accounts on corporate devices.</p>",
+          "text": "This technique works even when Microsoft’s recommended security measure, the DisableCMDRequest.tag file, is implemented to block the well-known Shift + F10 keyboard shortcut vulnerability, allowing unauthorized users to gain elevated privileges and create backdoor accounts on corporate devices."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "How the exploit works",
+          "id": "how-the-exploit-works"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The method leverages the <code>Win + R</code> keyboard combination to open a hidden Run dialog box during the OOBE process. To execute the exploit, a specific sequence of actions must be performed:</p>",
+          "text": "The method leverages the Win + R keyboard combination to open a hidden Run dialog box during the OOBE process. To execute the exploit, a specific sequence of actions must be performed:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"1\" class=\"wp-block-list\">\n<li>Open an accessibility tool, such as <code>Magnify.exe</code>, to establish a window with proper focus.</li>\n\n\n\n<li>Press <code>Win + R</code> to launch the Run dialog box, which will remain hidden in the background.</li>\n\n\n\n<li>Use <code>Alt + Tab</code> to cycle through the open windows until the hidden Run dialog box is selected.</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The critical part of this vulnerability is that the Run dialog box operates under the temporary <code>defaultuser0</code> account, which is created by Windows during OOBE with full local administrator privileges.</p>",
+          "text": "The critical part of this vulnerability is that the Run dialog box operates under the temporary defaultuser0 account, which is created by Windows during OOBE with full local administrator privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once the Run dialog box is active, an attacker can type <code>cmd.exe</code> and press <code>Ctrl + Shift + Enter</code> to trigger a User Account Control (UAC) prompt for elevation. After the UAC prompt is accepted, a command prompt with administrative privileges opens, allowing the attacker to make system modifications, create new user accounts, or alter security settings.</p>",
+          "text": "Once the Run dialog box is active, an attacker can type cmd.exe and press Ctrl + Shift + Enter to trigger a User Account Control (UAC) prompt for elevation. After the UAC prompt is accepted, a command prompt with administrative privileges opens, allowing the attacker to make system modifications, create new user accounts, or alter security settings."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft response",
+          "id": "microsoft-response"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability poses significant security risks, particularly in enterprise environments where users can initiate device resets using Microsoft Intune Company Portal.</p>",
+          "text": "This vulnerability poses significant security risks, particularly in enterprise environments where users can initiate device resets using Microsoft Intune Company Portal."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has not addressed this security issue, since OOBE inherently runs in an administrative session, and leaving devices unattended during setup is equivalent to leaving machines unlocked. The company’s position treats this as an operational security concern rather than a software vulnerability requiring patching.</p>",
+          "text": "Microsoft has not addressed this security issue, since OOBE inherently runs in an administrative session, and leaving devices unattended during setup is equivalent to leaving machines unlocked. The company’s position treats this as an operational security concern rather than a software vulnerability requiring patching."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The primary mitigation strategy requires preventing users from accessing OOBE entirely by hiding the reset button in the Microsoft Intune admin center under <strong>Tenant administration > Customization</strong> and enable the <strong>Hide reset button on corporate Windows devices</strong> setting.</p>",
+          "text": "The primary mitigation strategy requires preventing users from accessing OOBE entirely by hiding the reset button in the Microsoft Intune admin center under Tenant administration > Customization and enable the Hide reset button on corporate Windows devices setting."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://cybersecuritynews.com/breaking-windows-out-of-box-experience/\">Breaking Windows Out-of-Box-Experience to Gain Command Line Access With Admin Privileges</a></p>",
+          "text": "Breaking Windows Out-of-Box-Experience to Gain Command Line Access With Admin Privileges"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "how-the-exploit-works",
+      "label": "How the exploit works",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-response",
+      "label": "Microsoft response",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://call4cloud.nl/the-oobe-massacre-the-beginning-of-shift-f10/",
+    "https://cybersecuritynews.com/breaking-windows-out-of-box-experience/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-448-16-08-25-windows-out-of-box-experience-oobe-exploit/",
+    "upstreamDisclosedAt": "2025-08-16T15:46:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "3201",
+  "legacyPostId": 3201,
+  "referenceNumber": "TT-CSIRT #088",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-088.020818: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-088-020818-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution within the context of a privileged process. Details are as follows:",
+  "cveList": [
+    "CVE-2017-13228",
+    "CVE-2017-13230",
+    "CVE-2017-13232",
+    "CVE-2017-13231",
+    "CVE-2017-13233",
+    "CVE-2017-13234",
+    "CVE-2017-13236",
+    "CVE-2017-13238",
+    "CVE-2017-13247",
+    "CVE-2017-15265",
+    "CVE-2015-9016",
+    "CVE-2017-17770",
+    "CVE-2017-6279",
+    "CVE-2017-6258",
+    "CVE-2017-15817",
+    "CVE-2017-17760",
+    "CVE-2017-11041",
+    "CVE-2017-17767",
+    "CVE-2017-17765",
+    "CVE-2017-17762",
+    "CVE-2017-14884",
+    "CVE-2017-15829",
+    "CVE-2017-15820",
+    "CVE-2017-17764",
+    "CVE-2017-17761",
+    "CVE-2017-14910"
+  ],
+  "date": "8 February 2018",
+  "rawDate": "2018-02-08T15:19:54",
+  "modifiedDate": "8 February 2018",
+  "rawModifiedDate": "2018-02-08T15:19:54",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution within the context of a privileged process. Details are as follows:</p>\n<p>a) Multiple remote code execution vulnerabilities in Media Framework (CVE-2017-13228, CVE-2017-13230)</p>\n<p>b) An information disclosure vulnerability in Media Framework (CVE-2017-13232)</p>\n<p>c) An elevation of privilege vulnerability in Media Framework (CVE-2017-13231)</p>\n<p>d) Multiple denial of service vulnerabilities in Media Framework (CVE-2017-13230, CVE-2017-13233, CVE-2017-13234)</p>\n<p>e) An elevation of privilege vulnerability in System (CVE-2017-13236)</p>\n<p>f) An information disclosure vulnerability in HTC components (CVE-2017-13238)</p>\n<p>g) An elevation of privilege vulnerability in HTC components (CVE-2017-13247)</p>\n<p>h) Multiple elevation of privilege vulnerabilities in Kernel components (CVE-2017-15265, CVE-2015-9016, CVE-2017-17770)</p>\n<p>i) Multiple elevation of privilege vulnerabilities in NVIDIA components (CVE-2017-6279, CVE-2017-6258)</p>\n<p>j) Multiple remote code execution vulnerabilities in Qualcomm components (CVE-2017-15817, CVE-2017-17760)</p>\n<p>k) Multiple elevation of privilege vulnerabilities in Qualcomm components (CVE-2017-11041, CVE-2017-17767, CVE-2017-17765, CVE-2017-17762, CVE-2017-14884, CVE-2017-15829, CVE-2017-15820, CVE-2017-17764, CVE-2017-17761)</p>\n<p>l) A vulnerability in the Qualcomm closed-source components (CVE-2017-14910)</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-018/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-018/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution within the context of a privileged process.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution within the context of a privileged process. Details are as follows: a) Multiple remote code execution vulnerabilities in Media Framework (CVE-2017-13228, CVE-2017-13230) b) An information disclosure vulnerability in Media Framework (CVE-2017-13232) c) An elevation of [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-088-020818-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution within the context of a privileged process. Details are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution within the context of a privileged process. Details are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Multiple remote code execution vulnerabilities in Media Framework (CVE-2017-13228, CVE-2017-13230)</p>",
+          "text": "a) Multiple remote code execution vulnerabilities in Media Framework (CVE-2017-13228, CVE-2017-13230)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) An information disclosure vulnerability in Media Framework (CVE-2017-13232)</p>",
+          "text": "b) An information disclosure vulnerability in Media Framework (CVE-2017-13232)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An elevation of privilege vulnerability in Media Framework (CVE-2017-13231)</p>",
+          "text": "c) An elevation of privilege vulnerability in Media Framework (CVE-2017-13231)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple denial of service vulnerabilities in Media Framework (CVE-2017-13230, CVE-2017-13233, CVE-2017-13234)</p>",
+          "text": "d) Multiple denial of service vulnerabilities in Media Framework (CVE-2017-13230, CVE-2017-13233, CVE-2017-13234)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) An elevation of privilege vulnerability in System (CVE-2017-13236)</p>",
+          "text": "e) An elevation of privilege vulnerability in System (CVE-2017-13236)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) An information disclosure vulnerability in HTC components (CVE-2017-13238)</p>",
+          "text": "f) An information disclosure vulnerability in HTC components (CVE-2017-13238)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) An elevation of privilege vulnerability in HTC components (CVE-2017-13247)</p>",
+          "text": "g) An elevation of privilege vulnerability in HTC components (CVE-2017-13247)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Multiple elevation of privilege vulnerabilities in Kernel components (CVE-2017-15265, CVE-2015-9016, CVE-2017-17770)</p>",
+          "text": "h) Multiple elevation of privilege vulnerabilities in Kernel components (CVE-2017-15265, CVE-2015-9016, CVE-2017-17770)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Multiple elevation of privilege vulnerabilities in NVIDIA components (CVE-2017-6279, CVE-2017-6258)</p>",
+          "text": "i) Multiple elevation of privilege vulnerabilities in NVIDIA components (CVE-2017-6279, CVE-2017-6258)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Multiple remote code execution vulnerabilities in Qualcomm components (CVE-2017-15817, CVE-2017-17760)</p>",
+          "text": "j) Multiple remote code execution vulnerabilities in Qualcomm components (CVE-2017-15817, CVE-2017-17760)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Multiple elevation of privilege vulnerabilities in Qualcomm components (CVE-2017-11041, CVE-2017-17767, CVE-2017-17765, CVE-2017-17762, CVE-2017-14884, CVE-2017-15829, CVE-2017-15820, CVE-2017-17764, CVE-2017-17761)</p>",
+          "text": "k) Multiple elevation of privilege vulnerabilities in Qualcomm components (CVE-2017-11041, CVE-2017-17767, CVE-2017-17765, CVE-2017-17762, CVE-2017-14884, CVE-2017-15829, CVE-2017-15820, CVE-2017-17764, CVE-2017-17761)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) A vulnerability in the Qualcomm closed-source components (CVE-2017-14910)</p>",
+          "text": "l) A vulnerability in the Qualcomm closed-source components (CVE-2017-14910)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-018/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-018/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-018/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-018/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-088-020818-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2018-02-08T15:19:54",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

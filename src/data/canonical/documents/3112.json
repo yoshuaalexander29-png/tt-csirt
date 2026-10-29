@@ -1,0 +1,70 @@
+{
+  "id": "3112",
+  "legacyPostId": 3112,
+  "referenceNumber": "TT-CSIRT #074",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-074.121417: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-074-121417-tt-csirt-advisory-apple-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has reported that a vulnerability exists in iCloud For Windows 7.2 where an attacker in a privileged network position can track a user. This is due to a privacy issue which existed in the use of client certificates.",
+  "cveList": [],
+  "date": "14 December 2017",
+  "rawDate": "2017-12-14T15:29:52",
+  "modifiedDate": "14 December 2017",
+  "rawModifiedDate": "2017-12-14T15:29:52",
+  "contentHtml": "<p>Apple has reported that a vulnerability exists in iCloud For Windows 7.2 where an attacker in a privileged network position can track a user. This is due to a privacy issue which existed in the use of client certificates.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT208328\"><font size=\"2\" color=\"maroon\">https://support.apple.com/en-us/HT208328</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has reported that a vulnerability exists in iCloud For Windows 7.2 where an attacker in a privileged network position can track a user.",
+  "sourceExcerpt": "<p>Apple has reported that a vulnerability exists in iCloud For Windows 7.2 where an attacker in a privileged network position can track a user. This is due to a privacy issue which existed in the use of client certificates. Further information on this vulnerability and how it can be fixed can be found on the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-074-121417-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has reported that a vulnerability exists in iCloud For Windows 7.2 where an attacker in a privileged network position can track a user. This is due to a privacy issue which existed in the use of client certificates.</p>",
+          "text": "Apple has reported that a vulnerability exists in iCloud For Windows 7.2 where an attacker in a privileged network position can track a user. This is due to a privacy issue which existed in the use of client certificates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT208328\">https://support.apple.com/en-us/HT208328</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on the Apple Website at https://support.apple.com/en-us/HT208328"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT208328"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-074-121417-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2017-12-14T15:29:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "4565",
+  "legacyPostId": 4565,
+  "referenceNumber": "TT-CSIRT 323.07.14.20",
+  "classification": "advisory",
+  "title": "Vulnerability in Windows DNS",
+  "rawTitle": "TTCSIRT-323.07.14.20: TT-CSIRT ADVISORY- Vulnerability in Windows DNS",
+  "slug": "ttcsirt-323-07-14-20-tt-csirt-advisory-vulnerability-in-windows-dns",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released an update for CVE-2020-1350, a Critical Remote Code Execution (RCE) vulnerability in Windows DNS Server that is classified as a ‘wormable’ vulnerability and has a CVSS base score of 10.0. This issue results from a flaw in Microsoft’s DNS server role implementation and affects all Windows Server versions. Non-Microsoft DNS Servers are not affected.",
+  "cveList": [
+    "CVE-2020-1350"
+  ],
+  "date": "17 July 2020",
+  "rawDate": "2020-07-17T09:12:56",
+  "modifiedDate": "17 July 2020",
+  "rawModifiedDate": "2020-07-17T09:12:56",
+  "contentHtml": "\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">Microsoft has released an update for CVE-2020-1350, a Critical Remote Code Execution (RCE) vulnerability in Windows DNS Server that is classified as a ‘wormable’ vulnerability and has a CVSS base score of 10.0. This issue results from a flaw in Microsoft’s DNS server role implementation and affects all Windows Server versions. Non-Microsoft DNS Servers are not affected.</p>\n\n\n\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">&#8216;Wormable&#8217; vulnerabilities have the potential to spread via malware between vulnerable computers without user interaction. Windows DNS Server is a core networking component. While this vulnerability is not currently known to be used in active attacks, it is essential that customers apply Windows updates to address this vulnerability as soon as possible. </p>\n\n\n\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">TT-CSIRT strongly encourages administrators to review the following advisory from Microsoft and apply the latest updates immediately:</p>\n\n\n\n<p class=\"wp-block-paragraph\"> <a rel=\"noreferrer noopener\" href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=6fc10088b4&amp;e=64e3bb0ab9\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1350</a><br></p>\n",
+  "displaySummary": "Microsoft has released an update for CVE-2020-1350, a Critical Remote Code Execution (RCE) vulnerability in Windows DNS Server that is classified as a ‘wormable’ vulnerability and has a CVSS…",
+  "sourceExcerpt": "<p>Microsoft has released an update for CVE-2020-1350, a Critical Remote Code Execution (RCE) vulnerability in Windows DNS Server that is classified as a ‘wormable’ vulnerability and has a CVSS base score of 10.0. This issue results from a flaw in Microsoft’s DNS server role implementation and affects all Windows Server versions. Non-Microsoft DNS Servers are [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-323-07-14-20-tt-csirt-advisory-vulnerability-in-windows-dns/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released an update for CVE-2020-1350, a Critical Remote Code Execution (RCE) vulnerability in Windows DNS Server that is classified as a ‘wormable’ vulnerability and has a CVSS base score of 10.0. This issue results from a flaw in Microsoft’s DNS server role implementation and affects all Windows Server versions. Non-Microsoft DNS Servers are not affected.</p>",
+          "text": "Microsoft has released an update for CVE-2020-1350, a Critical Remote Code Execution (RCE) vulnerability in Windows DNS Server that is classified as a ‘wormable’ vulnerability and has a CVSS base score of 10.0. This issue results from a flaw in Microsoft’s DNS server role implementation and affects all Windows Server versions. Non-Microsoft DNS Servers are not affected."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>&#8216;Wormable&#8217; vulnerabilities have the potential to spread via malware between vulnerable computers without user interaction. Windows DNS Server is a core networking component. While this vulnerability is not currently known to be used in active attacks, it is essential that customers apply Windows updates to address this vulnerability as soon as possible.</p>",
+          "text": "‘Wormable’ vulnerabilities have the potential to spread via malware between vulnerable computers without user interaction. Windows DNS Server is a core networking component. While this vulnerability is not currently known to be used in active attacks, it is essential that customers apply Windows updates to address this vulnerability as soon as possible."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT strongly encourages administrators to review the following advisory from Microsoft and apply the latest updates immediately:</p>",
+          "text": "TT-CSIRT strongly encourages administrators to review the following advisory from Microsoft and apply the latest updates immediately:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a rel=\"noreferrer noopener\" href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=6fc10088b4&amp;e=64e3bb0ab9\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1350</a><br></p>",
+          "text": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1350"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-323-07-14-20-tt-csirt-advisory-vulnerability-in-windows-dns/",
+    "upstreamDisclosedAt": "2020-07-17T09:12:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

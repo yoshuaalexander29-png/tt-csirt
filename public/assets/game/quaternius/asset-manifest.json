@@ -1,0 +1,29 @@
+{
+  "title": "Secure the island office game assets",
+  "assets": [
+    {
+      "source": "https://quaternius.com/packs/universalbasecharacters.html",
+      "name": "Universal Base Characters",
+      "files": ["characters/Superhero_Female_FullBody.gltf", "characters/Superhero_Male_FullBody.gltf", "characters/T_*.png"],
+      "license": "CC0 1.0 Universal",
+      "changes": "Female character palette tinted deep teal and warm gold for the player; male character palette tinted forest green and coral for the office manager. The source models and textures are otherwise retained.",
+      "reason": "Shared humanoid rig and compatible appearance for a distinct player and non-player guide."
+    },
+    {
+      "source": "https://quaternius.com/packs/universalanimationlibrary.html",
+      "name": "Universal Animation Library",
+      "files": ["animations/UAL1_Standard.glb"],
+      "license": "CC0 1.0 Universal",
+      "changes": "Loaded lazily and used for in-place walk, idle, conversational and interaction clips.",
+      "reason": "Animation bones match the selected character rigs; provides real articulated movement."
+    },
+    {
+      "source": "https://quaternius.com/packs/stylizednaturemegakit.html",
+      "name": "Stylized Nature MegaKit",
+      "files": ["nature/CommonTree_1.gltf", "nature/CommonTree_2.gltf", "nature/CommonTree_3.gltf", "nature/Bush_Common_Flowers.gltf", "nature/Fern_1.gltf", "nature/Flower_3_Group.gltf"],
+      "license": "CC0 1.0 Universal",
+      "changes": "Selected a small shared-palette subset and arranged it into the island garden; source meshes and textures are retained.",
+      "reason": "Adds a consistent stylized botanical language without mixing unrelated environment packs."
+    }
+  ]
+}

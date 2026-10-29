@@ -1,0 +1,75 @@
+{
+  "id": "3421",
+  "legacyPostId": 3421,
+  "referenceNumber": "TT-CSIRT #134",
+  "classification": "advisory",
+  "title": "macOS security updates",
+  "rawTitle": "TTCSIRT-134.062018: TT-CSIRT Advisory – macOS Security Updates",
+  "slug": "ttcsirt-134-062018-tt-csirt-advisory-macos-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released a security update stating that a vulnerability has been discovered in Xcode for macOS High Sierra where an attacker can bypass security restrictions.",
+  "cveList": [],
+  "date": "20 June 2018",
+  "rawDate": "2018-06-20T12:55:12",
+  "modifiedDate": "20 June 2018",
+  "rawModifiedDate": "2018-06-20T12:55:12",
+  "contentHtml": "<p>Apple has released a security update stating that a vulnerability has been discovered in Xcode for macOS High Sierra where an attacker can bypass security restrictions. </p>\n<p>This is due to multiple issues existing in versions of git prior to 2.15.2.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-xcode-for-macos-high-sierra-could-allow-for-arbitrary-code-execution_2018-067/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-xcode-for-macos-high-sierra-could-allow-for-arbitrary-code-execution_2018-067/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released a security update stating that a vulnerability has been discovered in Xcode for macOS High Sierra where an attacker can bypass security restrictions.",
+  "sourceExcerpt": "<p>Apple has released a security update stating that a vulnerability has been discovered in Xcode for macOS High Sierra where an attacker can bypass security restrictions. This is due to multiple issues existing in versions of git prior to 2.15.2. Further information on this vulnerability and how it can be mitigated can be found at [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-134-062018-tt-csirt-advisory-macos-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released a security update stating that a vulnerability has been discovered in Xcode for macOS High Sierra where an attacker can bypass security restrictions.</p>",
+          "text": "Apple has released a security update stating that a vulnerability has been discovered in Xcode for macOS High Sierra where an attacker can bypass security restrictions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This is due to multiple issues existing in versions of git prior to 2.15.2.</p>",
+          "text": "This is due to multiple issues existing in versions of git prior to 2.15.2."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-xcode-for-macos-high-sierra-could-allow-for-arbitrary-code-execution_2018-067/\">https://www.cisecurity.org/advisory/a-vulnerability-in-xcode-for-macos-high-sierra-could-allow-for-arbitrary-code-execution_2018-067/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-xcode-for-macos-high-sierra-could-allow-for-arbitrary-code-execution_2018-067/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-xcode-for-macos-high-sierra-could-allow-for-arbitrary-code-execution_2018-067/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-134-062018-tt-csirt-advisory-macos-security-updates/",
+    "upstreamDisclosedAt": "2018-06-20T12:55:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

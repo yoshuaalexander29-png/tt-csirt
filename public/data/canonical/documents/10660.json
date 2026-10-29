@@ -1,0 +1,133 @@
+{
+  "id": "10660",
+  "legacyPostId": 10660,
+  "referenceNumber": "TT-CSIRT 446.07.08.25",
+  "classification": "advisory",
+  "title": "Privilege escalation vulnerability in Microsoft Exchange hybrid deployments",
+  "rawTitle": "TT-CSIRT – 446.07.08.25 – Privilege Escalation Vulnerability in Microsoft Exchange Hybrid Deployments",
+  "slug": "tt-csirt-446-07-08-25-privilege-escalation-vulnerability-in-microsoft-exchange-hybrid-deployments",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A high-severity vulnerability, CVE-2025-53786 , affecting Microsoft Exchange hybrid deployments. This vulnerability allows a threat actor with administrative access to an on-premise Exchange server to escalate privileges by exploiting vulnerable hybrid-joined configurations.",
+  "cveList": [
+    "CVE-2025-53786"
+  ],
+  "date": "7 August 2025",
+  "rawDate": "2025-08-07T10:43:24",
+  "modifiedDate": "7 August 2025",
+  "rawModifiedDate": "2025-08-07T10:47:22",
+  "contentHtml": "<p>Please be advised of a high-severity vulnerability, <strong>CVE-2025-53786</strong>, affecting Microsoft Exchange hybrid deployments. This vulnerability allows a threat actor with administrative access to an on-premise Exchange server to escalate privileges by exploiting vulnerable hybrid-joined configurations.</p>\n<p>No active exploitation observed, but CISA urges organizations to implement Microsoft’s <em><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786\" target=\"_blank\" rel=\"noopener\">Exchange Server Hybrid Deployment Elevation of Privilege Vulnerability</a></em> guidance to protect Exchange Online identity integrity.</p>\n<p><strong>Impact</strong></p>\n<ul>\n<li>A malicious actor with admin access to an on-premise Exchange server could escalate privileges via misconfigured hybrid-joined environments.</li>\n<li>May result in full domain compromise, impacting both cloud and on-premise infrastructure.</li>\n<li>Exploitation risks compromising Exchange Online identity integrity and hybrid trust relationships.</li>\n</ul>\n<p><strong>Recommended Mitigation Steps:</strong></p>\n<ol>\n<li><strong>Assess Deployment Exposure</strong><br />\nReview Microsoft’s <em><a href=\"https://techcommunity.microsoft.com/blog/exchange/exchange-server-security-changes-for-hybrid-deployments/4396833\" target=\"_blank\" rel=\"noopener\">Exchange Server Security Changes for Hybrid Deployments</a></em> to determine if your hybrid Exchange environment is affected.</li>\n<li><strong>Apply April 2025 Hotfixes</strong><br />\nInstall Microsoft’s <a href=\"https://techcommunity.microsoft.com/blog/exchange/released-april-2025-exchange-server-hotfix-updates/4402471\" target=\"_blank\" rel=\"noopener\">April 2025 Exchange Server Hotfix Updates</a> on all on-premise Exchange servers.</li>\n</ol>\n<ul>\n<li>Configure the dedicated <a href=\"https://learn.microsoft.com/en-us/Exchange/hybrid-deployment/deploy-dedicated-hybrid-app\" target=\"_blank\" rel=\"noopener\">Exchange hybrid app</a> as per Microsoft’s guidance.</li>\n</ul>\n<ol start=\"3\">\n<li><strong>Clean Up Service Principals (If Hybrid Was Previously Used)</strong><br />\nFollow Microsoft’s <em><a href=\"https://learn.microsoft.com/en-us/Exchange/hybrid-deployment/deploy-dedicated-hybrid-app#service-principal-clean-up-mode\" target=\"_blank\" rel=\"noopener\">Service Principal Clean-Up Mode</a></em> to reset keyCredentials if hybrid Exchange was previously configured but is no longer in use.</li>\n<li><strong>Run Exchange Health Checker</strong><br />\nUse the <a href=\"https://microsoft.github.io/CSS-Exchange/Diagnostics/HealthChecker/\" target=\"_blank\" rel=\"noopener\">Microsoft Exchange Health Checker</a> to confirm correct configuration and identify any additional required actions.</li>\n<li><strong>Disconnect Legacy Systems</strong><br />\nRemove public-facing Exchange or SharePoint servers that have reached end-of-life (EOL) status (e.g., SharePoint Server 2013 or earlier).</li>\n</ol>\n<p><strong>References:</strong></p>\n<ul>\n<li><a href=\"https://www.cisa.gov/news-events/alerts/2025/08/06/microsoft-releases-guidance-high-severity-vulnerability-cve-2025-53786-hybrid-exchange-deployments\" target=\"_blank\" rel=\"noopener\">https://www.cisa.gov/news-events/alerts/2025/08/06/microsoft-releases-guidance-high-severity-vulnerability-cve-2025-53786-hybrid-exchange-deployments</a></li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-53786\" target=\"_blank\" rel=\"noopener\">https://www.cve.org/CVERecord?id=CVE-2025-53786</a></li>\n<li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786\" target=\"_blank\" rel=\"noopener\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786</a></li>\n<li><a href=\"https://techcommunity.microsoft.com/blog/exchange/dedicated-hybrid-app-temporary-enforcements-new-hcw-and-possible-hybrid-function/4440682\" target=\"_blank\" rel=\"noopener\">https://techcommunity.microsoft.com/blog/exchange/dedicated-hybrid-app-temporary-enforcements-new-hcw-and-possible-hybrid-function/4440682</a></li>\n</ul>\n<p>If you have any queries, comments, or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt.</p>\n",
+  "displaySummary": "A high-severity vulnerability, CVE-2025-53786, affecting Microsoft Exchange hybrid deployments.",
+  "sourceExcerpt": "<p>Please be advised of a high-severity vulnerability, CVE-2025-53786, affecting Microsoft Exchange hybrid deployments. This vulnerability allows a threat actor with administrative access to an on-premise Exchange server to escalate privileges by exploiting vulnerable hybrid-joined configurations. No active exploitation observed, but CISA urges organizations to implement Microsoft’s Exchange Server Hybrid Deployment Elevation of Privilege Vulnerability guidance [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-446-07-08-25-privilege-escalation-vulnerability-in-microsoft-exchange-hybrid-deployments/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A high-severity vulnerability, <strong>CVE-2025-53786</strong>, affecting Microsoft Exchange hybrid deployments. This vulnerability allows a threat actor with administrative access to an on-premise Exchange server to escalate privileges by exploiting vulnerable hybrid-joined configurations.</p>",
+          "text": "A high-severity vulnerability, CVE-2025-53786 , affecting Microsoft Exchange hybrid deployments. This vulnerability allows a threat actor with administrative access to an on-premise Exchange server to escalate privileges by exploiting vulnerable hybrid-joined configurations."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>No active exploitation observed, but CISA urges organizations to implement Microsoft’s <em><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786\" target=\"_blank\" rel=\"noopener\">Exchange Server Hybrid Deployment Elevation of Privilege Vulnerability</a></em> guidance to protect Exchange Online identity integrity.</p>",
+          "text": "No active exploitation observed, but CISA urges organizations to implement Microsoft’s Exchange Server Hybrid Deployment Elevation of Privilege Vulnerability guidance to protect Exchange Online identity integrity."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>A malicious actor with admin access to an on-premise Exchange server could escalate privileges via misconfigured hybrid-joined environments.</li>\n<li>May result in full domain compromise, impacting both cloud and on-premise infrastructure.</li>\n<li>Exploitation risks compromising Exchange Online identity integrity and hybrid trust relationships.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "recommended-mitigation-steps",
+      "title": "Recommended mitigation steps",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n<li><strong>Assess Deployment Exposure</strong><br />\nReview Microsoft’s <em><a href=\"https://techcommunity.microsoft.com/blog/exchange/exchange-server-security-changes-for-hybrid-deployments/4396833\" target=\"_blank\" rel=\"noopener\">Exchange Server Security Changes for Hybrid Deployments</a></em> to determine if your hybrid Exchange environment is affected.</li>\n<li><strong>Apply April 2025 Hotfixes</strong><br />\nInstall Microsoft’s <a href=\"https://techcommunity.microsoft.com/blog/exchange/released-april-2025-exchange-server-hotfix-updates/4402471\" target=\"_blank\" rel=\"noopener\">April 2025 Exchange Server Hotfix Updates</a> on all on-premise Exchange servers.</li>\n</ol>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Configure the dedicated <a href=\"https://learn.microsoft.com/en-us/Exchange/hybrid-deployment/deploy-dedicated-hybrid-app\" target=\"_blank\" rel=\"noopener\">Exchange hybrid app</a> as per Microsoft’s guidance.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"3\">\n<li><strong>Clean Up Service Principals (If Hybrid Was Previously Used)</strong><br />\nFollow Microsoft’s <em><a href=\"https://learn.microsoft.com/en-us/Exchange/hybrid-deployment/deploy-dedicated-hybrid-app#service-principal-clean-up-mode\" target=\"_blank\" rel=\"noopener\">Service Principal Clean-Up Mode</a></em> to reset keyCredentials if hybrid Exchange was previously configured but is no longer in use.</li>\n<li><strong>Run Exchange Health Checker</strong><br />\nUse the <a href=\"https://microsoft.github.io/CSS-Exchange/Diagnostics/HealthChecker/\" target=\"_blank\" rel=\"noopener\">Microsoft Exchange Health Checker</a> to confirm correct configuration and identify any additional required actions.</li>\n<li><strong>Disconnect Legacy Systems</strong><br />\nRemove public-facing Exchange or SharePoint servers that have reached end-of-life (EOL) status (e.g., SharePoint Server 2013 or earlier).</li>\n</ol>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://www.cisa.gov/news-events/alerts/2025/08/06/microsoft-releases-guidance-high-severity-vulnerability-cve-2025-53786-hybrid-exchange-deployments\" target=\"_blank\" rel=\"noopener\">https://www.cisa.gov/news-events/alerts/2025/08/06/microsoft-releases-guidance-high-severity-vulnerability-cve-2025-53786-hybrid-exchange-deployments</a></li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-53786\" target=\"_blank\" rel=\"noopener\">https://www.cve.org/CVERecord?id=CVE-2025-53786</a></li>\n<li><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786\" target=\"_blank\" rel=\"noopener\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786</a></li>\n<li><a href=\"https://techcommunity.microsoft.com/blog/exchange/dedicated-hybrid-app-temporary-enforcements-new-hcw-and-possible-hybrid-function/4440682\" target=\"_blank\" rel=\"noopener\">https://techcommunity.microsoft.com/blog/exchange/dedicated-hybrid-app-temporary-enforcements-new-hcw-and-possible-hybrid-function/4440682</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "recommended-mitigation-steps",
+      "label": "Recommended mitigation steps"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53786",
+    "https://techcommunity.microsoft.com/blog/exchange/exchange-server-security-changes-for-hybrid-deployments/4396833",
+    "https://techcommunity.microsoft.com/blog/exchange/released-april-2025-exchange-server-hotfix-updates/4402471",
+    "https://learn.microsoft.com/en-us/Exchange/hybrid-deployment/deploy-dedicated-hybrid-app",
+    "https://learn.microsoft.com/en-us/Exchange/hybrid-deployment/deploy-dedicated-hybrid-app#service-principal-clean-up-mode",
+    "https://microsoft.github.io/CSS-Exchange/Diagnostics/HealthChecker/",
+    "https://www.cisa.gov/news-events/alerts/2025/08/06/microsoft-releases-guidance-high-severity-vulnerability-cve-2025-53786-hybrid-exchange-deployments",
+    "https://www.cve.org/CVERecord?id=CVE-2025-53786",
+    "https://techcommunity.microsoft.com/blog/exchange/dedicated-hybrid-app-temporary-enforcements-new-hcw-and-possible-hybrid-function/4440682"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-446-07-08-25-privilege-escalation-vulnerability-in-microsoft-exchange-hybrid-deployments/",
+    "upstreamDisclosedAt": "2025-08-07T10:43:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

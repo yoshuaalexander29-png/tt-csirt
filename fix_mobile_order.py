@@ -1,0 +1,22 @@
+import re
+
+with open('src/pages/AdvisoriesPage.tsx', 'r') as f:
+    content = f.read()
+
+content = content.replace(
+    '<div className="govuk-grid-row app-page-grid-row" style={{ display: "flex", flexDirection: "column-reverse" }} id="advisories-grid">',
+    """<style dangerouslySetInnerHTML={{__html: `
+      @media (max-width: 40.0625em) {
+        .advisories-grid-row {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+    `}} />
+    <div className="govuk-grid-row app-page-grid-row advisories-grid-row">"""
+)
+
+with open('src/pages/AdvisoriesPage.tsx', 'w') as f:
+    f.write(content)
+
+print("Mobile order fixed")

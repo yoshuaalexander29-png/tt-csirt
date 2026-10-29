@@ -1,0 +1,113 @@
+{
+  "id": "3291",
+  "legacyPostId": 3291,
+  "referenceNumber": "TT-CSIRT #108",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-108.041318: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-108-041318-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that multiple vulnerabilities have been discovered in Adobe Flash Player the most severe of which could allow for remote code execution.",
+  "cveList": [
+    "CVE-2018-4932",
+    "CVE-2018-4935",
+    "CVE-2018-4937",
+    "CVE-2018-4933",
+    "CVE-2018-4934",
+    "CVE-2018-4936"
+  ],
+  "date": "13 April 2018",
+  "rawDate": "2018-04-13T12:06:57",
+  "modifiedDate": "13 April 2018",
+  "rawModifiedDate": "2018-04-13T12:06:57",
+  "contentHtml": "<p>Adobe has released a security update stating that multiple vulnerabilities have been discovered in Adobe Flash Player the most severe of which could allow for remote code execution. </p>\n<p>Details are as follows:</p>\n<p>a) A remote code-execution vulnerability that occurs due to a use-after-free condition &#8211; (CVE-2018-4932)</p>\n<p>b) Multiple remote code-execution vulnerabilities that occur due to an out-of-bounds write error &#8211; (CVE-2018-4935, CVE-2018-4937)</p>\n<p>c) Multiple information-disclosure vulnerabilities that occur due to an out-of-bounds read error &#8211; (CVE-2018-4933, CVE-2018-4934)</p>\n<p>d) An information-disclosure vulnerability that occurs due to a heap overflow condition &#8211; (CVE-2018-4936)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb18-08_2018-039/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb18-08_2018-039/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that multiple vulnerabilities have been discovered in Adobe Flash Player the most severe of which could allow for remote code execution.",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that multiple vulnerabilities have been discovered in Adobe Flash Player the most severe of which could allow for remote code execution. Details are as follows: a) A remote code-execution vulnerability that occurs due to a use-after-free condition &#8211; (CVE-2018-4932) b) Multiple remote code-execution vulnerabilities that occur due to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-108-041318-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that multiple vulnerabilities have been discovered in Adobe Flash Player the most severe of which could allow for remote code execution.</p>",
+          "text": "Adobe has released a security update stating that multiple vulnerabilities have been discovered in Adobe Flash Player the most severe of which could allow for remote code execution."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Details are as follows",
+          "id": "details-are-as-follows"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A remote code-execution vulnerability that occurs due to a use-after-free condition &#8211; (CVE-2018-4932)</p>",
+          "text": "a) A remote code-execution vulnerability that occurs due to a use-after-free condition – (CVE-2018-4932)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Multiple remote code-execution vulnerabilities that occur due to an out-of-bounds write error &#8211; (CVE-2018-4935, CVE-2018-4937)</p>",
+          "text": "b) Multiple remote code-execution vulnerabilities that occur due to an out-of-bounds write error – (CVE-2018-4935, CVE-2018-4937)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Multiple information-disclosure vulnerabilities that occur due to an out-of-bounds read error &#8211; (CVE-2018-4933, CVE-2018-4934)</p>",
+          "text": "c) Multiple information-disclosure vulnerabilities that occur due to an out-of-bounds read error – (CVE-2018-4933, CVE-2018-4934)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) An information-disclosure vulnerability that occurs due to a heap overflow condition &#8211; (CVE-2018-4936)</p>",
+          "text": "d) An information-disclosure vulnerability that occurs due to a heap overflow condition – (CVE-2018-4936)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb18-08_2018-039/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb18-08_2018-039/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb18-08_2018-039/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "details-are-as-follows",
+      "label": "Details are as follows",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-remote-code-execution-apsb18-08_2018-039/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-108-041318-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-04-13T12:06:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

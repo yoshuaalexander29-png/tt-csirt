@@ -1,0 +1,75 @@
+{
+  "id": "3277",
+  "legacyPostId": 3277,
+  "referenceNumber": "TT-CSIRT #107",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-107.040618: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-107-040318-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that when the Microsoft update for meltdown is installed on a Windows 7 x64 or Windows Server 2008 R2 x64 system, an unprivileged process may be able to read and write the entire memory space available to the Windows kernel.",
+  "cveList": [],
+  "date": "6 April 2018",
+  "rawDate": "2018-04-06T11:36:18",
+  "modifiedDate": "6 April 2018",
+  "rawModifiedDate": "2018-04-06T11:36:18",
+  "contentHtml": "<p>Microsoft has released a security update stating that when the Microsoft update for meltdown is installed on a Windows 7 x64 or Windows Server 2008 R2 x64 system, an unprivileged process may be able to read and write the entire memory space available to the Windows kernel.</p>\n<p>Basically, an attacker with the ability to run code on an affected platform as an unprivileged user may be able to read from and write to the entire contents of system memory.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Vulnerability Notes Database at <a href=\"https://www.kb.cert.org/vuls/id/277400\"><font size=\"2\" color=\"maroon\">https://www.kb.cert.org/vuls/id/277400</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that when the Microsoft update for meltdown is installed on a Windows 7 x64 or Windows Server 2008 R2 x64 system, an unprivileged process may be…",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that when the Microsoft update for meltdown is installed on a Windows 7 x64 or Windows Server 2008 R2 x64 system, an unprivileged process may be able to read and write the entire memory space available to the Windows kernel. Basically, an attacker with the ability to run [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-107-040318-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that when the Microsoft update for meltdown is installed on a Windows 7 x64 or Windows Server 2008 R2 x64 system, an unprivileged process may be able to read and write the entire memory space available to the Windows kernel.</p>",
+          "text": "Microsoft has released a security update stating that when the Microsoft update for meltdown is installed on a Windows 7 x64 or Windows Server 2008 R2 x64 system, an unprivileged process may be able to read and write the entire memory space available to the Windows kernel."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Basically, an attacker with the ability to run code on an affected platform as an unprivileged user may be able to read from and write to the entire contents of system memory.</p>",
+          "text": "Basically, an attacker with the ability to run code on an affected platform as an unprivileged user may be able to read from and write to the entire contents of system memory."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Vulnerability Notes Database at <a href=\"https://www.kb.cert.org/vuls/id/277400\">https://www.kb.cert.org/vuls/id/277400</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Vulnerability Notes Database at https://www.kb.cert.org/vuls/id/277400"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.kb.cert.org/vuls/id/277400"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-107-040318-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-04-06T11:36:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

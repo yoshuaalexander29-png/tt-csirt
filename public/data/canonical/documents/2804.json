@@ -1,0 +1,198 @@
+{
+  "id": "2804",
+  "legacyPostId": 2804,
+  "referenceNumber": "TT-CSIRT #017",
+  "classification": "advisory",
+  "title": "Petya ransomware",
+  "rawTitle": "TTCSIRT-017.062717: TT-CSIRT Advisory – Petya Ransomware",
+  "slug": "ttcsirt-017-062717-tt-csirt-advisory-petya-ransomware",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "This is an alert from TTCSIRT that there are early signs of a new ransomware outbreak currently affecting a large number of countries across the globe such as the United Kingdom, Ukraine, India, Netherlands, Spain, Denmark, and United States along with several others.",
+  "cveList": [
+    "CVE-2017-0144"
+  ],
+  "date": "27 June 2017",
+  "rawDate": "2017-06-27T16:12:10",
+  "modifiedDate": "27 June 2017",
+  "rawModifiedDate": "2017-06-27T16:12:10",
+  "contentHtml": "<p><strong>Date First published: 27/6/2017</strong></p>\n<p><strong>1.0 Introduction</strong></p>\n<p><strong>Discovered: June 27, 2017</strong><br />\n<strong>Updated: June 27, 2017 12:30pm </strong><br />\n<strong>Type: Ransomware</strong><br />\n<strong>Infection Length: Varies</strong><br />\n<strong>Systems Affected: Client Computers, Servers, Websites</strong></p>\n<p>This is an alert from TTCSIRT that there are early signs of a new ransomware outbreak currently affecting a large number of countries across the globe such as the United Kingdom, Ukraine, India, Netherlands, Spain, Denmark, and United States along with several others.</p>\n<p>The culprit is a new version of Petya, a ransomware that encrypts MFT (Master File Tree) tables for NTFS partitions and overwrites the MBR (Master Boot Record) with a custom bootloader that shows a ransom note and prevents victims from booting their computer.</p>\n<div align=\"center\"><img fetchpriority=\"high\" decoding=\"async\" src=\"https://ttcsirt.gov.tt/images/1.jpg\" width=\"700\" height=\"350\" /></div>\n<p></p>\n<p><strong>2.0 Delivery/Exploitation</strong></p>\n<p>We have not yet confirmed the initial infection vector for this new Petya variant. Previous variants were spread through e-mail, but we have not identified this latest sample carried in any e-mail related attacks.</p>\n<p>Users may be infected through direct exploitation of CVE-2017-0144 if their host is accessible to the internet on TCP port 445 and has not been updated with the patches included in MS17-010.</p>\n<div align=\"center\"><img decoding=\"async\" src=\"https://ttcsirt.gov.tt/images/2.jpg\" width=\"700\" height=\"350\" /></div>\n<p></p>\n<div align=\"center\"><img decoding=\"async\" src=\"https://ttcsirt.gov.tt/images/3.jpg\" width=\"700\" height=\"350\" /></div>\n<p>Once infected, the virus encrypts each computer to a private key, rendering it unusable until the system is decrypted. The program then instructs the user to pay $300 to a static Bitcoin address, then email the bitcoin wallet and personal ID to a Posteo email address. As of now, block chain records showed eight transactions to the target wallet, totaling roughly $2,300. It’s unclear whether any systems have been successfully decrypted after payment.</p>\n<p><strong>3.0 Impact</strong></p>\n<p>Currently, there are multiple reports from several countries about the ransomware&#8217;s impact. The most affected country seems to be the Ukraine, where government agencies have reported &#8220;cyber-attacks&#8221; caused by a mysterious virus that affected the country&#8217;s largest banks, airports, and utility providers.  </p>\n<p>Similarly, in Spain, local media is reporting ransomware attacks at a large number of companies that include food conglomerate Mondelez and law firm giant DLA Piper.</p>\n<p>In the UK, marketing firm WPP was affected, along with many other. The US didn&#8217;t escape the Petya outbreak, and the first major victim to surface was pharma giant Merck. </p>\n<p>The attack has even affected operations at the Chernobyl nuclear power plant, which has switched to manual radiation monitoring as a result of the attack. Infections have also been reported in more isolated devices like point-of-sale terminals and ATMs.</p>\n<p></p>\n<table>\n<tr>\n<td>For further information on the Petya Ransomware and recommendations on how to avoid being infected, view the <a href=\"https://ttcsirt.gov.tt/documents/petya.pdf\"><font size=\"2\" color=\"maroon\">TTCSIRT Petya Ransomware Advisory</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "There are early signs of a new ransomware outbreak currently affecting a large number of countries across the globe such as the",
+  "sourceExcerpt": "<p>Date First published: 27/6/2017 1.0 Introduction Discovered: June 27, 2017 Updated: June 27, 2017 12:30pm Type: Ransomware Infection Length: Varies Systems Affected: Client Computers, Servers, Websites This is an alert from TTCSIRT that there are early signs of a new ransomware outbreak currently affecting a large number of countries across the globe such as the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-017-062717-tt-csirt-advisory-petya-ransomware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Date first published: 27/6/2017",
+          "id": "date-first-published-2762017"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Discovered: june 27, 2017",
+          "id": "discovered-june-27-2017"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Updated: june 27, 2017 12:30pm",
+          "id": "updated-june-27-2017-1230pm"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type: ransomware",
+          "id": "type-ransomware"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Infection length: varies",
+          "id": "infection-length-varies"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Systems affected: client computers, servers, websites",
+          "id": "systems-affected-client-computers-servers-websites"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This is an alert from TTCSIRT that there are early signs of a new ransomware outbreak currently affecting a large number of countries across the globe such as the United Kingdom, Ukraine, India, Netherlands, Spain, Denmark, and United States along with several others.</p>",
+          "text": "This is an alert from TTCSIRT that there are early signs of a new ransomware outbreak currently affecting a large number of countries across the globe such as the United Kingdom, Ukraine, India, Netherlands, Spain, Denmark, and United States along with several others."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The culprit is a new version of Petya, a ransomware that encrypts MFT (Master File Tree) tables for NTFS partitions and overwrites the MBR (Master Boot Record) with a custom bootloader that shows a ransom note and prevents victims from booting their computer.</p>",
+          "text": "The culprit is a new version of Petya, a ransomware that encrypts MFT (Master File Tree) tables for NTFS partitions and overwrites the MBR (Master Boot Record) with a custom bootloader that shows a ransom note and prevents victims from booting their computer."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Delivery/exploitation",
+          "id": "deliveryexploitation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>We have not yet confirmed the initial infection vector for this new Petya variant. Previous variants were spread through e-mail, but we have not identified this latest sample carried in any e-mail related attacks.</p>",
+          "text": "We have not yet confirmed the initial infection vector for this new Petya variant. Previous variants were spread through e-mail, but we have not identified this latest sample carried in any e-mail related attacks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users may be infected through direct exploitation of CVE-2017-0144 if their host is accessible to the internet on TCP port 445 and has not been updated with the patches included in MS17-010.</p>",
+          "text": "Users may be infected through direct exploitation of CVE-2017-0144 if their host is accessible to the internet on TCP port 445 and has not been updated with the patches included in MS17-010."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once infected, the virus encrypts each computer to a private key, rendering it unusable until the system is decrypted. The program then instructs the user to pay $300 to a static Bitcoin address, then email the bitcoin wallet and personal ID to a Posteo email address. As of now, block chain records showed eight transactions to the target wallet, totaling roughly $2,300. It’s unclear whether any systems have been successfully decrypted after payment.</p>",
+          "text": "Once infected, the virus encrypts each computer to a private key, rendering it unusable until the system is decrypted. The program then instructs the user to pay $300 to a static Bitcoin address, then email the bitcoin wallet and personal ID to a Posteo email address. As of now, block chain records showed eight transactions to the target wallet, totaling roughly $2,300. It’s unclear whether any systems have been successfully decrypted after payment."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Currently, there are multiple reports from several countries about the ransomware&#8217;s impact. The most affected country seems to be the Ukraine, where government agencies have reported &#8220;cyber-attacks&#8221; caused by a mysterious virus that affected the country&#8217;s largest banks, airports, and utility providers.</p>",
+          "text": "Currently, there are multiple reports from several countries about the ransomware’s impact. The most affected country seems to be the Ukraine, where government agencies have reported “cyber-attacks” caused by a mysterious virus that affected the country’s largest banks, airports, and utility providers."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Similarly, in Spain, local media is reporting ransomware attacks at a large number of companies that include food conglomerate Mondelez and law firm giant DLA Piper.</p>",
+          "text": "Similarly, in Spain, local media is reporting ransomware attacks at a large number of companies that include food conglomerate Mondelez and law firm giant DLA Piper."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In the UK, marketing firm WPP was affected, along with many other. The US didn&#8217;t escape the Petya outbreak, and the first major victim to surface was pharma giant Merck.</p>",
+          "text": "In the UK, marketing firm WPP was affected, along with many other. The US didn’t escape the Petya outbreak, and the first major victim to surface was pharma giant Merck."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The attack has even affected operations at the Chernobyl nuclear power plant, which has switched to manual radiation monitoring as a result of the attack. Infections have also been reported in more isolated devices like point-of-sale terminals and ATMs.</p>",
+          "text": "The attack has even affected operations at the Chernobyl nuclear power plant, which has switched to manual radiation monitoring as a result of the attack. Infections have also been reported in more isolated devices like point-of-sale terminals and ATMs."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information on the Petya Ransomware and recommendations on how to avoid being infected, view the <a href=\"https://ttcsirt.gov.tt/documents/petya.pdf\">TTCSIRT Petya Ransomware Advisory</a></p>",
+          "text": "For further information on the Petya Ransomware and recommendations on how to avoid being infected, view the TTCSIRT Petya Ransomware Advisory"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "date-first-published-2762017",
+      "label": "Date first published: 27/6/2017",
+      "isSubItem": true
+    },
+    {
+      "id": "discovered-june-27-2017",
+      "label": "Discovered: june 27, 2017",
+      "isSubItem": true
+    },
+    {
+      "id": "updated-june-27-2017-1230pm",
+      "label": "Updated: june 27, 2017 12:30pm",
+      "isSubItem": true
+    },
+    {
+      "id": "type-ransomware",
+      "label": "Type: ransomware",
+      "isSubItem": true
+    },
+    {
+      "id": "infection-length-varies",
+      "label": "Infection length: varies",
+      "isSubItem": true
+    },
+    {
+      "id": "systems-affected-client-computers-servers-websites",
+      "label": "Systems affected: client computers, servers, websites",
+      "isSubItem": true
+    },
+    {
+      "id": "deliveryexploitation",
+      "label": "Delivery/exploitation",
+      "isSubItem": true
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-017-062717-tt-csirt-advisory-petya-ransomware/",
+    "upstreamDisclosedAt": "2017-06-27T16:12:10",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

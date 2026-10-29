@@ -1,0 +1,77 @@
+{
+  "id": "3729",
+  "legacyPostId": 3729,
+  "referenceNumber": "TT-CSIRT #214",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-214.062819: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-214-062819-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that it has discovered a vulnerability in Microsoft Exchange 2013 which can allow a remote attacker to gain administrative privileges.",
+  "cveList": [
+    "CVE-2019-0686"
+  ],
+  "date": "28 June 2019",
+  "rawDate": "2019-06-28T17:27:37",
+  "modifiedDate": "28 June 2019",
+  "rawModifiedDate": "2019-06-28T17:27:37",
+  "contentHtml": "<p>Microsoft has released a security update stating that it has discovered a vulnerability in Microsoft Exchange 2013 which can allow a remote attacker to gain administrative privileges.</p>\n<p>This is issue is caused due to one of the EWS API functions called PushSubscriptionRequest. This can be can be used to cause the Exchange server to connect to an arbitrary website. Connections made using the PushSubscriptionRequest function will attempt to negotiate with the arbitrary web server using NTLM authentication which is vulnerable to relay attacks.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0686\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0686</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that it has discovered a vulnerability in Microsoft Exchange 2013 which can allow a remote attacker to gain administrative privileges.",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that it has discovered a vulnerability in Microsoft Exchange 2013 which can allow a remote attacker to gain administrative privileges. This is issue is caused due to one of the EWS API functions called PushSubscriptionRequest. This can be can be used to cause the Exchange server to connect [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-214-062819-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that it has discovered a vulnerability in Microsoft Exchange 2013 which can allow a remote attacker to gain administrative privileges.</p>",
+          "text": "Microsoft has released a security update stating that it has discovered a vulnerability in Microsoft Exchange 2013 which can allow a remote attacker to gain administrative privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This is issue is caused due to one of the EWS API functions called PushSubscriptionRequest. This can be can be used to cause the Exchange server to connect to an arbitrary website. Connections made using the PushSubscriptionRequest function will attempt to negotiate with the arbitrary web server using NTLM authentication which is vulnerable to relay attacks.</p>",
+          "text": "This is issue is caused due to one of the EWS API functions called PushSubscriptionRequest. This can be can be used to cause the Exchange server to connect to an arbitrary website. Connections made using the PushSubscriptionRequest function will attempt to negotiate with the arbitrary web server using NTLM authentication which is vulnerable to relay attacks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0686\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0686</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0686"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0686"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-214-062819-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2019-06-28T17:27:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

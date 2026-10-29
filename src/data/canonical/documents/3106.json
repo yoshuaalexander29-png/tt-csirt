@@ -1,0 +1,229 @@
+{
+  "id": "3106",
+  "legacyPostId": 3106,
+  "referenceNumber": "TT-CSIRT #071",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-071.120817: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-071-120817-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has reported several vulnerabilities with regards to Google Chrome which includes:",
+  "cveList": [
+    "CVE-2017-15407",
+    "CVE-2017-15408",
+    "CVE-2017-15409",
+    "CVE-2017-15410",
+    "CVE-2017-15411",
+    "CVE-2017-15412",
+    "CVE-2017-15413",
+    "CVE-2017-15415",
+    "CVE-2017-15416",
+    "CVE-2017-15417",
+    "CVE-2017-15418",
+    "CVE-2017-15419",
+    "CVE-2017-15420",
+    "CVE-2017-15422",
+    "CVE-2017-15423",
+    "CVE-2017-15424",
+    "CVE-2017-15425",
+    "CVE-2017-15426",
+    "CVE-2017-15427"
+  ],
+  "date": "8 December 2017",
+  "rawDate": "2017-12-08T11:19:27",
+  "modifiedDate": "8 December 2017",
+  "rawModifiedDate": "2017-12-08T11:19:27",
+  "contentHtml": "<p>Google has reported several vulnerabilities with regards to Google Chrome which includes:</p>\n<p>a) Out of bounds write in QUIC &#8211; (CVE-2017-15407)</p>\n<p>b) Heap buffer overflow in PDFium &#8211; (CVE-2017-15408)</p>\n<p>c) Out of bounds write in Skia &#8211; (CVE-2017-15409)</p>\n<p>d) Use after free in PDFium &#8211; (CVE-2017-15410, CVE-2017-15411)</p>\n<p>e) Use after free in libXML &#8211; (CVE-2017-15412)</p>\n<p>f) Type confusion in WebAssembly &#8211; (CVE-2017-15413)</p>\n<p>g) Pointer information disclosure in IPC call &#8211; (CVE-2017-15415)</p>\n<p>h) Out of bounds read in Blink &#8211; (CVE-2017-15416)</p>\n<p>i) Cross origin information disclosure in Skia &#8211; (CVE-2017-15417)</p>\n<p>j) Use of uninitialized value in Skia &#8211; (CVE-2017-15418)</p>\n<p>k) Cross origin leak of redirect URL in Blink &#8211; (CVE-2017-15419)</p>\n<p>l) URL spoofing in Omnibox &#8211; (CVE-2017-15420)</p>\n<p>m) Integer overflow in ICU &#8211; (CVE-2017-15422)</p>\n<p>n) Issue with SPAKE implementation in BoringSSL &#8211; (CVE-2017-15423)</p>\n<p>o) URL Spoof in Omnibox &#8211; (CVE-2017-15424, CVE-2017-15425, CVE-2017-15426)</p>\n<p>p) Insufficient blocking of JavaScript in Omnibox &#8211; (CVE-2017-15427)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-123/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-123/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has reported several vulnerabilities with regards to Google Chrome which includes: a) Out of bounds write in QUIC &#8211; (CVE-2017-15407) b) Heap buffer overflow in PDFium &#8211;…",
+  "sourceExcerpt": "<p>Google has reported several vulnerabilities with regards to Google Chrome which includes: a) Out of bounds write in QUIC &#8211; (CVE-2017-15407) b) Heap buffer overflow in PDFium &#8211; (CVE-2017-15408) c) Out of bounds write in Skia &#8211; (CVE-2017-15409) d) Use after free in PDFium &#8211; (CVE-2017-15410, CVE-2017-15411) e) Use after free in libXML &#8211; (CVE-2017-15412) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-071-120817-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has reported several vulnerabilities with regards to Google Chrome which includes:</p>",
+          "text": "Google has reported several vulnerabilities with regards to Google Chrome which includes:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds write in quic – (CVE-2017-15407)",
+          "id": "out-of-bounds-write-in-quic-cve-2017-15407"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap buffer overflow in pdfium – (CVE-2017-15408)",
+          "id": "heap-buffer-overflow-in-pdfium-cve-2017-15408"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds write in skia – (CVE-2017-15409)",
+          "id": "out-of-bounds-write-in-skia-cve-2017-15409"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Use after free in PDFium &#8211; (CVE-2017-15410, CVE-2017-15411)</p>",
+          "text": "d) Use after free in PDFium – (CVE-2017-15410, CVE-2017-15411)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in libxml – (CVE-2017-15412)",
+          "id": "use-after-free-in-libxml-cve-2017-15412"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type confusion in webassembly – (CVE-2017-15413)",
+          "id": "type-confusion-in-webassembly-cve-2017-15413"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Pointer information disclosure in IPC call &#8211; (CVE-2017-15415)</p>",
+          "text": "g) Pointer information disclosure in IPC call – (CVE-2017-15415)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds read in blink – (CVE-2017-15416)",
+          "id": "out-of-bounds-read-in-blink-cve-2017-15416"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Cross origin information disclosure in Skia &#8211; (CVE-2017-15417)</p>",
+          "text": "i) Cross origin information disclosure in Skia – (CVE-2017-15417)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use of uninitialized value in skia – (CVE-2017-15418)",
+          "id": "use-of-uninitialized-value-in-skia-cve-2017-15418"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Cross origin leak of redirect URL in Blink &#8211; (CVE-2017-15419)</p>",
+          "text": "k) Cross origin leak of redirect URL in Blink – (CVE-2017-15419)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoofing in omnibox – (CVE-2017-15420)",
+          "id": "url-spoofing-in-omnibox-cve-2017-15420"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Integer overflow in icu – (CVE-2017-15422)",
+          "id": "integer-overflow-in-icu-cve-2017-15422"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>n) Issue with SPAKE implementation in BoringSSL &#8211; (CVE-2017-15423)</p>",
+          "text": "n) Issue with SPAKE implementation in BoringSSL – (CVE-2017-15423)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o) URL Spoof in Omnibox &#8211; (CVE-2017-15424, CVE-2017-15425, CVE-2017-15426)</p>",
+          "text": "o) URL Spoof in Omnibox – (CVE-2017-15424, CVE-2017-15425, CVE-2017-15426)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>p) Insufficient blocking of JavaScript in Omnibox &#8211; (CVE-2017-15427)</p>",
+          "text": "p) Insufficient blocking of JavaScript in Omnibox – (CVE-2017-15427)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-123/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-123/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-123/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "out-of-bounds-write-in-quic-cve-2017-15407",
+      "label": "Out of bounds write in quic – (CVE-2017-15407)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-buffer-overflow-in-pdfium-cve-2017-15408",
+      "label": "Heap buffer overflow in pdfium – (CVE-2017-15408)",
+      "isSubItem": true
+    },
+    {
+      "id": "out-of-bounds-write-in-skia-cve-2017-15409",
+      "label": "Out of bounds write in skia – (CVE-2017-15409)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-libxml-cve-2017-15412",
+      "label": "Use after free in libxml – (CVE-2017-15412)",
+      "isSubItem": true
+    },
+    {
+      "id": "type-confusion-in-webassembly-cve-2017-15413",
+      "label": "Type confusion in webassembly – (CVE-2017-15413)",
+      "isSubItem": true
+    },
+    {
+      "id": "out-of-bounds-read-in-blink-cve-2017-15416",
+      "label": "Out of bounds read in blink – (CVE-2017-15416)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-of-uninitialized-value-in-skia-cve-2017-15418",
+      "label": "Use of uninitialized value in skia – (CVE-2017-15418)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoofing-in-omnibox-cve-2017-15420",
+      "label": "URL spoofing in omnibox – (CVE-2017-15420)",
+      "isSubItem": true
+    },
+    {
+      "id": "integer-overflow-in-icu-cve-2017-15422",
+      "label": "Integer overflow in icu – (CVE-2017-15422)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-123/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-071-120817-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2017-12-08T11:19:27",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

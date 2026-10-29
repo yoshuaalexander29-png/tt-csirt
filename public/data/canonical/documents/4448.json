@@ -1,0 +1,119 @@
+{
+  "id": "4448",
+  "legacyPostId": 4448,
+  "referenceNumber": "TT-CSIRT #302",
+  "classification": "advisory",
+  "title": "Google Chrome releases stable channel update for desktop",
+  "rawTitle": "TTCSIRT-302.040320: TT-CSIRT ADVISORY- GOOGLE CHROME RELEASES STABLE CHANNEL UPDATE FOR DESKTOP",
+  "slug": "ttcsirt-302-040320-tt-csirt-advisory-google-chrome-releases-stable-channel-update-for-desktop",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The stable channel has been updated to 80.0.3987.162 for Windows, Mac, and Linux, which will roll out over the coming days/weeks.",
+  "cveList": [],
+  "date": "3 April 2020",
+  "rawDate": "2020-04-03T15:03:54",
+  "modifiedDate": "3 April 2020",
+  "rawModifiedDate": "2020-04-03T15:03:54",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The stable channel has been updated to 80.0.3987.162 for Windows, Mac, and Linux, which will roll out over the coming days/weeks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A list of all changes is available in the log which can be viewed here: <a href=\"https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&amp;n=10000\">https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&amp;n=10000</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you are interested in switching release channels or find a new issue and need to file the bug you can refer to the following links respectively: &nbsp;</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://www.chromium.org/getting-involved/dev-channel\">https://www.chromium.org/getting-involved/dev-channel</a>.</li><li><a href=\"https://bugs.chromium.org/p/chromium/issues/list\">https://bugs.chromium.org/p/chromium/issues/list</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">There is also a community forum whereby one can reach out for help and learn about common issues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The link for this community help forum is as follows:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.google.com/chrome/community/?hl=en&amp;gpf=%23!forum%2Fchrome\">https://support.google.com/chrome/community/?hl=en&amp;gpf=%23!forum%2Fchrome</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kindly review the following link for further reference:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html\">https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "The stable channel has been updated to 80.0.3987.162 for Windows, Mac, and Linux, which will roll out over the coming days/weeks.",
+  "sourceExcerpt": "<p>The stable channel has been updated to 80.0.3987.162 for Windows, Mac, and Linux, which will roll out over the coming days/weeks. A list of all changes is available in the log which can be viewed here: https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&amp;n=10000. If you are interested in switching release channels or find a new issue and need to file the bug [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-302-040320-tt-csirt-advisory-google-chrome-releases-stable-channel-update-for-desktop/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The stable channel has been updated to 80.0.3987.162 for Windows, Mac, and Linux, which will roll out over the coming days/weeks.</p>",
+          "text": "The stable channel has been updated to 80.0.3987.162 for Windows, Mac, and Linux, which will roll out over the coming days/weeks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A list of all changes is available in the log which can be viewed here: <a href=\"https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&amp;n=10000\">https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&amp;n=10000</a>.</p>",
+          "text": "A list of all changes is available in the log which can be viewed here: https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&n=10000 ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you are interested in switching release channels or find a new issue and need to file the bug you can refer to the following links respectively: &nbsp;</p>",
+          "text": "If you are interested in switching release channels or find a new issue and need to file the bug you can refer to the following links respectively:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://www.chromium.org/getting-involved/dev-channel\">https://www.chromium.org/getting-involved/dev-channel</a>.</li><li><a href=\"https://bugs.chromium.org/p/chromium/issues/list\">https://bugs.chromium.org/p/chromium/issues/list</a></li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There is also a community forum whereby one can reach out for help and learn about common issues.</p>",
+          "text": "There is also a community forum whereby one can reach out for help and learn about common issues."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The link for this community help forum is as follows:</p>",
+          "text": "The link for this community help forum is as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.google.com/chrome/community/?hl=en&amp;gpf=%23!forum%2Fchrome\">https://support.google.com/chrome/community/?hl=en&amp;gpf=%23!forum%2Fchrome</a></p>",
+          "text": "https://support.google.com/chrome/community/?hl=en&gpf=%23!forum%2Fchrome"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Kindly review the following link for further reference",
+          "id": "kindly-review-the-following-link-for-further-reference"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html\">https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html</a></p>",
+          "text": "https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "kindly-review-the-following-link-for-further-reference",
+      "label": "Kindly review the following link for further reference",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromium.googlesource.com/chromium/src/+log/80.0.3987.149..80.0.3987.162?pretty=fuller&amp;n=10000",
+    "https://www.chromium.org/getting-involved/dev-channel",
+    "https://bugs.chromium.org/p/chromium/issues/list",
+    "https://support.google.com/chrome/community/?hl=en&amp;gpf=%23!forum%2Fchrome",
+    "https://chromereleases.googleblog.com/2020/03/stable-channel-update-for-desktop_31.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-302-040320-tt-csirt-advisory-google-chrome-releases-stable-channel-update-for-desktop/",
+    "upstreamDisclosedAt": "2020-04-03T15:03:54",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "10930",
+  "legacyPostId": 10930,
+  "referenceNumber": "TT-CSIRT 455.20.04.26",
+  "classification": "advisory",
+  "title": "Phishing scam targeting e-Tax users",
+  "rawTitle": "TT-CSIRT – 455.20.04.26 – CYBERSECURITY ADVISORY: Phishing Scam Targeting e-Tax Users",
+  "slug": "cybersecurity-advisory-phishing-scam-targeting-e-tax-users",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) wishes to advise members of the public of an ongoing cyber fraud campaign involving a fraudulent website designed to mimic the e-Tax platform of the Board of Inland Revenue (BIR), Ministry of Finance.",
+  "cveList": [],
+  "date": "20 April 2026",
+  "rawDate": "2026-04-20T10:41:23",
+  "modifiedDate": "20 April 2026",
+  "rawModifiedDate": "2026-04-20T11:13:38",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The <strong>Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT)</strong> wishes to advise members of the public of an ongoing cyber fraud campaign involving a fraudulent website designed to mimic the e-Tax platform of the Board of Inland Revenue (BIR), Ministry of Finance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It has been identified that the malicious domain <strong>revisar[.]sth[.]tr</strong> is being used to impersonate the official e-Tax service. This website is <strong>not affiliated</strong> with the Government of the Republic of Trinidad and Tobago or the Ministry of Finance.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Additionally, the email address <strong>member@surveymonkeyuser</strong> has been observed in connection with this scam and is <strong>not an official Government email address</strong>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This phishing campaign is intended to deceive individuals into submitting sensitive personal and financial information, including credit/debit card details.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly urges the public to:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Verify website URLs before entering any information</li>\n\n\n\n<li>Avoid clicking on suspicious links in emails or messages</li>\n\n\n\n<li>Never share financial or personal information on unverified platforms</li>\n\n\n\n<li>Use only official Government websites and communication channels</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">For I.T teams, TT-CSIRT recommends that organizations take the following actions immediately block the following malicious domains at firewall, DNS, proxy, and secure web gateway levels:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>revisar[.]sth.tr</li>\n\n\n\n<li>trinidad[.]haje[.]pt</li>\n\n\n\n<li>qtxht8hbb[.]cc[.]rs6[.]net</li>\n\n\n\n<li>47[.]79[.]149[.]239</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What To Do If you suspect compromise</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Reset all potentially exposed credentials</li>\n\n\n\n<li>Contact your financial institution immediately if financial data was shared</li>\n\n\n\n<li>Monitor accounts for suspicious activity</li>\n\n\n\n<li>Conduct a full endpoint malware scan</li>\n\n\n\n<li>Report the incident to TT-CSIRT and the Trinidad and Tobago Police Service (TTPS)</li>\n\n\n\n<li>Report the incident to TT-CSIRT and the Trinidad and Tobago Police Service Cyber Social Media Unit (TTPS CSUM) at: <strong>612-0742 or 715-2072</strong>.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT continues to monitor this threat and is working with relevant stakeholders to mitigate its impact.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt.</p>\n",
+  "displaySummary": "An ongoing cyber fraud campaign involving a fraudulent website designed to mimic the e-Tax platform of the Board of Inland Revenue (BIR), Ministry of Finance.",
+  "sourceExcerpt": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) wishes to advise members of the public of an ongoing cyber fraud campaign involving a fraudulent website designed to mimic the e-Tax platform of the Board of Inland Revenue (BIR), Ministry of Finance. It has been identified that the malicious domain revisar[.]sth[.]tr is being used [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/cybersecurity-advisory-phishing-scam-targeting-e-tax-users/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The <strong>Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT)</strong> wishes to advise members of the public of an ongoing cyber fraud campaign involving a fraudulent website designed to mimic the e-Tax platform of the Board of Inland Revenue (BIR), Ministry of Finance.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) wishes to advise members of the public of an ongoing cyber fraud campaign involving a fraudulent website designed to mimic the e-Tax platform of the Board of Inland Revenue (BIR), Ministry of Finance."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It has been identified that the malicious domain <strong>revisar[.]sth[.]tr</strong> is being used to impersonate the official e-Tax service. This website is <strong>not affiliated</strong> with the Government of the Republic of Trinidad and Tobago or the Ministry of Finance.</p>",
+          "text": "It has been identified that the malicious domain revisar[.]sth[.]tr is being used to impersonate the official e-Tax service. This website is not affiliated with the Government of the Republic of Trinidad and Tobago or the Ministry of Finance."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Additionally, the email address <strong>member@surveymonkeyuser</strong> has been observed in connection with this scam and is <strong>not an official Government email address</strong>.</p>",
+          "text": "Additionally, the email address member@surveymonkeyuser has been observed in connection with this scam and is not an official Government email address ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This phishing campaign is intended to deceive individuals into submitting sensitive personal and financial information, including credit/debit card details.</p>",
+          "text": "This phishing campaign is intended to deceive individuals into submitting sensitive personal and financial information, including credit/debit card details."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "TT-CSIRT strongly urges the public to",
+          "id": "tt-csirt-strongly-urges-the-public-to"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Verify website URLs before entering any information</li>\n\n\n\n<li>Avoid clicking on suspicious links in emails or messages</li>\n\n\n\n<li>Never share financial or personal information on unverified platforms</li>\n\n\n\n<li>Use only official Government websites and communication channels</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For I.T teams, TT-CSIRT recommends that organizations take the following actions immediately block the following malicious domains at firewall, DNS, proxy, and secure web gateway levels:</p>",
+          "text": "For I.T teams, TT-CSIRT recommends that organizations take the following actions immediately block the following malicious domains at firewall, DNS, proxy, and secure web gateway levels:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"wp-block-list\">\n<li>revisar[.]sth.tr</li>\n\n\n\n<li>trinidad[.]haje[.]pt</li>\n\n\n\n<li>qtxht8hbb[.]cc[.]rs6[.]net</li>\n\n\n\n<li>47[.]79[.]149[.]239</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "What to do if you suspect compromise",
+          "id": "what-to-do-if-you-suspect-compromise"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Reset all potentially exposed credentials</li>\n\n\n\n<li>Contact your financial institution immediately if financial data was shared</li>\n\n\n\n<li>Monitor accounts for suspicious activity</li>\n\n\n\n<li>Conduct a full endpoint malware scan</li>\n\n\n\n<li>Report the incident to TT-CSIRT and the Trinidad and Tobago Police Service (TTPS)</li>\n\n\n\n<li>Report the incident to TT-CSIRT and the Trinidad and Tobago Police Service Cyber Social Media Unit (TTPS CSUM) at: <strong>612-0742 or 715-2072</strong>.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT continues to monitor this threat and is working with relevant stakeholders to mitigate its impact.</p>",
+          "text": "TT-CSIRT continues to monitor this threat and is working with relevant stakeholders to mitigate its impact."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "tt-csirt-strongly-urges-the-public-to",
+      "label": "TT-CSIRT strongly urges the public to",
+      "isSubItem": true
+    },
+    {
+      "id": "what-to-do-if-you-suspect-compromise",
+      "label": "What to do if you suspect compromise",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/cybersecurity-advisory-phishing-scam-targeting-e-tax-users/",
+    "upstreamDisclosedAt": "2026-04-20T10:41:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

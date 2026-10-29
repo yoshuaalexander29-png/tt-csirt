@@ -1,0 +1,75 @@
+{
+  "id": "3240",
+  "legacyPostId": 3240,
+  "referenceNumber": "TT-CSIRT #098",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-098.031218: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-098-030718-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that a vulnerability in the FTP server of the Cisco Web Security Appliance (WSA) could allow an unauthenticated, remote attacker to log in to the FTP server of the device without a valid password. The attacker does need to have a valid username.",
+  "cveList": [],
+  "date": "12 March 2018",
+  "rawDate": "2018-03-12T12:26:45",
+  "modifiedDate": "12 March 2018",
+  "rawModifiedDate": "2018-03-12T12:26:45",
+  "contentHtml": "<p>Cisco has released a security update stating that a vulnerability in the FTP server of the Cisco Web Security Appliance (WSA) could allow an unauthenticated, remote attacker to log in to the FTP server of the device without a valid password. The attacker does need to have a valid username.</p>\n<p>The vulnerability is due to incorrect FTP user credential validation. An attacker could exploit this vulnerability by using FTP to connect to the management IP address of the targeted device. A successful exploit could allow the attacker to log in to the FTP server of the Cisco WSA without having a valid password.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180307-wsa\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180307-wsa</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that a vulnerability in the FTP server of the Cisco Web Security Appliance (WSA) could allow an unauthenticated, remote attacker to log in to the FTP…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that a vulnerability in the FTP server of the Cisco Web Security Appliance (WSA) could allow an unauthenticated, remote attacker to log in to the FTP server of the device without a valid password. The attacker does need to have a valid username. The vulnerability is due to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-098-030718-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that a vulnerability in the FTP server of the Cisco Web Security Appliance (WSA) could allow an unauthenticated, remote attacker to log in to the FTP server of the device without a valid password. The attacker does need to have a valid username.</p>",
+          "text": "Cisco has released a security update stating that a vulnerability in the FTP server of the Cisco Web Security Appliance (WSA) could allow an unauthenticated, remote attacker to log in to the FTP server of the device without a valid password. The attacker does need to have a valid username."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to incorrect FTP user credential validation. An attacker could exploit this vulnerability by using FTP to connect to the management IP address of the targeted device. A successful exploit could allow the attacker to log in to the FTP server of the Cisco WSA without having a valid password.</p>",
+          "text": "The vulnerability is due to incorrect FTP user credential validation. An attacker could exploit this vulnerability by using FTP to connect to the management IP address of the targeted device. A successful exploit could allow the attacker to log in to the FTP server of the Cisco WSA without having a valid password."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180307-wsa\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180307-wsa</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180307-wsa"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180307-wsa"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-098-030718-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-03-12T12:26:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

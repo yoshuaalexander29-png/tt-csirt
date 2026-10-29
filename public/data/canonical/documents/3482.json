@@ -1,0 +1,75 @@
+{
+  "id": "3482",
+  "legacyPostId": 3482,
+  "referenceNumber": "TT-CSIRT #151",
+  "classification": "advisory",
+  "title": "Linux security updates",
+  "rawTitle": "TTCSIRT-151.080218: TT-CSIRT Advisory – Linux Security Updates",
+  "slug": "ttcsirt-151-080218-tt-csirt-advisory-linux-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Kernel.org has released a security update stating that a vulnerability in the Kernel-based Virtual Machine (KVM) virtualization subsystem of the Linux Kernel exists due to the vmx.c source code file failing to set the GDT.LIMIT value to the previous host. As a result, malicious entries could be placed in the Global Descriptor Table (GDT) on an affected system.",
+  "cveList": [],
+  "date": "2 August 2018",
+  "rawDate": "2018-08-02T13:57:56",
+  "modifiedDate": "2 August 2018",
+  "rawModifiedDate": "2018-08-02T13:57:56",
+  "contentHtml": "<p>Kernel.org has released a security update stating that a vulnerability in the Kernel-based Virtual Machine (KVM) virtualization subsystem of the Linux Kernel exists due to the vmx.c source code file failing to set the GDT.LIMIT value to the previous host. As a result, malicious entries could be placed in the Global Descriptor Table (GDT) on an affected system. </p>\n<p>An attacker could exploit this vulnerability by submitting a request with malicious input to the targeted system thereby gaining elevated privileges.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Kernel.org Website at <a href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3444d7da1839b851eefedd372978d8a982316c36\"><font size=\"2\" color=\"maroon\">https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3444d7da1839b851eefedd372978d8a982316c36</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Kernel.org has released a security update stating that a vulnerability in the Kernel-based Virtual Machine (KVM) virtualization subsystem of the Linux Kernel exists due to the vmx.c source code…",
+  "sourceExcerpt": "<p>Kernel.org has released a security update stating that a vulnerability in the Kernel-based Virtual Machine (KVM) virtualization subsystem of the Linux Kernel exists due to the vmx.c source code file failing to set the GDT.LIMIT value to the previous host. As a result, malicious entries could be placed in the Global Descriptor Table (GDT) on [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-151-080218-tt-csirt-advisory-linux-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Kernel.org has released a security update stating that a vulnerability in the Kernel-based Virtual Machine (KVM) virtualization subsystem of the Linux Kernel exists due to the vmx.c source code file failing to set the GDT.LIMIT value to the previous host. As a result, malicious entries could be placed in the Global Descriptor Table (GDT) on an affected system.</p>",
+          "text": "Kernel.org has released a security update stating that a vulnerability in the Kernel-based Virtual Machine (KVM) virtualization subsystem of the Linux Kernel exists due to the vmx.c source code file failing to set the GDT.LIMIT value to the previous host. As a result, malicious entries could be placed in the Global Descriptor Table (GDT) on an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability by submitting a request with malicious input to the targeted system thereby gaining elevated privileges.</p>",
+          "text": "An attacker could exploit this vulnerability by submitting a request with malicious input to the targeted system thereby gaining elevated privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Kernel.org Website at <a href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3444d7da1839b851eefedd372978d8a982316c36\">https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3444d7da1839b851eefedd372978d8a982316c36</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Kernel.org Website at https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3444d7da1839b851eefedd372978d8a982316c36"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3444d7da1839b851eefedd372978d8a982316c36"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-151-080218-tt-csirt-advisory-linux-security-updates/",
+    "upstreamDisclosedAt": "2018-08-02T13:57:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

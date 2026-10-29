@@ -1,0 +1,70 @@
+{
+  "id": "3076",
+  "legacyPostId": 3076,
+  "referenceNumber": "TT-CSIRT #062",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-062.111517: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-062-111517-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Microsoft products which, depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.",
+  "cveList": [],
+  "date": "15 November 2017",
+  "rawDate": "2017-11-15T12:01:23",
+  "modifiedDate": "15 November 2017",
+  "rawModifiedDate": "2017-11-15T12:01:23",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Microsoft products which, depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-us/security-guidance</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Microsoft products which, depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete…",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Microsoft products which, depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-062-111517-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Microsoft products which, depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Multiple vulnerabilities have been discovered in Microsoft products which, depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance\">https://portal.msrc.microsoft.com/en-us/security-guidance</a></p>",
+          "text": "A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-us/security-guidance"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-062-111517-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2017-11-15T12:01:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

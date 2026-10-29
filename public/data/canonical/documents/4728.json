@@ -1,0 +1,75 @@
+{
+  "id": "4728",
+  "legacyPostId": 4728,
+  "referenceNumber": "TT-CSIRT 362.09.25.20",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-362.09.25.20: TT-CSIRT ADVISORY – Cisco Security Updates",
+  "slug": "ttcsirt-362-09-25-20-tt-csirt-advisory-cisco-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities in multiple products.",
+  "cveList": [],
+  "date": "25 September 2020",
+  "rawDate": "2020-09-25T14:35:16",
+  "modifiedDate": "25 September 2020",
+  "rawModifiedDate": "2020-09-25T14:35:16",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco has released security updates to address vulnerabilities in multiple products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators are encouraged&nbsp;to review and apply the necessary updates.For further information and support, please visit the&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzY3MzEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvcHVibGljYXRpb25MaXN0aW5nLngifQ.v9LsSrsAEgducpHmcQs1e9H5ewTvF1sr_zRNYKYICTE/s/1193638257/br/85966579503-l\">Cisco security page</a>&nbsp;.</p>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Administrators are encouraged&nbsp;to review and apply the necessary updates.For further information and support, please visit the&nbsp;Cisco security page&nbsp;.</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-362-09-25-20-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities in multiple products.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities in multiple products."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are encouraged&nbsp;to review and apply the necessary updates.For further information and support, please visit the&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzY3MzEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvcHVibGljYXRpb25MaXN0aW5nLngifQ.v9LsSrsAEgducpHmcQs1e9H5ewTvF1sr_zRNYKYICTE/s/1193638257/br/85966579503-l\">Cisco security page</a>&nbsp;.</p>",
+          "text": "Administrators are encouraged to review and apply the necessary updates.For further information and support, please visit the  Cisco security page  ."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDA5MjUuMjc3MzY3MzEiLCJ1cmwiOiJodHRwczovL3Rvb2xzLmNpc2NvLmNvbS9zZWN1cml0eS9jZW50ZXIvcHVibGljYXRpb25MaXN0aW5nLngifQ.v9LsSrsAEgducpHmcQs1e9H5ewTvF1sr_zRNYKYICTE/s/1193638257/br/85966579503-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-362-09-25-20-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2020-09-25T14:35:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

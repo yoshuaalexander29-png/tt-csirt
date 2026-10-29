@@ -1,0 +1,75 @@
+{
+  "id": "5535",
+  "legacyPostId": 5535,
+  "referenceNumber": "TT-CSIRT #415",
+  "classification": "advisory",
+  "title": "3CX security advisory",
+  "rawTitle": "TT-CSIRT-415.3.4.23: 3CX Security Advisory",
+  "slug": "tt-csirt-415-3-4-23-3cx-security-advisory",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VoIP/IP PBX solutions provider 3CX has released a security advisory concerning the compromise of their desktop app for both Windows and MacOS in a supply chain attack. 3CX recommends that users migrate to the PWA app in the interim until the desktop apps are fixed. The PWA app is web-based and is unaffected by the supply chain attack.",
+  "cveList": [],
+  "date": "3 April 2023",
+  "rawDate": "2023-04-03T08:34:34",
+  "modifiedDate": "3 April 2023",
+  "rawModifiedDate": "2023-04-03T08:34:34",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">VoIP/IP PBX solutions provider 3CX has released a security advisory concerning the compromise of their desktop app for both Windows and MacOS in a supply chain attack. 3CX recommends that users migrate to the PWA app in the interim until the desktop apps are fixed. The PWA app is web-based and is unaffected by the supply chain attack.<br><br>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>3CX Advisory: <a href=\"https://www.3cx.com/blog/news/desktopapp-security-alert/\">https://www.3cx.com/blog/news/desktopapp-security-alert/</a></li>\n\n\n\n<li>Fortinet Blog: <a href=\"https://www.fortinet.com/blog/threat-research/3cx-desktop-app-compromised\">https://www.fortinet.com/blog/threat-research/3cx-desktop-app-compromised</a></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "VoIP/IP PBX solutions provider 3CX has released a security advisory concerning the compromise of their desktop app for both Windows and MacOS in a supply chain attack.",
+  "sourceExcerpt": "<p>VoIP/IP PBX solutions provider 3CX has released a security advisory concerning the compromise of their desktop app for both Windows and MacOS in a supply chain attack. 3CX recommends that users migrate to the PWA app in the interim until the desktop apps are fixed. The PWA app is web-based and is unaffected by the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-415-3-4-23-3cx-security-advisory/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VoIP/IP PBX solutions provider 3CX has released a security advisory concerning the compromise of their desktop app for both Windows and MacOS in a supply chain attack. 3CX recommends that users migrate to the PWA app in the interim until the desktop apps are fixed. The PWA app is web-based and is unaffected by the supply chain attack.</p>",
+          "text": "VoIP/IP PBX solutions provider 3CX has released a security advisory concerning the compromise of their desktop app for both Windows and MacOS in a supply chain attack. 3CX recommends that users migrate to the PWA app in the interim until the desktop apps are fixed. The PWA app is web-based and is unaffected by the supply chain attack."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>",
+          "text": "TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>3CX Advisory: <a href=\"https://www.3cx.com/blog/news/desktopapp-security-alert/\">https://www.3cx.com/blog/news/desktopapp-security-alert/</a></li>\n\n\n\n<li>Fortinet Blog: <a href=\"https://www.fortinet.com/blog/threat-research/3cx-desktop-app-compromised\">https://www.fortinet.com/blog/threat-research/3cx-desktop-app-compromised</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.3cx.com/blog/news/desktopapp-security-alert/",
+    "https://www.fortinet.com/blog/threat-research/3cx-desktop-app-compromised"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-415-3-4-23-3cx-security-advisory/",
+    "upstreamDisclosedAt": "2023-04-03T08:34:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

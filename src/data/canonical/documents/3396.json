@@ -1,0 +1,75 @@
+{
+  "id": "3396",
+  "legacyPostId": 3396,
+  "referenceNumber": "TT-CSIRT #128",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-128.060818: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-128-060818-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that a vulnerability in the Mozilla Firefox Browser exists where a heap buffer overflow can occur in the Skia library when rasterizing paths using a maliciously crafted SVG file.",
+  "cveList": [],
+  "date": "8 June 2018",
+  "rawDate": "2018-06-08T11:27:44",
+  "modifiedDate": "8 June 2018",
+  "rawModifiedDate": "2018-06-08T11:27:44",
+  "contentHtml": "<p>Mozilla has released a security update stating that a vulnerability in the Mozilla Firefox Browser exists where a heap buffer overflow can occur in the Skia library when rasterizing paths using a maliciously crafted SVG file.</p>\n<p>This results in a potentially exploitable crash and a remote attacker could exploit these vulnerabilities to take control of an affected system.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/</font></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that a vulnerability in the Mozilla Firefox Browser exists where a heap buffer overflow can occur in the Skia library when rasterizing paths using…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that a vulnerability in the Mozilla Firefox Browser exists where a heap buffer overflow can occur in the Skia library when rasterizing paths using a maliciously crafted SVG file. This results in a potentially exploitable crash and a remote attacker could exploit these vulnerabilities to take control of [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-128-060818-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that a vulnerability in the Mozilla Firefox Browser exists where a heap buffer overflow can occur in the Skia library when rasterizing paths using a maliciously crafted SVG file.</p>",
+          "text": "Mozilla has released a security update stating that a vulnerability in the Mozilla Firefox Browser exists where a heap buffer overflow can occur in the Skia library when rasterizing paths using a maliciously crafted SVG file."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This results in a potentially exploitable crash and a remote attacker could exploit these vulnerabilities to take control of an affected system.</p>",
+          "text": "This results in a potentially exploitable crash and a remote attacker could exploit these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/</p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2018-14/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-128-060818-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2018-06-08T11:27:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

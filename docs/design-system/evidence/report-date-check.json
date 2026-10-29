@@ -1,0 +1,35 @@
+{
+  "focusStyle": {
+    "active": true,
+    "root": {
+      "border": "#0b0c0c",
+      "shadow": "0 0 0 .1875rem #fd0",
+      "width": ".1875rem"
+    },
+    "inputHost": {
+      "border": "#0b0c0c",
+      "shadow": "0 0 0 .1875rem #fd0"
+    },
+    "input": {
+      "border": "#0b0c0c",
+      "shadow": "0 0 0 .1875rem #fd0"
+    },
+    "outlineColor": "rgb(51, 51, 51)",
+    "outlineWidth": "3px",
+    "outlineOffset": "2px",
+    "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+  },
+  "emptyDateError": {
+    "errorMessage": "",
+    "ariaInvalid": "false"
+  },
+  "afterDate": {
+    "heading": "What happened?",
+    "fields": []
+  },
+  "restoredDate": [
+    "2026",
+    "03",
+    "31"
+  ]
+}

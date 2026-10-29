@@ -1,0 +1,175 @@
+{
+  "id": "4184",
+  "legacyPostId": 4184,
+  "referenceNumber": "TT-CSIRT #290",
+  "classification": "advisory",
+  "title": "Let’s encrypt revoking 3 million TLS certificates issued incorrectly due to a bug",
+  "rawTitle": "TTCSIRT-290.030520:TT-CSIRT ADVISORY LET&#8217;S ENCRYPT REVOKING 3 MILLION TLS CERTIFICATES ISSUED INCORRECTLY DUE TO A BUG",
+  "slug": "ttcsirt-290-030420tt-csirt-advisory-lets-encrypt-revoking-3-million-tls-certificates-issued-incorrectly-due-to-a-bug",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The most popular free certificate signing authority  Let’s Encrypt  is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software.",
+  "cveList": [],
+  "date": "5 March 2020",
+  "rawDate": "2020-03-05T08:54:14",
+  "modifiedDate": "5 March 2020",
+  "rawModifiedDate": "2020-03-05T08:54:14",
+  "contentHtml": "\n<p class=\"has-text-align-left wp-block-paragraph\"> The most popular free certificate signing authority&nbsp;<strong>Let&#8217;s Encrypt</strong>&nbsp;is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The most popular free certificate signing authority&nbsp;<strong>Let&#8217;s Encrypt</strong>&nbsp;is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The bug, which Let&#8217;s Encrypt&nbsp;confirmed&nbsp;on\nFebruary 29 and was fixed two hours after discovery, impacted the way it\nchecked the domain name ownership before issuing new TLS certificates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As a result, the bug opened up a scenario where a certificate could be issued even without adequately validating the holder&#8217;s control of a domain name.  TT-CSIRT encourages users and administrators to utilise the reference links located at the base of this message and make the relevant manual renewals.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The&nbsp;Certification Authority\nAuthorization&nbsp;(CAA), an internet security policy, allows domain name\nholders to indicate to certificate authorities (CAs) whether or not they are\nauthorized to issue digital certificates for a specific domain name.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Let&#8217;s Encrypt considers domain\nvalidation results good only for 30 days from the time of validation, after\nwhich it rechecks the CAA record authorizing that domain before issuing the\ncertificate. The bug which was uncovered in the code for Boulder, the\ncertificate signing software used by Let&#8217;s Encrypt is as follows:</p>\n\n\n\n<p class=\"wp-block-paragraph\">&#8220;When a certificate request\ncontained N domain names that needed CAA rechecking, Boulder would pick one\ndomain name and check it N times.&#8221; In other words, when Boulder needed to\nparse, for example, a group of 5 domains names that required CAA rechecking, it\nwould check one domain name 5 times as opposed to checking each of the 5 domains\nonce.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The company said the bug was introduced\nas part of an update back in July 2019.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This means that Let&#8217;s Encrypt might have\nissued certificates that it shouldn&#8217;t have in the first place, as a result of\nwhich it&#8217;s revoking all the TLS certificates that were affected by the bug.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The development comes as Let&#8217;s Encrypt\nproject announced last week that it had issued its&nbsp;one-billionth\nfree TLS certificate&nbsp;since its launch in 2015.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Let&#8217;s Encrypt said&nbsp;2.6 percent&nbsp;of\napproximately 116 million active certificates are affected — about 3,048,289 —\nout of which about one million are duplicates of other affected certificates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected website owners have until 8PM\nUTC (3PM EST) March 4 to&nbsp;manually renew and replace their\ncertificates, failing which visitors to the websites will be greeted with&nbsp;<strong>TLS security warnings</strong>&nbsp;— as the certificates are revoked — until the renewal\nprocess is complete.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It&#8217;s worth noting that the certificates\nissued by Let&#8217;s Encrypt are valid for a period of 90 days, and ACME clients\nsuch as Certbot are capable of automatically renewing them.</p>\n\n\n\n<p class=\"wp-block-paragraph\">But with Let&#8217;s Encrypt revoking all\nimpacted certificates, website admins will have to perform a forced renewal to\nprevent any interruptions.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Besides using the tool&nbsp;https://checkhost.unboundtest.com/&nbsp;to\ncheck if a certificate needs replacement, Let&#8217;s Encrypt has put together a&nbsp;downloadable\nlist of affected serial numbers, allowing subscribers to check if their\nwebsites rely on an affected certificate.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further review please see the\nfollowing links:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://community.letsencrypt.org/t/2020-02-29-caa-rechecking-bug/114591\">https://community.letsencrypt.org/t/2020-02-29-caa-rechecking-bug/114591</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864\">https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://certbot.eff.org/docs/using.html?highlight=renew#renewing-certificates.\">https://certbot.eff.org/docs/using.html?highlight=renew#renewing-certificates.</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://checkhost.unboundtest.com/\">https://checkhost.unboundtest.com/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://letsencrypt.org/caaproblem/\">https://letsencrypt.org/caaproblem/</a></p>\n",
+  "displaySummary": "The most popular free certificate signing authority Let&#8217;s Encrypt is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due…",
+  "sourceExcerpt": "<p>The most popular free certificate signing authority&nbsp;Let&#8217;s Encrypt&nbsp;is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software. The most popular free certificate signing authority&nbsp;Let&#8217;s Encrypt&nbsp;is going to revoke more than 3 million TLS certificates within [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-290-030420tt-csirt-advisory-lets-encrypt-revoking-3-million-tls-certificates-issued-incorrectly-due-to-a-bug/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The most popular free certificate signing authority&nbsp;<strong>Let&#8217;s Encrypt</strong>&nbsp;is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software.</p>",
+          "text": "The most popular free certificate signing authority  Let’s Encrypt  is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The most popular free certificate signing authority&nbsp;<strong>Let&#8217;s Encrypt</strong>&nbsp;is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software.</p>",
+          "text": "The most popular free certificate signing authority  Let’s Encrypt  is going to revoke more than 3 million TLS certificates within the next 24 hours that may have been issued wrongfully due to a bug in its Certificate Authority software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The bug, which Let&#8217;s Encrypt&nbsp;confirmed&nbsp;on\nFebruary 29 and was fixed two hours after discovery, impacted the way it\nchecked the domain name ownership before issuing new TLS certificates.</p>",
+          "text": "The bug, which Let’s Encrypt confirmed on February 29 and was fixed two hours after discovery, impacted the way it checked the domain name ownership before issuing new TLS certificates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As a result, the bug opened up a scenario where a certificate could be issued even without adequately validating the holder&#8217;s control of a domain name.  TT-CSIRT encourages users and administrators to utilise the reference links located at the base of this message and make the relevant manual renewals.</p>",
+          "text": "As a result, the bug opened up a scenario where a certificate could be issued even without adequately validating the holder’s control of a domain name. TT-CSIRT encourages users and administrators to utilise the reference links located at the base of this message and make the relevant manual renewals."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The&nbsp;Certification Authority\nAuthorization&nbsp;(CAA), an internet security policy, allows domain name\nholders to indicate to certificate authorities (CAs) whether or not they are\nauthorized to issue digital certificates for a specific domain name.</p>",
+          "text": "The Certification Authority Authorization (CAA), an internet security policy, allows domain name holders to indicate to certificate authorities (CAs) whether or not they are authorized to issue digital certificates for a specific domain name."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Let&#8217;s Encrypt considers domain\nvalidation results good only for 30 days from the time of validation, after\nwhich it rechecks the CAA record authorizing that domain before issuing the\ncertificate. The bug which was uncovered in the code for Boulder, the\ncertificate signing software used by Let&#8217;s Encrypt is as follows:</p>",
+          "text": "Let’s Encrypt considers domain validation results good only for 30 days from the time of validation, after which it rechecks the CAA record authorizing that domain before issuing the certificate. The bug which was uncovered in the code for Boulder, the certificate signing software used by Let’s Encrypt is as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>&#8220;When a certificate request\ncontained N domain names that needed CAA rechecking, Boulder would pick one\ndomain name and check it N times.&#8221; In other words, when Boulder needed to\nparse, for example, a group of 5 domains names that required CAA rechecking, it\nwould check one domain name 5 times as opposed to checking each of the 5 domains\nonce.</p>",
+          "text": "“When a certificate request contained N domain names that needed CAA rechecking, Boulder would pick one domain name and check it N times.” In other words, when Boulder needed to parse, for example, a group of 5 domains names that required CAA rechecking, it would check one domain name 5 times as opposed to checking each of the 5 domains once."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The company said the bug was introduced\nas part of an update back in July 2019.</p>",
+          "text": "The company said the bug was introduced as part of an update back in July 2019."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This means that Let&#8217;s Encrypt might have\nissued certificates that it shouldn&#8217;t have in the first place, as a result of\nwhich it&#8217;s revoking all the TLS certificates that were affected by the bug.</p>",
+          "text": "This means that Let’s Encrypt might have issued certificates that it shouldn’t have in the first place, as a result of which it’s revoking all the TLS certificates that were affected by the bug."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The development comes as Let&#8217;s Encrypt\nproject announced last week that it had issued its&nbsp;one-billionth\nfree TLS certificate&nbsp;since its launch in 2015.</p>",
+          "text": "The development comes as Let’s Encrypt project announced last week that it had issued its one-billionth free TLS certificate since its launch in 2015."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Let&#8217;s Encrypt said&nbsp;2.6 percent&nbsp;of\napproximately 116 million active certificates are affected — about 3,048,289 —\nout of which about one million are duplicates of other affected certificates.</p>",
+          "text": "Let’s Encrypt said 2.6 percent of approximately 116 million active certificates are affected — about 3,048,289 — out of which about one million are duplicates of other affected certificates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Affected website owners have until 8PM\nUTC (3PM EST) March 4 to&nbsp;manually renew and replace their\ncertificates, failing which visitors to the websites will be greeted with&nbsp;<strong>TLS security warnings</strong>&nbsp;— as the certificates are revoked — until the renewal\nprocess is complete.</p>",
+          "text": "Affected website owners have until 8PM UTC (3PM EST) March 4 to manually renew and replace their certificates, failing which visitors to the websites will be greeted with  TLS security warnings  — as the certificates are revoked — until the renewal process is complete."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It&#8217;s worth noting that the certificates\nissued by Let&#8217;s Encrypt are valid for a period of 90 days, and ACME clients\nsuch as Certbot are capable of automatically renewing them.</p>",
+          "text": "It’s worth noting that the certificates issued by Let’s Encrypt are valid for a period of 90 days, and ACME clients such as Certbot are capable of automatically renewing them."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>But with Let&#8217;s Encrypt revoking all\nimpacted certificates, website admins will have to perform a forced renewal to\nprevent any interruptions.</p>",
+          "text": "But with Let’s Encrypt revoking all impacted certificates, website admins will have to perform a forced renewal to prevent any interruptions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Besides using the tool&nbsp;https://checkhost.unboundtest.com/&nbsp;to\ncheck if a certificate needs replacement, Let&#8217;s Encrypt has put together a&nbsp;downloadable\nlist of affected serial numbers, allowing subscribers to check if their\nwebsites rely on an affected certificate.</p>",
+          "text": "Besides using the tool https://checkhost.unboundtest.com/ to check if a certificate needs replacement, Let’s Encrypt has put together a downloadable list of affected serial numbers, allowing subscribers to check if their websites rely on an affected certificate."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://community.letsencrypt.org/t/2020-02-29-caa-rechecking-bug/114591\">https://community.letsencrypt.org/t/2020-02-29-caa-rechecking-bug/114591</a></p>",
+          "text": "https://community.letsencrypt.org/t/2020-02-29-caa-rechecking-bug/114591"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864\">https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864</a></p>",
+          "text": "https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://certbot.eff.org/docs/using.html?highlight=renew#renewing-certificates.\">https://certbot.eff.org/docs/using.html?highlight=renew#renewing-certificates.</a></p>",
+          "text": "https://certbot.eff.org/docs/using.html?highlight=renew#renewing-certificates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://checkhost.unboundtest.com/\">https://checkhost.unboundtest.com/</a></p>",
+          "text": "https://checkhost.unboundtest.com/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://letsencrypt.org/caaproblem/\">https://letsencrypt.org/caaproblem/</a></p>",
+          "text": "https://letsencrypt.org/caaproblem/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://community.letsencrypt.org/t/2020-02-29-caa-rechecking-bug/114591",
+    "https://community.letsencrypt.org/t/revoking-certain-certificates-on-march-4/114864",
+    "https://certbot.eff.org/docs/using.html?highlight=renew#renewing-certificates.",
+    "https://checkhost.unboundtest.com/",
+    "https://letsencrypt.org/caaproblem/"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-290-030420tt-csirt-advisory-lets-encrypt-revoking-3-million-tls-certificates-issued-incorrectly-due-to-a-bug/",
+    "upstreamDisclosedAt": "2020-03-05T08:54:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

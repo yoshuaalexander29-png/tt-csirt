@@ -1,0 +1,94 @@
+{
+  "id": "3369",
+  "legacyPostId": 3369,
+  "referenceNumber": "TT-CSIRT #120",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-120.051718: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-120-051718-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that multiple vulnerabilities have been discovered in Microsoft Office PowerPoint and Excel for Mac where an attacker could entice a victim to open a specially crafted file using the affected application where Microsoft Office PowerPoint and Excel for Mac fails to properly handle objects in memory.",
+  "cveList": [
+    "CVE-2018-8147",
+    "CVE-2018-8162",
+    "CVE-2018-8176"
+  ],
+  "date": "17 May 2018",
+  "rawDate": "2018-05-17T11:46:56",
+  "modifiedDate": "17 May 2018",
+  "rawModifiedDate": "2018-05-17T11:46:56",
+  "contentHtml": "<p>Microsoft has released a security update stating that multiple vulnerabilities have been discovered in Microsoft Office PowerPoint and Excel for Mac where an attacker could entice a victim to open a specially crafted file using the affected application where Microsoft Office PowerPoint and Excel for Mac fails to properly handle objects in memory.</p>\n<p>Details of these vulnerabilities are as follows:</p>\n<p>a) Two remote code execution vulnerabilities exist when Microsoft Office Excel for Mac fails to properly handle objects in memory &#8211; (CVE-2018-8147, CVE-2018-8162).</p>\n<p>b) One remote code execution vulnerability exist when Microsoft Office PowerPoint for Mac fails to properly handle objects in memory &#8211; (CVE-2018-8176).</p>\n<p>Successful exploitation of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-office-powerpoint-and-excel-for-mac-could-allow-for-remote-code-execution_2018-057/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-office-powerpoint-and-excel-for-mac-could-allow-for-remote-code-execution_2018-057/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that multiple vulnerabilities have been discovered in Microsoft Office PowerPoint and Excel for Mac where an attacker could entice a victim to…",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that multiple vulnerabilities have been discovered in Microsoft Office PowerPoint and Excel for Mac where an attacker could entice a victim to open a specially crafted file using the affected application where Microsoft Office PowerPoint and Excel for Mac fails to properly handle objects in memory. Details of [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-120-051718-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that multiple vulnerabilities have been discovered in Microsoft Office PowerPoint and Excel for Mac where an attacker could entice a victim to open a specially crafted file using the affected application where Microsoft Office PowerPoint and Excel for Mac fails to properly handle objects in memory.</p>",
+          "text": "Microsoft has released a security update stating that multiple vulnerabilities have been discovered in Microsoft Office PowerPoint and Excel for Mac where an attacker could entice a victim to open a specially crafted file using the affected application where Microsoft Office PowerPoint and Excel for Mac fails to properly handle objects in memory."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Details of these vulnerabilities are as follows:</p>",
+          "text": "Details of these vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Two remote code execution vulnerabilities exist when Microsoft Office Excel for Mac fails to properly handle objects in memory &#8211; (CVE-2018-8147, CVE-2018-8162).</p>",
+          "text": "a) Two remote code execution vulnerabilities exist when Microsoft Office Excel for Mac fails to properly handle objects in memory – (CVE-2018-8147, CVE-2018-8162)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) One remote code execution vulnerability exist when Microsoft Office PowerPoint for Mac fails to properly handle objects in memory &#8211; (CVE-2018-8176).</p>",
+          "text": "b) One remote code execution vulnerability exist when Microsoft Office PowerPoint for Mac fails to properly handle objects in memory – (CVE-2018-8176)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+          "text": "Successful exploitation of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-office-powerpoint-and-excel-for-mac-could-allow-for-remote-code-execution_2018-057/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-office-powerpoint-and-excel-for-mac-could-allow-for-remote-code-execution_2018-057/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-office-powerpoint-and-excel-for-mac-could-allow-for-remote-code-execution_2018-057/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-office-powerpoint-and-excel-for-mac-could-allow-for-remote-code-execution_2018-057/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-120-051718-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-05-17T11:46:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "2860",
+  "legacyPostId": 2860,
+  "referenceNumber": "TT-CSIRT #023",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-023.072017: TT-CSIRT Advisory – Oracle Security Updates",
+  "slug": "ttcsirt-023-072017-tt-csirt-advisory-oracle-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released its Critical Patch Update for July 2017 to address 308 vulnerabilities across multiple products. Exploitation of some of these vulnerabilities may allow a remote attacker to take control of an affected system.",
+  "cveList": [],
+  "date": "20 July 2017",
+  "rawDate": "2017-07-20T10:49:44",
+  "modifiedDate": "20 July 2017",
+  "rawModifiedDate": "2017-07-20T10:49:44",
+  "contentHtml": "<p>Oracle has released its Critical Patch Update for July 2017 to address 308 vulnerabilities across multiple products. Exploitation of some of these vulnerabilities may allow a remote attacker to take control of an affected system.</p>\n<table>\n<tr>\n<td>Users and administrators are encouraged to review the Oracle July 2017 Critical Patch Update at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html\"><font size=\"2\" color=\"maroon\">http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Oracle has released its Critical Patch Update for July 2017 to address 308 vulnerabilities across multiple products.",
+  "sourceExcerpt": "<p>Oracle has released its Critical Patch Update for July 2017 to address 308 vulnerabilities across multiple products. Exploitation of some of these vulnerabilities may allow a remote attacker to take control of an affected system. Users and administrators are encouraged to review the Oracle July 2017 Critical Patch Update at http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-023-072017-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released its Critical Patch Update for July 2017 to address 308 vulnerabilities across multiple products. Exploitation of some of these vulnerabilities may allow a remote attacker to take control of an affected system.</p>",
+          "text": "Oracle has released its Critical Patch Update for July 2017 to address 308 vulnerabilities across multiple products. Exploitation of some of these vulnerabilities may allow a remote attacker to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users and administrators are encouraged to review the Oracle July 2017 Critical Patch Update at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html\">http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html</a></p>",
+          "text": "Users and administrators are encouraged to review the Oracle July 2017 Critical Patch Update at http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.oracle.com/technetwork/security-advisory/cpujul2017-3236622.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-023-072017-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2017-07-20T10:49:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "4755",
+  "legacyPostId": 4755,
+  "referenceNumber": "TT-CSIRT #4755",
+  "classification": "alert",
+  "title": "Increase in ransomware attacks targeting public and private entities in Trinidad and Tobago",
+  "rawTitle": "Increase in ransomware attacks targeting public and private entities in Trinidad and Tobago",
+  "slug": "ransomware-alert-2020",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a significant increase in ransomware attacks targeting local organizations. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access. Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data.",
+  "cveList": [],
+  "date": "27 October 2020",
+  "rawDate": "2020-10-27T00:10:02",
+  "modifiedDate": "27 October 2020",
+  "rawModifiedDate": "2020-10-27T00:10:02",
+  "contentHtml": "\n<p class=\"m0 has-black-color has-text-color wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a significant increase in ransomware attacks targeting local organizations. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access. Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data.</p>\n\n\n\n<p class=\"m0 has-black-color has-text-color wp-block-paragraph\">TT-CSIRT is urging all entities (public and private) to adopt a heighten state of awareness and be guided by the following:</p>\n\n\n\n<p class=\"m0 wp-block-paragraph\">Attack Vectors</p>\n\n\n\n<p id=\"m0\" class=\"has-black-color has-text-color wp-block-paragraph\">Ransomware attacks can be initiated through multiple attack vectors. The most prominent ones that TT-CSIRT has seen used against local entities are:</p>\n\n\n\n<ul class=\"m0 wp-block-list\">\n<li>Exploiting system vulnerabilities (particularly outdated firewall devices and exposed remote desktop protocol)</li>\n<li>Phishing emails with infected attachments or links</li>\n<li>Compromising user credentials</li>\n</ul>\n\n\n\n<p class=\"m0 has-black-color has-text-color wp-block-paragraph\">When ransomware is deployed and installed by the threat actors, it will then seek to encrypt documents and files within the computer and other connected systems on the network. Once the ransomware has completed file encryption, it creates and displays a ransom note containing instructions on how the victim can pay the ransom. Again, payment of the ransom does not guarantee that an organization will regain access to their data.</p>\n\n\n\n<p class=\"m0 wp-block-paragraph\">Countermeasures</p>\n\n\n\n<ul class=\"m0 wp-block-list\">\n<li>Keep systems and applications up-to-date; especially firewall appliances and anti-virus software</li>\n<li>Perform regular backups. Store these backups offline (i.e. on a device that cannot be accessed from the network)</li>\n<li>Enable strong spam filtering and scan all incoming and outgoing emails to detect threats and filter executable files from reaching end users</li>\n<li>Authenticate inbound emails (with SPF, DMARC and DKIM) to prevent email spoofing.</li>\n<li>Conduct security awareness training with employees</li>\n<li>Implement network segmentation and data categorization to minimize exposure of mission-critical and sensitive data</li>\n<li>Restrict users’ permissions to install and run software applications, and apply the principle of “least privilege” to all systems and services. Restricting these privileges may prevent malware from running or limit its capability to spread through a network.</li>\n<li>Use the &#8220;application allow&#8221; feature to allow only approved applications/programs to run on a network</li>\n<li>Securing system administrations tools that attackers could abuse</li>\n<li>Disabling third-party or outdated components that could be used as entry points</li>\n<li>Disable the loading of macros in your Office programs</li>\n<li>Disable Remote Desktop whenever possible and never expose it directly to the internet</li>\n<li>Implement multi-factor authentication wherever possible</li>\n<li>Block web sites that are known for being malware breeding grounds (illegal download sites, porn sites, etc.)</li>\n<li>Develop an incident response plan and a business continuity plan in the event that a ransomware attack takes place</li>\n</ul>\n\n\n\n<p class=\"m0 has-black-color has-text-color wp-block-paragraph\">If you become infected, isolate the affected system(s) immediately by removing the infected system from all networks, and disable all potential networking capabilities. Ensure all shared and networked drives are disconnected whether wired or wireless. Infected systems will have to be analyzed by your security team or your security provider to determine whether the encrypted data is recoverable.</p>\n\n\n\n<p class=\"m0 has-vivid-red-color has-text-color wp-block-paragraph\">Should your institution fall victim to a ransomware attack or any other type of cyber-attack, please contact TT-CSIRT immediately for assistance.</p>\n",
+  "displaySummary": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a significant increase in ransomware attacks targeting local organizations.",
+  "sourceExcerpt": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a significant increase in ransomware attacks targeting local organizations. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access. Threat actors have also threaten to publish or sell [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ransomware-alert-2020/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a significant increase in ransomware attacks targeting local organizations. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access. Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) has observed a significant increase in ransomware attacks targeting local organizations. Ransomware is a type of malware that prevents users from accessing their system or files and demands a ransom payment in order to regain access. Threat actors have also threaten to publish or sell the victim’s sensitive data if they refuse to pay however paying the ransom does not guarantee that an organization will regain access to their data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT is urging all entities (public and private) to adopt a heighten state of awareness and be guided by the following:</p>",
+          "text": "TT-CSIRT is urging all entities (public and private) to adopt a heighten state of awareness and be guided by the following:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Attack Vectors</p>",
+          "text": "Attack Vectors"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Ransomware attacks can be initiated through multiple attack vectors. The most prominent ones that TT-CSIRT has seen used against local entities are:</p>",
+          "text": "Ransomware attacks can be initiated through multiple attack vectors. The most prominent ones that TT-CSIRT has seen used against local entities are:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"m0 wp-block-list\">\n<li>Exploiting system vulnerabilities (particularly outdated firewall devices and exposed remote desktop protocol)</li>\n<li>Phishing emails with infected attachments or links</li>\n<li>Compromising user credentials</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>When ransomware is deployed and installed by the threat actors, it will then seek to encrypt documents and files within the computer and other connected systems on the network. Once the ransomware has completed file encryption, it creates and displays a ransom note containing instructions on how the victim can pay the ransom. Again, payment of the ransom does not guarantee that an organization will regain access to their data.</p>",
+          "text": "When ransomware is deployed and installed by the threat actors, it will then seek to encrypt documents and files within the computer and other connected systems on the network. Once the ransomware has completed file encryption, it creates and displays a ransom note containing instructions on how the victim can pay the ransom. Again, payment of the ransom does not guarantee that an organization will regain access to their data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Countermeasures</p>",
+          "text": "Countermeasures"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"m0 wp-block-list\">\n<li>Keep systems and applications up-to-date; especially firewall appliances and anti-virus software</li>\n<li>Perform regular backups. Store these backups offline (i.e. on a device that cannot be accessed from the network)</li>\n<li>Enable strong spam filtering and scan all incoming and outgoing emails to detect threats and filter executable files from reaching end users</li>\n<li>Authenticate inbound emails (with SPF, DMARC and DKIM) to prevent email spoofing.</li>\n<li>Conduct security awareness training with employees</li>\n<li>Implement network segmentation and data categorization to minimize exposure of mission-critical and sensitive data</li>\n<li>Restrict users’ permissions to install and run software applications, and apply the principle of “least privilege” to all systems and services. Restricting these privileges may prevent malware from running or limit its capability to spread through a network.</li>\n<li>Use the &#8220;application allow&#8221; feature to allow only approved applications/programs to run on a network</li>\n<li>Securing system administrations tools that attackers could abuse</li>\n<li>Disabling third-party or outdated components that could be used as entry points</li>\n<li>Disable the loading of macros in your Office programs</li>\n<li>Disable Remote Desktop whenever possible and never expose it directly to the internet</li>\n<li>Implement multi-factor authentication wherever possible</li>\n<li>Block web sites that are known for being malware breeding grounds (illegal download sites, porn sites, etc.)</li>\n<li>Develop an incident response plan and a business continuity plan in the event that a ransomware attack takes place</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you become infected, isolate the affected system(s) immediately by removing the infected system from all networks, and disable all potential networking capabilities. Ensure all shared and networked drives are disconnected whether wired or wireless. Infected systems will have to be analyzed by your security team or your security provider to determine whether the encrypted data is recoverable.</p>",
+          "text": "If you become infected, isolate the affected system(s) immediately by removing the infected system from all networks, and disable all potential networking capabilities. Ensure all shared and networked drives are disconnected whether wired or wireless. Infected systems will have to be analyzed by your security team or your security provider to determine whether the encrypted data is recoverable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Should your institution fall victim to a ransomware attack or any other type of cyber-attack, please contact TT-CSIRT immediately for assistance.</p>",
+          "text": "Should your institution fall victim to a ransomware attack or any other type of cyber-attack, please contact TT-CSIRT immediately for assistance."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ransomware-alert-2020/",
+    "upstreamDisclosedAt": "2020-10-27T00:10:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

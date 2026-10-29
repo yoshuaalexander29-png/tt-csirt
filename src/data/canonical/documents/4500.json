@@ -1,0 +1,75 @@
+{
+  "id": "4500",
+  "legacyPostId": 4500,
+  "referenceNumber": "TT-CSIRT #315",
+  "classification": "advisory",
+  "title": "Microsoft releases security updates for multiple products",
+  "rawTitle": "TTCSIRT-315.050420: TT-CSIRT ADVISORY – MICROSOFT RELEASES SECURITY UPDATES FOR MULTIPLE PRODUCTS",
+  "slug": "ttcsirt-315-042220-tt-csirt-advisory-microsoft-releases-security-updates-for-multiple-products",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released security updates to address multiple vulnerabilities in products that use the Autodesk FBX library. These include Office 2016, Office 2019, Office 365 ProPlus, and Paint 3D. A remote attacker can exploit these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "4 May 2020",
+  "rawDate": "2020-05-04T16:20:08",
+  "modifiedDate": "4 May 2020",
+  "rawModifiedDate": "2020-05-04T16:20:08",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released security updates to address multiple vulnerabilities in products that use the Autodesk FBX library. These include Office 2016, Office 2019, Office 365 ProPlus, and Paint 3D. A remote attacker can exploit these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages users and administrators to review Microsoft Advisory ADV200004 and apply the necessary updates:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200004\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200004</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Microsoft has released security updates to address multiple vulnerabilities in products that use the Autodesk FBX library. These include Office 2016, Office 2019, Office 365 ProPlus, and Paint 3D.",
+  "sourceExcerpt": "<p>Microsoft has released security updates to address multiple vulnerabilities in products that use the Autodesk FBX library. These include Office 2016, Office 2019, Office 365 ProPlus, and Paint 3D. A remote attacker can exploit these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review Microsoft Advisory ADV200004 and apply [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-315-042220-tt-csirt-advisory-microsoft-releases-security-updates-for-multiple-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released security updates to address multiple vulnerabilities in products that use the Autodesk FBX library. These include Office 2016, Office 2019, Office 365 ProPlus, and Paint 3D. A remote attacker can exploit these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released security updates to address multiple vulnerabilities in products that use the Autodesk FBX library. These include Office 2016, Office 2019, Office 365 ProPlus, and Paint 3D. A remote attacker can exploit these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review Microsoft Advisory ADV200004 and apply the necessary updates:</p>",
+          "text": "TTCSIRT encourages users and administrators to review Microsoft Advisory ADV200004 and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200004\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200004</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200004"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV200004"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-315-042220-tt-csirt-advisory-microsoft-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2020-05-04T16:20:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

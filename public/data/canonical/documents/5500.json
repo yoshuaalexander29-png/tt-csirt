@@ -1,0 +1,118 @@
+{
+  "id": "5500",
+  "legacyPostId": 5500,
+  "referenceNumber": "TT-CSIRT 413.23.12.22",
+  "classification": "advisory",
+  "title": "Parang, pastelle and ransomware",
+  "rawTitle": "TT-CSIRT-413.23.12.22: Parang, Pastelle and Ransomware",
+  "slug": "tt-csirt-413-23-12-22-parang-pastelle-and-ransomware",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "As we move into the back to back Christmas and New Year holiday weekends the Trinidad  and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all entities to take the necessary precautions to mitigate against rising ransomware attacks. This warning comes as there have been two major ransomware attacks on the financial sector within the past 30 days which have resulted in significant financial losses for the victims.",
+  "cveList": [],
+  "date": "23 December 2022",
+  "rawDate": "2022-12-23T10:09:47",
+  "modifiedDate": "23 December 2022",
+  "rawModifiedDate": "2022-12-23T10:09:47",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">As we move into the back to back Christmas and New Year holiday weekends the Trinidad&nbsp; and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all entities to take the necessary precautions to mitigate against rising ransomware attacks. This warning comes as there have been two major ransomware attacks on the financial sector within the past 30 days which have resulted in significant financial losses for the victims.<br><br>While we tuck our servers and systems in for the night, TT-CSIRT urges all organizations to adopt a heightened state of awareness and be prepared for potential attacks over the holiday weekends. Detailed information on the emerging threat from Royal Ransomware and how to prepare for and response to ransomware can be found at the following links:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Royal Ransomware: <a href=\"https://www.cybereason.com/blog/royal-ransomware-analysis\">https://www.cybereason.com/blog/royal-ransomware-analysis</a></li>\n\n\n\n<li>Ransomware Prevention Guide: <a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\">https://ttcsirt.gov.tt/ransomware-prevention/</a></li>\n\n\n\n<li>Ransomware Response Checklist: <a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\">https://ttcsirt.gov.tt/ransomware-response-checklist/</a></li>\n\n\n\n<li>Do the basics well: <a href=\"https://ttcsirt.gov.tt/do-the-basics-well/\" target=\"_blank\" rel=\"noreferrer noopener\">https://ttcsirt.gov.tt/do-the-basics-well/</a> </li>\n</ul>\n\n\n\n<h4 class=\"wp-block-heading\">Incident Reporting</h4>\n\n\n\n<p class=\"wp-block-paragraph\">Should your organization fall victim to a ransomware attack, contact the following organizations immediately:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>TT-CSIRT\n<ul class=\"wp-block-list\">\n<li><a href=\"https://ttcsirt.gov.tt/report-an-incident/\" target=\"_blank\" rel=\"noreferrer noopener\">Online Form</a></li>\n\n\n\n<li>Email: <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></li>\n</ul>\n</li>\n\n\n\n<li>TTPS Cybercrime and social Media Unit (CSMU)\n<ul class=\"wp-block-list\">\n<li>Email: <a href=\"mailto:cybercrime@ttps.gov.tt\">cybercrime@ttps.gov.tt</a></li>\n\n\n\n<li>Tel 1: 1-868-612-0742</li>\n</ul>\n</li>\n\n\n\n<li>iGovTT (additional for government MDAs)\n<ul class=\"wp-block-list\">\n<li>Email: <a href=\"mailto:iGovTT-Security@gov.tt\">iGovTT-Security@gov.tt</a></li>\n\n\n\n<li>Tel: 1-868-623-5600</li>\n</ul>\n</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>How your information is handled:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Information provided to the TT-CSIRT is protected in the same way we protect our own confidential information: held securely, with limited access.</li>\n\n\n\n<li>Depending on the situation and with your consent, we may share details with the TTPS CSMU to help investigations and identify solutions and mitigation opportunities.</li>\n\n\n\n<li>The information we hold will be anonymized and depicted as aggregate statistics.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>TT-CSIRT wishes its constituents a Merry Christmas and a Happy New Year 2023!</strong></p>\n",
+  "displaySummary": "As we move into the back to back Christmas and New Year holiday weekends the Trinidad  and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all entities to take the necessary…",
+  "sourceExcerpt": "<p>As we move into the back to back Christmas and New Year holiday weekends the Trinidad&nbsp; and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all entities to take the necessary precautions to mitigate against rising ransomware attacks. This warning comes as there have been two major ransomware attacks on the financial sector within the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-413-23-12-22-parang-pastelle-and-ransomware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>As we move into the back to back Christmas and New Year holiday weekends the Trinidad&nbsp; and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all entities to take the necessary precautions to mitigate against rising ransomware attacks. This warning comes as there have been two major ransomware attacks on the financial sector within the past 30 days which have resulted in significant financial losses for the victims.</p>",
+          "text": "As we move into the back to back Christmas and New Year holiday weekends the Trinidad  and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all entities to take the necessary precautions to mitigate against rising ransomware attacks. This warning comes as there have been two major ransomware attacks on the financial sector within the past 30 days which have resulted in significant financial losses for the victims."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>While we tuck our servers and systems in for the night, TT-CSIRT urges all organizations to adopt a heightened state of awareness and be prepared for potential attacks over the holiday weekends. Detailed information on the emerging threat from Royal Ransomware and how to prepare for and response to ransomware can be found at the following links:</p>",
+          "text": "While we tuck our servers and systems in for the night, TT-CSIRT urges all organizations to adopt a heightened state of awareness and be prepared for potential attacks over the holiday weekends. Detailed information on the emerging threat from Royal Ransomware and how to prepare for and response to ransomware can be found at the following links:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Royal Ransomware: <a href=\"https://www.cybereason.com/blog/royal-ransomware-analysis\">https://www.cybereason.com/blog/royal-ransomware-analysis</a></li>\n\n\n\n<li>Ransomware Prevention Guide: <a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\">https://ttcsirt.gov.tt/ransomware-prevention/</a></li>\n\n\n\n<li>Ransomware Response Checklist: <a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\">https://ttcsirt.gov.tt/ransomware-response-checklist/</a></li>\n\n\n\n<li>Do the basics well: <a href=\"https://ttcsirt.gov.tt/do-the-basics-well/\" target=\"_blank\" rel=\"noreferrer noopener\">https://ttcsirt.gov.tt/do-the-basics-well/</a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Incident reporting",
+          "id": "incident-reporting"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Should your organization fall victim to a ransomware attack, contact the following organizations immediately:</p>",
+          "text": "Should your organization fall victim to a ransomware attack, contact the following organizations immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Email: <a href=\"mailto:cybercrime@ttps.gov.tt\">cybercrime@ttps.gov.tt</a></li>\n\n\n\n<li>Tel 1: 1-868-612-0742</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Email: <a href=\"mailto:iGovTT-Security@gov.tt\">iGovTT-Security@gov.tt</a></li>\n\n\n\n<li>Tel: 1-868-623-5600</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "How your information is handled",
+          "id": "how-your-information-is-handled"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Information provided to the TT-CSIRT is protected in the same way we protect our own confidential information: held securely, with limited access.</li>\n\n\n\n<li>Depending on the situation and with your consent, we may share details with the TTPS CSMU to help investigations and identify solutions and mitigation opportunities.</li>\n\n\n\n<li>The information we hold will be anonymized and depicted as aggregate statistics.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>TT-CSIRT wishes its constituents a Merry Christmas and a Happy New Year 2023!</strong></p>",
+          "text": "TT-CSIRT wishes its constituents a Merry Christmas and a Happy New Year 2023!"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "incident-reporting",
+      "label": "Incident reporting",
+      "isSubItem": true
+    },
+    {
+      "id": "how-your-information-is-handled",
+      "label": "How your information is handled",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cybereason.com/blog/royal-ransomware-analysis"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-413-23-12-22-parang-pastelle-and-ransomware/",
+    "upstreamDisclosedAt": "2022-12-23T10:09:47",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

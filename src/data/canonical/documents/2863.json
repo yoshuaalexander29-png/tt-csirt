@@ -1,0 +1,111 @@
+{
+  "id": "2863",
+  "legacyPostId": 2863,
+  "referenceNumber": "TT-CSIRT #024",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-024.072017: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-024-072017-tt-csirt-advisory-apple-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in many of its products including iTunes, iCloud &#038; the tvOS.",
+  "cveList": [],
+  "date": "20 July 2017",
+  "rawDate": "2017-07-20T11:05:39",
+  "modifiedDate": "20 July 2017",
+  "rawModifiedDate": "2017-07-20T11:05:39",
+  "contentHtml": "<p>Apple has released security updates to address vulnerabilities in many of its products including iTunes, iCloud &#038; the tvOS.</p>\n<p>TTCSIRT encourages users and administrators to review Apple security pages for the following products and apply the necessary updates:</p>\n<table>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207924\"><font size=\"2\" color=\"maroon\">tvOS</font></a></td>\n</tr>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207928\"><font size=\"2\" color=\"maroon\">iTunes for Windows</font></a></td>\n</tr>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207927\"><font size=\"2\" color=\"maroon\">iCloud for Windows</font></a></td>\n</tr>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207921\"><font size=\"2\" color=\"maroon\">Safari</font></a></td>\n</tr>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207922\"><font size=\"2\" color=\"maroon\">macOS Sierra, Security Updates</font></a></td>\n</tr>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207923\"><font size=\"2\" color=\"maroon\">iOS</font></a></td>\n</tr>\n<tr>\n<td><a href=\"https://support.apple.com/en-us/HT207925\"><font size=\"2\" color=\"maroon\">watchOS</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in many of its products including iTunes, iCloud &#038; the tvOS.",
+  "sourceExcerpt": "<p>Apple has released security updates to address vulnerabilities in many of its products including iTunes, iCloud &#038; the tvOS. TTCSIRT encourages users and administrators to review Apple security pages for the following products and apply the necessary updates: tvOS iTunes for Windows iCloud for Windows Safari macOS Sierra, Security Updates iOS watchOS</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-024-072017-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates to address vulnerabilities in many of its products including iTunes, iCloud &#038; the tvOS.</p>",
+          "text": "Apple has released security updates to address vulnerabilities in many of its products including iTunes, iCloud &#038; the tvOS."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review Apple security pages for the following products and apply the necessary updates:</p>",
+          "text": "TTCSIRT encourages users and administrators to review Apple security pages for the following products and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207924\">tvOS</a></p>",
+          "text": "tvOS"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207928\">iTunes for Windows</a></p>",
+          "text": "iTunes for Windows"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207927\">iCloud for Windows</a></p>",
+          "text": "iCloud for Windows"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207921\">Safari</a></p>",
+          "text": "Safari"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207922\">macOS Sierra, Security Updates</a></p>",
+          "text": "macOS Sierra, Security Updates"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207923\">iOS</a></p>",
+          "text": "iOS"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT207925\">watchOS</a></p>",
+          "text": "watchOS"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT207924",
+    "https://support.apple.com/en-us/HT207928",
+    "https://support.apple.com/en-us/HT207927",
+    "https://support.apple.com/en-us/HT207921",
+    "https://support.apple.com/en-us/HT207922",
+    "https://support.apple.com/en-us/HT207923",
+    "https://support.apple.com/en-us/HT207925"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-024-072017-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2017-07-20T11:05:39",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

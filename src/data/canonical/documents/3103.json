@@ -1,0 +1,99 @@
+{
+  "id": "3103",
+  "legacyPostId": 3103,
+  "referenceNumber": "TT-CSIRT #070",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-070.120517: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-070-120517-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been identified in Mozilla Thunderbird, the most severe of which could allow for arbitrary code execution.",
+  "cveList": [
+    "CVE-2017-7828",
+    "CVE-2017-7826",
+    "CVE-2017-7830"
+  ],
+  "date": "5 December 2017",
+  "rawDate": "2017-12-05T14:58:50",
+  "modifiedDate": "5 December 2017",
+  "rawModifiedDate": "2017-12-05T14:58:50",
+  "contentHtml": "<p>Multiple vulnerabilities have been identified in Mozilla Thunderbird, the most severe of which could allow for arbitrary code execution. </p>\n<p>Details of the vulnerabilities are as follows:</p>\n<p>a) A use-after-free vulnerability can occur when flushing and resizing layout because the PressShell object has been freed while still in use. This results in a potentially exploitable crash during these operations -(CVE-2017-7828).</p>\n<p>b) Memory safety bugs exist, which showed evidence of memory corruption, and could be exploited to run arbitrary code &#8211; (CVE-2017-7826).</p>\n<p>c) The Resource Timing API incorrectly revealed navigations in cross-origin iframes. This is a same-origin policy violation and could allow for data theft of URLs loaded by users &#8211; (CVE-2017-7830).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2017-120/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2017-120/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been identified in Mozilla Thunderbird, the most severe of which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been identified in Mozilla Thunderbird, the most severe of which could allow for arbitrary code execution. Details of the vulnerabilities are as follows: a) A use-after-free vulnerability can occur when flushing and resizing layout because the PressShell object has been freed while still in use. This results in a potentially exploitable crash [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-070-120517-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been identified in Mozilla Thunderbird, the most severe of which could allow for arbitrary code execution.</p>",
+          "text": "Multiple vulnerabilities have been identified in Mozilla Thunderbird, the most severe of which could allow for arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Details of the vulnerabilities are as follows:</p>",
+          "text": "Details of the vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A use-after-free vulnerability can occur when flushing and resizing layout because the PressShell object has been freed while still in use. This results in a potentially exploitable crash during these operations -(CVE-2017-7828).</p>",
+          "text": "a) A use-after-free vulnerability can occur when flushing and resizing layout because the PressShell object has been freed while still in use. This results in a potentially exploitable crash during these operations -(CVE-2017-7828)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Memory safety bugs exist, which showed evidence of memory corruption, and could be exploited to run arbitrary code &#8211; (CVE-2017-7826).</p>",
+          "text": "b) Memory safety bugs exist, which showed evidence of memory corruption, and could be exploited to run arbitrary code – (CVE-2017-7826)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) The Resource Timing API incorrectly revealed navigations in cross-origin iframes. This is a same-origin policy violation and could allow for data theft of URLs loaded by users &#8211; (CVE-2017-7830).</p>",
+          "text": "c) The Resource Timing API incorrectly revealed navigations in cross-origin iframes. This is a same-origin policy violation and could allow for data theft of URLs loaded by users – (CVE-2017-7830)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2017-120/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2017-120/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2017-120/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-thunderbird-could-allow-for-arbitrary-code-execution_2017-120/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-070-120517-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2017-12-05T14:58:50",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

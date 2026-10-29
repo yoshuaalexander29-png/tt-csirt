@@ -1,0 +1,95 @@
+{
+  "id": "3563",
+  "legacyPostId": 3563,
+  "referenceNumber": "TT-CSIRT #174",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-174.102218: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-174-102218-tt-csirt-advisory-drupal-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:",
+  "cveList": [],
+  "date": "22 October 2018",
+  "rawDate": "2018-10-22T15:42:54",
+  "modifiedDate": "22 October 2018",
+  "rawModifiedDate": "2018-10-22T15:42:54",
+  "contentHtml": "<p>Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:</p>\n<p>a) Content Moderation fails in certain circumstances to check user access to certain transitions which results in an access bypass.</p>\n<p>b) External URL injection through URL Aliases allows for open redirect.</p>\n<p>c) Anonymous Open Redirect takes place if a user clicks on a specially crafted URL using the destination query string.</p>\n<p>d) Injection in DefaultMailSystem::mail() due to variables not being sanitized for shell arguments allows for remote code execution.</p>\n<p>e) The Contextual Links module does not sufficiently validate requested contextual links which leads to remote code execution.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-006\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/sa-core-2018-006</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module: a) Content Moderation fails in certain circumstances to check…",
+  "sourceExcerpt": "<p>Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module: a) Content Moderation fails in certain circumstances to check user access to certain transitions which results in an access bypass. b) External URL injection through URL Aliases allows for open redirect. c) Anonymous Open Redirect takes [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-174-102218-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:</p>",
+          "text": "Drupal has released a security update stating that the following vulnerabilities have been discovered in the Drupal Core Module:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Content Moderation fails in certain circumstances to check user access to certain transitions which results in an access bypass.</p>",
+          "text": "a) Content Moderation fails in certain circumstances to check user access to certain transitions which results in an access bypass."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) External URL injection through URL Aliases allows for open redirect.</p>",
+          "text": "b) External URL injection through URL Aliases allows for open redirect."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Anonymous Open Redirect takes place if a user clicks on a specially crafted URL using the destination query string.</p>",
+          "text": "c) Anonymous Open Redirect takes place if a user clicks on a specially crafted URL using the destination query string."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Injection in DefaultMailSystem::mail() due to variables not being sanitized for shell arguments allows for remote code execution.</p>",
+          "text": "d) Injection in DefaultMailSystem::mail() due to variables not being sanitized for shell arguments allows for remote code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) The Contextual Links module does not sufficiently validate requested contextual links which leads to remote code execution.</p>",
+          "text": "e) The Contextual Links module does not sufficiently validate requested contextual links which leads to remote code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-006\">https://www.drupal.org/sa-core-2018-006</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Drupal Website at https://www.drupal.org/sa-core-2018-006"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/sa-core-2018-006"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-174-102218-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2018-10-22T15:42:54",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

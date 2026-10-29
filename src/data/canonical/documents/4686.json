@@ -1,0 +1,80 @@
+{
+  "id": "4686",
+  "legacyPostId": 4686,
+  "referenceNumber": "TT-CSIRT 341.08.24.20",
+  "classification": "advisory",
+  "title": "Vulnerability in thales product",
+  "rawTitle": "TTCSIRT-341.08.24.20: TT-CSIRT ADVISORY &#8211; Vulnerability in Thales Product",
+  "slug": "ttcsirt-341-08-24-20-tt-csirt-advisory-vulnerability-in-thales-product",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "IBM researchers have discovered a new IoT vulnerability that can be exploited remotely. The manufacturer, Thales, has made a patch available for CVE-2020-15858 to customers and X-Force Red has been working together to ensure users are aware of the patch and taking steps to secure their systems.",
+  "cveList": [
+    "CVE-2020-15858"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:21:10",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:21:10",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">IBM researchers have discovered a new IoT vulnerability that can be exploited remotely. The manufacturer, Thales, has made a patch available for CVE-2020-15858 to customers and X-Force Red has been working together to ensure users are aware of the patch and taking steps to secure their systems.<br><br>Thales confirmed that this vulnerability affects other modules within the same product line of the EHS8 (BGS5, EHS5/6/8, PDS5/6/8, ELS61, ELS81, PLS62), further expanding the potential impact of this vulnerability. These modules are mini circuit boards that enable mobile communication in IoT devices.<br><br>The potential impact of this vulnerability varies based on which of the devices using this line of modules attackers may compromise. It’s understood that there are millions of devices around the world using this module, across the automotive, medical, energy and telecom industries.<br><br>For further information and support, please visit the following link:&nbsp;<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2a5e8d9728&amp;e=64e3bb0ab9\">https://securityintelligence.com/posts/new-vulnerability-could-put-iot-devices-at-risk/</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "IBM researchers have discovered a new IoT vulnerability that can be exploited remotely.",
+  "sourceExcerpt": "<p>IBM researchers have discovered a new IoT vulnerability that can be exploited remotely. The manufacturer, Thales, has made a patch available for CVE-2020-15858 to customers and X-Force Red has been working together to ensure users are aware of the patch and taking steps to secure their systems. Thales confirmed that this vulnerability affects other modules [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-341-08-24-20-tt-csirt-advisory-vulnerability-in-thales-product/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>IBM researchers have discovered a new IoT vulnerability that can be exploited remotely. The manufacturer, Thales, has made a patch available for CVE-2020-15858 to customers and X-Force Red has been working together to ensure users are aware of the patch and taking steps to secure their systems.</p>",
+          "text": "IBM researchers have discovered a new IoT vulnerability that can be exploited remotely. The manufacturer, Thales, has made a patch available for CVE-2020-15858 to customers and X-Force Red has been working together to ensure users are aware of the patch and taking steps to secure their systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Thales confirmed that this vulnerability affects other modules within the same product line of the EHS8 (BGS5, EHS5/6/8, PDS5/6/8, ELS61, ELS81, PLS62), further expanding the potential impact of this vulnerability. These modules are mini circuit boards that enable mobile communication in IoT devices.</p>",
+          "text": "Thales confirmed that this vulnerability affects other modules within the same product line of the EHS8 (BGS5, EHS5/6/8, PDS5/6/8, ELS61, ELS81, PLS62), further expanding the potential impact of this vulnerability. These modules are mini circuit boards that enable mobile communication in IoT devices."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The potential impact of this vulnerability varies based on which of the devices using this line of modules attackers may compromise. It’s understood that there are millions of devices around the world using this module, across the automotive, medical, energy and telecom industries.</p>",
+          "text": "The potential impact of this vulnerability varies based on which of the devices using this line of modules attackers may compromise. It’s understood that there are millions of devices around the world using this module, across the automotive, medical, energy and telecom industries."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:&nbsp;<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2a5e8d9728&amp;e=64e3bb0ab9\">https://securityintelligence.com/posts/new-vulnerability-could-put-iot-devices-at-risk/</a></p>",
+          "text": "For further information and support, please visit the following link:  https://securityintelligence.com/posts/new-vulnerability-could-put-iot-devices-at-risk/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-341-08-24-20-tt-csirt-advisory-vulnerability-in-thales-product/",
+    "upstreamDisclosedAt": "2020-09-22T23:21:10",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

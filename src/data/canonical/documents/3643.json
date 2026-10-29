@@ -1,0 +1,126 @@
+{
+  "id": "3643",
+  "legacyPostId": 3643,
+  "referenceNumber": "TT-CSIRT #194",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-194.011119: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-194-011119-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:",
+  "cveList": [
+    "CVE-2018-9582",
+    "CVE-2018-9583",
+    "CVE-2018-9584",
+    "CVE-2018-9588",
+    "CVE-2018-10876",
+    "CVE-2018-10877",
+    "CVE-2018-6241",
+    "CVE-2018-11847",
+    "CVE-2018-11888",
+    "CVE-2018-13888"
+  ],
+  "date": "11 January 2019",
+  "rawDate": "2019-01-11T16:11:26",
+  "modifiedDate": "11 January 2019",
+  "rawModifiedDate": "2019-01-11T16:11:26",
+  "contentHtml": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:</p>\n<p>a) An elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9582).</p>\n<p>b) A remote code execution vulnerability in System &#8211; (CVE-2018-9583).</p>\n<p>c) Multiple elevation of privilege vulnerabilities in System &#8211; (CVE-2018-9584).</p>\n<p>d) Multiple information disclosure vulnerabilities in System. (CVE-2018-9588).</p>\n<p>e) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2018-10876).</p>\n<p>f) An information disclosure vulnerability in Kernel components &#8211; (CVE-2018-10877).</p>\n<p>g) An elevation of privilege vulnerability in NVIDIA components &#8211; (CVE-2018-6241).</p>\n<p>h) Multiple Qualcomm closed-source components &#8211; (CVE-2018-11847, CVE-2018-11888, CVE-2018-13888).</p>\n<p>These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Android Website at <a href=\"https://source.android.com/security/bulletin/2019-01-01.html\"><font size=\"2\" color=\"maroon\">https://source.android.com/security/bulletin/2019-01-01.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System: a) An elevation of privilege vulnerability in Framework…",
+  "sourceExcerpt": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System: a) An elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9582). b) A remote code execution vulnerability in System &#8211; (CVE-2018-9583). c) Multiple elevation of privilege vulnerabilities in System &#8211; (CVE-2018-9584). d) Multiple information disclosure vulnerabilities in [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-194-011119-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:</p>",
+          "text": "Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) An elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9582).</p>",
+          "text": "a) An elevation of privilege vulnerability in Framework – (CVE-2018-9582)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A remote code execution vulnerability in System &#8211; (CVE-2018-9583).</p>",
+          "text": "b) A remote code execution vulnerability in System – (CVE-2018-9583)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Multiple elevation of privilege vulnerabilities in System &#8211; (CVE-2018-9584).</p>",
+          "text": "c) Multiple elevation of privilege vulnerabilities in System – (CVE-2018-9584)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple information disclosure vulnerabilities in System. (CVE-2018-9588).</p>",
+          "text": "d) Multiple information disclosure vulnerabilities in System. (CVE-2018-9588)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2018-10876).</p>",
+          "text": "e) Multiple elevation of privilege vulnerabilities in Kernel components – (CVE-2018-10876)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) An information disclosure vulnerability in Kernel components &#8211; (CVE-2018-10877).</p>",
+          "text": "f) An information disclosure vulnerability in Kernel components – (CVE-2018-10877)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) An elevation of privilege vulnerability in NVIDIA components &#8211; (CVE-2018-6241).</p>",
+          "text": "g) An elevation of privilege vulnerability in NVIDIA components – (CVE-2018-6241)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Multiple Qualcomm closed-source components &#8211; (CVE-2018-11847, CVE-2018-11888, CVE-2018-13888).</p>",
+          "text": "h) Multiple Qualcomm closed-source components – (CVE-2018-11847, CVE-2018-11888, CVE-2018-13888)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.</p>",
+          "text": "These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Android Website at <a href=\"https://source.android.com/security/bulletin/2019-01-01.html\">https://source.android.com/security/bulletin/2019-01-01.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Google Android Website at https://source.android.com/security/bulletin/2019-01-01.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://source.android.com/security/bulletin/2019-01-01.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-194-011119-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2019-01-11T16:11:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

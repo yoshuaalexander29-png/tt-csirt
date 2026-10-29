@@ -1,0 +1,73 @@
+{
+  "id": "9976",
+  "legacyPostId": 9976,
+  "referenceNumber": "TT-CSIRT 436.24.10.24",
+  "classification": "alert",
+  "title": "Missing authentication in FortiManager fgfmd",
+  "rawTitle": "TT-CSIRT – 436.24.10.24. Missing Authentication in FortiManager fgfmd",
+  "slug": "tt-csirt-436-24-10-24-missing-authentication-in-fortimanager-fgfmd",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Fortinet has released a patch to address a critical vulnerability in their FortiManager product. This vulnerability allows threat actors to use a compromised FortiManager device to execute arbitrary code or commands via specially crafted requests against other FortiManager devices, through a missing authentication for critical function vulnerability [CWE-306] in FortiManager fgfmd daemon.   Reports have shown this vulnerability to be exploited in the wild.",
+  "cveList": [],
+  "date": "24 October 2024",
+  "rawDate": "2024-10-24T15:48:17",
+  "modifiedDate": "24 October 2024",
+  "rawModifiedDate": "2024-10-24T15:50:45",
+  "contentHtml": "\n<figure class=\"wp-block-table is-style-regular\"><table class=\"has-fixed-layout\"><tbody><tr><td> Fortinet has released a patch to address a critical vulnerability in their FortiManager product. This vulnerability allows threat actors to use a compromised FortiManager device to execute arbitrary code or commands via specially crafted requests against other FortiManager devices, through a missing authentication for critical function vulnerability [CWE-306] in FortiManager fgfmd daemon. &nbsp; Reports have shown this vulnerability to be exploited in the wild. &nbsp;<br><br><strong>Recommendations:</strong></td></tr><tr><td><img decoding=\"async\" width=\"561\" src=\"https://mcusercontent.com/0ec494c836302c5c3517fbf18/images/9c99eaba-0fd1-757d-f3d3-925b08068962.png\"></td></tr><tr><td>TTCSIRT encourages administrators to visit the following link for more information and take necessary actions immediately: <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=5aa8787e11&amp;e=348bd2d252\">PSIRT | FortiGuard Labs</a>   If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></td></tr></tbody></table></figure>\n",
+  "displaySummary": "Fortinet has released a patch to address a critical vulnerability in their FortiManager product.",
+  "sourceExcerpt": "<p>Fortinet has released a patch to address a critical vulnerability in their FortiManager product. This vulnerability allows threat actors to use a compromised FortiManager device to execute arbitrary code or commands via specially crafted requests against other FortiManager devices, through a missing authentication for critical function vulnerability [CWE-306] in FortiManager fgfmd daemon. &nbsp; Reports have [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-436-24-10-24-missing-authentication-in-fortimanager-fgfmd/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has released a patch to address a critical vulnerability in their FortiManager product. This vulnerability allows threat actors to use a compromised FortiManager device to execute arbitrary code or commands via specially crafted requests against other FortiManager devices, through a missing authentication for critical function vulnerability [CWE-306] in FortiManager fgfmd daemon. &nbsp; Reports have shown this vulnerability to be exploited in the wild. &nbsp;</p>",
+          "text": "Fortinet has released a patch to address a critical vulnerability in their FortiManager product. This vulnerability allows threat actors to use a compromised FortiManager device to execute arbitrary code or commands via specially crafted requests against other FortiManager devices, through a missing authentication for critical function vulnerability [CWE-306] in FortiManager fgfmd daemon.   Reports have shown this vulnerability to be exploited in the wild."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": []
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-436-24-10-24-missing-authentication-in-fortimanager-fgfmd/",
+    "upstreamDisclosedAt": "2024-10-24T15:48:17",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

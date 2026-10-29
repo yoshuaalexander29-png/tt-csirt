@@ -1,0 +1,239 @@
+{
+  "id": "3458",
+  "legacyPostId": 3458,
+  "referenceNumber": "TT-CSIRT #143",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-143.071618: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-143-071218-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that multiple vulnerabilities have been discovered in the following products:",
+  "cveList": [],
+  "date": "16 July 2018",
+  "rawDate": "2018-07-16T14:39:36",
+  "modifiedDate": "16 July 2018",
+  "rawModifiedDate": "2018-07-16T14:39:36",
+  "contentHtml": "<p>Microsoft has released a security update stating that multiple vulnerabilities have been discovered in the following products:</p>\n<p>a) Microsoft Windows 7, 8.1, RT 8.1, and 10</p>\n<p>b) Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016</p>\n<p>c) Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016</p>\n<p>d) Microsoft Office 2010, 2013, 2013 RT, 2016, 2016 Click-to-Run</p>\n<p>e) Microsoft Access 2013, 2016</p>\n<p>f) Microsoft Internet Explorer 9, 10, 11</p>\n<p>g) Microsoft Edge</p>\n<p>h) Microsoft SharePoint Enterprise Server 2013, 2016</p>\n<p>i) Microsoft Visual Studio 2010, 2012, 2013, 2015, 2017</p>\n<p>j) Powershell</p>\n<p>k) Microsoft .NET Framework</p>\n<p>l) ChakraCore</p>\n<p>m) Skype for Business 2016</p>\n<p>n) Expression Blend 4</p>\n<p>o) ASP.NET Core</p>\n<p>p) ASP.NET Web Pages</p>\n<p>q) ASP.NET MVC</p>\n<table>\n<tr>\n<td>A list of these vulnerabilities and how they affect the Microsoft Products can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/summary\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-us/security-guidance/summary</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that multiple vulnerabilities have been discovered in the following products: a) Microsoft Windows 7, 8.1, RT 8.1, and 10 b) Microsoft Windows…",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that multiple vulnerabilities have been discovered in the following products: a) Microsoft Windows 7, 8.1, RT 8.1, and 10 b) Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016 c) Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016 d) Microsoft Office 2010, 2013, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-143-071218-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that multiple vulnerabilities have been discovered in the following products:</p>",
+          "text": "Microsoft has released a security update stating that multiple vulnerabilities have been discovered in the following products:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft windows 7, 8.1, rt 8.1, and 10",
+          "id": "microsoft-windows-7-81-rt-81-and-10"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016</p>",
+          "text": "b) Microsoft Windows Server 2008, 2008 R2, 2012, 2012 R2, 2016"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016</p>",
+          "text": "c) Microsoft Windows Server Core Installation 2008, 2008 R2, 2012, 2012 R2, 2016"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Microsoft Office 2010, 2013, 2013 RT, 2016, 2016 Click-to-Run</p>",
+          "text": "d) Microsoft Office 2010, 2013, 2013 RT, 2016, 2016 Click-to-Run"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft access 2013, 2016",
+          "id": "microsoft-access-2013-2016"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft internet explorer 9, 10, 11",
+          "id": "microsoft-internet-explorer-9-10-11"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft Edge",
+          "id": "microsoft-edge"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft SharePoint enterprise server 2013, 2016",
+          "id": "microsoft-sharepoint-enterprise-server-2013-2016"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft visual studio 2010, 2012, 2013, 2015, 2017",
+          "id": "microsoft-visual-studio-2010-2012-2013-2015-2017"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Powershell",
+          "id": "powershell"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft .net framework",
+          "id": "microsoft-net-framework"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Chakracore",
+          "id": "chakracore"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Skype for business 2016",
+          "id": "skype-for-business-2016"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Expression blend 4",
+          "id": "expression-blend-4"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Asp.net core",
+          "id": "aspnet-core"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Asp.net web pages",
+          "id": "aspnet-web-pages"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Asp.net mvc",
+          "id": "aspnet-mvc"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A list of these vulnerabilities and how they affect the Microsoft Products can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/summary\">https://portal.msrc.microsoft.com/en-us/security-guidance/summary</a></p>",
+          "text": "A list of these vulnerabilities and how they affect the Microsoft Products can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-us/security-guidance/summary"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "microsoft-windows-7-81-rt-81-and-10",
+      "label": "Microsoft windows 7, 8.1, rt 8.1, and 10",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-access-2013-2016",
+      "label": "Microsoft access 2013, 2016",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-internet-explorer-9-10-11",
+      "label": "Microsoft internet explorer 9, 10, 11",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-edge",
+      "label": "Microsoft Edge",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-sharepoint-enterprise-server-2013-2016",
+      "label": "Microsoft SharePoint enterprise server 2013, 2016",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-visual-studio-2010-2012-2013-2015-2017",
+      "label": "Microsoft visual studio 2010, 2012, 2013, 2015, 2017",
+      "isSubItem": true
+    },
+    {
+      "id": "powershell",
+      "label": "Powershell",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-net-framework",
+      "label": "Microsoft .net framework",
+      "isSubItem": true
+    },
+    {
+      "id": "chakracore",
+      "label": "Chakracore",
+      "isSubItem": true
+    },
+    {
+      "id": "skype-for-business-2016",
+      "label": "Skype for business 2016",
+      "isSubItem": true
+    },
+    {
+      "id": "expression-blend-4",
+      "label": "Expression blend 4",
+      "isSubItem": true
+    },
+    {
+      "id": "aspnet-core",
+      "label": "Asp.net core",
+      "isSubItem": true
+    },
+    {
+      "id": "aspnet-web-pages",
+      "label": "Asp.net web pages",
+      "isSubItem": true
+    },
+    {
+      "id": "aspnet-mvc",
+      "label": "Asp.net mvc",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/summary"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-143-071218-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-07-16T14:39:36",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "4734",
+  "legacyPostId": 4734,
+  "referenceNumber": "TT-CSIRT 365.10.14.20",
+  "classification": "advisory",
+  "title": "Microsoft releases october 2020 security updates",
+  "rawTitle": "TTCSIRT-365.10.14.20: TT-CSIRT ADVISORY – Microsoft Releases October 2020 Security Updates",
+  "slug": "ttcsirt-365-10-14-20-tt-csirt-advisory-microsoft-releases-october-2020-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "14 October 2020",
+  "rawDate": "2020-10-14T12:31:59",
+  "modifiedDate": "14 October 2020",
+  "rawModifiedDate": "2020-10-14T12:31:59",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators are encouraged to review and&nbsp;apply the necessary updates.<br><br>Please review&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTMuMjg2NjM0OTEiLCJ1cmwiOiJodHRwczovL3BvcnRhbC5tc3JjLm1pY3Jvc29mdC5jb20vZW4tdXMvc2VjdXJpdHktZ3VpZGFuY2UvcmVsZWFzZW5vdGVkZXRhaWwvMjAyMC1PY3QifQ.vBBN3mJVi7k0_n-Uu10KbGGXFnThpkcBUmkkaVbw7tA/s/1193638257/br/86791973498-l\">Security Update Summary</a>&nbsp;for further information on software to be updated.</p>\n",
+  "displaySummary": "Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Administrators are encouraged to review and&nbsp;apply the necessary updates. Please review&nbsp;Security Update Summary&nbsp;for further information on software to be updated.</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-365-10-14-20-tt-csirt-advisory-microsoft-releases-october-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are encouraged to review and&nbsp;apply the necessary updates.</p>",
+          "text": "Administrators are encouraged to review and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please review&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTMuMjg2NjM0OTEiLCJ1cmwiOiJodHRwczovL3BvcnRhbC5tc3JjLm1pY3Jvc29mdC5jb20vZW4tdXMvc2VjdXJpdHktZ3VpZGFuY2UvcmVsZWFzZW5vdGVkZXRhaWwvMjAyMC1PY3QifQ.vBBN3mJVi7k0_n-Uu10KbGGXFnThpkcBUmkkaVbw7tA/s/1193638257/br/86791973498-l\">Security Update Summary</a>&nbsp;for further information on software to be updated.</p>",
+          "text": "Please review  Security Update Summary  for further information on software to be updated."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTMuMjg2NjM0OTEiLCJ1cmwiOiJodHRwczovL3BvcnRhbC5tc3JjLm1pY3Jvc29mdC5jb20vZW4tdXMvc2VjdXJpdHktZ3VpZGFuY2UvcmVsZWFzZW5vdGVkZXRhaWwvMjAyMC1PY3QifQ.vBBN3mJVi7k0_n-Uu10KbGGXFnThpkcBUmkkaVbw7tA/s/1193638257/br/86791973498-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-365-10-14-20-tt-csirt-advisory-microsoft-releases-october-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-10-14T12:31:59",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

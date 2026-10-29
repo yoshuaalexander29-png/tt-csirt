@@ -1,0 +1,73 @@
+{
+  "id": "4710",
+  "legacyPostId": 4710,
+  "referenceNumber": "TT-CSIRT 353.09.03.20",
+  "classification": "advisory",
+  "title": "Cisco jabber for Windows protocol handler command injection",
+  "rawTitle": "TTCSIRT-353.09.03.20: TT-CSIRT ADVISORY – Cisco Jabber for Windows Protocol Handler Command Injection",
+  "slug": "ttcsirt-353-09-03-20-tt-csirt-advisory-cisco-jabber-for-windows-protocol-handler-command-injection",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The application protocol handling features of Cisco Jabber for Windows could allow an unauthenticated, remote attacker to execute arbitrary commands.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:29:31",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:29:31",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The application protocol handling features of Cisco Jabber for Windows could allow an unauthenticated, remote attacker to execute arbitrary commands.<br><br>The vulnerability is due to improper handling of input to the application protocol handlers. An attacker could exploit this vulnerability by convincing a user to click a link within a message sent by email or other messaging platform. <br><br>A successful exploit could allow the attacker to execute arbitrary commands on a targeted system with the privileges of the user account that is running the Cisco Jabber client software.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=db5f63520a&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-jabber-vY8M4KGB</a><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "The application protocol handling features of Cisco Jabber for Windows could allow an unauthenticated, remote attacker to execute arbitrary commands.",
+  "sourceExcerpt": "<p>The application protocol handling features of Cisco Jabber for Windows could allow an unauthenticated, remote attacker to execute arbitrary commands. The vulnerability is due to improper handling of input to the application protocol handlers. An attacker could exploit this vulnerability by convincing a user to click a link within a message sent by email or other [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-353-09-03-20-tt-csirt-advisory-cisco-jabber-for-windows-protocol-handler-command-injection/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The application protocol handling features of Cisco Jabber for Windows could allow an unauthenticated, remote attacker to execute arbitrary commands.</p>",
+          "text": "The application protocol handling features of Cisco Jabber for Windows could allow an unauthenticated, remote attacker to execute arbitrary commands."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to improper handling of input to the application protocol handlers. An attacker could exploit this vulnerability by convincing a user to click a link within a message sent by email or other messaging platform.</p>",
+          "text": "The vulnerability is due to improper handling of input to the application protocol handlers. An attacker could exploit this vulnerability by convincing a user to click a link within a message sent by email or other messaging platform."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A successful exploit could allow the attacker to execute arbitrary commands on a targeted system with the privileges of the user account that is running the Cisco Jabber client software.</p>",
+          "text": "A successful exploit could allow the attacker to execute arbitrary commands on a targeted system with the privileges of the user account that is running the Cisco Jabber client software."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-353-09-03-20-tt-csirt-advisory-cisco-jabber-for-windows-protocol-handler-command-injection/",
+    "upstreamDisclosedAt": "2020-09-22T23:29:31",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

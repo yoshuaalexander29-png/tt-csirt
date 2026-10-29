@@ -1,0 +1,75 @@
+{
+  "id": "3401",
+  "legacyPostId": 3401,
+  "referenceNumber": "TT-CSIRT #130",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-130.061218: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-130-061218-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+  "cveList": [],
+  "date": "12 June 2018",
+  "rawDate": "2018-06-12T12:20:06",
+  "modifiedDate": "12 June 2018",
+  "rawModifiedDate": "2018-06-12T12:20:06",
+  "contentHtml": "<p>Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.</p>\n<p>This is due to lack of proper input validation of the HTTP URL. An attacker could send a crafted HTTP request to an affected device which could allow the attacker to cause a DoS condition or unauthenticated disclosure of information. </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow an unauthenticated, remote attacker to cause an…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition. This is due to lack of proper input validation of the HTTP URL. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-130-061218-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition.</p>",
+          "text": "Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow an unauthenticated, remote attacker to cause an affected device to reload unexpectedly, resulting in a denial of service (DoS) condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This is due to lack of proper input validation of the HTTP URL. An attacker could send a crafted HTTP request to an affected device which could allow the attacker to cause a DoS condition or unauthenticated disclosure of information.</p>",
+          "text": "This is due to lack of proper input validation of the HTTP URL. An attacker could send a crafted HTTP request to an affected device which could allow the attacker to cause a DoS condition or unauthenticated disclosure of information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-130-061218-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-06-12T12:20:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

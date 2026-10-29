@@ -1,0 +1,70 @@
+{
+  "id": "5578",
+  "legacyPostId": 5578,
+  "referenceNumber": "TT-CSIRT #417",
+  "classification": "advisory",
+  "title": "Barracuda email security gateway appliance (esg) vulnerability",
+  "rawTitle": "TT-CSIRT-417.9.6.23: Barracuda Email Security Gateway Appliance (ESG) Vulnerability",
+  "slug": "tt-csirt-417-9-6-23-barracuda-email-security-gateway-appliance-esg-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Barracuda has release new guidance in relation to a zero-day vulnerability discovered in their Email Security Gateway Appliance (ESG). Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG. Impacted ESG appliances must be immediately replaced regardless of patch version level.",
+  "cveList": [],
+  "date": "9 June 2023",
+  "rawDate": "2023-06-09T09:18:40",
+  "modifiedDate": "9 June 2023",
+  "rawModifiedDate": "2023-06-09T09:18:40",
+  "contentHtml": "<p>Barracuda has release new guidance in relation to a zero-day vulnerability discovered in their Email Security Gateway Appliance (ESG). Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG. Impacted ESG appliances must be immediately replaced regardless of patch version level.</p>\n<p>TT-CSIRT encourages administrators to review the following release and take the necessary actions immediately: <a href=\"https://www.barracuda.com/company/legal/esg-vulnerability\" target=\"_blank\" rel=\"noopener\">https://www.barracuda.com/company/legal/esg-vulnerability</a></p>\n",
+  "displaySummary": "Barracuda has release new guidance in relation to a zero-day vulnerability discovered in their Email Security Gateway Appliance (ESG).",
+  "sourceExcerpt": "<p>Barracuda has release new guidance in relation to a zero-day vulnerability discovered in their Email Security Gateway Appliance (ESG). Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG. Impacted ESG appliances must be immediately replaced regardless of patch version level. TT-CSIRT encourages administrators to review the following release and take the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-417-9-6-23-barracuda-email-security-gateway-appliance-esg-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Barracuda has release new guidance in relation to a zero-day vulnerability discovered in their Email Security Gateway Appliance (ESG). Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG. Impacted ESG appliances must be immediately replaced regardless of patch version level.</p>",
+          "text": "Barracuda has release new guidance in relation to a zero-day vulnerability discovered in their Email Security Gateway Appliance (ESG). Barracuda’s remediation recommendation at this time is full replacement of the impacted ESG. Impacted ESG appliances must be immediately replaced regardless of patch version level."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following release and take the necessary actions immediately: <a href=\"https://www.barracuda.com/company/legal/esg-vulnerability\" target=\"_blank\" rel=\"noopener\">https://www.barracuda.com/company/legal/esg-vulnerability</a></p>",
+          "text": "TT-CSIRT encourages administrators to review the following release and take the necessary actions immediately: https://www.barracuda.com/company/legal/esg-vulnerability"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.barracuda.com/company/legal/esg-vulnerability"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-417-9-6-23-barracuda-email-security-gateway-appliance-esg-vulnerability/",
+    "upstreamDisclosedAt": "2023-06-09T09:18:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

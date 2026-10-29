@@ -1,0 +1,96 @@
+{
+  "id": "4364",
+  "legacyPostId": 4364,
+  "referenceNumber": "TT-CSIRT #296",
+  "classification": "advisory",
+  "title": "Cisco webex network recording player and Cisco webex player arbitrary code execution vulnerabilities",
+  "rawTitle": "TTCSIRT-296.032020: TT-CSIRT ADVISORY- CISCO WEBEX NETWORK RECORDING PLAYER AND CISCO WEBEX PLAYER ARBITRARY CODE EXECUTION VULNERABILITIES",
+  "slug": "ttcsirt-296-032020-tt-csirt-advisory-cisco-webex-network-recording-playre-and-cisco-webex-player-arbitrary-code-execution-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system.",
+  "cveList": [],
+  "date": "20 March 2020",
+  "rawDate": "2020-03-20T13:56:08",
+  "modifiedDate": "20 March 2020",
+  "rawModifiedDate": "2020-03-20T13:56:08",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities are due to insufficient validation of certain elements within a Webex recording that is stored in either the Advanced Recording Format (ARF) or the Webex Recording Format (WRF). An attacker could exploit these vulnerabilities by sending a malicious ARF or WRF file to a user through a link or email attachment and persuading the user to open the file on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further review please see the following links:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player</a></p>\n",
+  "displaySummary": "Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an…",
+  "sourceExcerpt": "<p>Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system. The vulnerabilities are due to insufficient validation of certain elements within a Webex recording that is stored in either the Advanced Recording Format (ARF) or [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-296-032020-tt-csirt-advisory-cisco-webex-network-recording-playre-and-cisco-webex-player-arbitrary-code-execution-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system.</p>",
+          "text": "Multiple vulnerabilities in Cisco Webex Network Recording Player for Microsoft Windows and Cisco Webex Player for Microsoft Windows could allow an attacker to execute arbitrary code on an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerabilities are due to insufficient validation of certain elements within a Webex recording that is stored in either the Advanced Recording Format (ARF) or the Webex Recording Format (WRF). An attacker could exploit these vulnerabilities by sending a malicious ARF or WRF file to a user through a link or email attachment and persuading the user to open the file on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user.</p>",
+          "text": "The vulnerabilities are due to insufficient validation of certain elements within a Webex recording that is stored in either the Advanced Recording Format (ARF) or the Webex Recording Format (WRF). An attacker could exploit these vulnerabilities by sending a malicious ARF or WRF file to a user through a link or email attachment and persuading the user to open the file on the local system. A successful exploit could allow the attacker to execute arbitrary code on the affected system with the privileges of the targeted user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.</p>",
+          "text": "Cisco has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player</a></p>",
+          "text": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-296-032020-tt-csirt-advisory-cisco-webex-network-recording-playre-and-cisco-webex-player-arbitrary-code-execution-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-03-20T13:56:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

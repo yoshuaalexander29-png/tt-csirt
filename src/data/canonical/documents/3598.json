@@ -1,0 +1,75 @@
+{
+  "id": "3598",
+  "legacyPostId": 3598,
+  "referenceNumber": "TT-CSIRT #181",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-181.111318: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-181-111318-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that VMware ESXi, Fusion and Workstation contain uninitialized stack memory usage in the vmxnet3 virtual network adapter.",
+  "cveList": [],
+  "date": "13 November 2018",
+  "rawDate": "2018-11-13T15:50:53",
+  "modifiedDate": "13 November 2018",
+  "rawModifiedDate": "2018-11-13T15:50:53",
+  "contentHtml": "<p>VMware has released a security update stating that VMware ESXi, Fusion and Workstation contain uninitialized stack memory usage in the vmxnet3 virtual network adapter.</p>\n<p>This vulnerability could allow an attacker to execute code on the host especially if vmxnet3 is enabled.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0027.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0027.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that VMware ESXi, Fusion and Workstation contain uninitialized stack memory usage in the vmxnet3 virtual network adapter.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that VMware ESXi, Fusion and Workstation contain uninitialized stack memory usage in the vmxnet3 virtual network adapter. This vulnerability could allow an attacker to execute code on the host especially if vmxnet3 is enabled. Further information on this vulnerability and how it can be mitigated can be found [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-181-111318-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that VMware ESXi, Fusion and Workstation contain uninitialized stack memory usage in the vmxnet3 virtual network adapter.</p>",
+          "text": "VMware has released a security update stating that VMware ESXi, Fusion and Workstation contain uninitialized stack memory usage in the vmxnet3 virtual network adapter."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability could allow an attacker to execute code on the host especially if vmxnet3 is enabled.</p>",
+          "text": "This vulnerability could allow an attacker to execute code on the host especially if vmxnet3 is enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0027.html\">https://www.vmware.com/security/advisories/VMSA-2018-0027.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at https://www.vmware.com/security/advisories/VMSA-2018-0027.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0027.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-181-111318-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-11-13T15:50:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

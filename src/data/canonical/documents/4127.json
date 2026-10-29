@@ -1,0 +1,435 @@
+{
+  "id": "4127",
+  "legacyPostId": 4127,
+  "referenceNumber": "TT-CSIRT #286",
+  "classification": "advisory",
+  "title": "Apache Tomcat vulnerabilities",
+  "rawTitle": "TTCSIRT-286.022620: TT-CSIRT ADVISORY-  APACHE TOMCAT VULNERABILITIES",
+  "slug": "ttcsirt-286-022620-tt-csirt-advisory-apache-tomcat-vulnerabilities",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "There are three vulnerabilities with Apache Tomcat with varying levels of severity.",
+  "cveList": [
+    "CVE-2020-1938",
+    "CVE-2020-1935",
+    "CVE-2019-17569"
+  ],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T14:28:34",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T14:28:34",
+  "contentHtml": "<p>There are three vulnerabilities with Apache Tomcat with varying levels of severity.</p>\n<p>Kindly see below for a summary of each vulnerability:</p>\n<p>Operating System            : Windows, UNIX variants (UNIX, Linux, OSX)</p>\n<p>Impact/Access                  :</p>\n<p>&#8211;      Provide Misleading Information</p>\n<p>&#8211;      Remote/Unauthenticated</p>\n<p>&#8211;      Access Confidential Data</p>\n<p>&#8211;      Remote/Unauthenticated</p>\n<p>&#8211;      Unauthorised Access</p>\n<p>&#8211;      Remote/Unauthenticated Resolution:</p>\n<p>Patch/Upgrade CVE Names:  CVE-2020-1938 CVE-2020-1935 CVE-2019-17569</p>\n<p>Original Bulletin:</p>\n<p>https://www.mail-archive.com/users@tomcat.apache.org/msg134240.html</p>\n<p>https://www.mail-archive.com/users@tomcat.apache.org/msg134239.html</p>\n<p>https://www.mail-archive.com/users@tomcat.apache.org/msg134241.html</p>\n<p>&nbsp;</p>\n<p><strong><em><u>CVE-2020-1938 AJP Request Injection and potential Remote Code Execution</u></em></strong><u> </u></p>\n<p><em>Severity: High</em><em> </em></p>\n<p><em>Vendor: The Apache Software Foundation</em></p>\n<p><em>Versions Affected:</em></p>\n<p><em>Apache Tomcat 9.0.0.M1 to 9.0.30</em></p>\n<p><em>Apache Tomcat 8.5.0 to 8.5.50</em></p>\n<p><em>Apache Tomcat 7.0.0 to 7.0.99</em></p>\n<p>&nbsp;</p>\n<p><em>Description:</em></p>\n<p>When using the Apache JServ Protocol (AJP), care must be taken whentrusting incoming connections to Apache Tomcat. Tomcat treats AJPconnections as having higher trust than, for example, a similar HTTPconnection.</p>\n<p>If such connections are available to an attacker, they canbe exploited in ways that may be surprising.</p>\n<p>Prior to Tomcat 9.0.31, 8.5.51 and 7.0.100, Tomcat shipped with an AJPConnector enabled by default that listened on all configured IPaddresses.</p>\n<p>It was expected (and recommended in the security guide) that this Connector would be disabled if not required.</p>\n<p>Prior to this vulnerability report, the known risks of an attacker beingable to access the AJP port directly were:</p>\n<p>&#8211; bypassing security checks based on client IP address</p>\n<p>&#8211; bypassing user authentication if Tomcat was configured to trust  authentication data provided by the reverse proxy</p>\n<p>This vulnerability report identified a mechanism that allowed the following:</p>\n<p>&#8211; returning arbitrary files from anywhere in the web application  including under the WEB-INF and META-INF directories or any other  location reachable via ServletContext.getResourceAsStream()</p>\n<p>&#8211; processing any file in the web application as a JSPFurther, if the web application allowed file upload and stored thosefiles within the web application (or the attacker was able to control the content of the web application by some other means) then this, alongwith the ability to process a file as a JSP, made remote code execution possible.</p>\n<p>&nbsp;</p>\n<p><em>Mitigation:</em></p>\n<p>It is important to note that mitigation is only required if an AJP portis accessible to untrusted users.</p>\n<p>&#8211; If AJP support is not required, the Connector may be disabled e.g. by  removing the AJP Connector element from the server.xml file</p>\n<p>&#8211; If AJP support is required, untrusted users may be prevented from  accessing the AJP port by one or more of the following means:</p>\n<p>&#8211; configuring appropriate network firewall rules  &#8211; configuring an explicit address attribute to the connector so that the Connector listens on a non-public interface  &#8211; configuring a shared secret for the AJP connectionUsers wishing to take a defence-in-depth approach and block the vectorthat permits returning arbitrary files and execution as JSP may upgrade to:</p>\n<p>&#8211; Apache Tomcat 9.0.31 or later</p>\n<p>&#8211; Apache Tomcat 8.5.51 or later</p>\n<p>&#8211; Apache Tomcat 7.0.100 or laterUsers should note that a number of changes were made to the default AJPConnector configuration in these versions to harden the defaultconfiguration.</p>\n<p>&nbsp;</p>\n<p>The changes are:</p>\n<p>&#8211; The AJP Connector is commented out in the provided server.xml file.</p>\n<p>&#8211; The &#8220;requiredSecret&#8221; attribute has been renamed &#8220;secret&#8221; (the old name  continues to work but is deprecated).</p>\n<p>&#8211; A new attribute &#8220;secretRequired&#8221; has been added which defaults to  &#8220;true&#8221;. When this attribute is &#8220;true&#8221;, the AJP Connector will not  start unless a shared secret has been configured.</p>\n<p>&#8211; The default listen address for the AJP Connector is now the loopback  address.</p>\n<p>It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 and later will need to make small changes to their configurations as a result.</p>\n<p><em>References:</em>[1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html</p>\n<p>&nbsp;</p>\n<p><strong><em><u>CVE-2020-1935 HTTP Request Smuggling</u></em></strong></p>\n<p><em>Severity: Low</em><em> </em></p>\n<p><em>Vendor: The Apache Software Foundation</em><em> </em></p>\n<p><em>Versions Affected:</em><em>Apache Tomcat 9.0.0.M1 to 9.0.30</em><em>Apache Tomcat 8.5.0 to 8.5.50</em><em>Apache Tomcat 7.0.0 to 7.0.99</em></p>\n<p><em>Description:</em>The HTTP header parsing code used an approach to end-of-line parsingthat allowed some invalid HTTP headers to be parsed as valid. This led to a possibility of HTTP Request Smuggling if Tomcat was located behinda reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner. Such a reverse proxy is considered unlikely.</p>\n<p><em>Mitigation:</em></p>\n<p>&#8211; Upgrade to Apache Tomcat 9.0.31 or later</p>\n<p>&#8211; Upgrade to Apache Tomcat 8.5.51 or later</p>\n<p>&#8211; Upgrade to Apache Tomcat 7.0.100 or later</p>\n<p><em>References:</em>[1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html</p>\n<p>&nbsp;</p>\n<p><strong><em><u>CVE-2019-17569 HTTP Request Smuggling</u></em></strong></p>\n<p><em>Severity: Low</em><em> </em></p>\n<p><em>Vendor: The Apache Software Foundation</em><em> </em></p>\n<p><em>Versions Affected:</em><em>Apache Tomcat 9.0.28 to 9.0.30</em></p>\n<p><em>Apache Tomcat 8.5.48 to 8.5.50</em></p>\n<p><em>Apache Tomcat 7.0.98 to 7.0.99</em></p>\n<p><em>Description</em>:</p>\n<p>The refactoring in 9.0.28, 8.5.48 and 7.0.98 introduced a regression. The result of the regression was that invalid Transfer-Encoding headers were incorrectly processed leading to a possibility of HTTP Request Smuggling if Tomcat was located behind a reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner.Such a reverse proxy is considered unlikely.</p>\n<p><em>Mitigation:</em></p>\n<p>&#8211; Upgrade to Apache Tomcat 9.0.31 or later</p>\n<p>&#8211; Upgrade to Apache Tomcat 8.5.51 or later</p>\n<p>&#8211; Upgrade to Apache Tomcat 7.0.100 or later</p>\n<p><em>References:</em>[1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html</p>\n<p>&nbsp;</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "There are three vulnerabilities with Apache Tomcat with varying levels of severity.",
+  "sourceExcerpt": "<p>There are three vulnerabilities with Apache Tomcat with varying levels of severity. Kindly see below for a summary of each vulnerability: Operating System            : Windows, UNIX variants (UNIX, Linux, OSX) Impact/Access                  : &#8211;      Provide Misleading Information &#8211;      Remote/Unauthenticated &#8211;      Access Confidential Data &#8211;      Remote/Unauthenticated &#8211;      Unauthorised Access &#8211;      Remote/Unauthenticated Resolution: Patch/Upgrade CVE Names:  CVE-2020-1938 CVE-2020-1935 CVE-2019-17569 Original [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-286-022620-tt-csirt-advisory-apache-tomcat-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>There are three vulnerabilities with Apache Tomcat with varying levels of severity.</p>",
+          "text": "There are three vulnerabilities with Apache Tomcat with varying levels of severity."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Kindly see below for a summary of each vulnerability",
+          "id": "kindly-see-below-for-a-summary-of-each-vulnerability"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Operating System            : Windows, UNIX variants (UNIX, Linux, OSX)</p>",
+          "text": "Operating System : Windows, UNIX variants (UNIX, Linux, OSX)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Impact/access",
+          "id": "impactaccess"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211;      Provide Misleading Information</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211;      Remote/Unauthenticated</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211;      Access Confidential Data</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211;      Remote/Unauthenticated</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211;      Unauthorised Access</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211;      Remote/Unauthenticated Resolution:</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Patch/Upgrade CVE Names:  CVE-2020-1938 CVE-2020-1935 CVE-2019-17569</p>",
+          "text": "Patch/Upgrade CVE Names: CVE-2020-1938 CVE-2020-1935 CVE-2019-17569"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Original bulletin",
+          "id": "original-bulletin"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>https://www.mail-archive.com/users@tomcat.apache.org/msg134240.html</p>",
+          "text": "https://www.mail-archive.com/users@tomcat.apache.org/msg134240.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>https://www.mail-archive.com/users@tomcat.apache.org/msg134239.html</p>",
+          "text": "https://www.mail-archive.com/users@tomcat.apache.org/msg134239.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>https://www.mail-archive.com/users@tomcat.apache.org/msg134241.html</p>",
+          "text": "https://www.mail-archive.com/users@tomcat.apache.org/msg134241.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong><em><u>CVE-2020-1938 AJP Request Injection and potential Remote Code Execution</u></em></strong><u> </u></p>",
+          "text": "CVE-2020-1938 AJP Request Injection and potential Remote Code Execution"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Severity: High</em></p>",
+          "text": "Severity: High"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Vendor: The Apache Software Foundation</em></p>",
+          "text": "Vendor: The Apache Software Foundation"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Versions affected",
+          "id": "versions-affected"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Apache Tomcat 9.0.0.M1 to 9.0.30</em></p>",
+          "text": "Apache Tomcat 9.0.0.M1 to 9.0.30"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Apache Tomcat 8.5.0 to 8.5.50</em></p>",
+          "text": "Apache Tomcat 8.5.0 to 8.5.50"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Apache Tomcat 7.0.0 to 7.0.99</em></p>",
+          "text": "Apache Tomcat 7.0.0 to 7.0.99"
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>When using the Apache JServ Protocol (AJP), care must be taken whentrusting incoming connections to Apache Tomcat. Tomcat treats AJPconnections as having higher trust than, for example, a similar HTTPconnection.</p>",
+          "text": "When using the Apache JServ Protocol (AJP), care must be taken whentrusting incoming connections to Apache Tomcat. Tomcat treats AJPconnections as having higher trust than, for example, a similar HTTPconnection."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If such connections are available to an attacker, they canbe exploited in ways that may be surprising.</p>",
+          "text": "If such connections are available to an attacker, they canbe exploited in ways that may be surprising."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Prior to Tomcat 9.0.31, 8.5.51 and 7.0.100, Tomcat shipped with an AJPConnector enabled by default that listened on all configured IPaddresses.</p>",
+          "text": "Prior to Tomcat 9.0.31, 8.5.51 and 7.0.100, Tomcat shipped with an AJPConnector enabled by default that listened on all configured IPaddresses."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It was expected (and recommended in the security guide) that this Connector would be disabled if not required.</p>",
+          "text": "It was expected (and recommended in the security guide) that this Connector would be disabled if not required."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Prior to this vulnerability report, the known risks of an attacker beingable to access the AJP port directly were:</p>",
+          "text": "Prior to this vulnerability report, the known risks of an attacker beingable to access the AJP port directly were:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; bypassing security checks based on client IP address</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; bypassing user authentication if Tomcat was configured to trust  authentication data provided by the reverse proxy</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability report identified a mechanism that allowed the following:</p>",
+          "text": "This vulnerability report identified a mechanism that allowed the following:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; returning arbitrary files from anywhere in the web application  including under the WEB-INF and META-INF directories or any other  location reachable via ServletContext.getResourceAsStream()</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; processing any file in the web application as a JSPFurther, if the web application allowed file upload and stored thosefiles within the web application (or the attacker was able to control the content of the web application by some other means) then this, alongwith the ability to process a file as a JSP, made remote code execution possible.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The refactoring in 9.0.28, 8.5.48 and 7.0.98 introduced a regression. The result of the regression was that invalid Transfer-Encoding headers were incorrectly processed leading to a possibility of HTTP Request Smuggling if Tomcat was located behind a reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner.Such a reverse proxy is considered unlikely.</p>",
+          "text": "The refactoring in 9.0.28, 8.5.48 and 7.0.98 introduced a regression. The result of the regression was that invalid Transfer-Encoding headers were incorrectly processed leading to a possibility of HTTP Request Smuggling if Tomcat was located behind a reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner.Such a reverse proxy is considered unlikely."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Mitigation",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>It is important to note that mitigation is only required if an AJP portis accessible to untrusted users.</p>",
+          "text": "It is important to note that mitigation is only required if an AJP portis accessible to untrusted users."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; If AJP support is not required, the Connector may be disabled e.g. by  removing the AJP Connector element from the server.xml file</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; If AJP support is required, untrusted users may be prevented from  accessing the AJP port by one or more of the following means:</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; configuring appropriate network firewall rules  &#8211; configuring an explicit address attribute to the connector so that the Connector listens on a non-public interface  &#8211; configuring a shared secret for the AJP connectionUsers wishing to take a defence-in-depth approach and block the vectorthat permits returning arbitrary files and execution as JSP may upgrade to:</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Apache Tomcat 9.0.31 or later</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Apache Tomcat 8.5.51 or later</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Apache Tomcat 7.0.100 or laterUsers should note that a number of changes were made to the default AJPConnector configuration in these versions to harden the defaultconfiguration.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "The changes are",
+          "id": "the-changes-are"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; The AJP Connector is commented out in the provided server.xml file.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; The &#8220;requiredSecret&#8221; attribute has been renamed &#8220;secret&#8221; (the old name  continues to work but is deprecated).</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; A new attribute &#8220;secretRequired&#8221; has been added which defaults to  &#8220;true&#8221;. When this attribute is &#8220;true&#8221;, the AJP Connector will not  start unless a shared secret has been configured.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; The default listen address for the AJP Connector is now the loopback  address.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 and later will need to make small changes to their configurations as a result.</p>",
+          "text": "It is likely that users upgrading to 9.0.31, 8.5.51 or 7.0.100 and later will need to make small changes to their configurations as a result."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>References:</em>[1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html</p>",
+          "text": "References: [1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "CVE-2020-1935 http request smuggling",
+          "id": "cve-2020-1935-http-request-smuggling"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Severity: Low</em></p>",
+          "text": "Severity: Low"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Vendor: The Apache Software Foundation</em></p>",
+          "text": "Vendor: The Apache Software Foundation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Versions Affected:</em><em>Apache Tomcat 9.0.0.M1 to 9.0.30</em><em>Apache Tomcat 8.5.0 to 8.5.50</em><em>Apache Tomcat 7.0.0 to 7.0.99</em></p>",
+          "text": "Versions Affected: Apache Tomcat 9.0.0.M1 to 9.0.30 Apache Tomcat 8.5.0 to 8.5.50 Apache Tomcat 7.0.0 to 7.0.99"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Description:</em>The HTTP header parsing code used an approach to end-of-line parsingthat allowed some invalid HTTP headers to be parsed as valid. This led to a possibility of HTTP Request Smuggling if Tomcat was located behinda reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner. Such a reverse proxy is considered unlikely.</p>",
+          "text": "Description: The HTTP header parsing code used an approach to end-of-line parsingthat allowed some invalid HTTP headers to be parsed as valid. This led to a possibility of HTTP Request Smuggling if Tomcat was located behinda reverse proxy that incorrectly handled the invalid Transfer-Encoding header in a particular manner. Such a reverse proxy is considered unlikely."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Upgrade to Apache Tomcat 9.0.31 or later</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Upgrade to Apache Tomcat 8.5.51 or later</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Upgrade to Apache Tomcat 7.0.100 or later</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>References:</em>[1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html</p>",
+          "text": "References: [1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "CVE-2019-17569 http request smuggling",
+          "id": "cve-2019-17569-http-request-smuggling"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Severity: Low</em></p>",
+          "text": "Severity: Low"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Vendor: The Apache Software Foundation</em></p>",
+          "text": "Vendor: The Apache Software Foundation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Versions Affected:</em><em>Apache Tomcat 9.0.28 to 9.0.30</em></p>",
+          "text": "Versions Affected: Apache Tomcat 9.0.28 to 9.0.30"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Apache Tomcat 8.5.48 to 8.5.50</em></p>",
+          "text": "Apache Tomcat 8.5.48 to 8.5.50"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Apache Tomcat 7.0.98 to 7.0.99</em></p>",
+          "text": "Apache Tomcat 7.0.98 to 7.0.99"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Upgrade to Apache Tomcat 9.0.31 or later</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Upgrade to Apache Tomcat 8.5.51 or later</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Upgrade to Apache Tomcat 7.0.100 or later</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>References:</em>[1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html</p>",
+          "text": "References: [1] http://tomcat.apache.org/security-9.html[2] http://tomcat.apache.org/security-8.html[3] http://tomcat.apache.org/security-7.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "kindly-see-below-for-a-summary-of-each-vulnerability",
+      "label": "Kindly see below for a summary of each vulnerability",
+      "isSubItem": true
+    },
+    {
+      "id": "impactaccess",
+      "label": "Impact/access",
+      "isSubItem": true
+    },
+    {
+      "id": "original-bulletin",
+      "label": "Original bulletin",
+      "isSubItem": true
+    },
+    {
+      "id": "versions-affected",
+      "label": "Versions affected",
+      "isSubItem": true
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "recommendations",
+      "label": "Mitigation"
+    },
+    {
+      "id": "the-changes-are",
+      "label": "The changes are",
+      "isSubItem": true
+    },
+    {
+      "id": "cve-2020-1935-http-request-smuggling",
+      "label": "CVE-2020-1935 http request smuggling",
+      "isSubItem": true
+    },
+    {
+      "id": "cve-2019-17569-http-request-smuggling",
+      "label": "CVE-2019-17569 http request smuggling",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 5,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-286-022620-tt-csirt-advisory-apache-tomcat-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-02-26T14:28:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

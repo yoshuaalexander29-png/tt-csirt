@@ -1,0 +1,81 @@
+{
+  "id": "2891",
+  "legacyPostId": 2891,
+  "referenceNumber": "TT-CSIRT #030",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-030.080417: TT-CSIRT Advisory – CISCO Security Updates",
+  "slug": "ttcsirt-030-080417-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released updates to address several vulnerabilities affecting the following products:",
+  "cveList": [],
+  "date": "4 August 2017",
+  "rawDate": "2017-08-04T11:19:45",
+  "modifiedDate": "4 August 2017",
+  "rawModifiedDate": "2017-08-04T11:19:45",
+  "contentHtml": "<p>Cisco has released updates to address several vulnerabilities affecting the following products:</p>\n<p>a) <strong>Identity Services Engine Authentication</strong> &#8211; a vulnerability in the authentication module of Cisco Identity Services Engine could allow an unauthenticated, remote attacker to bypass local authentication. This is due to improper handling of authentication requests and policy assignment for externally authenticated users. An attacker could exploit this vulnerability by authenticating with a valid external user account that matches an internal username and incorrectly receiving the authorization policy of the internal account. An exploit could allow the attacker to have Super Admin privileges for the ISE Admin portal. </p>\n<p>b) <strong>Videoscape Distribution Suite Cache Server</strong> &#8211; the vulnerability is due to excessive mapped connections exhausting the allotted resources within the system. An attacker could exploit this vulnerability by sending large amounts of inbound traffic to a device with the intention of overloading certain resources. A successful exploit could cause the device to reload, resulting in a DoS condition.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be patched can be found on the CISCO Website via <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-ise\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-ise</font></a> or <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-vds\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-vds</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released updates to address several vulnerabilities affecting the following products: a) Identity Services Engine Authentication &#8211; a vulnerability in the authentication module of…",
+  "sourceExcerpt": "<p>Cisco has released updates to address several vulnerabilities affecting the following products: a) Identity Services Engine Authentication &#8211; a vulnerability in the authentication module of Cisco Identity Services Engine could allow an unauthenticated, remote attacker to bypass local authentication. This is due to improper handling of authentication requests and policy assignment for externally authenticated users. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-030-080417-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released updates to address several vulnerabilities affecting the following products:</p>",
+          "text": "Cisco has released updates to address several vulnerabilities affecting the following products:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) <strong>Identity Services Engine Authentication</strong> &#8211; a vulnerability in the authentication module of Cisco Identity Services Engine could allow an unauthenticated, remote attacker to bypass local authentication. This is due to improper handling of authentication requests and policy assignment for externally authenticated users. An attacker could exploit this vulnerability by authenticating with a valid external user account that matches an internal username and incorrectly receiving the authorization policy of the internal account. An exploit could allow the attacker to have Super Admin privileges for the ISE Admin portal.</p>",
+          "text": "a) Identity Services Engine Authentication – a vulnerability in the authentication module of Cisco Identity Services Engine could allow an unauthenticated, remote attacker to bypass local authentication. This is due to improper handling of authentication requests and policy assignment for externally authenticated users. An attacker could exploit this vulnerability by authenticating with a valid external user account that matches an internal username and incorrectly receiving the authorization policy of the internal account. An exploit could allow the attacker to have Super Admin privileges for the ISE Admin portal."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) <strong>Videoscape Distribution Suite Cache Server</strong> &#8211; the vulnerability is due to excessive mapped connections exhausting the allotted resources within the system. An attacker could exploit this vulnerability by sending large amounts of inbound traffic to a device with the intention of overloading certain resources. A successful exploit could cause the device to reload, resulting in a DoS condition.</p>",
+          "text": "b) Videoscape Distribution Suite Cache Server – the vulnerability is due to excessive mapped connections exhausting the allotted resources within the system. An attacker could exploit this vulnerability by sending large amounts of inbound traffic to a device with the intention of overloading certain resources. A successful exploit could cause the device to reload, resulting in a DoS condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be patched can be found on the CISCO Website via <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-ise\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-ise</a> or <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-vds\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-vds</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be patched can be found on the CISCO Website via https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-ise or https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-vds"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-ise",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170802-vds"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-030-080417-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2017-08-04T11:19:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

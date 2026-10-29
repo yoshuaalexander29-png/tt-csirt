@@ -1,0 +1,74 @@
+{
+  "id": "4324",
+  "legacyPostId": 4324,
+  "referenceNumber": "TT-CSIRT #293",
+  "classification": "advisory",
+  "title": "Microsoft SMBv3 vulnerability",
+  "rawTitle": "TTCSIRT-293.031120: TT-CSIRT ADVISORY- MICROSOFT SMBv3 VULNERABILITY",
+  "slug": "ttcsirt-293-031120-tt-csirt-advisory-microsoft-smbv3-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has published an advisory for a critical remote code execution (RCE) vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3). This vulnerability affects both SMB servers and SMB clients. . This vulnerability evokes memories of EternalBlue, an RCE vulnerability in Microsoft SMBv1 that was used as part of the WannaCry ransomware attacks in 2017. (Satnam Narang, Tenable) . There is currently no security patch available for this vulnerability. . Workarounds:",
+  "cveList": [
+    "CVE-2020-0796"
+  ],
+  "date": "11 March 2020",
+  "rawDate": "2020-03-11T08:03:24",
+  "modifiedDate": "11 March 2020",
+  "rawModifiedDate": "2020-03-11T08:03:24",
+  "contentHtml": "\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">Microsoft has published an advisory for a critical remote code execution (RCE) vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3). This vulnerability affects both SMB servers and SMB clients. <br>.<br>This vulnerability evokes memories of EternalBlue, an RCE vulnerability in Microsoft SMBv1 that was used as part of the WannaCry ransomware attacks in 2017. (Satnam Narang, Tenable)<br>.<br>There is currently no security patch available for this vulnerability.<br>.<br>Workarounds:<br>&#8211; Disable SMBv3 Compression<br>&#8211; Block TCP port 445 at the enterprise perimeter firewall<br>&#8211; <a href=\"https://support.microsoft.com/en-us/help/3185535/preventing-smb-traffic-from-lateral-connections\"><em>Follow Microsoft’s guidelines on preventing SMB traffic from lateral connections and entering or leaving the network</em></a><br>.<br>Sources:<br>&#8211; <em><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/adv200005\">Microsoft Advisory ADV200005</a><br>&#8211; <a href=\"https://www.tenable.com/blog/cve-2020-0796-wormable-remote-code-execution-vulnerability-in-microsoft-server-message-block\">Tenable Blog</a><br>&#8211; <a href=\"https://fortiguard.com/encyclopedia/ips/48773\">Fortiguard</a></em></p>\n",
+  "displaySummary": "Microsoft has published an advisory for a critical remote code execution (RCE) vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3).",
+  "sourceExcerpt": "<p>Microsoft has published an advisory for a critical remote code execution (RCE) vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3). This vulnerability affects both SMB servers and SMB clients. .This vulnerability evokes memories of EternalBlue, an RCE vulnerability in Microsoft SMBv1 that was used as part of the WannaCry ransomware attacks in 2017. (Satnam Narang, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-293-031120-tt-csirt-advisory-microsoft-smbv3-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has published an advisory for a critical remote code execution (RCE) vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3). This vulnerability affects both SMB servers and SMB clients. . This vulnerability evokes memories of EternalBlue, an RCE vulnerability in Microsoft SMBv1 that was used as part of the WannaCry ransomware attacks in 2017. (Satnam Narang, Tenable) . There is currently no security patch available for this vulnerability. . Workarounds:</p>",
+          "text": "Microsoft has published an advisory for a critical remote code execution (RCE) vulnerability in Microsoft Server Message Block 3.1.1 (SMBv3). This vulnerability affects both SMB servers and SMB clients. . This vulnerability evokes memories of EternalBlue, an RCE vulnerability in Microsoft SMBv1 that was used as part of the WannaCry ransomware attacks in 2017. (Satnam Narang, Tenable) . There is currently no security patch available for this vulnerability. . Workarounds:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>&#8211; Disable SMBv3 Compression</li>\n  <li>&#8211; Block TCP port 445 at the enterprise perimeter firewall</li>\n  <li>&#8211; <a href=\"https://support.microsoft.com/en-us/help/3185535/preventing-smb-traffic-from-lateral-connections\"><em>Follow Microsoft’s guidelines on preventing SMB traffic from lateral connections and entering or leaving the network</em></a> . Sources:</li>\n  <li>&#8211; <em><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/adv200005\">Microsoft Advisory ADV200005</a></li>\n  <li>&#8211; <a href=\"https://www.tenable.com/blog/cve-2020-0796-wormable-remote-code-execution-vulnerability-in-microsoft-server-message-block\">Tenable Blog</a></li>\n  <li>&#8211; <a href=\"https://fortiguard.com/encyclopedia/ips/48773\">Fortiguard</a></em></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.microsoft.com/en-us/help/3185535/preventing-smb-traffic-from-lateral-connections",
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/adv200005",
+    "https://www.tenable.com/blog/cve-2020-0796-wormable-remote-code-execution-vulnerability-in-microsoft-server-message-block",
+    "https://fortiguard.com/encyclopedia/ips/48773"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-293-031120-tt-csirt-advisory-microsoft-smbv3-vulnerability/",
+    "upstreamDisclosedAt": "2020-03-11T08:03:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

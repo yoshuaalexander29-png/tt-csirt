@@ -1,0 +1,88 @@
+{
+  "id": "3454",
+  "legacyPostId": 3454,
+  "referenceNumber": "TT-CSIRT #141",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-141.071218: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-141-071218-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that it has discovered the following issues in Adobe Flash Player:",
+  "cveList": [
+    "CVE-2018-5007",
+    "CVE-2018-5008"
+  ],
+  "date": "12 July 2018",
+  "rawDate": "2018-07-12T11:05:38",
+  "modifiedDate": "12 July 2018",
+  "rawModifiedDate": "2018-07-12T11:05:38",
+  "contentHtml": "<p>Adobe has released a security update stating that it has discovered the following issues in Adobe Flash Player:</p>\n<p>a) A type confusion vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-5007).</p>\n<p>b) An out-of-bounds read vulnerability that could lead to information disclosure &#8211; (CVE-2018-5008).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. In addition, depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-24_2018-079/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-24_2018-079/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that it has discovered the following issues in Adobe Flash Player: a) A type confusion vulnerability that could allow for arbitrary code execution…",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that it has discovered the following issues in Adobe Flash Player: a) A type confusion vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-5007). b) An out-of-bounds read vulnerability that could lead to information disclosure &#8211; (CVE-2018-5008). Successful exploitation of the most severe of these vulnerabilities could [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-141-071218-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that it has discovered the following issues in Adobe Flash Player:</p>",
+          "text": "Adobe has released a security update stating that it has discovered the following issues in Adobe Flash Player:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A type confusion vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-5007).</p>",
+          "text": "a) A type confusion vulnerability that could allow for arbitrary code execution – (CVE-2018-5007)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) An out-of-bounds read vulnerability that could lead to information disclosure &#8211; (CVE-2018-5008).</p>",
+          "text": "b) An out-of-bounds read vulnerability that could lead to information disclosure – (CVE-2018-5008)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. In addition, depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. In addition, depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-24_2018-079/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-24_2018-079/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-24_2018-079/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-24_2018-079/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-141-071218-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-07-12T11:05:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

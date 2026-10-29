@@ -1,0 +1,350 @@
+{
+  "routeResults": [
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Cyber security in Trinidad and Tobago"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Cyber security in Trinidad and Tobago"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Cyber security in Trinidad and Tobago"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Cyber security services"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/services",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Cyber security services"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/services",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Cyber security services"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/services/proactive-risk-management",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Reduce your organisation's cyber security risk"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "game-runtime",
+      "canvas": {
+        "width": 699,
+        "height": 420,
+        "visible": true,
+        "focusable": true
+      },
+      "interaction": {
+        "nearbyButton": "Talk to Amara",
+        "dialogue": "Amara: The office is adding a customer portal. What should Amara do before deciding which safeguards to buy?"
+      },
+      "wrongFeedback": "Amara: A tool may help later, but without an inventory it is easy to miss an important service or dependency. Take another look and choose a safer step.",
+      "progress": "1 of 5 decisions explored\nNo security score is calculated."
+    },
+    {
+      "route": "/services/proactive-risk-management",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Reduce your organisation's cyber security risk"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/services/proactive-risk-management",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Reduce your organisation's cyber security risk"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/guidance/ransomware-prevention-response",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Ransomware prevention, defence, and emergency response"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/guidance/ransomware-prevention-response",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Ransomware prevention, defence, and emergency response"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/guidance/ransomware-prevention-response",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Ransomware prevention, defence, and emergency response"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/report-an-incident",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Report a cyber security incident"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/report-an-incident",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Report a cyber security incident"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/report-an-incident",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Report a cyber security incident"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/advisories",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Cyber security advisories"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/advisories",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Cyber security advisories"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/advisories",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Cyber security advisories"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/statistics",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "National cyber incident statistics"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/statistics",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "National cyber incident statistics"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/statistics",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "National cyber incident statistics"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/training",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Cyber training and education"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/training",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Cyber training and education"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/training",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Cyber training and education"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280,
+      "h1s": [
+        "Contact TT-CSIRT"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/contact",
+      "status": 304,
+      "width": 768,
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "h1s": [
+        "Contact TT-CSIRT"
+      ],
+      "duplicateIds": []
+    },
+    {
+      "route": "/contact",
+      "status": 304,
+      "width": 375,
+      "documentWidth": 375,
+      "bodyWidth": 375,
+      "h1s": [
+        "Contact TT-CSIRT"
+      ],
+      "duplicateIds": []
+    }
+  ],
+  "stats": {
+    "initial": "Showing 2019 to 2026 (the latest year is partial): total notifications. The selected measure totals 485 notifications across this range. The leading incident category across all sectors is Phishing & Business Email Compromise (296 notifications).",
+    "yearSector": "Showing 2020 to 2024: public sector notifications. The selected measure totals 177 notifications across this range.",
+    "sectorRows": 5,
+    "category": "Showing 2020 to 2024: ransomware notifications. The selected measure totals 36 notifications across this range. Ransomware accounts for 36 notifications in this period.",
+    "reset": "Showing 2019 to 2026 (the latest year is partial): total notifications. The selected measure totals 485 notifications across this range. The leading incident category across all sectors is Phishing & Business Email Compromise (296 notifications).",
+    "details": {
+      "closed": "false",
+      "found": true
+    }
+  },
+  "report": {
+    "status": 304,
+    "detail": {
+      "found": true,
+      "closed": "false"
+    }
+  },
+  "mobileGame": {
+    "viewport": 375,
+    "document": 375,
+    "canvas": {
+      "x": 16,
+      "y": 230.828125,
+      "width": 343,
+      "height": 350,
+      "top": 230.828125,
+      "right": 359,
+      "bottom": 580.828125,
+      "left": 16
+    }
+  },
+  "errors": [],
+  "failedRequests": []
+}

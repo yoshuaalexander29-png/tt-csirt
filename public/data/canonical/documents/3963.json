@@ -1,0 +1,103 @@
+{
+  "id": "3963",
+  "legacyPostId": 3963,
+  "referenceNumber": "TT-CSIRT #261",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-261.010620: TT-CSIRT ADVISORY – CISCO SECURITY UPDATES",
+  "slug": "ttcsirt-261-010620-tt-csirt-advisory-cisco-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.TT-CSIRT encourages users and administrators to review the Cisco Released and apply the necessary updates:",
+  "cveList": [
+    "CVE-2019-15975",
+    "CVE-2019-15984",
+    "CVE-2019-15980",
+    "CVE-2019-15978"
+  ],
+  "date": "6 January 2020",
+  "rawDate": "2020-01-06T10:26:33",
+  "modifiedDate": "6 January 2020",
+  "rawModifiedDate": "2020-01-06T10:26:33",
+  "contentHtml": "<p>Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.TT-CSIRT encourages users and administrators to review the Cisco Released and apply the necessary updates:</p>\n<p>Critical vulnerability:</p>\n<ul>\n<li>CVE-2019-15975-Cisco Data Center Network Manager Authentication Bypass<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass</a></li>\n</ul>\n<p>High-level vulnerabilities:</p>\n<ul>\n<li>CVE-2019-15984-Cisco Data Center Network Manager SQL Injection<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-sql-inject\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-sql-inject<br />\n</a></li>\n<li>CVE-2019-15980-Cisco Data Center Network Manager Path Traversal<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-path-trav\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-path-trav</a></li>\n<li>CVE-2019-15978-Cisco Data Center Network Manager Command Injection<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject\" data-cke-saved-href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject\"> https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities in multiple Cisco products.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.TT-CSIRT encourages users and administrators to review the Cisco Released and apply the necessary updates: Critical vulnerability: CVE-2019-15975-Cisco Data Center Network Manager Authentication Bypass https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass High-level vulnerabilities: CVE-2019-15984-Cisco [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-261-010620-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.TT-CSIRT encourages users and administrators to review the Cisco Released and apply the necessary updates:</p>",
+          "text": "Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.TT-CSIRT encourages users and administrators to review the Cisco Released and apply the necessary updates:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Critical vulnerability",
+          "id": "critical-vulnerability"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-15975-Cisco Data Center Network Manager Authentication Bypass<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass</a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "High-level vulnerabilities",
+          "id": "high-level-vulnerabilities"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-15984-Cisco Data Center Network Manager SQL Injection<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-sql-inject\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-sql-inject<br />\n</a></li>\n<li>CVE-2019-15980-Cisco Data Center Network Manager Path Traversal<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-path-trav\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-path-trav</a></li>\n<li>CVE-2019-15978-Cisco Data Center Network Manager Command Injection<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject\" data-cke-saved-href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject\"> https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "critical-vulnerability",
+      "label": "Critical vulnerability",
+      "isSubItem": true
+    },
+    {
+      "id": "high-level-vulnerabilities",
+      "label": "High-level vulnerabilities",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-sql-inject",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-path-trav",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-261-010620-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2020-01-06T10:26:33",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

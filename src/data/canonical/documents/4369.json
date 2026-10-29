@@ -1,0 +1,101 @@
+{
+  "id": "4369",
+  "legacyPostId": 4369,
+  "referenceNumber": "TT-CSIRT #297",
+  "classification": "advisory",
+  "title": "Cisco sd-wan solution command injection vulnerability",
+  "rawTitle": "TTCSIRT-297.032020: TT-CSIRT ADVISORY- CISCO SD-WAN SOLUTION COMMAND INJECTION VULNERABILITY",
+  "slug": "ttcsirt-297-032020-tt-csirt-advisory-cisco-sd-wan-solution-command-injection-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability in the CLI of Cisco SD-WAN Solution software could allow an authenticated, local attacker to inject arbitrary commands that are executed with root privileges.",
+  "cveList": [],
+  "date": "20 March 2020",
+  "rawDate": "2020-03-20T14:11:59",
+  "modifiedDate": "20 March 2020",
+  "rawModifiedDate": "2020-03-20T14:11:59",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability in the CLI of Cisco SD-WAN Solution software could allow an authenticated, local attacker to inject arbitrary commands that are executed with <em>root</em> privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\"> The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by authenticating to the device and submitting crafted input to the CLI utility. The attacker must be authenticated to access the CLI utility. </p>\n\n\n\n<p class=\"wp-block-paragraph\"> A successful exploit could allow the attacker to execute commands with <em>root</em> privileges </p>\n\n\n\n<p class=\"wp-block-paragraph\">Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further review please see the following link:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v</a></p>\n",
+  "displaySummary": "A vulnerability in the CLI of Cisco SD-WAN Solution software could allow an authenticated, local attacker to inject arbitrary commands that are executed with root privileges.",
+  "sourceExcerpt": "<p>A vulnerability in the CLI of Cisco SD-WAN Solution software could allow an authenticated, local attacker to inject arbitrary commands that are executed with root privileges. The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by authenticating to the device and submitting crafted input to the CLI utility. The attacker must be [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-297-032020-tt-csirt-advisory-cisco-sd-wan-solution-command-injection-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability in the CLI of Cisco SD-WAN Solution software could allow an authenticated, local attacker to inject arbitrary commands that are executed with <em>root</em> privileges.</p>",
+          "text": "A vulnerability in the CLI of Cisco SD-WAN Solution software could allow an authenticated, local attacker to inject arbitrary commands that are executed with root privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by authenticating to the device and submitting crafted input to the CLI utility. The attacker must be authenticated to access the CLI utility.</p>",
+          "text": "The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by authenticating to the device and submitting crafted input to the CLI utility. The attacker must be authenticated to access the CLI utility."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A successful exploit could allow the attacker to execute commands with <em>root</em> privileges</p>",
+          "text": "A successful exploit could allow the attacker to execute commands with root privileges"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>",
+          "text": "Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v</a></p>",
+          "text": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-297-032020-tt-csirt-advisory-cisco-sd-wan-solution-command-injection-vulnerability/",
+    "upstreamDisclosedAt": "2020-03-20T14:11:59",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

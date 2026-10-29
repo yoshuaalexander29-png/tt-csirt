@@ -1,0 +1,75 @@
+{
+  "id": "4486",
+  "legacyPostId": 4486,
+  "referenceNumber": "TT-CSIRT #4486",
+  "classification": "alert",
+  "title": "IC3 releases alert on extortion email scams",
+  "rawTitle": "IC3 RELEASES ALERT ON EXTORTION EMAIL SCAMS",
+  "slug": "ic3-releases-alert-on-extortion-email-scams",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Internet Crime Complaint Center (IC3) has released an alert warning of a recent increase in extortion email scams during the current “stay-at-home” orders due to the COVID-19 crisis. Cyber criminals threaten to release sexually explicit photos or videos of victims unless they agree to send payment.",
+  "cveList": [],
+  "date": "22 April 2020",
+  "rawDate": "2020-04-22T15:06:15",
+  "modifiedDate": "22 April 2020",
+  "rawModifiedDate": "2020-04-22T15:06:15",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Internet Crime Complaint Center (IC3) has released an alert warning of a recent increase in extortion email scams during the current “stay-at-home” orders due to the COVID-19 crisis. Cyber criminals threaten to release sexually explicit photos or videos of victims unless they agree to send payment.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages everyone to review the IC3 Alert and also the CISA Tip on Avoiding Social Engineering and Phishing Attacks by referring to the following links for a comprehensive detailing of the aforementioned threats and mitigations:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://www.ic3.gov/media/2020/200420.aspx\">https://www.ic3.gov/media/2020/200420.aspx</a></li><li><a href=\"https://www.us-cert.gov/ncas/tips/ST04-014\">https://www.us-cert.gov/ncas/tips/ST04-01</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "The Internet Crime Complaint Center (IC3) has released an alert warning of a recent increase in extortion email scams during the current “stay-at-home” orders due to the COVID-19 crisis.",
+  "sourceExcerpt": "<p>The Internet Crime Complaint Center (IC3) has released an alert warning of a recent increase in extortion email scams during the current “stay-at-home” orders due to the COVID-19 crisis. Cyber criminals threaten to release sexually explicit photos or videos of victims unless they agree to send payment. TTCSIRT encourages everyone to review the IC3 Alert [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ic3-releases-alert-on-extortion-email-scams/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Internet Crime Complaint Center (IC3) has released an alert warning of a recent increase in extortion email scams during the current “stay-at-home” orders due to the COVID-19 crisis. Cyber criminals threaten to release sexually explicit photos or videos of victims unless they agree to send payment.</p>",
+          "text": "The Internet Crime Complaint Center (IC3) has released an alert warning of a recent increase in extortion email scams during the current “stay-at-home” orders due to the COVID-19 crisis. Cyber criminals threaten to release sexually explicit photos or videos of victims unless they agree to send payment."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages everyone to review the IC3 Alert and also the CISA Tip on Avoiding Social Engineering and Phishing Attacks by referring to the following links for a comprehensive detailing of the aforementioned threats and mitigations:</p>",
+          "text": "TTCSIRT encourages everyone to review the IC3 Alert and also the CISA Tip on Avoiding Social Engineering and Phishing Attacks by referring to the following links for a comprehensive detailing of the aforementioned threats and mitigations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://www.ic3.gov/media/2020/200420.aspx\">https://www.ic3.gov/media/2020/200420.aspx</a></li><li><a href=\"https://www.us-cert.gov/ncas/tips/ST04-014\">https://www.us-cert.gov/ncas/tips/ST04-01</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.ic3.gov/media/2020/200420.aspx",
+    "https://www.us-cert.gov/ncas/tips/ST04-014"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ic3-releases-alert-on-extortion-email-scams/",
+    "upstreamDisclosedAt": "2020-04-22T15:06:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

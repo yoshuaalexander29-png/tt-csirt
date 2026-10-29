@@ -1,0 +1,77 @@
+{
+  "id": "3413",
+  "legacyPostId": 3413,
+  "referenceNumber": "TT-CSIRT #132",
+  "classification": "advisory",
+  "title": "Bind security updates",
+  "rawTitle": "TTCSIRT-132.061418: TT-CSIRT Advisory – Bind Security Updates",
+  "slug": "ttcsirt-132-061418-tt-csirt-advisory-bind-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Internet Systems Consortium (ISC) has released a security update stating that some versions of BIND could improperly permit recursive queries to unauthorized clients.",
+  "cveList": [
+    "CVE-2018-5738"
+  ],
+  "date": "14 June 2018",
+  "rawDate": "2018-06-14T12:10:04",
+  "modifiedDate": "14 June 2018",
+  "rawModifiedDate": "2018-06-14T12:10:04",
+  "contentHtml": "<p>The Internet Systems Consortium (ISC) has released a security update stating that some versions of BIND could improperly permit recursive queries to unauthorized clients.</p>\n<p>This could allow an attacker to deduce which queries a server has previously serviced by examining the results from the cache thereby potentially leaking private information about what queries have been performed as well as allowing the server to be co-opted for use in DNS reflection attacks.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Internet Systems Consortium Website at <a href=\"https://kb.isc.org/article/AA-01616/0/CVE-2018-5738\"><font size=\"2\" color=\"maroon\">https://kb.isc.org/article/AA-01616/0/CVE-2018-5738</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "The Internet Systems Consortium (ISC) has released a security update stating that some versions of BIND could improperly permit recursive queries to unauthorized clients.",
+  "sourceExcerpt": "<p>The Internet Systems Consortium (ISC) has released a security update stating that some versions of BIND could improperly permit recursive queries to unauthorized clients. This could allow an attacker to deduce which queries a server has previously serviced by examining the results from the cache thereby potentially leaking private information about what queries have been [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-132-061418-tt-csirt-advisory-bind-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Internet Systems Consortium (ISC) has released a security update stating that some versions of BIND could improperly permit recursive queries to unauthorized clients.</p>",
+          "text": "The Internet Systems Consortium (ISC) has released a security update stating that some versions of BIND could improperly permit recursive queries to unauthorized clients."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This could allow an attacker to deduce which queries a server has previously serviced by examining the results from the cache thereby potentially leaking private information about what queries have been performed as well as allowing the server to be co-opted for use in DNS reflection attacks.</p>",
+          "text": "This could allow an attacker to deduce which queries a server has previously serviced by examining the results from the cache thereby potentially leaking private information about what queries have been performed as well as allowing the server to be co-opted for use in DNS reflection attacks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Internet Systems Consortium Website at <a href=\"https://kb.isc.org/article/AA-01616/0/CVE-2018-5738\">https://kb.isc.org/article/AA-01616/0/CVE-2018-5738</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Internet Systems Consortium Website at https://kb.isc.org/article/AA-01616/0/CVE-2018-5738"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.isc.org/article/AA-01616/0/CVE-2018-5738"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-132-061418-tt-csirt-advisory-bind-security-updates/",
+    "upstreamDisclosedAt": "2018-06-14T12:10:04",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

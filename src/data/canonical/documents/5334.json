@@ -1,0 +1,112 @@
+{
+  "id": "5334",
+  "legacyPostId": 5334,
+  "referenceNumber": "TT-CSIRT #5334",
+  "classification": "advisory",
+  "title": "Identity theft",
+  "rawTitle": "Identity Theft",
+  "slug": "identity-theft",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Identity theft is a method used to carry out criminal activity, involving unauthorized use of your name and personal details to either steal from you, or commit a crime in your name. Identity theft can be carried out either online, physically using printed documents, or by a combination of the two. Identity theft today usually begins when your personal data is exposed through hacking, phishing, data breaches, or other digital means.",
+  "cveList": [],
+  "date": "21 October 2022",
+  "rawDate": "2022-10-21T10:10:38",
+  "modifiedDate": "21 October 2022",
+  "rawModifiedDate": "2022-10-21T10:10:38",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"><strong>Identity theft is a method used to carry out criminal activity, involving unauthorized use of your name and personal details to either steal from you, or commit a crime in your name. Identity theft can be carried out either online, physically using printed documents, or by a combination of the two. Identity theft today usually begins when your personal data is exposed through hacking, phishing, data breaches, or other digital means.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>How can it happen?</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Data breaches of public and private entities.</li><li>Being tricked into divulging personal data in response to an email, text, letter or phone call.</li><li>Theft of or access to paper documents (for example, bank statements, utility bills, tax returns, passport/driving license).</li><li>Sharing private information with family, friends or people who take you into their confidence.</li><li>‘Shoulder surfing’ – people looking over your shoulder at your computer or cellphone/tablet, or at the ATM.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What are the symptoms?</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Not receiving bills or other correspondence – suggesting that a criminal has given a different address in place of your own.</li><li>Receiving credit cards which you did not apply for.</li><li>Denial of credit for no apparent reason.</li><li>Receiving calls from debt collectors or companies about things you have not bought.</li><li>Unrecognizable entries on your credit history.</li><li>You have recently lost or had stolen important documents such as your passport or driving license.</li><li>When buying or selling, you get complaints about non-delivery of or non-payment for goods you are not aware of.</li><li>You see entries on your bank, credit or store card statement for goods you did not order.</li><li>You cannot log into a site using your normal password (because a criminal has logged in as you and changed it).</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>How can it be prevented?</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Never divulge private information data in response to an email, text, letter or phone call unless you are certain that the request is from a bona fide source.</li><li>Do not share account information with friends, family or other people.</li><li>Ensure you always have effective and updated antivirus/antispyware software running.</li><li>If possible, arrange for paperless bills and statements.</li><li>File sensitive documents securely, and shred those you no longer need – preferably with a cross-cut shredder.</li><li>Always beware of people looking over your shoulder when you are entering private information on a computer, cellphone/tablet or ATM.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What to do if your identity has been stolen</strong></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Report the issue to the Trinidad and Tobago Police Service</li><li>Report all lost or stolen documents (passports, driving licenses, credit cards, etc) as soon as possible to the relevant issuing authorities.</li><li>Ask your bank/financial institution for advice (for example, on freezing accounts and getting new cards, passwords and PINs). Most will refund the full amount lost providing you were not negligent in some way.</li><li>Contact any affected websites and advise them about the problem.</li><li>If you can, log in and change your password immediately using a strong password.</li><li>If you are unable to log in, contact the website’s technical support department immediately for further advice.</li><li>Change your password on other websites in case they have also been compromised.</li><li>If website access requires a secret question, change it if you can to avoid repeat incidents.</li><li>Check your other personal information, such as addresses, to make sure it is still correct.</li><li>Check for other transactions, items for sale or items purchased in your name which you have not originated, and cancel them.</li><li>Check with credit reference agencies for any unusual entries, and for advice.</li><li>Check to see if mail redirection has been fraudulently set up on your address.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">This information is adapted from <a href=\"https://www.getsafeonline.tt\" target=\"_blank\" rel=\"noreferrer noopener\">www.getsafeonline.tt</a></p>\n",
+  "displaySummary": "Is a method used to carry out criminal activity, involving unauthorized use of your name and personal details to either steal from you, or commit a crime in your name.",
+  "sourceExcerpt": "<p>Identity theft is a method used to carry out criminal activity, involving unauthorized use of your name and personal details to either steal from you, or commit a crime in your name. Identity theft can be carried out either online, physically using printed documents, or by a combination of the two. Identity theft today usually [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/identity-theft/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Identity theft is a method used to carry out criminal activity, involving unauthorized use of your name and personal details to either steal from you, or commit a crime in your name. Identity theft can be carried out either online, physically using printed documents, or by a combination of the two. Identity theft today usually begins when your personal data is exposed through hacking, phishing, data breaches, or other digital means.</strong></p>",
+          "text": "Identity theft is a method used to carry out criminal activity, involving unauthorized use of your name and personal details to either steal from you, or commit a crime in your name. Identity theft can be carried out either online, physically using printed documents, or by a combination of the two. Identity theft today usually begins when your personal data is exposed through hacking, phishing, data breaches, or other digital means."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br><strong>How can it happen?</strong></p>",
+          "text": "How can it happen?"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Data breaches of public and private entities.</li><li>Being tricked into divulging personal data in response to an email, text, letter or phone call.</li><li>Theft of or access to paper documents (for example, bank statements, utility bills, tax returns, passport/driving license).</li><li>Sharing private information with family, friends or people who take you into their confidence.</li><li>‘Shoulder surfing’ – people looking over your shoulder at your computer or cellphone/tablet, or at the ATM.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>What are the symptoms?</strong></p>",
+          "text": "What are the symptoms?"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Not receiving bills or other correspondence – suggesting that a criminal has given a different address in place of your own.</li><li>Receiving credit cards which you did not apply for.</li><li>Denial of credit for no apparent reason.</li><li>Receiving calls from debt collectors or companies about things you have not bought.</li><li>Unrecognizable entries on your credit history.</li><li>You have recently lost or had stolen important documents such as your passport or driving license.</li><li>When buying or selling, you get complaints about non-delivery of or non-payment for goods you are not aware of.</li><li>You see entries on your bank, credit or store card statement for goods you did not order.</li><li>You cannot log into a site using your normal password (because a criminal has logged in as you and changed it).</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>How can it be prevented?</strong></p>",
+          "text": "How can it be prevented?"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Never divulge private information data in response to an email, text, letter or phone call unless you are certain that the request is from a bona fide source.</li><li>Do not share account information with friends, family or other people.</li><li>Ensure you always have effective and updated antivirus/antispyware software running.</li><li>If possible, arrange for paperless bills and statements.</li><li>File sensitive documents securely, and shred those you no longer need – preferably with a cross-cut shredder.</li><li>Always beware of people looking over your shoulder when you are entering private information on a computer, cellphone/tablet or ATM.</li></ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "What to do if your identity has been stolen",
+          "id": "what-to-do-if-your-identity-has-been-stolen"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Report the issue to the Trinidad and Tobago Police Service</li><li>Report all lost or stolen documents (passports, driving licenses, credit cards, etc) as soon as possible to the relevant issuing authorities.</li><li>Ask your bank/financial institution for advice (for example, on freezing accounts and getting new cards, passwords and PINs). Most will refund the full amount lost providing you were not negligent in some way.</li><li>Contact any affected websites and advise them about the problem.</li><li>If you can, log in and change your password immediately using a strong password.</li><li>If you are unable to log in, contact the website’s technical support department immediately for further advice.</li><li>Change your password on other websites in case they have also been compromised.</li><li>If website access requires a secret question, change it if you can to avoid repeat incidents.</li><li>Check your other personal information, such as addresses, to make sure it is still correct.</li><li>Check for other transactions, items for sale or items purchased in your name which you have not originated, and cancel them.</li><li>Check with credit reference agencies for any unusual entries, and for advice.</li><li>Check to see if mail redirection has been fraudulently set up on your address.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This information is adapted from <a href=\"https://www.getsafeonline.tt\" target=\"_blank\" rel=\"noreferrer noopener\">www.getsafeonline.tt</a></p>",
+          "text": "This information is adapted from www.getsafeonline.tt"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "what-to-do-if-your-identity-has-been-stolen",
+      "label": "What to do if your identity has been stolen",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.getsafeonline.tt"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/identity-theft/",
+    "upstreamDisclosedAt": "2022-10-21T10:10:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

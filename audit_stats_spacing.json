@@ -1,0 +1,331 @@
+{
+  "375x812": {
+    "orientation": "Portrait",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 4721.28125,
+        "height": 25,
+        "marginTop": "0px",
+        "marginBottom": "15px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 4721.28125,
+        "height": 65,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 4721.28125,
+        "height": 225,
+        "marginTop": "0px",
+        "marginBottom": "30px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 4751.28125,
+        "bottom": 4776.28125,
+        "marginTop": "0px",
+        "marginBottom": "15px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "21px",
+        "lineHeight": "25px"
+      },
+      "effectiveGap": 30
+    }
+  },
+  "812x375": {
+    "orientation": "Landscape",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 4145.09375,
+        "height": 50,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 4165.09375,
+        "height": 125,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 4165.09375,
+        "height": 125,
+        "marginTop": "0px",
+        "marginBottom": "50px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 4215.09375,
+        "bottom": 4245.09375,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "24px",
+        "lineHeight": "30px"
+      },
+      "effectiveGap": 70
+    }
+  },
+  "414x896": {
+    "orientation": "Portrait",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 4444.28125,
+        "height": 25,
+        "marginTop": "0px",
+        "marginBottom": "15px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 4444.28125,
+        "height": 65,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 4444.28125,
+        "height": 225,
+        "marginTop": "0px",
+        "marginBottom": "30px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 4474.28125,
+        "bottom": 4499.28125,
+        "marginTop": "0px",
+        "marginBottom": "15px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "21px",
+        "lineHeight": "25px"
+      },
+      "effectiveGap": 30
+    }
+  },
+  "896x414": {
+    "orientation": "Landscape",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 3933.09375,
+        "height": 50,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 3953.09375,
+        "height": 125,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 3953.09375,
+        "height": 125,
+        "marginTop": "0px",
+        "marginBottom": "50px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 4003.09375,
+        "bottom": 4033.09375,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "24px",
+        "lineHeight": "30px"
+      },
+      "effectiveGap": 70
+    }
+  },
+  "768x1024": {
+    "orientation": "Tablet",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 4334.09375,
+        "height": 50,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 4354.09375,
+        "height": 125,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 4354.09375,
+        "height": 125,
+        "marginTop": "0px",
+        "marginBottom": "50px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 4404.09375,
+        "bottom": 4434.09375,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "24px",
+        "lineHeight": "30px"
+      },
+      "effectiveGap": 70
+    }
+  },
+  "1024x768": {
+    "orientation": "Landscape/tablet",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 3753.09375,
+        "height": 25,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 3773.09375,
+        "height": 100,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 3798.09375,
+        "height": 125,
+        "marginTop": "0px",
+        "marginBottom": "50px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 3848.09375,
+        "bottom": 3878.09375,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "24px",
+        "lineHeight": "30px"
+      },
+      "effectiveGap": 95
+    }
+  },
+  "1280x800": {
+    "orientation": "Desktop",
+    "metrics": {
+      "lastStatElement": {
+        "tag": "P",
+        "className": "govuk-body",
+        "bottom": 3753.09375,
+        "height": 25,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px"
+      },
+      "lastColumnElement": {
+        "bottom": 3773.09375,
+        "height": 100,
+        "marginBottom": "0px"
+      },
+      "container": {
+        "tag": "DIV",
+        "className": "govuk-grid-row govuk-!-margin-bottom-8",
+        "bottom": 3798.09375,
+        "height": 125,
+        "marginTop": "0px",
+        "marginBottom": "50px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "display": "block",
+        "flexDirection": "row",
+        "gridTemplate": "none",
+        "gap": "normal"
+      },
+      "heading": {
+        "tag": "H3",
+        "className": "govuk-heading-m",
+        "top": 3848.09375,
+        "bottom": 3878.09375,
+        "marginTop": "0px",
+        "marginBottom": "20px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "fontSize": "24px",
+        "lineHeight": "30px"
+      },
+      "effectiveGap": 95
+    }
+  }
+}

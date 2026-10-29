@@ -1,0 +1,80 @@
+{
+  "id": "3567",
+  "legacyPostId": 3567,
+  "referenceNumber": "TT-CSIRT #175",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-175.102218: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-175-102218-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it discovered a vulnerability where libssh could allow an unauthenticated, remote attacker to bypass authentication on a targeted system.",
+  "cveList": [],
+  "date": "22 October 2018",
+  "rawDate": "2018-10-22T15:55:08",
+  "modifiedDate": "22 October 2018",
+  "rawModifiedDate": "2018-10-22T15:55:08",
+  "contentHtml": "<p>Cisco has released a security update stating that it discovered a vulnerability where libssh could allow an unauthenticated, remote attacker to bypass authentication on a targeted system.</p>\n<p>The issue is due to improper authentication operations by the server-side state machine of the affected software.</p>\n<p>An attacker could exploit this vulnerability by presenting a SSH2_MSG_USERAUTH_SUCCESS message to a targeted system. </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181019-libssh\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181019-libssh</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it discovered a vulnerability where libssh could allow an unauthenticated, remote attacker to bypass authentication on a targeted system.",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it discovered a vulnerability where libssh could allow an unauthenticated, remote attacker to bypass authentication on a targeted system. The issue is due to improper authentication operations by the server-side state machine of the affected software. An attacker could exploit this vulnerability by presenting a SSH2_MSG_USERAUTH_SUCCESS message [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-175-102218-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it discovered a vulnerability where libssh could allow an unauthenticated, remote attacker to bypass authentication on a targeted system.</p>",
+          "text": "Cisco has released a security update stating that it discovered a vulnerability where libssh could allow an unauthenticated, remote attacker to bypass authentication on a targeted system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The issue is due to improper authentication operations by the server-side state machine of the affected software.</p>",
+          "text": "The issue is due to improper authentication operations by the server-side state machine of the affected software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability by presenting a SSH2_MSG_USERAUTH_SUCCESS message to a targeted system.</p>",
+          "text": "An attacker could exploit this vulnerability by presenting a SSH2_MSG_USERAUTH_SUCCESS message to a targeted system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181019-libssh\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181019-libssh</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181019-libssh"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181019-libssh"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-175-102218-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-10-22T15:55:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

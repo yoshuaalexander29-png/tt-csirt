@@ -1,0 +1,75 @@
+{
+  "id": "2844",
+  "legacyPostId": 2844,
+  "referenceNumber": "TT-CSIRT #020",
+  "classification": "advisory",
+  "title": "Samba security updates",
+  "rawTitle": "TTCSIRT-020.071717: TT-CSIRT Advisory – Samba Security Updates",
+  "slug": "ttcsirt-020-071717-tt-csirt-advisory-samba-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Samba Team has reported a critical vulnerability in all versions of Samba from 4.0.0 onward using embedded Heimdal Kerberos. A Man-In-The-Middle Attacker may impersonate a trusted server and thus gain elevated access to the domain by returning malicious replication or authorization data.",
+  "cveList": [],
+  "date": "17 July 2017",
+  "rawDate": "2017-07-17T11:35:18",
+  "modifiedDate": "17 July 2017",
+  "rawModifiedDate": "2017-07-17T11:35:18",
+  "contentHtml": "<p>The Samba Team has reported a critical vulnerability in all versions of Samba from 4.0.0 onward using embedded Heimdal Kerberos. A Man-In-The-Middle Attacker may impersonate a trusted server and thus gain elevated access to the domain by returning malicious replication or authorization data.</p>\n<table>\n<tr>\n<td>A patch addressing this defect has been posted to <a href=\"https://www.samba.org/samba/security/\"><font size=\"2\" color=\"maroon\">https://www.samba.org/samba/security/</font></a> while Samba 4.6.6, 4.5.12 and 4.4.15 have been issued as security releases to correct the defect.</td>\n</tr>\n</table>\n<p>Samba vendors and administrators running affected versions linked against the embedded Heimdal Kerberos are advised to upgrade or apply the patch as soon as possible.</p>\n",
+  "displaySummary": "The Samba Team has reported a critical vulnerability in all versions of Samba from 4.0.0 onward using embedded Heimdal Kerberos.",
+  "sourceExcerpt": "<p>The Samba Team has reported a critical vulnerability in all versions of Samba from 4.0.0 onward using embedded Heimdal Kerberos. A Man-In-The-Middle Attacker may impersonate a trusted server and thus gain elevated access to the domain by returning malicious replication or authorization data. A patch addressing this defect has been posted to https://www.samba.org/samba/security/ while Samba [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-020-071717-tt-csirt-advisory-samba-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Samba Team has reported a critical vulnerability in all versions of Samba from 4.0.0 onward using embedded Heimdal Kerberos. A Man-In-The-Middle Attacker may impersonate a trusted server and thus gain elevated access to the domain by returning malicious replication or authorization data.</p>",
+          "text": "The Samba Team has reported a critical vulnerability in all versions of Samba from 4.0.0 onward using embedded Heimdal Kerberos. A Man-In-The-Middle Attacker may impersonate a trusted server and thus gain elevated access to the domain by returning malicious replication or authorization data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A patch addressing this defect has been posted to <a href=\"https://www.samba.org/samba/security/\">https://www.samba.org/samba/security/</a> while Samba 4.6.6, 4.5.12 and 4.4.15 have been issued as security releases to correct the defect.</p>",
+          "text": "A patch addressing this defect has been posted to https://www.samba.org/samba/security/ while Samba 4.6.6, 4.5.12 and 4.4.15 have been issued as security releases to correct the defect."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Samba vendors and administrators running affected versions linked against the embedded Heimdal Kerberos are advised to upgrade or apply the patch as soon as possible.</p>",
+          "text": "Samba vendors and administrators running affected versions linked against the embedded Heimdal Kerberos are advised to upgrade or apply the patch as soon as possible."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.samba.org/samba/security/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-020-071717-tt-csirt-advisory-samba-security-updates/",
+    "upstreamDisclosedAt": "2017-07-17T11:35:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "4411",
+  "legacyPostId": 4411,
+  "referenceNumber": "TT-CSIRT #4411",
+  "classification": "alert",
+  "title": "#WorkFromHome cyber safety guidelines",
+  "rawTitle": "#WorkFromHome Cyber Safety Guidelines",
+  "slug": "workfromhome",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Social distancing is one of the main ways to contain the spread of COVID-19 and “flatten the curve”. This means that a lot of companies and governments have started to instruct staff to work from home. However telework can create cybersecurity risks. It is with this in mind that TT-CSIRT has compiled a list of telework security guidelines from several sister agencies and international organizations.",
+  "cveList": [],
+  "date": "31 March 2020",
+  "rawDate": "2020-03-31T15:53:33",
+  "modifiedDate": "31 March 2020",
+  "rawModifiedDate": "2020-03-31T15:53:33",
+  "contentHtml": "\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">Social distancing is one of the main ways to contain the spread of COVID-19 and &#8220;flatten the curve&#8221;. This means that a lot of companies and governments have started to instruct staff to work from home. However telework can create cybersecurity risks. It is with this in mind that TT-CSIRT has compiled a list of telework security guidelines from several sister agencies and international organizations.</p>\n\n\n\n<hr class=\"wp-block-separator\"/>\n\n\n\n<h3 class=\"wp-block-heading\">Tips for Remote Workers</h3>\n\n\n\n<ul class=\"wp-block-list\"><li>Only use WiFi you trust. With an insecure connection, people in the near vicinity can snoop your traffic.</li><li>Use company sanctioned devices.</li><li>Update antivirus software.</li><li>Update all software and the operating system.</li><li>Remember to back up periodically. All important files should be backed up regularly. In a worst case scenario, staff could fall foul of ransomware for instance. Then all is lost without a backup.</li><li>Lock your screen if you work in a shared space. (you should really avoid co-working or shared spaces at this moment. Remember, social distancing is extremely important to slow down the spread of the virus).</li><li>Make sure you are using a secure connection to your work environment. This means using a VPN or some other secure means like Teamviewer.</li><li>Beware of phishing emails. Attackers are exploiting the COVID-19 global pandemic, so look out for phishing emails and scams. One should be suspicious of any e-mails  asking to check or renew your credentials even if it seems to comes from a trusted source. Please try to verify the authenticity of any significant or suspicious request through other means, do not click on suspicious links or open any  suspicious attachments.</li></ul>\n\n\n\n<h3 class=\"wp-block-heading\">Tips for Employers</h3>\n\n\n\n<ul class=\"wp-block-list\"><li>Focus on securing systems that enable remote access, such as VPNs. Ensure these systems are fully patched, firewalls are properly configured, and anti-malware and intrusion prevention software is installed.</li><li> Never directly expose RDP to the internet (require VPN connection first).</li><li>Implement multi-factor authentication wherever possible. </li><li>Consider restricting access to sensitive systems where it makes sense.</li><li>Send out phishing awareness emails to your employees </li><li> The use of unauthorized software for official purposes (known as shadow IT) can increase when working remotely, raising security and privacy risks. Ensure staff are aware of the policy, privacy and legal obligations that apply to your organization&#8217;s information.</li><li>Examine your incident response plans and, if necessary, update these to account for staff working remotely.</li><li>Review your business continuity and contingency plans. Ensure these are up to date.</li></ul>\n\n\n\n<h3 class=\"wp-block-heading\">Tips for Video Conferencing and Chat Groups</h3>\n\n\n\n<ul class=\"wp-block-list\"><li>Ensure persons can join via invitation only.</li><li>Require a password to join the meeting/group.</li><li>Where possible, require administrator approval before someone can join the group.</li><li>Do not post meeting/group links to social media.</li><li>Ensure video conferencing and chat software is always up to date.</li></ul>\n\n\n\n<hr class=\"wp-block-separator\"/>\n\n\n\n<p class=\"has-text-color has-very-dark-gray-color wp-block-paragraph\">If there is anything you think should be added to the guidelines, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt. As always, should your organization fall victim to a cyber attack, please contact TT-CSIRT immediately. </p>\n\n\n\n<hr class=\"wp-block-separator\"/>\n\n\n\n<p class=\"wp-block-paragraph\">Sources<br><a href=\"https://www.enisa.europa.eu/news/executive-news/top-tips-for-cybersecurity-when-working-remotely\">European Union Agency for Cybersecurity (ENISA)</a><br><a href=\"https://www.us-cert.gov/ncas/alerts/aa20-073a\">U.S. Cyber and Infrastructure Security Agency (CISA)</a><br><a href=\"https://www.ncsc.govt.nz/newsroom/working-remotely-advice-for-organisations-and-staff/\">New Zealand National Cyber Security Center (NCSC)</a><br><a href=\"https://www.cert.govt.nz/about/news/covid-19-supporting-people-to-work-from-home/\">New Zealand Computer Emergency Response Team (CERT NZ)</a><br><a href=\"https://blog.zoom.us/wordpress/2020/03/20/keep-the-party-crashers-from-crashing-your-zoom-event/\">Zoom Blog</a></p>\n\n\n\n<ul class=\"wp-block-social-links is-style-default is-layout-flex wp-block-social-links-is-layout-flex\">\n\n<li class=\"wp-social-link wp-social-link-facebook wp-block-social-link\"><a href=\"https://www.facebook.com/ttcsirt/\" class=\"wp-block-social-link-anchor\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z\"></path></svg><span class=\"wp-block-social-link-label screen-reader-text\">Facebook</span></a></li>\n\n<li class=\"wp-social-link wp-social-link-twitter wp-block-social-link\"><a href=\"https://twitter.com/ttcsirt\" class=\"wp-block-social-link-anchor\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z\"></path></svg><span class=\"wp-block-social-link-label screen-reader-text\">Twitter</span></a></li>\n\n<li class=\"wp-social-link wp-social-link-instagram wp-block-social-link\"><a href=\"https://www.instagram.com/tt.csirt/\" class=\"wp-block-social-link-anchor\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z\"></path></svg><span class=\"wp-block-social-link-label screen-reader-text\">Instagram</span></a></li>\n\n\n\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Social distancing is one of the main ways to contain the spread of COVID-19 and &#8220;flatten the curve&#8221;.",
+  "sourceExcerpt": "<p>Social distancing is one of the main ways to contain the spread of COVID-19 and &#8220;flatten the curve&#8221;. This means that a lot of companies and governments have started to instruct staff to work from home. However telework can create cybersecurity risks. It is with this in mind that TT-CSIRT has compiled a list of [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/workfromhome/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Social distancing is one of the main ways to contain the spread of COVID-19 and &#8220;flatten the curve&#8221;. This means that a lot of companies and governments have started to instruct staff to work from home. However telework can create cybersecurity risks. It is with this in mind that TT-CSIRT has compiled a list of telework security guidelines from several sister agencies and international organizations.</p>",
+          "text": "Social distancing is one of the main ways to contain the spread of COVID-19 and “flatten the curve”. This means that a lot of companies and governments have started to instruct staff to work from home. However telework can create cybersecurity risks. It is with this in mind that TT-CSIRT has compiled a list of telework security guidelines from several sister agencies and international organizations."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Tips for remote workers",
+          "id": "tips-for-remote-workers"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Only use WiFi you trust. With an insecure connection, people in the near vicinity can snoop your traffic.</li><li>Use company sanctioned devices.</li><li>Update antivirus software.</li><li>Update all software and the operating system.</li><li>Remember to back up periodically. All important files should be backed up regularly. In a worst case scenario, staff could fall foul of ransomware for instance. Then all is lost without a backup.</li><li>Lock your screen if you work in a shared space. (you should really avoid co-working or shared spaces at this moment. Remember, social distancing is extremely important to slow down the spread of the virus).</li><li>Make sure you are using a secure connection to your work environment. This means using a VPN or some other secure means like Teamviewer.</li><li>Beware of phishing emails. Attackers are exploiting the COVID-19 global pandemic, so look out for phishing emails and scams. One should be suspicious of any e-mails  asking to check or renew your credentials even if it seems to comes from a trusted source. Please try to verify the authenticity of any significant or suspicious request through other means, do not click on suspicious links or open any  suspicious attachments.</li></ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Tips for employers",
+          "id": "tips-for-employers"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Focus on securing systems that enable remote access, such as VPNs. Ensure these systems are fully patched, firewalls are properly configured, and anti-malware and intrusion prevention software is installed.</li><li>Never directly expose RDP to the internet (require VPN connection first).</li><li>Implement multi-factor authentication wherever possible.</li><li>Consider restricting access to sensitive systems where it makes sense.</li><li>Send out phishing awareness emails to your employees</li><li>The use of unauthorized software for official purposes (known as shadow IT) can increase when working remotely, raising security and privacy risks. Ensure staff are aware of the policy, privacy and legal obligations that apply to your organization&#8217;s information.</li><li>Examine your incident response plans and, if necessary, update these to account for staff working remotely.</li><li>Review your business continuity and contingency plans. Ensure these are up to date.</li></ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Tips for video conferencing and chat groups",
+          "id": "tips-for-video-conferencing-and-chat-groups"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Ensure persons can join via invitation only.</li><li>Require a password to join the meeting/group.</li><li>Where possible, require administrator approval before someone can join the group.</li><li>Do not post meeting/group links to social media.</li><li>Ensure video conferencing and chat software is always up to date.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Sources<br><a href=\"https://www.enisa.europa.eu/news/executive-news/top-tips-for-cybersecurity-when-working-remotely\">European Union Agency for Cybersecurity (ENISA)</a><br><a href=\"https://www.us-cert.gov/ncas/alerts/aa20-073a\">U.S. Cyber and Infrastructure Security Agency (CISA)</a><br><a href=\"https://www.ncsc.govt.nz/newsroom/working-remotely-advice-for-organisations-and-staff/\">New Zealand National Cyber Security Center (NCSC)</a><br><a href=\"https://www.cert.govt.nz/about/news/covid-19-supporting-people-to-work-from-home/\">New Zealand Computer Emergency Response Team (CERT NZ)</a><br><a href=\"https://blog.zoom.us/wordpress/2020/03/20/keep-the-party-crashers-from-crashing-your-zoom-event/\">Zoom Blog</a></p>",
+          "text": "Sources European Union Agency for Cybersecurity (ENISA) U.S. Cyber and Infrastructure Security Agency (CISA) New Zealand National Cyber Security Center (NCSC) New Zealand Computer Emergency Response Team (CERT NZ) Zoom Blog"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-social-links is-style-default is-layout-flex wp-block-social-links-is-layout-flex\">\n\n<li><a href=\"https://www.facebook.com/ttcsirt/\" class=\"wp-block-social-link-anchor\"><span class=\"wp-block-social-link-label screen-reader-text\">Facebook</span></a></li>\n\n<li><a href=\"https://twitter.com/ttcsirt\" class=\"wp-block-social-link-anchor\"><span class=\"wp-block-social-link-label screen-reader-text\">Twitter</span></a></li>\n\n<li><a href=\"https://www.instagram.com/tt.csirt/\" class=\"wp-block-social-link-anchor\"><span class=\"wp-block-social-link-label screen-reader-text\">Instagram</span></a></li>\n\n\n\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "tips-for-remote-workers",
+      "label": "Tips for remote workers",
+      "isSubItem": true
+    },
+    {
+      "id": "tips-for-employers",
+      "label": "Tips for employers",
+      "isSubItem": true
+    },
+    {
+      "id": "tips-for-video-conferencing-and-chat-groups",
+      "label": "Tips for video conferencing and chat groups",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.enisa.europa.eu/news/executive-news/top-tips-for-cybersecurity-when-working-remotely",
+    "https://www.us-cert.gov/ncas/alerts/aa20-073a",
+    "https://www.ncsc.govt.nz/newsroom/working-remotely-advice-for-organisations-and-staff/",
+    "https://www.cert.govt.nz/about/news/covid-19-supporting-people-to-work-from-home/",
+    "https://blog.zoom.us/wordpress/2020/03/20/keep-the-party-crashers-from-crashing-your-zoom-event/",
+    "https://www.facebook.com/ttcsirt/",
+    "https://twitter.com/ttcsirt",
+    "https://www.instagram.com/tt.csirt/"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/workfromhome/",
+    "upstreamDisclosedAt": "2020-03-31T15:53:33",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

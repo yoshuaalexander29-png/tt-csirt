@@ -1,0 +1,82 @@
+{
+  "id": "3317",
+  "legacyPostId": 3317,
+  "referenceNumber": "TT-CSIRT #113",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-113.050318: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-113-050318-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that a remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input while importing a container image.",
+  "cveList": [
+    "CVE-2018-8115"
+  ],
+  "date": "3 May 2018",
+  "rawDate": "2018-05-03T10:57:40",
+  "modifiedDate": "3 May 2018",
+  "rawModifiedDate": "2018-05-03T10:57:40",
+  "contentHtml": "<p>Microsoft has released a security update stating that a remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input while importing a container image. </p>\n<p>Exploitation occurs when an attacker places malicious code in a specially crafted container image which, if an authenticated administrator imported (pulled), could cause a container management service utilizing the Host Compute Service Shim library to execute it on the Windows host.</p>\n<p>An attacker who successfully exploited the vulnerability could execute arbitrary code on the host operating system.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8115\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8115</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that a remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input…",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that a remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input while importing a container image. Exploitation occurs when an attacker places malicious code in a specially crafted container image which, if an authenticated administrator imported (pulled), could [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-113-050318-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that a remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input while importing a container image.</p>",
+          "text": "Microsoft has released a security update stating that a remote code execution vulnerability exists when the Windows Host Compute Service Shim (hcsshim) library fails to properly validate input while importing a container image."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Exploitation occurs when an attacker places malicious code in a specially crafted container image which, if an authenticated administrator imported (pulled), could cause a container management service utilizing the Host Compute Service Shim library to execute it on the Windows host.</p>",
+          "text": "Exploitation occurs when an attacker places malicious code in a specially crafted container image which, if an authenticated administrator imported (pulled), could cause a container management service utilizing the Host Compute Service Shim library to execute it on the Windows host."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker who successfully exploited the vulnerability could execute arbitrary code on the host operating system.</p>",
+          "text": "An attacker who successfully exploited the vulnerability could execute arbitrary code on the host operating system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8115\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8115</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8115"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8115"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-113-050318-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-05-03T10:57:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

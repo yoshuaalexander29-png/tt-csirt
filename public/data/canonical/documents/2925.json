@@ -1,0 +1,70 @@
+{
+  "id": "2925",
+  "legacyPostId": 2925,
+  "referenceNumber": "TT-CSIRT #032",
+  "classification": "advisory",
+  "title": "Juniper security updates",
+  "rawTitle": "TTCSIRT-032.081017: TT-CSIRT Advisory – Juniper Security Updates",
+  "slug": "ttcsirt-032-081017-tt-csirt-advisory-juniper-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Juniper Networks has released a security advisory for Junos OS stating that an integer signedness vulnerability exists in libgd 2.1.1 which may result in a heap overflow when processing compressed gd2 data.",
+  "cveList": [],
+  "date": "10 August 2017",
+  "rawDate": "2017-08-10T15:14:55",
+  "modifiedDate": "10 August 2017",
+  "rawModifiedDate": "2017-08-10T15:14:55",
+  "contentHtml": "<p>Juniper Networks has released a security advisory for Junos OS stating that an integer signedness vulnerability exists in libgd 2.1.1 which may result in a heap overflow when processing compressed gd2 data.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on the Juniper Website at <a href=\"https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST\"><font size=\"2\" color=\"maroon\">https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Juniper Networks has released a security advisory for Junos OS stating that an integer signedness vulnerability exists in libgd 2.1.1 which may result in a heap overflow when processing…",
+  "sourceExcerpt": "<p>Juniper Networks has released a security advisory for Junos OS stating that an integer signedness vulnerability exists in libgd 2.1.1 which may result in a heap overflow when processing compressed gd2 data. Further information on this vulnerability and how it can be fixed can be found on the Juniper Website at https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-032-081017-tt-csirt-advisory-juniper-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Juniper Networks has released a security advisory for Junos OS stating that an integer signedness vulnerability exists in libgd 2.1.1 which may result in a heap overflow when processing compressed gd2 data.</p>",
+          "text": "Juniper Networks has released a security advisory for Junos OS stating that an integer signedness vulnerability exists in libgd 2.1.1 which may result in a heap overflow when processing compressed gd2 data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on the Juniper Website at <a href=\"https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST\">https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on the Juniper Website at https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10798&#038;cat=SIRT_1&#038;actp=LIST"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-032-081017-tt-csirt-advisory-juniper-security-updates/",
+    "upstreamDisclosedAt": "2017-08-10T15:14:55",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

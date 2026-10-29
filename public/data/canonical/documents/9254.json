@@ -1,0 +1,70 @@
+{
+  "id": "9254",
+  "legacyPostId": 9254,
+  "referenceNumber": "TT-CSIRT #065",
+  "classification": "advisory",
+  "title": "Symantec security updates",
+  "rawTitle": "TTCSIRT-065.112217: TT-CSIRT Advisory – Symantec Security Updates",
+  "slug": "ttcsirt-065-112017-tt-csirt-advisory-symantec-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Symantec has a security update stating that the Symantec Management Console can be susceptible to a directory traversal exploit, which is a type of attack that can occur when there is insufficient security validation / sanitization of user-supplied input file names, such that characters representing “traverse to parent directory” are passed through to the file APIs. The goal of this attack is to use an affected application to gain unauthorized access to the file system.",
+  "cveList": [],
+  "date": "22 November 2017",
+  "rawDate": "2017-11-22T10:42:09",
+  "modifiedDate": "22 November 2017",
+  "rawModifiedDate": "2017-11-22T10:42:09",
+  "contentHtml": "<p>Symantec has a security update stating that the Symantec Management Console can be susceptible to a directory traversal exploit, which is a type of attack that can occur when there is insufficient security validation / sanitization of user-supplied input file names, such that characters representing &#8220;traverse to parent directory&#8221; are passed through to the file APIs. The goal of this attack is to use an affected application to gain unauthorized access to the file system.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on the Symantec Website at <a href=\"https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20171120_00\"><font size=\"2\" color=\"maroon\">https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20171120_00</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Symantec has a security update stating that the Symantec Management Console can be susceptible to a directory traversal exploit, which is a type of attack that can occur when there is…",
+  "sourceExcerpt": "<p>Symantec has a security update stating that the Symantec Management Console can be susceptible to a directory traversal exploit, which is a type of attack that can occur when there is insufficient security validation / sanitization of user-supplied input file names, such that characters representing &#8220;traverse to parent directory&#8221; are passed through to the file [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-065-112017-tt-csirt-advisory-symantec-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Symantec has a security update stating that the Symantec Management Console can be susceptible to a directory traversal exploit, which is a type of attack that can occur when there is insufficient security validation / sanitization of user-supplied input file names, such that characters representing &#8220;traverse to parent directory&#8221; are passed through to the file APIs. The goal of this attack is to use an affected application to gain unauthorized access to the file system.</p>",
+          "text": "Symantec has a security update stating that the Symantec Management Console can be susceptible to a directory traversal exploit, which is a type of attack that can occur when there is insufficient security validation / sanitization of user-supplied input file names, such that characters representing “traverse to parent directory” are passed through to the file APIs. The goal of this attack is to use an affected application to gain unauthorized access to the file system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on the Symantec Website at <a href=\"https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20171120_00\">https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20171120_00</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on the Symantec Website at https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20171120_00"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20171120_00"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-065-112017-tt-csirt-advisory-symantec-security-updates/",
+    "upstreamDisclosedAt": "2017-11-22T10:42:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

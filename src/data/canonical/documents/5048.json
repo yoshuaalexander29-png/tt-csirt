@@ -1,0 +1,103 @@
+{
+  "id": "5048",
+  "legacyPostId": 5048,
+  "referenceNumber": "TT-CSIRT 396.07.01.21",
+  "classification": "advisory",
+  "title": "Critical Windows print spooler vulnerability",
+  "rawTitle": "TTCSIRT-396.07.01.21 TTCSIRT ADVISORY- CRITICAL WINDOWS PRINT SPOOLER VULNERABILITY",
+  "slug": "ttcsirt-396-07-01-21-ttcsirt-advisory-critical-windows-print-spooler-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released out-of-band security updates to address the remote code execution (RCE) vulnerability (CVE-2021-34527) in the Windows Print spooler service. Please review the following update guide from Microsoft and apply the necessary security patches immediately : https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527",
+  "cveList": [
+    "CVE-2021-34527",
+    "CVE-2021-1675"
+  ],
+  "date": "1 July 2021",
+  "rawDate": "2021-07-01T10:41:07",
+  "modifiedDate": "1 July 2021",
+  "rawModifiedDate": "2021-07-01T10:41:07",
+  "contentHtml": "<p><strong>Updated &#8211; July 7, 2021</strong><br />\nMicrosoft has released out-of-band security updates to address the remote code execution (RCE) vulnerability (CVE-2021-34527) in the Windows Print spooler service. Please review the following update guide from Microsoft and apply the necessary security patches immediately<strong>: </strong><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527</a></p>\n<p>Updated &#8211; 6 July, 2021<br />\nPlease review Microsoft&#8217;s updated guidance for the Print spooler vulnerability (CVE-2021-34527) and immediately take the necessary actions<strong>: </strong><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=0d99d898a3&amp;e=64e3bb0ab9\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527</a></p>\n<p>Original Advisory &#8211; 1 July, 2021<br />\nA critical remote code execution vulnerability in the Windows Print spooler service has been discovered and identified as CVE-2021-1675. Microsoft has released an update for CVE-2021-1675 however the update was released when the vulnerability was classified as a local privilege elevation. Further research into the vulnerability shows that the update does not address the ability to gain remote code execution. Security researchers have now developed proof of concept exploits that are publicly available and identify as CVE-2021-1675. An attacker can exploit this vulnerability—nicknamed PrintNightmare—to take control of an affected system.</p>\n<p>TT-CSIRT encourages administrators to disable the Windows Print spooler service in Domain Controllers and systems that do not print. Additionally, administrators should employ the following best practice from Microsoft’s <a href=\"https://docs.microsoft.com/en-us/defender-for-identity/cas-isp-print-spooler\">how-to guides</a>, published January 11, 2021: “Due to the possibility for exposure, domain controllers and Active Directory admin systems need to have the Print spooler service disabled. The recommended way to do this is using a Group Policy Object.”</p>\n<p>For more information on the vulnerability, please see the URLs below:<br />\n<a href=\"https://www.kb.cert.org/vuls/id/383432\">https://www.kb.cert.org/vuls/id/383432</a><br />\n<a href=\"https://www.helpnetsecurity.com/2021/06/30/poc-cve-2021-1675\">https://www.helpnetsecurity.com/2021/06/30/poc-cve-2021-1675</a><br />\n<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675</a></p>\n",
+  "displaySummary": "Updated &#8211; July 7, 2021 Microsoft has released out-of-band security updates to address the remote code execution (RCE) vulnerability (CVE-2021-34527) in the Windows Print spooler service.",
+  "sourceExcerpt": "<p>Updated &#8211; July 7, 2021 Microsoft has released out-of-band security updates to address the remote code execution (RCE) vulnerability (CVE-2021-34527) in the Windows Print spooler service. Please review the following update guide from Microsoft and apply the necessary security patches immediately: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527 Updated &#8211; 6 July, 2021 Please review Microsoft&#8217;s updated guidance for the Print [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-396-07-01-21-ttcsirt-advisory-critical-windows-print-spooler-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Updated – july 7, 2021",
+          "id": "updated-july-7-2021"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released out-of-band security updates to address the remote code execution (RCE) vulnerability (CVE-2021-34527) in the Windows Print spooler service. Please review the following update guide from Microsoft and apply the necessary security patches immediately<strong>: </strong><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527</a></p>",
+          "text": "Microsoft has released out-of-band security updates to address the remote code execution (RCE) vulnerability (CVE-2021-34527) in the Windows Print spooler service. Please review the following update guide from Microsoft and apply the necessary security patches immediately : https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Updated &#8211; 6 July, 2021<br />\nPlease review Microsoft&#8217;s updated guidance for the Print spooler vulnerability (CVE-2021-34527) and immediately take the necessary actions<strong>: </strong><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=0d99d898a3&amp;e=64e3bb0ab9\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527</a></p>",
+          "text": "Updated – 6 July, 2021 Please review Microsoft’s updated guidance for the Print spooler vulnerability (CVE-2021-34527) and immediately take the necessary actions : https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Original Advisory &#8211; 1 July, 2021<br />\nA critical remote code execution vulnerability in the Windows Print spooler service has been discovered and identified as CVE-2021-1675. Microsoft has released an update for CVE-2021-1675 however the update was released when the vulnerability was classified as a local privilege elevation. Further research into the vulnerability shows that the update does not address the ability to gain remote code execution. Security researchers have now developed proof of concept exploits that are publicly available and identify as CVE-2021-1675. An attacker can exploit this vulnerability—nicknamed PrintNightmare—to take control of an affected system.</p>",
+          "text": "Original Advisory – 1 July, 2021 A critical remote code execution vulnerability in the Windows Print spooler service has been discovered and identified as CVE-2021-1675. Microsoft has released an update for CVE-2021-1675 however the update was released when the vulnerability was classified as a local privilege elevation. Further research into the vulnerability shows that the update does not address the ability to gain remote code execution. Security researchers have now developed proof of concept exploits that are publicly available and identify as CVE-2021-1675. An attacker can exploit this vulnerability—nicknamed PrintNightmare—to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to disable the Windows Print spooler service in Domain Controllers and systems that do not print. Additionally, administrators should employ the following best practice from Microsoft’s <a href=\"https://docs.microsoft.com/en-us/defender-for-identity/cas-isp-print-spooler\">how-to guides</a>, published January 11, 2021: “Due to the possibility for exposure, domain controllers and Active Directory admin systems need to have the Print spooler service disabled. The recommended way to do this is using a Group Policy Object.”</p>",
+          "text": "TT-CSIRT encourages administrators to disable the Windows Print spooler service in Domain Controllers and systems that do not print. Additionally, administrators should employ the following best practice from Microsoft’s how-to guides , published January 11, 2021: “Due to the possibility for exposure, domain controllers and Active Directory admin systems need to have the Print spooler service disabled. The recommended way to do this is using a Group Policy Object.”"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more information on the vulnerability, please see the URLs below:<br />\n<a href=\"https://www.kb.cert.org/vuls/id/383432\">https://www.kb.cert.org/vuls/id/383432</a><br />\n<a href=\"https://www.helpnetsecurity.com/2021/06/30/poc-cve-2021-1675\">https://www.helpnetsecurity.com/2021/06/30/poc-cve-2021-1675</a><br />\n<a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675</a></p>",
+          "text": "For more information on the vulnerability, please see the URLs below: https://www.kb.cert.org/vuls/id/383432 https://www.helpnetsecurity.com/2021/06/30/poc-cve-2021-1675 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "updated-july-7-2021",
+      "label": "Updated – july 7, 2021",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527",
+    "https://docs.microsoft.com/en-us/defender-for-identity/cas-isp-print-spooler",
+    "https://www.kb.cert.org/vuls/id/383432",
+    "https://www.helpnetsecurity.com/2021/06/30/poc-cve-2021-1675",
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-396-07-01-21-ttcsirt-advisory-critical-windows-print-spooler-vulnerability/",
+    "upstreamDisclosedAt": "2021-07-01T10:41:07",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

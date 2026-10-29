@@ -1,0 +1,83 @@
+{
+  "id": "3308",
+  "legacyPostId": 3308,
+  "referenceNumber": "TT-CSIRT #112",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-112.042518: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-112-042518-tt-csirt-advisory-apple-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has a released a security update stating that the following vulnerabilities have been discovered in the macOS 10.13.4:",
+  "cveList": [
+    "CVE-2018-4206",
+    "CVE-2018-4187"
+  ],
+  "date": "25 April 2018",
+  "rawDate": "2018-04-25T11:20:19",
+  "modifiedDate": "25 April 2018",
+  "rawModifiedDate": "2018-04-25T11:20:19",
+  "contentHtml": "<p>Apple has a released a security update stating that the following vulnerabilities have been discovered in the macOS 10.13.4:</p>\n<p>a) A memory corruption issue was addressed with improved error handling which could lead to an application may be able to gain elevated privileges &#8211; CVE-2018-4206</p>\n<p>b) A spoofing issue existed in the handling of URLs where processing a maliciously crafted text message may lead to UI spoofing &#8211; CVE-2018-4187</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT208742\"><font size=\"2\" color=\"maroon\">https://support.apple.com/en-us/HT208742</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has a released a security update stating that the following vulnerabilities have been discovered in the macOS 10.13.4: a) A memory corruption issue was addressed with improved error…",
+  "sourceExcerpt": "<p>Apple has a released a security update stating that the following vulnerabilities have been discovered in the macOS 10.13.4: a) A memory corruption issue was addressed with improved error handling which could lead to an application may be able to gain elevated privileges &#8211; CVE-2018-4206 b) A spoofing issue existed in the handling of URLs [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-112-042518-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has a released a security update stating that the following vulnerabilities have been discovered in the macOS 10.13.4:</p>",
+          "text": "Apple has a released a security update stating that the following vulnerabilities have been discovered in the macOS 10.13.4:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A memory corruption issue was addressed with improved error handling which could lead to an application may be able to gain elevated privileges &#8211; CVE-2018-4206</p>",
+          "text": "a) A memory corruption issue was addressed with improved error handling which could lead to an application may be able to gain elevated privileges – CVE-2018-4206"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A spoofing issue existed in the handling of URLs where processing a maliciously crafted text message may lead to UI spoofing &#8211; CVE-2018-4187</p>",
+          "text": "b) A spoofing issue existed in the handling of URLs where processing a maliciously crafted text message may lead to UI spoofing – CVE-2018-4187"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at <a href=\"https://support.apple.com/en-us/HT208742\">https://support.apple.com/en-us/HT208742</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at https://support.apple.com/en-us/HT208742"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT208742"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-112-042518-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2018-04-25T11:20:19",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "3132",
+  "legacyPostId": 3132,
+  "referenceNumber": "TT-CSIRT #077",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-077.010418: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-077-010417-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that vSphere Data Protection (VDP) contains the following vulnerabilities:",
+  "cveList": [],
+  "date": "4 January 2018",
+  "rawDate": "2018-01-04T11:30:24",
+  "modifiedDate": "4 January 2018",
+  "rawModifiedDate": "2018-01-04T11:30:24",
+  "contentHtml": "<p>VMware has released a security update stating that vSphere Data Protection (VDP) contains the following vulnerabilities:</p>\n<p>a) VDP authentication bypass &#8211; a remote unauthenticated malicious user can potentially bypass application authentication and gain unauthorized root access to the affected systems.</p>\n<p>b) VDP arbitrary file upload &#8211;  A remote authenticated malicious user with low privileges could potentially upload arbitrary maliciously crafted files in any location on the server file system. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found on the VMWare Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0001.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0001.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that vSphere Data Protection (VDP) contains the following vulnerabilities: a) VDP authentication bypass &#8211; a remote unauthenticated malicious…",
+  "sourceExcerpt": "<p>VMware has released a security update stating that vSphere Data Protection (VDP) contains the following vulnerabilities: a) VDP authentication bypass &#8211; a remote unauthenticated malicious user can potentially bypass application authentication and gain unauthorized root access to the affected systems. b) VDP arbitrary file upload &#8211; A remote authenticated malicious user with low privileges could [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-077-010417-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that vSphere Data Protection (VDP) contains the following vulnerabilities:</p>",
+          "text": "VMware has released a security update stating that vSphere Data Protection (VDP) contains the following vulnerabilities:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) VDP authentication bypass &#8211; a remote unauthenticated malicious user can potentially bypass application authentication and gain unauthorized root access to the affected systems.</p>",
+          "text": "a) VDP authentication bypass – a remote unauthenticated malicious user can potentially bypass application authentication and gain unauthorized root access to the affected systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) VDP arbitrary file upload &#8211;  A remote authenticated malicious user with low privileges could potentially upload arbitrary maliciously crafted files in any location on the server file system.</p>",
+          "text": "b) VDP arbitrary file upload – A remote authenticated malicious user with low privileges could potentially upload arbitrary maliciously crafted files in any location on the server file system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on the VMWare Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0001.html\">https://www.vmware.com/security/advisories/VMSA-2018-0001.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on the VMWare Website at https://www.vmware.com/security/advisories/VMSA-2018-0001.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0001.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-077-010417-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-01-04T11:30:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

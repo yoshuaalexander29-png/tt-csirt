@@ -1,0 +1,90 @@
+{
+  "id": "4732",
+  "legacyPostId": 4732,
+  "referenceNumber": "TT-CSIRT 364.10.02.20",
+  "classification": "advisory",
+  "title": "Remote access trojan: slothfulmedia",
+  "rawTitle": "TTCSIRT-364.10.02.20: TT-CSIRT ADVISORY – Remote Access Trojan: SLOTHFULMEDIA",
+  "slug": "ttcsirt-364-10-02-20-tt-csirt-advisory-remote-access-trojan-slothfulmedia",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The malware variant, known as SlothfulMedia, has been used by a sophisticated cyber actor. CISA and CNMF are distributing this MAR to enable network defense and reduced exposure to malicious activity. This MAR includes suggested response actions and recommended mitigation techniques.",
+  "cveList": [],
+  "date": "2 October 2020",
+  "rawDate": "2020-10-02T10:14:14",
+  "modifiedDate": "2 October 2020",
+  "rawModifiedDate": "2020-10-02T10:14:14",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The malware variant, known as SlothfulMedia, has been used by a sophisticated cyber actor. CISA and CNMF are distributing this MAR to enable network defense and reduced exposure to malicious activity. This MAR includes suggested response actions and recommended mitigation techniques.<br><br>The sample is a dropper, which deploys two files when executed. The first is a remote access tool (RAT) named ‘mediaplayer.exe’’, which is designed for command and control (C2) of victim computer systems.<br><br>Analysis has determined the RAT has the ability to terminate processes, run arbitrary commands, take screen shots, modify the registry, and modify files on victim machines. It appears to communicate with its C2 controller via Hypertext Transfer Protocol (HTTP) over Transmission Control Protocol (TCP).<br><br>The second file has a random five-character name and deletes the dropper once the RAT has persistence. Persistence is achieved through the creation of a service named “Task Frame”, which ensures the RAT is loaded after a reboot.<br><br>Users or administrators should flag activity associated with the malware and report the activity to the CISA or the FBI Cyber Watch (CyWatch), and give the activity the highest priority for enhanced mitigation.<br><br>For further information, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMDEuMjgwNjYxNjEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3Yvc2l0ZXMvZGVmYXVsdC9maWxlcy9wdWJsaWNhdGlvbnMvTUFSLTEwMzAzNzA1LTEudjEuc3RpeC54bWwifQ.6IIfrWMjDs-Xcwu5-Q57mWHMVFyy3ZasoOOVwoMu7K0/s/1193638257/br/86279206857-l\" target=\"_blank\">MAR-10303705-1.v1.stix</a></p>\n",
+  "displaySummary": "The malware variant, known as SlothfulMedia, has been used by a sophisticated cyber actor. CISA and CNMF are distributing this MAR to enable network defense and reduced exposure to malicious activity.",
+  "sourceExcerpt": "<p>The malware variant, known as SlothfulMedia, has been used by a sophisticated cyber actor. CISA and CNMF are distributing this MAR to enable network defense and reduced exposure to malicious activity. This MAR includes suggested response actions and recommended mitigation techniques. The sample is a dropper, which deploys two files when executed. The first is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-364-10-02-20-tt-csirt-advisory-remote-access-trojan-slothfulmedia/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The malware variant, known as SlothfulMedia, has been used by a sophisticated cyber actor. CISA and CNMF are distributing this MAR to enable network defense and reduced exposure to malicious activity. This MAR includes suggested response actions and recommended mitigation techniques.</p>",
+          "text": "The malware variant, known as SlothfulMedia, has been used by a sophisticated cyber actor. CISA and CNMF are distributing this MAR to enable network defense and reduced exposure to malicious activity. This MAR includes suggested response actions and recommended mitigation techniques."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The sample is a dropper, which deploys two files when executed. The first is a remote access tool (RAT) named ‘mediaplayer.exe’’, which is designed for command and control (C2) of victim computer systems.</p>",
+          "text": "The sample is a dropper, which deploys two files when executed. The first is a remote access tool (RAT) named ‘mediaplayer.exe’’, which is designed for command and control (C2) of victim computer systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Analysis has determined the RAT has the ability to terminate processes, run arbitrary commands, take screen shots, modify the registry, and modify files on victim machines. It appears to communicate with its C2 controller via Hypertext Transfer Protocol (HTTP) over Transmission Control Protocol (TCP).</p>",
+          "text": "Analysis has determined the RAT has the ability to terminate processes, run arbitrary commands, take screen shots, modify the registry, and modify files on victim machines. It appears to communicate with its C2 controller via Hypertext Transfer Protocol (HTTP) over Transmission Control Protocol (TCP)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The second file has a random five-character name and deletes the dropper once the RAT has persistence. Persistence is achieved through the creation of a service named “Task Frame”, which ensures the RAT is loaded after a reboot.</p>",
+          "text": "The second file has a random five-character name and deletes the dropper once the RAT has persistence. Persistence is achieved through the creation of a service named “Task Frame”, which ensures the RAT is loaded after a reboot."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users or administrators should flag activity associated with the malware and report the activity to the CISA or the FBI Cyber Watch (CyWatch), and give the activity the highest priority for enhanced mitigation.</p>",
+          "text": "Users or administrators should flag activity associated with the malware and report the activity to the CISA or the FBI Cyber Watch (CyWatch), and give the activity the highest priority for enhanced mitigation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMDEuMjgwNjYxNjEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3Yvc2l0ZXMvZGVmYXVsdC9maWxlcy9wdWJsaWNhdGlvbnMvTUFSLTEwMzAzNzA1LTEudjEuc3RpeC54bWwifQ.6IIfrWMjDs-Xcwu5-Q57mWHMVFyy3ZasoOOVwoMu7K0/s/1193638257/br/86279206857-l\" target=\"_blank\">MAR-10303705-1.v1.stix</a></p>",
+          "text": "For further information, please visit the following link: MAR-10303705-1.v1.stix"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMDEuMjgwNjYxNjEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3Yvc2l0ZXMvZGVmYXVsdC9maWxlcy9wdWJsaWNhdGlvbnMvTUFSLTEwMzAzNzA1LTEudjEuc3RpeC54bWwifQ.6IIfrWMjDs-Xcwu5-Q57mWHMVFyy3ZasoOOVwoMu7K0/s/1193638257/br/86279206857-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-364-10-02-20-tt-csirt-advisory-remote-access-trojan-slothfulmedia/",
+    "upstreamDisclosedAt": "2020-10-02T10:14:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

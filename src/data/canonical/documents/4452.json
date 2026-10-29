@@ -1,0 +1,91 @@
+{
+  "id": "4452",
+  "legacyPostId": 4452,
+  "referenceNumber": "TT-CSIRT #303",
+  "classification": "advisory",
+  "title": "Mozilla foundation security advisory",
+  "rawTitle": "TTCSIRT-303.040820: TT-CSIRT ADVISORY- MOZILLA FOUNDATION SECURITY ADVISORY",
+  "slug": "ttcsirt-303-040820-tt-csirt-advisory-mozilla-foundation-security-advisory",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Be advised that security vulnerabilities were fixed in Firefox 74.0.1 and Firefox ESR 68.6.1",
+  "cveList": [],
+  "date": "8 April 2020",
+  "rawDate": "2020-04-08T13:07:43",
+  "modifiedDate": "8 April 2020",
+  "rawModifiedDate": "2020-04-08T13:07:43",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Be advised that security vulnerabilities were fixed in Firefox 74.0.1 and Firefox ESR 68.6.1</p>\n\n\n\n<p class=\"wp-block-paragraph\">It should be noted that under certain conditions, when running the nsDocShell destructor and ReadableStream, a race condition can cause a use-after-free. Mozilla are aware of targeted attacks in the wild abusing this flaw.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kindly review the following link for further reference:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-11/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-11/</a></p>\n",
+  "displaySummary": "Security vulnerabilities were fixed in Firefox 74.0.1 and Firefox ESR 68.6.1 It should be noted that under certain conditions, when running the nsDocShell destructor and ReadableStream, a race…",
+  "sourceExcerpt": "<p>Be advised that security vulnerabilities were fixed in Firefox 74.0.1 and Firefox ESR 68.6.1 It should be noted that under certain conditions, when running the nsDocShell destructor and ReadableStream, a race condition can cause a use-after-free. Mozilla are aware of targeted attacks in the wild abusing this flaw. The Trinidad and Tobago Cyber Security Incident [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-303-040820-tt-csirt-advisory-mozilla-foundation-security-advisory/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Be advised that security vulnerabilities were fixed in Firefox 74.0.1 and Firefox ESR 68.6.1</p>",
+          "text": "Be advised that security vulnerabilities were fixed in Firefox 74.0.1 and Firefox ESR 68.6.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It should be noted that under certain conditions, when running the nsDocShell destructor and ReadableStream, a race condition can cause a use-after-free. Mozilla are aware of targeted attacks in the wild abusing this flaw.</p>",
+          "text": "It should be noted that under certain conditions, when running the nsDocShell destructor and ReadableStream, a race condition can cause a use-after-free. Mozilla are aware of targeted attacks in the wild abusing this flaw."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Kindly review the following link for further reference",
+          "id": "kindly-review-the-following-link-for-further-reference"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-11/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-11/</a></p>",
+          "text": "https://www.mozilla.org/en-US/security/advisories/mfsa2020-11/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "kindly-review-the-following-link-for-further-reference",
+      "label": "Kindly review the following link for further reference",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2020-11/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-303-040820-tt-csirt-advisory-mozilla-foundation-security-advisory/",
+    "upstreamDisclosedAt": "2020-04-08T13:07:43",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

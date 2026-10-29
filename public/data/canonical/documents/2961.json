@@ -1,0 +1,91 @@
+{
+  "id": "2961",
+  "legacyPostId": 2961,
+  "referenceNumber": "TT-CSIRT #039",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-039.090617: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-039-090617-tt-csirt-advisory-google-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-5111",
+    "CVE-2017-5112",
+    "CVE-2017-5113",
+    "CVE-2017-5114",
+    "CVE-2017-5115",
+    "CVE-2017-5116",
+    "CVE-2017-5117",
+    "CVE-2017-5118",
+    "CVE-2017-5119",
+    "CVE-2017-5120"
+  ],
+  "date": "6 September 2017",
+  "rawDate": "2017-09-06T10:54:28",
+  "modifiedDate": "6 September 2017",
+  "rawModifiedDate": "2017-09-06T10:54:28",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:</p>\n<p>a) Use after free in PDFium &#8211; (CVE-2017-5111)<br />\nb) Heap buffer overflow in WebGL -(CVE-2017-5112)<br />\nc) Heap buffer overflow in Skia &#8211; (CVE-2017-5113)<br />\nd) Memory lifecycle issue in PDFium &#8211; (CVE-2017-5114)<br />\ne) Type confusion in V8. (CVE-2017-5115, CVE-2017-5116)<br />\nf) Use of uninitialized value in Skia &#8211; (CVE-2017-5117)<br />\ng) Bypass of Content Security Policy in Blink &#8211; (CVE-2017-5118)<br />\nh) Use of uninitialized value in Skia (CVE-2017-5119)<br />\ni) Potential HTTPS downgrade during redirect navigation &#8211; (CVE-2017-5120)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-21/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-21/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows: a) Use after free in PDFium &#8211; (CVE-2017-5111) b) Heap buffer [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-039-090617-tt-csirt-advisory-google-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Use after free in PDFium &#8211; (CVE-2017-5111)<br />\nb) Heap buffer overflow in WebGL -(CVE-2017-5112)<br />\nc) Heap buffer overflow in Skia &#8211; (CVE-2017-5113)<br />\nd) Memory lifecycle issue in PDFium &#8211; (CVE-2017-5114)<br />\ne) Type confusion in V8. (CVE-2017-5115, CVE-2017-5116)<br />\nf) Use of uninitialized value in Skia &#8211; (CVE-2017-5117)<br />\ng) Bypass of Content Security Policy in Blink &#8211; (CVE-2017-5118)<br />\nh) Use of uninitialized value in Skia (CVE-2017-5119)<br />\ni) Potential HTTPS downgrade during redirect navigation &#8211; (CVE-2017-5120)</p>",
+          "text": "a) Use after free in PDFium – (CVE-2017-5111) b) Heap buffer overflow in WebGL -(CVE-2017-5112) c) Heap buffer overflow in Skia – (CVE-2017-5113) d) Memory lifecycle issue in PDFium – (CVE-2017-5114) e) Type confusion in V8. (CVE-2017-5115, CVE-2017-5116) f) Use of uninitialized value in Skia – (CVE-2017-5117) g) Bypass of Content Security Policy in Blink – (CVE-2017-5118) h) Use of uninitialized value in Skia (CVE-2017-5119) i) Potential HTTPS downgrade during redirect navigation – (CVE-2017-5120)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-21/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-21/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-21/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution-21/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-039-090617-tt-csirt-advisory-google-chrome-security-updates/",
+    "upstreamDisclosedAt": "2017-09-06T10:54:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

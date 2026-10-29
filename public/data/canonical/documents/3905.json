@@ -1,0 +1,103 @@
+{
+  "id": "3905",
+  "legacyPostId": 3905,
+  "referenceNumber": "TT-CSIRT #249",
+  "classification": "advisory",
+  "title": "Snatch ransomware",
+  "rawTitle": "TTCSIRT-249.121019: TT-CSIRT ADVISORY – SNATCH RANSOMWARE",
+  "slug": "ttcsirt-249-121019-tt-csirt-advisory-snatch-ransomware",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Sophos has released technical details and indicators of compromise for the ransomware variant known as Snatch. Researchers have been investigating an ongoing series of ransomware attacks in which the ransomware executable forces the Windows machine to reboot into Safe Mode before beginning the encryption process. The attackers may be using this technique to circumvent endpoint protection, which often won’t run in Safe Mode.",
+  "cveList": [],
+  "date": "10 December 2019",
+  "rawDate": "2019-12-10T08:50:05",
+  "modifiedDate": "10 December 2019",
+  "rawModifiedDate": "2019-12-10T08:50:05",
+  "contentHtml": "<p>Sophos has released technical details and indicators of compromise for the ransomware variant known as Snatch. Researchers have been investigating an ongoing series of ransomware attacks in which the ransomware executable forces the Windows machine to reboot into Safe Mode before beginning the encryption process. The attackers may be using this technique to circumvent endpoint protection, which often won’t run in Safe Mode.</p>\n<p>TTCSIRT strongly encourages administrators to review the following reports from Sophos and implement the necessary remediation actions which include (but are not limited to) blacklisting the catalogued IP addresses, email addresses and file extensions.</p>\n<p><strong>Technical Breakdown: </strong></p>\n<p><a href=\"https://news.sophos.com/en-us/2019/12/09/snatch-ransomware-reboots-pcs-into-safe-mode-to-bypass-protection/\">https://news.sophos.com/en-us/2019/12/09/snatch-ransomware-reboots-pcs-into-safe-mode-to-bypass-protection/</a></p>\n<p><strong>Indicators of Compromise:</strong></p>\n<p><a href=\"https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch\">https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch</a></p>\n",
+  "displaySummary": "Sophos has released technical details and indicators of compromise for the ransomware variant known as Snatch.",
+  "sourceExcerpt": "<p>Sophos has released technical details and indicators of compromise for the ransomware variant known as Snatch. Researchers have been investigating an ongoing series of ransomware attacks in which the ransomware executable forces the Windows machine to reboot into Safe Mode before beginning the encryption process. The attackers may be using this technique to circumvent endpoint [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-249-121019-tt-csirt-advisory-snatch-ransomware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Sophos has released technical details and indicators of compromise for the ransomware variant known as Snatch. Researchers have been investigating an ongoing series of ransomware attacks in which the ransomware executable forces the Windows machine to reboot into Safe Mode before beginning the encryption process. The attackers may be using this technique to circumvent endpoint protection, which often won’t run in Safe Mode.</p>",
+          "text": "Sophos has released technical details and indicators of compromise for the ransomware variant known as Snatch. Researchers have been investigating an ongoing series of ransomware attacks in which the ransomware executable forces the Windows machine to reboot into Safe Mode before beginning the encryption process. The attackers may be using this technique to circumvent endpoint protection, which often won’t run in Safe Mode."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT strongly encourages administrators to review the following reports from Sophos and implement the necessary remediation actions which include (but are not limited to) blacklisting the catalogued IP addresses, email addresses and file extensions.</p>",
+          "text": "TTCSIRT strongly encourages administrators to review the following reports from Sophos and implement the necessary remediation actions which include (but are not limited to) blacklisting the catalogued IP addresses, email addresses and file extensions."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Technical breakdown",
+          "id": "technical-breakdown"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://news.sophos.com/en-us/2019/12/09/snatch-ransomware-reboots-pcs-into-safe-mode-to-bypass-protection/\">https://news.sophos.com/en-us/2019/12/09/snatch-ransomware-reboots-pcs-into-safe-mode-to-bypass-protection/</a></p>",
+          "text": "https://news.sophos.com/en-us/2019/12/09/snatch-ransomware-reboots-pcs-into-safe-mode-to-bypass-protection/"
+        }
+      ]
+    },
+    {
+      "id": "indicators-of-compromise",
+      "title": "Indicators of compromise",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch\">https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch</a></p>",
+          "text": "https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "technical-breakdown",
+      "label": "Technical breakdown",
+      "isSubItem": true
+    },
+    {
+      "id": "indicators-of-compromise",
+      "label": "Indicators of compromise"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://news.sophos.com/en-us/2019/12/09/snatch-ransomware-reboots-pcs-into-safe-mode-to-bypass-protection/",
+    "https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-249-121019-tt-csirt-advisory-snatch-ransomware/",
+    "upstreamDisclosedAt": "2019-12-10T08:50:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

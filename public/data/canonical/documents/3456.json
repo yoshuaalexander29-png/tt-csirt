@@ -1,0 +1,75 @@
+{
+  "id": "3456",
+  "legacyPostId": 3456,
+  "referenceNumber": "TT-CSIRT #142",
+  "classification": "advisory",
+  "title": "Dhcp security updates",
+  "rawTitle": "TTCSIRT-142.071218: TT-CSIRT Advisory – DHCP Security Updates",
+  "slug": "ttcsirt-142-071218-tt-csirt-advisory-dhcp-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Internet Systems Consortium (ISC) has released a security update stating that Kea DHCP 1.4.0 may fail to release memory after temporarily storing client network packets. This causes a constant increase in memory consumption that can cause server resources to become exhausted, leading to loss of DHCP server functionality.",
+  "cveList": [],
+  "date": "12 July 2018",
+  "rawDate": "2018-07-12T11:15:09",
+  "modifiedDate": "12 July 2018",
+  "rawModifiedDate": "2018-07-12T11:15:09",
+  "contentHtml": "<p>The Internet Systems Consortium (ISC) has released a security update stating that Kea DHCP 1.4.0 may fail to release memory after temporarily storing client network packets.  This causes a constant increase in memory consumption that can cause server resources to become exhausted, leading to loss of DHCP server functionality.</p>\n<p>An attacker who is within the broadcast domain of the Kea server or in a network which is permitted to relay DHCP traffic to the Kea server can hasten the arrival of this outcome by deliberately sending a large volume of requests to the Kea server.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the ISC Website at <a href=\"https://kb.isc.org/article/AA-01626\"><font size=\"2\" color=\"maroon\">https://kb.isc.org/article/AA-01626</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "The Internet Systems Consortium (ISC) has released a security update stating that Kea DHCP 1.4.0 may fail to release memory after temporarily storing client network packets.",
+  "sourceExcerpt": "<p>The Internet Systems Consortium (ISC) has released a security update stating that Kea DHCP 1.4.0 may fail to release memory after temporarily storing client network packets. This causes a constant increase in memory consumption that can cause server resources to become exhausted, leading to loss of DHCP server functionality. An attacker who is within the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-142-071218-tt-csirt-advisory-dhcp-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Internet Systems Consortium (ISC) has released a security update stating that Kea DHCP 1.4.0 may fail to release memory after temporarily storing client network packets.  This causes a constant increase in memory consumption that can cause server resources to become exhausted, leading to loss of DHCP server functionality.</p>",
+          "text": "The Internet Systems Consortium (ISC) has released a security update stating that Kea DHCP 1.4.0 may fail to release memory after temporarily storing client network packets. This causes a constant increase in memory consumption that can cause server resources to become exhausted, leading to loss of DHCP server functionality."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker who is within the broadcast domain of the Kea server or in a network which is permitted to relay DHCP traffic to the Kea server can hasten the arrival of this outcome by deliberately sending a large volume of requests to the Kea server.</p>",
+          "text": "An attacker who is within the broadcast domain of the Kea server or in a network which is permitted to relay DHCP traffic to the Kea server can hasten the arrival of this outcome by deliberately sending a large volume of requests to the Kea server."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the ISC Website at <a href=\"https://kb.isc.org/article/AA-01626\">https://kb.isc.org/article/AA-01626</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the ISC Website at https://kb.isc.org/article/AA-01626"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.isc.org/article/AA-01626"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-142-071218-tt-csirt-advisory-dhcp-security-updates/",
+    "upstreamDisclosedAt": "2018-07-12T11:15:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3411",
+  "legacyPostId": 3411,
+  "referenceNumber": "TT-CSIRT #131",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-131.061418: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-131-061418-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that VMware AirWatch Agent for Android and Windows Mobile devices contain a remote code execution vulnerability in real time File Manager capabilities.",
+  "cveList": [],
+  "date": "14 June 2018",
+  "rawDate": "2018-06-14T11:54:49",
+  "modifiedDate": "14 June 2018",
+  "rawModifiedDate": "2018-06-14T11:54:49",
+  "contentHtml": "<p>VMware has released a security update stating that VMware AirWatch Agent for Android and Windows Mobile devices contain a remote code execution vulnerability in real time File Manager capabilities.</p>\n<p>This may allow for unauthorized creation and execution of files in the Agent sandbox and other publicly accessible directories such as those on the SD card by a malicious administrator.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0015.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0015.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that VMware AirWatch Agent for Android and Windows Mobile devices contain a remote code execution vulnerability in real time File Manager capabilities.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that VMware AirWatch Agent for Android and Windows Mobile devices contain a remote code execution vulnerability in real time File Manager capabilities. This may allow for unauthorized creation and execution of files in the Agent sandbox and other publicly accessible directories such as those on the SD card [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-131-061418-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that VMware AirWatch Agent for Android and Windows Mobile devices contain a remote code execution vulnerability in real time File Manager capabilities.</p>",
+          "text": "VMware has released a security update stating that VMware AirWatch Agent for Android and Windows Mobile devices contain a remote code execution vulnerability in real time File Manager capabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This may allow for unauthorized creation and execution of files in the Agent sandbox and other publicly accessible directories such as those on the SD card by a malicious administrator.</p>",
+          "text": "This may allow for unauthorized creation and execution of files in the Agent sandbox and other publicly accessible directories such as those on the SD card by a malicious administrator."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0015.html\">https://www.vmware.com/security/advisories/VMSA-2018-0015.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at https://www.vmware.com/security/advisories/VMSA-2018-0015.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0015.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-131-061418-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-06-14T11:54:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

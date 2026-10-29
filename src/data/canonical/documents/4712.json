@@ -1,0 +1,73 @@
+{
+  "id": "4712",
+  "legacyPostId": 4712,
+  "referenceNumber": "TT-CSIRT 354.09.03.20",
+  "classification": "advisory",
+  "title": "Cisco enterprise nfv infrastructure software file overwrite vulnerability",
+  "rawTitle": "TTCSIRT-354.09.03.20: TT-CSIRT ADVISORY – Cisco Enterprise NFV Infrastructure Software File Overwrite Vulnerability",
+  "slug": "ttcsirt-354-09-03-20-tt-csirt-advisory-cisco-enterprise-nfv-infrastructure-software-file-overwrite-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability in the REST API of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an authenticated, remote attacker to overwrite certain files that should be restricted on an affected device.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:30:03",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:30:03",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability in the REST API of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an authenticated, remote attacker to overwrite certain files that should be restricted on an affected device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is due to insufficient authorization enforcement on an affected system. An attacker could exploit this vulnerability by uploading a file using the REST API.<br><br>A successful exploit could allow an attacker to overwrite and upload files,&nbsp;which could degrade the functionality of the affected system.<br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=26b1a766f1&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nfvis-file-overwrite-UONzPMkr</a><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A vulnerability in the REST API of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an authenticated, remote attacker to overwrite certain files that should be restricted on an…",
+  "sourceExcerpt": "<p>A vulnerability in the REST API of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an authenticated, remote attacker to overwrite certain files that should be restricted on an affected device. The vulnerability is due to insufficient authorization enforcement on an affected system. An attacker could exploit this vulnerability by uploading a file using the REST [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-354-09-03-20-tt-csirt-advisory-cisco-enterprise-nfv-infrastructure-software-file-overwrite-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability in the REST API of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an authenticated, remote attacker to overwrite certain files that should be restricted on an affected device.</p>",
+          "text": "A vulnerability in the REST API of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an authenticated, remote attacker to overwrite certain files that should be restricted on an affected device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to insufficient authorization enforcement on an affected system. An attacker could exploit this vulnerability by uploading a file using the REST API.</p>",
+          "text": "The vulnerability is due to insufficient authorization enforcement on an affected system. An attacker could exploit this vulnerability by uploading a file using the REST API."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A successful exploit could allow an attacker to overwrite and upload files,&nbsp;which could degrade the functionality of the affected system.</p>",
+          "text": "A successful exploit could allow an attacker to overwrite and upload files, which could degrade the functionality of the affected system."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-354-09-03-20-tt-csirt-advisory-cisco-enterprise-nfv-infrastructure-software-file-overwrite-vulnerability/",
+    "upstreamDisclosedAt": "2020-09-22T23:30:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

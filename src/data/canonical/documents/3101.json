@@ -1,0 +1,88 @@
+{
+  "id": "3101",
+  "legacyPostId": 3101,
+  "referenceNumber": "TT-CSIRT #069",
+  "classification": "advisory",
+  "title": "Apache security updates",
+  "rawTitle": "TTCSIRT-069.120517: TT-CSIRT Advisory – Apache Security Updates",
+  "slug": "ttcsirt-069-120517-tt-csirt-advisory-apache-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Apache Software Foundation has release security updates to address multiple vulnerabilities in Apache Struts version 2:",
+  "cveList": [
+    "CVE-2017-15707",
+    "CVE-2017-7525"
+  ],
+  "date": "5 December 2017",
+  "rawDate": "2017-12-05T14:52:54",
+  "modifiedDate": "5 December 2017",
+  "rawModifiedDate": "2017-12-05T14:52:54",
+  "contentHtml": "<p>The Apache Software Foundation has release security updates to address multiple vulnerabilities in Apache Struts version 2:</p>\n<p>a) A denial of service vulnerability exists due to an outdated JSON-lib library utilized by a REST plugin &#8211; (CVE-2017-15707).</p>\n<p>b) A remote code execution vulnerability exists because the REST Plugin utilizes Jackson JSON library for data binding &#8211; (CVE-2017-7525).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in remote code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>For further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-struts-could-allow-for-remote-code-execution_2017-121/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-struts-could-allow-for-remote-code-execution_2017-121/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "The Apache Software Foundation has release security updates to address multiple vulnerabilities in Apache Struts version 2: a) A denial of service vulnerability exists due to an outdated…",
+  "sourceExcerpt": "<p>The Apache Software Foundation has release security updates to address multiple vulnerabilities in Apache Struts version 2: a) A denial of service vulnerability exists due to an outdated JSON-lib library utilized by a REST plugin &#8211; (CVE-2017-15707). b) A remote code execution vulnerability exists because the REST Plugin utilizes Jackson JSON library for data binding [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-069-120517-tt-csirt-advisory-apache-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Apache Software Foundation has release security updates to address multiple vulnerabilities in Apache Struts version 2:</p>",
+          "text": "The Apache Software Foundation has release security updates to address multiple vulnerabilities in Apache Struts version 2:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A denial of service vulnerability exists due to an outdated JSON-lib library utilized by a REST plugin &#8211; (CVE-2017-15707).</p>",
+          "text": "a) A denial of service vulnerability exists due to an outdated JSON-lib library utilized by a REST plugin – (CVE-2017-15707)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A remote code execution vulnerability exists because the REST Plugin utilizes Jackson JSON library for data binding &#8211; (CVE-2017-7525).</p>",
+          "text": "b) A remote code execution vulnerability exists because the REST Plugin utilizes Jackson JSON library for data binding – (CVE-2017-7525)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in remote code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in remote code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-struts-could-allow-for-remote-code-execution_2017-121/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-struts-could-allow-for-remote-code-execution_2017-121/</a></p>",
+          "text": "For further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-struts-could-allow-for-remote-code-execution_2017-121/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-struts-could-allow-for-remote-code-execution_2017-121/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-069-120517-tt-csirt-advisory-apache-security-updates/",
+    "upstreamDisclosedAt": "2017-12-05T14:52:54",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

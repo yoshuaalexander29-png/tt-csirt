@@ -1,0 +1,117 @@
+# TT-CSIRT GOV.UK DESIGN SYSTEM & TYPOGRAPHIC SPECIFICATION
+================================================================================
+Document: design.txt (Internal Engineering & Design Reference)
+Standard: GOV.UK Frontend v6+ Typography & Spacing System
+Scope: Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT)
+Authoritative Specification: See /guidelines/Guidelines.md for complete rules.
+
+================================================================================
+1. CORE ARCHITECTURAL PRINCIPLE: RESOLVING COMPETING TYPOGRAPHIC AUTHORITIES
+================================================================================
+
+A major source of visual tension in government portals occurs when institutional 
+branding competes with page-level semantic headings.
+
+In this system:
+- "TRINIDAD AND TOBAGO / CYBER SECURITY / INCIDENT / RESPONSE TEAM" operates strictly 
+  as the INSTITUTIONAL MASTHEAD / SERVICE IDENTITY. It is not an H1 and does not 
+  compete with page content headings.
+- "Securing Trinidad and Tobago’s digital future." is the primary proposition and 
+  the true semantic H1 of the page, styled as govuk-heading-l (36px desktop / 27px mobile).
+- Major page sections ("Our mandate", "What do you need to do today?", "Latest advisories",
+  "What’s happening now", "National incident & cyber capabilities", "Working together...",
+  "About TT-CSIRT") are consistent semantic H2s, styled as govuk-heading-l.
+- "Cyber incidents in 2026", "Incident response & defence", "National authority", 
+  "Our mandate", and "Cyber security updates" are GDS-compliant CAPTIONS (govuk-caption-l),
+  sitting above the heading to provide context without competing for hierarchy.
+
+================================================================================
+2. EXACT GOV.UK FRONTEND v6+ TYPE SCALE (TABLET BREAKPOINT: 640px / 40.0625em)
+================================================================================
+
+All line-heights are deliberately designed as multiples of 5px (20px, 25px, 30px, 35px, 40px, 50px)
+to maintain a mathematically strict vertical grid rhythm.
+
+Style            Semantic Use              Large Screen (>=640px)    Small Screen (<640px)     Role in TT-CSIRT
+-----------------------------------------------------------------------------------------------------------------------------
+heading-xl       H1 on long-form content   48px / 50px line-height   32px / 35px line-height   Reserved for dedicated long-form guides
+heading-l        H1 normally; H2 long-form 36px / 40px line-height   27px / 30px line-height   Hero Proposition (H1) & Major Sections (H2)
+heading-m        H2 normally; H3 long-form 24px / 30px line-height   21px / 25px line-height   Audience Need Cards ("Report a cyber incident")
+heading-s        H3 normally; H4 long-form 19px / 25px line-height   19px / 25px line-height   Subsections ("Key insight", Footer groups)
+caption-xl       Context above heading-xl  27px / 30px line-height   18px / 25px line-height   Long-form group context
+caption-l        Context above heading-l   24px / 30px line-height   18px / 25px line-height   Section context ("Cyber incidents in 2026")
+caption-m        Context above heading-m   19px / 25px line-height   16px / 20px line-height   Card / module group context
+body-l           Lead paragraph            24px / 30px line-height   21px / 25px line-height   Section intro lead ("Most cyber incidents...")
+body / body-m    Normal paragraph          19px / 25px line-height   19px / 25px line-height   Standard explanatory copy & card body
+body-s           Small body / metadata     16px / 20px line-height   16px / 20px line-height   Dates, advisory descriptions, sub-metadata
+
+================================================================================
+3. COMPLETE CONTENT-TO-GDS ROLE MAPPING TABLE
+================================================================================
+
+Content Item                                  Assigned GDS Role    GDS Scale Level     Why
+-----------------------------------------------------------------------------------------------------------------------------
+Trinidad and Tobago Cyber Security...         Masthead / Identity  Custom Service Brand Institutional masthead, not a page heading
+Important security notice                     Banner Title         heading-s (19/25)   Component title, not a page heading
+A security weakness has been found...         Body                 body (19/25)        Standard notification copy
+Read the security notice                      Link                 body (19/25)        Standard inline link styling
+Securing Trinidad and Tobago’s digital...     H1                   heading-l (36/40)   Primary page proposition
+TT-CSIRT is the national focal point...       Body                 body (19/25)        Standard explanatory lead copy
+Our mandate (Hero Right Panel)                H2                   heading-l (36/40)   Major section heading
+What do you need to do today?                 H2                   heading-l (36/40)   Major content section
+Report a cyber incident                       H3                   heading-m (24/30)   Audience actionable subsection card
+Individuals & families                        H3                   heading-m (24/30)   Audience guidance card
+Businesses & organisations                    H3                   heading-m (24/30)   Audience guidance card
+Government & critical infrastructure          H3                   heading-m (24/30)   Audience guidance card
+Cyber security updates                        Caption              caption-l (24/30)   Context preceding advisories list
+Latest advisories                             H2                   heading-l (36/40)   Major section heading
+Cyber incidents in 2026                       Caption              caption-l (24/30)   Context preceding statistical monitor
+What’s happening now                          H2                   heading-l (36/40)   Major statistics section heading
+Most cyber incidents start with an email...   Lead Paragraph       body-l (24/30)      Introductory summary of data section
+Key insight                                   H3 / Subsection      heading-s (19/25)   Supporting subsection callout
+Incident response & defence                   Caption              caption-l (24/30)   Context preceding capabilities list
+National incident & cyber capabilities        H2                   heading-l (36/40)   Major services section heading
+Our mandate (Partners intro)                  Caption              caption-l (24/30)   Context preceding partner matrix
+Working together to strengthen national...    H2                   heading-l (36/40)   Major section heading
+National authority                            Caption              caption-l (24/30)   Context preceding organization overview
+About TT-CSIRT                                H2                   heading-l (36/40)   Major section heading
+About TT-CSIRT (Footer)                       H2 / H3              heading-s (19/25)   Footer primary column heading
+Legal status                                  H3                   heading-s (19/25)   Footer subsection heading
+Quick navigation                              H2 / H3              heading-s (19/25)   Footer navigation column heading
+Partner agencies                              H2 / H3              heading-s (19/25)   Footer directory column heading
+Contact us                                    H2 / H3              heading-s (19/25)   Footer contact column heading
+Follow TT-CSIRT                               H3                   heading-s (19/25)   Footer subsection heading
+Subscribe to updates                          H2 / H3              heading-s (19/25)   Footer subscription column heading
+
+================================================================================
+4. GDS SPACING SCALE RULES (DO NOT EYEBALL SPACING)
+================================================================================
+
+All margins, paddings, gap dimensions, and layout offsets MUST strictly use the 
+official GDS spacing scale increments:
+
+GDS Step    Value (Mobile <640px)    Value (Desktop >=640px)    Use Case
+-----------------------------------------------------------------------------------------------------------------------------
+1           5px                      5px                        Fine element spacing, caption bottom margins
+2           10px                     10px                       Small gaps, tag padding, icon offsets
+3           15px                     15px                       Standard mobile bottom margins, list items
+4           15px                     20px                       Card inner padding, component groups
+5           20px                     25px                       Sub-section margins, form group spacing
+6           20px                     30px                       Major heading bottom margins
+7           30px                     40px                       Section gutters, panel separation
+8           40px                     50px                       Large section block rhythm
+9           50px                     60px                       Major page container spacing
+
+Strict Prohibition:
+- Never introduce arbitrary values (e.g. 17px, 23px, 33px, 37px, 44px).
+- All spacing decisions must map to the 5px-modulo scale.
+
+================================================================================
+5. SENTENCE CASE SPECIFICATION
+================================================================================
+All text across titles, captions, badges, table headers, buttons, and navigation 
+must be rendered in sentence case (except proper nouns like TT-CSIRT, FortiGate, 
+Trinidad and Tobago, PAN-OS).
+- Correct: "What’s happening now", "Report a cyber incident", "Individuals & families"
+- Incorrect: "WHAT’S HAPPENING NOW", "Report A Cyber Incident"
+================================================================================

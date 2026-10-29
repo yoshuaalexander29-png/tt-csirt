@@ -1,0 +1,105 @@
+{
+  "id": "4667",
+  "legacyPostId": 4667,
+  "referenceNumber": "TT-CSIRT 332.08.12.20",
+  "classification": "advisory",
+  "title": "Citrix endpoint management (cem) security update",
+  "rawTitle": "TTCSIRT-332.08.12.20: TT-CSIRT ADVISORY- CITRIX ENDPOINT MANAGEMENT (CEM) SECURITY UPDATE",
+  "slug": "ttcsirt-332-08-12-20-tt-csirt-advisory-citrix-endpoint-management-cem-security-update",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Citrix Endpoint Management (CEM), also referred to as XenMobile. These vulnerabilities have the following identifiers:",
+  "cveList": [
+    "CVE-2020-8208",
+    "CVE-2020-8209",
+    "CVE-2020-8210",
+    "CVE-2020-8211",
+    "CVE-2020-8212"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:14:26",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:14:26",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Multiple vulnerabilities have been discovered in Citrix Endpoint Management (CEM), also referred to as XenMobile.<br>These vulnerabilities have the following identifiers:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>CVE-2020-8208</li><li>CVE-2020-8209</li><li>CVE-2020-8210</li><li>CVE-2020-8211</li><li>CVE-2020-8212</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The following versions of&nbsp;Citrix Endpoint Management (CEM)&nbsp;are affected by critical severity vulnerabilities:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>XenMobile Server&nbsp;10.12 before RP2</li><li>XenMobile Server&nbsp;10.11 before RP4</li><li>XenMobile Server&nbsp;10.10 before&nbsp;RP6</li><li>XenMobile Server&nbsp;before&nbsp;10.9&nbsp;RP5</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">Users affected by these critical severity&nbsp;vulnerabilities are strongly recommended to update their deployments&nbsp;immediately.<br>Additionally, the following versions of Citrix Endpoint Management (CEM)&nbsp;are affected&nbsp;by medium&nbsp;and low&nbsp;severity vulnerabilities:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>XenMobile Server&nbsp;10.12 before RP3</li><li>XenMobile Server&nbsp;10.11 before RP6</li><li>XenMobile Server&nbsp;10.10 before&nbsp;RP6</li><li>XenMobile Server&nbsp;before 10.9&nbsp;RP5</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">Users&nbsp;who are only&nbsp;affected by&nbsp;these&nbsp;medium and low severity vulnerabilities are recommended to update their deployments as soon as their patching schedule allows.<br>Users&nbsp;using&nbsp;the&nbsp;cloud version of&nbsp;Citrix Endpoint Management&nbsp;are&nbsp;not&nbsp;affected by&nbsp;these vulnerabilities.<br>The&nbsp;latest&nbsp;Rolling Patches for&nbsp;Citrix Endpoint Management (CEM)&nbsp;can be downloaded from the following locations:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>XenMobile Server&nbsp;10.12 RP3:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=3fe40a44a9&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX277473</a></li><li>XenMobile Server&nbsp;10.11 RP6:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=c478f9ece0&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX277698</a></li><li>XenMobile Server&nbsp;10.10&nbsp;RP6:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2cf35f613f&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX279101</a></li><li>XenMobile Server&nbsp;10.9&nbsp;RP5:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=3760bbbca1&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX279098</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to ensure they are running a supported version and then download and deploy the latest rolling patch to their deployments.<br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Citrix Endpoint Management (CEM), also referred to as XenMobile.These vulnerabilities have the following identifiers: CVE-2020-8208 CVE-2020-8209…",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Citrix Endpoint Management (CEM), also referred to as XenMobile.These vulnerabilities have the following identifiers: CVE-2020-8208 CVE-2020-8209 CVE-2020-8210 CVE-2020-8211 CVE-2020-8212 The following versions of&nbsp;Citrix Endpoint Management (CEM)&nbsp;are affected by critical severity vulnerabilities: XenMobile Server&nbsp;10.12 before RP2 XenMobile Server&nbsp;10.11 before RP4 XenMobile Server&nbsp;10.10 before&nbsp;RP6 XenMobile Server&nbsp;before&nbsp;10.9&nbsp;RP5 Users affected by these critical severity&nbsp;vulnerabilities are strongly recommended to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-332-08-12-20-tt-csirt-advisory-citrix-endpoint-management-cem-security-update/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Citrix Endpoint Management (CEM), also referred to as XenMobile.<br>These vulnerabilities have the following identifiers:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Citrix Endpoint Management (CEM), also referred to as XenMobile. These vulnerabilities have the following identifiers:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>CVE-2020-8208</li><li>CVE-2020-8209</li><li>CVE-2020-8210</li><li>CVE-2020-8211</li><li>CVE-2020-8212</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The following versions of&nbsp;Citrix Endpoint Management (CEM)&nbsp;are affected by critical severity vulnerabilities:</p>",
+          "text": "The following versions of Citrix Endpoint Management (CEM) are affected by critical severity vulnerabilities:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>XenMobile Server&nbsp;10.12 before RP2</li><li>XenMobile Server&nbsp;10.11 before RP4</li><li>XenMobile Server&nbsp;10.10 before&nbsp;RP6</li><li>XenMobile Server&nbsp;before&nbsp;10.9&nbsp;RP5</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users affected by these critical severity&nbsp;vulnerabilities are strongly recommended to update their deployments&nbsp;immediately.<br>Additionally, the following versions of Citrix Endpoint Management (CEM)&nbsp;are affected&nbsp;by medium&nbsp;and low&nbsp;severity vulnerabilities:</p>",
+          "text": "Users affected by these critical severity vulnerabilities are strongly recommended to update their deployments immediately. Additionally, the following versions of Citrix Endpoint Management (CEM) are affected by medium and low severity vulnerabilities:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>XenMobile Server&nbsp;10.12 before RP3</li><li>XenMobile Server&nbsp;10.11 before RP6</li><li>XenMobile Server&nbsp;10.10 before&nbsp;RP6</li><li>XenMobile Server&nbsp;before 10.9&nbsp;RP5</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users&nbsp;who are only&nbsp;affected by&nbsp;these&nbsp;medium and low severity vulnerabilities are recommended to update their deployments as soon as their patching schedule allows.<br>Users&nbsp;using&nbsp;the&nbsp;cloud version of&nbsp;Citrix Endpoint Management&nbsp;are&nbsp;not&nbsp;affected by&nbsp;these vulnerabilities.<br>The&nbsp;latest&nbsp;Rolling Patches for&nbsp;Citrix Endpoint Management (CEM)&nbsp;can be downloaded from the following locations:</p>",
+          "text": "Users who are only affected by these medium and low severity vulnerabilities are recommended to update their deployments as soon as their patching schedule allows. Users using the cloud version of Citrix Endpoint Management are not affected by these vulnerabilities. The latest Rolling Patches for Citrix Endpoint Management (CEM) can be downloaded from the following locations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>XenMobile Server&nbsp;10.12 RP3:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=3fe40a44a9&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX277473</a></li><li>XenMobile Server&nbsp;10.11 RP6:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=c478f9ece0&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX277698</a></li><li>XenMobile Server&nbsp;10.10&nbsp;RP6:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2cf35f613f&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX279101</a></li><li>XenMobile Server&nbsp;10.9&nbsp;RP5:&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=3760bbbca1&amp;e=64e3bb0ab9\">https://support.citrix.com/article/CTX279098</a></li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to ensure they are running a supported version and then download and deploy the latest rolling patch to their deployments.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to ensure they are running a supported version and then download and deploy the latest rolling patch to their deployments."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-332-08-12-20-tt-csirt-advisory-citrix-endpoint-management-cem-security-update/",
+    "upstreamDisclosedAt": "2020-09-22T23:14:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

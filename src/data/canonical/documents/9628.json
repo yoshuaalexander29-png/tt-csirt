@@ -1,0 +1,85 @@
+{
+  "id": "9628",
+  "legacyPostId": 9628,
+  "referenceNumber": "TT-CSIRT 432.10.09.24",
+  "classification": "alert",
+  "title": "SonicOS improper access control vulnerability",
+  "rawTitle": "TT-CSIRT – 432.10.09.24. SonicOS Improper Access Control Vulnerability",
+  "slug": "tt-csirt-432-10-09-24-sonicos-improper-access-control-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The TTCSIRT wishes to inform you of a recently identified vulnerability in SonicWall SonicOS. This improper access control issue affects SonicWall SonicOS management access and SSLVPN, potentially allowing unauthorized access to resources and, under certain conditions, causing the firewall to crash.",
+  "cveList": [],
+  "date": "10 September 2024",
+  "rawDate": "2024-09-10T10:38:26",
+  "modifiedDate": "10 September 2024",
+  "rawModifiedDate": "2024-09-10T10:49:59",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The TTCSIRT wishes to inform you of a recently identified vulnerability in SonicWall SonicOS. This improper access control issue affects SonicWall SonicOS management access and SSLVPN, potentially allowing unauthorized access to resources and, under certain conditions, causing the firewall to crash.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability impacts SonicWall Gen 5 and Gen 6 devices, as well as Gen 7 devices running SonicOS versions 7.0.1-5035 and earlier.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please be aware that there are reports of this vulnerability being actively exploited by ransomware groups.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please apply the patch as soon as possible for affected products. The latest patch builds are available for download on&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=1df57fd423&amp;e=f76cfbd23d\">mysonicwall.com</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">For more details, administrators are encouraged to review the advisory from SonicWall:<br><a href=\"https://us5.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fpsirt.global.sonicwall.com%2Fvuln-detail%2FSNWLID-2024-0015&amp;xid=2fe1bda53e&amp;uid=126889658&amp;iid=378ca0f476&amp;pool=cts&amp;v=2&amp;c=1725979578&amp;h=2321148157dee05275a58f1d2c0fc7afa37ab91b4dcc86e3549266149067a2ff\" target=\"_blank\" rel=\"noreferrer noopener\">https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0015</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></p>\n",
+  "displaySummary": "A recently identified vulnerability in SonicWall SonicOS.",
+  "sourceExcerpt": "<p>The TTCSIRT wishes to inform you of a recently identified vulnerability in SonicWall SonicOS. This improper access control issue affects SonicWall SonicOS management access and SSLVPN, potentially allowing unauthorized access to resources and, under certain conditions, causing the firewall to crash. The vulnerability impacts SonicWall Gen 5 and Gen 6 devices, as well as Gen [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-432-10-09-24-sonicos-improper-access-control-vulnerability/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The TTCSIRT wishes to inform you of a recently identified vulnerability in SonicWall SonicOS. This improper access control issue affects SonicWall SonicOS management access and SSLVPN, potentially allowing unauthorized access to resources and, under certain conditions, causing the firewall to crash.</p>",
+          "text": "The TTCSIRT wishes to inform you of a recently identified vulnerability in SonicWall SonicOS. This improper access control issue affects SonicWall SonicOS management access and SSLVPN, potentially allowing unauthorized access to resources and, under certain conditions, causing the firewall to crash."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability impacts SonicWall Gen 5 and Gen 6 devices, as well as Gen 7 devices running SonicOS versions 7.0.1-5035 and earlier.</p>",
+          "text": "The vulnerability impacts SonicWall Gen 5 and Gen 6 devices, as well as Gen 7 devices running SonicOS versions 7.0.1-5035 and earlier."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please be aware that there are reports of this vulnerability being actively exploited by ransomware groups.</p>",
+          "text": "Please be aware that there are reports of this vulnerability being actively exploited by ransomware groups."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please apply the patch as soon as possible for affected products. The latest patch builds are available for download on&nbsp;<a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=1df57fd423&amp;e=f76cfbd23d\">mysonicwall.com</a></p>",
+          "text": "Please apply the patch as soon as possible for affected products. The latest patch builds are available for download on  mysonicwall.com"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more details, administrators are encouraged to review the advisory from SonicWall:<br><a href=\"https://us5.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fpsirt.global.sonicwall.com%2Fvuln-detail%2FSNWLID-2024-0015&amp;xid=2fe1bda53e&amp;uid=126889658&amp;iid=378ca0f476&amp;pool=cts&amp;v=2&amp;c=1725979578&amp;h=2321148157dee05275a58f1d2c0fc7afa37ab91b4dcc86e3549266149067a2ff\" target=\"_blank\" rel=\"noreferrer noopener\">https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0015</a></p>",
+          "text": "For more details, administrators are encouraged to review the advisory from SonicWall: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0015"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://us5.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fpsirt.global.sonicwall.com%2Fvuln-detail%2FSNWLID-2024-0015&amp;xid=2fe1bda53e&amp;uid=126889658&amp;iid=378ca0f476&amp;pool=cts&amp;v=2&amp;c=1725979578&amp;h=2321148157dee05275a58f1d2c0fc7afa37ab91b4dcc86e3549266149067a2ff"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-432-10-09-24-sonicos-improper-access-control-vulnerability/",
+    "upstreamDisclosedAt": "2024-09-10T10:38:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

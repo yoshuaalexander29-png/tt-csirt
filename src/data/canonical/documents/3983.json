@@ -1,0 +1,169 @@
+{
+  "id": "3983",
+  "legacyPostId": 3983,
+  "referenceNumber": "TT-CSIRT #260",
+  "classification": "advisory",
+  "title": "FortiOS SSL VPN web portal host header redirection",
+  "rawTitle": "TTCSIRT-260.010620: TT-CSIRT ADVISORY- FORTIOS SSL VPN WEB PORTAL HOST HEADER REDIRECTION",
+  "slug": "ttcsirt-260-010620-tt-csirt-advisory-fortios-ssl-vpn-web-portal-host-header-redirection",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A Host Header Redirection vulnerability exists in FortiOS SSL-VPN web portal: when an attacker submits specially crafted HTTP requests, the SSL-VPN web portal may respond with a redirection to websites specified by the attacker.",
+  "cveList": [],
+  "date": "6 January 2020",
+  "rawDate": "2020-01-06T14:47:32",
+  "modifiedDate": "6 January 2020",
+  "rawModifiedDate": "2020-01-06T14:47:32",
+  "contentHtml": "<p>A Host Header Redirection vulnerability exists in FortiOS SSL-VPN web portal: when an attacker submits specially crafted HTTP requests, the SSL-VPN web portal may respond with a redirection to websites specified by the attacker.</p>\n<p>If a web proxy’s cache is poisoned with the aforementioned redirection, users of this web proxy may be directed to the attacker’s specified websites when trying to access the SSL-VPN web portal.</p>\n<p><strong>Impact:</strong> Improper Access Control</p>\n<p><strong>Affected Products:</strong> FortiOS 5.4.0 to 6.0.4, 5.2.14 and below.</p>\n<p><strong>Solutions:</strong> Upgrade to FortiOS 5.2.15, 6.0.5 or 6.2.0</p>\n<p><strong>Workarounds:</strong> The risk is low as the attack needs to be combined with other attacks to have an impact.</p>\n<p>As a measure of precaution, administrators may want to disable the SSL-VPN web portal service by applying the following CLI commands:</p>\n<p>config vpn ssl settings<br />\nunset source-interface<br />\nend</p>\n<p>Revision History: 2019-05-17 Initial version, 2020-01-03 New fix on 5.2.15 released.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review FortiOS 5.4.0 to 6.0.4, 5.2.14 and below and perform the relevant upgrades.</p>\n<p>For further review please see the following link:</p>\n<ul>\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-19-002\">https://fortiguard.com/psirt/FG-IR-19-002</a></li>\n</ul>\n",
+  "displaySummary": "A Host Header Redirection vulnerability exists in FortiOS SSL-VPN web portal: when an attacker submits specially crafted HTTP requests, the SSL-VPN web portal may respond with a redirection to…",
+  "sourceExcerpt": "<p>A Host Header Redirection vulnerability exists in FortiOS SSL-VPN web portal: when an attacker submits specially crafted HTTP requests, the SSL-VPN web portal may respond with a redirection to websites specified by the attacker. If a web proxy’s cache is poisoned with the aforementioned redirection, users of this web proxy may be directed to the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-260-010620-tt-csirt-advisory-fortios-ssl-vpn-web-portal-host-header-redirection/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A Host Header Redirection vulnerability exists in FortiOS SSL-VPN web portal: when an attacker submits specially crafted HTTP requests, the SSL-VPN web portal may respond with a redirection to websites specified by the attacker.</p>",
+          "text": "A Host Header Redirection vulnerability exists in FortiOS SSL-VPN web portal: when an attacker submits specially crafted HTTP requests, the SSL-VPN web portal may respond with a redirection to websites specified by the attacker."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If a web proxy’s cache is poisoned with the aforementioned redirection, users of this web proxy may be directed to the attacker’s specified websites when trying to access the SSL-VPN web portal.</p>",
+          "text": "If a web proxy’s cache is poisoned with the aforementioned redirection, users of this web proxy may be directed to the attacker’s specified websites when trying to access the SSL-VPN web portal."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Improper Access Control</p>",
+          "text": "Improper Access Control"
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected products",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>FortiOS 5.4.0 to 6.0.4, 5.2.14 and below.</p>",
+          "text": "FortiOS 5.4.0 to 6.0.4, 5.2.14 and below."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Solutions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Upgrade to FortiOS 5.2.15, 6.0.5 or 6.2.0</p>",
+          "text": "Upgrade to FortiOS 5.2.15, 6.0.5 or 6.2.0"
+        }
+      ]
+    },
+    {
+      "id": "workarounds",
+      "title": "Workarounds",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The risk is low as the attack needs to be combined with other attacks to have an impact.</p>",
+          "text": "The risk is low as the attack needs to be combined with other attacks to have an impact."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As a measure of precaution, administrators may want to disable the SSL-VPN web portal service by applying the following CLI commands:</p>",
+          "text": "As a measure of precaution, administrators may want to disable the SSL-VPN web portal service by applying the following CLI commands:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>config vpn ssl settings<br />\nunset source-interface<br />\nend</p>",
+          "text": "config vpn ssl settings unset source-interface end"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Revision History: 2019-05-17 Initial version, 2020-01-03 New fix on 5.2.15 released.</p>",
+          "text": "Revision History: 2019-05-17 Initial version, 2020-01-03 New fix on 5.2.15 released."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review FortiOS 5.4.0 to 6.0.4, 5.2.14 and below and perform the relevant upgrades.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review FortiOS 5.4.0 to 6.0.4, 5.2.14 and below and perform the relevant upgrades."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-19-002\">https://fortiguard.com/psirt/FG-IR-19-002</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected products"
+    },
+    {
+      "id": "recommendations",
+      "label": "Solutions"
+    },
+    {
+      "id": "workarounds",
+      "label": "Workarounds"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://fortiguard.com/psirt/FG-IR-19-002"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-260-010620-tt-csirt-advisory-fortios-ssl-vpn-web-portal-host-header-redirection/",
+    "upstreamDisclosedAt": "2020-01-06T14:47:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

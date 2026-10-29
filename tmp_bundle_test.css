@@ -1,0 +1,55 @@
+/* src/pages/ReportIncidentPage.module.css */
+.ReportIncidentPage_serviceEntry {
+  min-width: 0;
+}
+.app-page-wrapper--incident-reporting {
+  overflow-anchor: none;
+}
+.ReportIncidentPage_urgentSupport .incident-reporting-support {
+  margin-bottom: 0;
+}
+.ReportIncidentPage_reportingRoute + .ReportIncidentPage_reportingRoute {
+  margin-top: 20px;
+}
+.ReportIncidentPage_steps {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: 30px;
+  row-gap: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+.ReportIncidentPage_steps > li {
+  margin-bottom: 0;
+  padding-top: 10px;
+  border-top: 1px solid #b1b4b6;
+}
+.ReportIncidentPage_stepNumber {
+  display: block;
+  margin-bottom: 5px;
+  color: #505a5f;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+@media (min-width: 40.0625em) {
+  .ReportIncidentPage_reportingRoute + .ReportIncidentPage_reportingRoute {
+    margin-top: 0;
+  }
+  .ReportIncidentPage_steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 60.0625em) {
+  .ReportIncidentPage_steps {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (forced-colors: active) {
+  .ReportIncidentPage_steps > li {
+    border-color: CanvasText;
+  }
+  .ReportIncidentPage_stepNumber {
+    color: CanvasText;
+  }
+}

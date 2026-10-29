@@ -1,0 +1,231 @@
+{
+  "id": "3391",
+  "legacyPostId": 3391,
+  "referenceNumber": "TT-CSIRT #126",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-126.060418: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-126-060418-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security state stating that the following vulnerabilities have been discovered in Google Chrome:",
+  "cveList": [
+    "CVE-2018-6141",
+    "CVE-2018-6126",
+    "CVE-2018-6145",
+    "CVE-2018-6131",
+    "CVE-2018-6137",
+    "CVE-2018-6144",
+    "CVE-2018-6136",
+    "CVE-2018-6142",
+    "CVE-2018-6143",
+    "CVE-2018-6130",
+    "CVE-2018-6129",
+    "CVE-2018-6147",
+    "CVE-2018-6134",
+    "CVE-2018-6140",
+    "CVE-2018-6139",
+    "CVE-2018-6124",
+    "CVE-2018-6133",
+    "CVE-2018-6123",
+    "CVE-2018-6127",
+    "CVE-2018-6132",
+    "CVE-2018-6128"
+  ],
+  "date": "4 June 2018",
+  "rawDate": "2018-06-04T11:15:03",
+  "modifiedDate": "4 June 2018",
+  "rawModifiedDate": "2018-06-04T11:15:03",
+  "contentHtml": "<p>Google has released a security state stating that the following vulnerabilities have been discovered in Google Chrome:</p>\n<p>a) Heap buffer overflow in Skia &#8211; (CVE-2018-6141, CVE-2018-6126)</p>\n<p>b) Incorrect escaping of MathML in Blink &#8211; (CVE-2018-6145)</p>\n<p>c) Incorrect mutability protection in WebAssembly &#8211; (CVE-2018-6131)</p>\n<p>d) Leak of visited status of page in Blink &#8211; (CVE-2018-6137)</p>\n<p>e) Out of bounds memory access in PDFium &#8211; (CVE-2018-6144)</p>\n<p>f) Out of bounds memory access in V8 &#8211; (CVE-2018-6136, CVE-2018-6142, CVE-2018-6143)</p>\n<p>g) Out of bounds memory access in WebRTC &#8211; (CVE-2018-6130, CVE-2018-6129)</p>\n<p>h) Password fields not taking advantage of OS protections in Views &#8211; (CVE-2018-6147)</p>\n<p>i) Referrer Policy bypass in Blink &#8211; (CVE-2018-6134)</p>\n<p>j) Restrictions bypass in the debugger extension API &#8211; (CVE-2018-6140, CVE-2018-6139)</p>\n<p>k) Type confusion in Blink &#8211; (CVE-2018-6124)</p>\n<p>l) URL spoof in Omnibox &#8211; (CVE-2018-6133)</p>\n<p>m) Use after free in Blink &#8211; (CVE-2018-6123)</p>\n<p>n) Use after free in indexedDB &#8211; (CVE-2018-6127)</p>\n<p>o) Use of uninitialized memory in WebRTC &#8211; (CVE-2018-6132)</p>\n<p>p) uXSS in Chrome on iOS &#8211; (CVE-2018-6128)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-059/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-059/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security state stating that the following vulnerabilities have been discovered in Google Chrome: a) Heap buffer overflow in Skia &#8211; (CVE-2018-6141, CVE-2018-6126) b)…",
+  "sourceExcerpt": "<p>Google has released a security state stating that the following vulnerabilities have been discovered in Google Chrome: a) Heap buffer overflow in Skia &#8211; (CVE-2018-6141, CVE-2018-6126) b) Incorrect escaping of MathML in Blink &#8211; (CVE-2018-6145) c) Incorrect mutability protection in WebAssembly &#8211; (CVE-2018-6131) d) Leak of visited status of page in Blink &#8211; (CVE-2018-6137) e) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-126-060418-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security state stating that the following vulnerabilities have been discovered in Google Chrome:</p>",
+          "text": "Google has released a security state stating that the following vulnerabilities have been discovered in Google Chrome:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Heap buffer overflow in Skia &#8211; (CVE-2018-6141, CVE-2018-6126)</p>",
+          "text": "a) Heap buffer overflow in Skia – (CVE-2018-6141, CVE-2018-6126)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Incorrect escaping of mathml in blink – (CVE-2018-6145)",
+          "id": "incorrect-escaping-of-mathml-in-blink-cve-2018-6145"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Incorrect mutability protection in WebAssembly &#8211; (CVE-2018-6131)</p>",
+          "text": "c) Incorrect mutability protection in WebAssembly – (CVE-2018-6131)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Leak of visited status of page in Blink &#8211; (CVE-2018-6137)</p>",
+          "text": "d) Leak of visited status of page in Blink – (CVE-2018-6137)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds memory access in pdfium – (CVE-2018-6144)",
+          "id": "out-of-bounds-memory-access-in-pdfium-cve-2018-6144"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Out of bounds memory access in V8 &#8211; (CVE-2018-6136, CVE-2018-6142, CVE-2018-6143)</p>",
+          "text": "f) Out of bounds memory access in V8 – (CVE-2018-6136, CVE-2018-6142, CVE-2018-6143)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Out of bounds memory access in WebRTC &#8211; (CVE-2018-6130, CVE-2018-6129)</p>",
+          "text": "g) Out of bounds memory access in WebRTC – (CVE-2018-6130, CVE-2018-6129)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Password fields not taking advantage of OS protections in Views &#8211; (CVE-2018-6147)</p>",
+          "text": "h) Password fields not taking advantage of OS protections in Views – (CVE-2018-6147)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Referrer policy bypass in blink – (CVE-2018-6134)",
+          "id": "referrer-policy-bypass-in-blink-cve-2018-6134"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Restrictions bypass in the debugger extension API &#8211; (CVE-2018-6140, CVE-2018-6139)</p>",
+          "text": "j) Restrictions bypass in the debugger extension API – (CVE-2018-6140, CVE-2018-6139)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type confusion in blink – (CVE-2018-6124)",
+          "id": "type-confusion-in-blink-cve-2018-6124"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoof in omnibox – (CVE-2018-6133)",
+          "id": "url-spoof-in-omnibox-cve-2018-6133"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in blink – (CVE-2018-6123)",
+          "id": "use-after-free-in-blink-cve-2018-6123"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in indexeddb – (CVE-2018-6127)",
+          "id": "use-after-free-in-indexeddb-cve-2018-6127"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use of uninitialized memory in webrtc – (CVE-2018-6132)",
+          "id": "use-of-uninitialized-memory-in-webrtc-cve-2018-6132"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Uxss in Chrome on ios – (CVE-2018-6128)",
+          "id": "uxss-in-chrome-on-ios-cve-2018-6128"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-059/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-059/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-059/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "incorrect-escaping-of-mathml-in-blink-cve-2018-6145",
+      "label": "Incorrect escaping of mathml in blink – (CVE-2018-6145)",
+      "isSubItem": true
+    },
+    {
+      "id": "out-of-bounds-memory-access-in-pdfium-cve-2018-6144",
+      "label": "Out of bounds memory access in pdfium – (CVE-2018-6144)",
+      "isSubItem": true
+    },
+    {
+      "id": "referrer-policy-bypass-in-blink-cve-2018-6134",
+      "label": "Referrer policy bypass in blink – (CVE-2018-6134)",
+      "isSubItem": true
+    },
+    {
+      "id": "type-confusion-in-blink-cve-2018-6124",
+      "label": "Type confusion in blink – (CVE-2018-6124)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoof-in-omnibox-cve-2018-6133",
+      "label": "URL spoof in omnibox – (CVE-2018-6133)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-blink-cve-2018-6123",
+      "label": "Use after free in blink – (CVE-2018-6123)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-indexeddb-cve-2018-6127",
+      "label": "Use after free in indexeddb – (CVE-2018-6127)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-of-uninitialized-memory-in-webrtc-cve-2018-6132",
+      "label": "Use of uninitialized memory in webrtc – (CVE-2018-6132)",
+      "isSubItem": true
+    },
+    {
+      "id": "uxss-in-chrome-on-ios-cve-2018-6128",
+      "label": "Uxss in Chrome on ios – (CVE-2018-6128)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-059/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-126-060418-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-06-04T11:15:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

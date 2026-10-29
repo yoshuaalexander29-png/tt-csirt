@@ -1,0 +1,70 @@
+{
+  "id": "3366",
+  "legacyPostId": 3366,
+  "referenceNumber": "TT-CSIRT #119",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-119.051718: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-118-051718-tt-csirt-advisory-vmware-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that VMware NSX SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. This component is disabled by default and should not be enabled on untrusted networks as successful exploitation of this issue could result in remote code execution.",
+  "cveList": [],
+  "date": "17 May 2018",
+  "rawDate": "2018-05-17T11:38:53",
+  "modifiedDate": "17 May 2018",
+  "rawModifiedDate": "2018-05-17T11:38:53",
+  "contentHtml": "<p>VMware has released a security update stating that VMware NSX SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. This component is disabled by default and should not be enabled on untrusted networks as successful exploitation of this issue could result in remote code execution.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on VMWare Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0011.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0011.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that VMware NSX SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that VMware NSX SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. This component is disabled by default and should not be enabled on untrusted networks as successful exploitation of this issue could result in remote code execution. Further information on this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-118-051718-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that VMware NSX SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. This component is disabled by default and should not be enabled on untrusted networks as successful exploitation of this issue could result in remote code execution.</p>",
+          "text": "VMware has released a security update stating that VMware NSX SD-WAN Edge by VeloCloud contains a command injection vulnerability in the local web UI component. This component is disabled by default and should not be enabled on untrusted networks as successful exploitation of this issue could result in remote code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on VMWare Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0011.html\">https://www.vmware.com/security/advisories/VMSA-2018-0011.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on VMWare Website at https://www.vmware.com/security/advisories/VMSA-2018-0011.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0011.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-118-051718-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-05-17T11:38:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

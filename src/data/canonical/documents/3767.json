@@ -1,0 +1,89 @@
+{
+  "id": "3767",
+  "legacyPostId": 3767,
+  "referenceNumber": "TT-CSIRT #224",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-224.090919: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-224-090919-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that it has discovered the following issues in versions of Mozilla Firefox Browser prior to 69.0:",
+  "cveList": [
+    "CVE-2019-11746",
+    "CVE-2019-11743",
+    "CVE-2019-11736"
+  ],
+  "date": "9 September 2019",
+  "rawDate": "2019-09-09T16:44:46",
+  "modifiedDate": "9 September 2019",
+  "rawModifiedDate": "2019-09-09T16:44:46",
+  "contentHtml": "<p>Mozilla has released a security update stating that it has discovered the following issues in versions of Mozilla Firefox Browser prior to 69.0:</p>\n<p>a) A use-after-free vulnerability can occur while manipulating video elements if the body is freed while still in use. This results in a potentially exploitable crash &#8211; (CVE-2019-11746).</p>\n<p>b) Navigation events do not not fully adhere to the W3C&#8217;s &#8220;Navigation-Timing Level 2&#8221; draft specification in some instances for the unload event which restricts access to detailed timing attributes to only be same-origin. This resuls in potential cross-origin information exposure of history through timing side-channel attacks &#8211; (CVE-2019-11743).</p>\n<p>c) The Mozilla Maintenance Service does not guard against files being hardlinked to another file in the updates directory allowing for the replacement of local files including the Maintenance Service executable which is run with privileged access &#8211; (CVE-2019-11736).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that it has discovered the following issues in versions of Mozilla Firefox Browser prior to 69.0: a) A use-after-free vulnerability can occur while…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that it has discovered the following issues in versions of Mozilla Firefox Browser prior to 69.0: a) A use-after-free vulnerability can occur while manipulating video elements if the body is freed while still in use. This results in a potentially exploitable crash &#8211; (CVE-2019-11746). b) Navigation events do [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-224-090919-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that it has discovered the following issues in versions of Mozilla Firefox Browser prior to 69.0:</p>",
+          "text": "Mozilla has released a security update stating that it has discovered the following issues in versions of Mozilla Firefox Browser prior to 69.0:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A use-after-free vulnerability can occur while manipulating video elements if the body is freed while still in use. This results in a potentially exploitable crash &#8211; (CVE-2019-11746).</p>",
+          "text": "a) A use-after-free vulnerability can occur while manipulating video elements if the body is freed while still in use. This results in a potentially exploitable crash – (CVE-2019-11746)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Navigation events do not not fully adhere to the W3C&#8217;s &#8220;Navigation-Timing Level 2&#8221; draft specification in some instances for the unload event which restricts access to detailed timing attributes to only be same-origin. This resuls in potential cross-origin information exposure of history through timing side-channel attacks &#8211; (CVE-2019-11743).</p>",
+          "text": "b) Navigation events do not not fully adhere to the W3C’s “Navigation-Timing Level 2” draft specification in some instances for the unload event which restricts access to detailed timing attributes to only be same-origin. This resuls in potential cross-origin information exposure of history through timing side-channel attacks – (CVE-2019-11743)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) The Mozilla Maintenance Service does not guard against files being hardlinked to another file in the updates directory allowing for the replacement of local files including the Maintenance Service executable which is run with privileged access &#8211; (CVE-2019-11736).</p>",
+          "text": "c) The Mozilla Maintenance Service does not guard against files being hardlinked to another file in the updates directory allowing for the replacement of local files including the Maintenance Service executable which is run with privileged access – (CVE-2019-11736)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/\">https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-224-090919-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2019-09-09T16:44:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

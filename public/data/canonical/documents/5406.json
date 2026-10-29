@@ -1,0 +1,95 @@
+{
+  "id": "5406",
+  "legacyPostId": 5406,
+  "referenceNumber": "TT-CSIRT 408.31.10.22",
+  "classification": "alert",
+  "title": "Phishing alert",
+  "rawTitle": "TT-CSIRT-408.31.10.22: Phishing Alert",
+  "slug": "tt-csirt-408-31-10-22-phishing-alert",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from the Ministry of Foreign and CARICOM Affairs’ domain “foreign.gov.tt”. In this respect we are advising all persons not to open any emails received from the Ministry of Foreign and CARICOM Affairs with the following details:",
+  "cveList": [],
+  "date": "31 October 2022",
+  "rawDate": "2022-10-31T17:10:15",
+  "modifiedDate": "31 October 2022",
+  "rawModifiedDate": "2022-10-31T17:10:15",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from the Ministry of Foreign and CARICOM Affairs’ domain “foreign.gov.tt”. In this respect we are advising all persons not to open any emails received from the Ministry of Foreign and CARICOM Affairs with the following details:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Subject: “Re: proof of payment from our treasurer’s office”</li><li>Attachment: “foreign.gov.payment.html.zip&#8221;</li></ul>\n\n\n\n<figure class=\"wp-block-image size-full\"><a href=\"http://192.168.70.12/wp-content/uploads/2022/10/phishing_email.png\"><img loading=\"lazy\" decoding=\"async\" width=\"761\" height=\"256\" src=\"http://192.168.70.12/wp-content/uploads/2022/10/phishing_email.png\" alt=\"\" class=\"wp-image-5411\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2022/10/phishing_email.png 761w, https://ttcsirt.gov.tt/wp-content/uploads/2022/10/phishing_email-300x101.png 300w\" sizes=\"(max-width: 761px) 100vw, 761px\" /></a><figcaption>Phishing Email Sample</figcaption></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) from the Ministry of National Security is working closely with the IT Unit of the Ministry of Foreign and CARICOM Affairs to investigate this incident.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>Persons who receive the email are advised to delete it immediately and report it to the TT-CSIRT via <a href=\"https://ttcsirt.gov.tt/report-an-incident\">https://ttcsirt.gov.tt/report-an-incident</a>. If you are unsure about the legitimacy of any email, please contact your in-house IT department for verification. </p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>Email administrators are advised to check their mail systems to determine whether emails with the aforementioned subject are being received or sent and contact the TT-CSIRT if you see suspicious activity via <a href=\"https://ttcsirt.gov.tt/contact-us/\">https://ttcsirt.gov.tt/contact-us/</a>  </p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>In the event that the attachment has been unzipped and opened, a phishing website will be rendered to the user resembling a DocuSign login page requesting the user&#8217;s credentials. Users are strongly advised against visiting the URL and submitting information to the form.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>If you have submitted your credentials to this website, you must alert your IT department and change your password immediately. If you have reused this password on other accounts, this must also be changed.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><a href=\"http://192.168.70.12/wp-content/uploads/2022/10/phishing_email_1.png\"><img loading=\"lazy\" decoding=\"async\" width=\"1025\" height=\"777\" src=\"http://192.168.70.12/wp-content/uploads/2022/10/phishing_email_1.png\" alt=\"\" class=\"wp-image-5412\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2022/10/phishing_email_1.png 1025w, https://ttcsirt.gov.tt/wp-content/uploads/2022/10/phishing_email_1-300x227.png 300w, https://ttcsirt.gov.tt/wp-content/uploads/2022/10/phishing_email_1-768x582.png 768w\" sizes=\"(max-width: 1025px) 100vw, 1025px\" /></a><figcaption>Phishing Website</figcaption></figure>\n",
+  "displaySummary": "Originating from the Ministry of Foreign and CARICOM Affairs’ domain “foreign.gov.tt”.",
+  "sourceExcerpt": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from the Ministry of Foreign and CARICOM Affairs’ domain “foreign.gov.tt”. In this respect we are advising all persons not to open any emails received from the Ministry of Foreign and CARICOM Affairs with the following details: Subject: “Re: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-408-31-10-22-phishing-alert/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from the Ministry of Foreign and CARICOM Affairs’ domain “foreign.gov.tt”. In this respect we are advising all persons not to open any emails received from the Ministry of Foreign and CARICOM Affairs with the following details:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from the Ministry of Foreign and CARICOM Affairs’ domain “foreign.gov.tt”. In this respect we are advising all persons not to open any emails received from the Ministry of Foreign and CARICOM Affairs with the following details:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Subject: “Re: proof of payment from our treasurer’s office”</li><li>Attachment: “foreign.gov.payment.html.zip&#8221;</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) from the Ministry of National Security is working closely with the IT Unit of the Ministry of Foreign and CARICOM Affairs to investigate this incident.</p>",
+          "text": "Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) from the Ministry of National Security is working closely with the IT Unit of the Ministry of Foreign and CARICOM Affairs to investigate this incident."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>Persons who receive the email are advised to delete it immediately and report it to the TT-CSIRT via <a href=\"https://ttcsirt.gov.tt/report-an-incident\">https://ttcsirt.gov.tt/report-an-incident</a>. If you are unsure about the legitimacy of any email, please contact your in-house IT department for verification.</p>",
+          "text": "Persons who receive the email are advised to delete it immediately and report it to the TT-CSIRT via https://ttcsirt.gov.tt/report-an-incident . If you are unsure about the legitimacy of any email, please contact your in-house IT department for verification."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>Email administrators are advised to check their mail systems to determine whether emails with the aforementioned subject are being received or sent and contact the TT-CSIRT if you see suspicious activity via <a href=\"https://ttcsirt.gov.tt/contact-us/\">https://ttcsirt.gov.tt/contact-us/</a></p>",
+          "text": "Email administrators are advised to check their mail systems to determine whether emails with the aforementioned subject are being received or sent and contact the TT-CSIRT if you see suspicious activity via https://ttcsirt.gov.tt/contact-us/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>In the event that the attachment has been unzipped and opened, a phishing website will be rendered to the user resembling a DocuSign login page requesting the user&#8217;s credentials. Users are strongly advised against visiting the URL and submitting information to the form.</p>",
+          "text": "In the event that the attachment has been unzipped and opened, a phishing website will be rendered to the user resembling a DocuSign login page requesting the user’s credentials. Users are strongly advised against visiting the URL and submitting information to the form."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>If you have submitted your credentials to this website, you must alert your IT department and change your password immediately. If you have reused this password on other accounts, this must also be changed.</p>",
+          "text": "If you have submitted your credentials to this website, you must alert your IT department and change your password immediately. If you have reused this password on other accounts, this must also be changed."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://192.168.70.12/wp-content/uploads/2022/10/phishing_email.png",
+    "http://192.168.70.12/wp-content/uploads/2022/10/phishing_email_1.png"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-408-31-10-22-phishing-alert/",
+    "upstreamDisclosedAt": "2022-10-31T17:10:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

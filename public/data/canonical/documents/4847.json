@@ -1,0 +1,77 @@
+{
+  "id": "4847",
+  "legacyPostId": 4847,
+  "referenceNumber": "TT-CSIRT 388.01.19.21",
+  "classification": "advisory",
+  "title": "Microsoft defender remote code execution vulnerability",
+  "rawTitle": "TTCSIRT-388.01.19.21:TTCSIRT ADVISORY &#8211; Microsoft Defender Remote Code Execution Vulnerability",
+  "slug": "ttcsirt-388-01-19-21ttcsirt-advisory-microsoft-defender-remote-code-execution-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security advisory to address a remote code execution vulnerability, CVE-2021-1647, in Microsoft Defender. A remote attacker can exploit this vulnerability to take control of an affected system. This vulnerability was detected in exploits in the wild.",
+  "cveList": [
+    "CVE-2021-1647"
+  ],
+  "date": "19 January 2021",
+  "rawDate": "2021-01-19T09:55:51",
+  "modifiedDate": "19 January 2021",
+  "rawModifiedDate": "2021-01-19T09:55:51",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that Microsoft has released a security advisory to address a remote code execution vulnerability,&nbsp;CVE-2021-1647, in Microsoft Defender. A remote attacker can exploit this vulnerability to take control of an affected system. This vulnerability was detected in exploits in the wild.<br><br>TT-CSIRT is urging all entities (public and private) to download and install the latest Windows update which contains the necessary patch.<br><br>For more information on this vulnerability please visit the link(s) below.<br><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1647\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1647</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Microsoft has released a security advisory to address a remote code execution vulnerability, CVE-2021-1647, in Microsoft Defender.",
+  "sourceExcerpt": "<p>Please be advised that Microsoft has released a security advisory to address a remote code execution vulnerability,&nbsp;CVE-2021-1647, in Microsoft Defender. A remote attacker can exploit this vulnerability to take control of an affected system. This vulnerability was detected in exploits in the wild. TT-CSIRT is urging all entities (public and private) to download and install [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-388-01-19-21ttcsirt-advisory-microsoft-defender-remote-code-execution-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security advisory to address a remote code execution vulnerability,&nbsp;CVE-2021-1647, in Microsoft Defender. A remote attacker can exploit this vulnerability to take control of an affected system. This vulnerability was detected in exploits in the wild.</p>",
+          "text": "Microsoft has released a security advisory to address a remote code execution vulnerability, CVE-2021-1647, in Microsoft Defender. A remote attacker can exploit this vulnerability to take control of an affected system. This vulnerability was detected in exploits in the wild."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT is urging all entities (public and private) to download and install the latest Windows update which contains the necessary patch.</p>",
+          "text": "TT-CSIRT is urging all entities (public and private) to download and install the latest Windows update which contains the necessary patch."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more information on this vulnerability please visit the link(s) below.<br><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1647\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1647</a></p>",
+          "text": "For more information on this vulnerability please visit the link(s) below. https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1647"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1647"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-388-01-19-21ttcsirt-advisory-microsoft-defender-remote-code-execution-vulnerability/",
+    "upstreamDisclosedAt": "2021-01-19T09:55:51",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

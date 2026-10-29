@@ -1,0 +1,365 @@
+{
+  "id": "3968",
+  "legacyPostId": 3968,
+  "referenceNumber": "TT-CSIRT #259",
+  "classification": "advisory",
+  "title": "Dragonblood vulnerabilities",
+  "rawTitle": "TTCSIRT-259.010620: TT-CSIRT ADVISORY- DRAGONBLOOD VULNERABILITIES",
+  "slug": "ttcsirt-258-010620-tt-csirt-advisory-fortimail-admin-privilege-escalation-through-improper-user-profile-control",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation .",
+  "cveList": [
+    "CVE-2019-9494",
+    "CVE-2019-9495",
+    "CVE-2019-9496",
+    "CVE-2019-9497",
+    "CVE-2019-9498",
+    "CVE-2019-9499"
+  ],
+  "date": "6 January 2020",
+  "rawDate": "2020-01-06T14:28:38",
+  "modifiedDate": "6 January 2020",
+  "rawModifiedDate": "2020-01-06T14:28:38",
+  "contentHtml": "<p>Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation .</p>\n<p>Dragonblood vulnerabilities impacting WiFi WPA3 standard implementations can cause password leak, denial of service or authorization bypass. They consist it:</p>\n<p>CVE-2019-9494: SAE cache attack against ECC groups (SAE side-channel attacks)</p>\n<p>CVE-2019-9495: EAP-PWD cache attack against ECC groups (EAP-PWD side-channel attack)</p>\n<p>CVE-2019-9496: SAE confirm missing state validation</p>\n<p>CVE-2019-9497: EAP-PWD reflection attack (EAP-PWD missing commit validation)</p>\n<p>CVE-2019-9498: EAP-PWD server missing commit validation for scalar/element</p>\n<p>CVE-2019-9499: EAP-PWD peer missing commit validation for scalar/element</p>\n<p>&nbsp;</p>\n<p><strong>Impact:</strong> Side-channel attack, Denial of service</p>\n<p>&nbsp;</p>\n<p><strong>Affected Products: </strong>FortiOS and FortiAP-S/W2 are only impacted by:</p>\n<p>CVE-2019-9494</p>\n<p>CVE-2019-9495</p>\n<p>CVE-2019-9496</p>\n<p>Meru AP and Meru Controller are only impacted by:</p>\n<p>CVE-2019-9496</p>\n<p>&nbsp;</p>\n<p><strong>Solutions: </strong></p>\n<p><em>FortiOS:</em></p>\n<p>CVE-2019-9494 upgrade to FortiOS 6.2.2</p>\n<p>CVE-2019-9495 upgrade to FortiOS 6.2.2</p>\n<p>CVE-2019-9496 upgrade to FortiOS 6.2.3</p>\n<p>&nbsp;</p>\n<p><em>FortiAP-S/W2:</em></p>\n<p>CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1</p>\n<p>CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1</p>\n<p>CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2</p>\n<p>&nbsp;</p>\n<p><em>Meru AP:</em></p>\n<p>CVE-2019-9496 upgrade to Meru AP 8.5.1</p>\n<p>&nbsp;</p>\n<p><em>Meru Controller:</em></p>\n<p>CVE-2019-9496 upgrade to Meru Controller 8.5.1</p>\n<p>&nbsp;</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates for the following:</p>\n<p><em>FortiOS:</em></p>\n<p>CVE-2019-9494 ,CVE-2019-9495 and CVE-2019-9496</p>\n<p><em>FortiAP-S/W2:</em></p>\n<p>CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1</p>\n<p>CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1</p>\n<p>CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2</p>\n<p><em>Meru AP:</em></p>\n<p>CVE-2019-9496 upgrade to Meru AP 8.5.1</p>\n<p><em>Meru Controller:</em></p>\n<p>CVE-2019-9496 upgrade to Meru Controller 8.5.1</p>\n<p>&nbsp;</p>\n<p>For further review please see the following link:</p>\n<p><strong>References</strong></p>\n<ul>\n<li><a href=\"https://kb.cert.org/vuls/id/871675/\">https://kb.cert.org/vuls/id/871675/</a></li>\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-19-107\">https://fortiguard.com/psirt/FG-IR-19-107</a></li>\n</ul>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation .",
+  "sourceExcerpt": "<p>Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation . Dragonblood vulnerabilities impacting WiFi WPA3 standard implementations can cause password leak, denial of service or authorization bypass. They consist it: CVE-2019-9494: SAE cache attack against ECC groups (SAE side-channel attacks) CVE-2019-9495: EAP-PWD cache attack against ECC groups (EAP-PWD side-channel attack) CVE-2019-9496: SAE [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-258-010620-tt-csirt-advisory-fortimail-admin-privilege-escalation-through-improper-user-profile-control/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation .</p>",
+          "text": "Multiple vulnerabilities, referred to as Dragonblood, exist in WiFi WPA3 standard implementation ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Dragonblood vulnerabilities impacting WiFi WPA3 standard implementations can cause password leak, denial of service or authorization bypass. They consist it:</p>",
+          "text": "Dragonblood vulnerabilities impacting WiFi WPA3 standard implementations can cause password leak, denial of service or authorization bypass. They consist it:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9494: SAE cache attack against ECC groups (SAE side-channel attacks)</p>",
+          "text": "CVE-2019-9494: SAE cache attack against ECC groups (SAE side-channel attacks)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9495: EAP-PWD cache attack against ECC groups (EAP-PWD side-channel attack)</p>",
+          "text": "CVE-2019-9495: EAP-PWD cache attack against ECC groups (EAP-PWD side-channel attack)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496: SAE confirm missing state validation</p>",
+          "text": "CVE-2019-9496: SAE confirm missing state validation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9497: EAP-PWD reflection attack (EAP-PWD missing commit validation)</p>",
+          "text": "CVE-2019-9497: EAP-PWD reflection attack (EAP-PWD missing commit validation)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9498: EAP-PWD server missing commit validation for scalar/element</p>",
+          "text": "CVE-2019-9498: EAP-PWD server missing commit validation for scalar/element"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9499: EAP-PWD peer missing commit validation for scalar/element</p>",
+          "text": "CVE-2019-9499: EAP-PWD peer missing commit validation for scalar/element"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Side-channel attack, Denial of service</p>",
+          "text": "Side-channel attack, Denial of service"
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected products",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>FortiOS and FortiAP-S/W2 are only impacted by:</p>",
+          "text": "FortiOS and FortiAP-S/W2 are only impacted by:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9494</p>",
+          "text": "CVE-2019-9494"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9495</p>",
+          "text": "CVE-2019-9495"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496</p>",
+          "text": "CVE-2019-9496"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Meru AP and Meru Controller are only impacted by:</p>",
+          "text": "Meru AP and Meru Controller are only impacted by:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496</p>",
+          "text": "CVE-2019-9496"
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Solutions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "FortiOS",
+          "id": "fortios"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9494 upgrade to FortiOS 6.2.2</p>",
+          "text": "CVE-2019-9494 upgrade to FortiOS 6.2.2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9495 upgrade to FortiOS 6.2.2</p>",
+          "text": "CVE-2019-9495 upgrade to FortiOS 6.2.2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to FortiOS 6.2.3</p>",
+          "text": "CVE-2019-9496 upgrade to FortiOS 6.2.3"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Fortiap-s/w2",
+          "id": "fortiap-sw2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1</p>",
+          "text": "CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1</p>",
+          "text": "CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2</p>",
+          "text": "CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Meru ap",
+          "id": "meru-ap"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to Meru AP 8.5.1</p>",
+          "text": "CVE-2019-9496 upgrade to Meru AP 8.5.1"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Meru controller",
+          "id": "meru-controller"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to Meru Controller 8.5.1</p>",
+          "text": "CVE-2019-9496 upgrade to Meru Controller 8.5.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates for the following:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates for the following:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "FortiOS",
+          "id": "fortios-2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9494 ,CVE-2019-9495 and CVE-2019-9496</p>",
+          "text": "CVE-2019-9494 ,CVE-2019-9495 and CVE-2019-9496"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Fortiap-s/w2",
+          "id": "fortiap-sw2-2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1</p>",
+          "text": "CVE-2019-9494 upgrade to FortiAP-S/W2 6.2.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1</p>",
+          "text": "CVE-2019-9495 upgrade to FortiAP-S/W2 6.2.1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2</p>",
+          "text": "CVE-2019-9496 upgrade to FortiAP-S/W2 6.2.2"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Meru ap",
+          "id": "meru-ap-2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to Meru AP 8.5.1</p>",
+          "text": "CVE-2019-9496 upgrade to Meru AP 8.5.1"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Meru controller",
+          "id": "meru-controller-2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-9496 upgrade to Meru Controller 8.5.1</p>",
+          "text": "CVE-2019-9496 upgrade to Meru Controller 8.5.1"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://kb.cert.org/vuls/id/871675/\">https://kb.cert.org/vuls/id/871675/</a></li>\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-19-107\">https://fortiguard.com/psirt/FG-IR-19-107</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected products"
+    },
+    {
+      "id": "recommendations",
+      "label": "Solutions"
+    },
+    {
+      "id": "fortios",
+      "label": "FortiOS",
+      "isSubItem": true
+    },
+    {
+      "id": "fortiap-sw2",
+      "label": "Fortiap-s/w2",
+      "isSubItem": true
+    },
+    {
+      "id": "meru-ap",
+      "label": "Meru ap",
+      "isSubItem": true
+    },
+    {
+      "id": "meru-controller",
+      "label": "Meru controller",
+      "isSubItem": true
+    },
+    {
+      "id": "fortios-2",
+      "label": "FortiOS",
+      "isSubItem": true
+    },
+    {
+      "id": "fortiap-sw2-2",
+      "label": "Fortiap-s/w2",
+      "isSubItem": true
+    },
+    {
+      "id": "meru-ap-2",
+      "label": "Meru ap",
+      "isSubItem": true
+    },
+    {
+      "id": "meru-controller-2",
+      "label": "Meru controller",
+      "isSubItem": true
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.cert.org/vuls/id/871675/",
+    "https://fortiguard.com/psirt/FG-IR-19-107"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-258-010620-tt-csirt-advisory-fortimail-admin-privilege-escalation-through-improper-user-profile-control/",
+    "upstreamDisclosedAt": "2020-01-06T14:28:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3416",
+  "legacyPostId": 3416,
+  "referenceNumber": "TT-CSIRT #133",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-133.062018: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-133-062018-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that a vulnerability has been discovered in Google Chrome where an attacker could execute arbitrary code in the browser. This is caused by an out-of-bounds write to arbitrary locations.",
+  "cveList": [],
+  "date": "20 June 2018",
+  "rawDate": "2018-06-20T12:10:34",
+  "modifiedDate": "20 June 2018",
+  "rawModifiedDate": "2018-06-20T12:10:34",
+  "contentHtml": "<p>Google has released a security update stating that a vulnerability has been discovered in Google Chrome where an attacker could execute arbitrary code in the browser. This is caused by an out-of-bounds write to arbitrary locations.</p>\n<p>Successful exploitation could allow the attacker to execute code to install programs; view, change, or delete data; or create new accounts with full user rights.  </p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-066/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-066/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that a vulnerability has been discovered in Google Chrome where an attacker could execute arbitrary code in the browser.",
+  "sourceExcerpt": "<p>Google has released a security update stating that a vulnerability has been discovered in Google Chrome where an attacker could execute arbitrary code in the browser. This is caused by an out-of-bounds write to arbitrary locations. Successful exploitation could allow the attacker to execute code to install programs; view, change, or delete data; or create [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-133-062018-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that a vulnerability has been discovered in Google Chrome where an attacker could execute arbitrary code in the browser. This is caused by an out-of-bounds write to arbitrary locations.</p>",
+          "text": "Google has released a security update stating that a vulnerability has been discovered in Google Chrome where an attacker could execute arbitrary code in the browser. This is caused by an out-of-bounds write to arbitrary locations."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation could allow the attacker to execute code to install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation could allow the attacker to execute code to install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-066/\">https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-066/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-066/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-066/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-133-062018-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-06-20T12:10:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

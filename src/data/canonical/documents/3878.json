@@ -1,0 +1,77 @@
+{
+  "id": "3878",
+  "legacyPostId": 3878,
+  "referenceNumber": "TT-CSIRT #240",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-240.110119: TT-CSIRT ADVISORY – CHROME SECURITY UPDATES",
+  "slug": "ttcsirt-240-110119-tt-csirt-advisory-chrome-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 78.0.3904.87 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. One of these vulnerabilities (CVE-2019-13720) is a zero day as it was detected in exploits in the wild. TTCSIRT encourages users and administrators to review the following release from Google and update to the latest version of Chrome on all devices forthwith. Issues addressed include the following high level vulnerabilities:",
+  "cveList": [
+    "CVE-2019-13720",
+    "CVE-2019-13721"
+  ],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:25:08",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:25:08",
+  "contentHtml": "<p>Google has released Chrome version 78.0.3904.87 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. One of these vulnerabilities (CVE-2019-13720) is a zero day as it was detected in exploits in the wild. TTCSIRT encourages users and administrators to review the following release from Google and update to the latest version of Chrome on all devices forthwith. Issues addressed include the following high level vulnerabilities:</p>\n<ul>\n<li>CVE-2019-13721: Use-after-free in PDFium</li>\n<li>CVE-2019-13720: Use-after-free in audio</li>\n</ul>\n<p><a href=\"https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html\">https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html</a></p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Google has released Chrome version 78.0.3904.87 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.",
+  "sourceExcerpt": "<p>Google has released Chrome version 78.0.3904.87 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. One of these vulnerabilities (CVE-2019-13720) is a zero day as it was detected in exploits in the wild. TTCSIRT encourages users and administrators to review the following release [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-240-110119-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released Chrome version 78.0.3904.87 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. One of these vulnerabilities (CVE-2019-13720) is a zero day as it was detected in exploits in the wild. TTCSIRT encourages users and administrators to review the following release from Google and update to the latest version of Chrome on all devices forthwith. Issues addressed include the following high level vulnerabilities:</p>",
+          "text": "Google has released Chrome version 78.0.3904.87 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. One of these vulnerabilities (CVE-2019-13720) is a zero day as it was detected in exploits in the wild. TTCSIRT encourages users and administrators to review the following release from Google and update to the latest version of Chrome on all devices forthwith. Issues addressed include the following high level vulnerabilities:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-13721: Use-after-free in PDFium</li>\n<li>CVE-2019-13720: Use-after-free in audio</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html\">https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html</a></p>",
+          "text": "https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2019/10/stable-channel-update-for-desktop_31.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-240-110119-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2019-11-13T08:25:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

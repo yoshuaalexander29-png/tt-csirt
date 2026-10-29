@@ -1,0 +1,77 @@
+{
+  "id": "4752",
+  "legacyPostId": 4752,
+  "referenceNumber": "TT-CSIRT 372.10.22.20",
+  "classification": "advisory",
+  "title": "Mozilla releases security updates",
+  "rawTitle": "TTCSIRT-372.10.22.20: TT-CSIRT ADVISORY – Mozilla Releases Security Updates",
+  "slug": "ttcsirt-372-10-22-20-tt-csirt-advisory-mozilla-releases-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird.",
+  "cveList": [],
+  "date": "22 October 2020",
+  "rawDate": "2020-10-22T12:52:24",
+  "modifiedDate": "22 October 2020",
+  "rawModifiedDate": "2020-10-22T12:52:24",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. </p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages users and administrators to review the Mozilla Security Advisories for&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ1In0.KNyf34g0ySMFMScEwmFcDZDi8Ll-GIBqeA3usYxSz5s/s/1193638257/br/87233588779-l\">Firefox 82</a>,&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ2In0.dLcZx3FInejuaRJT9TNyb22IqcdXw4D3P94aRC6l7Ik/s/1193638257/br/87233588779-l\">Firefox ESR 78.4</a>, and&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ3LyJ9.lldtlqQ2TtWqN-NZT_V0oxH58PaErEToKfbh743WKNE/s/1193638257/br/87233588779-l\">Thunderbird 78.4</a>&nbsp;and apply the necessary updates.</p>\n",
+  "displaySummary": "Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird.",
+  "sourceExcerpt": "<p>Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the Mozilla Security Advisories for&nbsp;Firefox 82,&nbsp;Firefox ESR 78.4, and&nbsp;Thunderbird 78.4&nbsp;and apply the necessary updates.</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-372-10-22-20-tt-csirt-advisory-mozilla-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird.</p>",
+          "text": "Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review the Mozilla Security Advisories for&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ1In0.KNyf34g0ySMFMScEwmFcDZDi8Ll-GIBqeA3usYxSz5s/s/1193638257/br/87233588779-l\">Firefox 82</a>,&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ2In0.dLcZx3FInejuaRJT9TNyb22IqcdXw4D3P94aRC6l7Ik/s/1193638257/br/87233588779-l\">Firefox ESR 78.4</a>, and&nbsp;<a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ3LyJ9.lldtlqQ2TtWqN-NZT_V0oxH58PaErEToKfbh743WKNE/s/1193638257/br/87233588779-l\">Thunderbird 78.4</a>&nbsp;and apply the necessary updates.</p>",
+          "text": "TTCSIRT encourages users and administrators to review the Mozilla Security Advisories for  Firefox 82 ,  Firefox ESR 78.4 , and  Thunderbird 78.4  and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ1In0.KNyf34g0ySMFMScEwmFcDZDi8Ll-GIBqeA3usYxSz5s/s/1193638257/br/87233588779-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ2In0.dLcZx3FInejuaRJT9TNyb22IqcdXw4D3P94aRC6l7Ik/s/1193638257/br/87233588779-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMjIuMjkxNTk5MTEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTQ3LyJ9.lldtlqQ2TtWqN-NZT_V0oxH58PaErEToKfbh743WKNE/s/1193638257/br/87233588779-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-372-10-22-20-tt-csirt-advisory-mozilla-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-10-22T12:52:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

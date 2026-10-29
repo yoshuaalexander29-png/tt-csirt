@@ -1,0 +1,75 @@
+{
+  "id": "3319",
+  "legacyPostId": 3319,
+  "referenceNumber": "TT-CSIRT #114",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-114.050318: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-114-050318-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow for an unauthenticated, remote attacker to establish a Secure Sockets Layer (SSL) Virtual Private Network (VPN) connection to the device and bypass certain SSL certificate verification steps.",
+  "cveList": [],
+  "date": "3 May 2018",
+  "rawDate": "2018-05-03T11:11:03",
+  "modifiedDate": "3 May 2018",
+  "rawModifiedDate": "2018-05-03T11:11:03",
+  "contentHtml": "<p>Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow for an unauthenticated, remote attacker to establish a Secure Sockets Layer (SSL) Virtual Private Network (VPN) connection to the device and bypass certain SSL certificate verification steps. </p>\n<p>The vulnerability is due to incorrect verification of the SSL Client Certificate. An attacker could exploit this vulnerability by connecting to the ASA VPN without a proper private key and certificate pair. As a result, the attacker will be able to establish an SSL VPN connection to the ASA when the connection should have been rejected.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-software-could-allow-for-security-bypass_2018-048/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-software-could-allow-for-security-bypass_2018-048/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow for an unauthenticated, remote attacker to…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow for an unauthenticated, remote attacker to establish a Secure Sockets Layer (SSL) Virtual Private Network (VPN) connection to the device and bypass certain SSL certificate verification steps. The vulnerability is due to incorrect [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-114-050318-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow for an unauthenticated, remote attacker to establish a Secure Sockets Layer (SSL) Virtual Private Network (VPN) connection to the device and bypass certain SSL certificate verification steps.</p>",
+          "text": "Cisco has released a security update stating that a vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) which could allow for an unauthenticated, remote attacker to establish a Secure Sockets Layer (SSL) Virtual Private Network (VPN) connection to the device and bypass certain SSL certificate verification steps."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to incorrect verification of the SSL Client Certificate. An attacker could exploit this vulnerability by connecting to the ASA VPN without a proper private key and certificate pair. As a result, the attacker will be able to establish an SSL VPN connection to the ASA when the connection should have been rejected.</p>",
+          "text": "The vulnerability is due to incorrect verification of the SSL Client Certificate. An attacker could exploit this vulnerability by connecting to the ASA VPN without a proper private key and certificate pair. As a result, the attacker will be able to establish an SSL VPN connection to the ASA when the connection should have been rejected."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-software-could-allow-for-security-bypass_2018-048/\">https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-software-could-allow-for-security-bypass_2018-048/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-software-could-allow-for-security-bypass_2018-048/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-software-could-allow-for-security-bypass_2018-048/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-114-050318-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-05-03T11:11:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

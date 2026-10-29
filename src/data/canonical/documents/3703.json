@@ -1,0 +1,75 @@
+{
+  "id": "3703",
+  "legacyPostId": 3703,
+  "referenceNumber": "TT-CSIRT #209",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-209.051519: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-209-051519-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that VMware Workstation contains a DLL hijacking issue because some DLL files are improperly loaded by the application.",
+  "cveList": [],
+  "date": "14 May 2019",
+  "rawDate": "2019-05-14T20:10:34",
+  "modifiedDate": "14 May 2019",
+  "rawModifiedDate": "2019-05-14T20:10:34",
+  "contentHtml": "<p>VMware has released a security update stating that VMware Workstation contains a DLL hijacking issue because some DLL files are improperly loaded by the application.</p>\n<p>Successful exploitation of this issue may allow attackers with normal user privileges to escalate their privileges to administrator on a windows host where Workstation is installed.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0007.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2019-0007.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that VMware Workstation contains a DLL hijacking issue because some DLL files are improperly loaded by the application.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that VMware Workstation contains a DLL hijacking issue because some DLL files are improperly loaded by the application. Successful exploitation of this issue may allow attackers with normal user privileges to escalate their privileges to administrator on a windows host where Workstation is installed. Further information on this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-209-051519-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that VMware Workstation contains a DLL hijacking issue because some DLL files are improperly loaded by the application.</p>",
+          "text": "VMware has released a security update stating that VMware Workstation contains a DLL hijacking issue because some DLL files are improperly loaded by the application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this issue may allow attackers with normal user privileges to escalate their privileges to administrator on a windows host where Workstation is installed.</p>",
+          "text": "Successful exploitation of this issue may allow attackers with normal user privileges to escalate their privileges to administrator on a windows host where Workstation is installed."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0007.html\">https://www.vmware.com/security/advisories/VMSA-2019-0007.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at https://www.vmware.com/security/advisories/VMSA-2019-0007.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2019-0007.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-209-051519-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2019-05-14T20:10:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

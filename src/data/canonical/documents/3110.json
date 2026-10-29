@@ -1,0 +1,75 @@
+{
+  "id": "3110",
+  "legacyPostId": 3110,
+  "referenceNumber": "TT-CSIRT #073",
+  "classification": "advisory",
+  "title": "TLS security updates",
+  "rawTitle": "TTCSIRT-073.121417: TT-CSIRT Advisory – TLS Security Updates",
+  "slug": "ttcsirt-073-121417-tt-csirt-advisory-tls-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "CERT Coordination Center (CERT/CC) has released information on a Transport Layer Security (TLS) vulnerability. Exploitation of this vulnerability could allow an attacker to access sensitive information.",
+  "cveList": [],
+  "date": "14 December 2017",
+  "rawDate": "2017-12-14T15:22:32",
+  "modifiedDate": "14 December 2017",
+  "rawModifiedDate": "2017-12-14T15:22:32",
+  "contentHtml": "<p>CERT Coordination Center (CERT/CC) has released information on a Transport Layer Security (TLS) vulnerability. Exploitation of this vulnerability could allow an attacker to access sensitive information.</p>\n<p>The TLS vulnerability is also known as Return of Bleichenbacher&#8217;s Oracle Threat (ROBOT). ROBOT allows an attacker to obtain the RSA key necessary to decrypt TLS traffic under certain conditions.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found at <a href=\"http://www.kb.cert.org/vuls/id/144389\"><font size=\"2\" color=\"maroon\">http://www.kb.cert.org/vuls/id/144389</a></font></td>\n</tr>\n</table>\n",
+  "displaySummary": "CERT Coordination Center (CERT/CC) has released information on a Transport Layer Security (TLS) vulnerability.",
+  "sourceExcerpt": "<p>CERT Coordination Center (CERT/CC) has released information on a Transport Layer Security (TLS) vulnerability. Exploitation of this vulnerability could allow an attacker to access sensitive information. The TLS vulnerability is also known as Return of Bleichenbacher&#8217;s Oracle Threat (ROBOT). ROBOT allows an attacker to obtain the RSA key necessary to decrypt TLS traffic under certain [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-073-121417-tt-csirt-advisory-tls-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>CERT Coordination Center (CERT/CC) has released information on a Transport Layer Security (TLS) vulnerability. Exploitation of this vulnerability could allow an attacker to access sensitive information.</p>",
+          "text": "CERT Coordination Center (CERT/CC) has released information on a Transport Layer Security (TLS) vulnerability. Exploitation of this vulnerability could allow an attacker to access sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The TLS vulnerability is also known as Return of Bleichenbacher&#8217;s Oracle Threat (ROBOT). ROBOT allows an attacker to obtain the RSA key necessary to decrypt TLS traffic under certain conditions.</p>",
+          "text": "The TLS vulnerability is also known as Return of Bleichenbacher’s Oracle Threat (ROBOT). ROBOT allows an attacker to obtain the RSA key necessary to decrypt TLS traffic under certain conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found at <a href=\"http://www.kb.cert.org/vuls/id/144389\">http://www.kb.cert.org/vuls/id/144389</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found at http://www.kb.cert.org/vuls/id/144389"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.kb.cert.org/vuls/id/144389"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-073-121417-tt-csirt-advisory-tls-security-updates/",
+    "upstreamDisclosedAt": "2017-12-14T15:22:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "3919",
+  "legacyPostId": 3919,
+  "referenceNumber": "TT-CSIRT #253",
+  "classification": "advisory",
+  "title": "Intel security updates",
+  "rawTitle": "TTCSIRT-253.121119: TT-CSIRT ADVISORY – INTEL SECURITY UPDATES",
+  "slug": "ttcsirt-253-121119-tt-csirt-advisory-intel-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges.",
+  "cveList": [],
+  "date": "11 December 2019",
+  "rawDate": "2019-12-11T09:43:05",
+  "modifiedDate": "11 December 2019",
+  "rawModifiedDate": "2019-12-11T09:43:05",
+  "contentHtml": "<p>Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges.</p>\n<p>TTCSIRT strongly encourages administrators to review the following releases from Intel and implement the necessary remediation actions:</p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00237: Linux Administrative Tools Network Adapters<br />\n<a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00284: FPGA SDK for OpenCL</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00284.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00284.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00289: Processors Voltage Settings Modification</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00299: Control Center-I</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00299.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00299.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00311: Quartus Prime Pro Edition</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00311.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00311.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00312: SCS Platform Discovery Utility</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00312.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00312.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00317: Unexpected Page Fault in Virtualized Environment</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00317.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00317.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00323: NUC Firmware</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00323.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00323.html</a></p>\n<p>&nbsp;</p>\n<p>INTEL-SA-00324: Rapid Storage Technology</p>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00324.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00324.html</a></p>\n",
+  "displaySummary": "Intel has released security updates to address vulnerabilities in multiple products.",
+  "sourceExcerpt": "<p>Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges. TTCSIRT strongly encourages administrators to review the following releases from Intel and implement the necessary remediation actions: &nbsp; INTEL-SA-00237: Linux Administrative Tools Network Adapters https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html &nbsp; INTEL-SA-00284: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-253-121119-tt-csirt-advisory-intel-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges.</p>",
+          "text": "Intel has released security updates to address vulnerabilities in multiple products. An authenticated attacker with local access could exploit some of these vulnerabilities to gain escalation of privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT strongly encourages administrators to review the following releases from Intel and implement the necessary remediation actions:</p>",
+          "text": "TTCSIRT strongly encourages administrators to review the following releases from Intel and implement the necessary remediation actions:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00237: Linux Administrative Tools Network Adapters<br />\n<a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html</a></p>",
+          "text": "INTEL-SA-00237: Linux Administrative Tools Network Adapters https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00284: FPGA SDK for OpenCL</p>",
+          "text": "INTEL-SA-00284: FPGA SDK for OpenCL"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00284.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00284.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00284.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00289: Processors Voltage Settings Modification</p>",
+          "text": "INTEL-SA-00289: Processors Voltage Settings Modification"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00299: Control Center-I</p>",
+          "text": "INTEL-SA-00299: Control Center-I"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00299.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00299.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00299.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00311: Quartus Prime Pro Edition</p>",
+          "text": "INTEL-SA-00311: Quartus Prime Pro Edition"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00311.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00311.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00311.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00312: SCS Platform Discovery Utility</p>",
+          "text": "INTEL-SA-00312: SCS Platform Discovery Utility"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00312.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00312.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00312.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00317: Unexpected Page Fault in Virtualized Environment</p>",
+          "text": "INTEL-SA-00317: Unexpected Page Fault in Virtualized Environment"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00317.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00317.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00317.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00323: NUC Firmware</p>",
+          "text": "INTEL-SA-00323: NUC Firmware"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00323.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00323.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00323.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>INTEL-SA-00324: Rapid Storage Technology</p>",
+          "text": "INTEL-SA-00324: Rapid Storage Technology"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00324.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00324.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00324.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00237.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00284.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00289.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00299.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00311.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00312.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00317.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00323.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00324.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-253-121119-tt-csirt-advisory-intel-security-updates/",
+    "upstreamDisclosedAt": "2019-12-11T09:43:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

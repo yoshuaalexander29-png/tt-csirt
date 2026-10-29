@@ -1,0 +1,79 @@
+{
+  "id": "4277",
+  "legacyPostId": 4277,
+  "referenceNumber": "TT-CSIRT #291",
+  "classification": "advisory",
+  "title": "Tomcat releases security updates",
+  "rawTitle": "TTCSIRT-291.030620: TT-CSIRT ADVISORY- TOMCAT RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-275-012820-tt-csirt-advisory-tomcat-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Tomcat has released security updates to address vulnerabilities affecting multiple products. This update for tomcat to version 9.0.31 fixes the following three (3) issues: CVE-2019-17569 , CVE-2020-1935 and CVE-2020-1938.",
+  "cveList": [
+    "CVE-2019-17569",
+    "CVE-2020-1935",
+    "CVE-2020-1938"
+  ],
+  "date": "6 March 2020",
+  "rawDate": "2020-03-06T11:04:16",
+  "modifiedDate": "6 March 2020",
+  "rawModifiedDate": "2020-03-06T11:04:16",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Tomcat has released security updates to address vulnerabilities affecting multiple products. This update for tomcat to version 9.0.31 fixes the following three (3) issues: <strong>CVE-2019-17569</strong>, <strong>CVE-2020-1935</strong> and <strong>CVE-2020-1938.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT encourages users and administrators to review and apply the necessary updates: </p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1/\">https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Tomcat has released security updates to address vulnerabilities affecting multiple products.",
+  "sourceExcerpt": "<p>Tomcat has released security updates to address vulnerabilities affecting multiple products. This update for tomcat to version 9.0.31 fixes the following three (3) issues: CVE-2019-17569, CVE-2020-1935 and CVE-2020-1938. TT-CSIRT encourages users and administrators to review and apply the necessary updates: https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-275-012820-tt-csirt-advisory-tomcat-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Tomcat has released security updates to address vulnerabilities affecting multiple products. This update for tomcat to version 9.0.31 fixes the following three (3) issues: <strong>CVE-2019-17569</strong>, <strong>CVE-2020-1935</strong> and <strong>CVE-2020-1938.</strong></p>",
+          "text": "Tomcat has released security updates to address vulnerabilities affecting multiple products. This update for tomcat to version 9.0.31 fixes the following three (3) issues: CVE-2019-17569 , CVE-2020-1935 and CVE-2020-1938."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review and apply the necessary updates:</p>",
+          "text": "TT-CSIRT encourages users and administrators to review and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1/\">https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1</a></p>",
+          "text": "https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.suse.com/support/update/announcement/2020/suse-su-20200598-1/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-275-012820-tt-csirt-advisory-tomcat-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-03-06T11:04:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

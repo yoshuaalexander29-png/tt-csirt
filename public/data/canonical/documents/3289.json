@@ -1,0 +1,173 @@
+{
+  "id": "3289",
+  "legacyPostId": 3289,
+  "referenceNumber": "TT-CSIRT #107",
+  "classification": "advisory",
+  "title": "Juniper security updates",
+  "rawTitle": "TTCSIRT-107.041318: TT-CSIRT Advisory – Juniper Security Updates",
+  "slug": "ttcsirt-107-041318-tt-csirt-advisory-juniper-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Juniper Networks has released a series of security updates to address several vulnerabilities in its products.",
+  "cveList": [
+    "CVE-2018-0016",
+    "CVE-2018-0017",
+    "CVE-2018-0018",
+    "CVE-2018-0019",
+    "CVE-2018-0020",
+    "CVE-2015-2080",
+    "CVE-2017-1000385",
+    "CVE-2018-0022",
+    "CVE-2018-0023"
+  ],
+  "date": "13 April 2018",
+  "rawDate": "2018-04-13T11:53:15",
+  "modifiedDate": "13 April 2018",
+  "rawModifiedDate": "2018-04-13T11:53:15",
+  "contentHtml": "<p>Juniper Networks has released a series of security updates to address several vulnerabilities in its products.</p>\n<p>Details are as follows:</p>\n<p>a) Junos OS &#8211; kernel crash upon receipt of crafted CLNP packets (CVE-2018-0016)</p>\n<p>b) SRX Series &#8211; denial-of-service vulnerability in flowd daemon on devices configured with NAT-PT (CVE-2018-0017)</p>\n<p>c) SRX Series &#8211; crafted packet may lead to information disclosure and firewall rule bypass during compilation of IDP policies (CVE-2018-0018)</p>\n<p>d) Junos &#8211; denial-of-service vulnerability in SNMP MIB-II subagent daemon (mib2d) (CVE-2018-0019)</p>\n<p>e) Junos OS &#8211; rpd daemon cores due to malformed BGP UPDATE packet (CVE-2018-0020)</p>\n<p>f) Steel-Belted Radius Carrier &#8211; eclipse Jetty information disclosure vulnerability (CVE-2015-2080)</p>\n<p>g) NorthStar &#8211; return of Bleichenbacher’s Oracle Threat (ROBOT) RSA SSL attack (CVE-2017-1000385)</p>\n<p>h) OpenSSL &#8211; multiple vulnerabilities resolved in OpenSSL</p>\n<p>i) Junos OS &#8211; multiple vulnerabilities in stunnel 5.38</p>\n<p>j) NSM Appliance &#8211; multiple vulnerabilities resolved in CentOS 6.5-based 2012.2R12 release</p>\n<p>k) Junos OS &#8211; short MacSec keys may allow man-in-the-middle attacks</p>\n<p>l) Junos OS &#8211; mbuf leak due to processing MPLS packets in VPLS networks (CVE-2018-0022)</p>\n<p>m) Junos Snapshot Administrator (JSNAPy) &#8211; world writeable default configuration file permission (CVE-2018-0023)</p>\n<p>A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the US-CERT Website at <a href=\"https://www.us-cert.gov/ncas/current-activity/2018/04/12/Juniper-Networks-Releases-Security-Updates\"><font size=\"2\" color=\"maroon\">https://www.us-cert.gov/ncas/current-activity/2018/04/12/Juniper-Networks-Releases-Security-Updates</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Juniper Networks has released a series of security updates to address several vulnerabilities in its products.",
+  "sourceExcerpt": "<p>Juniper Networks has released a series of security updates to address several vulnerabilities in its products. Details are as follows: a) Junos OS &#8211; kernel crash upon receipt of crafted CLNP packets (CVE-2018-0016) b) SRX Series &#8211; denial-of-service vulnerability in flowd daemon on devices configured with NAT-PT (CVE-2018-0017) c) SRX Series &#8211; crafted packet may [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-107-041318-tt-csirt-advisory-juniper-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Juniper Networks has released a series of security updates to address several vulnerabilities in its products.</p>",
+          "text": "Juniper Networks has released a series of security updates to address several vulnerabilities in its products."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Details are as follows",
+          "id": "details-are-as-follows"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Junos OS &#8211; kernel crash upon receipt of crafted CLNP packets (CVE-2018-0016)</p>",
+          "text": "a) Junos OS – kernel crash upon receipt of crafted CLNP packets (CVE-2018-0016)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) SRX Series &#8211; denial-of-service vulnerability in flowd daemon on devices configured with NAT-PT (CVE-2018-0017)</p>",
+          "text": "b) SRX Series – denial-of-service vulnerability in flowd daemon on devices configured with NAT-PT (CVE-2018-0017)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) SRX Series &#8211; crafted packet may lead to information disclosure and firewall rule bypass during compilation of IDP policies (CVE-2018-0018)</p>",
+          "text": "c) SRX Series – crafted packet may lead to information disclosure and firewall rule bypass during compilation of IDP policies (CVE-2018-0018)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Junos &#8211; denial-of-service vulnerability in SNMP MIB-II subagent daemon (mib2d) (CVE-2018-0019)</p>",
+          "text": "d) Junos – denial-of-service vulnerability in SNMP MIB-II subagent daemon (mib2d) (CVE-2018-0019)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Junos OS &#8211; rpd daemon cores due to malformed BGP UPDATE packet (CVE-2018-0020)</p>",
+          "text": "e) Junos OS – rpd daemon cores due to malformed BGP UPDATE packet (CVE-2018-0020)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Steel-Belted Radius Carrier &#8211; eclipse Jetty information disclosure vulnerability (CVE-2015-2080)</p>",
+          "text": "f) Steel-Belted Radius Carrier – eclipse Jetty information disclosure vulnerability (CVE-2015-2080)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) NorthStar &#8211; return of Bleichenbacher’s Oracle Threat (ROBOT) RSA SSL attack (CVE-2017-1000385)</p>",
+          "text": "g) NorthStar – return of Bleichenbacher’s Oracle Threat (ROBOT) RSA SSL attack (CVE-2017-1000385)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Openssl – multiple vulnerabilities resolved in openssl",
+          "id": "openssl-multiple-vulnerabilities-resolved-in-openssl"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Junos OS – multiple vulnerabilities in stunnel 5.38",
+          "id": "junos-os-multiple-vulnerabilities-in-stunnel-538"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) NSM Appliance &#8211; multiple vulnerabilities resolved in CentOS 6.5-based 2012.2R12 release</p>",
+          "text": "j) NSM Appliance – multiple vulnerabilities resolved in CentOS 6.5-based 2012.2R12 release"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Junos OS &#8211; short MacSec keys may allow man-in-the-middle attacks</p>",
+          "text": "k) Junos OS – short MacSec keys may allow man-in-the-middle attacks"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) Junos OS &#8211; mbuf leak due to processing MPLS packets in VPLS networks (CVE-2018-0022)</p>",
+          "text": "l) Junos OS – mbuf leak due to processing MPLS packets in VPLS networks (CVE-2018-0022)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) Junos Snapshot Administrator (JSNAPy) &#8211; world writeable default configuration file permission (CVE-2018-0023)</p>",
+          "text": "m) Junos Snapshot Administrator (JSNAPy) – world writeable default configuration file permission (CVE-2018-0023)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the US-CERT Website at <a href=\"https://www.us-cert.gov/ncas/current-activity/2018/04/12/Juniper-Networks-Releases-Security-Updates\">https://www.us-cert.gov/ncas/current-activity/2018/04/12/Juniper-Networks-Releases-Security-Updates</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the US-CERT Website at https://www.us-cert.gov/ncas/current-activity/2018/04/12/Juniper-Networks-Releases-Security-Updates"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "details-are-as-follows",
+      "label": "Details are as follows",
+      "isSubItem": true
+    },
+    {
+      "id": "openssl-multiple-vulnerabilities-resolved-in-openssl",
+      "label": "Openssl – multiple vulnerabilities resolved in openssl",
+      "isSubItem": true
+    },
+    {
+      "id": "junos-os-multiple-vulnerabilities-in-stunnel-538",
+      "label": "Junos OS – multiple vulnerabilities in stunnel 5.38",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.us-cert.gov/ncas/current-activity/2018/04/12/Juniper-Networks-Releases-Security-Updates"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-107-041318-tt-csirt-advisory-juniper-security-updates/",
+    "upstreamDisclosedAt": "2018-04-13T11:53:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

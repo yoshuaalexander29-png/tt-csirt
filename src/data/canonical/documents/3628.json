@@ -1,0 +1,77 @@
+{
+  "id": "3628",
+  "legacyPostId": 3628,
+  "referenceNumber": "TT-CSIRT #190",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-190.122718: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-190-122718-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that an use-after-free issue in PDFium could allow for arbitrary code execution (CVE-2018-17481).",
+  "cveList": [
+    "CVE-2018-17481"
+  ],
+  "date": "27 December 2018",
+  "rawDate": "2018-12-27T18:22:23",
+  "modifiedDate": "27 December 2018",
+  "rawModifiedDate": "2018-12-27T18:22:23",
+  "contentHtml": "<p>Google has released a security update stating that an use-after-free issue in PDFium could allow for arbitrary code execution (CVE-2018-17481).</p>\n<p>Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code through the browser and depending on the privileges associated with the application, an attacker could install programs view, change, delete data or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Google Website at <a href=\"https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop_12.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop_12.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that an use-after-free issue in PDFium could allow for arbitrary code execution (CVE-2018-17481).",
+  "sourceExcerpt": "<p>Google has released a security update stating that an use-after-free issue in PDFium could allow for arbitrary code execution (CVE-2018-17481). Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code through the browser and depending on the privileges associated with the application, an attacker could install programs view, change, delete data or [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-190-122718-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that an use-after-free issue in PDFium could allow for arbitrary code execution (CVE-2018-17481).</p>",
+          "text": "Google has released a security update stating that an use-after-free issue in PDFium could allow for arbitrary code execution (CVE-2018-17481)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code through the browser and depending on the privileges associated with the application, an attacker could install programs view, change, delete data or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code through the browser and depending on the privileges associated with the application, an attacker could install programs view, change, delete data or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Google Website at <a href=\"https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop_12.html\">https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop_12.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Google Website at https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop_12.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2018/12/stable-channel-update-for-desktop_12.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-190-122718-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-12-27T18:22:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

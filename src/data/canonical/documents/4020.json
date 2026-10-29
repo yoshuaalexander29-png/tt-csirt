@@ -1,0 +1,75 @@
+{
+  "id": "4020",
+  "legacyPostId": 4020,
+  "referenceNumber": "TT-CSIRT #271",
+  "classification": "advisory",
+  "title": "Cisco releases security updates",
+  "rawTitle": "TTCSIRT-271.012720: TT-CSIRT ADVISORY – CISCO RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-271-012720-tt-csirt-advisory-cisco-releases-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address a vulnerability affecting Cisco Webex Meetings Suite and Cisco Webex Meetings Online. A remote attacker could exploit this vulnerability to obtain sensitive information.",
+  "cveList": [],
+  "date": "27 January 2020",
+  "rawDate": "2020-01-27T09:05:35",
+  "modifiedDate": "27 January 2020",
+  "rawModifiedDate": "2020-01-27T09:05:35",
+  "contentHtml": "<p><span style=\"font-family: '&amp;quot','serif'; color: #333333;\">Cisco has released security updates to address a vulnerability affecting Cisco Webex Meetings Suite and Cisco Webex Meetings Online. A remote attacker could exploit this vulnerability to obtain sensitive information.</span></p>\n<p style=\"margin: 0cm; margin-bottom: .0001pt; box-sizing: border-box; -webkit-text-stroke-width: 0px; word-spacing: 0px;\"><span style=\"font-family: '&amp;quot','serif'; color: #333333;\">TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates.</span></p>\n<p><span style=\"font-family: '&amp;quot','serif'; color: #333333;\"><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin</a></span></p>\n<p><span style=\"font-family: '&amp;quot','serif'; color: #333333;\"> </span></p>\n<p><span lang=\"EN-US\"> </span></p>\n",
+  "displaySummary": "Cisco has released security updates to address a vulnerability affecting Cisco Webex Meetings Suite and Cisco Webex Meetings Online.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address a vulnerability affecting Cisco Webex Meetings Suite and Cisco Webex Meetings Online. A remote attacker could exploit this vulnerability to obtain sensitive information. TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates. https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin    </p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-271-012720-tt-csirt-advisory-cisco-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><span >Cisco has released security updates to address a vulnerability affecting Cisco Webex Meetings Suite and Cisco Webex Meetings Online. A remote attacker could exploit this vulnerability to obtain sensitive information.</span></p>",
+          "text": "Cisco has released security updates to address a vulnerability affecting Cisco Webex Meetings Suite and Cisco Webex Meetings Online. A remote attacker could exploit this vulnerability to obtain sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span >TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates.</span></p>",
+          "text": "TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span ><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin</a></span></p>",
+          "text": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200124-webex-unauthjoin"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-271-012720-tt-csirt-advisory-cisco-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-01-27T09:05:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

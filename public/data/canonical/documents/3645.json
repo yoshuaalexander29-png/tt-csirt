@@ -1,0 +1,134 @@
+{
+  "id": "3645",
+  "legacyPostId": 3645,
+  "referenceNumber": "TT-CSIRT #195",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-195.011119: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-195-011119-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "PHP has released a security update stating that the following vulnerabilities have been discovered in the following versions of PHP:",
+  "cveList": [],
+  "date": "11 January 2019",
+  "rawDate": "2019-01-11T16:17:53",
+  "modifiedDate": "11 January 2019",
+  "rawModifiedDate": "2019-01-11T16:17:53",
+  "contentHtml": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in the following versions of PHP:</p>\n<p><strong>Version 5.6.40</strong></p>\n<p>Bug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>\n<p><strong>Version 7.1.26</strong></p>\n<p>Bug #77020 (null pointer dereference in imap_mail).<br />\nBug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free).<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77369 (memcpy with negative length via crafted DNS response).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>\n<p><strong>Version 7.2.14</strong></p>\n<p>Bug #71041 (zend_signal_startup() needs ZEND_API).<br />\nBug #76046 (PHP generates &#8220;FE_FREE&#8221; opcode on the wrong line).<br />\nBug #76804 (oci_pconnect with OCI_CRED_EXT not working).<br />\nBug #77020 (null pointer dereference in imap_mail).<br />\nBug #77051 (Issue with re-binding on SQLite3).<br />\nBug #77097 (DateTime::diff gives wrong diff when the actual diff is less than 1 second).<br />\nBug #77136 (Unsupported IPV6_RECVPKTINFO constants on macOS).<br />\nBug #77177 (serializing or unserializing COM objects crashes).<br />\nBug #77184 (unsigned rational numbers are written out as signed rationals).<br />\nBug #77195 (incorrect error handling of imagecreatefromjpeg()).<br />\nBug #77198 (auto cropping has insufficient precision).<br />\nBug #77200 (imagecropauto(…, GD_CROP_SIDES) crops left but not right).<br />\nBug #77215 (CFG assertion failure on multiple finalizing switch frees in one block).<br />\nBug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free).<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77369 (memcpy with negative length via crafted DNS response).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>\n<p><strong>Version 7.3.1</strong></p>\n<p>Bug #71041 (zend_signal_startup() needs ZEND_API).<br />\nBug #76046 (PHP generates &#8220;FE_FREE&#8221; opcode on the wrong line).<br />\nBug #76654 (build failure on Mac OS X on 32-bit Intel).<br />\nBug #76804 (oci_pconnect with OCI_CRED_EXT not working).<br />\nBug #77051 (Issue with re-binding on SQLite3).<br />\nBug #77088 (segfault when using SoapClient with null options).<br />\nBug #77136 (unsupported IPV6_RECVPKTINFO constants on macOS).<br />\nBug #77177 (serializing or unserializing COM objects crashes).<br />\nBug #77184 (unsigned rational numbers are written out as signed rationals).<br />\nBug #77193 (infinite loop in preg_replace_callback).<br />\nBug #77195 (incorrect error handling of imagecreatefromjpeg()).<br />\nBug #77198 (auto cropping has insufficient precision).<br />\nBug #77200 (imagecropauto(…, GD_CROP_SIDES) crops left but not right).<br />\nBug #77215 (CFG assertion failure on multiple finalizing switch frees in one block).<br />\nBug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77264 (curl_getinfo returning microseconds not seconds).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free).<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77275 (OPcache optimization problem for ArrayAccess->offsetGet).<br />\nBug #77291 (magic methods inherited from a trait may be ignored).<br />\nBug #77297 (SodiumException segfaults on PHP 7.3).<br />\nBug #77359 (spl_autoload causes segfault).<br />\nBug #77360 (class_uses causes segfault).<br />\nBug #77367 (negative size parameter in mb_split).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-005/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-005/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "PHP has released a security update stating that the following vulnerabilities have been discovered in the following versions of PHP: Version 5.6.40 Bug #77242 (heap out of bounds read in…",
+  "sourceExcerpt": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in the following versions of PHP: Version 5.6.40 Bug #77242 (heap out of bounds read in xmlrpc_decode()). Bug #77247 (heap buffer overflow in phar_detect_phar_fname_ext). Bug #77269 (efree() on uninitialized Heap data in imagescale leads to Bug #77270 (imagecolormatch Out Of Bounds [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-195-011119-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in the following versions of PHP:</p>",
+          "text": "PHP has released a security update stating that the following vulnerabilities have been discovered in the following versions of PHP:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 5.6.40",
+          "id": "version-5640"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>",
+          "text": "Bug #77242 (heap out of bounds read in xmlrpc_decode()). Bug #77247 (heap buffer overflow in phar_detect_phar_fname_ext). Bug #77269 (efree() on uninitialized Heap data in imagescale leads to Bug #77270 (imagecolormatch Out Of Bounds Write on Heap). Bug #77370 (buffer overflow on mb regex functions – fetch_token). Bug #77371 (heap buffer overflow in mb regex functions – compile_string_node). Bug #77380 (global out of bounds read in xmlrpc base64 code). Bug #77381 (heap buffer overflow in multibyte match_at). Bug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string). Bug #77385 (buffer overflow in fetch_token). Bug #77394 (buffer overflow in multibyte case folding – unicode). Bug #77418 (heap overflow in utf32be_mbc_to_code)."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 7.1.26",
+          "id": "version-7126"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #77020 (null pointer dereference in imap_mail).<br />\nBug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free).<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77369 (memcpy with negative length via crafted DNS response).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>",
+          "text": "Bug #77020 (null pointer dereference in imap_mail). Bug #77242 (heap out of bounds read in xmlrpc_decode()). Bug #77247 (heap buffer overflow in phar_detect_phar_fname_ext). Bug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free). Bug #77270 (imagecolormatch Out Of Bounds Write on Heap). Bug #77369 (memcpy with negative length via crafted DNS response). Bug #77370 (buffer overflow on mb regex functions – fetch_token). Bug #77371 (heap buffer overflow in mb regex functions – compile_string_node). Bug #77380 (global out of bounds read in xmlrpc base64 code). Bug #77381 (heap buffer overflow in multibyte match_at). Bug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string). Bug #77385 (buffer overflow in fetch_token). Bug #77394 (buffer overflow in multibyte case folding – unicode). Bug #77418 (heap overflow in utf32be_mbc_to_code)."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 7.2.14",
+          "id": "version-7214"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #71041 (zend_signal_startup() needs ZEND_API).<br />\nBug #76046 (PHP generates &#8220;FE_FREE&#8221; opcode on the wrong line).<br />\nBug #76804 (oci_pconnect with OCI_CRED_EXT not working).<br />\nBug #77020 (null pointer dereference in imap_mail).<br />\nBug #77051 (Issue with re-binding on SQLite3).<br />\nBug #77097 (DateTime::diff gives wrong diff when the actual diff is less than 1 second).<br />\nBug #77136 (Unsupported IPV6_RECVPKTINFO constants on macOS).<br />\nBug #77177 (serializing or unserializing COM objects crashes).<br />\nBug #77184 (unsigned rational numbers are written out as signed rationals).<br />\nBug #77195 (incorrect error handling of imagecreatefromjpeg()).<br />\nBug #77198 (auto cropping has insufficient precision).<br />\nBug #77200 (imagecropauto(…, GD_CROP_SIDES) crops left but not right).<br />\nBug #77215 (CFG assertion failure on multiple finalizing switch frees in one block).<br />\nBug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free).<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77369 (memcpy with negative length via crafted DNS response).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>",
+          "text": "Bug #71041 (zend_signal_startup() needs ZEND_API). Bug #76046 (PHP generates “FE_FREE” opcode on the wrong line). Bug #76804 (oci_pconnect with OCI_CRED_EXT not working). Bug #77020 (null pointer dereference in imap_mail). Bug #77051 (Issue with re-binding on SQLite3). Bug #77097 (DateTime::diff gives wrong diff when the actual diff is less than 1 second). Bug #77136 (Unsupported IPV6_RECVPKTINFO constants on macOS). Bug #77177 (serializing or unserializing COM objects crashes). Bug #77184 (unsigned rational numbers are written out as signed rationals). Bug #77195 (incorrect error handling of imagecreatefromjpeg()). Bug #77198 (auto cropping has insufficient precision). Bug #77200 (imagecropauto(…, GD_CROP_SIDES) crops left but not right). Bug #77215 (CFG assertion failure on multiple finalizing switch frees in one block). Bug #77242 (heap out of bounds read in xmlrpc_decode()). Bug #77247 (heap buffer overflow in phar_detect_phar_fname_ext). Bug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free). Bug #77270 (imagecolormatch Out Of Bounds Write on Heap). Bug #77369 (memcpy with negative length via crafted DNS response). Bug #77370 (buffer overflow on mb regex functions – fetch_token). Bug #77371 (heap buffer overflow in mb regex functions – compile_string_node). Bug #77380 (global out of bounds read in xmlrpc base64 code). Bug #77381 (heap buffer overflow in multibyte match_at). Bug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string). Bug #77385 (buffer overflow in fetch_token). Bug #77394 (buffer overflow in multibyte case folding – unicode). Bug #77418 (heap overflow in utf32be_mbc_to_code)."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 7.3.1",
+          "id": "version-731"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #71041 (zend_signal_startup() needs ZEND_API).<br />\nBug #76046 (PHP generates &#8220;FE_FREE&#8221; opcode on the wrong line).<br />\nBug #76654 (build failure on Mac OS X on 32-bit Intel).<br />\nBug #76804 (oci_pconnect with OCI_CRED_EXT not working).<br />\nBug #77051 (Issue with re-binding on SQLite3).<br />\nBug #77088 (segfault when using SoapClient with null options).<br />\nBug #77136 (unsupported IPV6_RECVPKTINFO constants on macOS).<br />\nBug #77177 (serializing or unserializing COM objects crashes).<br />\nBug #77184 (unsigned rational numbers are written out as signed rationals).<br />\nBug #77193 (infinite loop in preg_replace_callback).<br />\nBug #77195 (incorrect error handling of imagecreatefromjpeg()).<br />\nBug #77198 (auto cropping has insufficient precision).<br />\nBug #77200 (imagecropauto(…, GD_CROP_SIDES) crops left but not right).<br />\nBug #77215 (CFG assertion failure on multiple finalizing switch frees in one block).<br />\nBug #77242 (heap out of bounds read in xmlrpc_decode()).<br />\nBug #77247 (heap buffer overflow in phar_detect_phar_fname_ext).<br />\nBug #77264 (curl_getinfo returning microseconds not seconds).<br />\nBug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free).<br />\nBug #77270 (imagecolormatch Out Of Bounds Write on Heap).<br />\nBug #77275 (OPcache optimization problem for ArrayAccess->offsetGet).<br />\nBug #77291 (magic methods inherited from a trait may be ignored).<br />\nBug #77297 (SodiumException segfaults on PHP 7.3).<br />\nBug #77359 (spl_autoload causes segfault).<br />\nBug #77360 (class_uses causes segfault).<br />\nBug #77367 (negative size parameter in mb_split).<br />\nBug #77370 (buffer overflow on mb regex functions &#8211; fetch_token).<br />\nBug #77371 (heap buffer overflow in mb regex functions &#8211; compile_string_node).<br />\nBug #77380 (global out of bounds read in xmlrpc base64 code).<br />\nBug #77381 (heap buffer overflow in multibyte match_at).<br />\nBug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string).<br />\nBug #77385 (buffer overflow in fetch_token).<br />\nBug #77394 (buffer overflow in multibyte case folding &#8211; unicode).<br />\nBug #77418 (heap overflow in utf32be_mbc_to_code).</p>",
+          "text": "Bug #71041 (zend_signal_startup() needs ZEND_API). Bug #76046 (PHP generates “FE_FREE” opcode on the wrong line). Bug #76654 (build failure on Mac OS X on 32-bit Intel). Bug #76804 (oci_pconnect with OCI_CRED_EXT not working). Bug #77051 (Issue with re-binding on SQLite3). Bug #77088 (segfault when using SoapClient with null options). Bug #77136 (unsupported IPV6_RECVPKTINFO constants on macOS). Bug #77177 (serializing or unserializing COM objects crashes). Bug #77184 (unsigned rational numbers are written out as signed rationals). Bug #77193 (infinite loop in preg_replace_callback). Bug #77195 (incorrect error handling of imagecreatefromjpeg()). Bug #77198 (auto cropping has insufficient precision). Bug #77200 (imagecropauto(…, GD_CROP_SIDES) crops left but not right). Bug #77215 (CFG assertion failure on multiple finalizing switch frees in one block). Bug #77242 (heap out of bounds read in xmlrpc_decode()). Bug #77247 (heap buffer overflow in phar_detect_phar_fname_ext). Bug #77264 (curl_getinfo returning microseconds not seconds). Bug #77269 (efree() on uninitialized Heap data in imagescale leads to use-after-free). Bug #77270 (imagecolormatch Out Of Bounds Write on Heap). Bug #77275 (OPcache optimization problem for ArrayAccess->offsetGet). Bug #77291 (magic methods inherited from a trait may be ignored). Bug #77297 (SodiumException segfaults on PHP 7.3). Bug #77359 (spl_autoload causes segfault). Bug #77360 (class_uses causes segfault). Bug #77367 (negative size parameter in mb_split). Bug #77370 (buffer overflow on mb regex functions – fetch_token). Bug #77371 (heap buffer overflow in mb regex functions – compile_string_node). Bug #77380 (global out of bounds read in xmlrpc base64 code). Bug #77381 (heap buffer overflow in multibyte match_at). Bug #77382 (heap buffer overflow due to incorrect length in expand_case_fold_string). Bug #77385 (buffer overflow in fetch_token). Bug #77394 (buffer overflow in multibyte case folding – unicode). Bug #77418 (heap overflow in utf32be_mbc_to_code)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-005/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-005/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-005/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "version-5640",
+      "label": "Version 5.6.40",
+      "isSubItem": true
+    },
+    {
+      "id": "version-7126",
+      "label": "Version 7.1.26",
+      "isSubItem": true
+    },
+    {
+      "id": "version-7214",
+      "label": "Version 7.2.14",
+      "isSubItem": true
+    },
+    {
+      "id": "version-731",
+      "label": "Version 7.3.1",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-005/"
+  ],
+  "readingTimeMinutes": 4,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-195-011119-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2019-01-11T16:17:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

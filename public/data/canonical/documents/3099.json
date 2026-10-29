@@ -1,0 +1,70 @@
+{
+  "id": "3099",
+  "legacyPostId": 3099,
+  "referenceNumber": "TT-CSIRT #068",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-068.113017: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-068-113017-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that multiple vulnerabilities exist in Cisco WebEx Network Recording Player for Advanced Recording Format (ARF) and WebEx Recording Format (WRF) files. A remote attacker could exploit these vulnerabilities by providing a user with a malicious ARF or WRF file via email or URL and convincing the user to launch the file. Exploitation of these vulnerabilities could cause an affected player to crash and, in some cases, could allow arbitrary code execution on the system of a targeted user.",
+  "cveList": [],
+  "date": "30 November 2017",
+  "rawDate": "2017-11-30T14:43:44",
+  "modifiedDate": "30 November 2017",
+  "rawModifiedDate": "2017-11-30T14:43:44",
+  "contentHtml": "<p>Cisco has released a security update stating that multiple vulnerabilities exist in Cisco WebEx Network Recording Player for Advanced Recording Format (ARF) and WebEx Recording Format (WRF) files. A remote attacker could exploit these vulnerabilities by providing a user with a malicious ARF or WRF file via email or URL and convincing the user to launch the file. Exploitation of these vulnerabilities could cause an affected player to crash and, in some cases, could allow arbitrary code execution on the system of a targeted user.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that multiple vulnerabilities exist in Cisco WebEx Network Recording Player for Advanced Recording Format (ARF) and WebEx Recording Format (WRF) files.",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that multiple vulnerabilities exist in Cisco WebEx Network Recording Player for Advanced Recording Format (ARF) and WebEx Recording Format (WRF) files. A remote attacker could exploit these vulnerabilities by providing a user with a malicious ARF or WRF file via email or URL and convincing the user to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-068-113017-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that multiple vulnerabilities exist in Cisco WebEx Network Recording Player for Advanced Recording Format (ARF) and WebEx Recording Format (WRF) files. A remote attacker could exploit these vulnerabilities by providing a user with a malicious ARF or WRF file via email or URL and convincing the user to launch the file. Exploitation of these vulnerabilities could cause an affected player to crash and, in some cases, could allow arbitrary code execution on the system of a targeted user.</p>",
+          "text": "Cisco has released a security update stating that multiple vulnerabilities exist in Cisco WebEx Network Recording Player for Advanced Recording Format (ARF) and WebEx Recording Format (WRF) files. A remote attacker could exploit these vulnerabilities by providing a user with a malicious ARF or WRF file via email or URL and convincing the user to launch the file. Exploitation of these vulnerabilities could cause an affected player to crash and, in some cases, could allow arbitrary code execution on the system of a targeted user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-068-113017-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2017-11-30T14:43:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

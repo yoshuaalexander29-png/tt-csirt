@@ -1,0 +1,79 @@
+{
+  "id": "4750",
+  "legacyPostId": 4750,
+  "referenceNumber": "TT-CSIRT 371.10.22.20",
+  "classification": "advisory",
+  "title": "Adobe releases security updates for multiple products",
+  "rawTitle": "TTCSIRT-371.10.22.20: TT-CSIRT ADVISORY – Adobe Releases Security Updates for Multiple Products",
+  "slug": "ttcsirt-371-10-22-20-tt-csirt-advisory-adobe-releases-security-updates-for-multiple-products",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "22 October 2020",
+  "rawDate": "2020-10-22T12:45:32",
+  "modifiedDate": "22 October 2020",
+  "rawModifiedDate": "2020-10-22T12:45:32",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates.</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Illustrator: APSB20-53</li><li>Dreamweaver: APSB20-55</li><li>Marketo: APSB20-60</li><li>Animate: APSB20-61</li><li>After Effects: APSB20-62</li><li>Photoshop: APSB20-63</li><li>Premiere Pro: APSB20-64</li><li>Media Encoder: APSB20-65</li><li>InDesign: APSB20-66</li><li>Creative Cloud Desktop Application: APSB20-68</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">For further information and sport, please visit the link below:<br><a href=\"https://helpx.adobe.com/security.html\" target=\"_blank\" rel=\"noreferrer noopener\">Adobe Security Bulletins</a></p>\n",
+  "displaySummary": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates. Illustrator: APSB20-53 Dreamweaver: APSB20-55 Marketo: APSB20-60 Animate: APSB20-61 After Effects: APSB20-62 Photoshop: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-371-10-22-20-tt-csirt-advisory-adobe-releases-security-updates-for-multiple-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates.</p>",
+          "text": "TTCSIRT encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Illustrator: APSB20-53</li><li>Dreamweaver: APSB20-55</li><li>Marketo: APSB20-60</li><li>Animate: APSB20-61</li><li>After Effects: APSB20-62</li><li>Photoshop: APSB20-63</li><li>Premiere Pro: APSB20-64</li><li>Media Encoder: APSB20-65</li><li>InDesign: APSB20-66</li><li>Creative Cloud Desktop Application: APSB20-68</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and sport, please visit the link below:<br><a href=\"https://helpx.adobe.com/security.html\" target=\"_blank\" rel=\"noreferrer noopener\">Adobe Security Bulletins</a></p>",
+          "text": "For further information and sport, please visit the link below: Adobe Security Bulletins"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-371-10-22-20-tt-csirt-advisory-adobe-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2020-10-22T12:45:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

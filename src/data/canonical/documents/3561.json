@@ -1,0 +1,130 @@
+{
+  "id": "3561",
+  "legacyPostId": 3561,
+  "referenceNumber": "TT-CSIRT #173",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-173.101618: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-173-101618-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.11 &#038; 7.1.23:",
+  "cveList": [],
+  "date": "16 October 2018",
+  "rawDate": "2018-10-16T18:26:47",
+  "modifiedDate": "16 October 2018",
+  "rawModifiedDate": "2018-10-16T18:26:47",
+  "contentHtml": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.11 &#038; 7.1.23:</p>\n<p>a) Bug #66828 &#8211; (iconv_mime_encode Q-encoding longer than it should be).</p>\n<p>b) Bug #73457 &#8211; (Wrong error message when fopen FTP wrapped fails to open data connection).</p>\n<p>c) Bug #74454 &#8211; (Wrong exception being thrown when using ReflectionMethod).</p>\n<p>d) Bug #74764 &#8211; (Bindto IPv6 works with file_get_contents but fails with stream_socket_client).</p>\n<p>e) Bug #75273 &#8211; (php_zlib_inflate_filter() may not update bytes_consumed).</p>\n<p>f) Bug #75533 &#8211; (array_reduce is slow when $carry is large array).</p>\n<p>g) Bug #75696 &#8211; (posix_getgrnam fails to print details of group).</p>\n<p>h) Bug #76480 &#8211; (Use curl_multi_wait() so that timeouts are respected).</p>\n<p>i) Bug #76832 &#8211; (ZendOPcache.MemoryBase periodically deleted by the OS).</p>\n<p>j) Bug #76846 &#8211; (Segfault in shutdown function after memory limit error).</p>\n<p>k) Bug #76901 &#8211; (method_exists on SPL iterator passthrough method corrupts memory).</p>\n<p>Successfully exploitation the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-113/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-113/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.11 &#038; 7.1.23: a) Bug #66828 &#8211; (iconv_mime_encode Q-encoding longer…",
+  "sourceExcerpt": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.11 &#038; 7.1.23: a) Bug #66828 &#8211; (iconv_mime_encode Q-encoding longer than it should be). b) Bug #73457 &#8211; (Wrong error message when fopen FTP wrapped fails to open data connection). c) Bug #74454 &#8211; (Wrong exception being thrown [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-173-101618-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.11 &#038; 7.1.23:</p>",
+          "text": "PHP has released a security update stating that the following vulnerabilities have been discovered in PHP ver 7.2.11 &#038; 7.1.23:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Bug #66828 &#8211; (iconv_mime_encode Q-encoding longer than it should be).</p>",
+          "text": "a) Bug #66828 – (iconv_mime_encode Q-encoding longer than it should be)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Bug #73457 &#8211; (Wrong error message when fopen FTP wrapped fails to open data connection).</p>",
+          "text": "b) Bug #73457 – (Wrong error message when fopen FTP wrapped fails to open data connection)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Bug #74454 &#8211; (Wrong exception being thrown when using ReflectionMethod).</p>",
+          "text": "c) Bug #74454 – (Wrong exception being thrown when using ReflectionMethod)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Bug #74764 &#8211; (Bindto IPv6 works with file_get_contents but fails with stream_socket_client).</p>",
+          "text": "d) Bug #74764 – (Bindto IPv6 works with file_get_contents but fails with stream_socket_client)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Bug #75273 &#8211; (php_zlib_inflate_filter() may not update bytes_consumed).</p>",
+          "text": "e) Bug #75273 – (php_zlib_inflate_filter() may not update bytes_consumed)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Bug #75533 &#8211; (array_reduce is slow when $carry is large array).</p>",
+          "text": "f) Bug #75533 – (array_reduce is slow when $carry is large array)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Bug #75696 &#8211; (posix_getgrnam fails to print details of group).</p>",
+          "text": "g) Bug #75696 – (posix_getgrnam fails to print details of group)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Bug #76480 &#8211; (Use curl_multi_wait() so that timeouts are respected).</p>",
+          "text": "h) Bug #76480 – (Use curl_multi_wait() so that timeouts are respected)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Bug #76832 &#8211; (ZendOPcache.MemoryBase periodically deleted by the OS).</p>",
+          "text": "i) Bug #76832 – (ZendOPcache.MemoryBase periodically deleted by the OS)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Bug #76846 &#8211; (Segfault in shutdown function after memory limit error).</p>",
+          "text": "j) Bug #76846 – (Segfault in shutdown function after memory limit error)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Bug #76901 &#8211; (method_exists on SPL iterator passthrough method corrupts memory).</p>",
+          "text": "k) Bug #76901 – (method_exists on SPL iterator passthrough method corrupts memory)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploitation the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successfully exploitation the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-113/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-113/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-113/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-113/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-173-101618-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2018-10-16T18:26:47",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

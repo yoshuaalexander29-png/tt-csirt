@@ -1,0 +1,75 @@
+{
+  "id": "2964",
+  "legacyPostId": 2964,
+  "referenceNumber": "TT-CSIRT #040",
+  "classification": "advisory",
+  "title": "Apache security updates",
+  "rawTitle": "TTCSIRT-040.090617: TT-CSIRT Advisory – Apache Security Updates",
+  "slug": "ttcsirt-040-090617-tt-csirt-advisory-apache-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability has been discovered in Apache Struts which could allow for remote code execution. This vulnerability exists because the REST Plugin is using a XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to remote code execution when deserializing XML payloads.",
+  "cveList": [],
+  "date": "6 September 2017",
+  "rawDate": "2017-09-06T10:58:35",
+  "modifiedDate": "6 September 2017",
+  "rawModifiedDate": "2017-09-06T10:58:35",
+  "contentHtml": "<p>A vulnerability has been discovered in Apache Struts which could allow for remote code execution. This vulnerability exists because the REST Plugin is using a XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to remote code execution when deserializing XML payloads.</p>\n<p>Successful exploitation of this vulnerability could allow for remote code execution in the context of the application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/vulnerability-in-apache-struts-could-allow-for-remote-code-execution-2/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/vulnerability-in-apache-struts-could-allow-for-remote-code-execution-2/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "A vulnerability has been discovered in Apache Struts which could allow for remote code execution.",
+  "sourceExcerpt": "<p>A vulnerability has been discovered in Apache Struts which could allow for remote code execution. This vulnerability exists because the REST Plugin is using a XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to remote code execution when deserializing XML payloads. Successful exploitation of this vulnerability could allow [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-040-090617-tt-csirt-advisory-apache-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability has been discovered in Apache Struts which could allow for remote code execution. This vulnerability exists because the REST Plugin is using a XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to remote code execution when deserializing XML payloads.</p>",
+          "text": "A vulnerability has been discovered in Apache Struts which could allow for remote code execution. This vulnerability exists because the REST Plugin is using a XStreamHandler with an instance of XStream for deserialization without any type filtering, which can lead to remote code execution when deserializing XML payloads."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability could allow for remote code execution in the context of the application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of this vulnerability could allow for remote code execution in the context of the application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/vulnerability-in-apache-struts-could-allow-for-remote-code-execution-2/\">https://www.cisecurity.org/advisory/vulnerability-in-apache-struts-could-allow-for-remote-code-execution-2/</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found at https://www.cisecurity.org/advisory/vulnerability-in-apache-struts-could-allow-for-remote-code-execution-2/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/vulnerability-in-apache-struts-could-allow-for-remote-code-execution-2/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-040-090617-tt-csirt-advisory-apache-security-updates/",
+    "upstreamDisclosedAt": "2017-09-06T10:58:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

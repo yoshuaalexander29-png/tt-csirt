@@ -1,0 +1,142 @@
+{
+  "id": "3979",
+  "legacyPostId": 3979,
+  "referenceNumber": "TT-CSIRT #258",
+  "classification": "advisory",
+  "title": "FortiMail admin privilege escalation",
+  "rawTitle": "TTCSIRT-258.010620: TT-CSIRT ADVISORY- FORTIMAIL ADMIN PRIVILEGE ESCALATION",
+  "slug": "ttcsirt-258-010620-tt-csirt-advisory-fortimail-admin-privilege-escalation-through-improper-user-profile-control-2",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for.",
+  "cveList": [
+    "CVE-2019-15712",
+    "CVE-2019-15707"
+  ],
+  "date": "6 January 2020",
+  "rawDate": "2020-01-06T14:45:21",
+  "modifiedDate": "6 January 2020",
+  "rawModifiedDate": "2020-01-06T14:45:21",
+  "contentHtml": "<p>Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for.</p>\n<p>Specifically, the two vulnerabilities are identified as the following:<br />\nCVE-2019-15712: improper access control to web console<br />\nCVE-2019-15707: improper access control to system backup config download</p>\n<p><strong>Impact:</strong> Improper Access Control</p>\n<p><strong>Affected Products:</strong> FortiMail 6.2.0, 6.0.0 to 6.0.6, 5.4.10 and below.</p>\n<p><strong>Solutions:</strong> Upgrade to 6.2.1, 6.0.7 or 5.4.11</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review <a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15707\"><br />\n</a>CVE-2019-15707, CVE-2019-15712 and  apply the necessary updates.</p>\n<p>For further review please see the following link:</p>\n<ul>\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-19-237\">https://fortiguard.com/psirt/FG-IR-19-237</a></li>\n</ul>\n",
+  "displaySummary": "Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for.",
+  "sourceExcerpt": "<p>Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for. Specifically, the two vulnerabilities are identified as the following: CVE-2019-15712: improper access control to web console CVE-2019-15707: improper access control to system backup config download Impact: Improper Access Control Affected Products: FortiMail 6.2.0, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-258-010620-tt-csirt-advisory-fortimail-admin-privilege-escalation-through-improper-user-profile-control-2/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for.</p>",
+          "text": "Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Specifically, the two vulnerabilities are identified as the following:<br />\nCVE-2019-15712: improper access control to web console<br />\nCVE-2019-15707: improper access control to system backup config download</p>",
+          "text": "Specifically, the two vulnerabilities are identified as the following: CVE-2019-15712: improper access control to web console CVE-2019-15707: improper access control to system backup config download"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Improper Access Control</p>",
+          "text": "Improper Access Control"
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected products",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>FortiMail 6.2.0, 6.0.0 to 6.0.6, 5.4.10 and below.</p>",
+          "text": "FortiMail 6.2.0, 6.0.0 to 6.0.6, 5.4.10 and below."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Solutions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Upgrade to 6.2.1, 6.0.7 or 5.4.11</p>",
+          "text": "Upgrade to 6.2.1, 6.0.7 or 5.4.11"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review <a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15707\"><br />\n</a>CVE-2019-15707, CVE-2019-15712 and  apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review CVE-2019-15707, CVE-2019-15712 and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://fortiguard.com/psirt/FG-IR-19-237\">https://fortiguard.com/psirt/FG-IR-19-237</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected products"
+    },
+    {
+      "id": "recommendations",
+      "label": "Solutions"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15707",
+    "https://fortiguard.com/psirt/FG-IR-19-237"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-258-010620-tt-csirt-advisory-fortimail-admin-privilege-escalation-through-improper-user-profile-control-2/",
+    "upstreamDisclosedAt": "2020-01-06T14:45:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

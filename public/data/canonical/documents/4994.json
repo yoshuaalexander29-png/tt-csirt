@@ -1,0 +1,120 @@
+{
+  "id": "4994",
+  "legacyPostId": 4994,
+  "referenceNumber": "TT-CSIRT 394.05.14.21",
+  "classification": "advisory",
+  "title": "WordPress 5.7.2 security release",
+  "rawTitle": "TTCSIRT-394.05.14.21 TTCSIRT ADVISORY- WORDPRESS 5.7.2 SECURITY RELEASE",
+  "slug": "ttcsirt-394-05-14-21-ttcsirt-advisory-wordpress-5-7-2-security-release",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.",
+  "cveList": [
+    "CVE-2020-36326",
+    "CVE-2018-19296"
+  ],
+  "date": "14 May 2021",
+  "rawDate": "2021-05-14T12:17:48",
+  "modifiedDate": "14 May 2021",
+  "rawModifiedDate": "2021-05-14T12:17:48",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.</p>\n\n\n\n<p class=\"wp-block-paragraph\">WordPress 5.7.2 is a short-cycle security release. The next major release will be version 5.8.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You can update to WordPress 5.7.2 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have sites that support automatic background updates, they’ve already started the update process.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Security Updates</h3>\n\n\n\n<p class=\"wp-block-paragraph\">One security issue affecting WordPress versions between 3.7 and 5.7. If you haven’t yet updated to 5.7, all WordPress versions since 3.7 have also been updated to fix the following security issue:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Object injection in PHPMailer,&nbsp;<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2020-36326\">CVE-2020-36326</a>&nbsp;and&nbsp;<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2018-19296\">CVE-2018-19296</a>.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review and perform the relevant updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further insight on this advisory kindly follow the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/\">https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately.",
+  "sourceExcerpt": "<p>WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.7.2 is a short-cycle security release. The next major release will be version 5.8. You can update to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-394-05-14-21-ttcsirt-advisory-wordpress-5-7-2-security-release/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.</p>",
+          "text": "WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress 5.7.2 is a short-cycle security release. The next major release will be version 5.8.</p>",
+          "text": "WordPress 5.7.2 is a short-cycle security release. The next major release will be version 5.8."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>You can update to WordPress 5.7.2 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now.</p>",
+          "text": "You can update to WordPress 5.7.2 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>",
+          "text": "If you have sites that support automatic background updates, they’ve already started the update process."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Security updates",
+          "id": "security-updates"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>One security issue affecting WordPress versions between 3.7 and 5.7. If you haven’t yet updated to 5.7, all WordPress versions since 3.7 have also been updated to fix the following security issue:</p>",
+          "text": "One security issue affecting WordPress versions between 3.7 and 5.7. If you haven’t yet updated to 5.7, all WordPress versions since 3.7 have also been updated to fix the following security issue:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Object injection in PHPMailer,&nbsp;<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2020-36326\">CVE-2020-36326</a>&nbsp;and&nbsp;<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2018-19296\">CVE-2018-19296</a>.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review and perform the relevant updates.</p>",
+          "text": "The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review and perform the relevant updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further insight on this advisory kindly follow the link below:</p>",
+          "text": "For further insight on this advisory kindly follow the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/\">https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/</a></p>",
+          "text": "https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "security-updates",
+      "label": "Security updates",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://nvd.nist.gov/vuln/detail/CVE-2020-36326",
+    "https://nvd.nist.gov/vuln/detail/CVE-2018-19296",
+    "https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-394-05-14-21-ttcsirt-advisory-wordpress-5-7-2-security-release/",
+    "upstreamDisclosedAt": "2021-05-14T12:17:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

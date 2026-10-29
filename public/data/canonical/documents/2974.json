@@ -1,0 +1,147 @@
+{
+  "id": "2974",
+  "legacyPostId": 2974,
+  "referenceNumber": "TT-CSIRT #042",
+  "classification": "advisory",
+  "title": "Bluetooth security updates",
+  "rawTitle": "TTCSIRT-042.091417: TT-CSIRT Advisory – Bluetooth Security Updates",
+  "slug": "ttcsirt-042-091417-tt-csirt-advisory-bluetooth-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A collection of Bluetooth implementation vulnerabilities known as “BlueBorne” has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen and may in worst case allow an unauthenticated attacker to perform commands on the device.",
+  "cveList": [
+    "CVE-2017-1000251",
+    "CVE-2017-1000250",
+    "CVE-2017-0785",
+    "CVE-2017-0781",
+    "CVE-2017-0782",
+    "CVE-2017-14315",
+    "CVE-2017-0783",
+    "CVE-2017-8628"
+  ],
+  "date": "14 September 2017",
+  "rawDate": "2017-09-14T11:20:36",
+  "modifiedDate": "14 September 2017",
+  "rawModifiedDate": "2017-09-14T11:20:36",
+  "contentHtml": "<p>A collection of Bluetooth implementation vulnerabilities known as &#8220;BlueBorne&#8221; has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen and may in worst case allow an unauthenticated attacker to perform commands on the device.</p>\n<p>The following vulnerabilities have been identified in various Bluetooth implementations:</p>\n<p>1) <strong>CWE-120: Buffer Copy without Checking Size of Input (&#8216;Classic Buffer Overflow&#8217;) &#8211; CVE-2017-1000251 </strong></p>\n<p>Linux kernel versions from 3.3-rc1 to present contain a vulnerable implementation of L2CAP EFS within the BlueZ module. The l2cap_parse_conf_rsp function does not properly check then length of the rsp argument prior to unpacking, allowing an attacker to overflow a 64 byte buffer on the kernel stack with an unlimited amount of data crafted to conform to a valid L2CAP response.</p>\n<p>2) <strong>CWE-125: Out-of-bounds Read &#8211; CVE-2017-1000250</strong> </p>\n<p>All versions of BlueZ for Linux contains a vulnerable implementation of SDP. An attacker may be able to control the continuation state within SDP request packets and cause the SDP server to return an out of bounds read from the response buffer.</p>\n<p>3) <strong>CWE-125: Out-of-bounds Read &#8211; CVE-2017-0785 </strong></p>\n<p>All versions of Android prior to September 9, 2017 Security Patch level contain a vulnerable implementation of SDP within the Android Bluetooth software stack. An attacker may be able to control the continuation state within SDP request packets and cause the SDP server to return an out of bounds read from the response buffer. While a similar flaw to CVE-2017-1000250, this is a distinct vulnerability in a different software stack.</p>\n<p>4) <strong>CWE-122: Heap-based Buffer Overflow &#8211; CVE-2017-0781</strong></p>\n<p>In all versions of Android prior to September 9, 2017 Security Patch level, an incorrect buffer size passed to a memcpy call within the BNEP implementation for Android may allow an attacker to send crafted packets to the device that overflow the heap.</p>\n<p>5) <strong>CWE-191: Integer Underflow (Wrap or Wraparound) &#8211; CVE-2017-0782</strong> </p>\n<p>In all versions of Android prior to September 9, 2017 Security Patch level, the bnep_process_control_packet function of the BNEP implementation for Android does not properly check the size of rem_len before decrementing, allowing integer underflow and further unsafe processing of attacker-controlled packets.</p>\n<p>6) <strong>CWE-122: Heap-based Buffer Overflow- CVE-2017-14315 </strong></p>\n<p>Apple&#8217;s Bluetooth Low-Energy Audio Protocol (LEAP) implementation in iOS version 9.3.5 and lower, and AppleTV tvOS version 7.2.2 and lower, does not properly validate the CID for incoming Bluetooth LEAP audio data, which may result in a heap overflow by not properly validating packet size before calling memcpy. An attacker sending &#8220;classic&#8221; (non-low-energy) Bluetooth packets may be able to cause multiple heap overflows resulting in code execution with the Bluetooth stack context.</p>\n<p>7) <strong>CWE-300: Channel Accessible by Non-Endpoint (&#8216;Man-in-the-Middle&#8217;) &#8211; CVE-2017-0783 and CVE-2017-8628</strong></p>\n<p>Incorrect &#8220;Security Level&#8221; requirements in the PAN profile of the Bluetooth implementation may allow an attacker to gain permissions to perform man in the middle attacks on the user. CVE-2017-0783 applies to all versions of Android prior to the September 9, 2017, Security Patch Level, while CVE-2017-8628 applies to a similar flaw in all versions of Windows from Windows Vista to Windows 10.</p>\n<p>Further information on these vulnerabilities and how they can be resolved can be found at <a href=\"https://www.kb.cert.org/vuls/id/240311\"><font size=\"2\" color=\"maroon\">https://www.kb.cert.org/vuls/id/240311</font></a></p>\n",
+  "displaySummary": "A collection of Bluetooth implementation vulnerabilities known as &#8220;BlueBorne&#8221; has been released.",
+  "sourceExcerpt": "<p>A collection of Bluetooth implementation vulnerabilities known as &#8220;BlueBorne&#8221; has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen and may in worst case allow an unauthenticated attacker to perform commands on the device. The following vulnerabilities have been identified in various Bluetooth implementations: 1) CWE-120: Buffer Copy [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-042-091417-tt-csirt-advisory-bluetooth-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A collection of Bluetooth implementation vulnerabilities known as &#8220;BlueBorne&#8221; has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen and may in worst case allow an unauthenticated attacker to perform commands on the device.</p>",
+          "text": "A collection of Bluetooth implementation vulnerabilities known as “BlueBorne” has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen and may in worst case allow an unauthenticated attacker to perform commands on the device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The following vulnerabilities have been identified in various Bluetooth implementations:</p>",
+          "text": "The following vulnerabilities have been identified in various Bluetooth implementations:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-120: Buffer Copy without Checking Size of Input (&#8216;Classic Buffer Overflow&#8217;) &#8211; CVE-2017-1000251 </strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Linux kernel versions from 3.3-rc1 to present contain a vulnerable implementation of L2CAP EFS within the BlueZ module. The l2cap_parse_conf_rsp function does not properly check then length of the rsp argument prior to unpacking, allowing an attacker to overflow a 64 byte buffer on the kernel stack with an unlimited amount of data crafted to conform to a valid L2CAP response.</p>",
+          "text": "Linux kernel versions from 3.3-rc1 to present contain a vulnerable implementation of L2CAP EFS within the BlueZ module. The l2cap_parse_conf_rsp function does not properly check then length of the rsp argument prior to unpacking, allowing an attacker to overflow a 64 byte buffer on the kernel stack with an unlimited amount of data crafted to conform to a valid L2CAP response."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-125: Out-of-bounds Read &#8211; CVE-2017-1000250</strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>All versions of BlueZ for Linux contains a vulnerable implementation of SDP. An attacker may be able to control the continuation state within SDP request packets and cause the SDP server to return an out of bounds read from the response buffer.</p>",
+          "text": "All versions of BlueZ for Linux contains a vulnerable implementation of SDP. An attacker may be able to control the continuation state within SDP request packets and cause the SDP server to return an out of bounds read from the response buffer."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-125: Out-of-bounds Read &#8211; CVE-2017-0785 </strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>All versions of Android prior to September 9, 2017 Security Patch level contain a vulnerable implementation of SDP within the Android Bluetooth software stack. An attacker may be able to control the continuation state within SDP request packets and cause the SDP server to return an out of bounds read from the response buffer. While a similar flaw to CVE-2017-1000250, this is a distinct vulnerability in a different software stack.</p>",
+          "text": "All versions of Android prior to September 9, 2017 Security Patch level contain a vulnerable implementation of SDP within the Android Bluetooth software stack. An attacker may be able to control the continuation state within SDP request packets and cause the SDP server to return an out of bounds read from the response buffer. While a similar flaw to CVE-2017-1000250, this is a distinct vulnerability in a different software stack."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-122: Heap-based Buffer Overflow &#8211; CVE-2017-0781</strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In all versions of Android prior to September 9, 2017 Security Patch level, an incorrect buffer size passed to a memcpy call within the BNEP implementation for Android may allow an attacker to send crafted packets to the device that overflow the heap.</p>",
+          "text": "In all versions of Android prior to September 9, 2017 Security Patch level, an incorrect buffer size passed to a memcpy call within the BNEP implementation for Android may allow an attacker to send crafted packets to the device that overflow the heap."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-191: Integer Underflow (Wrap or Wraparound) &#8211; CVE-2017-0782</strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In all versions of Android prior to September 9, 2017 Security Patch level, the bnep_process_control_packet function of the BNEP implementation for Android does not properly check the size of rem_len before decrementing, allowing integer underflow and further unsafe processing of attacker-controlled packets.</p>",
+          "text": "In all versions of Android prior to September 9, 2017 Security Patch level, the bnep_process_control_packet function of the BNEP implementation for Android does not properly check the size of rem_len before decrementing, allowing integer underflow and further unsafe processing of attacker-controlled packets."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-122: Heap-based Buffer Overflow- CVE-2017-14315 </strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Apple&#8217;s Bluetooth Low-Energy Audio Protocol (LEAP) implementation in iOS version 9.3.5 and lower, and AppleTV tvOS version 7.2.2 and lower, does not properly validate the CID for incoming Bluetooth LEAP audio data, which may result in a heap overflow by not properly validating packet size before calling memcpy. An attacker sending &#8220;classic&#8221; (non-low-energy) Bluetooth packets may be able to cause multiple heap overflows resulting in code execution with the Bluetooth stack context.</p>",
+          "text": "Apple’s Bluetooth Low-Energy Audio Protocol (LEAP) implementation in iOS version 9.3.5 and lower, and AppleTV tvOS version 7.2.2 and lower, does not properly validate the CID for incoming Bluetooth LEAP audio data, which may result in a heap overflow by not properly validating packet size before calling memcpy. An attacker sending “classic” (non-low-energy) Bluetooth packets may be able to cause multiple heap overflows resulting in code execution with the Bluetooth stack context."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>CWE-300: Channel Accessible by Non-Endpoint (&#8216;Man-in-the-Middle&#8217;) &#8211; CVE-2017-0783 and CVE-2017-8628</strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Incorrect &#8220;Security Level&#8221; requirements in the PAN profile of the Bluetooth implementation may allow an attacker to gain permissions to perform man in the middle attacks on the user. CVE-2017-0783 applies to all versions of Android prior to the September 9, 2017, Security Patch Level, while CVE-2017-8628 applies to a similar flaw in all versions of Windows from Windows Vista to Windows 10.</p>",
+          "text": "Incorrect “Security Level” requirements in the PAN profile of the Bluetooth implementation may allow an attacker to gain permissions to perform man in the middle attacks on the user. CVE-2017-0783 applies to all versions of Android prior to the September 9, 2017, Security Patch Level, while CVE-2017-8628 applies to a similar flaw in all versions of Windows from Windows Vista to Windows 10."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be resolved can be found at <a href=\"https://www.kb.cert.org/vuls/id/240311\">https://www.kb.cert.org/vuls/id/240311</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be resolved can be found at https://www.kb.cert.org/vuls/id/240311"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.kb.cert.org/vuls/id/240311"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-042-091417-tt-csirt-advisory-bluetooth-security-updates/",
+    "upstreamDisclosedAt": "2017-09-14T11:20:36",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

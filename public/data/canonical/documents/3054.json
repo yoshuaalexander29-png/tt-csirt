@@ -1,0 +1,117 @@
+{
+  "id": "3054",
+  "legacyPostId": 3054,
+  "referenceNumber": "TT-CSIRT #058",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-058.110217: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-058-110217-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "2 November 2017",
+  "rawDate": "2017-11-02T15:45:18",
+  "modifiedDate": "2 November 2017",
+  "rawModifiedDate": "2017-11-02T15:45:18",
+  "contentHtml": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>Information on the products affected and how they can be fixed can be found on the Cisco Website via the following links:</p>\n<table>\n<tr>\n<td>a) Wireless LAN Controller 802.11v Basic Service Set Transition Management Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-wlc2\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-wlc2</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>b) Wireless LAN Controller Simple Network Management Protocol Memory Leak Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-wlc1\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-wlc1</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>c) Identity Services Engine Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-ise\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-ise</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>d) Firepower 4100 Series NGFW and Firepower 9300 Security Appliance Smart Licensing Command Injection Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-fpwr\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-fpwr</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>e) Prime Collaboration Provisioning Authenticated SQL Injection Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-cpcp\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-cpcp</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>f) Application Policy Infrastructure Controller Enterprise Module Unauthorized Access Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-apicem\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-apicem</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>g) Aironet 1560, 2800, and 3800 Series Access Point Platforms Extensible Authentication Protocol Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-aironet2\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-aironet2</font></a></td>\n</tr>\n</table>\n<p></p>\n<table>\n<tr>\n<td>h) Aironet 1560, 2800, and 3800 Series Access Point Platforms 802.11 Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-aironet1\"><font size=\"2\" color=\"maroon\">cisco-sa-20171101-aironet1</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. Information on the products affected and how they can be fixed can be found on the Cisco Website via the following links: a) Wireless LAN Controller 802.11v Basic [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-058-110217-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Information on the products affected and how they can be fixed can be found on the Cisco Website via the following links:</p>",
+          "text": "Information on the products affected and how they can be fixed can be found on the Cisco Website via the following links:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Wireless LAN Controller 802.11v Basic Service Set Transition Management Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-wlc2\">cisco-sa-20171101-wlc2</a></p>",
+          "text": "a) Wireless LAN Controller 802.11v Basic Service Set Transition Management Denial of Service Vulnerability cisco-sa-20171101-wlc2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Wireless LAN Controller Simple Network Management Protocol Memory Leak Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-wlc1\">cisco-sa-20171101-wlc1</a></p>",
+          "text": "b) Wireless LAN Controller Simple Network Management Protocol Memory Leak Denial of Service Vulnerability cisco-sa-20171101-wlc1"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Identity Services Engine Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-ise\">cisco-sa-20171101-ise</a></p>",
+          "text": "c) Identity Services Engine Privilege Escalation Vulnerability cisco-sa-20171101-ise"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Firepower 4100 Series NGFW and Firepower 9300 Security Appliance Smart Licensing Command Injection Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-fpwr\">cisco-sa-20171101-fpwr</a></p>",
+          "text": "d) Firepower 4100 Series NGFW and Firepower 9300 Security Appliance Smart Licensing Command Injection Vulnerability cisco-sa-20171101-fpwr"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Prime Collaboration Provisioning Authenticated SQL Injection Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-cpcp\">cisco-sa-20171101-cpcp</a></p>",
+          "text": "e) Prime Collaboration Provisioning Authenticated SQL Injection Vulnerability cisco-sa-20171101-cpcp"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Application Policy Infrastructure Controller Enterprise Module Unauthorized Access Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-apicem\">cisco-sa-20171101-apicem</a></p>",
+          "text": "f) Application Policy Infrastructure Controller Enterprise Module Unauthorized Access Vulnerability cisco-sa-20171101-apicem"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Aironet 1560, 2800, and 3800 Series Access Point Platforms Extensible Authentication Protocol Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-aironet2\">cisco-sa-20171101-aironet2</a></p>",
+          "text": "g) Aironet 1560, 2800, and 3800 Series Access Point Platforms Extensible Authentication Protocol Denial of Service Vulnerability cisco-sa-20171101-aironet2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Aironet 1560, 2800, and 3800 Series Access Point Platforms 802.11 Denial of Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-aironet1\">cisco-sa-20171101-aironet1</a></p>",
+          "text": "h) Aironet 1560, 2800, and 3800 Series Access Point Platforms 802.11 Denial of Service Vulnerability cisco-sa-20171101-aironet1"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-wlc2",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-wlc1",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-ise",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-fpwr",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-cpcp",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-apicem",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-aironet2",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171101-aironet1"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-058-110217-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2017-11-02T15:45:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3614",
+  "legacyPostId": 3614,
+  "referenceNumber": "TT-CSIRT #187",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-187.120518: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-187-120518-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that it has discovered a vulnerability in the web framework code of Cisco Prime License Manager (PLM) which could allow an unauthenticated, remote attacker to execute arbitrary SQL queries.",
+  "cveList": [],
+  "date": "5 December 2018",
+  "rawDate": "2018-12-05T17:25:35",
+  "modifiedDate": "5 December 2018",
+  "rawModifiedDate": "2018-12-05T17:25:35",
+  "contentHtml": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the web framework code of Cisco Prime License Manager (PLM) which could allow an unauthenticated, remote attacker to execute arbitrary SQL queries.</p>\n<p>This is due to a lack of proper validation of user-supplied input in SQL queries and as a result, an attacker could exploit this vulnerability by sending crafted HTTP POST requests that contain malicious SQL statements to an affected application.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181128-plm-sql-inject\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181128-plm-sql-inject</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that it has discovered a vulnerability in the web framework code of Cisco Prime License Manager (PLM) which could allow an unauthenticated, remote…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the web framework code of Cisco Prime License Manager (PLM) which could allow an unauthenticated, remote attacker to execute arbitrary SQL queries. This is due to a lack of proper validation of user-supplied input in SQL queries and as a result, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-187-120518-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that it has discovered a vulnerability in the web framework code of Cisco Prime License Manager (PLM) which could allow an unauthenticated, remote attacker to execute arbitrary SQL queries.</p>",
+          "text": "Cisco has released a security update stating that it has discovered a vulnerability in the web framework code of Cisco Prime License Manager (PLM) which could allow an unauthenticated, remote attacker to execute arbitrary SQL queries."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This is due to a lack of proper validation of user-supplied input in SQL queries and as a result, an attacker could exploit this vulnerability by sending crafted HTTP POST requests that contain malicious SQL statements to an affected application.</p>",
+          "text": "This is due to a lack of proper validation of user-supplied input in SQL queries and as a result, an attacker could exploit this vulnerability by sending crafted HTTP POST requests that contain malicious SQL statements to an affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181128-plm-sql-inject\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181128-plm-sql-inject</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181128-plm-sql-inject"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181128-plm-sql-inject"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-187-120518-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-12-05T17:25:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

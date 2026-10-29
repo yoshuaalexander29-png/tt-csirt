@@ -1,0 +1,85 @@
+{
+  "id": "3466",
+  "legacyPostId": 3466,
+  "referenceNumber": "TT-CSIRT #145",
+  "classification": "advisory",
+  "title": "Photoline security updates",
+  "rawTitle": "TTCSIRT-145.072018: TT-CSIRT Advisory – Photoline Security Updates",
+  "slug": "ttcsirt-145-072018-tt-csirt-advisory-photoline-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Talos has released a security update stating that it has found the following issues in Computerinsel Photoline which is an image-processing tool used to modify and edit images as well as other graphic-related material:",
+  "cveList": [],
+  "date": "20 July 2018",
+  "rawDate": "2018-07-20T12:17:24",
+  "modifiedDate": "20 July 2018",
+  "rawModifiedDate": "2018-07-20T12:17:24",
+  "contentHtml": "<p>Talos has released a security update stating that it has found the following issues in Computerinsel Photoline which is an image-processing tool used to modify and edit images as well as other graphic-related material:</p>\n<p>a) A specially crafted PSD document processed via the application can lead to an out-of-bounds write, overwriting arbitrary data.</p>\n<p>b) An ANI-parsing functionality vulnerability can lead to memory corruption.</p>\n<p>An attacker can exploit these vulnerabilities to perform arbitrary code execution.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on Talos Intelligence Website at <a href=\"https://blog.talosintelligence.com/2018/07/vulnerability-spotlight-computerinsel-photoline.html\"><font size=\"2\" color=\"maroon\">https://blog.talosintelligence.com/2018/07/vulnerability-spotlight-computerinsel-photoline.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Talos has released a security update stating that it has found the following issues in Computerinsel Photoline which is an image-processing tool used to modify and edit images as well as other…",
+  "sourceExcerpt": "<p>Talos has released a security update stating that it has found the following issues in Computerinsel Photoline which is an image-processing tool used to modify and edit images as well as other graphic-related material: a) A specially crafted PSD document processed via the application can lead to an out-of-bounds write, overwriting arbitrary data. b) An [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-145-072018-tt-csirt-advisory-photoline-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Talos has released a security update stating that it has found the following issues in Computerinsel Photoline which is an image-processing tool used to modify and edit images as well as other graphic-related material:</p>",
+          "text": "Talos has released a security update stating that it has found the following issues in Computerinsel Photoline which is an image-processing tool used to modify and edit images as well as other graphic-related material:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A specially crafted PSD document processed via the application can lead to an out-of-bounds write, overwriting arbitrary data.</p>",
+          "text": "a) A specially crafted PSD document processed via the application can lead to an out-of-bounds write, overwriting arbitrary data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) An ANI-parsing functionality vulnerability can lead to memory corruption.</p>",
+          "text": "b) An ANI-parsing functionality vulnerability can lead to memory corruption."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker can exploit these vulnerabilities to perform arbitrary code execution.</p>",
+          "text": "An attacker can exploit these vulnerabilities to perform arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on Talos Intelligence Website at <a href=\"https://blog.talosintelligence.com/2018/07/vulnerability-spotlight-computerinsel-photoline.html\">https://blog.talosintelligence.com/2018/07/vulnerability-spotlight-computerinsel-photoline.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on Talos Intelligence Website at https://blog.talosintelligence.com/2018/07/vulnerability-spotlight-computerinsel-photoline.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://blog.talosintelligence.com/2018/07/vulnerability-spotlight-computerinsel-photoline.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-145-072018-tt-csirt-advisory-photoline-security-updates/",
+    "upstreamDisclosedAt": "2018-07-20T12:17:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

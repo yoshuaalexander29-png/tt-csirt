@@ -1,0 +1,89 @@
+{
+  "id": "3747",
+  "legacyPostId": 3747,
+  "referenceNumber": "TT-CSIRT #219",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-219.072519: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-219-072519-tt-csirt-advisory-apple-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released a security update stating that it has discovered the following issues in iOS ver12.4:",
+  "cveList": [
+    "CVE-2019-8660",
+    "CVE-2018-16860",
+    "CVE-2019-8662"
+  ],
+  "date": "24 July 2019",
+  "rawDate": "2019-07-24T19:29:48",
+  "modifiedDate": "24 July 2019",
+  "rawModifiedDate": "2019-07-24T19:29:48",
+  "contentHtml": "<p>Apple has released a security update stating that it has discovered the following issues in iOS ver12.4:</p>\n<p>a) A memory corruption issue where A remote attacker may be able to cause unexpected application termination or arbitrary code execution &#8211; (CVE-2019-8660).</p>\n<p>b) An issue existed in Samba that may allow attackers to perform unauthorized actions by intercepting communications between services &#8211; (CVE-2018-16860).</p>\n<p>c) An attacker may be able to trigger a use-after-free in an application deserializing an untrusted NSDictionary &#8211; (CVE-2019-8662).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at <a href=\"https://support.apple.com/en-gb/HT210346\"><font size=\"2\" color=\"maroon\">https://support.apple.com/en-gb/HT210346</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released a security update stating that it has discovered the following issues in iOS ver12.4: a) A memory corruption issue where A remote attacker may be able to cause unexpected…",
+  "sourceExcerpt": "<p>Apple has released a security update stating that it has discovered the following issues in iOS ver12.4: a) A memory corruption issue where A remote attacker may be able to cause unexpected application termination or arbitrary code execution &#8211; (CVE-2019-8660). b) An issue existed in Samba that may allow attackers to perform unauthorized actions by [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-219-072519-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released a security update stating that it has discovered the following issues in iOS ver12.4:</p>",
+          "text": "Apple has released a security update stating that it has discovered the following issues in iOS ver12.4:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A memory corruption issue where A remote attacker may be able to cause unexpected application termination or arbitrary code execution &#8211; (CVE-2019-8660).</p>",
+          "text": "a) A memory corruption issue where A remote attacker may be able to cause unexpected application termination or arbitrary code execution – (CVE-2019-8660)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) An issue existed in Samba that may allow attackers to perform unauthorized actions by intercepting communications between services &#8211; (CVE-2018-16860).</p>",
+          "text": "b) An issue existed in Samba that may allow attackers to perform unauthorized actions by intercepting communications between services – (CVE-2018-16860)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An attacker may be able to trigger a use-after-free in an application deserializing an untrusted NSDictionary &#8211; (CVE-2019-8662).</p>",
+          "text": "c) An attacker may be able to trigger a use-after-free in an application deserializing an untrusted NSDictionary – (CVE-2019-8662)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at <a href=\"https://support.apple.com/en-gb/HT210346\">https://support.apple.com/en-gb/HT210346</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Apple Website at https://support.apple.com/en-gb/HT210346"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-gb/HT210346"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-219-072519-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2019-07-24T19:29:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

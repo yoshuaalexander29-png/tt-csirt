@@ -1,0 +1,140 @@
+{
+  "id": "10999",
+  "legacyPostId": 10999,
+  "referenceNumber": "TT-CSIRT 459.20.07.26",
+  "classification": "alert",
+  "title": "SharePoint hardening after new exploitations",
+  "rawTitle": "TT-CSIRT &#8211; 459.20.07.26 &#8211; SharePoint Hardening After New Exploitations (CVE-2026-58644)",
+  "slug": "tt-csirt-459-20-07-26-sharepoint-hardening-after-new-exploitations-cve-2026-58644",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Active exploitation of vulnerabilities  CVE-2026-32201 ,  CVE-2026-45659 ,  CVE-2026-56164 , and  CVE-2026-58644 , enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware. Organizations should monitor affected SharePoint Servers closely for any signs of exploitation or unusual activity.",
+  "cveList": [
+    "CVE-2026-58644",
+    "CVE-2026-32201",
+    "CVE-2026-45659",
+    "CVE-2026-56164",
+    "CVE-2026-55040"
+  ],
+  "date": "20 July 2026",
+  "rawDate": "2026-07-20T11:49:41",
+  "modifiedDate": "20 July 2026",
+  "rawModifiedDate": "2026-07-20T11:49:41",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised of active exploitation of vulnerabilities&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-32201\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-32201</a>,&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-45659\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-45659</a>,&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56164\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-56164</a>, and&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-58644\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-58644</a>, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware. Organizations should monitor affected SharePoint Servers closely for any signs of exploitation or unusual activity.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Additionally, the following newly disclosed CVE is&nbsp;not yet known to have been exploited, but Microsoft has identified it&nbsp;as posing a potential risk if left unpatched:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-55040\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-55040</a></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations are advised to detect and remediate a potential compromise by implementing the following recommendations:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Apply the latest patches and security updates from Microsoft, verify that installation completes successfully, and shorten patching cycles when possible.</li>\n\n\n\n<li>Verify that Antimalware Scan Interface (AMSI) integration is enabled for each SharePoint web application. Follow Microsoft’s <a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/configure-amsi-integration\" target=\"_blank\" rel=\"noreferrer noopener\">Configure AMSI integration with SharePoint Server</a> guidance to ensure proper configuration and select the “Full Mode” option for the Request Body Scan Mode, where feasible. When compromise is expected, use the following AMSI and Microsoft Defender Antivirus (MDAV) detections, and implement your organization’s incident response plan for any positive detections:<br><br>\n<ul class=\"wp-block-list\">\n<li>AMSI: Exploit:Script/SuspSignoutReqBody.A – request body scanning; SharePoint Server Subscription only; Microsoft has blocked observed attempts.</li>\n\n\n\n<li>AMSI: Exploit:Script/ToolPaneAuthBypass.A – request header scanning; SharePoint Server 2016, 2019, and Subscription Edition.</li>\n\n\n\n<li>AMSI: Exploit:Script/ToolPaneAuthBypass.C – RCE coverage; SharePoint Server 2016, 2019, and Subscription Edition.</li>\n\n\n\n<li>MDAV: Backdoor:MSIL/LeakFang.A!dha – post-exploitation activity alert involving IIS-protected secrets.</li>\n</ul>\n</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">It is strongly recommended that organizations implement the following SharePoint Server hardening measures:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Enable AMSI for each SharePoint web application, use Full Mode where feasible and keep antivirus or EDR signatures current.</li>\n\n\n\n<li>Before rotating IIS machine keys, hunt for and remediate any intrusion artifacts, including machine-key harvesters that could allow for the keys to be stolen again. Review Microsoft’s Improved ASP.NET view state security and key management for best practices.</li>\n\n\n\n<li>Patch all supported SharePoint servers, verify installation across every farm server and prioritize internet-facing systems.</li>\n\n\n\n<li>Establish tailored logging mechanisms to detect and monitor exploitation activities. Review telemetry for anomalous requests, suspicious SharePoint worker-process activity, webshells, and machine-key access. For more information, see CISA’s <a href=\"https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection\">Best Practices for Event Logging and Threat Detection</a>.</li>\n\n\n\n<li>Avoid exposing SharePoint Servers directly to the internet unless necessary; and if necessary, only configure a SharePoint Server behind a Layer 7 reverse proxy or equivalent application-layer security control that requires authentication and can inspect and filter requests.</li>\n\n\n\n<li>Block external access to SharePoint Central Administration, restrict farm and database communications to required systems, and review <a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/security-hardening\">Microsoft’s SharePoint Server security-hardening guidance</a> for role-specific ports, services, and web.config settings.<br></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators are advised to review the Alert <a href=\"https://www.cisa.gov/news-events/alerts/2025/07/20/update-microsoft-releases-guidance-exploitation-sharepoint-vulnerabilities\">UPDATE: Microsoft Releases Guidance on Exploitation of SharePoint Vulnerabilities</a> and apply necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Reference(s):</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations\">https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#automatic-machine-key-rotation\">https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#automatic-machine-key-rotation</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Active exploitation of vulnerabilities CVE-2026-32201, CVE-2026-45659, CVE-2026-56164, and CVE-2026-58644, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint…",
+  "sourceExcerpt": "<p>Please be advised of active exploitation of vulnerabilities&nbsp;CVE-2026-32201,&nbsp;CVE-2026-45659,&nbsp;CVE-2026-56164, and&nbsp;CVE-2026-58644, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-459-20-07-26-sharepoint-hardening-after-new-exploitations-cve-2026-58644/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Active exploitation of vulnerabilities&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-32201\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-32201</a>,&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-45659\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-45659</a>,&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56164\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-56164</a>, and&nbsp;<a href=\"https://www.cve.org/CVERecord?id=CVE-2026-58644\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-58644</a>, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware. Organizations should monitor affected SharePoint Servers closely for any signs of exploitation or unusual activity.&nbsp;</p>",
+          "text": "Active exploitation of vulnerabilities  CVE-2026-32201 ,  CVE-2026-45659 ,  CVE-2026-56164 , and  CVE-2026-58644 , enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware. Organizations should monitor affected SharePoint Servers closely for any signs of exploitation or unusual activity."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Additionally, the following newly disclosed CVE is&nbsp;not yet known to have been exploited, but Microsoft has identified it&nbsp;as posing a potential risk if left unpatched:</p>",
+          "text": "Additionally, the following newly disclosed CVE is not yet known to have been exploited, but Microsoft has identified it as posing a potential risk if left unpatched:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-55040\" target=\"_blank\" rel=\"noreferrer noopener\">CVE-2026-55040</a></li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Organizations are advised to detect and remediate a potential compromise by implementing the following recommendations:</p>",
+          "text": "Organizations are advised to detect and remediate a potential compromise by implementing the following recommendations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Apply the latest patches and security updates from Microsoft, verify that installation completes successfully, and shorten patching cycles when possible.</li>\n\n\n\n<li>Verify that Antimalware Scan Interface (AMSI) integration is enabled for each SharePoint web application. Follow Microsoft’s <a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/configure-amsi-integration\" target=\"_blank\" rel=\"noreferrer noopener\">Configure AMSI integration with SharePoint Server</a> guidance to ensure proper configuration and select the “Full Mode” option for the Request Body Scan Mode, where feasible. When compromise is expected, use the following AMSI and Microsoft Defender Antivirus (MDAV) detections, and implement your organization’s incident response plan for any positive detections:</p><p>\n<ul class=\"wp-block-list\">\n<li>AMSI: Exploit:Script/SuspSignoutReqBody.A – request body scanning; SharePoint Server Subscription only; Microsoft has blocked observed attempts.</li>\n\n\n\n<li>AMSI: Exploit:Script/ToolPaneAuthBypass.A – request header scanning; SharePoint Server 2016, 2019, and Subscription Edition.</li>\n\n\n\n<li>AMSI: Exploit:Script/ToolPaneAuthBypass.C – RCE coverage; SharePoint Server 2016, 2019, and Subscription Edition.</li>\n\n\n\n<li>MDAV: Backdoor:MSIL/LeakFang.A!dha – post-exploitation activity alert involving IIS-protected secrets.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is strongly recommended that organizations implement the following SharePoint Server hardening measures:</p>",
+          "text": "It is strongly recommended that organizations implement the following SharePoint Server hardening measures:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Enable AMSI for each SharePoint web application, use Full Mode where feasible and keep antivirus or EDR signatures current.</li>\n\n\n\n<li>Before rotating IIS machine keys, hunt for and remediate any intrusion artifacts, including machine-key harvesters that could allow for the keys to be stolen again. Review Microsoft’s Improved ASP.NET view state security and key management for best practices.</li>\n\n\n\n<li>Patch all supported SharePoint servers, verify installation across every farm server and prioritize internet-facing systems.</li>\n\n\n\n<li>Establish tailored logging mechanisms to detect and monitor exploitation activities. Review telemetry for anomalous requests, suspicious SharePoint worker-process activity, webshells, and machine-key access. For more information, see CISA’s <a href=\"https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection\">Best Practices for Event Logging and Threat Detection</a>.</li>\n\n\n\n<li>Avoid exposing SharePoint Servers directly to the internet unless necessary; and if necessary, only configure a SharePoint Server behind a Layer 7 reverse proxy or equivalent application-layer security control that requires authentication and can inspect and filter requests.</li>\n\n\n\n<li>Block external access to SharePoint Central Administration, restrict farm and database communications to required systems, and review <a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/security-hardening\">Microsoft’s SharePoint Server security-hardening guidance</a> for role-specific ports, services, and web.config settings.<br></li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are advised to review the Alert <a href=\"https://www.cisa.gov/news-events/alerts/2025/07/20/update-microsoft-releases-guidance-exploitation-sharepoint-vulnerabilities\">UPDATE: Microsoft Releases Guidance on Exploitation of SharePoint Vulnerabilities</a> and apply necessary updates.</p>",
+          "text": "Administrators are advised to review the Alert UPDATE: Microsoft Releases Guidance on Exploitation of SharePoint Vulnerabilities and apply necessary updates."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations\">https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations</a></p>",
+          "text": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">https://www.cisa.gov/known-exploited-vulnerabilities-catalog</a></p>",
+          "text": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#automatic-machine-key-rotation\">https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#automatic-machine-key-rotation</a></p>",
+          "text": "https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#automatic-machine-key-rotation"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cve.org/CVERecord?id=CVE-2026-32201",
+    "https://www.cve.org/CVERecord?id=CVE-2026-45659",
+    "https://www.cve.org/CVERecord?id=CVE-2026-56164",
+    "https://www.cve.org/CVERecord?id=CVE-2026-58644",
+    "https://www.cve.org/CVERecord?id=CVE-2026-55040",
+    "https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/configure-amsi-integration",
+    "https://www.cisa.gov/resources-tools/resources/best-practices-event-logging-and-threat-detection",
+    "https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/security-hardening",
+    "https://www.cisa.gov/news-events/alerts/2025/07/20/update-microsoft-releases-guidance-exploitation-sharepoint-vulnerabilities",
+    "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#automatic-machine-key-rotation"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-459-20-07-26-sharepoint-hardening-after-new-exploitations-cve-2026-58644/",
+    "upstreamDisclosedAt": "2026-07-20T11:49:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

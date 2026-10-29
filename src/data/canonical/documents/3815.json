@@ -1,0 +1,79 @@
+{
+  "id": "3815",
+  "legacyPostId": 3815,
+  "referenceNumber": "TT-CSIRT #231",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-231.100219: TT-CSIRT ADVISORY &#8211; ANDROID SECURITY UPDATES",
+  "slug": "ttcsirt-231-100219-tt-csirt-advisory-android-security-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in the Google Android 10 operating system (OS), the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.",
+  "cveList": [],
+  "date": "2 October 2019",
+  "rawDate": "2019-10-02T08:48:40",
+  "modifiedDate": "2 October 2019",
+  "rawModifiedDate": "2019-10-02T08:48:40",
+  "contentHtml": "<p>Please be advised that multiple vulnerabilities have been discovered in the Google Android 10 operating system (OS), the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.</p>\n<p>TTCSIRT encourages users and administrators to apply the following MS-ISAC recommendations:</p>\n<ul>\n<li>Apply appropriate updates by Google Android or mobile carriers to vulnerable systems, immediately after appropriate testing.</li>\n<li>Only download applications from trusted vendors in the Play Store.</li>\n<li>Do not to visit un-trusted websites or follow links provided by unknown or un-trusted sources.</li>\n<li>Be aware of the threats posed by hypertext links contained in emails or attachments, especially from un-trusted sources.</li>\n</ul>\n<p>For more information, please visit:<br />\n<a href=\"https://source.android.com/security/bulletin/android-10\">https://source.android.com/security/bulletin/android-10</a></p>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in the Google Android 10 operating system (OS), the most severe of which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Please be advised that multiple vulnerabilities have been discovered in the Google Android 10 operating system (OS), the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-231-100219-tt-csirt-advisory-android-security-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in the Google Android 10 operating system (OS), the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files.</p>",
+          "text": "Multiple vulnerabilities have been discovered in the Google Android 10 operating system (OS), the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to apply the following MS-ISAC recommendations:</p>",
+          "text": "TTCSIRT encourages users and administrators to apply the following MS-ISAC recommendations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Apply appropriate updates by Google Android or mobile carriers to vulnerable systems, immediately after appropriate testing.</li>\n<li>Only download applications from trusted vendors in the Play Store.</li>\n<li>Do not to visit un-trusted websites or follow links provided by unknown or un-trusted sources.</li>\n<li>Be aware of the threats posed by hypertext links contained in emails or attachments, especially from un-trusted sources.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more information, please visit:<br />\n<a href=\"https://source.android.com/security/bulletin/android-10\">https://source.android.com/security/bulletin/android-10</a></p>",
+          "text": "For more information, please visit: https://source.android.com/security/bulletin/android-10"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://source.android.com/security/bulletin/android-10"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-231-100219-tt-csirt-advisory-android-security-vulnerability/",
+    "upstreamDisclosedAt": "2019-10-02T08:48:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

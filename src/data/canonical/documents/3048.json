@@ -1,0 +1,99 @@
+{
+  "id": "3048",
+  "legacyPostId": 3048,
+  "referenceNumber": "TT-CSIRT #056",
+  "classification": "advisory",
+  "title": "Openoffice security updates",
+  "rawTitle": "TTCSIRT-056.103017: TT-CSIRT Advisory – OpenOffice Security Updates",
+  "slug": "ttcsirt-056-103017-tt-csirt-advisory-openoffice-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in OpenOffice, which could allow for arbitrary code execution. OpenOffice is an open-source productivity software suite that contains a word processor, spreadsheet application, presentation application, drawing application, formula editor, and a database management application.",
+  "cveList": [
+    "CVE-2017-9806",
+    "CVE-2017-12607",
+    "CVE-2017-12608"
+  ],
+  "date": "30 October 2017",
+  "rawDate": "2017-10-30T11:15:25",
+  "modifiedDate": "30 October 2017",
+  "rawModifiedDate": "2017-10-30T11:15:25",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in OpenOffice, which could allow for arbitrary code execution. OpenOffice is an open-source productivity software suite that contains a word processor, spreadsheet application, presentation application, drawing application, formula editor, and a database management application. </p>\n<p>Details regarding these vulnerabilities are as below:</p>\n<p>a) A vulnerability in the OpenOffice Writer DOC file parser, specifically in the WW8Fonts Constructor, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution &#8211; (CVE-2017-9806).</p>\n<p>b) A vulnerability in OpenOffice&#8217;s PPT file parser, specifically in PPTStyleSheet, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution &#8211; (CVE-2017-12607).</p>\n<p>c) A vulnerability in OpenOffice Writer DOC file parser, specifically in ImportOldFormatStyles, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution &#8211; (CVE-2017-12608).</p>\n<p>Successfully exploiting these vulnerabilities could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-openoffice-could-allow-for-arbitrary-code-execution_2017-105/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-openoffice-could-allow-for-arbitrary-code-execution_2017-105/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in OpenOffice, which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in OpenOffice, which could allow for arbitrary code execution. OpenOffice is an open-source productivity software suite that contains a word processor, spreadsheet application, presentation application, drawing application, formula editor, and a database management application. Details regarding these vulnerabilities are as below: a) A vulnerability in the OpenOffice Writer DOC file [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-056-103017-tt-csirt-advisory-openoffice-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in OpenOffice, which could allow for arbitrary code execution. OpenOffice is an open-source productivity software suite that contains a word processor, spreadsheet application, presentation application, drawing application, formula editor, and a database management application.</p>",
+          "text": "Multiple vulnerabilities have been discovered in OpenOffice, which could allow for arbitrary code execution. OpenOffice is an open-source productivity software suite that contains a word processor, spreadsheet application, presentation application, drawing application, formula editor, and a database management application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Details regarding these vulnerabilities are as below:</p>",
+          "text": "Details regarding these vulnerabilities are as below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A vulnerability in the OpenOffice Writer DOC file parser, specifically in the WW8Fonts Constructor, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution &#8211; (CVE-2017-9806).</p>",
+          "text": "a) A vulnerability in the OpenOffice Writer DOC file parser, specifically in the WW8Fonts Constructor, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution – (CVE-2017-9806)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A vulnerability in OpenOffice&#8217;s PPT file parser, specifically in PPTStyleSheet, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution &#8211; (CVE-2017-12607).</p>",
+          "text": "b) A vulnerability in OpenOffice’s PPT file parser, specifically in PPTStyleSheet, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution – (CVE-2017-12607)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A vulnerability in OpenOffice Writer DOC file parser, specifically in ImportOldFormatStyles, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution &#8211; (CVE-2017-12608).</p>",
+          "text": "c) A vulnerability in OpenOffice Writer DOC file parser, specifically in ImportOldFormatStyles, allows attackers to craft malicious documents that cause denial of service (memory corruption and application crash) potentially resulting in arbitrary code execution – (CVE-2017-12608)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting these vulnerabilities could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition.</p>",
+          "text": "Successfully exploiting these vulnerabilities could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-openoffice-could-allow-for-arbitrary-code-execution_2017-105/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-openoffice-could-allow-for-arbitrary-code-execution_2017-105/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-openoffice-could-allow-for-arbitrary-code-execution_2017-105/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apache-openoffice-could-allow-for-arbitrary-code-execution_2017-105/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-056-103017-tt-csirt-advisory-openoffice-security-updates/",
+    "upstreamDisclosedAt": "2017-10-30T11:15:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

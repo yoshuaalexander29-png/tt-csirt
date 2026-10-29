@@ -1,0 +1,150 @@
+{
+  "id": "3752",
+  "legacyPostId": 3752,
+  "referenceNumber": "TT-CSIRT #221",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-221.080619: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-221-080619-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "PHP has released a security update stating that it has discovered the following issues in PHP7 –",
+  "cveList": [],
+  "date": "6 August 2019",
+  "rawDate": "2019-08-06T18:05:36",
+  "modifiedDate": "6 August 2019",
+  "rawModifiedDate": "2019-08-06T18:05:36",
+  "contentHtml": "<p>PHP has released a security update stating that it has discovered the following issues in PHP7 &#8211; </p>\n<p>a) Bug #78256 &#8211; Heap-buffer-overflow on exif_process_user_comment. </p>\n<p>b) Bug #78222 &#8211; Heap-buffer-overflow on exif_scan_thumbnail.</p>\n<p>c) Bug #78039 &#8211; FTP with SSL memory leak.</p>\n<p>d) Bug #78279 &#8211; libxml_disable_entity_loader settings is shared between requests cgi-fcgi.</p>\n<p>e) Bug #76058 &#8211; After &#8220;POST data can&#8217;t be buffered&#8221;, using php://input makes huge tmp files.</p>\n<p>f) Bug #78231 &#8211; Segmentation fault upon stream_socket_accept of exported socket-to-stream.</p>\n<p>g) Bug #78341 &#8211; Failure to detect smart branch in DFA pass.</p>\n<p>h) Bug #78189 &#8211; File cache strips last character of uname hash.</p>\n<p>i) Bug #78202 &#8211; Opcache stats for cache hits are capped at 32bit NUM.</p>\n<p>j) Bug #78271 &#8211; Invalid result of if-else.</p>\n<p>k) Bug #78291 &#8211; opcache_get_configuration doesn&#8217;t list all directives.</p>\n<p>l) Bug #78338 &#8211; Array cross-border reading in PCRE.</p>\n<p>m) Bug #78197 &#8211; PCRE2 version check in configure fails for &#8220;##.##-xxx&#8221; version strings.</p>\n<p>n) Bug #78192 &#8211; SegFault when reuse statement after schema has changed.</p>\n<p>o) Bug #77919 &#8211; Potential UAF in Phar RSHUTDOWN.</p>\n<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-077/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-077/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "PHP has released a security update stating that it has discovered the following issues in PHP7 &#8211; a) Bug #78256 &#8211; Heap-buffer-overflow on exif_process_user_comment. b) Bug #78222…",
+  "sourceExcerpt": "<p>PHP has released a security update stating that it has discovered the following issues in PHP7 &#8211; a) Bug #78256 &#8211; Heap-buffer-overflow on exif_process_user_comment. b) Bug #78222 &#8211; Heap-buffer-overflow on exif_scan_thumbnail. c) Bug #78039 &#8211; FTP with SSL memory leak. d) Bug #78279 &#8211; libxml_disable_entity_loader settings is shared between requests cgi-fcgi. e) Bug #76058 &#8211; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-221-080619-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>PHP has released a security update stating that it has discovered the following issues in PHP7 &#8211;</p>",
+          "text": "PHP has released a security update stating that it has discovered the following issues in PHP7 –"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Bug #78256 &#8211; Heap-buffer-overflow on exif_process_user_comment.</p>",
+          "text": "a) Bug #78256 – Heap-buffer-overflow on exif_process_user_comment."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Bug #78222 &#8211; Heap-buffer-overflow on exif_scan_thumbnail.</p>",
+          "text": "b) Bug #78222 – Heap-buffer-overflow on exif_scan_thumbnail."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Bug #78039 &#8211; FTP with SSL memory leak.</p>",
+          "text": "c) Bug #78039 – FTP with SSL memory leak."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Bug #78279 &#8211; libxml_disable_entity_loader settings is shared between requests cgi-fcgi.</p>",
+          "text": "d) Bug #78279 – libxml_disable_entity_loader settings is shared between requests cgi-fcgi."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Bug #76058 &#8211; After &#8220;POST data can&#8217;t be buffered&#8221;, using php://input makes huge tmp files.</p>",
+          "text": "e) Bug #76058 – After “POST data can’t be buffered”, using php://input makes huge tmp files."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Bug #78231 &#8211; Segmentation fault upon stream_socket_accept of exported socket-to-stream.</p>",
+          "text": "f) Bug #78231 – Segmentation fault upon stream_socket_accept of exported socket-to-stream."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Bug #78341 &#8211; Failure to detect smart branch in DFA pass.</p>",
+          "text": "g) Bug #78341 – Failure to detect smart branch in DFA pass."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Bug #78189 &#8211; File cache strips last character of uname hash.</p>",
+          "text": "h) Bug #78189 – File cache strips last character of uname hash."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Bug #78202 &#8211; Opcache stats for cache hits are capped at 32bit NUM.</p>",
+          "text": "i) Bug #78202 – Opcache stats for cache hits are capped at 32bit NUM."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Bug #78271 &#8211; Invalid result of if-else.</p>",
+          "text": "j) Bug #78271 – Invalid result of if-else."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Bug #78291 &#8211; opcache_get_configuration doesn&#8217;t list all directives.</p>",
+          "text": "k) Bug #78291 – opcache_get_configuration doesn’t list all directives."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) Bug #78338 &#8211; Array cross-border reading in PCRE.</p>",
+          "text": "l) Bug #78338 – Array cross-border reading in PCRE."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) Bug #78197 &#8211; PCRE2 version check in configure fails for &#8220;##.##-xxx&#8221; version strings.</p>",
+          "text": "m) Bug #78197 – PCRE2 version check in configure fails for “##.##-xxx” version strings."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>n) Bug #78192 &#8211; SegFault when reuse statement after schema has changed.</p>",
+          "text": "n) Bug #78192 – SegFault when reuse statement after schema has changed."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o) Bug #77919 &#8211; Potential UAF in Phar RSHUTDOWN.</p>",
+          "text": "o) Bug #77919 – Potential UAF in Phar RSHUTDOWN."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-077/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-077/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-077/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-077/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-221-080619-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2019-08-06T18:05:36",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

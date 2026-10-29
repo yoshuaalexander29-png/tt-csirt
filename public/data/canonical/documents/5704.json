@@ -1,0 +1,78 @@
+{
+  "id": "5704",
+  "legacyPostId": 5704,
+  "referenceNumber": "TT-CSIRT #425",
+  "classification": "advisory",
+  "title": "09.02.24: FortiOS security updates",
+  "rawTitle": "TT-CSIRT 425 09.02.24: FortiOS Security Updates",
+  "slug": "tt-csirt-425-09-02-24-fortios-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Fortinet has released security updates to address two (2) critical vulnerabilities in FortiOS. TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:",
+  "cveList": [
+    "CVE-2024-21762",
+    "CVE-2024-23113"
+  ],
+  "date": "9 February 2024",
+  "rawDate": "2024-02-09T10:07:18",
+  "modifiedDate": "9 February 2024",
+  "rawModifiedDate": "2024-02-09T10:07:18",
+  "contentHtml": "<p>Fortinet has released security updates to address two (2) critical vulnerabilities in FortiOS. TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>\n<ul>\n<li>CVE-2024-21762 &#8211; <a href=\"https://www.fortiguard.com/psirt/FG-IR-24-015\">https://www.fortiguard.com/psirt/FG-IR-24-015</a></li>\n<li>CVE-2024-23113 &#8211; <a href=\"https://www.fortiguard.com/psirt/FG-IR-24-029\">https://www.fortiguard.com/psirt/FG-IR-24-029</a></li>\n</ul>\n<p>Fortinet has noted that CVE-2024-21762 is potentially being exploited in the wild.</p>\n<p>If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n",
+  "displaySummary": "Fortinet has released security updates to address two (2) critical vulnerabilities in FortiOS.",
+  "sourceExcerpt": "<p>Fortinet has released security updates to address two (2) critical vulnerabilities in FortiOS. TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately: CVE-2024-21762 &#8211; https://www.fortiguard.com/psirt/FG-IR-24-015 CVE-2024-23113 &#8211; https://www.fortiguard.com/psirt/FG-IR-24-029 Fortinet has noted that CVE-2024-21762 is potentially being exploited in the wild. If you have any queries, comments or require assistance, please [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-425-09-02-24-fortios-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has released security updates to address two (2) critical vulnerabilities in FortiOS. TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>",
+          "text": "Fortinet has released security updates to address two (2) critical vulnerabilities in FortiOS. TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2024-21762 &#8211; <a href=\"https://www.fortiguard.com/psirt/FG-IR-24-015\">https://www.fortiguard.com/psirt/FG-IR-24-015</a></li>\n<li>CVE-2024-23113 &#8211; <a href=\"https://www.fortiguard.com/psirt/FG-IR-24-029\">https://www.fortiguard.com/psirt/FG-IR-24-029</a></li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has noted that CVE-2024-21762 is potentially being exploited in the wild.</p>",
+          "text": "Fortinet has noted that CVE-2024-21762 is potentially being exploited in the wild."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fortiguard.com/psirt/FG-IR-24-015",
+    "https://www.fortiguard.com/psirt/FG-IR-24-029"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-425-09-02-24-fortios-security-updates/",
+    "upstreamDisclosedAt": "2024-02-09T10:07:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

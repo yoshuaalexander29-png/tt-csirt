@@ -1,0 +1,114 @@
+{
+  "id": "4124",
+  "legacyPostId": 4124,
+  "referenceNumber": "TT-CSIRT #285",
+  "classification": "advisory",
+  "title": "Opensmtpd 6.6.4P1 release addresses critical vulnerability",
+  "rawTitle": "TTCSIRT-285.022620: TT-CSIRT ADVISORY-  OPENSMTPD 6.6.4P1 RELEASE ADDRESSES CRITICAL VULNERABILITY",
+  "slug": "ttcsirt-285-022620-tt-csirt-advisory-opensmtpd-6-6-4p1-release-addresses-critical-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Qualys has found another critical vulnerability in OpenSMTPD.",
+  "cveList": [],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T14:17:14",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T14:17:14",
+  "contentHtml": "<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\">Qualys has found another critical vulnerability in OpenSMTPD.</span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\">It is very important that you upgrade your setups AS SOON AS POSSIBLE.\n\n</span><span style=\"font-family: 'Arial','sans-serif'; color: black;\">On OpenBSD: Binary patches are available through syspatch.</span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\">Just run the syspatch command and make sure that your OpenSMTPD was restarted:\n</span><span style=\"font-family: 'Arial','sans-serif'; color: black;\">$ doas syspatch\n\n</span><span style=\"font-family: 'Arial','sans-serif'; color: black;\">On other systems the released version 6.6.4p1 of OpenSMTPD addresses the vulnerability.\n\n</span><span style=\"font-family: 'Arial','sans-serif';\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates utilising the following links<span style=\"color: black;\">:</span></span><span style=\"font-family: 'Arial','sans-serif'; color: black;\"> </span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\"><a href=\"https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.tar.gz\"><span style=\"color: #a01e1e;\">https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.tar.gz</span></a></span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\"><a href=\"https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.sum.sig\"><span style=\"color: #a01e1e;\">https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.sum.sig</span></a></span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\"> \n</span><span style=\"font-family: 'Arial','sans-serif'; color: black;\">It is also available from Github:</span><span style=\"font-family: 'Arial','sans-serif'; color: black;\"> </span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\"><a href=\"https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.tar.gz\"><span style=\"color: #a01e1e;\">https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.tar.gz</span></a></span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\"><a href=\"https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.sum.sig\"><span style=\"color: #a01e1e;\">https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.sum.sig</span></a></span></pre>\n<pre style=\"background: white;\"><span style=\"font-family: 'Arial','sans-serif'; color: black;\"> </span><span style=\"font-family: 'Arial','sans-serif'; color: black;\">Or using the `6.6.4p1` tag if you're building from source.</span></pre>\n",
+  "displaySummary": "Qualys has found another critical vulnerability in OpenSMTPD. It is very important that you upgrade your setups AS SOON AS POSSIBLE. On OpenBSD: Binary patches are available through syspatch.",
+  "sourceExcerpt": "<p>Qualys has found another critical vulnerability in OpenSMTPD. It is very important that you upgrade your setups AS SOON AS POSSIBLE. On OpenBSD: Binary patches are available through syspatch. Just run the syspatch command and make sure that your OpenSMTPD was restarted: $ doas syspatch On other systems the released version 6.6.4p1 of OpenSMTPD addresses [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-285-022620-tt-csirt-advisory-opensmtpd-6-6-4p1-release-addresses-critical-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><span >Qualys has found another critical vulnerability in OpenSMTPD.</span></p>",
+          "text": "Qualys has found another critical vulnerability in OpenSMTPD."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span >It is very important that you upgrade your setups AS SOON AS POSSIBLE.\n\n</span><span >On OpenBSD: Binary patches are available through syspatch.</span></p>",
+          "text": "It is very important that you upgrade your setups AS SOON AS POSSIBLE. On OpenBSD: Binary patches are available through syspatch."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span >Just run the syspatch command and make sure that your OpenSMTPD was restarted:\n</span><span >$ doas syspatch\n\n</span><span >On other systems the released version 6.6.4p1 of OpenSMTPD addresses the vulnerability.\n\n</span><span >The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates utilising the following links<span >:</span></span><span > </span></p>",
+          "text": "Just run the syspatch command and make sure that your OpenSMTPD was restarted: $ doas syspatch On other systems the released version 6.6.4p1 of OpenSMTPD addresses the vulnerability. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates utilising the following links :"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span ><a href=\"https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.tar.gz\"><span >https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.tar.gz</span></a></span></p>",
+          "text": "https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.tar.gz"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span ><a href=\"https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.sum.sig\"><span >https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.sum.sig</span></a></span></p>",
+          "text": "https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.sum.sig"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "It is also available from GitHub",
+          "id": "it-is-also-available-from-github"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span ><a href=\"https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.tar.gz\"><span >https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.tar.gz</span></a></span></p>",
+          "text": "https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.tar.gz"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span ><a href=\"https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.sum.sig\"><span >https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.sum.sig</span></a></span></p>",
+          "text": "https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.sum.sig"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span > </span><span >Or using the `6.6.4p1` tag if you're building from source.</span></p>",
+          "text": "Or using the `6.6.4p1` tag if you're building from source."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "it-is-also-available-from-github",
+      "label": "It is also available from GitHub",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.tar.gz",
+    "https://www.opensmtpd.org/archives/opensmtpd-6.6.4p1.sum.sig",
+    "https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.tar.gz",
+    "https://github.com/OpenSMTPD/OpenSMTPD/releases/download/6.6.4p1/opensmtpd-6.6.4p1.sum.sig"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-285-022620-tt-csirt-advisory-opensmtpd-6-6-4p1-release-addresses-critical-vulnerability/",
+    "upstreamDisclosedAt": "2020-02-26T14:17:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

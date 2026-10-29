@@ -1,0 +1,123 @@
+{
+  "id": "5001",
+  "legacyPostId": 5001,
+  "referenceNumber": "TT-CSIRT #5001",
+  "classification": "alert",
+  "title": "Social engineering tactics targeting Trinidad and Tobago citizens",
+  "rawTitle": "TTCSIRT-THREAT ALERT: Social Engineering Tactics Targeting Trinidad and Tobago Citizens",
+  "slug": "social-engineering",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Over the past couple weeks, numerous reports have been made by citizens of Trinidad and Tobago regarding cyber-crime incidents which include:",
+  "cveList": [],
+  "date": "27 May 2021",
+  "rawDate": "2021-05-27T14:27:03",
+  "modifiedDate": "27 May 2021",
+  "rawModifiedDate": "2021-05-27T14:27:03",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Over the past couple weeks, numerous reports have been made by citizens of Trinidad and Tobago regarding cyber-crime incidents which include:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br />• <strong>Phishing </strong>– Phishing involves sending emails, texts or making calls to persons aimed at creating a sense of urgency, curiosity or fear in victims which results in them revealing sensitive information (address, credentials, verification codes, banking information) , clicking on links to malicious websites of opening attachments that contain malware. The attacker in many phishing scenarios seen in Trinidad and Tobago, acts as someone of authority in the Trinidad and Tobago Police Service, government personnel or simply someone you already know.<br /><br />• <strong>Scareware </strong>– Scareware involves victims being contacted and told that their devices (phones, laptop, desktop) are infected with malware and they need to install software or give access to the device in order to resolve the issue. These are fictitious threats which can result in the attacker gaining access to your device, stealing sensitive information and locking you out of the device or specific applications (email, social media platforms and other authenticated accounts).<br /><br />• <strong>Cyberbullying </strong>– Cyberbullying involves sending, posting, or sharing negative, harmful, false, or mean content about someone else. It can include sharing personal or private information about someone else causing embarrassment or humiliation. Cyberbullying may also be tied together with extortion or sextortion.<br /><br />• <strong>Extortion </strong>– Obtaining something (eg. money, documents) through force or threats.<br /><br />• <strong>Sextortion </strong>– Obtaining something by threatening to leak or distribute private and sensitive material of a sexual nature.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br />Tips to avoid becoming a victim:</p>\n\n\n\n<p class=\"wp-block-paragraph\">• <strong>NEVER share your any account login information with anyone!</strong> Passwords and verification codes are meant to verify your identity. Disclosing such information to an attacker would allow them to impersonate you or take control of your account.<br /><br />• <strong>Use multifactor authentication when supported by applications</strong>. This helps you protect your account even if the attacker knows your credentials. This added security feature would require you to supply a token or code at the time of login and it is important that you do not share this with someone if prompted over the phone or via text as they might be trying to login as you.<br /><br />• <strong>Do not open URLs or attachments from suspicious sources.</strong> If you are unsure about the URL or attachment, without opening it, submit it to your antimalware software or to virustotal.com for analysis. If it shows up as clean and you can verify that the sender’s legitimacy, then you can proceed to safely open it. If in doubt, simply delete and ignore the message.<br /><br />• <strong>Verify requester’s information before proceeding to discuss confidential information.</strong> For instance, if you receive a phone call requesting confidential information, verify its authenticity by requesting the caller’s full name and correct spelling of same. If the caller is reluctant or provides fake information you should immediately end the call.<br /><br />• <strong>Do not get involved in situations which may lead to risks.</strong> These situation include scenarios where you are selling or purchasing something online from a non-reputable merchant, subscription traps, joining payday loans type programs, direct involvement in pornography and clicking on ads or sponsored content which seem too good to be true.<br /><br />• <strong>Become more cyber aware! </strong>Visit https://www.getsafeonline.tt/ for lots of helpful resources which gives details on ways to protect yourself from many online risks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n<p>The TTCSIRT urges the public to continue reporting these cyber-crime incidents to TTPS Cyber-Crime Unit via their website, https://www.ttps.gov.tt/Report-A-Crime, or call 612-0742, 715-2072. If you feel as though you are in a situation similar to those listed above, immediately end the interaction with the attacker to avoid revealing information and report the incident ,providing as much information as you can recall. Important information to include in the report are as follows: the name of the person who contacted you, the means in which you were contacted (e.g. email, telephone etc.), the caller’s ID or email address, details of the interaction and any other relevant information which may help with the investigation.</p>\n",
+  "displaySummary": "Over the past couple weeks, numerous reports have been made by citizens of Trinidad and Tobago regarding cyber-crime incidents which include: • Phishing – Phishing involves sending emails, texts…",
+  "sourceExcerpt": "<p>Over the past couple weeks, numerous reports have been made by citizens of Trinidad and Tobago regarding cyber-crime incidents which include: • Phishing – Phishing involves sending emails, texts or making calls to persons aimed at creating a sense of urgency, curiosity or fear in victims which results in them revealing sensitive information (address, credentials, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/social-engineering/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Over the past couple weeks, numerous reports have been made by citizens of Trinidad and Tobago regarding cyber-crime incidents which include:</p>",
+          "text": "Over the past couple weeks, numerous reports have been made by citizens of Trinidad and Tobago regarding cyber-crime incidents which include:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Phishing </strong>– Phishing involves sending emails, texts or making calls to persons aimed at creating a sense of urgency, curiosity or fear in victims which results in them revealing sensitive information (address, credentials, verification codes, banking information) , clicking on links to malicious websites of opening attachments that contain malware. The attacker in many phishing scenarios seen in Trinidad and Tobago, acts as someone of authority in the Trinidad and Tobago Police Service, government personnel or simply someone you already know.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Scareware </strong>– Scareware involves victims being contacted and told that their devices (phones, laptop, desktop) are infected with malware and they need to install software or give access to the device in order to resolve the issue. These are fictitious threats which can result in the attacker gaining access to your device, stealing sensitive information and locking you out of the device or specific applications (email, social media platforms and other authenticated accounts).</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Cyberbullying </strong>– Cyberbullying involves sending, posting, or sharing negative, harmful, false, or mean content about someone else. It can include sharing personal or private information about someone else causing embarrassment or humiliation. Cyberbullying may also be tied together with extortion or sextortion.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Extortion </strong>– Obtaining something (eg. money, documents) through force or threats.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Sextortion </strong>– Obtaining something by threatening to leak or distribute private and sensitive material of a sexual nature.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Tips to avoid becoming a victim",
+          "id": "tips-to-avoid-becoming-a-victim"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>NEVER share your any account login information with anyone!</strong> Passwords and verification codes are meant to verify your identity. Disclosing such information to an attacker would allow them to impersonate you or take control of your account.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Use multifactor authentication when supported by applications</strong>. This helps you protect your account even if the attacker knows your credentials. This added security feature would require you to supply a token or code at the time of login and it is important that you do not share this with someone if prompted over the phone or via text as they might be trying to login as you.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Do not open URLs or attachments from suspicious sources.</strong> If you are unsure about the URL or attachment, without opening it, submit it to your antimalware software or to virustotal.com for analysis. If it shows up as clean and you can verify that the sender’s legitimacy, then you can proceed to safely open it. If in doubt, simply delete and ignore the message.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Verify requester’s information before proceeding to discuss confidential information.</strong> For instance, if you receive a phone call requesting confidential information, verify its authenticity by requesting the caller’s full name and correct spelling of same. If the caller is reluctant or provides fake information you should immediately end the call.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Do not get involved in situations which may lead to risks.</strong> These situation include scenarios where you are selling or purchasing something online from a non-reputable merchant, subscription traps, joining payday loans type programs, direct involvement in pornography and clicking on ads or sponsored content which seem too good to be true.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><strong>Become more cyber aware! </strong>Visit https://www.getsafeonline.tt/ for lots of helpful resources which gives details on ways to protect yourself from many online risks.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The TTCSIRT urges the public to continue reporting these cyber-crime incidents to TTPS Cyber-Crime Unit via their website, https://www.ttps.gov.tt/Report-A-Crime, or call 612-0742, 715-2072. If you feel as though you are in a situation similar to those listed above, immediately end the interaction with the attacker to avoid revealing information and report the incident ,providing as much information as you can recall. Important information to include in the report are as follows: the name of the person who contacted you, the means in which you were contacted (e.g. email, telephone etc.), the caller’s ID or email address, details of the interaction and any other relevant information which may help with the investigation.</p>",
+          "text": "The TTCSIRT urges the public to continue reporting these cyber-crime incidents to TTPS Cyber-Crime Unit via their website, https://www.ttps.gov.tt/Report-A-Crime, or call 612-0742, 715-2072. If you feel as though you are in a situation similar to those listed above, immediately end the interaction with the attacker to avoid revealing information and report the incident ,providing as much information as you can recall. Important information to include in the report are as follows: the name of the person who contacted you, the means in which you were contacted (e.g. email, telephone etc.), the caller’s ID or email address, details of the interaction and any other relevant information which may help with the investigation."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "tips-to-avoid-becoming-a-victim",
+      "label": "Tips to avoid becoming a victim",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 4,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/social-engineering/",
+    "upstreamDisclosedAt": "2021-05-27T14:27:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

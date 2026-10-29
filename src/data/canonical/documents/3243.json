@@ -1,0 +1,107 @@
+{
+  "id": "3243",
+  "legacyPostId": 3243,
+  "referenceNumber": "TT-CSIRT #099",
+  "classification": "advisory",
+  "title": "Firefox security updates",
+  "rawTitle": "TTCSIRT-099.031418: TT-CSIRT Advisory – FireFox Security Updates",
+  "slug": "ttcsirt-099-031418-tt-csirt-advisory-firefox-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that the following vulnerabilities have been fixed for FireFox Browser ver 59.0:",
+  "cveList": [
+    "CVE-2018-5127",
+    "CVE-2018-5128",
+    "CVE-2018-5129",
+    "CVE-2018-5130",
+    "CVE-2018-5131",
+    "CVE-2018-5132"
+  ],
+  "date": "14 March 2018",
+  "rawDate": "2018-03-14T15:51:32",
+  "modifiedDate": "14 March 2018",
+  "rawModifiedDate": "2018-03-14T15:51:32",
+  "contentHtml": "<p>Mozilla has released a security update stating that the following vulnerabilities have been fixed for FireFox Browser ver 59.0:</p>\n<p>a) Buffer overflow manipulating SVG animatedPathSegList &#8211; CVE-2018-5127</p>\n<p>b) Use-after-free manipulating editor selection ranges &#8211; CVE-2018-5128</p>\n<p>c) Out-of-bounds write with malformed IPC messages &#8211; CVE-2018-5129</p>\n<p>d) Mismatched RTP payload type can trigger memory corruption &#8211; CVE-2018-5130</p>\n<p>e) Fetch API improperly returns cached copies of no-store/no-cache resources &#8211; CVE-2018-5131</p>\n<p>f) WebExtension Find API can search privileged pages &#8211; CVE-2018-5132</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-06/#CVE-2018-5130\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-06/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that the following vulnerabilities have been fixed for FireFox Browser ver 59.0: a) Buffer overflow manipulating SVG animatedPathSegList &#8211;…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that the following vulnerabilities have been fixed for FireFox Browser ver 59.0: a) Buffer overflow manipulating SVG animatedPathSegList &#8211; CVE-2018-5127 b) Use-after-free manipulating editor selection ranges &#8211; CVE-2018-5128 c) Out-of-bounds write with malformed IPC messages &#8211; CVE-2018-5129 d) Mismatched RTP payload type can trigger memory corruption &#8211; CVE-2018-5130 [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-099-031418-tt-csirt-advisory-firefox-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that the following vulnerabilities have been fixed for FireFox Browser ver 59.0:</p>",
+          "text": "Mozilla has released a security update stating that the following vulnerabilities have been fixed for FireFox Browser ver 59.0:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Buffer overflow manipulating SVG animatedPathSegList &#8211; CVE-2018-5127</p>",
+          "text": "a) Buffer overflow manipulating SVG animatedPathSegList – CVE-2018-5127"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Use-after-free manipulating editor selection ranges &#8211; CVE-2018-5128</p>",
+          "text": "b) Use-after-free manipulating editor selection ranges – CVE-2018-5128"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Out-of-bounds write with malformed IPC messages &#8211; CVE-2018-5129</p>",
+          "text": "c) Out-of-bounds write with malformed IPC messages – CVE-2018-5129"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Mismatched RTP payload type can trigger memory corruption &#8211; CVE-2018-5130</p>",
+          "text": "d) Mismatched RTP payload type can trigger memory corruption – CVE-2018-5130"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Fetch API improperly returns cached copies of no-store/no-cache resources &#8211; CVE-2018-5131</p>",
+          "text": "e) Fetch API improperly returns cached copies of no-store/no-cache resources – CVE-2018-5131"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) WebExtension Find API can search privileged pages &#8211; CVE-2018-5132</p>",
+          "text": "f) WebExtension Find API can search privileged pages – CVE-2018-5132"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-06/#CVE-2018-5130\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-06/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2018-06/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2018-06/#CVE-2018-5130"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-099-031418-tt-csirt-advisory-firefox-security-updates/",
+    "upstreamDisclosedAt": "2018-03-14T15:51:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

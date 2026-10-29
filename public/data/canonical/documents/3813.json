@@ -1,0 +1,84 @@
+{
+  "id": "3813",
+  "legacyPostId": 3813,
+  "referenceNumber": "TT-CSIRT #230",
+  "classification": "advisory",
+  "title": "Php security vulnerability",
+  "rawTitle": "TTCSIRT-230.100219: TT-CSIRT ADVISORY – PHP SECURITY VULNERABILITY",
+  "slug": "ttcsirt-230-100219-tt-csirt-advisory-php-security-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability has been discovered in PHP, which could allow an attacker to execute arbitrary code. PHP is a programming language originally designed for use in web-based applications with HTML content. It supports a wide variety of platforms and is used by numerous web-based software applications.",
+  "cveList": [],
+  "date": "2 October 2019",
+  "rawDate": "2019-10-02T08:06:30",
+  "modifiedDate": "2 October 2019",
+  "rawModifiedDate": "2019-10-02T08:06:30",
+  "contentHtml": "<p>A vulnerability has been discovered in PHP, which could allow an attacker to execute arbitrary code. PHP is a programming language originally designed for use in web-based applications with HTML content. It supports a wide variety of platforms and is used by numerous web-based software applications.</p>\n<p>Successfully exploiting this vulnerability could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition. Failed exploitation could result in a denial-of-service condition.</p>\n<p>TTCSIRT encourages users and administrators to apply the following MS-ISAC recommendations:</p>\n<ul>\n<li>Upgrade to the latest version of PHP immediately, after appropriate testing.</li>\n<li>Verify no unauthorized system modifications have occurred on system before applying patch.</li>\n<li>Apply the principle of Least Privilege to all systems and services.</li>\n<li>Do not to visit websites or follow links provided by unknown or untrusted sources</li>\n</ul>\n<p>For more information, please visit <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-php-could-allow-for-arbitrary-code-execution_2019-101/\">https://www.cisecurity.org/advisory/a-vulnerability-in-php-could-allow-for-arbitrary-code-execution_2019-101/</a></p>\n",
+  "displaySummary": "A vulnerability has been discovered in PHP, which could allow an attacker to execute arbitrary code.",
+  "sourceExcerpt": "<p>A vulnerability has been discovered in PHP, which could allow an attacker to execute arbitrary code. PHP is a programming language originally designed for use in web-based applications with HTML content. It supports a wide variety of platforms and is used by numerous web-based software applications. Successfully exploiting this vulnerability could allow for arbitrary code [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-230-100219-tt-csirt-advisory-php-security-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability has been discovered in PHP, which could allow an attacker to execute arbitrary code. PHP is a programming language originally designed for use in web-based applications with HTML content. It supports a wide variety of platforms and is used by numerous web-based software applications.</p>",
+          "text": "A vulnerability has been discovered in PHP, which could allow an attacker to execute arbitrary code. PHP is a programming language originally designed for use in web-based applications with HTML content. It supports a wide variety of platforms and is used by numerous web-based software applications."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting this vulnerability could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition. Failed exploitation could result in a denial-of-service condition.</p>",
+          "text": "Successfully exploiting this vulnerability could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition. Failed exploitation could result in a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to apply the following MS-ISAC recommendations:</p>",
+          "text": "TTCSIRT encourages users and administrators to apply the following MS-ISAC recommendations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Upgrade to the latest version of PHP immediately, after appropriate testing.</li>\n<li>Verify no unauthorized system modifications have occurred on system before applying patch.</li>\n<li>Apply the principle of Least Privilege to all systems and services.</li>\n<li>Do not to visit websites or follow links provided by unknown or untrusted sources</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more information, please visit <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-php-could-allow-for-arbitrary-code-execution_2019-101/\">https://www.cisecurity.org/advisory/a-vulnerability-in-php-could-allow-for-arbitrary-code-execution_2019-101/</a></p>",
+          "text": "For more information, please visit https://www.cisecurity.org/advisory/a-vulnerability-in-php-could-allow-for-arbitrary-code-execution_2019-101/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-php-could-allow-for-arbitrary-code-execution_2019-101/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-230-100219-tt-csirt-advisory-php-security-vulnerability/",
+    "upstreamDisclosedAt": "2019-10-02T08:06:30",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

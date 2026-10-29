@@ -1,0 +1,126 @@
+{
+  "id": "4905",
+  "legacyPostId": 4905,
+  "referenceNumber": "TT-CSIRT 390.03.03.21",
+  "classification": "advisory",
+  "title": "Critical Microsoft Exchange server security updates",
+  "rawTitle": "TTCSIRT-390.03.03.21:TTCSIRT ADVISORY – Critical Microsoft Exchange Server Security Updates",
+  "slug": "ttcsirt-390-03-03-21ttcsirt-advisory-critical-microsoft-exchange-server-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released out-of-band security updates to address multiple vulnerabilities affecting Microsoft Exchange Server 2013, 2016, and 2019. The United States Cyber and Infrastructure Security Agency (CISA) reports that successful exploitation of these vulnerabilities allows an attacker to execute arbitrary code on vulnerable Exchange Servers, enabling the attacker to gain persistent system access, as well as access to files and mailboxes on the server and to credentials stored on that system. Immediate action is required as these vulnerabilities are being actively exploited in the wild. Threat actor activity has been observed as early as January 3rd, 2021 therefore even if your organization has already implemented the security patch, it is critical that organizations review the corrective actions highlighted below .",
+  "cveList": [],
+  "date": "3 March 2021",
+  "rawDate": "2021-03-03T08:02:42",
+  "modifiedDate": "3 March 2021",
+  "rawModifiedDate": "2021-03-03T08:02:42",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"><strong>Updated for March 12, 2021</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft has released out-of-band security updates to address multiple vulnerabilities affecting Microsoft Exchange Server 2013, 2016, and 2019. The United States Cyber and Infrastructure Security Agency (CISA) reports that successful exploitation of these vulnerabilities allows an attacker to execute arbitrary code on vulnerable Exchange Servers, enabling the attacker to gain persistent system access, as well as access to files and mailboxes on the server and to credentials stored on that system. <strong>Immediate action is required as these vulnerabilities are being actively exploited in the wild.</strong> <strong>Threat actor activity has been observed as early as January 3rd, 2021 therefore even if your organization has already implemented the security patch, it is critical that organizations review the corrective actions highlighted below</strong>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT is urging all entities that use MS Exchange Server to review the below release from Microsoft and urgently apply the necessary updates. System administrators should also review the technical details released by Volexity to search for indicators of compromise in their instances on Exchange Server.</p>\n\n\n\n<p class=\"wp-block-paragraph\">&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft Release: <a href=\"https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Technical Details and Indicators of Compromise: <a href=\"https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/\">Click Here</a></p>\n\n\n\n<h1 class=\"has-black-color has-text-color has-large-font-size wp-block-heading\"><strong>Immediate Corrective Actions</strong></h1>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly recommends the following:</p>\n\n\n\n<ol class=\"has-black-color has-text-color wp-block-list\" type=\"1\">\n<li><strong>IMMEDIATELY shutdown external access to the email system. Shutdown OWA and ActiveSync. Stop all public traffic to the email server at the firewall expect for SMTP. This is to prevent external threat actors from further access to the system and the continued exfiltration of sensitive data.</strong></li>\n<li>Backup all mailboxes offline.</li>\n<li>Completely update the Exchange server and deploy the security patch issued by Microsoft (KB5000871) as soon as possible.</li>\n<li>Critical: On the Exchange server, run the script released by Microsoft (<a href=\"https://github.com/microsoft/CSS-Exchange/tree/main/Security\" target=\"_blank\" rel=\"noreferrer noopener\">Test-ProxyLogon</a>) that automatically checks the server for indicators of compromise (IOCs). For assistance in running the script, please contact TT-CSIRT. If the script uncovers any IOCs, continue on to steps 5, 6, 7, 8 and 9.</li>\n<li>Take a forensic image of the server for investigative purposes.</li>\n<li>A complete forensic audit of the Email Server, Active Directory and all other critical systems on the enterprise network must be conducted before external access to the email server can be restored. External access should only be restore if there is a high degree of confidence that the threat has been completely eliminated from the system.</li>\n<li>Change all user credentials on the domain and local.</li>\n<li>Change all administrator credentials on the domain and local.</li>\n<li>Scan all Exchange servers with <a href=\"https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/safety-scanner-download\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft Security Scanner</a>.</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Please also review the corrective actions recommended by <a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-062a\" target=\"_blank\" rel=\"noreferrer noopener\">CISA</a> and <a href=\"https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft</a>.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br /><strong>If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Updated for March 12, 2021   Microsoft has released out-of-band security updates to address multiple vulnerabilities affecting Microsoft Exchange Server 2013, 2016, and 2019.",
+  "sourceExcerpt": "<p>Updated for March 12, 2021 &nbsp; Microsoft has released out-of-band security updates to address multiple vulnerabilities affecting Microsoft Exchange Server 2013, 2016, and 2019. The United States Cyber and Infrastructure Security Agency (CISA) reports that successful exploitation of these vulnerabilities allows an attacker to execute arbitrary code on vulnerable Exchange Servers, enabling the attacker to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-390-03-03-21ttcsirt-advisory-critical-microsoft-exchange-server-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Updated for march 12, 2021",
+          "id": "updated-for-march-12-2021"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released out-of-band security updates to address multiple vulnerabilities affecting Microsoft Exchange Server 2013, 2016, and 2019. The United States Cyber and Infrastructure Security Agency (CISA) reports that successful exploitation of these vulnerabilities allows an attacker to execute arbitrary code on vulnerable Exchange Servers, enabling the attacker to gain persistent system access, as well as access to files and mailboxes on the server and to credentials stored on that system. <strong>Immediate action is required as these vulnerabilities are being actively exploited in the wild.</strong> <strong>Threat actor activity has been observed as early as January 3rd, 2021 therefore even if your organization has already implemented the security patch, it is critical that organizations review the corrective actions highlighted below</strong>.</p>",
+          "text": "Microsoft has released out-of-band security updates to address multiple vulnerabilities affecting Microsoft Exchange Server 2013, 2016, and 2019. The United States Cyber and Infrastructure Security Agency (CISA) reports that successful exploitation of these vulnerabilities allows an attacker to execute arbitrary code on vulnerable Exchange Servers, enabling the attacker to gain persistent system access, as well as access to files and mailboxes on the server and to credentials stored on that system. Immediate action is required as these vulnerabilities are being actively exploited in the wild. Threat actor activity has been observed as early as January 3rd, 2021 therefore even if your organization has already implemented the security patch, it is critical that organizations review the corrective actions highlighted below ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT is urging all entities that use MS Exchange Server to review the below release from Microsoft and urgently apply the necessary updates. System administrators should also review the technical details released by Volexity to search for indicators of compromise in their instances on Exchange Server.</p>",
+          "text": "TT-CSIRT is urging all entities that use MS Exchange Server to review the below release from Microsoft and urgently apply the necessary updates. System administrators should also review the technical details released by Volexity to search for indicators of compromise in their instances on Exchange Server."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft Release: <a href=\"https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here</a></p>",
+          "text": "Microsoft Release: Click Here"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Technical Details and Indicators of Compromise: <a href=\"https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/\">Click Here</a></p>",
+          "text": "Technical Details and Indicators of Compromise: Click Here"
+        }
+      ]
+    },
+    {
+      "id": "immediate-corrective-actions",
+      "title": "Immediate corrective actions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "TT-CSIRT strongly recommends the following",
+          "id": "tt-csirt-strongly-recommends-the-following"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"has-black-color has-text-color wp-block-list\" type=\"1\">\n<li><strong>IMMEDIATELY shutdown external access to the email system. Shutdown OWA and ActiveSync. Stop all public traffic to the email server at the firewall expect for SMTP. This is to prevent external threat actors from further access to the system and the continued exfiltration of sensitive data.</strong></li>\n<li>Backup all mailboxes offline.</li>\n<li>Completely update the Exchange server and deploy the security patch issued by Microsoft (KB5000871) as soon as possible.</li>\n<li>Critical: On the Exchange server, run the script released by Microsoft (<a href=\"https://github.com/microsoft/CSS-Exchange/tree/main/Security\" target=\"_blank\" rel=\"noreferrer noopener\">Test-ProxyLogon</a>) that automatically checks the server for indicators of compromise (IOCs). For assistance in running the script, please contact TT-CSIRT. If the script uncovers any IOCs, continue on to steps 5, 6, 7, 8 and 9.</li>\n<li>Take a forensic image of the server for investigative purposes.</li>\n<li>A complete forensic audit of the Email Server, Active Directory and all other critical systems on the enterprise network must be conducted before external access to the email server can be restored. External access should only be restore if there is a high degree of confidence that the threat has been completely eliminated from the system.</li>\n<li>Change all user credentials on the domain and local.</li>\n<li>Change all administrator credentials on the domain and local.</li>\n<li>Scan all Exchange servers with <a href=\"https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/safety-scanner-download\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft Security Scanner</a>.</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Please also review the corrective actions recommended by <a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-062a\" target=\"_blank\" rel=\"noreferrer noopener\">CISA</a> and <a href=\"https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/\" target=\"_blank\" rel=\"noreferrer noopener\">Microsoft</a>.</strong></p>",
+          "text": "Please also review the corrective actions recommended by CISA and Microsoft ."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "updated-for-march-12-2021",
+      "label": "Updated for march 12, 2021",
+      "isSubItem": true
+    },
+    {
+      "id": "immediate-corrective-actions",
+      "label": "Immediate corrective actions"
+    },
+    {
+      "id": "tt-csirt-strongly-recommends-the-following",
+      "label": "TT-CSIRT strongly recommends the following",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc-blog.microsoft.com/2021/03/02/multiple-security-updates-released-for-exchange-server/",
+    "https://www.volexity.com/blog/2021/03/02/active-exploitation-of-microsoft-exchange-zero-day-vulnerabilities/",
+    "https://github.com/microsoft/CSS-Exchange/tree/main/Security",
+    "https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/safety-scanner-download",
+    "https://us-cert.cisa.gov/ncas/alerts/aa21-062a"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-390-03-03-21ttcsirt-advisory-critical-microsoft-exchange-server-security-updates/",
+    "upstreamDisclosedAt": "2021-03-03T08:02:42",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

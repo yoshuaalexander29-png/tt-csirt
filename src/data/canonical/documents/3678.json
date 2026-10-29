@@ -1,0 +1,75 @@
+{
+  "id": "3678",
+  "legacyPostId": 3678,
+  "referenceNumber": "TT-CSIRT #203",
+  "classification": "advisory",
+  "title": "Intel security updates",
+  "rawTitle": "TTCSIRT-203.031819: TT-CSIRT Advisory – Intel Security Updates",
+  "slug": "ttcsirt-203-031819-tt-csirt-advisory-intel-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released a security update stating that a potential security vulnerability in Intel® USB 3.0 Creator Utility may allow for escalation of privileges.",
+  "cveList": [],
+  "date": "18 March 2019",
+  "rawDate": "2019-03-18T19:01:18",
+  "modifiedDate": "18 March 2019",
+  "rawModifiedDate": "2019-03-18T19:01:18",
+  "contentHtml": "<p>Intel has released a security update stating that a potential security vulnerability in Intel® USB 3.0 Creator Utility may allow for escalation of privileges. </p>\n<p>This vulnerability is due to improper permissions in the Intel(R) USB 3.0 Creator Utility.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Intel Website at <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/INTEL-SA-00229.html\"><font size=\"2\" color=\"maroon\">https://www.intel.com/content/www/us/en/security-center/advisory/INTEL-SA-00229.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Intel has released a security update stating that a potential security vulnerability in Intel® USB 3.0 Creator Utility may allow for escalation of privileges.",
+  "sourceExcerpt": "<p>Intel has released a security update stating that a potential security vulnerability in Intel® USB 3.0 Creator Utility may allow for escalation of privileges. This vulnerability is due to improper permissions in the Intel(R) USB 3.0 Creator Utility. Further information on this vulnerability and how it can be mitigated can be found on the Intel [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-203-031819-tt-csirt-advisory-intel-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released a security update stating that a potential security vulnerability in Intel® USB 3.0 Creator Utility may allow for escalation of privileges.</p>",
+          "text": "Intel has released a security update stating that a potential security vulnerability in Intel® USB 3.0 Creator Utility may allow for escalation of privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability is due to improper permissions in the Intel(R) USB 3.0 Creator Utility.</p>",
+          "text": "This vulnerability is due to improper permissions in the Intel(R) USB 3.0 Creator Utility."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Intel Website at <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/INTEL-SA-00229.html\">https://www.intel.com/content/www/us/en/security-center/advisory/INTEL-SA-00229.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Intel Website at https://www.intel.com/content/www/us/en/security-center/advisory/INTEL-SA-00229.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/INTEL-SA-00229.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-203-031819-tt-csirt-advisory-intel-security-updates/",
+    "upstreamDisclosedAt": "2019-03-18T19:01:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

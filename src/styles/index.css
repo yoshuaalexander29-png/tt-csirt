@@ -1,0 +1,169 @@
+@import "./tailwind.css";
+@import "./theme.css";
+@import "./risk-readiness-game.css";
+
+.advisories-filter-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: end;
+  gap: var(--gcds-spacing-300);
+}
+
+.statistics-explorer-controls { margin-block-start: var(--gcds-spacing-300); }
+.statistics-explorer-grid { min-width: 0; }
+.statistics-explorer-grid .filter-panel__field { margin: 0; min-width: 0; }
+.statistics-explorer-grid .filter-panel__select { box-sizing: border-box; width: 100%; max-width: 100%; }
+.advisories-filter-controls .govuk-form-group { margin: 0; min-width: 0; }
+.advisories-filter-controls .govuk-select { box-sizing: border-box; width: 100%; max-width: 100%; }
+.advisories-search-control { grid-column: 1 / -1; }
+.advisories-search-input-wrapper { gap: var(--gcds-spacing-200); }
+.advisories-search-input { width: 100%; }
+.advisories-search-button { min-height: 2.75rem; }
+.advisories-filter-section { margin-block-start: var(--gcds-spacing-300); }
+.advisories-filter-heading { margin-block: 0 var(--gcds-spacing-200); }
+.filter-panel__label { margin-block-end: var(--gcds-spacing-100); font-weight: 700; }
+.filter-panel__select { min-height: 2.5rem; }
+.statistics-explorer-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--gcds-spacing-200); margin-block-start: var(--gcds-spacing-300); }
+.statistics-reset { margin: 0; }
+.advisory-share-button::part(button) { display: inline-flex; align-items: center; gap: var(--gcds-spacing-100); }
+.filter-panel__reset { margin: 0; min-height: 2.75rem; align-self: end; }
+.filter-panel__summary { grid-column: 1 / -1; margin-block: var(--gcds-spacing-300) 0; }
+.ttcsirt-primary-cta__content { display: inline-flex; align-items: center; justify-content: center; gap: var(--gcds-spacing-200); }
+.ttcsirt-primary-cta__chevron { display: block; flex: none; width: 1rem; height: 1.25rem; }
+.statistics-explorer-summary { margin-block: var(--gcds-spacing-300) var(--gcds-spacing-200); font-weight: 400; }
+.statistics-explorer-chart { margin: 0; }
+.statistics-explorer-chart-copy { margin-block-end: var(--gcds-spacing-200); }
+.statistics-explorer-chart-title { margin-block: 0 var(--gcds-spacing-100); }
+.statistics-explorer-chart-subtitle { margin: 0; }
+.gcds-data-table.statistics-data-table { display: block; min-width: 0; overflow-x: auto; margin-block: 0 var(--gcds-spacing-400); }
+.gcds-data-table.statistics-data-table--taxonomy { margin-block: 0; }
+.statistics-download-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--gcds-spacing-200); }
+
+.risk-game {
+  margin-block: 40px 50px;
+  padding-block: 25px;
+  border-block: 1px solid #b1b4b6;
+}
+.risk-game__intro { max-width: 42rem; }
+.risk-game__lessons { margin-block: 20px 15px; padding: 15px 20px; background: #f3f2f1; border-left: 5px solid #1d70b8; }
+.risk-game__lessons .govuk-heading-s { margin-bottom: 10px; }
+.risk-game__lessons .govuk-list { margin-bottom: 0; }
+.risk-game__start { margin-block: 10px 15px; }
+.risk-game__start::part(button) { min-height: 45px; }
+.risk-game__disclaimer { max-width: 48rem; color: #505a5f; }
+.risk-game__frame {
+  position: relative; isolation: isolate; overflow: hidden; min-width: 0; min-height: 390px;
+  aspect-ratio: 16 / 10; border: 1px solid #82939a; background: #c4e4eb; color: #0b0c0c;
+  font-family: "GDS Transport", Arial, sans-serif;
+}
+.risk-game__frame:focus-visible { outline: 4px solid #ffdd00; outline-offset: -4px; }
+.risk-game__canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; touch-action: pan-y; }
+.risk-game__topbar {
+  position: absolute; z-index: 2; inset: 15px 15px auto; display: flex; align-items: center; gap: 15px;
+  min-height: 55px; padding: 10px 15px; background: #173e3a; color: #fff;
+}
+.risk-game__progress-copy { min-width: 0; flex: 1; }
+.risk-game__progress-copy strong, .risk-game__progress-copy span { display: block; }
+.risk-game__progress-copy strong { font-size: 16px; line-height: 20px; }
+.risk-game__progress-copy span { overflow: visible; color: #e2efea; font-size: 14px; line-height: 20px; white-space: normal; }
+.risk-game__objective-cue { position: absolute; z-index: 3; display: grid; width: 40px; height: 40px; place-items: center; border: 2px solid #fff; border-radius: 50%; background: #176b68; color: #fff; font-size: 22px; line-height: 1; pointer-events: none; text-shadow: 0 1px 2px #173e3a; }
+.risk-game__objective-cue[hidden] { display: none; }
+.risk-game__collectible-count { flex: none; color: #fff0bf; font-size: 16px; font-weight: 700; }
+.risk-game__loading { position: absolute; z-index: 5; inset: 50% auto auto 50%; width: min(85%, 430px); padding: 20px; transform: translate(-50%, -50%); background: #fff; border-top: 5px solid #1d70b8; font-weight: 700; line-height: 25px; }
+.risk-game__workshop {
+  position: absolute; z-index: 3; inset: 50% 20px auto auto; width: min(350px, calc(100% - 40px)); max-height: calc(100% - 40px);
+  overflow-y: auto; padding: 20px; transform: translateY(-50%); border-top: 5px solid #0065a8; border-left: 1px solid #b1b4b6;
+  background: #fff; color: #0b0c0c; box-shadow: 0 8px 24px rgb(11 12 12 / 18%);
+}
+.risk-game__workshop-copy h3 { margin: 0 0 10px; font-size: 24px; line-height: 30px; }
+.risk-game__workshop-copy > p:not(.risk-game__eyebrow):not(.risk-game__workshop-caption) { margin: 0 0 15px; font-size: 16px; line-height: 23px; }
+.risk-game__eyebrow { margin: 0 0 5px; color: #505a5f; font-size: 14px; font-weight: 700; }
+.risk-game__variant-list { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; margin-block: 15px; }
+.risk-game__variant { display: grid; justify-items: center; gap: 5px; min-height: 60px; padding: 7px 2px; border: 2px solid #82939a; background: #fff; color: #0b0c0c; font: inherit; font-size: 12px; cursor: pointer; }
+.risk-game__variant.is-selected { border-color: #005ea5; background: #eaf4f8; box-shadow: inset 0 -3px #005ea5; }
+.risk-game__variant-dot { display: block; width: 20px; height: 20px; border: 1px solid #384b52; border-radius: 50%; background: #e8b962; }
+.risk-game__variant-dot--2 { background: #f0cf78; }
+.risk-game__variant-dot--3 { background: #d98662; }
+.risk-game__variant-dot--4 { background: #e0b876; }
+.risk-game__variant-dot--5 { background: #c78e9b; }
+.risk-game__tints { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; }
+.risk-game__tint { display: grid; width: 34px; height: 34px; place-items: center; padding: 0; border: 2px solid #82939a; border-radius: 50%; background: #fff; cursor: pointer; }
+.risk-game__tint span { width: 22px; height: 22px; border: 1px solid #505a5f; border-radius: 50%; }
+.risk-game__tint.is-selected { border: 3px solid #005ea5; }
+.risk-game__workshop-caption { margin: 10px 0; color: #505a5f; font-size: 14px; }
+.risk-game__primary, .risk-game__secondary { display: inline-flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 45px; margin: 10px 10px 0 0; padding: 10px 15px; border: 0; background: #005ea5; color: #fff; font: inherit; font-size: 16px; font-weight: 700; line-height: 25px; cursor: pointer; }
+.risk-game__primary:hover { background: #003f70; }
+.risk-game__secondary { border: 2px solid #005ea5; background: #fff; color: #005ea5; }
+.risk-game__dialogue {
+  position: absolute; z-index: 3; inset: auto 15px 15px; max-height: 59%; overflow-y: auto; padding: 15px 20px 20px;
+  border-top: 5px solid #d98553; background: #fffdf8; color: #0b0c0c;
+}
+.risk-game__pause {
+  position: absolute; z-index: 6; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+  overflow-y: auto; padding: clamp(20px, 5vw, 55px); background: rgb(19 54 53 / 94%); color: #fff;
+}
+.risk-game__pause h3 { max-width: 14ch; margin: 0 0 10px; font-size: clamp(28px, 4vw, 42px); line-height: 1.1; }
+.risk-game__pause > p:not(.risk-game__eyebrow) { max-width: 48ch; margin: 0 0 15px; font-size: 17px; line-height: 1.45; }
+.risk-game__pause .risk-game__eyebrow { color: #c8e6dd; }
+.risk-game__pause .risk-game__primary, .risk-game__pause .risk-game__secondary { min-height: 48px; margin: 5px 0; }
+.risk-game__dialogue-content { min-width: 0; }
+.risk-game__speaker { margin: 0 0 5px; color: #173e3a; font-size: 16px; font-weight: 700; line-height: 20px; }
+.risk-game__dialogue-text { max-width: 68ch; margin: 0; font-size: 17px; line-height: 25px; }
+.risk-game__choices { display: grid; gap: 10px; margin-top: 15px; }
+.risk-game__choice { display: grid; grid-template-columns: 30px minmax(0, 1fr); align-items: center; gap: 10px; width: 100%; min-height: 50px; margin: 0; padding: 10px; border: 2px solid #687b77; background: #fff; color: #0b0c0c; font: inherit; font-size: 16px; line-height: 20px; text-align: left; cursor: pointer; }
+.risk-game__choice:hover { border-color: #176b68; background: #e7f2ee; }
+.risk-game__choice-key { display: grid; width: 25px; height: 25px; place-items: center; border: 1px solid #687b77; border-radius: 50%; font-weight: 700; }
+.risk-game__choice:focus-visible, .risk-game__primary:focus-visible, .risk-game__secondary:focus-visible, .risk-game__action:focus-visible, .risk-game__dpad button:focus-visible, .risk-game__jump:focus-visible, .risk-game__sound:focus-visible, .risk-game__variant:focus-visible, .risk-game__tint:focus-visible { outline: 4px solid #ffdd00; outline-offset: 0; box-shadow: inset 0 0 0 2px #0b0c0c; }
+.risk-game__action { position: absolute; z-index: 4; right: 20px; bottom: 75px; display: inline-flex; align-items: center; gap: 20px; min-height: 45px; margin: 0; padding: 10px 15px; border: 0; background: #0065a8; color: #fff; font: inherit; font-size: 16px; font-weight: 700; cursor: pointer; }
+.risk-game__action:hover { background: #004f84; }
+.risk-game__control-hint { position: absolute; z-index: 2; bottom: 20px; left: 20px; padding: 10px 15px; background: #173e3a; color: #fff; font-size: 14px; line-height: 20px; }
+.risk-game__control-hint strong { margin-right: 5px; color: #f4c875; }
+.risk-game__sound { min-height: 35px; margin-left: 10px; padding: 5px 10px; border: 1px solid #a9c3bd; background: #173e3a; color: #fff; font: inherit; cursor: pointer; }
+.risk-game__toast { position: absolute; z-index: 4; top: 90px; left: 50%; max-width: calc(100% - 30px); margin: 0; padding: 10px 15px; transform: translateX(-50%); background: #fffdf8; border-left: 5px solid #d98553; font-weight: 700; line-height: 23px; }
+.risk-game__dpad { display: none; }
+.risk-game__dpad button, .risk-game__jump { min-width: 50px; min-height: 50px; border: 2px solid #173e3a; border-radius: 3px; background: #fffdf8; color: #173e3a; font: inherit; font-size: 22px; font-weight: 700; touch-action: none; user-select: none; }
+.risk-game__dpad button:active, .risk-game__jump:active { background: #f4c875; }
+.risk-game__jump { display: none; }
+.risk-game__screen-reader-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+@media (max-width: 639px) {
+  .risk-game__frame { height: 550px; min-height: 0; aspect-ratio: auto; }
+  .risk-game__topbar { inset: 10px 10px auto; display: grid; grid-template-columns: auto auto auto; justify-content: start; gap: 5px 8px; min-height: 55px; padding: 8px 10px; }
+  .risk-game__progress-copy { grid-column: 1 / -1; }
+  .risk-game__progress-copy strong { font-size: 14px; line-height: 18px; }
+  .risk-game__progress-copy span { font-size: 12px; line-height: 17px; }
+  .risk-game__collectible-count { font-size: 14px; }
+  .risk-game__workshop { inset: auto 10px 10px; width: auto; max-height: 57%; padding: 12px; transform: none; }
+  .risk-game__workshop-copy h3 { margin-bottom: 5px; font-size: 21px; line-height: 26px; }
+  .risk-game__workshop-copy > p:not(.risk-game__eyebrow):not(.risk-game__workshop-caption) { margin-bottom: 7px; font-size: 14px; line-height: 19px; }
+  .risk-game__variant-list { gap: 4px; margin-block: 7px; }
+  .risk-game__variant { min-height: 55px; font-size: 11px; }
+  .risk-game__dialogue { inset: auto 10px 10px; max-height: 62%; padding: 15px 12px; }
+  .risk-game__dialogue-text { font-size: 16px; line-height: 22px; }
+  .risk-game__choice { min-height: 50px; padding: 8px; font-size: 15px; line-height: 20px; }
+  .risk-game__primary, .risk-game__secondary { min-height: 48px; margin-top: 10px; padding: 10px; font-size: 15px; }
+  .risk-game__control-hint { display: none; }
+  .risk-game__action { right: 10px; bottom: 83px; min-height: 48px; max-width: calc(100% - 150px); padding-inline: 10px; font-size: 14px; }
+  .risk-game__toast { top: 75px; font-size: 14px; }
+  .risk-game__dpad { position: absolute; z-index: 3; bottom: 10px; left: 10px; display: grid; grid-template-columns: repeat(3, 48px); grid-template-rows: repeat(2, 48px); gap: 4px; }
+  .risk-game__dpad button { min-width: 48px; min-height: 48px; }
+  .risk-game__dpad button:nth-child(1) { grid-column: 2; grid-row: 1; }
+  .risk-game__dpad button:nth-child(2) { grid-column: 1; grid-row: 2; }
+  .risk-game__dpad button:nth-child(3) { grid-column: 2; grid-row: 2; }
+  .risk-game__dpad button:nth-child(4) { grid-column: 3; grid-row: 2; }
+  .risk-game__jump { position: absolute; z-index: 3; right: 10px; bottom: 15px; display: block; min-width: 72px; min-height: 52px; padding-inline: 10px; background: #fff; font-size: 15px; }
+  .risk-game__sound { min-height: 44px; margin-left: 0; }
+}
+@media (min-width: 48em) {
+  .advisories-filter-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .advisories-search-control { grid-column: 1 / -1; }
+}
+
+@media (min-width: 64em) {
+  .advisories-filter-controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .advisories-search-control { grid-column: span 2; }
+}
+@media (prefers-reduced-motion: reduce) { .risk-game__toast { transition: none; } }
+
+
+
+@font-face{font-family:"gcds-icons";src:url("/fonts/gcds-icons.woff") format("woff");font-weight:400;font-style:normal;font-display:block} :root{--gcds-icon-font-family:"gcds-icons";--gcds-font-families-icons:"gcds-icons"} 

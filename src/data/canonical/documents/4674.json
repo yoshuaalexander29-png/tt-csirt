@@ -1,0 +1,103 @@
+{
+  "id": "4674",
+  "legacyPostId": 4674,
+  "referenceNumber": "TT-CSIRT 335.08.19.20",
+  "classification": "advisory",
+  "title": "Teamviewer flaw in Windows app allows password-cracking",
+  "rawTitle": "TTCSIRT-335.08.19.20: TT-CSIRT ADVISORY- TEAMVIEWER FLAW IN WINDOWS APP ALLOWS PASSWORD-CRACKING",
+  "slug": "ttcsirt-335-08-19-20-tt-csirt-advisory-teamviewer-flaw-in-windows-app-allows-password-cracking",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability has been discovered in TeamViewer, which could allow for offline password cracking.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:17:02",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:17:02",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability has been discovered in TeamViewer, which could allow for offline password cracking.<br><br>TeamViewer is a program used for remote control, desktop sharing, online meetings, web conferencing, and file transfer between systems.<br><br>Successful exploitation of this vulnerability could allow an attacker to launch TeamViewer with arbitrary parameters.<br><br>The program could be forced to relay an NTLM authentication request to the attacker’s system allowing for offline rainbow table attacks and brute force cracking attempts. These attacks could lead to further exploitation due to stolen credentials from successful exploitation of this vulnerability.<br><br>To initiate the attack, the attacker could simply persuade a victim with TeamViewer installed on their system to click on crafted URL in a website – an opportunity for attackers to potentially launch watering-hole attacks.<br><br>The issue is fixed in 8.0.258861, 9.0.258860, 10.0.258873, 11.0.258870, 12.0.258869, 13.2.36220, 14.2.56676, 14.7.48350, and 15.8.3<br><br>Please see the following links for further support and a more comprehensive overview of this vulnerability:<br><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=eaa42a352d&amp;e=64e3bb0ab9\">https://threatpost.com/teamviewer-fhigh-severity-flaw-windows-app/158204/</a><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=6bf5cdb11f&amp;e=64e3bb0ab9\">https://www.teamviewer.com/en/support/</a><br><br>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.<br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A vulnerability has been discovered in TeamViewer, which could allow for offline password cracking.",
+  "sourceExcerpt": "<p>A vulnerability has been discovered in TeamViewer, which could allow for offline password cracking. TeamViewer is a program used for remote control, desktop sharing, online meetings, web conferencing, and file transfer between systems. Successful exploitation of this vulnerability could allow an attacker to launch TeamViewer with arbitrary parameters. The program could be forced to relay [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-335-08-19-20-tt-csirt-advisory-teamviewer-flaw-in-windows-app-allows-password-cracking/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability has been discovered in TeamViewer, which could allow for offline password cracking.</p>",
+          "text": "A vulnerability has been discovered in TeamViewer, which could allow for offline password cracking."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TeamViewer is a program used for remote control, desktop sharing, online meetings, web conferencing, and file transfer between systems.</p>",
+          "text": "TeamViewer is a program used for remote control, desktop sharing, online meetings, web conferencing, and file transfer between systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability could allow an attacker to launch TeamViewer with arbitrary parameters.</p>",
+          "text": "Successful exploitation of this vulnerability could allow an attacker to launch TeamViewer with arbitrary parameters."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The program could be forced to relay an NTLM authentication request to the attacker’s system allowing for offline rainbow table attacks and brute force cracking attempts. These attacks could lead to further exploitation due to stolen credentials from successful exploitation of this vulnerability.</p>",
+          "text": "The program could be forced to relay an NTLM authentication request to the attacker’s system allowing for offline rainbow table attacks and brute force cracking attempts. These attacks could lead to further exploitation due to stolen credentials from successful exploitation of this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To initiate the attack, the attacker could simply persuade a victim with TeamViewer installed on their system to click on crafted URL in a website – an opportunity for attackers to potentially launch watering-hole attacks.</p>",
+          "text": "To initiate the attack, the attacker could simply persuade a victim with TeamViewer installed on their system to click on crafted URL in a website – an opportunity for attackers to potentially launch watering-hole attacks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The issue is fixed in 8.0.258861, 9.0.258860, 10.0.258873, 11.0.258870, 12.0.258869, 13.2.36220, 14.2.56676, 14.7.48350, and 15.8.3</p>",
+          "text": "The issue is fixed in 8.0.258861, 9.0.258860, 10.0.258873, 11.0.258870, 12.0.258869, 13.2.36220, 14.2.56676, 14.7.48350, and 15.8.3"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please see the following links for further support and a more comprehensive overview of this vulnerability:</p>",
+          "text": "Please see the following links for further support and a more comprehensive overview of this vulnerability:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=eaa42a352d&amp;e=64e3bb0ab9\">https://threatpost.com/teamviewer-fhigh-severity-flaw-windows-app/158204/</a><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=6bf5cdb11f&amp;e=64e3bb0ab9\">https://www.teamviewer.com/en/support/</a></p>",
+          "text": "https://threatpost.com/teamviewer-fhigh-severity-flaw-windows-app/158204/ https://www.teamviewer.com/en/support/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-335-08-19-20-tt-csirt-advisory-teamviewer-flaw-in-windows-app-allows-password-cracking/",
+    "upstreamDisclosedAt": "2020-09-22T23:17:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3434",
+  "legacyPostId": 3434,
+  "referenceNumber": "TT-CSIRT #137",
+  "classification": "advisory",
+  "title": "Ssdp security updates",
+  "rawTitle": "TTCSIRT-137.062918: TT-CSIRT Advisory – SSDP Security Updates",
+  "slug": "ttcsirt-137-062918-tt-csirt-advisory-ssdp-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "NETSCOUT Arbor has released a security update stating that the Simple Service Discovery Protocol (SSDP) can be exploited to launch a new type of distributed denial of service (DDoS) attack where devices respond with a non-standard port.",
+  "cveList": [],
+  "date": "29 June 2018",
+  "rawDate": "2018-06-29T12:09:51",
+  "modifiedDate": "29 June 2018",
+  "rawModifiedDate": "2018-06-29T12:09:51",
+  "contentHtml": "<p>NETSCOUT Arbor has released a security update stating that the Simple Service Discovery Protocol (SSDP) can be exploited to launch a new type of distributed denial of service (DDoS) attack where devices respond with a non-standard port.</p>\n<p>SSDP, which was designed for service discovery over a local network, uses text-based HTTP messages over UDP (also known as HTTPU) on port 1900. However, with this exploit. the attacker can set high-numbered ports as the source and destination instead of relying solely on UDP/1900 source port HTTPU packets.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.securityweek.com/ssdp-diffraction-abused-ddos-amplification\"><font size=\"2\" color=\"maroon\">https://www.securityweek.com/ssdp-diffraction-abused-ddos-amplification</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "NETSCOUT Arbor has released a security update stating that the Simple Service Discovery Protocol (SSDP) can be exploited to launch a new type of distributed denial of service (DDoS) attack where…",
+  "sourceExcerpt": "<p>NETSCOUT Arbor has released a security update stating that the Simple Service Discovery Protocol (SSDP) can be exploited to launch a new type of distributed denial of service (DDoS) attack where devices respond with a non-standard port. SSDP, which was designed for service discovery over a local network, uses text-based HTTP messages over UDP (also [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-137-062918-tt-csirt-advisory-ssdp-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>NETSCOUT Arbor has released a security update stating that the Simple Service Discovery Protocol (SSDP) can be exploited to launch a new type of distributed denial of service (DDoS) attack where devices respond with a non-standard port.</p>",
+          "text": "NETSCOUT Arbor has released a security update stating that the Simple Service Discovery Protocol (SSDP) can be exploited to launch a new type of distributed denial of service (DDoS) attack where devices respond with a non-standard port."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>SSDP, which was designed for service discovery over a local network, uses text-based HTTP messages over UDP (also known as HTTPU) on port 1900. However, with this exploit. the attacker can set high-numbered ports as the source and destination instead of relying solely on UDP/1900 source port HTTPU packets.</p>",
+          "text": "SSDP, which was designed for service discovery over a local network, uses text-based HTTP messages over UDP (also known as HTTPU) on port 1900. However, with this exploit. the attacker can set high-numbered ports as the source and destination instead of relying solely on UDP/1900 source port HTTPU packets."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.securityweek.com/ssdp-diffraction-abused-ddos-amplification\">https://www.securityweek.com/ssdp-diffraction-abused-ddos-amplification</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.securityweek.com/ssdp-diffraction-abused-ddos-amplification"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.securityweek.com/ssdp-diffraction-abused-ddos-amplification"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-137-062918-tt-csirt-advisory-ssdp-security-updates/",
+    "upstreamDisclosedAt": "2018-06-29T12:09:51",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

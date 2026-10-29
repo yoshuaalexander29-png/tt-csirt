@@ -1,0 +1,75 @@
+{
+  "id": "4739",
+  "legacyPostId": 4739,
+  "referenceNumber": "TT-CSIRT 367.10.14.20",
+  "classification": "advisory",
+  "title": "Adobe security updates for flash player",
+  "rawTitle": "TTCSIRT-367.10.14.20: TT-CSIRT ADVISORY – Adobe Security Updates for Flash Player",
+  "slug": "ttcsirt-367-10-14-20-tt-csirt-advisory-adobe-security-updates-for-flash-player",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address a vulnerability affecting Flash Player. An attacker could exploit this vulnerability to take control of an affected system.",
+  "cveList": [],
+  "date": "14 October 2020",
+  "rawDate": "2020-10-14T12:51:35",
+  "modifiedDate": "14 October 2020",
+  "rawModifiedDate": "2020-10-14T12:51:35",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Adobe has released security updates to address a vulnerability affecting Flash Player. An attacker could exploit this vulnerability to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators are encouraged to review Adobe Security Bulletin APSB20-58 and apply the necessary update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MTg1NDEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9zZWN1cml0eS9wcm9kdWN0cy9mbGFzaC1wbGF5ZXIvYXBzYjIwLTU4Lmh0bWwifQ.WvpeRETm89Qz9L1WOURtHh4YDPvDnC9vW0Zy3aTUFew/s/1193638257/br/86836844943-l\" target=\"_blank\">Adobe Security Update release</a></p>\n",
+  "displaySummary": "Adobe has released security updates to address a vulnerability affecting Flash Player. An attacker could exploit this vulnerability to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address a vulnerability affecting Flash Player. An attacker could exploit this vulnerability to take control of an affected system. Administrators are encouraged to review Adobe Security Bulletin APSB20-58 and apply the necessary update. For further information and support, please visit the following link:Adobe Security Update release</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-367-10-14-20-tt-csirt-advisory-adobe-security-updates-for-flash-player/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address a vulnerability affecting Flash Player. An attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "Adobe has released security updates to address a vulnerability affecting Flash Player. An attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are encouraged to review Adobe Security Bulletin APSB20-58 and apply the necessary update.</p>",
+          "text": "Administrators are encouraged to review Adobe Security Bulletin APSB20-58 and apply the necessary update."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MTg1NDEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9zZWN1cml0eS9wcm9kdWN0cy9mbGFzaC1wbGF5ZXIvYXBzYjIwLTU4Lmh0bWwifQ.WvpeRETm89Qz9L1WOURtHh4YDPvDnC9vW0Zy3aTUFew/s/1193638257/br/86836844943-l\" target=\"_blank\">Adobe Security Update release</a></p>",
+          "text": "For further information and support, please visit the following link: Adobe Security Update release"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MTg1NDEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9zZWN1cml0eS9wcm9kdWN0cy9mbGFzaC1wbGF5ZXIvYXBzYjIwLTU4Lmh0bWwifQ.WvpeRETm89Qz9L1WOURtHh4YDPvDnC9vW0Zy3aTUFew/s/1193638257/br/86836844943-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-367-10-14-20-tt-csirt-advisory-adobe-security-updates-for-flash-player/",
+    "upstreamDisclosedAt": "2020-10-14T12:51:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

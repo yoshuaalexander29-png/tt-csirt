@@ -1,0 +1,103 @@
+{
+  "id": "4476",
+  "legacyPostId": 4476,
+  "referenceNumber": "TT-CSIRT #310",
+  "classification": "advisory",
+  "title": "Microsoft releases april 2020 security updates",
+  "rawTitle": "TTCSIRT-310.041520: TT-CSIRT ADVISORY – MICROSOFT RELEASES APRIL 2020 SECURITY UPDATES",
+  "slug": "ttcsirt-310-041520-tt-csirt-advisory-microsoft-releases-april-2020-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "15 April 2020",
+  "rawDate": "2020-04-15T18:58:21",
+  "modifiedDate": "15 April 2020",
+  "rawModifiedDate": "2020-04-15T18:58:21",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT encourages users and administrators to review Microsoft’s April 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Security Update Summary:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">Deployment Information:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020\">https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020</a></p>\n",
+  "displaySummary": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TT-CSIRT encourages users and administrators to review Microsoft’s April 2020 Security Update Summary and Deployment Information and apply the necessary updates. Security Update Summary: https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr Deployment Information: https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-310-041520-tt-csirt-advisory-microsoft-releases-april-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review Microsoft’s April 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>",
+          "text": "TT-CSIRT encourages users and administrators to review Microsoft’s April 2020 Security Update Summary and Deployment Information and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Security update summary",
+          "id": "security-update-summary"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Deployment information",
+          "id": "deployment-information"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020\">https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020</a></p>",
+          "text": "https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "security-update-summary",
+      "label": "Security update summary",
+      "isSubItem": true
+    },
+    {
+      "id": "deployment-information",
+      "label": "Deployment information",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Apr",
+    "https://support.microsoft.com/en-us/help/20200414/security-update-deployment-information-april-14-2020"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-310-041520-tt-csirt-advisory-microsoft-releases-april-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-04-15T18:58:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "9982",
+  "legacyPostId": 9982,
+  "referenceNumber": "TT-CSIRT 437.25.10.24",
+  "classification": "advisory",
+  "title": "Cisco event response: october 2024 security advisory bundle for asa, fmc, and ftd software",
+  "rawTitle": "TT-CSIRT -437.25.10.24. Cisco Event Response: October 2024 Security Advisory Bundle for ASA, FMC, and FTD Software",
+  "slug": "tt-csirt-437-25-10-24-cisco-event-response-october-2024-security-advisory-bundle-for-asa-fmc-and-ftd-software",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "On October 23, 2024, Cisco issued their semi-annual Security Advisory Bundle for ASA, FMC, and FTD software. This release contains 35 Cisco Security Advisories that describe 51 vulnerabilities impacting Cisco ASA, FMC, and FTD devices. Cisco has released software upgrades to address the issues.",
+  "cveList": [],
+  "date": "25 October 2024",
+  "rawDate": "2024-10-25T09:29:46",
+  "modifiedDate": "25 October 2024",
+  "rawModifiedDate": "2024-10-25T09:29:46",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">On October 23, 2024, Cisco issued their semi-annual Security Advisory Bundle for ASA, FMC, and FTD software. This release contains 35 Cisco Security Advisories that describe 51 vulnerabilities impacting Cisco ASA, FMC, and FTD devices. Cisco has released software upgrades to address the issues.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>The following identifies Cisco Security content that is associated with this bundled publication:</strong></p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" width=\"2056\" height=\"4509\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max.png\" alt=\"\" class=\"wp-image-9987\" style=\"width:919px;height:auto\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max.png 2056w, https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max-137x300.png 137w, https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max-467x1024.png 467w, https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max-768x1684.png 768w, https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max-700x1536.png 700w, https://ttcsirt.gov.tt/wp-content/uploads/2024/10/sec.cloudapps.cisco_.com_security_center_viewErp.x_alertIdERP-75300Nest-Hub-Max-934x2048.png 934w\" sizes=\"(max-width: 2056px) 100vw, 2056px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages administrators to visit the following link for more information and take necessary actions immediately: <strong><a href=\"https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-75300\" target=\"_blank\" rel=\"noreferrer noopener\">Cisco Event Response Page</a></strong>. If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "On October 23, 2024, Cisco issued their semi-annual Security Advisory Bundle for ASA, FMC, and FTD software.",
+  "sourceExcerpt": "<p>On October 23, 2024, Cisco issued their semi-annual Security Advisory Bundle for ASA, FMC, and FTD software. This release contains 35 Cisco Security Advisories that describe 51 vulnerabilities impacting Cisco ASA, FMC, and FTD devices. Cisco has released software upgrades to address the issues. The following identifies Cisco Security content that is associated with this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-437-25-10-24-cisco-event-response-october-2024-security-advisory-bundle-for-asa-fmc-and-ftd-software/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>On October 23, 2024, Cisco issued their semi-annual Security Advisory Bundle for ASA, FMC, and FTD software. This release contains 35 Cisco Security Advisories that describe 51 vulnerabilities impacting Cisco ASA, FMC, and FTD devices. Cisco has released software upgrades to address the issues.</p>",
+          "text": "On October 23, 2024, Cisco issued their semi-annual Security Advisory Bundle for ASA, FMC, and FTD software. This release contains 35 Cisco Security Advisories that describe 51 vulnerabilities impacting Cisco ASA, FMC, and FTD devices. Cisco has released software upgrades to address the issues."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>The following identifies Cisco Security content that is associated with this bundled publication:</strong></p>",
+          "text": "The following identifies Cisco Security content that is associated with this bundled publication:"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-75300"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-437-25-10-24-cisco-event-response-october-2024-security-advisory-bundle-for-asa-fmc-and-ftd-software/",
+    "upstreamDisclosedAt": "2024-10-25T09:29:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

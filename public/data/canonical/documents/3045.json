@@ -1,0 +1,125 @@
+{
+  "id": "3045",
+  "legacyPostId": 3045,
+  "referenceNumber": "TT-CSIRT #055",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-055.103017: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-055-103017-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code. Details of these vulnerabilities are as below:",
+  "cveList": [
+    "CVE-2016-1283"
+  ],
+  "date": "30 October 2017",
+  "rawDate": "2017-10-30T11:04:26",
+  "modifiedDate": "30 October 2017",
+  "rawModifiedDate": "2017-10-30T11:04:26",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code. Details of these vulnerabilities are as below:</p>\n<p><b>Version 7.1.11</b></p>\n<p>Bug #75241 (Null pointer dereference in zend_mm_alloc_small()).<br />\nBug #75236 (infinite loop when printing an error-message).<br />\nBug #75252 (Incorrect token formatting on two parse errors in one request).<br />\nBug #75220 (Segfault when calling is_callable on parent).<br />\nBug #75290 (debug info of Closures of internal functions contain garbage argument names).<br />\nBug #75055 (Out-Of-Bounds Read in timelib_meridian()).<br />\nBug #75311 (error: &#8216;zend_hash_key&#8217; has no member named &#8216;arKey&#8217; in apache2handler).<br />\nBug #75303 (sha3 hangs on bigendian).<br />\nBug #75318 (The parameter of UConverter::getAliases() is not optional).<br />\nBug #75248 (Binary directory doesn&#8217;t get created when building only litespeed SAPI).<br />\nBug #75251 (Missing program prefix and suffix).<br />\nBug #72535 (arcfour encryption stream filter crashes php).<br />\nBug #75018 (Data corruption when reading fields of bit type).<br />\nBug #75255 (Request hangs and not finished).<br />\nBug #75207 (applied upstream patch for CVE-2016-1283).<br />\nBug #75177 (Type &#8216;bit&#8217; is fetched as unexpected string).<br />\nBug #73629 (SplDoublyLinkedList::setIteratorMode masks intern flags).</p>\n<p><b>Version 7.0.25</b></p>\n<p>Bug #75241 (Null pointer dereference in zend_mm_alloc_small()).<br />\nBug #75236 (infinite loop when printing an error-message).<br />\nBug #75252 (Incorrect token formatting on two parse errors in one request).<br />\nBug #75220 (Segfault when calling is_callable on parent).<br />\nBug #75290 (debug info of Closures of internal functions contain garbage argument names).<br />\nBug #75311 (error: &#8216;zend_hash_key&#8217; has no member named &#8216;arKey&#8217; in apache2handler).<br />\nBug #75055 (Out-Of-Bounds Read in timelib_meridian()).<br />\nBug #75318 (The parameter of UConverter::getAliases() is not optional).<br />\nBug #72535 (arcfour encryption stream filter crashes php).<br />\nBug #75207 (applied upstream patch for CVE-2016-1283).<br />\nBug #75248 (Binary directory doesn&#8217;t get created when building only litespeed SAPI).<br />\nBug #75251 (Missing program prefix and suffix).<br />\nBug #73629 (SplDoublyLinkedList::setIteratorMode masks intern flags).</p>\n<p><b>Version 5.6.32</b></p>\n<p>Bug #75055 (out-of-bounds read in timelib_meridian()).<br />\nBug #72535 (arcfour encryption stream filter crashes php).<br />\nBug #75207 (applied upstream patch for CVE-2016-1283).</p>\n<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2017-104/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2017-104/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code. Details of these vulnerabilities are as below: Version 7.1.11 Bug #75241 (Null pointer dereference in zend_mm_alloc_small()). Bug #75236 (infinite loop when printing an error-message). Bug #75252 (Incorrect token formatting on two parse errors in one [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-055-103017-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code. Details of these vulnerabilities are as below:</p>",
+          "text": "Multiple vulnerabilities have been discovered in PHP, the most severe of which could allow an attacker to execute arbitrary code. Details of these vulnerabilities are as below:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 7.1.11",
+          "id": "version-7111"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #75241 (Null pointer dereference in zend_mm_alloc_small()).<br />\nBug #75236 (infinite loop when printing an error-message).<br />\nBug #75252 (Incorrect token formatting on two parse errors in one request).<br />\nBug #75220 (Segfault when calling is_callable on parent).<br />\nBug #75290 (debug info of Closures of internal functions contain garbage argument names).<br />\nBug #75055 (Out-Of-Bounds Read in timelib_meridian()).<br />\nBug #75311 (error: &#8216;zend_hash_key&#8217; has no member named &#8216;arKey&#8217; in apache2handler).<br />\nBug #75303 (sha3 hangs on bigendian).<br />\nBug #75318 (The parameter of UConverter::getAliases() is not optional).<br />\nBug #75248 (Binary directory doesn&#8217;t get created when building only litespeed SAPI).<br />\nBug #75251 (Missing program prefix and suffix).<br />\nBug #72535 (arcfour encryption stream filter crashes php).<br />\nBug #75018 (Data corruption when reading fields of bit type).<br />\nBug #75255 (Request hangs and not finished).<br />\nBug #75207 (applied upstream patch for CVE-2016-1283).<br />\nBug #75177 (Type &#8216;bit&#8217; is fetched as unexpected string).<br />\nBug #73629 (SplDoublyLinkedList::setIteratorMode masks intern flags).</p>",
+          "text": "Bug #75241 (Null pointer dereference in zend_mm_alloc_small()). Bug #75236 (infinite loop when printing an error-message). Bug #75252 (Incorrect token formatting on two parse errors in one request). Bug #75220 (Segfault when calling is_callable on parent). Bug #75290 (debug info of Closures of internal functions contain garbage argument names). Bug #75055 (Out-Of-Bounds Read in timelib_meridian()). Bug #75311 (error: ‘zend_hash_key’ has no member named ‘arKey’ in apache2handler). Bug #75303 (sha3 hangs on bigendian). Bug #75318 (The parameter of UConverter::getAliases() is not optional). Bug #75248 (Binary directory doesn’t get created when building only litespeed SAPI). Bug #75251 (Missing program prefix and suffix). Bug #72535 (arcfour encryption stream filter crashes php). Bug #75018 (Data corruption when reading fields of bit type). Bug #75255 (Request hangs and not finished). Bug #75207 (applied upstream patch for CVE-2016-1283). Bug #75177 (Type ‘bit’ is fetched as unexpected string). Bug #73629 (SplDoublyLinkedList::setIteratorMode masks intern flags)."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 7.0.25",
+          "id": "version-7025"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #75241 (Null pointer dereference in zend_mm_alloc_small()).<br />\nBug #75236 (infinite loop when printing an error-message).<br />\nBug #75252 (Incorrect token formatting on two parse errors in one request).<br />\nBug #75220 (Segfault when calling is_callable on parent).<br />\nBug #75290 (debug info of Closures of internal functions contain garbage argument names).<br />\nBug #75311 (error: &#8216;zend_hash_key&#8217; has no member named &#8216;arKey&#8217; in apache2handler).<br />\nBug #75055 (Out-Of-Bounds Read in timelib_meridian()).<br />\nBug #75318 (The parameter of UConverter::getAliases() is not optional).<br />\nBug #72535 (arcfour encryption stream filter crashes php).<br />\nBug #75207 (applied upstream patch for CVE-2016-1283).<br />\nBug #75248 (Binary directory doesn&#8217;t get created when building only litespeed SAPI).<br />\nBug #75251 (Missing program prefix and suffix).<br />\nBug #73629 (SplDoublyLinkedList::setIteratorMode masks intern flags).</p>",
+          "text": "Bug #75241 (Null pointer dereference in zend_mm_alloc_small()). Bug #75236 (infinite loop when printing an error-message). Bug #75252 (Incorrect token formatting on two parse errors in one request). Bug #75220 (Segfault when calling is_callable on parent). Bug #75290 (debug info of Closures of internal functions contain garbage argument names). Bug #75311 (error: ‘zend_hash_key’ has no member named ‘arKey’ in apache2handler). Bug #75055 (Out-Of-Bounds Read in timelib_meridian()). Bug #75318 (The parameter of UConverter::getAliases() is not optional). Bug #72535 (arcfour encryption stream filter crashes php). Bug #75207 (applied upstream patch for CVE-2016-1283). Bug #75248 (Binary directory doesn’t get created when building only litespeed SAPI). Bug #75251 (Missing program prefix and suffix). Bug #73629 (SplDoublyLinkedList::setIteratorMode masks intern flags)."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Version 5.6.32",
+          "id": "version-5632"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #75055 (out-of-bounds read in timelib_meridian()).<br />\nBug #72535 (arcfour encryption stream filter crashes php).<br />\nBug #75207 (applied upstream patch for CVE-2016-1283).</p>",
+          "text": "Bug #75055 (out-of-bounds read in timelib_meridian()). Bug #72535 (arcfour encryption stream filter crashes php). Bug #75207 (applied upstream patch for CVE-2016-1283)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition.</p>",
+          "text": "Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights. Failed exploitation could result in a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2017-104/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2017-104/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2017-104/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "version-7111",
+      "label": "Version 7.1.11",
+      "isSubItem": true
+    },
+    {
+      "id": "version-7025",
+      "label": "Version 7.0.25",
+      "isSubItem": true
+    },
+    {
+      "id": "version-5632",
+      "label": "Version 5.6.32",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2017-104/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-055-103017-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2017-10-30T11:04:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3199",
+  "legacyPostId": 3199,
+  "referenceNumber": "TT-CSIRT #087",
+  "classification": "advisory",
+  "title": "Linux security updates",
+  "rawTitle": "TTCSIRT-087.020818: TT-CSIRT Advisory – Linux Security Updates",
+  "slug": "ttcsirt-087-020818-tt-csirt-advisory-linux-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability has been discovered in the GNU C Library of all Linux Distributions which could allow for arbitrary code execution. It is caused due to internal memalign() and malloc() functions in glibc failing to properly report allocation errors. This vulnerability can be exploited when the system processes maliciously crafted data.",
+  "cveList": [],
+  "date": "8 February 2018",
+  "rawDate": "2018-02-08T15:14:26",
+  "modifiedDate": "8 February 2018",
+  "rawModifiedDate": "2018-02-08T15:14:26",
+  "contentHtml": "<p>A vulnerability has been discovered in the GNU C Library of all Linux Distributions which could allow for arbitrary code execution. It is caused due to internal memalign() and malloc() functions in glibc failing to properly report allocation errors. This vulnerability can be exploited when the system processes maliciously crafted data.</p>\n<p>Successful exploitation could result in an attacker gaining the same privileges as the exploited application. Thus, depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of this vulnerability could have less impact than if it was configured with administrative rights. Failed exploit attempts could lead to a denial of service condition for the affected application.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-gnu-c-library-could-allow-for-arbitrary-code-execution_2018-017/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-gnu-c-library-could-allow-for-arbitrary-code-execution_2018-017/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "A vulnerability has been discovered in the GNU C Library of all Linux Distributions which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>A vulnerability has been discovered in the GNU C Library of all Linux Distributions which could allow for arbitrary code execution. It is caused due to internal memalign() and malloc() functions in glibc failing to properly report allocation errors. This vulnerability can be exploited when the system processes maliciously crafted data. Successful exploitation could result [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-087-020818-tt-csirt-advisory-linux-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability has been discovered in the GNU C Library of all Linux Distributions which could allow for arbitrary code execution. It is caused due to internal memalign() and malloc() functions in glibc failing to properly report allocation errors. This vulnerability can be exploited when the system processes maliciously crafted data.</p>",
+          "text": "A vulnerability has been discovered in the GNU C Library of all Linux Distributions which could allow for arbitrary code execution. It is caused due to internal memalign() and malloc() functions in glibc failing to properly report allocation errors. This vulnerability can be exploited when the system processes maliciously crafted data."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation could result in an attacker gaining the same privileges as the exploited application. Thus, depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of this vulnerability could have less impact than if it was configured with administrative rights. Failed exploit attempts could lead to a denial of service condition for the affected application.</p>",
+          "text": "Successful exploitation could result in an attacker gaining the same privileges as the exploited application. Thus, depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of this vulnerability could have less impact than if it was configured with administrative rights. Failed exploit attempts could lead to a denial of service condition for the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-gnu-c-library-could-allow-for-arbitrary-code-execution_2018-017/\">https://www.cisecurity.org/advisory/a-vulnerability-in-gnu-c-library-could-allow-for-arbitrary-code-execution_2018-017/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-gnu-c-library-could-allow-for-arbitrary-code-execution_2018-017/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-gnu-c-library-could-allow-for-arbitrary-code-execution_2018-017/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-087-020818-tt-csirt-advisory-linux-security-updates/",
+    "upstreamDisclosedAt": "2018-02-08T15:14:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

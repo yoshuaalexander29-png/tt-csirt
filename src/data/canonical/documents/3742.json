@@ -1,0 +1,77 @@
+{
+  "id": "3742",
+  "legacyPostId": 3742,
+  "referenceNumber": "TT-CSIRT #217",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-217.070919: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-217-070919-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that an elevation of privilege vulnerability exists in Azure Automation “RunAs account” runbooks for users with contributor role. This could potentially allow members of an organization to access Key Vault secrets through a runbook, even if these members would personally not have access to that Key Vault.",
+  "cveList": [
+    "CVE-2019-0962"
+  ],
+  "date": "9 July 2019",
+  "rawDate": "2019-07-09T18:47:21",
+  "modifiedDate": "9 July 2019",
+  "rawModifiedDate": "2019-07-09T18:47:21",
+  "contentHtml": "<p>Microsoft has released a security update stating that an elevation of privilege vulnerability exists in Azure Automation “RunAs account” runbooks for users with contributor role. This could potentially allow members of an organization to access Key Vault secrets through a runbook, even if these members would personally not have access to that Key Vault. </p>\n<p>To exploit this vulnerability, an attacker must be a member of an organization who can run runbooks, with only global admins/co-admins who can create the “run as” account.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0962\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0962</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that an elevation of privilege vulnerability exists in Azure Automation “RunAs account” runbooks for users with contributor role.",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that an elevation of privilege vulnerability exists in Azure Automation “RunAs account” runbooks for users with contributor role. This could potentially allow members of an organization to access Key Vault secrets through a runbook, even if these members would personally not have access to that Key Vault. To [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-217-070919-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that an elevation of privilege vulnerability exists in Azure Automation “RunAs account” runbooks for users with contributor role. This could potentially allow members of an organization to access Key Vault secrets through a runbook, even if these members would personally not have access to that Key Vault.</p>",
+          "text": "Microsoft has released a security update stating that an elevation of privilege vulnerability exists in Azure Automation “RunAs account” runbooks for users with contributor role. This could potentially allow members of an organization to access Key Vault secrets through a runbook, even if these members would personally not have access to that Key Vault."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To exploit this vulnerability, an attacker must be a member of an organization who can run runbooks, with only global admins/co-admins who can create the “run as” account.</p>",
+          "text": "To exploit this vulnerability, an attacker must be a member of an organization who can run runbooks, with only global admins/co-admins who can create the “run as” account."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0962\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0962</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0962"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0962"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-217-070919-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2019-07-09T18:47:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

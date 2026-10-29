@@ -1,0 +1,75 @@
+{
+  "id": "4817",
+  "legacyPostId": 4817,
+  "referenceNumber": "TT-CSIRT 380.12.03.20",
+  "classification": "advisory",
+  "title": "Apple releases security updates for icloud for Windows",
+  "rawTitle": "TTCSIRT-380.12.03.20: TT-CSIRT ADVISORY – Apple Releases Security Updates for iCloud for Windows",
+  "slug": "ttcsirt-380-12-03-20-tt-csirt-advisory-apple-releases-security-updates-for-icloud-for-windows",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in iCloud for Windows. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "3 December 2020",
+  "rawDate": "2020-12-03T14:20:44",
+  "modifiedDate": "3 December 2020",
+  "rawModifiedDate": "2020-12-03T14:20:44",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Apple has released security updates to address vulnerabilities in iCloud for Windows. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that&nbsp;users and administrators&nbsp;review the Apple security page for and apply the necessary updates.<br><br>Please visit the link provided below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDMuMzE1MTQ1NjEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTM1In0.v9EFA_d24K9u7iq2v-lbkjDZUFw9jB8V7Xq9dCxgMHc/s/1193638257/br/91048116197-l\">iCloud for Windows 11.5</a></p>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in iCloud for Windows. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Apple has released security updates to address vulnerabilities in iCloud for Windows. An attacker could exploit some of these vulnerabilities to take control of an affected system. It is encouraged that&nbsp;users and administrators&nbsp;review the Apple security page for and apply the necessary updates. Please visit the link provided below:iCloud for Windows 11.5</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-380-12-03-20-tt-csirt-advisory-apple-releases-security-updates-for-icloud-for-windows/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates to address vulnerabilities in iCloud for Windows. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Apple has released security updates to address vulnerabilities in iCloud for Windows. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that&nbsp;users and administrators&nbsp;review the Apple security page for and apply the necessary updates.</p>",
+          "text": "It is encouraged that users and administrators review the Apple security page for and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please visit the link provided below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDMuMzE1MTQ1NjEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTM1In0.v9EFA_d24K9u7iq2v-lbkjDZUFw9jB8V7Xq9dCxgMHc/s/1193638257/br/91048116197-l\">iCloud for Windows 11.5</a></p>",
+          "text": "Please visit the link provided below: iCloud for Windows 11.5"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDMuMzE1MTQ1NjEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTM1In0.v9EFA_d24K9u7iq2v-lbkjDZUFw9jB8V7Xq9dCxgMHc/s/1193638257/br/91048116197-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-380-12-03-20-tt-csirt-advisory-apple-releases-security-updates-for-icloud-for-windows/",
+    "upstreamDisclosedAt": "2020-12-03T14:20:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,274 @@
+BROWSER
+- URL: http://localhost:5010
+- viewport: 1024x768
+- browser/tool: Puppeteer (Headless Chrome)
+- device scale: 1
+
+RENDERED DOM
+[1. About TT-CSIRT H2]
+tagName: H2
+className: govuk-heading-l
+textContent: About TT-CSIRT...
+parent: SECTION.about-ttcsirt
+
+[2. Introductory paragraph]
+tagName: P
+className: govuk-body-l
+textContent: TT-CSIRT coordinates national cyber incident respo...
+parent: SECTION.about-ttcsirt
+
+[3. Working with partners H3]
+tagName: H3
+className: govuk-heading-m
+textContent: Working with partners...
+parent: SECTION.about-ttcsirt
+
+[4. Working with partners paragraph]
+tagName: P
+className: govuk-body
+textContent: TT-CSIRT works with national, regional and interna...
+parent: SECTION.about-ttcsirt
+
+[5. Partner agencies H3]
+tagName: H3
+className: govuk-heading-m
+textContent: Partner agencies...
+parent: SECTION.about-ttcsirt
+
+[6. Partner agency list]
+tagName: UL
+className: govuk-list govuk-list--bullet
+textContent: TTPS CSMUCARICOM IMPACSGetSafeOnlineTTiGovTTOAS CS...
+parent: SECTION.about-ttcsirt
+
+[7. Key facts H3]
+tagName: H3
+className: govuk-heading-m
+textContent: Key facts...
+parent: SECTION.about-ttcsirt
+
+[8. Key facts content]
+tagName: DL
+className: govuk-summary-list
+textContent: EstablishedNovember 2015Policy FoundationNational ...
+parent: SECTION.about-ttcsirt
+
+COMPUTED TYPOGRAPHY
+[1. About TT-CSIRT H2]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 36px
+font-weight: 700
+font-style: normal
+line-height: 40px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 30px
+margin-left: 0px
+padding-top: 0px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+[2. Introductory paragraph]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 400
+font-style: normal
+line-height: 30px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 30px
+margin-left: 0px
+padding-top: 0px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+[3. Working with partners H3]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 700
+font-style: normal
+line-height: 30px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 20px
+margin-left: 0px
+padding-top: 0px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+[4. Working with partners paragraph]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+font-style: normal
+line-height: 25px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 20px
+margin-left: 0px
+padding-top: 0px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+[5. Partner agencies H3]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 700
+font-style: normal
+line-height: 30px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 20px
+margin-left: 0px
+padding-top: 10px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+[6. Partner agency list]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+font-style: normal
+line-height: 25px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 20px
+margin-left: 0px
+padding-top: 0px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 20px
+
+[7. Key facts H3]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 700
+font-style: normal
+line-height: 30px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 20px
+margin-left: 0px
+padding-top: 10px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+[8. Key facts content]
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+font-style: normal
+line-height: 25px
+letter-spacing: normal
+margin-top: 0px
+margin-right: 0px
+margin-bottom: 30px
+margin-left: 0px
+padding-top: 0px
+padding-right: 0px
+padding-bottom: 0px
+padding-left: 0px
+
+LOADED FONTS (document.fonts)
+GDS Transport | normal | 400 | error | normal
+GDS Transport | normal | 700 | error | normal
+
+FONT RESOURCE REQUESTS
+http://localhost:5010/assets/fonts/bold-b542beb274-v2.woff2 (200)
+http://localhost:5010/assets/fonts/light-94a07e06a1-v2.woff2 (200)
+http://localhost:5010/assets/fonts/light-f591b13f7d-v2.woff (200)
+http://localhost:5010/assets/fonts/bold-affa96571d-v2.woff (200)
+
+RENDERED FONT DETERMINATION
+About TT-CSIRT H2 Rendered Platform Fonts:
+[
+  {
+    "familyName": "Liberation Sans",
+    "postScriptName": "LiberationSans-Bold",
+    "isCustomFont": false,
+    "glyphCount": 14
+  }
+]
+Introductory Paragraph Rendered Platform Fonts:
+[
+  {
+    "familyName": "Liberation Sans",
+    "postScriptName": "LiberationSans",
+    "isCustomFont": false,
+    "glyphCount": 140
+  }
+]
+
+ELEMENT GEOMETRY
+[1. About TT-CSIRT H2]
+x: 362, y: 4985.1875, width: 630, height: 40
+top: 4985.1875, bottom: 5025.1875
+scrollWidth: 630, scrollHeight: 40
+
+[2. Introductory paragraph]
+x: 362, y: 5055.1875, width: 630, height: 90
+top: 5055.1875, bottom: 5145.1875
+scrollWidth: 630, scrollHeight: 90
+
+[3. Working with partners H3]
+x: 362, y: 5175.1875, width: 630, height: 30
+top: 5175.1875, bottom: 5205.1875
+scrollWidth: 630, scrollHeight: 30
+
+[4. Working with partners paragraph]
+x: 362, y: 5225.1875, width: 630, height: 50
+top: 5225.1875, bottom: 5275.1875
+scrollWidth: 630, scrollHeight: 50
+
+[5. Partner agencies H3]
+x: 362, y: 5295.1875, width: 630, height: 40
+top: 5295.1875, bottom: 5335.1875
+scrollWidth: 630, scrollHeight: 40
+
+[6. Partner agency list]
+x: 362, y: 5355.1875, width: 630, height: 175
+top: 5355.1875, bottom: 5530.1875
+scrollWidth: 630, scrollHeight: 175
+
+[7. Key facts H3]
+x: 362, y: 5550.1875, width: 630, height: 40
+top: 5550.1875, bottom: 5590.1875
+scrollWidth: 630, scrollHeight: 40
+
+[8. Key facts content]
+x: 362, y: 5610.1875, width: 630, height: 184
+top: 5610.1875, bottom: 5794.1875
+scrollWidth: 630, scrollHeight: 184
+
+VERTICAL DISTANCES
+H2 bottom -> intro top: 30
+intro bottom -> H3_1 top: 30
+H3_1 bottom -> p_1 top: 20
+p_1 bottom -> H3_2 top: 20
+H3_2 bottom -> ul top: 20
+ul bottom -> H3_3 top: 20
+H3_3 bottom -> dl top: 20
+
+RESPONSIVE COMPARISON
+--- Mobile (375px) ---
+[1. About TT-CSIRT H2] font-size: 27px, line-height: 30px, margin-bottom: 20px
+[2. Introductory paragraph] font-size: 21px, line-height: 25px, margin-bottom: 20px
+H2 bottom -> intro top: 20
+intro bottom -> H3_1 top: 20
+
+WINNING CSS RULES & CSS COLLISIONS
+(Inspecting Matched Rules for H2 via CDP)
+Selector: h2

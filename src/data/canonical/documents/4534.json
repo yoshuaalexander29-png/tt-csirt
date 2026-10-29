@@ -1,0 +1,95 @@
+{
+  "id": "4534",
+  "legacyPostId": 4534,
+  "referenceNumber": "TT-CSIRT 320.07.06.20",
+  "classification": "advisory",
+  "title": "F5 big-IP vulnerability",
+  "rawTitle": "TTCSIRT-320.07.06.20: TT-CSIRT ADVISORY-  F5 BIG-IP VULNERABILITY",
+  "slug": "ttcsirt-320-07-06-20-tt-csirt-advisory-f5-big-ip-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages",
+  "cveList": [],
+  "date": "6 July 2020",
+  "rawDate": "2020-07-06T09:24:45",
+  "modifiedDate": "6 July 2020",
+  "rawModifiedDate": "2020-07-06T09:24:45",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages</p>\n\n\n\n<p class=\"wp-block-paragraph\">This vulnerability allows for unauthenticated attackers, or authenticated users, with network access to the TMUI, through the BIG-IP management port and/or Self IPs, to execute arbitrary system commands, create or delete files, disable services, and/or execute arbitrary Java code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This vulnerability may result in complete system compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The BIG-IP system in Appliance mode is also vulnerable.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This issue is not exposed on the data plane; only the control plane is affected.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates by visiting the following link; which illustrates the known vulnerable versions and the mitigating fixes in the Security Advisory Status section of the article:</p>\n\n\n\n<pre class=\"wp-block-preformatted\"><a href=\"https://support.f5.com/csp/article/K52145254\">https://support.f5.com/csp/article/K52145254</a></pre>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "The Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages This vulnerability allows for…",
+  "sourceExcerpt": "<p>The Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages This vulnerability allows for unauthenticated attackers, or authenticated users, with network access to the TMUI, through the BIG-IP management port and/or Self IPs, to execute arbitrary system commands, create or delete files, disable [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-320-07-06-20-tt-csirt-advisory-f5-big-ip-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages</p>",
+          "text": "The Traffic Management User Interface (TMUI), also referred to as the Configuration utility, has a Remote Code Execution (RCE) vulnerability in undisclosed pages"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability allows for unauthenticated attackers, or authenticated users, with network access to the TMUI, through the BIG-IP management port and/or Self IPs, to execute arbitrary system commands, create or delete files, disable services, and/or execute arbitrary Java code.</p>",
+          "text": "This vulnerability allows for unauthenticated attackers, or authenticated users, with network access to the TMUI, through the BIG-IP management port and/or Self IPs, to execute arbitrary system commands, create or delete files, disable services, and/or execute arbitrary Java code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability may result in complete system compromise.</p>",
+          "text": "This vulnerability may result in complete system compromise."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The BIG-IP system in Appliance mode is also vulnerable.</p>",
+          "text": "The BIG-IP system in Appliance mode is also vulnerable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is not exposed on the data plane; only the control plane is affected.</p>",
+          "text": "This issue is not exposed on the data plane; only the control plane is affected."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates by visiting the following link; which illustrates the known vulnerable versions and the mitigating fixes in the Security Advisory Status section of the article:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates by visiting the following link; which illustrates the known vulnerable versions and the mitigating fixes in the Security Advisory Status section of the article:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.f5.com/csp/article/K52145254\">https://support.f5.com/csp/article/K52145254</a></p>",
+          "text": "https://support.f5.com/csp/article/K52145254"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.f5.com/csp/article/K52145254"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-320-07-06-20-tt-csirt-advisory-f5-big-ip-vulnerability/",
+    "upstreamDisclosedAt": "2020-07-06T09:24:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "3851",
+  "legacyPostId": 3851,
+  "referenceNumber": "TT-CSIRT #236",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-236.101619: TT-CSIRT ADVISORY – ADOBE SECURITY UPDATES",
+  "slug": "ttcsirt-236-101619-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following advisories from Adobe and apply the necessary remediation actions forthwith:",
+  "cveList": [],
+  "date": "16 October 2019",
+  "rawDate": "2019-10-16T07:51:26",
+  "modifiedDate": "16 October 2019",
+  "rawModifiedDate": "2019-10-16T07:51:26",
+  "contentHtml": "<p>Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following advisories from Adobe and apply the necessary remediation actions forthwith:</p>\n<ul>\n<li>Adobe Acrobat and Reader for Windows and macOS<br />\n<a href=\"https://helpx.adobe.com/security/products/acrobat/apsb19-49.html\">https://helpx.adobe.com/security/products/acrobat/apsb19-49.html</a></li>\n<li>Adobe Experience Manager (AEM)<br />\n<a href=\"https://helpx.adobe.com/security/products/experience-manager/apsb19-48.html\">https://helpx.adobe.com/security/products/experience-manager/apsb19-48.html</a></li>\n<li>Adobe Experience Manager Forms<br />\n<a href=\"https://helpx.adobe.com/security/products/aem-forms/apsb19-50.html\">https://helpx.adobe.com/security/products/aem-forms/apsb19-50.html</a></li>\n<li>Adobe Download Manager for Windows<br />\n<a href=\"https://helpx.adobe.com/security/products/adm/apsb19-51.html\">https://helpx.adobe.com/security/products/adm/apsb19-51.html</a></li>\n</ul>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following advisories from Adobe and apply the necessary remediation actions forthwith: Adobe Acrobat and Reader for Windows and macOS https://helpx.adobe.com/security/products/acrobat/apsb19-49.html Adobe [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-236-101619-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following advisories from Adobe and apply the necessary remediation actions forthwith:</p>",
+          "text": "Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following advisories from Adobe and apply the necessary remediation actions forthwith:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Adobe Acrobat and Reader for Windows and macOS<br />\n<a href=\"https://helpx.adobe.com/security/products/acrobat/apsb19-49.html\">https://helpx.adobe.com/security/products/acrobat/apsb19-49.html</a></li>\n<li>Adobe Experience Manager (AEM)<br />\n<a href=\"https://helpx.adobe.com/security/products/experience-manager/apsb19-48.html\">https://helpx.adobe.com/security/products/experience-manager/apsb19-48.html</a></li>\n<li>Adobe Experience Manager Forms<br />\n<a href=\"https://helpx.adobe.com/security/products/aem-forms/apsb19-50.html\">https://helpx.adobe.com/security/products/aem-forms/apsb19-50.html</a></li>\n<li>Adobe Download Manager for Windows<br />\n<a href=\"https://helpx.adobe.com/security/products/adm/apsb19-51.html\">https://helpx.adobe.com/security/products/adm/apsb19-51.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/acrobat/apsb19-49.html",
+    "https://helpx.adobe.com/security/products/experience-manager/apsb19-48.html",
+    "https://helpx.adobe.com/security/products/aem-forms/apsb19-50.html",
+    "https://helpx.adobe.com/security/products/adm/apsb19-51.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-236-101619-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2019-10-16T07:51:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

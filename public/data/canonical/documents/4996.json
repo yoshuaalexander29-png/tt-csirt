@@ -1,0 +1,114 @@
+{
+  "id": "4996",
+  "legacyPostId": 4996,
+  "referenceNumber": "TT-CSIRT 395.05.14.21",
+  "classification": "advisory",
+  "title": "Microsoft msrc may 2021 security updates",
+  "rawTitle": "TTCSIRT-395.05.14.21 TTCSIRT ADVISORY- MICROSOFT MSRC MAY 2021 SECURITY UPDATES",
+  "slug": "ttcsirt-395-05-14-21-ttcsirt-advisory-microsoft-msrc-may-2021-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "This release consists of security updates for the following products, features and roles.",
+  "cveList": [],
+  "date": "14 May 2021",
+  "rawDate": "2021-05-14T12:41:37",
+  "modifiedDate": "14 May 2021",
+  "rawModifiedDate": "2021-05-14T12:41:37",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">This release consists of security updates for the following products, features and roles.</p>\n\n\n\n<ul class=\"wp-block-list\"><li>.NET Core &amp; Visual Studio</li><li>HTTP.sys</li><li>Internet Explorer</li><li>Microsoft Accessibility Insights for Web</li><li>Microsoft Bluetooth Driver</li><li>Microsoft Dynamics Finance &amp; Operations</li><li>Microsoft Edge (Chromium-based)</li><li>Microsoft Exchange Server</li><li>Microsoft Graphics Component</li><li>Microsoft Office</li><li>Microsoft Office Access</li><li>Microsoft Office Excel</li><li>Microsoft Office SharePoint</li><li>Microsoft Office Word</li><li>Microsoft Windows Codecs Library</li><li>Microsoft Windows IrDA</li><li>Open Source Software</li><li>Role: Hyper-V</li><li>Skype for Business and Microsoft Lync</li><li>Visual Studio</li><li>Visual Studio Code</li><li>Windows Container Isolation FS Filter Driver</li><li>Windows Container Manager Service</li><li>Windows Cryptographic Services</li><li>Windows CSC Service</li><li>Windows Desktop Bridge</li><li>Windows OLE</li><li>Windows Projected File System FS Filter</li><li>Windows RDP Client</li><li>Windows SMB</li><li>Windows SSDP Service</li><li>Windows WalletService</li><li>Windows Wireless Networking</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">Kindly note that Windows 10 updates are cumulative. The monthly security release includes all security fixes for vulnerabilities that affect Windows 10, in addition to non-security updates. The updates are available via the <a href=\"https://www.catalog.update.microsoft.com/Home.aspx\">Microsoft Update Catalog</a>. For information on lifecycle and support dates for Windows 10 operating systems, please see <a href=\"https://docs.microsoft.com/en-us/lifecycle/faq/windows\">Windows Lifecycle Facts Sheet</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft is improving Windows Release Notes. For more information, please see <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-s-next-for-windows-release-notes/ba-p/1754399\">What&#8217;s next for Windows release notes</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A list of the latest servicing stack updates for each operating system can be found in <a href=\"https://msrc.microsoft.com/update-guide/en-us/vulnerability/ADV990001\">ADV990001</a>. This list will be updated whenever a new servicing stack update is released. It is important to install the latest servicing stack update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">In addition to security changes for the vulnerabilities, updates include defense-in-depth updates to help improve security-related features.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Customers running Windows 7, Windows Server 2008 R2, or Windows Server 2008 need to purchase the Extended Security Update to continue receiving security updates. See <a href=\"https://support.microsoft.com/en-us/topic/procedure-to-continue-receiving-security-updates-after-extended-support-ends-on-january-14-2020-48c59204-fe67-3f42-84fc-c3c3145ff28e\">4522133</a> for more information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review and perform the relevant updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further insight, mitigations and workarounds on this advisory please follow the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2021-May\">https://msrc.microsoft.com/update-guide/releaseNote/2021-May</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "This release consists of security updates for the following products, features and roles. .NET Core &amp; Visual Studio HTTP.sys Internet Explorer Microsoft Accessibility Insights for Web…",
+  "sourceExcerpt": "<p>This release consists of security updates for the following products, features and roles. .NET Core &amp; Visual Studio HTTP.sys Internet Explorer Microsoft Accessibility Insights for Web Microsoft Bluetooth Driver Microsoft Dynamics Finance &amp; Operations Microsoft Edge (Chromium-based) Microsoft Exchange Server Microsoft Graphics Component Microsoft Office Microsoft Office Access Microsoft Office Excel Microsoft Office SharePoint Microsoft [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-395-05-14-21-ttcsirt-advisory-microsoft-msrc-may-2021-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>This release consists of security updates for the following products, features and roles.</p>",
+          "text": "This release consists of security updates for the following products, features and roles."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>.NET Core &amp; Visual Studio</li><li>HTTP.sys</li><li>Internet Explorer</li><li>Microsoft Accessibility Insights for Web</li><li>Microsoft Bluetooth Driver</li><li>Microsoft Dynamics Finance &amp; Operations</li><li>Microsoft Edge (Chromium-based)</li><li>Microsoft Exchange Server</li><li>Microsoft Graphics Component</li><li>Microsoft Office</li><li>Microsoft Office Access</li><li>Microsoft Office Excel</li><li>Microsoft Office SharePoint</li><li>Microsoft Office Word</li><li>Microsoft Windows Codecs Library</li><li>Microsoft Windows IrDA</li><li>Open Source Software</li><li>Role: Hyper-V</li><li>Skype for Business and Microsoft Lync</li><li>Visual Studio</li><li>Visual Studio Code</li><li>Windows Container Isolation FS Filter Driver</li><li>Windows Container Manager Service</li><li>Windows Cryptographic Services</li><li>Windows CSC Service</li><li>Windows Desktop Bridge</li><li>Windows OLE</li><li>Windows Projected File System FS Filter</li><li>Windows RDP Client</li><li>Windows SMB</li><li>Windows SSDP Service</li><li>Windows WalletService</li><li>Windows Wireless Networking</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Kindly note that Windows 10 updates are cumulative. The monthly security release includes all security fixes for vulnerabilities that affect Windows 10, in addition to non-security updates. The updates are available via the <a href=\"https://www.catalog.update.microsoft.com/Home.aspx\">Microsoft Update Catalog</a>. For information on lifecycle and support dates for Windows 10 operating systems, please see <a href=\"https://docs.microsoft.com/en-us/lifecycle/faq/windows\">Windows Lifecycle Facts Sheet</a>.</p>",
+          "text": "Kindly note that Windows 10 updates are cumulative. The monthly security release includes all security fixes for vulnerabilities that affect Windows 10, in addition to non-security updates. The updates are available via the Microsoft Update Catalog . For information on lifecycle and support dates for Windows 10 operating systems, please see Windows Lifecycle Facts Sheet ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft is improving Windows Release Notes. For more information, please see <a href=\"https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-s-next-for-windows-release-notes/ba-p/1754399\">What&#8217;s next for Windows release notes</a>.</p>",
+          "text": "Microsoft is improving Windows Release Notes. For more information, please see What’s next for Windows release notes ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A list of the latest servicing stack updates for each operating system can be found in <a href=\"https://msrc.microsoft.com/update-guide/en-us/vulnerability/ADV990001\">ADV990001</a>. This list will be updated whenever a new servicing stack update is released. It is important to install the latest servicing stack update.</p>",
+          "text": "A list of the latest servicing stack updates for each operating system can be found in ADV990001 . This list will be updated whenever a new servicing stack update is released. It is important to install the latest servicing stack update."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In addition to security changes for the vulnerabilities, updates include defense-in-depth updates to help improve security-related features.</p>",
+          "text": "In addition to security changes for the vulnerabilities, updates include defense-in-depth updates to help improve security-related features."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Customers running Windows 7, Windows Server 2008 R2, or Windows Server 2008 need to purchase the Extended Security Update to continue receiving security updates. See <a href=\"https://support.microsoft.com/en-us/topic/procedure-to-continue-receiving-security-updates-after-extended-support-ends-on-january-14-2020-48c59204-fe67-3f42-84fc-c3c3145ff28e\">4522133</a> for more information.</p>",
+          "text": "Customers running Windows 7, Windows Server 2008 R2, or Windows Server 2008 need to purchase the Extended Security Update to continue receiving security updates. See 4522133 for more information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review and perform the relevant updates.</p>",
+          "text": "The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review and perform the relevant updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further insight, mitigations and workarounds on this advisory please follow the link below:</p>",
+          "text": "For further insight, mitigations and workarounds on this advisory please follow the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2021-May\">https://msrc.microsoft.com/update-guide/releaseNote/2021-May</a></p>",
+          "text": "https://msrc.microsoft.com/update-guide/releaseNote/2021-May"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.catalog.update.microsoft.com/Home.aspx",
+    "https://docs.microsoft.com/en-us/lifecycle/faq/windows",
+    "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/what-s-next-for-windows-release-notes/ba-p/1754399",
+    "https://msrc.microsoft.com/update-guide/en-us/vulnerability/ADV990001",
+    "https://support.microsoft.com/en-us/topic/procedure-to-continue-receiving-security-updates-after-extended-support-ends-on-january-14-2020-48c59204-fe67-3f42-84fc-c3c3145ff28e",
+    "https://msrc.microsoft.com/update-guide/releaseNote/2021-May"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-395-05-14-21-ttcsirt-advisory-microsoft-msrc-may-2021-security-updates/",
+    "upstreamDisclosedAt": "2021-05-14T12:41:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

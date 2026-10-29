@@ -1,0 +1,83 @@
+{
+  "id": "5580",
+  "legacyPostId": 5580,
+  "referenceNumber": "TT-CSIRT #418",
+  "classification": "advisory",
+  "title": "Fortinet FortiGate SSL-VPN vulnerability",
+  "rawTitle": "TT-CSIRT-418.12.6.23: Fortinet Fortigate SSL-VPN Vulnerability",
+  "slug": "tt-csirt-418-12-6-23-fortinet-fortigate-ssl-vpn-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A critical Remote Code Execution vulnerability (CVE-2023-27997) has been identified in multiple versions of Fortinet Fortigate devices when SSL-VPN is enabled.",
+  "cveList": [
+    "CVE-2023-27997"
+  ],
+  "date": "12 June 2023",
+  "rawDate": "2023-06-12T07:40:15",
+  "modifiedDate": "12 June 2023",
+  "rawModifiedDate": "2023-06-12T07:40:15",
+  "contentHtml": "<p>A critical Remote Code Execution vulnerability (CVE-2023-27997) has been identified in multiple versions of Fortinet Fortigate devices when SSL-VPN is enabled.</p>\n<p>Exploitation of this critical vulnerability could allow a malicious actor to gain remote code execution rights on the affected system, and perform unauthorized actions.</p>\n<p>TT-CSIRT encourages administrators to review the following release from the Australian Cyber Security Center (ACSC) and take the necessary actions immediately: <a href=\"https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-severity-vulnerability-fortinet-fortigate-ssl-vpn-devices\" target=\"_blank\" rel=\"noopener\">https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-severity-vulnerability-fortinet-fortigate-ssl-vpn-devices</a></p>\n<p>Additional Material: <a href=\"https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/\" target=\"_blank\" rel=\"noopener\">https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/</a></p>\n",
+  "displaySummary": "A critical Remote Code Execution vulnerability (CVE-2023-27997) has been identified in multiple versions of Fortinet Fortigate devices when SSL-VPN is enabled.",
+  "sourceExcerpt": "<p>A critical Remote Code Execution vulnerability (CVE-2023-27997) has been identified in multiple versions of Fortinet Fortigate devices when SSL-VPN is enabled. Exploitation of this critical vulnerability could allow a malicious actor to gain remote code execution rights on the affected system, and perform unauthorized actions. TT-CSIRT encourages administrators to review the following release from the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-418-12-6-23-fortinet-fortigate-ssl-vpn-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A critical Remote Code Execution vulnerability (CVE-2023-27997) has been identified in multiple versions of Fortinet Fortigate devices when SSL-VPN is enabled.</p>",
+          "text": "A critical Remote Code Execution vulnerability (CVE-2023-27997) has been identified in multiple versions of Fortinet Fortigate devices when SSL-VPN is enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Exploitation of this critical vulnerability could allow a malicious actor to gain remote code execution rights on the affected system, and perform unauthorized actions.</p>",
+          "text": "Exploitation of this critical vulnerability could allow a malicious actor to gain remote code execution rights on the affected system, and perform unauthorized actions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following release from the Australian Cyber Security Center (ACSC) and take the necessary actions immediately: <a href=\"https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-severity-vulnerability-fortinet-fortigate-ssl-vpn-devices\" target=\"_blank\" rel=\"noopener\">https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-severity-vulnerability-fortinet-fortigate-ssl-vpn-devices</a></p>",
+          "text": "TT-CSIRT encourages administrators to review the following release from the Australian Cyber Security Center (ACSC) and take the necessary actions immediately: https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-severity-vulnerability-fortinet-fortigate-ssl-vpn-devices"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Additional Material: <a href=\"https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/\" target=\"_blank\" rel=\"noopener\">https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/</a></p>",
+          "text": "Additional Material: https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/critical-severity-vulnerability-fortinet-fortigate-ssl-vpn-devices",
+    "https://www.bleepingcomputer.com/news/security/fortinet-fixes-critical-rce-flaw-in-fortigate-ssl-vpn-devices-patch-now/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-418-12-6-23-fortinet-fortigate-ssl-vpn-vulnerability/",
+    "upstreamDisclosedAt": "2023-06-12T07:40:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

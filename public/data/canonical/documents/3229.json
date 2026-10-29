@@ -1,0 +1,72 @@
+{
+  "id": "3229",
+  "legacyPostId": 3229,
+  "referenceNumber": "TT-CSIRT #095",
+  "classification": "advisory",
+  "title": "Linux security updates",
+  "rawTitle": "TTCSIRT-095.030718: TT-CSIRT Advisory – Linux Security Updates",
+  "slug": "ttcsirt-095-030718-tt-csirt-advisory-linux-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Red Hat has released a security update stating that it is aware of DDoS (Distributed Denial of Service) amplification attacks being performed by exploiting memcached servers exposed to the public Internet. These attacks take advantage of memcached communication using the UDP protocol for transport. The attack is effective because of the high amplification ratio – a request with the size of a few hundred bytes can generate a response of a few megabytes or even hundreds of megabytes in size. This issue was assigned CVE-2018-1000115.",
+  "cveList": [
+    "CVE-2018-1000115"
+  ],
+  "date": "7 March 2018",
+  "rawDate": "2018-03-07T14:09:57",
+  "modifiedDate": "7 March 2018",
+  "rawModifiedDate": "2018-03-07T14:09:57",
+  "contentHtml": "<p>Red Hat has released a security update stating that it is aware of DDoS (Distributed Denial of Service) amplification attacks being performed by exploiting memcached servers exposed to the public Internet. These attacks take advantage of memcached communication using the UDP protocol for transport. The attack is effective because of the high amplification ratio &#8211; a request with the size of a few hundred bytes can generate a response of a few megabytes or even hundreds of megabytes in size. This issue was assigned CVE-2018-1000115.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the RED Hat Website at <a href=\"https://access.redhat.com/solutions/3369081\"><font size=\"2\" color=\"maroon\">https://access.redhat.com/solutions/3369081</font></a></p>\n</tr>\n</table>\n",
+  "displaySummary": "Red Hat has released a security update stating that it is aware of DDoS (Distributed Denial of Service) amplification attacks being performed by exploiting memcached servers exposed to the…",
+  "sourceExcerpt": "<p>Red Hat has released a security update stating that it is aware of DDoS (Distributed Denial of Service) amplification attacks being performed by exploiting memcached servers exposed to the public Internet. These attacks take advantage of memcached communication using the UDP protocol for transport. The attack is effective because of the high amplification ratio &#8211; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-095-030718-tt-csirt-advisory-linux-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Red Hat has released a security update stating that it is aware of DDoS (Distributed Denial of Service) amplification attacks being performed by exploiting memcached servers exposed to the public Internet. These attacks take advantage of memcached communication using the UDP protocol for transport. The attack is effective because of the high amplification ratio &#8211; a request with the size of a few hundred bytes can generate a response of a few megabytes or even hundreds of megabytes in size. This issue was assigned CVE-2018-1000115.</p>",
+          "text": "Red Hat has released a security update stating that it is aware of DDoS (Distributed Denial of Service) amplification attacks being performed by exploiting memcached servers exposed to the public Internet. These attacks take advantage of memcached communication using the UDP protocol for transport. The attack is effective because of the high amplification ratio – a request with the size of a few hundred bytes can generate a response of a few megabytes or even hundreds of megabytes in size. This issue was assigned CVE-2018-1000115."
+        },
+        {
+          "type": "paragraph",
+          "html": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://access.redhat.com/solutions/3369081"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-095-030718-tt-csirt-advisory-linux-security-updates/",
+    "upstreamDisclosedAt": "2018-03-07T14:09:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

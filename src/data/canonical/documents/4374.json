@@ -1,0 +1,101 @@
+{
+  "id": "4374",
+  "legacyPostId": 4374,
+  "referenceNumber": "TT-CSIRT #298",
+  "classification": "advisory",
+  "title": "Type 1 font parsing remote code execution vulnerability",
+  "rawTitle": "TTCSIRT-298.032420: TT-CSIRT ADVISORY- TYPE 1 FONT PARSING REMOTE CODE EXECUTION VULNERABILITY",
+  "slug": "ttcsirt-298-032420-tt-csirt-advisory-type-1-font-parsing-remote-code-execution-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft is aware of limited targeted attacks that could leverage un-patched vulnerabilities in the Adobe Type Manager Library, and is providing the following guidance to help reduce customer risk until the security update is released.",
+  "cveList": [],
+  "date": "24 March 2020",
+  "rawDate": "2020-03-24T09:58:40",
+  "modifiedDate": "24 March 2020",
+  "rawModifiedDate": "2020-03-24T09:58:40",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft is aware of limited targeted attacks that could leverage un-patched vulnerabilities in the Adobe Type Manager Library, and is providing the following guidance to help reduce customer risk until the security update is released.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Two remote code execution vulnerabilities exist in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font &#8211; Adobe Type 1 PostScript format.</p>\n\n\n\n<p class=\"wp-block-paragraph\">There are multiple ways an attacker could exploit the vulnerability, such as convincing a user to open a specially crafted document or viewing it in the Windows Preview pane.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft is aware of this vulnerability and working on a fix. Updates that address security vulnerabilities in Microsoft software are typically released on Update Tuesday, the second Tuesday of each month. This predictable schedule allows for partner quality assurance and IT planning, which helps maintain the Windows ecosystem as a reliable, secure choice for our customers. The operating system versions that are affected by this vulnerability are listed below. Please see the mitigation and workarounds for guidance on how to reduce the risk.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further review please see the following link:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006</a></p>\n",
+  "displaySummary": "Microsoft is aware of limited targeted attacks that could leverage un-patched vulnerabilities in the Adobe Type Manager Library, and is providing the following guidance to help reduce customer…",
+  "sourceExcerpt": "<p>Microsoft is aware of limited targeted attacks that could leverage un-patched vulnerabilities in the Adobe Type Manager Library, and is providing the following guidance to help reduce customer risk until the security update is released. Two remote code execution vulnerabilities exist in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-298-032420-tt-csirt-advisory-type-1-font-parsing-remote-code-execution-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft is aware of limited targeted attacks that could leverage un-patched vulnerabilities in the Adobe Type Manager Library, and is providing the following guidance to help reduce customer risk until the security update is released.</p>",
+          "text": "Microsoft is aware of limited targeted attacks that could leverage un-patched vulnerabilities in the Adobe Type Manager Library, and is providing the following guidance to help reduce customer risk until the security update is released."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Two remote code execution vulnerabilities exist in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font &#8211; Adobe Type 1 PostScript format.</p>",
+          "text": "Two remote code execution vulnerabilities exist in Microsoft Windows when the Windows Adobe Type Manager Library improperly handles a specially-crafted multi-master font – Adobe Type 1 PostScript format."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>There are multiple ways an attacker could exploit the vulnerability, such as convincing a user to open a specially crafted document or viewing it in the Windows Preview pane.</p>",
+          "text": "There are multiple ways an attacker could exploit the vulnerability, such as convincing a user to open a specially crafted document or viewing it in the Windows Preview pane."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft is aware of this vulnerability and working on a fix. Updates that address security vulnerabilities in Microsoft software are typically released on Update Tuesday, the second Tuesday of each month. This predictable schedule allows for partner quality assurance and IT planning, which helps maintain the Windows ecosystem as a reliable, secure choice for our customers. The operating system versions that are affected by this vulnerability are listed below. Please see the mitigation and workarounds for guidance on how to reduce the risk.</p>",
+          "text": "Microsoft is aware of this vulnerability and working on a fix. Updates that address security vulnerabilities in Microsoft software are typically released on Update Tuesday, the second Tuesday of each month. This predictable schedule allows for partner quality assurance and IT planning, which helps maintain the Windows ecosystem as a reliable, secure choice for our customers. The operating system versions that are affected by this vulnerability are listed below. Please see the mitigation and workarounds for guidance on how to reduce the risk."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv200006"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-298-032420-tt-csirt-advisory-type-1-font-parsing-remote-code-execution-vulnerability/",
+    "upstreamDisclosedAt": "2020-03-24T09:58:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

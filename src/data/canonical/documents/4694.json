@@ -1,0 +1,83 @@
+{
+  "id": "4694",
+  "legacyPostId": 4694,
+  "referenceNumber": "TT-CSIRT 345.08.28.20",
+  "classification": "advisory",
+  "title": "VMware ESXi, vCenter server, and cloud foundation denial of services",
+  "rawTitle": "TTCSIRT-345.08.28.20: TT-CSIRT ADVISORY -VMware ESXi, vCenter Server, and Cloud Foundation denial of services",
+  "slug": "ttcsirt-345-08-28-20-tt-csirt-advisory-vmware-esxi-vcenter-server-and-cloud-foundation-denial-of-services",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability was found in VMware ESXi and vCenter Server (Server Management Software) (the affected version is unknown).",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:23:50",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:23:50",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability was found in VMware ESXi and vCenter Server (Server Management Software) (the affected version is unknown).<br><br>It has been declared as problematic. This vulnerability affects some unknown functionality of the component Authentication Service.<br><br>The manipulation with an unknown input leads to a denial of service vulnerability. The CWE definition for the vulnerability is CWE-404.<br><br>As an impact it is known to affect availability. By sending a specially-crafted request, a remote attacker could exploit this vulnerability to exhaust memory resources.<br><br>Please visit the following link for further information and solution support:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=22de02109e&amp;e=64e3bb0ab9\">https://www.vmware.com/security/advisories/VMSA-2020-0018.html</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A vulnerability was found in VMware ESXi and vCenter Server (Server Management Software) (the affected version is unknown). It has been declared as problematic.",
+  "sourceExcerpt": "<p>A vulnerability was found in VMware ESXi and vCenter Server (Server Management Software) (the affected version is unknown). It has been declared as problematic. This vulnerability affects some unknown functionality of the component Authentication Service. The manipulation with an unknown input leads to a denial of service vulnerability. The CWE definition for the vulnerability is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-345-08-28-20-tt-csirt-advisory-vmware-esxi-vcenter-server-and-cloud-foundation-denial-of-services/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability was found in VMware ESXi and vCenter Server (Server Management Software) (the affected version is unknown).</p>",
+          "text": "A vulnerability was found in VMware ESXi and vCenter Server (Server Management Software) (the affected version is unknown)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It has been declared as problematic. This vulnerability affects some unknown functionality of the component Authentication Service.</p>",
+          "text": "It has been declared as problematic. This vulnerability affects some unknown functionality of the component Authentication Service."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The manipulation with an unknown input leads to a denial of service vulnerability. The CWE definition for the vulnerability is CWE-404.</p>",
+          "text": "The manipulation with an unknown input leads to a denial of service vulnerability. The CWE definition for the vulnerability is CWE-404."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As an impact it is known to affect availability. By sending a specially-crafted request, a remote attacker could exploit this vulnerability to exhaust memory resources.</p>",
+          "text": "As an impact it is known to affect availability. By sending a specially-crafted request, a remote attacker could exploit this vulnerability to exhaust memory resources."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please visit the following link for further information and solution support:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=22de02109e&amp;e=64e3bb0ab9\">https://www.vmware.com/security/advisories/VMSA-2020-0018.html</a></p>",
+          "text": "Please visit the following link for further information and solution support: https://www.vmware.com/security/advisories/VMSA-2020-0018.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-345-08-28-20-tt-csirt-advisory-vmware-esxi-vcenter-server-and-cloud-foundation-denial-of-services/",
+    "upstreamDisclosedAt": "2020-09-22T23:23:50",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

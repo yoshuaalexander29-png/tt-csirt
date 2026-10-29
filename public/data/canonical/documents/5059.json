@@ -1,0 +1,120 @@
+{
+  "id": "5059",
+  "legacyPostId": 5059,
+  "referenceNumber": "TT-CSIRT 398.05.10.21",
+  "classification": "advisory",
+  "title": "Fortinet and expiring let’s encrypt certificates",
+  "rawTitle": "TT-CSIRT-398.05.10.21: TTCSIRT ADVISORY &#8211; Fortinet and Expiring Let’s Encrypt Certificates",
+  "slug": "tt-csirt-398-05-10-21-ttcsirt-advisory-fortinet-and-expiring-lets-encrypt-certificates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be advised, with the current issue of certain sites being presented with an invalid or expires SSL Certificate when attempting to gain access, Fortinet was made aware by customers in the early hours of September 30 th that TLS connections to web sites using Let’s Encrypt certificates were failing. Our first response was to validate the certificate chain. We discovered that the root CA for Let’s Trust certificates, IdenTrust DST Root CA X3, had expired at 00:00 UTC on September 30 th .",
+  "cveList": [],
+  "date": "6 October 2021",
+  "rawDate": "2021-10-06T11:03:03",
+  "modifiedDate": "6 October 2021",
+  "rawModifiedDate": "2021-10-06T11:03:03",
+  "contentHtml": "<p>Please be advised, with the current issue of certain sites being presented with an invalid or expires SSL Certificate when attempting to gain access, Fortinet was made aware by customers in the early hours of September 30<sup>th</sup> that TLS connections to web sites using Let’s Encrypt certificates were failing. Our first response was to validate the certificate chain. We discovered that the root CA for Let’s Trust certificates, IdenTrust DST Root CA X3, had expired at 00:00 UTC on September 30<sup>th</sup>.</p>\n<p>The issue being seen by Fortinet customers is due to Fortinet devices validating the full chain of trust and then invalidating the chain when it sees that the CA IdenTrust DST Root CA X3 is expired, even though the cross-signed ISRG Root X1 root is valid for longer.<br />\n<strong>Workarounds:</strong><br />\nFor sites under your own control, changing your server certificate to using the alternative chain will remove this issue, except for pre-7.1.1 Android devices, as described above.</p>\n<p><strong>Workaround 1 – Prevent fallback to the expired Root CA</strong><br />\nWith the removal of the expired IdenTrust DST Root CA X3 in Certificate Bundle version 1.28, it is possible to prevent fallback to the expired root CA by blocking FortiGate access to apps.identrust.com, resulting in the correct root CA being used.  This can be achieved by using either DNS blackholing or via an FQDN policy to block access to apps.identrust.com.<br />\nThis will force the FortiGate device to rebuild the certificate chain and find the ISRC Root X1 Root CA Cert in the local certificate in the store.</p>\n<p>config system dns-database<br />\nedit &#8220;1&#8221;<br />\nset domain &#8220;identrust.com&#8221;<br />\nconfig dns-entry<br />\nedit 1<br />\nset hostname &#8220;apps&#8221;<br />\nset ip 127.0.0.1<br />\nnext<br />\nend<br />\nnext<br />\nend</p>\n<p><strong>Workaround 2 – Accept the expired certificates</strong><br />\nFor third-party sites outside of your control, customers can turn off this certificate expiration validation using the following CLI as a temporary workaround:<br />\nconfig firewall ssl-ssh-profile<br />\nedit &#8220;certificate-inspection&#8221;<br />\nconfig https<br />\nset expired-server-cert allow<br />\nset untrusted-server-cert allow<br />\nend</p>\n<p><strong><u>Disclaimer:</u></strong><strong> </strong>By applying this workaround, you understand that end users connecting to webservers affected by invalid/expired certificates may have reduced protections typically afforded through the certificate chain. HTTPS connections matching the firewall policy with this SSL/SSH inspection profile may not be blocked when FortiGate sees invalid/expired certificates in the TLS Server Hello coming from the webserver. End users may see certificate warnings reported by the browser and it is the end user’s responsibility to decide to connect to the website that is providing the expired certificate and accept the risk that may be associated with the expired certificate.</p>\n<p>TT-CSIRT advises to read and consider the disclaimer provided by Fortinet. Opening up to invalid and expired certificates widens the risk and attack vector for greater exposure to your network parameter.</p>\n",
+  "displaySummary": "With the current issue of certain sites being presented with an invalid or expires SSL Certificate when attempting to gain access, Fortinet was made aware by customers in the early hours of…",
+  "sourceExcerpt": "<p>Please be advised, with the current issue of certain sites being presented with an invalid or expires SSL Certificate when attempting to gain access, Fortinet was made aware by customers in the early hours of September 30th that TLS connections to web sites using Let’s Encrypt certificates were failing. Our first response was to validate the certificate [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-398-05-10-21-ttcsirt-advisory-fortinet-and-expiring-lets-encrypt-certificates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be advised, with the current issue of certain sites being presented with an invalid or expires SSL Certificate when attempting to gain access, Fortinet was made aware by customers in the early hours of September 30<sup>th</sup> that TLS connections to web sites using Let’s Encrypt certificates were failing. Our first response was to validate the certificate chain. We discovered that the root CA for Let’s Trust certificates, IdenTrust DST Root CA X3, had expired at 00:00 UTC on September 30<sup>th</sup>.</p>",
+          "text": "Please be advised, with the current issue of certain sites being presented with an invalid or expires SSL Certificate when attempting to gain access, Fortinet was made aware by customers in the early hours of September 30 th that TLS connections to web sites using Let’s Encrypt certificates were failing. Our first response was to validate the certificate chain. We discovered that the root CA for Let’s Trust certificates, IdenTrust DST Root CA X3, had expired at 00:00 UTC on September 30 th ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The issue being seen by Fortinet customers is due to Fortinet devices validating the full chain of trust and then invalidating the chain when it sees that the CA IdenTrust DST Root CA X3 is expired, even though the cross-signed ISRG Root X1 root is valid for longer.</p>",
+          "text": "The issue being seen by Fortinet customers is due to Fortinet devices validating the full chain of trust and then invalidating the chain when it sees that the CA IdenTrust DST Root CA X3 is expired, even though the cross-signed ISRG Root X1 root is valid for longer."
+        }
+      ]
+    },
+    {
+      "id": "workarounds",
+      "title": "Workarounds",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>For sites under your own control, changing your server certificate to using the alternative chain will remove this issue, except for pre-7.1.1 Android devices, as described above.</p>",
+          "text": "For sites under your own control, changing your server certificate to using the alternative chain will remove this issue, except for pre-7.1.1 Android devices, as described above."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Workaround 1 – Prevent fallback to the expired Root CA</strong><br />\nWith the removal of the expired IdenTrust DST Root CA X3 in Certificate Bundle version 1.28, it is possible to prevent fallback to the expired root CA by blocking FortiGate access to apps.identrust.com, resulting in the correct root CA being used.  This can be achieved by using either DNS blackholing or via an FQDN policy to block access to apps.identrust.com.<br />\nThis will force the FortiGate device to rebuild the certificate chain and find the ISRC Root X1 Root CA Cert in the local certificate in the store.</p>",
+          "text": "Workaround 1 – Prevent fallback to the expired Root CA With the removal of the expired IdenTrust DST Root CA X3 in Certificate Bundle version 1.28, it is possible to prevent fallback to the expired root CA by blocking FortiGate access to apps.identrust.com, resulting in the correct root CA being used. This can be achieved by using either DNS blackholing or via an FQDN policy to block access to apps.identrust.com. This will force the FortiGate device to rebuild the certificate chain and find the ISRC Root X1 Root CA Cert in the local certificate in the store."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>config system dns-database<br />\nedit &#8220;1&#8221;<br />\nset domain &#8220;identrust.com&#8221;<br />\nconfig dns-entry<br />\nedit 1<br />\nset hostname &#8220;apps&#8221;<br />\nset ip 127.0.0.1<br />\nnext<br />\nend<br />\nnext<br />\nend</p>",
+          "text": "config system dns-database edit “1” set domain “identrust.com” config dns-entry edit 1 set hostname “apps” set ip 127.0.0.1 next end next end"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Workaround 2 – Accept the expired certificates</strong><br />\nFor third-party sites outside of your control, customers can turn off this certificate expiration validation using the following CLI as a temporary workaround:<br />\nconfig firewall ssl-ssh-profile<br />\nedit &#8220;certificate-inspection&#8221;<br />\nconfig https<br />\nset expired-server-cert allow<br />\nset untrusted-server-cert allow<br />\nend</p>",
+          "text": "Workaround 2 – Accept the expired certificates For third-party sites outside of your control, customers can turn off this certificate expiration validation using the following CLI as a temporary workaround: config firewall ssl-ssh-profile edit “certificate-inspection” config https set expired-server-cert allow set untrusted-server-cert allow end"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Disclaimer",
+          "id": "disclaimer"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>By applying this workaround, you understand that end users connecting to webservers affected by invalid/expired certificates may have reduced protections typically afforded through the certificate chain. HTTPS connections matching the firewall policy with this SSL/SSH inspection profile may not be blocked when FortiGate sees invalid/expired certificates in the TLS Server Hello coming from the webserver. End users may see certificate warnings reported by the browser and it is the end user’s responsibility to decide to connect to the website that is providing the expired certificate and accept the risk that may be associated with the expired certificate.</p>",
+          "text": "By applying this workaround, you understand that end users connecting to webservers affected by invalid/expired certificates may have reduced protections typically afforded through the certificate chain. HTTPS connections matching the firewall policy with this SSL/SSH inspection profile may not be blocked when FortiGate sees invalid/expired certificates in the TLS Server Hello coming from the webserver. End users may see certificate warnings reported by the browser and it is the end user’s responsibility to decide to connect to the website that is providing the expired certificate and accept the risk that may be associated with the expired certificate."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT advises to read and consider the disclaimer provided by Fortinet. Opening up to invalid and expired certificates widens the risk and attack vector for greater exposure to your network parameter.</p>",
+          "text": "TT-CSIRT advises to read and consider the disclaimer provided by Fortinet. Opening up to invalid and expired certificates widens the risk and attack vector for greater exposure to your network parameter."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "workarounds",
+      "label": "Workarounds"
+    },
+    {
+      "id": "disclaimer",
+      "label": "Disclaimer",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-398-05-10-21-ttcsirt-advisory-fortinet-and-expiring-lets-encrypt-certificates/",
+    "upstreamDisclosedAt": "2021-10-06T11:03:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

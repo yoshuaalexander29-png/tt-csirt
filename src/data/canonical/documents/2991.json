@@ -1,0 +1,94 @@
+{
+  "id": "2991",
+  "legacyPostId": 2991,
+  "referenceNumber": "TT-CSIRT #044",
+  "classification": "advisory",
+  "title": "Samba security updates",
+  "rawTitle": "TTCSIRT-044.092117: TT-CSIRT Advisory – Samba Security Updates",
+  "slug": "ttcsirt-044-092117-tt-csirt-advisory-samba-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Samba Team has released security updates to address several vulnerabilities in Samba –",
+  "cveList": [
+    "CVE-2017-12150",
+    "CVE-2017-12151",
+    "CVE-2017-12163"
+  ],
+  "date": "21 September 2017",
+  "rawDate": "2017-09-21T10:58:25",
+  "modifiedDate": "21 September 2017",
+  "rawModifiedDate": "2017-09-21T10:58:25",
+  "contentHtml": "<p>The Samba Team has released security updates to address several vulnerabilities in Samba &#8211; </p>\n<p>a) A man in the middle attack may hijack client connections.</p>\n<p>b) A man in the middle attack can read and may alter confidential documents transferred via a client connection, which are reached via DFS redirect when the original connection used SMB3.</p>\n<p>c) Client with write access to a share can cause server memory contents to be written into a file or printer.</p>\n<table>\n<tr>\n<td>\n<p>Further information on these vulnerabilities and how they can be fixed can be found on the SAMBA Website via the following URLS:</p>\n<p><a href=\"https://www.samba.org/samba/security/CVE-2017-12150.html\"><font size=\"2\" color=\"maroon\">https://www.samba.org/samba/security/CVE-2017-12150.html</font></a><br />\n<a href=\"https://www.samba.org/samba/security/CVE-2017-12150.html\"><font size=\"2\" color=\"maroon\">https://www.samba.org/samba/security/CVE-2017-12151.html</font></a><br />\n<a href=\"https://www.samba.org/samba/security/CVE-2017-12150.html\"><font size=\"2\" color=\"maroon\">https://www.samba.org/samba/security/CVE-2017-12163.html</font></a></p>\n</td>\n</tr>\n</table>\n",
+  "displaySummary": "The Samba Team has released security updates to address several vulnerabilities in Samba &#8211; a) A man in the middle attack may hijack client connections. b) A man in the middle attack can…",
+  "sourceExcerpt": "<p>The Samba Team has released security updates to address several vulnerabilities in Samba &#8211; a) A man in the middle attack may hijack client connections. b) A man in the middle attack can read and may alter confidential documents transferred via a client connection, which are reached via DFS redirect when the original connection used [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-044-092117-tt-csirt-advisory-samba-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Samba Team has released security updates to address several vulnerabilities in Samba &#8211;</p>",
+          "text": "The Samba Team has released security updates to address several vulnerabilities in Samba –"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A man in the middle attack may hijack client connections.</p>",
+          "text": "a) A man in the middle attack may hijack client connections."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A man in the middle attack can read and may alter confidential documents transferred via a client connection, which are reached via DFS redirect when the original connection used SMB3.</p>",
+          "text": "b) A man in the middle attack can read and may alter confidential documents transferred via a client connection, which are reached via DFS redirect when the original connection used SMB3."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Client with write access to a share can cause server memory contents to be written into a file or printer.</p>",
+          "text": "c) Client with write access to a share can cause server memory contents to be written into a file or printer."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found on the SAMBA Website via the following URLS:",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found on the SAMBA Website via the following URLS:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.samba.org/samba/security/CVE-2017-12150.html\">https://www.samba.org/samba/security/CVE-2017-12150.html</a><br />\n<a href=\"https://www.samba.org/samba/security/CVE-2017-12150.html\">https://www.samba.org/samba/security/CVE-2017-12151.html</a><br />\n<a href=\"https://www.samba.org/samba/security/CVE-2017-12150.html\">https://www.samba.org/samba/security/CVE-2017-12163.html</a></p>",
+          "text": "https://www.samba.org/samba/security/CVE-2017-12150.html https://www.samba.org/samba/security/CVE-2017-12151.html https://www.samba.org/samba/security/CVE-2017-12163.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.samba.org/samba/security/CVE-2017-12150.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-044-092117-tt-csirt-advisory-samba-security-updates/",
+    "upstreamDisclosedAt": "2017-09-21T10:58:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

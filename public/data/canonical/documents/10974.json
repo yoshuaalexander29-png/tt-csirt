@@ -1,0 +1,198 @@
+{
+  "id": "10974",
+  "legacyPostId": 10974,
+  "referenceNumber": "TT-CSIRT 457.10.06.26",
+  "classification": "advisory",
+  "title": "Critical check point VPN 0-day",
+  "rawTitle": "TT-CSIRT – 457.10.06.26- Critical Check Point VPN Zero-Day",
+  "slug": "tt-csirt-457-10-06-26-critical-check-point-vpn-zero-day",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A critical vulnerability, CVE-2026-50751 has been identified in Check Point Remote Access VPN and Mobile Access solutions. The flaw allows an attacker to bypass user authentication by exploiting a logic weakness in certificate validation during IKEv1 VPN negotiation.",
+  "cveList": [
+    "CVE-2026-50751"
+  ],
+  "date": "10 June 2026",
+  "rawDate": "2026-06-10T14:18:09",
+  "modifiedDate": "10 June 2026",
+  "rawModifiedDate": "2026-06-10T14:45:53",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that a <strong>critical</strong> vulnerability, <strong>CVE-2026-50751</strong> has been identified in Check Point Remote Access VPN and Mobile Access solutions. The flaw allows an attacker to bypass user authentication by exploiting a logic weakness in certificate validation during IKEv1 VPN negotiation.</p>\n\n\n\n<p class=\"wp-block-paragraph\">This can allow unauthorized users to establish a remote VPN session without valid credentials, potentially gaining access to internal networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><em>Please Note:</em></strong><em> Check Point has confirmed that this vulnerability is being actively exploited in the wild.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Affected Systems and Configurations</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Systems are vulnerable to <strong>CVE-2026-50751</strong> if they are running an affected version of Check Point software <strong>and all of the following conditions are met:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><strong>Conditions</strong></strong></p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>VPN Remote Access or Mobile Access is enabled</li>\n\n\n\n<li>IKEv1 is enabled for Remote Access VPN connections</li>\n\n\n\n<li>The gateway accepts legacy Remote Access clients</li>\n\n\n\n<li>Machine certificate authentication is not enforced</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected Versions</strong></p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><thead><tr><td><strong>Product</strong></td><td><strong>Affected Versions</strong></td></tr></thead><tbody><tr><td><strong>Security Gateways</strong></td><td>R82.10 Jumbo Hotfix Take 19 or earlier</td></tr><tr><td></td><td>R82 Jumbo Hotfix Take 103 or earlier</td></tr><tr><td></td><td>R81.20 Jumbo Hotfix Take 141 or earlier</td></tr><tr><td></td><td>R81.10 (End of Support)</td></tr><tr><td></td><td>R81 (End of Support)</td></tr><tr><td></td><td>R80.40 (End of Support)</td></tr><tr><td><strong>Spark Firewalls</strong></td><td>R80.20.X (End of Support)</td></tr><tr><td></td><td>R81.10.X</td></tr><tr><td></td><td>R82.00.X</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitigations</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point has provided the following mitigation measures to reduce the risk of exploitation of CVE-2026-50751:</p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Remove support for legacy Remote Access clients.</li>\n\n\n\n<li>Configure Remote Access VPN authentication to use IKEv2 only, thereby disabling IKEv1-based remote access connections.</li>\n\n\n\n<li>Enforce Machine Certificate Authentication by making it mandatory for all Remote Access VPN connections.</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Security Updates (Hotfixes)</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Check Point has released security hotfixes to address CVE-2026-50751 for supported versions, including <strong>R81.20, R82, and R82.10</strong>, and organizations are strongly encouraged to apply the appropriate hotfix as soon as possible.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Checkpoint support centre</strong>: <a href=\"https://support.checkpoint.com/results/sk/sk185033\" target=\"_blank\" rel=\"noreferrer noopener\">https://support.checkpoint.com/results/sk/sk185033</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Reference(s):<br></strong><a href=\"https://support.checkpoint.com/results/sk/sk185033\" target=\"_blank\" rel=\"noreferrer noopener\">https://support.checkpoint.com/results/sk/sk185033</a><br><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-50751\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2026-50751</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.runzero.com/blog/check-point-devices\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.runzero.com/blog/check-point-devices</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br><strong>Contact Information:</strong><br><br>If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via&nbsp;<a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a><br><br></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "A critical vulnerability, CVE-2026-50751 has been identified in Check Point Remote Access VPN and Mobile Access solutions.",
+  "sourceExcerpt": "<p>Please be advised that a critical vulnerability, CVE-2026-50751 has been identified in Check Point Remote Access VPN and Mobile Access solutions. The flaw allows an attacker to bypass user authentication by exploiting a logic weakness in certificate validation during IKEv1 VPN negotiation. This can allow unauthorized users to establish a remote VPN session without valid [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-457-10-06-26-critical-check-point-vpn-zero-day/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A <strong>critical</strong> vulnerability, <strong>CVE-2026-50751</strong> has been identified in Check Point Remote Access VPN and Mobile Access solutions. The flaw allows an attacker to bypass user authentication by exploiting a logic weakness in certificate validation during IKEv1 VPN negotiation.</p>",
+          "text": "A critical vulnerability, CVE-2026-50751 has been identified in Check Point Remote Access VPN and Mobile Access solutions. The flaw allows an attacker to bypass user authentication by exploiting a logic weakness in certificate validation during IKEv1 VPN negotiation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This can allow unauthorized users to establish a remote VPN session without valid credentials, potentially gaining access to internal networks.</p>",
+          "text": "This can allow unauthorized users to establish a remote VPN session without valid credentials, potentially gaining access to internal networks."
+        },
+        {
+          "type": "warning",
+          "html": "<strong><em>Please Note:</em></strong><em> Check Point has confirmed that this vulnerability is being actively exploited in the wild.</em>",
+          "text": "Please Note: Check Point has confirmed that this vulnerability is being actively exploited in the wild."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Affected systems and configurations",
+          "id": "affected-systems"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Systems are vulnerable to <strong>CVE-2026-50751</strong> if they are running an affected version of Check Point software <strong>and all of the following conditions are met:</strong></p>",
+          "text": "Systems are vulnerable to CVE-2026-50751 if they are running an affected version of Check Point software and all of the following conditions are met:"
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "title": "Conditions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"wp-block-list\">\n<li>VPN Remote Access or Mobile Access is enabled</li>\n\n\n\n<li>IKEv1 is enabled for Remote Access VPN connections</li>\n\n\n\n<li>The gateway accepts legacy Remote Access clients</li>\n\n\n\n<li>Machine certificate authentication is not enforced</li>\n</ol>"
+        }
+      ]
+    },
+    {
+      "id": "affected-versions",
+      "title": "Affected versions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Product</th><th scope=\"col\" class=\"govuk-table__header\">Affected Versions</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>Security Gateways</strong></th><td class=\"govuk-table__cell\">R82.10 Jumbo Hotfix Take 19 or earlier</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R82 Jumbo Hotfix Take 103 or earlier</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R81.20 Jumbo Hotfix Take 141 or earlier</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R81.10 (End of Support)</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R81 (End of Support)</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R80.40 (End of Support)</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>Spark Firewalls</strong></th><td class=\"govuk-table__cell\">R80.20.X (End of Support)</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R81.10.X</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"></th><td class=\"govuk-table__cell\">R82.00.X</td></tr></tbody>\n      </table>\n    </div>"
+        }
+      ]
+    },
+    {
+      "id": "mitigations",
+      "title": "Mitigations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Check Point has provided the following mitigation measures to reduce the risk of exploitation of CVE-2026-50751:</p>",
+          "text": "Check Point has provided the following mitigation measures to reduce the risk of exploitation of CVE-2026-50751:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"wp-block-list\">\n<li>Remove support for legacy Remote Access clients.</li>\n\n\n\n<li>Configure Remote Access VPN authentication to use IKEv2 only, thereby disabling IKEv1-based remote access connections.</li>\n\n\n\n<li>Enforce Machine Certificate Authentication by making it mandatory for all Remote Access VPN connections.</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Security updates (hotfixes)",
+          "id": "security-updates-hotfixes"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Check Point has released security hotfixes to address CVE-2026-50751 for supported versions, including <strong>R81.20, R82, and R82.10</strong>, and organizations are strongly encouraged to apply the appropriate hotfix as soon as possible.</p>",
+          "text": "Check Point has released security hotfixes to address CVE-2026-50751 for supported versions, including R81.20, R82, and R82.10 , and organizations are strongly encouraged to apply the appropriate hotfix as soon as possible."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Checkpoint support centre",
+          "id": "checkpoint-support-centre"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>: <a href=\"https://support.checkpoint.com/results/sk/sk185033\" target=\"_blank\" rel=\"noreferrer noopener\">https://support.checkpoint.com/results/sk/sk185033</a></p>",
+          "text": ": https://support.checkpoint.com/results/sk/sk185033"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.checkpoint.com/results/sk/sk185033\" target=\"_blank\" rel=\"noreferrer noopener\">https://support.checkpoint.com/results/sk/sk185033</a><br><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-50751\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2026-50751</a></p>",
+          "text": "https://support.checkpoint.com/results/sk/sk185033 https://nvd.nist.gov/vuln/detail/CVE-2026-50751"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.runzero.com/blog/check-point-devices\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.runzero.com/blog/check-point-devices</a></p>",
+          "text": "https://www.runzero.com/blog/check-point-devices"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected systems and configurations",
+      "isSubItem": true
+    },
+    {
+      "id": "conditions",
+      "label": "Conditions"
+    },
+    {
+      "id": "affected-versions",
+      "label": "Affected versions"
+    },
+    {
+      "id": "mitigations",
+      "label": "Mitigations"
+    },
+    {
+      "id": "security-updates-hotfixes",
+      "label": "Security updates (hotfixes)",
+      "isSubItem": true
+    },
+    {
+      "id": "checkpoint-support-centre",
+      "label": "Checkpoint support centre",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.checkpoint.com/results/sk/sk185033",
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
+    "https://www.runzero.com/blog/check-point-devices"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-457-10-06-26-critical-check-point-vpn-zero-day/",
+    "upstreamDisclosedAt": "2026-06-10T14:18:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

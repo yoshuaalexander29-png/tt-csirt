@@ -1,0 +1,80 @@
+{
+  "id": "3273",
+  "legacyPostId": 3273,
+  "referenceNumber": "TT-CSIRT #105",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-105.040318: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-105-040318-tt-csirt-advisory-drupal-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released a security update stating that a remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially could allow attackers to exploit multiple attack vectors on a Drupal site and result in it being compromised.",
+  "cveList": [],
+  "date": "3 April 2018",
+  "rawDate": "2018-04-03T11:22:32",
+  "modifiedDate": "3 April 2018",
+  "rawModifiedDate": "2018-04-03T11:22:32",
+  "contentHtml": "<p>Drupal has released a security update stating that a remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially could allow attackers to exploit multiple attack vectors on a Drupal site and result in it being compromised.</p>\n<p>In addition, depending on the privileges associated with the user, an attacker could exploit this vulnerability and install programs; view, change or delete data or even create new accounts with full user rights. </p>\n<p>Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-002\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/sa-core-2018-002</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released a security update stating that a remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x.",
+  "sourceExcerpt": "<p>Drupal has released a security update stating that a remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially could allow attackers to exploit multiple attack vectors on a Drupal site and result in it being compromised. In addition, depending on the privileges associated with the user, an attacker could [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-105-040318-tt-csirt-advisory-drupal-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released a security update stating that a remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially could allow attackers to exploit multiple attack vectors on a Drupal site and result in it being compromised.</p>",
+          "text": "Drupal has released a security update stating that a remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially could allow attackers to exploit multiple attack vectors on a Drupal site and result in it being compromised."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In addition, depending on the privileges associated with the user, an attacker could exploit this vulnerability and install programs; view, change or delete data or even create new accounts with full user rights.</p>",
+          "text": "In addition, depending on the privileges associated with the user, an attacker could exploit this vulnerability and install programs; view, change or delete data or even create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+          "text": "Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-002\">https://www.drupal.org/sa-core-2018-002</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at https://www.drupal.org/sa-core-2018-002"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/sa-core-2018-002"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-105-040318-tt-csirt-advisory-drupal-security-updates/",
+    "upstreamDisclosedAt": "2018-04-03T11:22:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

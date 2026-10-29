@@ -1,0 +1,80 @@
+{
+  "id": "4700",
+  "legacyPostId": 4700,
+  "referenceNumber": "TT-CSIRT 348.08.31.20",
+  "classification": "advisory",
+  "title": "Cisco’s active iOS xr 0-day exploit",
+  "rawTitle": "TTCSIRT-348.08.31.20: TT-CSIRT ADVISORY &#8211; Cisco&#8217;s active IOS XR zero-day exploit",
+  "slug": "ttcsirt-348-08-31-20-tt-csirt-advisory-ciscos-active-ios-xr-zero-day-exploit",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco warns of a new zero-day vulnerability impacting the Internetwork Operating System (IOS) that ships with its networking equipment.",
+  "cveList": [
+    "CVE-2020-3566"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:25:29",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:25:29",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco warns of a new zero-day vulnerability impacting the Internetwork Operating System (IOS) that ships with its networking equipment.<br><br>The vulnerability, tracked as CVE-2020-3566, impacts the Distance Vector Multicast Routing Protocol (DVMRP) feature that ships with the IOS XR version of the operating system.<br><br>This version of the OS is usually installed on carrier-grade and data center routers,&nbsp;the DVMRP feature contains a bug that allows an unauthenticated, remote attacker to exhaust process memory and crash other processes running on the device.<br><br>For more information details and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=c413750384&amp;e=64e3bb0ab9\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-dvmrp-memexh-dSmpdvfz</a><br><br><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Cisco warns of a new zero-day vulnerability impacting the Internetwork Operating System (IOS) that ships with its networking equipment.",
+  "sourceExcerpt": "<p>Cisco warns of a new zero-day vulnerability impacting the Internetwork Operating System (IOS) that ships with its networking equipment. The vulnerability, tracked as CVE-2020-3566, impacts the Distance Vector Multicast Routing Protocol (DVMRP) feature that ships with the IOS XR version of the operating system. This version of the OS is usually installed on carrier-grade and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-348-08-31-20-tt-csirt-advisory-ciscos-active-ios-xr-zero-day-exploit/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco warns of a new zero-day vulnerability impacting the Internetwork Operating System (IOS) that ships with its networking equipment.</p>",
+          "text": "Cisco warns of a new zero-day vulnerability impacting the Internetwork Operating System (IOS) that ships with its networking equipment."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability, tracked as CVE-2020-3566, impacts the Distance Vector Multicast Routing Protocol (DVMRP) feature that ships with the IOS XR version of the operating system.</p>",
+          "text": "The vulnerability, tracked as CVE-2020-3566, impacts the Distance Vector Multicast Routing Protocol (DVMRP) feature that ships with the IOS XR version of the operating system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This version of the OS is usually installed on carrier-grade and data center routers,&nbsp;the DVMRP feature contains a bug that allows an unauthenticated, remote attacker to exhaust process memory and crash other processes running on the device.</p>",
+          "text": "This version of the OS is usually installed on carrier-grade and data center routers, the DVMRP feature contains a bug that allows an unauthenticated, remote attacker to exhaust process memory and crash other processes running on the device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more information details and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=c413750384&amp;e=64e3bb0ab9\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-dvmrp-memexh-dSmpdvfz</a></p>",
+          "text": "For more information details and support, please visit the following link: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-dvmrp-memexh-dSmpdvfz"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-348-08-31-20-tt-csirt-advisory-ciscos-active-ios-xr-zero-day-exploit/",
+    "upstreamDisclosedAt": "2020-09-22T23:25:29",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

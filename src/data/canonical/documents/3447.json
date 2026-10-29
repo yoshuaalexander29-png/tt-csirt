@@ -1,0 +1,75 @@
+{
+  "id": "3447",
+  "legacyPostId": 3447,
+  "referenceNumber": "TT-CSIRT #139",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-139.070618: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-139-070618-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released a security update stating that ESXi, Workstation, and Fusion contain an out-of-bounds read vulnerability in their shader translator.",
+  "cveList": [],
+  "date": "6 July 2018",
+  "rawDate": "2018-07-06T13:55:54",
+  "modifiedDate": "6 July 2018",
+  "rawModifiedDate": "2018-07-06T13:55:54",
+  "contentHtml": "<p>VMware has released a security update stating that ESXi, Workstation, and Fusion contain an out-of-bounds read vulnerability in their shader translator. </p>\n<p>Successful exploitation of this issue may lead to information disclosure or may allow attackers with normal user privileges to crash their VMs.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0016.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2018-0016.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMware has released a security update stating that ESXi, Workstation, and Fusion contain an out-of-bounds read vulnerability in their shader translator.",
+  "sourceExcerpt": "<p>VMware has released a security update stating that ESXi, Workstation, and Fusion contain an out-of-bounds read vulnerability in their shader translator. Successful exploitation of this issue may lead to information disclosure or may allow attackers with normal user privileges to crash their VMs. Further information on this vulnerability and how it can be mitigated can [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-139-070618-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released a security update stating that ESXi, Workstation, and Fusion contain an out-of-bounds read vulnerability in their shader translator.</p>",
+          "text": "VMware has released a security update stating that ESXi, Workstation, and Fusion contain an out-of-bounds read vulnerability in their shader translator."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this issue may lead to information disclosure or may allow attackers with normal user privileges to crash their VMs.</p>",
+          "text": "Successful exploitation of this issue may lead to information disclosure or may allow attackers with normal user privileges to crash their VMs."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2018-0016.html\">https://www.vmware.com/security/advisories/VMSA-2018-0016.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at https://www.vmware.com/security/advisories/VMSA-2018-0016.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2018-0016.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-139-070618-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2018-07-06T13:55:54",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

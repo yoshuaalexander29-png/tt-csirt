@@ -1,0 +1,75 @@
+{
+  "id": "3886",
+  "legacyPostId": 3886,
+  "referenceNumber": "TT-CSIRT #244",
+  "classification": "advisory",
+  "title": "Patch tuesday",
+  "rawTitle": "TTCSIRT-244.110719: TT-CSIRT ADVISORY – PATCH TUESDAY",
+  "slug": "ttcsirt-244-110719-tt-csirt-advisory-patch-tuesday",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Today Microsoft’s Patch Tuesday! Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday:",
+  "cveList": [],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:30:13",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:30:13",
+  "contentHtml": "<p>Today Microsoft’s Patch Tuesday! Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday:</p>\n<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance\">https://portal.msrc.microsoft.com/en-us/security-guidance</a></p>\n<p>&nbsp;</p>\n<p>As a reminder, there are now 69 days until 20/1/20, when Windows 7 and Windows Server 2008 R2 will be out of extended support and no longer getting security updates. Built-in inbuilt</p>\n",
+  "displaySummary": "Today Microsoft’s Patch Tuesday! Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems.",
+  "sourceExcerpt": "<p>Today Microsoft’s Patch Tuesday! Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday: https://portal.msrc.microsoft.com/en-us/security-guidance &nbsp; As a reminder, there are now 69 days until 20/1/20, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-244-110719-tt-csirt-advisory-patch-tuesday/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Today Microsoft’s Patch Tuesday! Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday:</p>",
+          "text": "Today Microsoft’s Patch Tuesday! Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance\">https://portal.msrc.microsoft.com/en-us/security-guidance</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-us/security-guidance"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As a reminder, there are now 69 days until 20/1/20, when Windows 7 and Windows Server 2008 R2 will be out of extended support and no longer getting security updates. Built-in inbuilt</p>",
+          "text": "As a reminder, there are now 69 days until 20/1/20, when Windows 7 and Windows Server 2008 R2 will be out of extended support and no longer getting security updates. Built-in inbuilt"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-244-110719-tt-csirt-advisory-patch-tuesday/",
+    "upstreamDisclosedAt": "2019-11-13T08:30:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

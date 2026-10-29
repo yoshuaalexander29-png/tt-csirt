@@ -1,0 +1,181 @@
+{
+  "id": "4131",
+  "legacyPostId": 4131,
+  "referenceNumber": "TT-CSIRT #287",
+  "classification": "advisory",
+  "title": "Multiple zyxel device vulnerabilities",
+  "rawTitle": "TTCSIRT-287.022620: TT-CSIRT ADVISORY-  MULTIPLE ZYXEL DEVICE VULNERABILITIES.",
+  "slug": "ttcsirt-287-022620-tt-csirt-advisory-multiple-zyxel-device-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple ZyXEL devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device.",
+  "cveList": [],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T14:29:52",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T14:29:52",
+  "contentHtml": "<p>Multiple ZyXEL devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Description</u></em></strong></p>\n<p><em>CWE-78: Improper Neutralization of Special Elements used in an OS Command (&#8216;OS Command Injection&#8217;)</em></p>\n<p>Multiple ZyXEL devices achieve authentication by using the weblogin.cgi CGI executable. This program fails to properly sanitize the username parameter that is passed to it. If the username parameter contains certain characters, it can allow command injection with the privileges of the web server that runs on the ZyXEL device. Although the web server does not run as the root user, many ZyXEL devices include a setuid utility that can be leveraged to run any command with root privileges. As such, it should be assumed that exploitation of this vulnerability can lead to remote code execution with root privileges.</p>\n<p>Exploit code for this vulnerability that targets NAS devices is available on the internet. For this reason, we have created a PoC exploit that has the ability to power down affected ZyXEL NAS devices.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Impact</u></em></strong></p>\n<p>By sending a specially-crafted HTTP POST or GET request to a vulnerable ZyXEL device, a remote, unauthenticated attacker may be able to execute arbitrary code on the device. This may happen by directly connecting to a device if it is directly exposed to an attacker. However, there are ways to trigger such crafted requests even if an attacker does not have direct connectivity to a vulnerable devices. For example, simply visiting a website can result in the compromise of any ZyXEL device that is reachable from the client system.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Solution</u></em></strong></p>\n<p>Apply an update</p>\n<p>ZyXEL has made firmware updates available for NAS326, NAS520, NAS540, NAS542, ATP100, ATP200, ATP500, ATP800, USG20-VPN, USG20W-VPN, USG40, USG40W, USG60, USG60W, USG110, USG210, USG310, USG1100, USG1900, USG2200, VPN50, VPN100, VPN300, VPN1000, ZyWALL110, ZyWALL310, and ZyWALL1100 devices. Owners of NSA210, NSA220, NSA220+, NSA221, NSA310, NSA310S, NSA320, NSA320S, NSA325 and NSA325v2 as well as some other ZyXEL devices may not be able to install firmware updates, as these devices are no longer supported. Be cautious when updating firmware on affected devices, as the ZyXEL firmware upgrade process both uses an insecure channel (FTP) for retrieving updates, and the firmware files are only verified by checksum rather than cryptographic signature. For these reasons, any attacker that has control of DNS or IP routing may be able to cause a malicious firmware to be installed on a ZyXEL device.</p>\n<p>&nbsp;</p>\n<p><strong><em><u>Please also consider the following workarounds:</u></em></strong></p>\n<p>Block access to the ZyXEL device web interface</p>\n<p>This issue can be mitigated by blocking (for example with a firewall) access to the web interface (80/tcp and 443/tcp) of any vulnerable ZyXEL device. Any machine that can access the ZyXEL web interface should not also be able to access the internet.</p>\n<p>Restrict access to vulnerable ZyXEL devices</p>\n<p>Direct exploitation of this vulnerability can be mitigated by restricting access to vulnerable devices. In particular, do not expose such devices directly to the internet. Note however, that it is still possible for attackers to exploit devices that are not directly connected to the internet. For example, by way of viewing a web page.</p>\n<p>&nbsp;</p>\n<h3>References</h3>\n<ul>\n<li><a href=\"https://www.zyxel.com/support/remote-code-execution-vulnerability-of-NAS-products.shtml\">https://www.zyxel.com/support/remote-code-execution-vulnerability-of-NAS-products.shtml</a></li>\n<li><a href=\"https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices/\">https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices/</a></li>\n<li><a href=\"https://cwe.mitre.org/data/definitions/78.html\">https://cwe.mitre.org/data/definitions/78.html</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "Multiple ZyXEL devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device.",
+  "sourceExcerpt": "<p>Multiple ZyXEL devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device. &nbsp; Description CWE-78: Improper Neutralization of Special Elements used in an OS Command (&#8216;OS Command Injection&#8217;) Multiple ZyXEL devices achieve authentication by using the weblogin.cgi CGI executable. This program fails to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-287-022620-tt-csirt-advisory-multiple-zyxel-device-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple ZyXEL devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device.</p>",
+          "text": "Multiple ZyXEL devices contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device."
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><em>CWE-78: Improper Neutralization of Special Elements used in an OS Command (&#8216;OS Command Injection&#8217;)</em></p>",
+          "text": "CWE-78: Improper Neutralization of Special Elements used in an OS Command (‘OS Command Injection’)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple ZyXEL devices achieve authentication by using the weblogin.cgi CGI executable. This program fails to properly sanitize the username parameter that is passed to it. If the username parameter contains certain characters, it can allow command injection with the privileges of the web server that runs on the ZyXEL device. Although the web server does not run as the root user, many ZyXEL devices include a setuid utility that can be leveraged to run any command with root privileges. As such, it should be assumed that exploitation of this vulnerability can lead to remote code execution with root privileges.</p>",
+          "text": "Multiple ZyXEL devices achieve authentication by using the weblogin.cgi CGI executable. This program fails to properly sanitize the username parameter that is passed to it. If the username parameter contains certain characters, it can allow command injection with the privileges of the web server that runs on the ZyXEL device. Although the web server does not run as the root user, many ZyXEL devices include a setuid utility that can be leveraged to run any command with root privileges. As such, it should be assumed that exploitation of this vulnerability can lead to remote code execution with root privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Exploit code for this vulnerability that targets NAS devices is available on the internet. For this reason, we have created a PoC exploit that has the ability to power down affected ZyXEL NAS devices.</p>",
+          "text": "Exploit code for this vulnerability that targets NAS devices is available on the internet. For this reason, we have created a PoC exploit that has the ability to power down affected ZyXEL NAS devices."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>By sending a specially-crafted HTTP POST or GET request to a vulnerable ZyXEL device, a remote, unauthenticated attacker may be able to execute arbitrary code on the device. This may happen by directly connecting to a device if it is directly exposed to an attacker. However, there are ways to trigger such crafted requests even if an attacker does not have direct connectivity to a vulnerable devices. For example, simply visiting a website can result in the compromise of any ZyXEL device that is reachable from the client system.</p>",
+          "text": "By sending a specially-crafted HTTP POST or GET request to a vulnerable ZyXEL device, a remote, unauthenticated attacker may be able to execute arbitrary code on the device. This may happen by directly connecting to a device if it is directly exposed to an attacker. However, there are ways to trigger such crafted requests even if an attacker does not have direct connectivity to a vulnerable devices. For example, simply visiting a website can result in the compromise of any ZyXEL device that is reachable from the client system."
+        }
+      ]
+    },
+    {
+      "id": "solution",
+      "title": "Solution",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apply an update</p>",
+          "text": "Apply an update"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>ZyXEL has made firmware updates available for NAS326, NAS520, NAS540, NAS542, ATP100, ATP200, ATP500, ATP800, USG20-VPN, USG20W-VPN, USG40, USG40W, USG60, USG60W, USG110, USG210, USG310, USG1100, USG1900, USG2200, VPN50, VPN100, VPN300, VPN1000, ZyWALL110, ZyWALL310, and ZyWALL1100 devices. Owners of NSA210, NSA220, NSA220+, NSA221, NSA310, NSA310S, NSA320, NSA320S, NSA325 and NSA325v2 as well as some other ZyXEL devices may not be able to install firmware updates, as these devices are no longer supported. Be cautious when updating firmware on affected devices, as the ZyXEL firmware upgrade process both uses an insecure channel (FTP) for retrieving updates, and the firmware files are only verified by checksum rather than cryptographic signature. For these reasons, any attacker that has control of DNS or IP routing may be able to cause a malicious firmware to be installed on a ZyXEL device.</p>",
+          "text": "ZyXEL has made firmware updates available for NAS326, NAS520, NAS540, NAS542, ATP100, ATP200, ATP500, ATP800, USG20-VPN, USG20W-VPN, USG40, USG40W, USG60, USG60W, USG110, USG210, USG310, USG1100, USG1900, USG2200, VPN50, VPN100, VPN300, VPN1000, ZyWALL110, ZyWALL310, and ZyWALL1100 devices. Owners of NSA210, NSA220, NSA220+, NSA221, NSA310, NSA310S, NSA320, NSA320S, NSA325 and NSA325v2 as well as some other ZyXEL devices may not be able to install firmware updates, as these devices are no longer supported. Be cautious when updating firmware on affected devices, as the ZyXEL firmware upgrade process both uses an insecure channel (FTP) for retrieving updates, and the firmware files are only verified by checksum rather than cryptographic signature. For these reasons, any attacker that has control of DNS or IP routing may be able to cause a malicious firmware to be installed on a ZyXEL device."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Please also consider the following workarounds",
+          "id": "please-also-consider-the-following-workarounds"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Block access to the ZyXEL device web interface</p>",
+          "text": "Block access to the ZyXEL device web interface"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue can be mitigated by blocking (for example with a firewall) access to the web interface (80/tcp and 443/tcp) of any vulnerable ZyXEL device. Any machine that can access the ZyXEL web interface should not also be able to access the internet.</p>",
+          "text": "This issue can be mitigated by blocking (for example with a firewall) access to the web interface (80/tcp and 443/tcp) of any vulnerable ZyXEL device. Any machine that can access the ZyXEL web interface should not also be able to access the internet."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Restrict access to vulnerable ZyXEL devices</p>",
+          "text": "Restrict access to vulnerable ZyXEL devices"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Direct exploitation of this vulnerability can be mitigated by restricting access to vulnerable devices. In particular, do not expose such devices directly to the internet. Note however, that it is still possible for attackers to exploit devices that are not directly connected to the internet. For example, by way of viewing a web page.</p>",
+          "text": "Direct exploitation of this vulnerability can be mitigated by restricting access to vulnerable devices. In particular, do not expose such devices directly to the internet. Note however, that it is still possible for attackers to exploit devices that are not directly connected to the internet. For example, by way of viewing a web page."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "References",
+          "id": "references"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://www.zyxel.com/support/remote-code-execution-vulnerability-of-NAS-products.shtml\">https://www.zyxel.com/support/remote-code-execution-vulnerability-of-NAS-products.shtml</a></li>\n<li><a href=\"https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices/\">https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices/</a></li>\n<li><a href=\"https://cwe.mitre.org/data/definitions/78.html\">https://cwe.mitre.org/data/definitions/78.html</a></li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "solution",
+      "label": "Solution"
+    },
+    {
+      "id": "please-also-consider-the-following-workarounds",
+      "label": "Please also consider the following workarounds",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.zyxel.com/support/remote-code-execution-vulnerability-of-NAS-products.shtml",
+    "https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices/",
+    "https://cwe.mitre.org/data/definitions/78.html"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-287-022620-tt-csirt-advisory-multiple-zyxel-device-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-02-26T14:29:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

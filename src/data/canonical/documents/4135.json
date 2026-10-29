@@ -1,0 +1,103 @@
+{
+  "id": "4135",
+  "legacyPostId": 4135,
+  "referenceNumber": "TT-CSIRT #289",
+  "classification": "advisory",
+  "title": "Microsoft Exchange server vulnerability",
+  "rawTitle": "TTCSIRT-289.022620: TT-CSIRT ADVISORY-  MICROSOFT EXCHANGE SERVER VULNERABILITY",
+  "slug": "ttcsirt-289-022620-tt-csirt-advisory-microsoft-exchange-server-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft Exchange Server Exchange Control Panel Fixed Cryptographic Key Remote Code Execution Vulnerability",
+  "cveList": [
+    "CVE-2020-0688"
+  ],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T14:32:06",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T14:32:06",
+  "contentHtml": "<p>Microsoft Exchange Server Exchange Control Panel Fixed Cryptographic Key Remote Code Execution Vulnerability</p>\n<p>&nbsp;</p>\n<p>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. Authentication is required to exploit this vulnerability.</p>\n<p>The specific flaw exists within the Exchange Control Panel web application. The product fails to generate a unique cryptographic key at installation, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.</p>\n<p>&nbsp;</p>\n<p>Microsoft has issued an update to correct this vulnerability.</p>\n<p>&nbsp;</p>\n<p>More details can be found at:</p>\n<p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0688\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0688</a></p>\n<p>&nbsp;</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "Microsoft Exchange Server Exchange Control Panel Fixed Cryptographic Key Remote Code Execution Vulnerability   This vulnerability allows remote attackers to execute arbitrary code on affected…",
+  "sourceExcerpt": "<p>Microsoft Exchange Server Exchange Control Panel Fixed Cryptographic Key Remote Code Execution Vulnerability &nbsp; This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the Exchange Control Panel web application. The product fails to generate a unique [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-289-022620-tt-csirt-advisory-microsoft-exchange-server-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft Exchange Server Exchange Control Panel Fixed Cryptographic Key Remote Code Execution Vulnerability</p>",
+          "text": "Microsoft Exchange Server Exchange Control Panel Fixed Cryptographic Key Remote Code Execution Vulnerability"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. Authentication is required to exploit this vulnerability.</p>",
+          "text": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. Authentication is required to exploit this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The specific flaw exists within the Exchange Control Panel web application. The product fails to generate a unique cryptographic key at installation, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.</p>",
+          "text": "The specific flaw exists within the Exchange Control Panel web application. The product fails to generate a unique cryptographic key at installation, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has issued an update to correct this vulnerability.</p>",
+          "text": "Microsoft has issued an update to correct this vulnerability."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "More details",
+          "id": "more-details"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0688\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0688</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0688"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "more-details",
+      "label": "More details",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0688"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-289-022620-tt-csirt-advisory-microsoft-exchange-server-vulnerability/",
+    "upstreamDisclosedAt": "2020-02-26T14:32:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

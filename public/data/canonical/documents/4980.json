@@ -1,0 +1,119 @@
+{
+  "id": "4980",
+  "legacyPostId": 4980,
+  "referenceNumber": "TT-CSIRT 393.04.27.21",
+  "classification": "advisory",
+  "title": "Nsa-CISA-fbi joint advisory on Russian svr targeting u.s. and allied Networks",
+  "rawTitle": "TTCSIRT-393.04.27.21 TTCSIRT ADVISORY- NSA-CISA-FBI JOINT ADVISORY ON RUSSIAN SVR TARGETING U.S. AND ALLIED NETWORKS",
+  "slug": "ttcsirt-393-04-27-21-ttcsirt-advisory-nsa-cisa-fbi-joint-advisory-on-russian-svr-targeting-u-s-and-allied-networks",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Cybersecurity & Infrastructure Security Agency (CISA), National Security Agency (NSA) and the Federal Bureau of Investigation (FBI) of the United States have released a Joint Cybersecurity Advisory (CSA) on Russian Foreign Intelligence Service (SVR) actors scanning for and exploiting vulnerabilities to compromise U.S. and allied networks, including national security and government-related systems.",
+  "cveList": [
+    "CVE-2018-13379",
+    "CVE-2019-9670",
+    "CVE-2019-11510",
+    "CVE-2019-19781",
+    "CVE-2020-4006"
+  ],
+  "date": "27 April 2021",
+  "rawDate": "2021-04-27T10:28:42",
+  "modifiedDate": "27 April 2021",
+  "rawModifiedDate": "2021-04-27T10:28:42",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Cybersecurity &amp; Infrastructure Security Agency (CISA), National Security Agency (NSA) and the Federal Bureau of Investigation (FBI) of the United States have released a <a href=\"https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2573391/russian-foreign-intelligence-service-exploiting-five-publicly-known-vulnerabili/\">Joint Cybersecurity Advisory (CSA)</a> on Russian Foreign Intelligence Service (SVR) actors scanning for and exploiting vulnerabilities to compromise U.S. and allied networks, including national security and government-related systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Specifically, SVR actors are targeting and exploiting the following vulnerabilities:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2018-13379\">CVE-2018-13379 Fortinet FortiGate VPN</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2019-9670\">CVE-2019-9670 Synacor Zimbra Collaboration Suite</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2019-11510\">CVE-2019-11510 Pulse Secure Pulse Connect Secure VPN</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2019-19781\">CVE-2019-19781 Citrix Application Delivery Controller and Gateway</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2020-4006\">CVE-2020-4006 VMware Workspace ONE Access</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">Additionally the White House has released a&nbsp;<a href=\"https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/\">statement</a>&nbsp;formally attributing this activity and the SolarWinds supply chain compromise to SVR actors. CISA has updated the following products to reflect this attribution:</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa20-352a\">Alert AA20-352A: APT Compromise of Government Agencies, Critical Infrastructure, and Private Sector Organizations</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-008a\">Alert AA21-008A: Detecting Post-Compromise Threat Activity in Microsoft Cloud Environments</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-077a\">Alert AA21-077A: Detecting Post-Compromise Threat Activity Using the CHIRP IOC Detection Tool</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039a\">Malware Analysis Report AR21-039A: MAR-10318845-1.v1 &#8211; SUNBURST</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039b\">Malware Analysis Report AR21-039B: MAR-10320115-1.v1 &#8211; TEARDROP</a></li><li><a href=\"https://us-cert.cisa.gov/sites/default/files/publications/Supply_Chain_Compromise_Detecting_APT_Activity_from_known_TTPs.pdf\">Table: SolarWinds and Active Directory/M365 Compromise &#8211; Detecting APT Activity from Known TTPs</a></li><li><a href=\"https://us-cert.cisa.gov/remediating-apt-compromised-networks\">Remediating Networks Affected by the SolarWinds and Active Directory/M365 Compromise web page</a></li><li><a href=\"https://cyber.dhs.gov/ed/21-01/\">Emergency Directive 21-01: Mitigate SolarWinds Orion Code Compromise</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review <a href=\"https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2573391/russian-foreign-intelligence-service-exploiting-five-publicly-known-vulnerabili/\">Joint CSA: Russian SVR Targets U.S. and Allied Networks</a> for SVR tactics, techniques, and procedures, as well as mitigation strategies.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further insight on this advisory kindly follow the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://us-cert.cisa.gov/ncas/current-activity/2021/04/26/fbi-dhs-cisa-joint-advisory-russian-foreign-intelligence-service\">https://us-cert.cisa.gov/ncas/current-activity/2021/04/26/fbi-dhs-cisa-joint-advisory-russian-foreign-intelligence-service</a></p>\n",
+  "displaySummary": "The Cybersecurity &amp; Infrastructure Security Agency (CISA), National Security Agency (NSA) and the Federal Bureau of Investigation (FBI) of the United States have released a Joint…",
+  "sourceExcerpt": "<p>The Cybersecurity &amp; Infrastructure Security Agency (CISA), National Security Agency (NSA) and the Federal Bureau of Investigation (FBI) of the United States have released a Joint Cybersecurity Advisory (CSA) on Russian Foreign Intelligence Service (SVR) actors scanning for and exploiting vulnerabilities to compromise U.S. and allied networks, including national security and government-related systems. Specifically, SVR actors are [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-393-04-27-21-ttcsirt-advisory-nsa-cisa-fbi-joint-advisory-on-russian-svr-targeting-u-s-and-allied-networks/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Cybersecurity &amp; Infrastructure Security Agency (CISA), National Security Agency (NSA) and the Federal Bureau of Investigation (FBI) of the United States have released a <a href=\"https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2573391/russian-foreign-intelligence-service-exploiting-five-publicly-known-vulnerabili/\">Joint Cybersecurity Advisory (CSA)</a> on Russian Foreign Intelligence Service (SVR) actors scanning for and exploiting vulnerabilities to compromise U.S. and allied networks, including national security and government-related systems.</p>",
+          "text": "The Cybersecurity & Infrastructure Security Agency (CISA), National Security Agency (NSA) and the Federal Bureau of Investigation (FBI) of the United States have released a Joint Cybersecurity Advisory (CSA) on Russian Foreign Intelligence Service (SVR) actors scanning for and exploiting vulnerabilities to compromise U.S. and allied networks, including national security and government-related systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Specifically, SVR actors are targeting and exploiting the following vulnerabilities:</p>",
+          "text": "Specifically, SVR actors are targeting and exploiting the following vulnerabilities:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2018-13379\">CVE-2018-13379 Fortinet FortiGate VPN</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2019-9670\">CVE-2019-9670 Synacor Zimbra Collaboration Suite</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2019-11510\">CVE-2019-11510 Pulse Secure Pulse Connect Secure VPN</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2019-19781\">CVE-2019-19781 Citrix Application Delivery Controller and Gateway</a></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2020-4006\">CVE-2020-4006 VMware Workspace ONE Access</a></li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Additionally the White House has released a&nbsp;<a href=\"https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/\">statement</a>&nbsp;formally attributing this activity and the SolarWinds supply chain compromise to SVR actors. CISA has updated the following products to reflect this attribution:</p>",
+          "text": "Additionally the White House has released a  statement  formally attributing this activity and the SolarWinds supply chain compromise to SVR actors. CISA has updated the following products to reflect this attribution:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa20-352a\">Alert AA20-352A: APT Compromise of Government Agencies, Critical Infrastructure, and Private Sector Organizations</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-008a\">Alert AA21-008A: Detecting Post-Compromise Threat Activity in Microsoft Cloud Environments</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-077a\">Alert AA21-077A: Detecting Post-Compromise Threat Activity Using the CHIRP IOC Detection Tool</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039a\">Malware Analysis Report AR21-039A: MAR-10318845-1.v1 &#8211; SUNBURST</a></li><li><a href=\"https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039b\">Malware Analysis Report AR21-039B: MAR-10320115-1.v1 &#8211; TEARDROP</a></li><li><a href=\"https://us-cert.cisa.gov/sites/default/files/publications/Supply_Chain_Compromise_Detecting_APT_Activity_from_known_TTPs.pdf\">Table: SolarWinds and Active Directory/M365 Compromise &#8211; Detecting APT Activity from Known TTPs</a></li><li><a href=\"https://us-cert.cisa.gov/remediating-apt-compromised-networks\">Remediating Networks Affected by the SolarWinds and Active Directory/M365 Compromise web page</a></li><li><a href=\"https://cyber.dhs.gov/ed/21-01/\">Emergency Directive 21-01: Mitigate SolarWinds Orion Code Compromise</a></li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review <a href=\"https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2573391/russian-foreign-intelligence-service-exploiting-five-publicly-known-vulnerabili/\">Joint CSA: Russian SVR Targets U.S. and Allied Networks</a> for SVR tactics, techniques, and procedures, as well as mitigation strategies.</p>",
+          "text": "The Trinidad and Tobago Cybersecurity Incident Response Team (TTCSIRT) strongly encourages users and administrators to review Joint CSA: Russian SVR Targets U.S. and Allied Networks for SVR tactics, techniques, and procedures, as well as mitigation strategies."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further insight on this advisory kindly follow the link below:</p>",
+          "text": "For further insight on this advisory kindly follow the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://us-cert.cisa.gov/ncas/current-activity/2021/04/26/fbi-dhs-cisa-joint-advisory-russian-foreign-intelligence-service\">https://us-cert.cisa.gov/ncas/current-activity/2021/04/26/fbi-dhs-cisa-joint-advisory-russian-foreign-intelligence-service</a></p>",
+          "text": "https://us-cert.cisa.gov/ncas/current-activity/2021/04/26/fbi-dhs-cisa-joint-advisory-russian-foreign-intelligence-service"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.nsa.gov/News-Features/Feature-Stories/Article-View/Article/2573391/russian-foreign-intelligence-service-exploiting-five-publicly-known-vulnerabili/",
+    "https://nvd.nist.gov/vuln/detail/CVE-2018-13379",
+    "https://nvd.nist.gov/vuln/detail/CVE-2019-9670",
+    "https://nvd.nist.gov/vuln/detail/CVE-2019-11510",
+    "https://nvd.nist.gov/vuln/detail/CVE-2019-19781",
+    "https://nvd.nist.gov/vuln/detail/CVE-2020-4006",
+    "https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/15/fact-sheet-imposing-costs-for-harmful-foreign-activities-by-the-russian-government/",
+    "https://us-cert.cisa.gov/ncas/alerts/aa20-352a",
+    "https://us-cert.cisa.gov/ncas/alerts/aa21-008a",
+    "https://us-cert.cisa.gov/ncas/alerts/aa21-077a",
+    "https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039a",
+    "https://us-cert.cisa.gov/ncas/analysis-reports/ar21-039b",
+    "https://us-cert.cisa.gov/sites/default/files/publications/Supply_Chain_Compromise_Detecting_APT_Activity_from_known_TTPs.pdf",
+    "https://us-cert.cisa.gov/remediating-apt-compromised-networks",
+    "https://cyber.dhs.gov/ed/21-01/",
+    "https://us-cert.cisa.gov/ncas/current-activity/2021/04/26/fbi-dhs-cisa-joint-advisory-russian-foreign-intelligence-service"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-393-04-27-21-ttcsirt-advisory-nsa-cisa-fbi-joint-advisory-on-russian-svr-targeting-u-s-and-allied-networks/",
+    "upstreamDisclosedAt": "2021-04-27T10:28:42",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

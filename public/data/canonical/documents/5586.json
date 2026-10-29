@@ -1,0 +1,77 @@
+{
+  "id": "5586",
+  "legacyPostId": 5586,
+  "referenceNumber": "TT-CSIRT #420",
+  "classification": "advisory",
+  "title": "Microsoft Windows and Office zero day vulnerability",
+  "rawTitle": "TT-CSIRT-420.11.7.23: Microsoft Windows and Office Zero Day Vulnerability",
+  "slug": "tt-csirt-420-11-7-23-microsoft-windows-and-office-zero-day-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents.",
+  "cveList": [
+    "CVE-2023-36884"
+  ],
+  "date": "11 July 2023",
+  "rawDate": "2023-07-11T15:50:35",
+  "modifiedDate": "11 July 2023",
+  "rawModifiedDate": "2023-07-11T15:50:35",
+  "contentHtml": "<p>Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents.</p>\n<p>An attacker could create a specially crafted Microsoft Office document that enables them to perform remote code execution in the context of the victim.</p>\n<p>TT-CSIRT encourages administrators to review the following release from Microsoft and apply the necessary mitigations immediately: <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884\" target=\"_blank\" rel=\"noopener\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884</a></p>\n",
+  "displaySummary": "Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products.",
+  "sourceExcerpt": "<p>Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents. An attacker could create a specially crafted Microsoft Office document that enables them to perform remote code execution in the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-420-11-7-23-microsoft-windows-and-office-zero-day-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents.</p>",
+          "text": "Microsoft is investigating reports of a series of remote code execution vulnerabilities impacting Windows and Office products. Microsoft is aware of targeted attacks that attempt to exploit these vulnerabilities by using specially-crafted Microsoft Office documents."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could create a specially crafted Microsoft Office document that enables them to perform remote code execution in the context of the victim.</p>",
+          "text": "An attacker could create a specially crafted Microsoft Office document that enables them to perform remote code execution in the context of the victim."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following release from Microsoft and apply the necessary mitigations immediately: <a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884\" target=\"_blank\" rel=\"noopener\">https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884</a></p>",
+          "text": "TT-CSIRT encourages administrators to review the following release from Microsoft and apply the necessary mitigations immediately: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-420-11-7-23-microsoft-windows-and-office-zero-day-vulnerability/",
+    "upstreamDisclosedAt": "2023-07-11T15:50:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

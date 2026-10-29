@@ -1,0 +1,90 @@
+{
+  "id": "3623",
+  "legacyPostId": 3623,
+  "referenceNumber": "TT-CSIRT #188",
+  "classification": "advisory",
+  "title": "WordPress security updates",
+  "rawTitle": "TTCSIRT-188.121318: TT-CSIRT Advisory – WordPress Security Updates",
+  "slug": "ttcsirt-188-121318-tt-csirt-advisory-wordpress-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "WordPress has released a security update stating that it has discovered the following vulnerabilities with WordPress ver 5.0 and earlier:",
+  "cveList": [],
+  "date": "13 December 2018",
+  "rawDate": "2018-12-13T17:33:38",
+  "modifiedDate": "13 December 2018",
+  "rawModifiedDate": "2018-12-13T17:33:38",
+  "contentHtml": "<p>WordPress has released a security update stating that it has discovered the following vulnerabilities with WordPress ver 5.0 and earlier:</p>\n<p>a) Authors can alter meta data to delete files that they are not authorized to.</p>\n<p>b) Authors can create posts of unauthorized post types with specially crafted input.</p>\n<p>c) URL inputs can lead to a cross-site scripting in some circumstances.</p>\n<p>d) User activation screen could be indexed by search engines in some uncommon configurations leading to exposure of email addresses, and in some rare cases, default generated passwords.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the WordPress Website at <a href=\"https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/\"><font size=\"2\" color=\"maroon\">https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "WordPress has released a security update stating that it has discovered the following vulnerabilities with WordPress ver 5.0 and earlier: a) Authors can alter meta data to delete files that they…",
+  "sourceExcerpt": "<p>WordPress has released a security update stating that it has discovered the following vulnerabilities with WordPress ver 5.0 and earlier: a) Authors can alter meta data to delete files that they are not authorized to. b) Authors can create posts of unauthorized post types with specially crafted input. c) URL inputs can lead to a [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-188-121318-tt-csirt-advisory-wordpress-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress has released a security update stating that it has discovered the following vulnerabilities with WordPress ver 5.0 and earlier:</p>",
+          "text": "WordPress has released a security update stating that it has discovered the following vulnerabilities with WordPress ver 5.0 and earlier:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Authors can alter meta data to delete files that they are not authorized to.</p>",
+          "text": "a) Authors can alter meta data to delete files that they are not authorized to."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Authors can create posts of unauthorized post types with specially crafted input.</p>",
+          "text": "b) Authors can create posts of unauthorized post types with specially crafted input."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) URL inputs can lead to a cross-site scripting in some circumstances.</p>",
+          "text": "c) URL inputs can lead to a cross-site scripting in some circumstances."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) User activation screen could be indexed by search engines in some uncommon configurations leading to exposure of email addresses, and in some rare cases, default generated passwords.</p>",
+          "text": "d) User activation screen could be indexed by search engines in some uncommon configurations leading to exposure of email addresses, and in some rare cases, default generated passwords."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the WordPress Website at <a href=\"https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/\">https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the WordPress Website at https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-188-121318-tt-csirt-advisory-wordpress-security-updates/",
+    "upstreamDisclosedAt": "2018-12-13T17:33:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "4724",
+  "legacyPostId": 4724,
+  "referenceNumber": "TT-CSIRT 360.09.15.20",
+  "classification": "advisory",
+  "title": "Iran-based threat actor exploits VPN vulnerabilities",
+  "rawTitle": "TTCSIRT-360.09.15.20: TT-CSIRT ADVISORY – Iran-Based Threat Actor Exploits VPN Vulnerabilities",
+  "slug": "ttcsirt-360-09-15-20-tt-csirt-advisory-iran-based-threat-actor-exploits-vpn-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An analysis of threat actor’s indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs) indicates a correlation with the group known by the names, Pioneer Kitten and UNC757.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:34:12",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:34:12",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An analysis of threat actor’s indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs) indicates a correlation with the group known by the names, Pioneer Kitten and UNC757.<br><br>This Iran-based threat actor has been observed exploiting several publicly known Common Vulnerabilities and Exposures (CVEs) dealing with Pulse Secure virtual private network (VPN), Citrix NetScaler, and F5 vulnerabilities to gain initial access to targeted networks and then maintained access within the successfully exploited networks for several months using multiple means of persistence.<br><br>The Iran-based malicious cyber actor has been found targeting several industries mainly associated with information technology, government, healthcare, financial, insurance, and media sectors.<br><br>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=a3697592f4&amp;e=64e3bb0ab9\" target=\"_blank\">https://us-cert.cisa.gov/ncas/alerts/aa20-259a</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "An analysis of threat actor’s indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs) indicates a correlation with the group known by the names, Pioneer Kitten and UNC757.",
+  "sourceExcerpt": "<p>An analysis of threat actor’s indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs) indicates a correlation with the group known by the names, Pioneer Kitten and UNC757. This Iran-based threat actor has been observed exploiting several publicly known Common Vulnerabilities and Exposures (CVEs) dealing with Pulse Secure virtual private network (VPN), Citrix NetScaler, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-360-09-15-20-tt-csirt-advisory-iran-based-threat-actor-exploits-vpn-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An analysis of threat actor’s indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs) indicates a correlation with the group known by the names, Pioneer Kitten and UNC757.</p>",
+          "text": "An analysis of threat actor’s indicators of compromise (IOCs) and tactics, techniques, and procedures (TTPs) indicates a correlation with the group known by the names, Pioneer Kitten and UNC757."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This Iran-based threat actor has been observed exploiting several publicly known Common Vulnerabilities and Exposures (CVEs) dealing with Pulse Secure virtual private network (VPN), Citrix NetScaler, and F5 vulnerabilities to gain initial access to targeted networks and then maintained access within the successfully exploited networks for several months using multiple means of persistence.</p>",
+          "text": "This Iran-based threat actor has been observed exploiting several publicly known Common Vulnerabilities and Exposures (CVEs) dealing with Pulse Secure virtual private network (VPN), Citrix NetScaler, and F5 vulnerabilities to gain initial access to targeted networks and then maintained access within the successfully exploited networks for several months using multiple means of persistence."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Iran-based malicious cyber actor has been found targeting several industries mainly associated with information technology, government, healthcare, financial, insurance, and media sectors.</p>",
+          "text": "The Iran-based malicious cyber actor has been found targeting several industries mainly associated with information technology, government, healthcare, financial, insurance, and media sectors."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=a3697592f4&amp;e=64e3bb0ab9\" target=\"_blank\">https://us-cert.cisa.gov/ncas/alerts/aa20-259a</a></p>",
+          "text": "For further information and support, please visit the following link: https://us-cert.cisa.gov/ncas/alerts/aa20-259a"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-360-09-15-20-tt-csirt-advisory-iran-based-threat-actor-exploits-vpn-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-09-22T23:34:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

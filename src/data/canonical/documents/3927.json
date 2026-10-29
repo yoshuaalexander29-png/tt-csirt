@@ -1,0 +1,70 @@
+{
+  "id": "3927",
+  "legacyPostId": 3927,
+  "referenceNumber": "TT-CSIRT #254",
+  "classification": "advisory",
+  "title": "Microsft security updates",
+  "rawTitle": "TTCSIRT-254.121119: TT-CSIRT ADVISORY – MICROSFT SECURITY UPDATES",
+  "slug": "ttcsirt-254-121119-tt-csirt-advisory-microsft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday: https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec",
+  "cveList": [],
+  "date": "11 December 2019",
+  "rawDate": "2019-12-11T09:48:34",
+  "modifiedDate": "11 December 2019",
+  "rawModifiedDate": "2019-12-11T09:48:34",
+  "contentHtml": "<p>Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday: <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec</a></p>\n<p>&nbsp;</p>\n<p>As a reminder, there are now 35 days until 14/1/20, when Windows 7 and Windows Server 2008 R2 will be out of extended support and no longer getting security updates</p>\n",
+  "displaySummary": "Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems.",
+  "sourceExcerpt": "<p>Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday: https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec &nbsp; As a reminder, there are now 35 days until 14/1/20, when Windows 7 and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-254-121119-tt-csirt-advisory-microsft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday: <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec</a></p>",
+          "text": "Microsoft has released their monthly security updates for all supported Windows systems. TTCSIRT encourages users and administrators to update their systems. Visit the following link or more details on the vulnerabilities and issues addressed in this month’s Patch Tuesday: https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As a reminder, there are now 35 days until 14/1/20, when Windows 7 and Windows Server 2008 R2 will be out of extended support and no longer getting security updates</p>",
+          "text": "As a reminder, there are now 35 days until 14/1/20, when Windows 7 and Windows Server 2008 R2 will be out of extended support and no longer getting security updates"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2019-Dec"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-254-121119-tt-csirt-advisory-microsft-security-updates/",
+    "upstreamDisclosedAt": "2019-12-11T09:48:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

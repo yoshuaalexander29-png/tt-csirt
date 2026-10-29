@@ -1,0 +1,207 @@
+{
+  "id": "10633",
+  "legacyPostId": 10633,
+  "referenceNumber": "TT-CSIRT 444.05.08.25",
+  "classification": "advisory",
+  "title": "Increased threat activity targeting sslvpn on gen 7 SonicWall firewalls",
+  "rawTitle": "TT-CSIRT – 444.05.08.25 – Increased Threat Activity Targeting SSLVPN on Gen 7 SonicWall Firewalls",
+  "slug": "tt-csirt-444-05-08-25-increased-threat-activity-targeting-sslvpn-on-gen-7-sonicwall-firewalls",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "SonicWall has detected a substantial rise in cyber incidents within the past 4 days concerning Gen 7 SonicWall Firewalls that have SSL VPN activated.",
+  "cveList": [],
+  "date": "5 August 2025",
+  "rawDate": "2025-08-05T10:16:44",
+  "modifiedDate": "5 August 2025",
+  "rawModifiedDate": "2025-08-05T10:34:55",
+  "contentHtml": "\t\t<div data-elementor-type=\"wp-post\" data-elementor-id=\"10633\" class=\"elementor elementor-10633\">\n\t\t\t\t<div class=\"elementor-element elementor-element-4e1e8622 e-flex e-con-boxed e-con e-parent\" data-id=\"4e1e8622\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-10d551a6 elementor-widget elementor-widget-text-editor\" data-id=\"10d551a6\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Please be advised that SonicWall has detected a substantial rise in cyber incidents within the past 4 days concerning Gen 7 SonicWall Firewalls that have SSL VPN activated.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>An ongoing investigation is being conducted to ascertain if the threat activity is associated with a previously disclosed vulnerability or a newly identified one.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>Impact</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:list --></p>\n<ul class=\"wp-block-list\">\n<li style=\"list-style-type: none;\">\n<ul class=\"wp-block-list\"><!-- wp:list-item --></ul>\n</li>\n</ul>\n<ul class=\"wp-block-list\">\n<li style=\"list-style-type: none;\">\n<ul class=\"wp-block-list\">\n<li>Remote attackers may be exploiting SSL VPN services on Gen 7 firewalls.</li>\n</ul>\n</li>\n</ul>\n<p><!-- /wp:list-item --><!-- wp:list-item --></p>\n<ul class=\"wp-block-list\">\n<li style=\"list-style-type: none;\">\n<ul class=\"wp-block-list\">\n<li>The activity may bypass standard authentication protections, including MFA in some cases.</li>\n</ul>\n</li>\n</ul>\n<p><!-- /wp:list-item --><!-- wp:list-item --></p>\n<ul class=\"wp-block-list\">\n<li style=\"list-style-type: none;\">\n<ul class=\"wp-block-list\">\n<li>There is potential for unauthorized access, lateral movement, or<strong> persistence </strong>within affected environments.</li>\n</ul>\n</li>\n</ul>\n<p><!-- /wp:list-item --></p>\n<p><!-- /wp:list --><!-- wp:paragraph --></p>\n<p>SonicWall strongly advises all partners and customers using <strong>Gen 7 SonicWall</strong> firewalls to take the following actions</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>Recommended Mitigation Steps:</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>1. Turn off SSLVPN services wherever it is feasible.&nbsp;</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\"><em>NOTE: It is important to adhere to all the following steps even if disabling SSLVPN is not an option.&nbsp;</em></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>2. Restrict SSLVPN access to recognized source IP addresses.&nbsp;</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>3. Activate Security Services&nbsp;</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\">• Enable features like Botnet Protection and Geo-IP Filtering. These are effective in identifying and blocking known threat actors that target SSL VPN endpoints.&nbsp;</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>4. Implement Multi-Factor Authentication (MFA)&nbsp;</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\">• Require MFA for all remote access to mitigate the risk of credential misuse.&nbsp;</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\"><em>NOTE: Some reports indicate that enforcing MFA on its own may not safeguard against the activity being examined.&nbsp;</em></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>5. Delete Unused Accounts&nbsp;</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\">• Remove any inactive or unnecessary local user accounts on the firewall.&nbsp;</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\">• Be especially mindful of those who have SSLVPN access.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>6. Maintain Strong Password Practices&nbsp;</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p style=\"padding-left: 40px;\">• Promote frequent password updates for all user accounts.&nbsp;</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><strong>References:</strong></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><a href=\"https://www.sonicwall.com/support/notices/gen-7-sonicwall-firewalls-sslvpn-recent-threat-activity/250804095336430\" target=\"_blank\" rel=\"noopener\">https://www.sonicwall.com/support/notices/gen-7-sonicwall-firewalls-sslvpn-recent-threat-activity/250804095336430</a></p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>If you have any queries, comments, or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt .</p>\n<p><!-- /wp:paragraph --></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+  "displaySummary": "SonicWall has detected a substantial rise in cyber incidents within the past 4 days concerning Gen 7 SonicWall Firewalls that have SSL VPN activated.",
+  "sourceExcerpt": "<p>Please be advised that SonicWall has detected a substantial rise in cyber incidents within the past 4 days concerning Gen 7 SonicWall Firewalls that have SSL VPN activated. An ongoing investigation is being conducted to ascertain if the threat activity is associated with a previously disclosed vulnerability or a newly identified one. Impact Remote attackers [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-444-05-08-25-increased-threat-activity-targeting-sslvpn-on-gen-7-sonicwall-firewalls/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>SonicWall has detected a substantial rise in cyber incidents within the past 4 days concerning Gen 7 SonicWall Firewalls that have SSL VPN activated.</p>",
+          "text": "SonicWall has detected a substantial rise in cyber incidents within the past 4 days concerning Gen 7 SonicWall Firewalls that have SSL VPN activated."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An ongoing investigation is being conducted to ascertain if the threat activity is associated with a previously disclosed vulnerability or a newly identified one.</p>",
+          "text": "An ongoing investigation is being conducted to ascertain if the threat activity is associated with a previously disclosed vulnerability or a newly identified one."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><ul class=\"wp-block-list\">\n<li>Remote attackers may be exploiting SSL VPN services on Gen 7 firewalls.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><ul class=\"wp-block-list\">\n<li>The activity may bypass standard authentication protections, including MFA in some cases.</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><ul class=\"wp-block-list\">\n<li>There is potential for unauthorized access, lateral movement, or<strong> persistence </strong>within affected environments.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>SonicWall strongly advises all partners and customers using <strong>Gen 7 SonicWall</strong> firewalls to take the following actions</p>",
+          "text": "SonicWall strongly advises all partners and customers using Gen 7 SonicWall firewalls to take the following actions"
+        }
+      ]
+    },
+    {
+      "id": "recommended-mitigation-steps",
+      "title": "Recommended mitigation steps",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>1. Turn off SSLVPN services wherever it is feasible.&nbsp;</strong></li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>NOTE: It is important to adhere to all the following steps even if disabling SSLVPN is not an option.&nbsp;</em></p>",
+          "text": "NOTE: It is important to adhere to all the following steps even if disabling SSLVPN is not an option."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li><strong>2. Restrict SSLVPN access to recognized source IP addresses.&nbsp;</strong></li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Activate security services",
+          "id": "activate-security-services"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Enable features like Botnet Protection and Geo-IP Filtering. These are effective in identifying and blocking known threat actors that target SSL VPN endpoints.&nbsp;</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Implement multi-factor authentication (MFA)",
+          "id": "implement-multi-factor-authentication-mfa"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Require MFA for all remote access to mitigate the risk of credential misuse.&nbsp;</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>NOTE: Some reports indicate that enforcing MFA on its own may not safeguard against the activity being examined.&nbsp;</em></p>",
+          "text": "NOTE: Some reports indicate that enforcing MFA on its own may not safeguard against the activity being examined."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Delete unused accounts",
+          "id": "delete-unused-accounts"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Remove any inactive or unnecessary local user accounts on the firewall.&nbsp;</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Be especially mindful of those who have SSLVPN access.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Maintain strong password practices",
+          "id": "maintain-strong-password-practices"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Promote frequent password updates for all user accounts.&nbsp;</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.sonicwall.com/support/notices/gen-7-sonicwall-firewalls-sslvpn-recent-threat-activity/250804095336430\" target=\"_blank\" rel=\"noopener\">https://www.sonicwall.com/support/notices/gen-7-sonicwall-firewalls-sslvpn-recent-threat-activity/250804095336430</a></p>",
+          "text": "https://www.sonicwall.com/support/notices/gen-7-sonicwall-firewalls-sslvpn-recent-threat-activity/250804095336430"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "recommended-mitigation-steps",
+      "label": "Recommended mitigation steps"
+    },
+    {
+      "id": "activate-security-services",
+      "label": "Activate security services",
+      "isSubItem": true
+    },
+    {
+      "id": "implement-multi-factor-authentication-mfa",
+      "label": "Implement multi-factor authentication (MFA)",
+      "isSubItem": true
+    },
+    {
+      "id": "delete-unused-accounts",
+      "label": "Delete unused accounts",
+      "isSubItem": true
+    },
+    {
+      "id": "maintain-strong-password-practices",
+      "label": "Maintain strong password practices",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.sonicwall.com/support/notices/gen-7-sonicwall-firewalls-sslvpn-recent-threat-activity/250804095336430"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-444-05-08-25-increased-threat-activity-targeting-sslvpn-on-gen-7-sonicwall-firewalls/",
+    "upstreamDisclosedAt": "2025-08-05T10:16:44",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

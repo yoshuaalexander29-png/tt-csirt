@@ -1,0 +1,93 @@
+{
+  "id": "4094",
+  "legacyPostId": 4094,
+  "referenceNumber": "TT-CSIRT #277",
+  "classification": "advisory",
+  "title": "Adobe releases security updates for multiple products",
+  "rawTitle": "TTCSIRT-277.021220: TT-CSIRT ADVISORY- ADOBE RELEASES SECURITY UPDATES FOR MULTIPLE PRODUCTS",
+  "slug": "ttcsirt-277-021220-tt-csirt-advisory-adobe-releases-security-updates-for-multiple-products",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "12 February 2020",
+  "rawDate": "2020-02-12T10:20:39",
+  "modifiedDate": "12 February 2020",
+  "rawModifiedDate": "2020-02-12T10:20:39",
+  "contentHtml": "<p>Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates:</p>\n<ul>\n<li>Framemaker APSB20-04</li>\n<li>Acrobat and Reader APSB20-05</li>\n<li>Flash Player APSB20-06</li>\n<li>Digital Editions <a href=\"https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html\">APSB20-07</a></li>\n<li>Experience Manager APSB20-08</li>\n</ul>\n<p>For further review please see the following links:</p>\n<ul>\n<li><a href=\"https://helpx.adobe.com/security/products/framemaker/apsb20-04.html\">https://helpx.adobe.com/security/products/framemaker/apsb20-04.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/acrobat/apsb20-05.html\">https://helpx.adobe.com/security/products/acrobat/apsb20-05.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/flash-player/apsb20-06.html\">https://helpx.adobe.com/security/products/flash-player/apsb20-06.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html\">https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html\">https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html</a></li>\n</ul>\n",
+  "displaySummary": "Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates: Framemaker APSB20-04 Acrobat [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-277-021220-tt-csirt-advisory-adobe-releases-security-updates-for-multiple-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Adobe has released security updates to address vulnerabilities in multiple Adobe products. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the following Adobe Security Bulletins and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Framemaker APSB20-04</li>\n<li>Acrobat and Reader APSB20-05</li>\n<li>Flash Player APSB20-06</li>\n<li>Digital Editions <a href=\"https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html\">APSB20-07</a></li>\n<li>Experience Manager APSB20-08</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://helpx.adobe.com/security/products/framemaker/apsb20-04.html\">https://helpx.adobe.com/security/products/framemaker/apsb20-04.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/acrobat/apsb20-05.html\">https://helpx.adobe.com/security/products/acrobat/apsb20-05.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/flash-player/apsb20-06.html\">https://helpx.adobe.com/security/products/flash-player/apsb20-06.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html\">https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html\">https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html",
+    "https://helpx.adobe.com/security/products/framemaker/apsb20-04.html",
+    "https://helpx.adobe.com/security/products/acrobat/apsb20-05.html",
+    "https://helpx.adobe.com/security/products/flash-player/apsb20-06.html",
+    "https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-277-021220-tt-csirt-advisory-adobe-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2020-02-12T10:20:39",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

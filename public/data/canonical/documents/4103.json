@@ -1,0 +1,129 @@
+{
+  "id": "4103",
+  "legacyPostId": 4103,
+  "referenceNumber": "TT-CSIRT #280",
+  "classification": "advisory",
+  "title": "Intel releases security updates",
+  "rawTitle": "TTCSIRT-280.021220: TT-CSIRT ADVISORY- INTEL RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-280-021220-tt-csirt-advisory-intel-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit these vulnerabilities to gain escalation of privileges.",
+  "cveList": [],
+  "date": "12 February 2020",
+  "rawDate": "2020-02-12T10:42:28",
+  "modifiedDate": "12 February 2020",
+  "rawModifiedDate": "2020-02-12T10:42:28",
+  "contentHtml": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit these vulnerabilities to gain escalation of privileges.</p>\n<p>TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates.</p>\n<ul>\n<li>RWC3 Advisory &#8211; INTEL-SA-00341</li>\n</ul>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html</a></p>\n<p>&nbsp;</p>\n<ul>\n<li>MPSS Advisory &#8211; INTEL-SA-00340</li>\n</ul>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html</a></p>\n<p>&nbsp;</p>\n<ul>\n<li>RWC2 Advisory &#8211; INTEL-SA-00339</li>\n</ul>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html</a></p>\n<p>&nbsp;</p>\n<ul>\n<li>SGX SDK Advisory &#8211; INTEL-SA-00336</li>\n</ul>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00336.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00336.html</a></p>\n<p>&nbsp;</p>\n<ul>\n<li>CSME Advisory &#8211; INTEL-SA-00307</li>\n</ul>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00307.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00307.html</a></p>\n<p>&nbsp;</p>\n<ul>\n<li>Renesas Electronics USB 3.0 Driver Advisory &#8211; INTEL-SA-00273</li>\n</ul>\n<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00273.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00273.html</a></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit these vulnerabilities to gain escalation of privileges.",
+  "sourceExcerpt": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit these vulnerabilities to gain escalation of privileges. TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates. RWC3 Advisory &#8211; INTEL-SA-00341 https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html &nbsp; MPSS Advisory &#8211; INTEL-SA-00340 https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html &nbsp; RWC2 Advisory &#8211; INTEL-SA-00339 https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-280-021220-tt-csirt-advisory-intel-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit these vulnerabilities to gain escalation of privileges.</p>",
+          "text": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit these vulnerabilities to gain escalation of privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates.</p>",
+          "text": "TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>RWC3 Advisory &#8211; INTEL-SA-00341</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>MPSS Advisory &#8211; INTEL-SA-00340</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>RWC2 Advisory &#8211; INTEL-SA-00339</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>SGX SDK Advisory &#8211; INTEL-SA-00336</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00336.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00336.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00336.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CSME Advisory &#8211; INTEL-SA-00307</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00307.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00307.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00307.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Renesas Electronics USB 3.0 Driver Advisory &#8211; INTEL-SA-00273</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00273.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00273.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00273.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00341.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00340.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00339.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00336.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00307.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00273.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-280-021220-tt-csirt-advisory-intel-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-02-12T10:42:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

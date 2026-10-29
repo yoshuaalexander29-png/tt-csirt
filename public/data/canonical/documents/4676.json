@@ -1,0 +1,88 @@
+{
+  "id": "4676",
+  "legacyPostId": 4676,
+  "referenceNumber": "TT-CSIRT 336.08.19.20",
+  "classification": "advisory",
+  "title": "Researcher publishes patch bypass for vbulletin 0-day",
+  "rawTitle": "TTCSIRT-336.08.19.20: TT-CSIRT ADVISORY- RESEARCHER PUBLISHES PATCH BYPASS FOR VBULLETIN 0-DAY",
+  "slug": "ttcsirt-336-08-19-20-tt-csirt-advisory-researcher-publishes-patch-bypass-for-vbulletin-0-day",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A security researcher has published proof-of-concept code to outsmart a patch issued last year for a zero-day vulnerability discovered in vBulletin, a popular software for building online community forums.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:17:40",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:17:40",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A security researcher has published proof-of-concept code to outsmart a patch issued last year for a zero-day vulnerability discovered in vBulletin, a popular software for building online community forums.<br><br>This allows an attacker to run malicious code and take over forums without needing to authenticate on the sites that are under attack.<br><br>The unidentified security researcher released exploit code for the flaw that allowed for PHP remote code execution in vBulletin 5.0 through 5.4.<br><br>Please see the following link for further support and a more comprehensive overview of this vulnerability:<br><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=b211dc92f1&amp;e=64e3bb0ab9\">https://threatpost.com/researcher-publishes-bypass-for-patch-for-vbulletin-0-day-flaw/158232/</a><br><br>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.<br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A security researcher has published proof-of-concept code to outsmart a patch issued last year for a zero-day vulnerability discovered in vBulletin, a popular software for building online…",
+  "sourceExcerpt": "<p>A security researcher has published proof-of-concept code to outsmart a patch issued last year for a zero-day vulnerability discovered in vBulletin, a popular software for building online community forums. This allows an attacker to run malicious code and take over forums without needing to authenticate on the sites that are under attack. The unidentified security [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-336-08-19-20-tt-csirt-advisory-researcher-publishes-patch-bypass-for-vbulletin-0-day/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A security researcher has published proof-of-concept code to outsmart a patch issued last year for a zero-day vulnerability discovered in vBulletin, a popular software for building online community forums.</p>",
+          "text": "A security researcher has published proof-of-concept code to outsmart a patch issued last year for a zero-day vulnerability discovered in vBulletin, a popular software for building online community forums."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This allows an attacker to run malicious code and take over forums without needing to authenticate on the sites that are under attack.</p>",
+          "text": "This allows an attacker to run malicious code and take over forums without needing to authenticate on the sites that are under attack."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The unidentified security researcher released exploit code for the flaw that allowed for PHP remote code execution in vBulletin 5.0 through 5.4.</p>",
+          "text": "The unidentified security researcher released exploit code for the flaw that allowed for PHP remote code execution in vBulletin 5.0 through 5.4."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please see the following link for further support and a more comprehensive overview of this vulnerability:</p>",
+          "text": "Please see the following link for further support and a more comprehensive overview of this vulnerability:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=b211dc92f1&amp;e=64e3bb0ab9\">https://threatpost.com/researcher-publishes-bypass-for-patch-for-vbulletin-0-day-flaw/158232/</a></p>",
+          "text": "https://threatpost.com/researcher-publishes-bypass-for-patch-for-vbulletin-0-day-flaw/158232/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-336-08-19-20-tt-csirt-advisory-researcher-publishes-patch-bypass-for-vbulletin-0-day/",
+    "upstreamDisclosedAt": "2020-09-22T23:17:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "id": "3235",
+  "legacyPostId": 3235,
+  "referenceNumber": "TT-CSIRT #097",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-097.031218: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-097-030718-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has reported that the following vulnerabilities have been discovered in Google Chrome:",
+  "cveList": [
+    "CVE-2018-6058",
+    "CVE-2018-6059",
+    "CVE-2018-6057",
+    "CVE-2018-6063",
+    "CVE-2018-6060",
+    "CVE-2018-6061",
+    "CVE-2018-6062",
+    "CVE-2018-6064",
+    "CVE-2018-6065",
+    "CVE-2018-6066",
+    "CVE-2018-6067",
+    "CVE-2018-6068",
+    "CVE-2018-6069",
+    "CVE-2018-6070",
+    "CVE-2018-6071",
+    "CVE-2018-6072",
+    "CVE-2018-6073",
+    "CVE-2018-6074",
+    "CVE-2018-6075",
+    "CVE-2018-6076",
+    "CVE-2018-6077",
+    "CVE-2018-6078",
+    "CVE-2018-6079",
+    "CVE-2018-6080",
+    "CVE-2018-6081",
+    "CVE-2018-6082",
+    "CVE-2018-6083"
+  ],
+  "date": "12 March 2018",
+  "rawDate": "2018-03-12T12:19:45",
+  "modifiedDate": "12 March 2018",
+  "rawModifiedDate": "2018-03-12T12:19:45",
+  "contentHtml": "<p>Google has reported that the following vulnerabilities have been discovered in Google Chrome:</p>\n<p>a) Use after free in Flash &#8211; (CVE-2018-6058, CVE-2018-6059)</p>\n<p>b) Incorrect permissions on shared memory &#8211; (CVE-2018-6057, CVE-2018-6063)</p>\n<p>c) Use after free in Blink &#8211; (CVE-2018-6060)</p>\n<p>d) Race condition in V8 &#8211; (CVE-2018-6061)</p>\n<p>e) Heap buffer overflow in Skia &#8211; (CVE-2018-6062)</p>\n<p>f) Incorrect permissions on shared memory &#8211; (CVE-2018-6057, CVE-2018-6063)</p>\n<p>g) Type confusion in V8 &#8211; (CVE-2018-6064)</p>\n<p>h) Integer overflow in V8 &#8211; (CVE-2018-6065)</p>\n<p>i) Same Origin Bypass via canvas &#8211; (CVE-2018-6066)</p>\n<p>j) Buffer overflow in Skia &#8211; (CVE-2018-6067)</p>\n<p>k) Object lifecycle issues in Chrome Custom Tab &#8211; (CVE-2018-6068)</p>\n<p>l) Stack buffer overflow in Skia &#8211; (CVE-2018-6069)</p>\n<p>m) CSP bypass through extensions &#8211; (CVE-2018-6070)</p>\n<p>n) Heap bufffer overflow in Skia &#8211; (CVE-2018-6071)</p>\n<p>o) Integer overflow in PDFium &#8211; (CVE-2018-6072)</p>\n<p>p) Heap bufffer overflow in WebGL &#8211; (CVE-2018-6073)</p>\n<p>q) Mark-of-the-Web bypass &#8211; (CVE-2018-6074)</p>\n<p>r) Overly permissive cross origin downloads &#8211; (CVE-2018-6075)</p>\n<p>s)Incorrect handling of URL fragment identifiers in Blink &#8211; (CVE-2018-6076)</p>\n<p>t) Timing attack using SVG filters &#8211; (CVE-2018-6077)</p>\n<p>u) URL Spoof in OmniBox &#8211; (CVE-2018-6078)</p>\n<p>v) Information disclosure via texture data in WebGL &#8211; (CVE-2018-6079)</p>\n<p>w) Information disclosure in IPC call &#8211; (CVE-2018-6080)</p>\n<p>x) XSS in interstitials &#8211; (CVE-2018-6081)</p>\n<p>y) Circumvention of port blocking &#8211; (CVE-2018-6082)</p>\n<p>z) Incorrect processing of AppManifests &#8211; (CVE-2018-6083)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-025/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-025/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has reported that the following vulnerabilities have been discovered in Google Chrome: a) Use after free in Flash &#8211; (CVE-2018-6058, CVE-2018-6059) b) Incorrect permissions on shared…",
+  "sourceExcerpt": "<p>Google has reported that the following vulnerabilities have been discovered in Google Chrome: a) Use after free in Flash &#8211; (CVE-2018-6058, CVE-2018-6059) b) Incorrect permissions on shared memory &#8211; (CVE-2018-6057, CVE-2018-6063) c) Use after free in Blink &#8211; (CVE-2018-6060) d) Race condition in V8 &#8211; (CVE-2018-6061) e) Heap buffer overflow in Skia &#8211; (CVE-2018-6062) f) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-097-030718-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has reported that the following vulnerabilities have been discovered in Google Chrome:</p>",
+          "text": "Google has reported that the following vulnerabilities have been discovered in Google Chrome:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in flash – (cve-2018-6058, CVE-2018-6059)",
+          "id": "use-after-free-in-flash-cve-2018-6058-cve-2018-6059"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Incorrect permissions on shared memory &#8211; (CVE-2018-6057, CVE-2018-6063)</p>",
+          "text": "b) Incorrect permissions on shared memory – (CVE-2018-6057, CVE-2018-6063)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in blink – (CVE-2018-6060)",
+          "id": "use-after-free-in-blink-cve-2018-6060"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Race condition in v8 – (CVE-2018-6061)",
+          "id": "race-condition-in-v8-cve-2018-6061"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap buffer overflow in skia – (CVE-2018-6062)",
+          "id": "heap-buffer-overflow-in-skia-cve-2018-6062"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Incorrect permissions on shared memory &#8211; (CVE-2018-6057, CVE-2018-6063)</p>",
+          "text": "f) Incorrect permissions on shared memory – (CVE-2018-6057, CVE-2018-6063)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type confusion in v8 – (CVE-2018-6064)",
+          "id": "type-confusion-in-v8-cve-2018-6064"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Integer overflow in v8 – (CVE-2018-6065)",
+          "id": "integer-overflow-in-v8-cve-2018-6065"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Same origin bypass via canvas – (CVE-2018-6066)",
+          "id": "same-origin-bypass-via-canvas-cve-2018-6066"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Buffer overflow in skia – (CVE-2018-6067)",
+          "id": "buffer-overflow-in-skia-cve-2018-6067"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Object lifecycle issues in Chrome Custom Tab &#8211; (CVE-2018-6068)</p>",
+          "text": "k) Object lifecycle issues in Chrome Custom Tab – (CVE-2018-6068)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Stack buffer overflow in skia – (CVE-2018-6069)",
+          "id": "stack-buffer-overflow-in-skia-cve-2018-6069"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Csp bypass through extensions – (CVE-2018-6070)",
+          "id": "csp-bypass-through-extensions-cve-2018-6070"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap bufffer overflow in skia – (CVE-2018-6071)",
+          "id": "heap-bufffer-overflow-in-skia-cve-2018-6071"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Integer overflow in pdfium – (CVE-2018-6072)",
+          "id": "integer-overflow-in-pdfium-cve-2018-6072"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap bufffer overflow in webgl – (CVE-2018-6073)",
+          "id": "heap-bufffer-overflow-in-webgl-cve-2018-6073"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Mark-of-the-web bypass – (CVE-2018-6074)",
+          "id": "mark-of-the-web-bypass-cve-2018-6074"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>r) Overly permissive cross origin downloads &#8211; (CVE-2018-6075)</p>",
+          "text": "r) Overly permissive cross origin downloads – (CVE-2018-6075)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>s)Incorrect handling of URL fragment identifiers in Blink &#8211; (CVE-2018-6076)</p>",
+          "text": "s)Incorrect handling of URL fragment identifiers in Blink – (CVE-2018-6076)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Timing attack using svg filters – (CVE-2018-6077)",
+          "id": "timing-attack-using-svg-filters-cve-2018-6077"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoof in omnibox – (CVE-2018-6078)",
+          "id": "url-spoof-in-omnibox-cve-2018-6078"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>v) Information disclosure via texture data in WebGL &#8211; (CVE-2018-6079)</p>",
+          "text": "v) Information disclosure via texture data in WebGL – (CVE-2018-6079)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Information disclosure in ipc call – (CVE-2018-6080)",
+          "id": "information-disclosure-in-ipc-call-cve-2018-6080"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "XSS in interstitials – (CVE-2018-6081)",
+          "id": "xss-in-interstitials-cve-2018-6081"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Circumvention of port blocking – (CVE-2018-6082)",
+          "id": "circumvention-of-port-blocking-cve-2018-6082"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Incorrect processing of appmanifests – (CVE-2018-6083)",
+          "id": "incorrect-processing-of-appmanifests-cve-2018-6083"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions, or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-025/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-025/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-025/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "use-after-free-in-flash-cve-2018-6058-cve-2018-6059",
+      "label": "Use after free in flash – (cve-2018-6058, CVE-2018-6059)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-blink-cve-2018-6060",
+      "label": "Use after free in blink – (CVE-2018-6060)",
+      "isSubItem": true
+    },
+    {
+      "id": "race-condition-in-v8-cve-2018-6061",
+      "label": "Race condition in v8 – (CVE-2018-6061)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-buffer-overflow-in-skia-cve-2018-6062",
+      "label": "Heap buffer overflow in skia – (CVE-2018-6062)",
+      "isSubItem": true
+    },
+    {
+      "id": "type-confusion-in-v8-cve-2018-6064",
+      "label": "Type confusion in v8 – (CVE-2018-6064)",
+      "isSubItem": true
+    },
+    {
+      "id": "integer-overflow-in-v8-cve-2018-6065",
+      "label": "Integer overflow in v8 – (CVE-2018-6065)",
+      "isSubItem": true
+    },
+    {
+      "id": "same-origin-bypass-via-canvas-cve-2018-6066",
+      "label": "Same origin bypass via canvas – (CVE-2018-6066)",
+      "isSubItem": true
+    },
+    {
+      "id": "buffer-overflow-in-skia-cve-2018-6067",
+      "label": "Buffer overflow in skia – (CVE-2018-6067)",
+      "isSubItem": true
+    },
+    {
+      "id": "stack-buffer-overflow-in-skia-cve-2018-6069",
+      "label": "Stack buffer overflow in skia – (CVE-2018-6069)",
+      "isSubItem": true
+    },
+    {
+      "id": "csp-bypass-through-extensions-cve-2018-6070",
+      "label": "Csp bypass through extensions – (CVE-2018-6070)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-bufffer-overflow-in-skia-cve-2018-6071",
+      "label": "Heap bufffer overflow in skia – (CVE-2018-6071)",
+      "isSubItem": true
+    },
+    {
+      "id": "integer-overflow-in-pdfium-cve-2018-6072",
+      "label": "Integer overflow in pdfium – (CVE-2018-6072)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-bufffer-overflow-in-webgl-cve-2018-6073",
+      "label": "Heap bufffer overflow in webgl – (CVE-2018-6073)",
+      "isSubItem": true
+    },
+    {
+      "id": "mark-of-the-web-bypass-cve-2018-6074",
+      "label": "Mark-of-the-web bypass – (CVE-2018-6074)",
+      "isSubItem": true
+    },
+    {
+      "id": "timing-attack-using-svg-filters-cve-2018-6077",
+      "label": "Timing attack using svg filters – (CVE-2018-6077)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoof-in-omnibox-cve-2018-6078",
+      "label": "URL spoof in omnibox – (CVE-2018-6078)",
+      "isSubItem": true
+    },
+    {
+      "id": "information-disclosure-in-ipc-call-cve-2018-6080",
+      "label": "Information disclosure in ipc call – (CVE-2018-6080)",
+      "isSubItem": true
+    },
+    {
+      "id": "xss-in-interstitials-cve-2018-6081",
+      "label": "XSS in interstitials – (CVE-2018-6081)",
+      "isSubItem": true
+    },
+    {
+      "id": "circumvention-of-port-blocking-cve-2018-6082",
+      "label": "Circumvention of port blocking – (CVE-2018-6082)",
+      "isSubItem": true
+    },
+    {
+      "id": "incorrect-processing-of-appmanifests-cve-2018-6083",
+      "label": "Incorrect processing of appmanifests – (CVE-2018-6083)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2018-025/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-097-030718-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-03-12T12:19:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

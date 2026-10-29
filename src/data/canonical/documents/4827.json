@@ -1,0 +1,82 @@
+{
+  "id": "4827",
+  "legacyPostId": 4827,
+  "referenceNumber": "TT-CSIRT 383.12.07.20",
+  "classification": "advisory",
+  "title": "Apache releases security advisory for Apache Tomcat",
+  "rawTitle": "TTCSIRT-383.12.07.20: TT-CSIRT ADVISORY – Apache Releases Security Advisory for Apache Tomcat",
+  "slug": "ttcsirt-383-12-07-20-tt-csirt-advisory-apache-releases-security-advisory-for-apache-tomcat",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat.",
+  "cveList": [
+    "CVE-2020-17527"
+  ],
+  "date": "7 December 2020",
+  "rawDate": "2020-12-07T15:24:40",
+  "modifiedDate": "7 December 2020",
+  "rawModifiedDate": "2020-12-07T15:24:40",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit this vulnerability to cause a denial-of-service condition.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is&nbsp;encouraged&nbsp;that users and administrators&nbsp;review the Apache security advisory and upgrade to the appropriate version.<br><br>Please visit the link below for further support:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDQuMzE1OTg5MjEiLCJ1cmwiOiJodHRwOi8vbWFpbC1hcmNoaXZlcy51cy5hcGFjaGUub3JnL21vZF9tYm94L3d3dy1hbm5vdW5jZS8yMDIwMTIubWJveC8lM0M1Mjg1ODE5NC0yZWZkLTZmMTctMTgyMS05MDM2Yzg0OTRkZjAlNDBhcGFjaGUub3JnJTNFIn0.h6Ec06uv2ZcYHb9Pk6YPUpf-8OuHJuifVwKVLQ2EFRQ/s/1193638257/br/91116432422-l\">CVE-2020-17527</a></p>\n",
+  "displaySummary": "The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to cause a denial-of-service condition.",
+  "sourceExcerpt": "<p>The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to cause a denial-of-service condition. It is&nbsp;encouraged&nbsp;that users and administrators&nbsp;review the Apache security advisory and upgrade to the appropriate version. Please visit the link below for further support:CVE-2020-17527</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-383-12-07-20-tt-csirt-advisory-apache-releases-security-advisory-for-apache-tomcat/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat.</p>",
+          "text": "The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability to cause a denial-of-service condition.</p>",
+          "text": "An attacker could exploit this vulnerability to cause a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is&nbsp;encouraged&nbsp;that users and administrators&nbsp;review the Apache security advisory and upgrade to the appropriate version.</p>",
+          "text": "It is encouraged that users and administrators review the Apache security advisory and upgrade to the appropriate version."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please visit the link below for further support:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDQuMzE1OTg5MjEiLCJ1cmwiOiJodHRwOi8vbWFpbC1hcmNoaXZlcy51cy5hcGFjaGUub3JnL21vZF9tYm94L3d3dy1hbm5vdW5jZS8yMDIwMTIubWJveC8lM0M1Mjg1ODE5NC0yZWZkLTZmMTctMTgyMS05MDM2Yzg0OTRkZjAlNDBhcGFjaGUub3JnJTNFIn0.h6Ec06uv2ZcYHb9Pk6YPUpf-8OuHJuifVwKVLQ2EFRQ/s/1193638257/br/91116432422-l\">CVE-2020-17527</a></p>",
+          "text": "Please visit the link below for further support: CVE-2020-17527"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDQuMzE1OTg5MjEiLCJ1cmwiOiJodHRwOi8vbWFpbC1hcmNoaXZlcy51cy5hcGFjaGUub3JnL21vZF9tYm94L3d3dy1hbm5vdW5jZS8yMDIwMTIubWJveC8lM0M1Mjg1ODE5NC0yZWZkLTZmMTctMTgyMS05MDM2Yzg0OTRkZjAlNDBhcGFjaGUub3JnJTNFIn0.h6Ec06uv2ZcYHb9Pk6YPUpf-8OuHJuifVwKVLQ2EFRQ/s/1193638257/br/91116432422-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-383-12-07-20-tt-csirt-advisory-apache-releases-security-advisory-for-apache-tomcat/",
+    "upstreamDisclosedAt": "2020-12-07T15:24:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

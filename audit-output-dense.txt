@@ -1,0 +1,251 @@
+============================================================
+1. BROWSER ENVIRONMENT
+============================================================
+[DESKTOP] 1024x768 | URL: http://localhost:5080/ | DPR: 1 | UA: HeadlessChrome
+[MOBILE] 375x667 | URL: http://localhost:5080/ | DPR: 1 | UA: HeadlessChrome
+
+============================================================
+2. RAW DOM ELEMENT DUMP & 3. RAW COMPUTED STYLES & 4. CSS CASCADE
+============================================================
+* ELEMENT: Main content H1 (H1.govuk-heading-xl)
+  textContent: Cyber security in Trinidad and Tobago
+  outerHTML: <h1 id="main-page-heading" class="govuk-heading-xl">Cyber security in Trinidad and Tobago</h1>...
+  STYLE: font: 700 48px/50px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:50px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:347.1875 w:630 h:100 top:347.1875 bottom:447.1875
+  CSS RULE SOURCE: .govuk-heading-xl (application stylesheet, computed by browser)
+
+* ELEMENT: Main introductory paragraph (P.govuk-body-l)
+  textContent: We help people and organisations across Trinidad a
+  outerHTML: <p class="govuk-body-l">We help people and organisations across Trinidad and Tobago respond to cyber security incidents and reduce cyber risks.</p>...
+  STYLE: font: 400 24px/30px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:30px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:497.1875 w:630 h:90 top:497.1875 bottom:587.1875
+  CSS RULE SOURCE: .govuk-body-l (application stylesheet, computed by browser)
+
+* ELEMENT: Role H2 (H2.govuk-heading-l)
+  textContent: Our role and mandate
+  outerHTML: <h2 class="govuk-heading-l" id="role-mandate-heading">Our role and mandate</h2>...
+  STYLE: font: 700 36px/40px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:30px L:0px
+  PADDING: T:10px R:0px B:0px L:0px
+  RECT: x:362 y:617.1875 w:630 h:50 top:617.1875 bottom:667.1875
+  CSS RULE SOURCE: .govuk-heading-l (application stylesheet, computed by browser)
+
+* ELEMENT: Role paragraph (P.govuk-body)
+  textContent: TT-CSIRT coordinates national cyber security incid
+  outerHTML: <p class="govuk-body">TT-CSIRT coordinates national cyber security incident response and works with organisations across Trinidad and Tobago to streng...
+  STYLE: font: 400 19px/25px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:20px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:697.1875 w:630 h:75 top:697.1875 bottom:772.1875
+  CSS RULE SOURCE: .govuk-body (application stylesheet, computed by browser)
+
+* ELEMENT: About TT-CSIRT H2 (H2.govuk-heading-l)
+  textContent: About TT-CSIRT
+  outerHTML: <h2 class="govuk-heading-l" id="about-heading">About TT-CSIRT</h2>...
+  STYLE: font: 700 36px/40px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:30px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:5025.1875 w:630 h:40 top:5025.1875 bottom:5065.1875
+  CSS RULE SOURCE: .govuk-heading-l (application stylesheet, computed by browser)
+
+* ELEMENT: About introductory paragraph (P.govuk-body-l)
+  textContent: TT-CSIRT coordinates national cyber incident respo
+  outerHTML: <p class="govuk-body-l">TT-CSIRT coordinates national cyber incident response, publishes trusted guidance and strengthens cyber resilience across Trin...
+  STYLE: font: 400 24px/30px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:30px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:5095.1875 w:630 h:90 top:5095.1875 bottom:5185.1875
+  CSS RULE SOURCE: .govuk-body-l (application stylesheet, computed by browser)
+
+* ELEMENT: Working with partners H3 (H3.govuk-heading-m)
+  textContent: Working with partners
+  outerHTML: <h3 class="govuk-heading-m">Working with partners</h3>...
+  STYLE: font: 700 24px/30px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:20px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:5215.1875 w:630 h:30 top:5215.1875 bottom:5245.1875
+  CSS RULE SOURCE: .govuk-heading-m (application stylesheet, computed by browser)
+
+* ELEMENT: Working with partners paragraph (P.govuk-body)
+  textContent: TT-CSIRT works with national, regional and interna
+  outerHTML: <p class="govuk-body">TT-CSIRT works with national, regional and international partners to protect critical infrastructure and strengthen cyber resili...
+  STYLE: font: 400 19px/25px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:20px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:5265.1875 w:630 h:50 top:5265.1875 bottom:5315.1875
+  CSS RULE SOURCE: .govuk-body (application stylesheet, computed by browser)
+
+* ELEMENT: Partner agencies H3 (H3.govuk-heading-m)
+  textContent: Partner agencies
+  outerHTML: <h3 class="govuk-heading-m">Partner agencies</h3>...
+  STYLE: font: 700 24px/30px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:20px L:0px
+  PADDING: T:10px R:0px B:0px L:0px
+  RECT: x:362 y:5335.1875 w:630 h:40 top:5335.1875 bottom:5375.1875
+  CSS RULE SOURCE: .govuk-heading-m (application stylesheet, computed by browser)
+
+* ELEMENT: Partner agencies UL (UL.govuk-list govuk-list--bullet)
+  textContent: TTPS CSMUCARICOM IMPACSGetSafeOnlineTTiGovTTOAS CS
+  outerHTML: <ul class="govuk-list govuk-list--bullet"><li>TTPS CSMU</li><li>CARICOM IMPACS</li><li>GetSafeOnlineTT</li><li>iGovTT</li><li>OAS CSIRT Americas</li><...
+  STYLE: font: 400 19px/25px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:20px L:0px
+  PADDING: T:0px R:0px B:0px L:20px
+  RECT: x:362 y:5395.1875 w:630 h:175 top:5395.1875 bottom:5570.1875
+  CSS RULE SOURCE: .govuk-list (application stylesheet, computed by browser)
+
+* ELEMENT: Key facts H3 (H3.govuk-heading-m)
+  textContent: Key facts
+  outerHTML: <h3 class="govuk-heading-m">Key facts</h3>...
+  STYLE: font: 700 24px/30px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:20px L:0px
+  PADDING: T:10px R:0px B:0px L:0px
+  RECT: x:362 y:5590.1875 w:630 h:40 top:5590.1875 bottom:5630.1875
+  CSS RULE SOURCE: .govuk-heading-m (application stylesheet, computed by browser)
+
+* ELEMENT: Key facts DL (DL.govuk-summary-list)
+  textContent: EstablishedNovember 2015Policy FoundationNational 
+  outerHTML: <dl class="govuk-summary-list"><div class="govuk-summary-list__row"><dt class="govuk-summary-list__key">Established</dt><dd class="govuk-summary-list_...
+  STYLE: font: 400 19px/25px "GDS Transport", arial, sans-serif
+  MARGINS: T:0px R:0px B:30px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:5650.1875 w:630 h:184 top:5650.1875 bottom:5834.1875
+  CSS RULE SOURCE: .govuk-summary-list (application stylesheet, computed by browser)
+
+* ELEMENT: Overview section (SECTION.govuk-!-margin-bottom-8)
+  textContent: Cyber security in Trinidad and TobagoWe help peopl
+  outerHTML: <section class="govuk-!-margin-bottom-8" id="overview-and-mandate" aria-labelledby="main-page-heading"><h1 id="main-page-heading" class="govuk-heading...
+  STYLE: font: 400 19px/25px "GDS Transport", Arial, sans-serif
+  MARGINS: T:0px R:0px B:50px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:347.1875 w:630 h:425 top:347.1875 bottom:772.1875
+  CSS RULE SOURCE: .govuk-!-margin-bottom-8 (application stylesheet, computed by browser)
+
+* ELEMENT: Emergency Support section (SECTION.govuk-!-margin-bottom-8)
+  textContent: Need immediate support?If you are experiencing an 
+  outerHTML: <section class="govuk-!-margin-bottom-8" id="emergency-support" aria-labelledby="emergency-support-heading"><div class="govuk-inset-text emergency-sup...
+  STYLE: font: 400 19px/25px "GDS Transport", Arial, sans-serif
+  MARGINS: T:0px R:0px B:50px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:822.1875 w:630 h:513 top:822.1875 bottom:1335.1875
+  CSS RULE SOURCE: .govuk-!-margin-bottom-8 (application stylesheet, computed by browser)
+
+* ELEMENT: Stats section (SECTION.govuk-!-margin-bottom-8)
+  textContent: Cyber security incidents in 2026TT-CSIRT uses inci
+  outerHTML: <section class="govuk-!-margin-bottom-8" id="incident-statistics" aria-labelledby="incidents-now-heading"><h2 class="govuk-heading-l" id="incidents-no...
+  STYLE: font: 400 19px/25px "GDS Transport", Arial, sans-serif
+  MARGINS: T:0px R:0px B:50px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:4075.1875 w:630 h:625 top:4075.1875 bottom:4700.1875
+  CSS RULE SOURCE: .govuk-!-margin-bottom-8 (application stylesheet, computed by browser)
+
+* ELEMENT: Services section (SECTION.govuk-!-margin-bottom-8)
+  textContent: Cyber security servicesGet help to prepare for, re
+  outerHTML: <section class="govuk-!-margin-bottom-8" id="services" aria-labelledby="services-heading"><h2 class="govuk-heading-l" id="services-heading">Cyber secu...
+  STYLE: font: 400 19px/25px "GDS Transport", Arial, sans-serif
+  MARGINS: T:0px R:0px B:50px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:4750.1875 w:630 h:225 top:4750.1875 bottom:4975.1875
+  CSS RULE SOURCE: .govuk-!-margin-bottom-8 (application stylesheet, computed by browser)
+
+* ELEMENT: About TT-CSIRT section (SECTION.about-ttcsirt)
+  textContent: About TT-CSIRTTT-CSIRT coordinates national cyber 
+  outerHTML: <section class="about-ttcsirt" id="about-tt-csirt" aria-labelledby="about-heading"><h2 class="govuk-heading-l" id="about-heading">About TT-CSIRT</h2><...
+  STYLE: font: 400 19px/25px "GDS Transport", Arial, sans-serif
+  MARGINS: T:0px R:0px B:40px L:0px
+  PADDING: T:0px R:0px B:0px L:0px
+  RECT: x:362 y:5025.1875 w:630 h:809 top:5025.1875 bottom:5834.1875
+  CSS RULE SOURCE: .about-ttcsirt (application stylesheet, computed by browser)
+
+============================================================
+5. GOV.UK SOURCE CROSS-CHECK
+============================================================
+- H1 → intro p: .govuk-heading-xl { margin-bottom: govuk-spacing(8) } [govuk/core/_typography.scss]
+- Intro p → Role H2: .govuk-body-l { margin-bottom: govuk-spacing(6) } [govuk/core/_typography.scss]
+- Role H2 → Role p: .govuk-heading-l { margin-bottom: govuk-spacing(6) } [govuk/core/_typography.scss]
+- About H2 → About intro p: .govuk-heading-l { margin-bottom: govuk-spacing(6) } [govuk/core/_typography.scss]
+- Working H3 → Working p: .govuk-heading-m { margin-bottom: govuk-spacing(4) } [govuk/core/_typography.scss]
+
+============================================================
+6. DESKTOP GEOMETRY & 8. DESKTOP ASSERTIONS
+============================================================
+A: Main content H1 (bottom: 447.1875) | B: Main introductory paragraph (top: 497.1875) | DIST: 50
+PASS | H1 → introductory paragraph | expected: 50 | actual: 50
+
+A: Main introductory paragraph (bottom: 587.1875) | B: Role H2 (top: 617.1875) | DIST: 30
+PASS | Intro paragraph → Role H2 | expected: 30 | actual: 30
+
+A: Role H2 (bottom: 667.1875) | B: Role paragraph (top: 697.1875) | DIST: 30
+PASS | Role H2 → Role paragraph | expected: 30 | actual: 30
+
+A: About TT-CSIRT H2 (bottom: 5065.1875) | B: About introductory paragraph (top: 5095.1875) | DIST: 30
+PASS | About H2 → About introductory paragraph | expected: 30 | actual: 30
+
+A: Working with partners H3 (bottom: 5245.1875) | B: Working with partners paragraph (top: 5265.1875) | DIST: 20
+PASS | Working H3 → Working paragraph | expected: 20 | actual: 20
+
+A: Overview section (bottom: 772.1875) | B: Emergency Support section (top: 822.1875) | DIST: 50
+PASS | Major section → next (Overview -> Emergency) | expected: 50 | actual: 50
+
+============================================================
+7. MOBILE GEOMETRY & 9. MOBILE ASSERTIONS
+============================================================
+A: Main content H1 (bottom: 895.390625) | B: Main introductory paragraph (top: 925.390625) | DIST: 30
+PASS | H1 → introductory paragraph | expected: 30 | actual: 30
+
+A: Main introductory paragraph (bottom: 1025.390625) | B: Role H2 (top: 1045.390625) | DIST: 20
+PASS | Intro paragraph → Role H2 | expected: 20 | actual: 20
+
+A: Role H2 (bottom: 1080.390625) | B: Role paragraph (top: 1100.390625) | DIST: 20
+PASS | Role H2 → Role paragraph | expected: 20 | actual: 20
+
+A: About TT-CSIRT H2 (bottom: 5184.390625) | B: About introductory paragraph (top: 5204.390625) | DIST: 20
+PASS | About H2 → About introductory paragraph | expected: 20 | actual: 20
+
+A: Working with partners H3 (bottom: 5349.390625) | B: Working with partners paragraph (top: 5364.390625) | DIST: 15
+PASS | Working H3 → Working paragraph | expected: 15 | actual: 15
+
+A: Overview section (bottom: 1225.390625) | B: Emergency Support section (top: 1255.390625) | DIST: 30
+PASS | Major section → next (Overview -> Emergency) | expected: 30 | actual: 30
+
+============================================================
+10. FONT FORENSICS
+============================================================
+fonts.check 400: true
+fonts.check 700: true
+H1 Rendered: . (isCustom: true)
+P Rendered: . (isCustom: true)
+
+============================================================
+11. MANUAL SPACING-HACK AUDIT
+============================================================
+- SECTION#overview-and-mandate -> govuk-!-margin-bottom-8
+- SECTION#emergency-support -> govuk-!-margin-bottom-8
+- DIV# -> govuk-!-margin-top-4
+- SECTION#cyber-security-advisories -> govuk-!-margin-bottom-8
+- H2#home-advisories-heading -> govuk-!-margin-top-0, govuk-!-margin-bottom-3
+- P# -> govuk-!-margin-bottom-4
+- DIV# -> govuk-!-margin-top-4, govuk-!-margin-bottom-4
+- DIV# -> govuk-!-margin-top-4, govuk-!-margin-bottom-0
+- P# -> govuk-!-margin-bottom-0
+- SECTION#guidance-by-audience -> govuk-!-margin-bottom-8
+- SECTION#incident-statistics -> govuk-!-margin-bottom-8
+- SECTION#services -> govuk-!-margin-bottom-8
+- DIV# -> govuk-!-margin-top-8, govuk-!-margin-bottom-4
+
+============================================================
+12. FILE MODIFICATION AUDIT
+============================================================
+FILES MODIFIED DURING AUDIT: NONE
+
+============================================================
+13. ASSERTION SUMMARY
+============================================================
+TOTAL ASSERTIONS: 12
+PASSED: 12
+FAILED: 0
+
+OVERALL VERDICT: PASS

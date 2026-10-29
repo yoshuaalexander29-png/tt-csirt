@@ -1,0 +1,78 @@
+{
+  "id": "5100",
+  "legacyPostId": 5100,
+  "referenceNumber": "TT-CSIRT 402.13.04.22",
+  "classification": "advisory",
+  "title": "Microsoft security updates april 2022",
+  "rawTitle": "TT-CSIRT-402.13.04.22: Microsoft Security Updates April 2022",
+  "slug": "tt-csirt-402-13-04-22-microsoft-security-updates-april-2022",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system. The list of updates addresses several critical vulnerabilities, one of which is being actively exploited in the wild by threat actors.",
+  "cveList": [
+    "CVE-2022-24521"
+  ],
+  "date": "13 April 2022",
+  "rawDate": "2022-04-13T13:08:48",
+  "modifiedDate": "13 April 2022",
+  "rawModifiedDate": "2022-04-13T13:08:48",
+  "contentHtml": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system. The list of updates addresses several critical vulnerabilities, one of which is being actively exploited in the wild by threat actors.</p>\n<p>The TT-CSIRT strongly encourages users and administrators to review the following posts from Microsoft and Tenable and apply the necessary updates immediately:</p>\n<ol>\n<li><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2022-Apr\">Microsoft April 2022 Security Update Summary</a></li>\n<li><a href=\"https://msrc.microsoft.com/update-guide/deployments\">Microsoft Update Guide</a></li>\n<li><a href=\"https://www.tenable.com/blog/microsofts-april-2022-patch-tuesday-addresses-117-cves-cve-2022-24521\">Tenable Vulnerability Breakdown</a></li>\n</ol>\n",
+  "displaySummary": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system. The list of updates addresses several critical vulnerabilities, one of which is being actively exploited in the wild by threat actors. The TT-CSIRT strongly encourages users and administrators to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-402-13-04-22-microsoft-security-updates-april-2022/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system. The list of updates addresses several critical vulnerabilities, one of which is being actively exploited in the wild by threat actors.</p>",
+          "text": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system. The list of updates addresses several critical vulnerabilities, one of which is being actively exploited in the wild by threat actors."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The TT-CSIRT strongly encourages users and administrators to review the following posts from Microsoft and Tenable and apply the necessary updates immediately:</p>",
+          "text": "The TT-CSIRT strongly encourages users and administrators to review the following posts from Microsoft and Tenable and apply the necessary updates immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n<li><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2022-Apr\">Microsoft April 2022 Security Update Summary</a></li>\n<li><a href=\"https://msrc.microsoft.com/update-guide/deployments\">Microsoft Update Guide</a></li>\n<li><a href=\"https://www.tenable.com/blog/microsofts-april-2022-patch-tuesday-addresses-117-cves-cve-2022-24521\">Tenable Vulnerability Breakdown</a></li>\n</ol>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/releaseNote/2022-Apr",
+    "https://msrc.microsoft.com/update-guide/deployments",
+    "https://www.tenable.com/blog/microsofts-april-2022-patch-tuesday-addresses-117-cves-cve-2022-24521"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-402-13-04-22-microsoft-security-updates-april-2022/",
+    "upstreamDisclosedAt": "2022-04-13T13:08:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "4001",
+  "legacyPostId": 4001,
+  "referenceNumber": "TT-CSIRT #266",
+  "classification": "advisory",
+  "title": "Microsoft releases january 2020 security updates",
+  "rawTitle": "TTCSIRT-266.011520: TT-CSIRT ADVISORY- MICROSOFT RELEASES JANUARY 2020 SECURITY UPDATES",
+  "slug": "ttcsirt-266-011520-tt-csirt-advisory-microsoft-releases-january-2020-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "15 January 2020",
+  "rawDate": "2020-01-15T11:50:58",
+  "modifiedDate": "15 January 2020",
+  "rawModifiedDate": "2020-01-15T11:50:58",
+  "contentHtml": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s January 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>\n<p>For further review please see the following links:</p>\n<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan</a></p>\n<p><a href=\"https://support.microsoft.com/en-us/help/20200114/security-update-deployment-information-december-10-2019\">https://support.microsoft.com/en-us/help/20200114/security-update-deployment-information-december-10-2019</a></p>\n",
+  "displaySummary": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s January 2020 Security Update Summary and Deployment Information and apply the necessary [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-266-011520-tt-csirt-advisory-microsoft-releases-january-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s January 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft’s January 2020 Security Update Summary and Deployment Information and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.microsoft.com/en-us/help/20200114/security-update-deployment-information-december-10-2019\">https://support.microsoft.com/en-us/help/20200114/security-update-deployment-information-december-10-2019</a></p>",
+          "text": "https://support.microsoft.com/en-us/help/20200114/security-update-deployment-information-december-10-2019"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Jan",
+    "https://support.microsoft.com/en-us/help/20200114/security-update-deployment-information-december-10-2019"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-266-011520-tt-csirt-advisory-microsoft-releases-january-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-01-15T11:50:58",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

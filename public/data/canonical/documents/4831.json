@@ -1,0 +1,80 @@
+{
+  "id": "4831",
+  "legacyPostId": 4831,
+  "referenceNumber": "TT-CSIRT 385.12.07.20",
+  "classification": "advisory",
+  "title": "Google releases security updates for Chrome",
+  "rawTitle": "TTCSIRT-385.12.07.20: TT-CSIRT ADVISORY – Google Releases Security Updates for Chrome",
+  "slug": "ttcsirt-385-12-07-20-tt-csirt-advisory-google-releases-security-updates-for-chrome",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 87.0.4280.88 for Windows, Mac, and Linux.",
+  "cveList": [],
+  "date": "7 December 2020",
+  "rawDate": "2020-12-07T15:40:39",
+  "modifiedDate": "7 December 2020",
+  "rawModifiedDate": "2020-12-07T15:40:39",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Google has released Chrome version 87.0.4280.88 for Windows, Mac, and Linux. </p>\n\n\n\n<p class=\"wp-block-paragraph\">This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that users and administrators review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further information and support, please visit:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDQuMzE1ODM3MjEiLCJ1cmwiOiJodHRwczovL2Nocm9tZXJlbGVhc2VzLmdvb2dsZWJsb2cuY29tLzIwMjAvMTIvc3RhYmxlLWNoYW5uZWwtdXBkYXRlLWZvci1kZXNrdG9wLmh0bWwifQ.trAWpicYc2r9yjkMGLBIU8yA3BAOiogIkyaXxBelXiw/s/1193638257/br/91103228867-l\">Chrome Release</a></p>\n",
+  "displaySummary": "Google has released Chrome version 87.0.4280.88 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.",
+  "sourceExcerpt": "<p>Google has released Chrome version 87.0.4280.88 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. It is encouraged that users and administrators review and apply the necessary updates. For further information and support, please visit:Chrome Release</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-385-12-07-20-tt-csirt-advisory-google-releases-security-updates-for-chrome/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released Chrome version 87.0.4280.88 for Windows, Mac, and Linux.</p>",
+          "text": "Google has released Chrome version 87.0.4280.88 for Windows, Mac, and Linux."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.</p>",
+          "text": "This version addresses vulnerabilities that an attacker could exploit to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that users and administrators review and apply the necessary updates.</p>",
+          "text": "It is encouraged that users and administrators review and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDQuMzE1ODM3MjEiLCJ1cmwiOiJodHRwczovL2Nocm9tZXJlbGVhc2VzLmdvb2dsZWJsb2cuY29tLzIwMjAvMTIvc3RhYmxlLWNoYW5uZWwtdXBkYXRlLWZvci1kZXNrdG9wLmh0bWwifQ.trAWpicYc2r9yjkMGLBIU8yA3BAOiogIkyaXxBelXiw/s/1193638257/br/91103228867-l\">Chrome Release</a></p>",
+          "text": "For further information and support, please visit: Chrome Release"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDQuMzE1ODM3MjEiLCJ1cmwiOiJodHRwczovL2Nocm9tZXJlbGVhc2VzLmdvb2dsZWJsb2cuY29tLzIwMjAvMTIvc3RhYmxlLWNoYW5uZWwtdXBkYXRlLWZvci1kZXNrdG9wLmh0bWwifQ.trAWpicYc2r9yjkMGLBIU8yA3BAOiogIkyaXxBelXiw/s/1193638257/br/91103228867-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-385-12-07-20-tt-csirt-advisory-google-releases-security-updates-for-chrome/",
+    "upstreamDisclosedAt": "2020-12-07T15:40:39",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

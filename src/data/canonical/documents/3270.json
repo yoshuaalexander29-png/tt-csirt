@@ -1,0 +1,94 @@
+{
+  "id": "3270",
+  "legacyPostId": 3270,
+  "referenceNumber": "TT-CSIRT #104",
+  "classification": "advisory",
+  "title": "Xenserver security updates",
+  "rawTitle": "TTCSIRT-104.032718: TT-CSIRT Advisory – XenServer Security Updates",
+  "slug": "ttcsirt-104-032718-tt-csirt-advisory-xenserver-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Citrix has released a security update stating that a number of vulnerabilities have been identified within Citrix XenServer that could, if exploited, allow a malicious administrator of a guest VM to crash the host and for some XenServer versions, allow a remote attacker to compromise the host.",
+  "cveList": [
+    "CVE-2016-2074",
+    "CVE-2018-7540",
+    "CVE-2018-7541"
+  ],
+  "date": "27 March 2018",
+  "rawDate": "2018-03-27T11:33:29",
+  "modifiedDate": "27 March 2018",
+  "rawModifiedDate": "2018-03-27T11:33:29",
+  "contentHtml": "<p>Citrix has released a security update stating that a number of vulnerabilities have been identified within Citrix XenServer that could, if exploited, allow a malicious administrator of a guest VM to crash the host and for some XenServer versions, allow a remote attacker to compromise the host.</p>\n<p>Details of the vulnerabilities are as follows:</p>\n<p>a)CVE-2016-2074: openvswitch: MPLS buffer overflow vulnerability.</p>\n<p>b) CVE-2018-7540: DoS via non-preemptable L3/L4 pagetable freeing.</p>\n<p>c) CVE-2018-7541: grant table v2 -> v1 transition may crash Xen.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Citrix Website at <a href=\"https://support.citrix.com/article/CTX232655\"><font size=\"2\" color=\"maroon\">https://support.citrix.com/article/CTX232655</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Citrix has released a security update stating that a number of vulnerabilities have been identified within Citrix XenServer that could, if exploited, allow a malicious administrator of a guest…",
+  "sourceExcerpt": "<p>Citrix has released a security update stating that a number of vulnerabilities have been identified within Citrix XenServer that could, if exploited, allow a malicious administrator of a guest VM to crash the host and for some XenServer versions, allow a remote attacker to compromise the host. Details of the vulnerabilities are as follows: a)CVE-2016-2074: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-104-032718-tt-csirt-advisory-xenserver-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Citrix has released a security update stating that a number of vulnerabilities have been identified within Citrix XenServer that could, if exploited, allow a malicious administrator of a guest VM to crash the host and for some XenServer versions, allow a remote attacker to compromise the host.</p>",
+          "text": "Citrix has released a security update stating that a number of vulnerabilities have been identified within Citrix XenServer that could, if exploited, allow a malicious administrator of a guest VM to crash the host and for some XenServer versions, allow a remote attacker to compromise the host."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Details of the vulnerabilities are as follows:</p>",
+          "text": "Details of the vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a)CVE-2016-2074: openvswitch: MPLS buffer overflow vulnerability.</p>",
+          "text": "a)CVE-2016-2074: openvswitch: MPLS buffer overflow vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) CVE-2018-7540: DoS via non-preemptable L3/L4 pagetable freeing.</p>",
+          "text": "b) CVE-2018-7540: DoS via non-preemptable L3/L4 pagetable freeing."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) CVE-2018-7541: grant table v2 -> v1 transition may crash Xen.</p>",
+          "text": "c) CVE-2018-7541: grant table v2 -> v1 transition may crash Xen."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Citrix Website at <a href=\"https://support.citrix.com/article/CTX232655\">https://support.citrix.com/article/CTX232655</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Citrix Website at https://support.citrix.com/article/CTX232655"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.citrix.com/article/CTX232655"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-104-032718-tt-csirt-advisory-xenserver-security-updates/",
+    "upstreamDisclosedAt": "2018-03-27T11:33:29",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

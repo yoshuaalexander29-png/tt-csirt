@@ -1,0 +1,70 @@
+{
+  "id": "3515",
+  "legacyPostId": 3515,
+  "referenceNumber": "TT-CSIRT #159",
+  "classification": "advisory",
+  "title": "Apache security updates",
+  "rawTitle": "TTCSIRT-159.090318: TT-CSIRT Advisory – Apache Security Updates",
+  "slug": "ttcsirt-159-090318-tt-csirt-advisory-apache-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apache has released a security update stating that a vulnerability has been discovered in Apache Struts where it is possible for an attacker to perform a Remote Code Eexecution attack when the namespace value isn’t set for a result defined in certain underlying configurations.",
+  "cveList": [],
+  "date": "3 September 2018",
+  "rawDate": "2018-09-03T11:19:17",
+  "modifiedDate": "3 September 2018",
+  "rawModifiedDate": "2018-09-03T11:19:17",
+  "contentHtml": "<p>Apache has released a security update stating that a vulnerability has been discovered in Apache Struts where it is possible for an attacker to perform a Remote Code Eexecution attack when the namespace value isn&#8217;t set for a result defined in certain underlying configurations.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Apache Website at <a href=\"https://cwiki.apache.org/confluence/display/WW/S2-057\"><font size=\"2\" color=\"maroon\">https://cwiki.apache.org/confluence/display/WW/S2-057</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apache has released a security update stating that a vulnerability has been discovered in Apache Struts where it is possible for an attacker to perform a Remote Code Eexecution attack when the…",
+  "sourceExcerpt": "<p>Apache has released a security update stating that a vulnerability has been discovered in Apache Struts where it is possible for an attacker to perform a Remote Code Eexecution attack when the namespace value isn&#8217;t set for a result defined in certain underlying configurations. Further information on this vulnerability and how it can be mitigated [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-159-090318-tt-csirt-advisory-apache-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apache has released a security update stating that a vulnerability has been discovered in Apache Struts where it is possible for an attacker to perform a Remote Code Eexecution attack when the namespace value isn&#8217;t set for a result defined in certain underlying configurations.</p>",
+          "text": "Apache has released a security update stating that a vulnerability has been discovered in Apache Struts where it is possible for an attacker to perform a Remote Code Eexecution attack when the namespace value isn’t set for a result defined in certain underlying configurations."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Apache Website at <a href=\"https://cwiki.apache.org/confluence/display/WW/S2-057\">https://cwiki.apache.org/confluence/display/WW/S2-057</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Apache Website at https://cwiki.apache.org/confluence/display/WW/S2-057"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://cwiki.apache.org/confluence/display/WW/S2-057"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-159-090318-tt-csirt-advisory-apache-security-updates/",
+    "upstreamDisclosedAt": "2018-09-03T11:19:17",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

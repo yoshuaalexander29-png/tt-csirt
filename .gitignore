@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+dist-publishing/
+dist-test/
+server/data/published-advisories.json*
+
+# Local development runtime data
+/server/data/published-advisories.development.json*
+/tmp/

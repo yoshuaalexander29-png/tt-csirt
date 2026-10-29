@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "GDS Transport", Arial, sans-serif;
+}

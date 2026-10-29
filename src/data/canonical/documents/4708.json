@@ -1,0 +1,73 @@
+{
+  "id": "4708",
+  "legacyPostId": 4708,
+  "referenceNumber": "TT-CSIRT 352.09.03.20",
+  "classification": "advisory",
+  "title": "Cisco jabber for Windows message handling arbitrary code execution",
+  "rawTitle": "TTCSIRT-352.09.03.20: TT-CSIRT ADVISORY – Cisco Jabber for Windows Message Handling Arbitrary Code Execution",
+  "slug": "ttcsirt-352-09-03-20-tt-csirt-advisory-cisco-jabber-for-windows-message-handling-arbitrary-code-execution",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability in Cisco Jabber for Windows could allow an authenticated, remote attacker to execute arbitrary code.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:28:37",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:28:37",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability in Cisco Jabber for Windows could allow an authenticated, remote attacker to execute arbitrary code.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is due to improper validation of message contents. An attacker could exploit this vulnerability by sending specially crafted Extensible Messaging and Presence Protocol (XMPP) messages to the affected software.<br><br>A successful exploit could allow the attacker to cause the application to execute arbitrary programs on the targeted system with the privileges of the user account that is running the Cisco&nbsp;Jabber client software, possibly resulting in arbitrary code execution.<br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=95d3a6d6a9&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-jabber-UyTKCPGg</a><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A vulnerability in Cisco Jabber for Windows could allow an authenticated, remote attacker to execute arbitrary code. The vulnerability is due to improper validation of message contents.",
+  "sourceExcerpt": "<p>A vulnerability in Cisco Jabber for Windows could allow an authenticated, remote attacker to execute arbitrary code. The vulnerability is due to improper validation of message contents. An attacker could exploit this vulnerability by sending specially crafted Extensible Messaging and Presence Protocol (XMPP) messages to the affected software. A successful exploit could allow the attacker to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-352-09-03-20-tt-csirt-advisory-cisco-jabber-for-windows-message-handling-arbitrary-code-execution/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability in Cisco Jabber for Windows could allow an authenticated, remote attacker to execute arbitrary code.</p>",
+          "text": "A vulnerability in Cisco Jabber for Windows could allow an authenticated, remote attacker to execute arbitrary code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to improper validation of message contents. An attacker could exploit this vulnerability by sending specially crafted Extensible Messaging and Presence Protocol (XMPP) messages to the affected software.</p>",
+          "text": "The vulnerability is due to improper validation of message contents. An attacker could exploit this vulnerability by sending specially crafted Extensible Messaging and Presence Protocol (XMPP) messages to the affected software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A successful exploit could allow the attacker to cause the application to execute arbitrary programs on the targeted system with the privileges of the user account that is running the Cisco&nbsp;Jabber client software, possibly resulting in arbitrary code execution.</p>",
+          "text": "A successful exploit could allow the attacker to cause the application to execute arbitrary programs on the targeted system with the privileges of the user account that is running the Cisco Jabber client software, possibly resulting in arbitrary code execution."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-352-09-03-20-tt-csirt-advisory-cisco-jabber-for-windows-message-handling-arbitrary-code-execution/",
+    "upstreamDisclosedAt": "2020-09-22T23:28:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

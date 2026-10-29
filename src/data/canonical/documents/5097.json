@@ -1,0 +1,76 @@
+{
+  "id": "5097",
+  "legacyPostId": 5097,
+  "referenceNumber": "TT-CSIRT 401.11.04.22",
+  "classification": "advisory",
+  "title": "FortiClient vulnerabilities",
+  "rawTitle": "TT-CSIRT-401.11.04.22: FortiClient Vulnerabilities",
+  "slug": "tt-csirt-401-11-04-22-forticlient-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Fortinet has released security updates to address multiple vulnerabilities in FortiClient for Windows and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system or access sensitive information.",
+  "cveList": [],
+  "date": "13 April 2022",
+  "rawDate": "2022-04-13T13:06:12",
+  "modifiedDate": "13 April 2022",
+  "rawModifiedDate": "2022-04-13T13:06:12",
+  "contentHtml": "<p>Fortinet has released security updates to address multiple vulnerabilities in FortiClient for Windows and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system or access sensitive information.</p>\n<p>TT-CSIRT encourages users/administrators to review the following releases from Fortinet and apply the necessary updates:</p>\n<ol>\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-21-238\">FortiClient (Windows) &#8211; Privilege Escalation</a></li>\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-21-232\">FortiClient (Linux) &#8211; Improper Directories Permissions</a></li>\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-21-226\">FortiClient (Linux) &#8211; external access to confighandler webserver</a></li>\n</ol>\n",
+  "displaySummary": "Fortinet has released security updates to address multiple vulnerabilities in FortiClient for Windows and Linux.",
+  "sourceExcerpt": "<p>Fortinet has released security updates to address multiple vulnerabilities in FortiClient for Windows and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system or access sensitive information. TT-CSIRT encourages users/administrators to review the following releases from Fortinet and apply the necessary updates: FortiClient (Windows) &#8211; Privilege Escalation FortiClient [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-401-11-04-22-forticlient-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has released security updates to address multiple vulnerabilities in FortiClient for Windows and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system or access sensitive information.</p>",
+          "text": "Fortinet has released security updates to address multiple vulnerabilities in FortiClient for Windows and Linux. An attacker could exploit some of these vulnerabilities to take control of an affected system or access sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users/administrators to review the following releases from Fortinet and apply the necessary updates:</p>",
+          "text": "TT-CSIRT encourages users/administrators to review the following releases from Fortinet and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-21-238\">FortiClient (Windows) &#8211; Privilege Escalation</a></li>\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-21-232\">FortiClient (Linux) &#8211; Improper Directories Permissions</a></li>\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-21-226\">FortiClient (Linux) &#8211; external access to confighandler webserver</a></li>\n</ol>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fortiguard.com/psirt/FG-IR-21-238",
+    "https://www.fortiguard.com/psirt/FG-IR-21-232",
+    "https://www.fortiguard.com/psirt/FG-IR-21-226"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-401-11-04-22-forticlient-vulnerabilities/",
+    "upstreamDisclosedAt": "2022-04-13T13:06:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

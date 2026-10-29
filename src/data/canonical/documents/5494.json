@@ -1,0 +1,83 @@
+{
+  "id": "5494",
+  "legacyPostId": 5494,
+  "referenceNumber": "TT-CSIRT 411.14.12.22",
+  "classification": "advisory",
+  "title": "Critical Fortinet SSL-VPN vulnerability",
+  "rawTitle": "TT-CSIRT-411.14.12.22: Critical Fortinet SSL-VPN Vulnerability",
+  "slug": "tt-csirt-411-14-12-22-critical-fortinet-ssl-vpn-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Fortinet has released a security update to address a critical zero day vulnerability in their FortiOS SSL-VPN product. The vulnerability in question is being tracked as CVE-2022-42475 and is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a specially crafted request and gain code execution.",
+  "cveList": [
+    "CVE-2022-42475"
+  ],
+  "date": "14 December 2022",
+  "rawDate": "2022-12-14T10:25:57",
+  "modifiedDate": "14 December 2022",
+  "rawModifiedDate": "2022-12-14T10:25:57",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Fortinet has released a security update to address a critical zero day vulnerability in their FortiOS SSL-VPN product. The vulnerability in question is being tracked as CVE-2022-42475 and is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a specially crafted request and gain code execution.<br><br><strong>Vulnerabilities of this nature, and on this type of system, have proven to be of high value to attackers and have been successfully used in the past to compromise local organizations. TT-CSIRT strongly advises that organizations upgrade to an unaffected version of FortiOS on an emergency basis and follow FortiGuard’s advice to review existing systems for signs of compromise. Early reports suggest that this vulnerability is being exploited in the wild.</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-22-398\" target=\"_blank\" rel=\"noreferrer noopener\">Fortinet PSIRT Advisory</a></li>\n\n\n\n<li><a href=\"https://www.tenable.com/blog/cve-2022-42475-fortinet-patches-zero-day-in-fortios-ssl-vpns\">Tenable Blog</a></li>\n\n\n\n<li><a href=\"https://www.rapid7.com/blog/post/2022/12/12/cve-2022-42475-unauthenticated-remote-code-execution-vulnerability-in-fortios-exploitation-reported/\">Rapid7 Blog</a></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via&nbsp;<a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Fortinet has released a security update to address a critical zero day vulnerability in their FortiOS SSL-VPN product.",
+  "sourceExcerpt": "<p>Fortinet has released a security update to address a critical zero day vulnerability in their FortiOS SSL-VPN product. The vulnerability in question is being tracked as CVE-2022-42475 and is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-411-14-12-22-critical-fortinet-ssl-vpn-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has released a security update to address a critical zero day vulnerability in their FortiOS SSL-VPN product. The vulnerability in question is being tracked as CVE-2022-42475 and is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a specially crafted request and gain code execution.</p>",
+          "text": "Fortinet has released a security update to address a critical zero day vulnerability in their FortiOS SSL-VPN product. The vulnerability in question is being tracked as CVE-2022-42475 and is a heap-based buffer overflow in several versions of ForiOS that received a CVSSv3 score of 9.3. A remote, unauthenticated attacker could exploit this vulnerability with a specially crafted request and gain code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Vulnerabilities of this nature, and on this type of system, have proven to be of high value to attackers and have been successfully used in the past to compromise local organizations. TT-CSIRT strongly advises that organizations upgrade to an unaffected version of FortiOS on an emergency basis and follow FortiGuard’s advice to review existing systems for signs of compromise. Early reports suggest that this vulnerability is being exploited in the wild.</strong></p>",
+          "text": "Vulnerabilities of this nature, and on this type of system, have proven to be of high value to attackers and have been successfully used in the past to compromise local organizations. TT-CSIRT strongly advises that organizations upgrade to an unaffected version of FortiOS on an emergency basis and follow FortiGuard’s advice to review existing systems for signs of compromise. Early reports suggest that this vulnerability is being exploited in the wild."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:</p>",
+          "text": "TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><a href=\"https://www.fortiguard.com/psirt/FG-IR-22-398\" target=\"_blank\" rel=\"noreferrer noopener\">Fortinet PSIRT Advisory</a></li>\n\n\n\n<li><a href=\"https://www.tenable.com/blog/cve-2022-42475-fortinet-patches-zero-day-in-fortios-ssl-vpns\">Tenable Blog</a></li>\n\n\n\n<li><a href=\"https://www.rapid7.com/blog/post/2022/12/12/cve-2022-42475-unauthenticated-remote-code-execution-vulnerability-in-fortios-exploitation-reported/\">Rapid7 Blog</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fortiguard.com/psirt/FG-IR-22-398",
+    "https://www.tenable.com/blog/cve-2022-42475-fortinet-patches-zero-day-in-fortios-ssl-vpns",
+    "https://www.rapid7.com/blog/post/2022/12/12/cve-2022-42475-unauthenticated-remote-code-execution-vulnerability-in-fortios-exploitation-reported/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-411-14-12-22-critical-fortinet-ssl-vpn-vulnerability/",
+    "upstreamDisclosedAt": "2022-12-14T10:25:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

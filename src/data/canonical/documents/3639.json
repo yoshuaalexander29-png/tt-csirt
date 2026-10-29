@@ -1,0 +1,88 @@
+{
+  "id": "3639",
+  "legacyPostId": 3639,
+  "referenceNumber": "TT-CSIRT #192",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-192.010419: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-192-010419-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:",
+  "cveList": [
+    "CVE-2018-16018",
+    "CVE-2018-16011"
+  ],
+  "date": "4 January 2019",
+  "rawDate": "2019-01-04T19:18:45",
+  "modifiedDate": "4 January 2019",
+  "rawModifiedDate": "2019-01-04T19:18:45",
+  "contentHtml": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:</p>\n<p>a) Multiple security bypass privilege escalation &#8211; (CVE-2018-16018).</p>\n<p>b) Multiple use after free arbitrary code execution (CVE-2018-16011).</p>\n<p>Successful exploitation of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with the user, an attacker could then install programs, view, change, delete or create new accounts with full user rights. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/acrobat/apsb19-02.html\"><font size=\"2\" color=\"maroon\">https://helpx.adobe.com/security/products/acrobat/apsb19-02.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader: a) Multiple security bypass privilege escalation &#8211;…",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader: a) Multiple security bypass privilege escalation &#8211; (CVE-2018-16018). b) Multiple use after free arbitrary code execution (CVE-2018-16011). Successful exploitation of these vulnerabilities could result in the attacker gaining control of the affected system and depending on [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-192-010419-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:</p>",
+          "text": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Multiple security bypass privilege escalation &#8211; (CVE-2018-16018).</p>",
+          "text": "a) Multiple security bypass privilege escalation – (CVE-2018-16018)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Multiple use after free arbitrary code execution (CVE-2018-16011).</p>",
+          "text": "b) Multiple use after free arbitrary code execution (CVE-2018-16011)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with the user, an attacker could then install programs, view, change, delete or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with the user, an attacker could then install programs, view, change, delete or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/acrobat/apsb19-02.html\">https://helpx.adobe.com/security/products/acrobat/apsb19-02.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at https://helpx.adobe.com/security/products/acrobat/apsb19-02.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/acrobat/apsb19-02.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-192-010419-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2019-01-04T19:18:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

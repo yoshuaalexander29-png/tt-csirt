@@ -1,0 +1,247 @@
+{
+  "id": "9565",
+  "legacyPostId": 9565,
+  "referenceNumber": "TT-CSIRT 430.19.07.24",
+  "classification": "alert",
+  "title": "Global outage triggered by faulty CrowdStrike cybersecurity update",
+  "rawTitle": "TTCSIRT 430.19.07.24: Global Outage Triggered by Faulty CrowdStrike Cybersecurity Update",
+  "slug": "ttcsirt-430-19-07-24-global-outage-triggered-by-faulty-crowdstrike-cybersecurity-update",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A large-scale outage has occurred due to a broken CrowdStrike cybersecurity update, rendering Windows computers unable to start and affecting much of the world’s infrastructure. The problem stems from an issue with CrowdStrike’s Falcon Sensors, which encountered problems following an early Friday morning update.",
+  "cveList": [],
+  "date": "19 July 2024",
+  "rawDate": "2024-07-19T11:31:01",
+  "modifiedDate": "2 August 2024",
+  "rawModifiedDate": "2024-08-02T11:35:17",
+  "contentHtml": "<p>A large-scale outage has occurred due to a broken CrowdStrike cybersecurity update, rendering Windows computers unable to start and affecting much of the world’s infrastructure. The problem stems from an issue with CrowdStrike’s Falcon Sensors, which encountered problems following an early Friday morning update.</p>\n<p>&nbsp;</p>\n<p><strong>PLEASE BE ADVISED:</strong><br />\nOnly accept information from the CrowdStrike support portal, as phishing attempts have already been observed.</p>\n<p>&nbsp;</p>\n<p><strong>Symptoms:</strong> Hosts experience a blue screen error related to the Falcon Sensor.</p>\n<p>&nbsp;</p>\n<p><strong>Unaffected Systems:</strong></p>\n<ul>\n<li>Windows hosts not impacted do not need action as the problematic file has been reverted.</li>\n<li>Windows hosts brought online after 0527 UTC are also not impacted.</li>\n<li>Windows 7/2008 R2 hosts are not impacted.</li>\n<li>Mac and Linux hosts are unaffected.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Problematic File:</strong> “C-00000291*.sys” with a timestamp of 0409 UTC.</p>\n<p><strong>Reverted File:</strong> “C-00000291*.sys” with a timestamp of 0527 UTC or later.</p>\n<p><strong>Current Action:</strong></p>\n<ul>\n<li>CrowdStrike Engineering has identified the issue and reverted the changes.</li>\n<li>If hosts still crash and cannot stay online to receive the update, the following workaround steps can be used:</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Workaround Steps for Individual Hosts:</strong></p>\n<ol>\n<li>Reboot the host to attempt downloading the reverted file. If the host crashes again:</li>\n<li>Boot Windows into Safe Mode or Windows Recovery Environment.\n<ul>\n<li>Use a wired network and Safe Mode with Networking for better results.</li>\n</ul>\n</li>\n<li>Navigate to %WINDIR%\\System32\\drivers\\CrowdStrike.</li>\n<li>Locate and delete the file matching “C-00000291*.sys”.</li>\n<li>Boot the host normally.\n<ul>\n<li>Note: Bitlocker-encrypted hosts may require a recovery key.</li>\n</ul>\n</li>\n</ol>\n<p>&nbsp;</p>\n<p><strong>Workaround Steps for Public Cloud or Virtual Environments:</strong><br />\n<strong>Option 1:</strong></p>\n<ol>\n<li>Detach the operating system disk volume from the impacted virtual server.</li>\n<li>Create a snapshot or backup of the disk volume.</li>\n<li>Attach/mount the volume to a new virtual server.</li>\n<li>Navigate to %WINDIR%\\System32\\drivers\\CrowdStrike.</li>\n<li>Locate and delete the file matching “C-00000291*.sys”.</li>\n<li>Detach the volume from the new virtual server.</li>\n<li>Reattach the fixed volume to the impacted virtual server.</li>\n</ol>\n<p>&nbsp;</p>\n<p><strong>Option 2:</strong></p>\n<ul>\n<li>Roll back to a snapshot before 0409 UTC.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Reference:</strong> <a href=\"https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/\" target=\"_blank\" rel=\"noopener\">https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/</a></p>\n<p>&nbsp;</p>\n<p>If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n<p>&nbsp;</p>\n<p><strong>PLEASE BE ADVISED</strong></p>\n<p>Only accept information from the CrowdStrike support portal, as phishing attempts have already been observed.</p>\n",
+  "displaySummary": "A large-scale outage has occurred due to a broken CrowdStrike cybersecurity update, rendering Windows computers unable to start and affecting much of the world’s infrastructure.",
+  "sourceExcerpt": "<p>A large-scale outage has occurred due to a broken CrowdStrike cybersecurity update, rendering Windows computers unable to start and affecting much of the world’s infrastructure. The problem stems from an issue with CrowdStrike’s Falcon Sensors, which encountered problems following an early Friday morning update. &nbsp; PLEASE BE ADVISED: Only accept information from the CrowdStrike support [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-430-19-07-24-global-outage-triggered-by-faulty-crowdstrike-cybersecurity-update/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A large-scale outage has occurred due to a broken CrowdStrike cybersecurity update, rendering Windows computers unable to start and affecting much of the world’s infrastructure. The problem stems from an issue with CrowdStrike’s Falcon Sensors, which encountered problems following an early Friday morning update.</p>",
+          "text": "A large-scale outage has occurred due to a broken CrowdStrike cybersecurity update, rendering Windows computers unable to start and affecting much of the world’s infrastructure. The problem stems from an issue with CrowdStrike’s Falcon Sensors, which encountered problems following an early Friday morning update."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Please be advised",
+          "id": "please-be-advised"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Only accept information from the CrowdStrike support portal, as phishing attempts have already been observed.</p>",
+          "text": "Only accept information from the CrowdStrike support portal, as phishing attempts have already been observed."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Symptoms",
+          "id": "symptoms"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Hosts experience a blue screen error related to the Falcon Sensor.</p>",
+          "text": "Hosts experience a blue screen error related to the Falcon Sensor."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Unaffected systems",
+          "id": "unaffected-systems"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Windows hosts not impacted do not need action as the problematic file has been reverted.</li>\n<li>Windows hosts brought online after 0527 UTC are also not impacted.</li>\n<li>Windows 7/2008 R2 hosts are not impacted.</li>\n<li>Mac and Linux hosts are unaffected.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Problematic file",
+          "id": "problematic-file"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>“C-00000291*.sys” with a timestamp of 0409 UTC.</p>",
+          "text": "“C-00000291*.sys” with a timestamp of 0409 UTC."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Reverted file",
+          "id": "reverted-file"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>“C-00000291*.sys” with a timestamp of 0527 UTC or later.</p>",
+          "text": "“C-00000291*.sys” with a timestamp of 0527 UTC or later."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Current action",
+          "id": "current-action"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CrowdStrike Engineering has identified the issue and reverted the changes.</li>\n<li>If hosts still crash and cannot stay online to receive the update, the following workaround steps can be used:</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Workaround steps for individual hosts",
+          "id": "workaround-steps-for-individual-hosts"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n<li>Reboot the host to attempt downloading the reverted file. If the host crashes again:</li>\n<li>Boot Windows into Safe Mode or Windows Recovery Environment.\n<ul>\n<li>Use a wired network and Safe Mode with Networking for better results.</li>\n</ul>\n</li>\n<li>Navigate to %WINDIR%\\System32\\drivers\\CrowdStrike.</li>\n<li>Locate and delete the file matching “C-00000291*.sys”.</li>\n<li>Boot the host normally.\n<ul>\n<li>Note: Bitlocker-encrypted hosts may require a recovery key.</li>\n</ul>\n</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Workaround steps for public cloud or virtual environments",
+          "id": "workaround-steps-for-public-cloud-or-virtual-environments"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Option 1",
+          "id": "option-1"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n<li>Detach the operating system disk volume from the impacted virtual server.</li>\n<li>Create a snapshot or backup of the disk volume.</li>\n<li>Attach/mount the volume to a new virtual server.</li>\n<li>Navigate to %WINDIR%\\System32\\drivers\\CrowdStrike.</li>\n<li>Locate and delete the file matching “C-00000291*.sys”.</li>\n<li>Detach the volume from the new virtual server.</li>\n<li>Reattach the fixed volume to the impacted virtual server.</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Option 2",
+          "id": "option-2"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Roll back to a snapshot before 0409 UTC.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/\" target=\"_blank\" rel=\"noopener\">https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/</a></p>",
+          "text": "https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Please be advised",
+          "id": "please-be-advised-2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Only accept information from the CrowdStrike support portal, as phishing attempts have already been observed.</p>",
+          "text": "Only accept information from the CrowdStrike support portal, as phishing attempts have already been observed."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "please-be-advised",
+      "label": "Please be advised",
+      "isSubItem": true
+    },
+    {
+      "id": "symptoms",
+      "label": "Symptoms",
+      "isSubItem": true
+    },
+    {
+      "id": "unaffected-systems",
+      "label": "Unaffected systems",
+      "isSubItem": true
+    },
+    {
+      "id": "problematic-file",
+      "label": "Problematic file",
+      "isSubItem": true
+    },
+    {
+      "id": "reverted-file",
+      "label": "Reverted file",
+      "isSubItem": true
+    },
+    {
+      "id": "current-action",
+      "label": "Current action",
+      "isSubItem": true
+    },
+    {
+      "id": "workaround-steps-for-individual-hosts",
+      "label": "Workaround steps for individual hosts",
+      "isSubItem": true
+    },
+    {
+      "id": "workaround-steps-for-public-cloud-or-virtual-environments",
+      "label": "Workaround steps for public cloud or virtual environments",
+      "isSubItem": true
+    },
+    {
+      "id": "option-1",
+      "label": "Option 1",
+      "isSubItem": true
+    },
+    {
+      "id": "option-2",
+      "label": "Option 2",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "please-be-advised-2",
+      "label": "Please be advised",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.crowdstrike.com/blog/statement-on-windows-sensor-update/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-430-19-07-24-global-outage-triggered-by-faulty-crowdstrike-cybersecurity-update/",
+    "upstreamDisclosedAt": "2024-07-19T11:31:01",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

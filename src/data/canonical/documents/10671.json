@@ -1,0 +1,131 @@
+{
+  "id": "10671",
+  "legacyPostId": 10671,
+  "referenceNumber": "TT-CSIRT 447.14.08.25",
+  "classification": "advisory",
+  "title": "Microsoft Office vulnerabilities",
+  "rawTitle": "TT-CSIRT – 447.14.08.25 – Microsoft Office Vulnerabilities",
+  "slug": "tt-csirt-447-14-08-25-microsoft-office-vulnerabilities",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Be advised, Microsoft released critical security updates, addressing three serious vulnerabilities in Microsoft Office that could allow attackers to execute remote code on affected systems.",
+  "cveList": [
+    "CVE-2025-53731",
+    "CVE-2025-53740",
+    "CVE-2025-53730"
+  ],
+  "date": "14 August 2025",
+  "rawDate": "2025-08-14T13:22:25",
+  "modifiedDate": "14 August 2025",
+  "rawModifiedDate": "2025-08-14T13:22:25",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Be advised, Microsoft released critical security updates, addressing three serious vulnerabilities in Microsoft Office that could allow attackers to execute remote code on affected systems.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities, tracked as CVE-2025-53731, CVE-2025-53740, and CVE-2025-53730, affect Microsoft Office versions 2016 &#8211; 2024, including Microsoft Office 2016, Office 2019, Office LTSC 2021, Office LTSC 2024, and Microsoft 365 Apps for Enterprise across both 32-bit and 64-bit architectures, posing significant security risks to organizations and individual users worldwide. Mac users are also at risk, with Microsoft Office LTSC for Mac 2021 and 2024 versions, requiring immediate updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These vulnerabilities share a standard attack pattern where unauthorized attackers can exploit memory management flaws to execute arbitrary code locally on target systems, indicating low attack complexity, no privileges required, and no user interaction needed for exploitation.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Particularly alarming is that the Preview Pane serves as an attack vector for CVE-2025-53731 and CVE-2025-53740, meaning users could be compromised simply by previewing malicious Office documents.&nbsp;</p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>CVE</strong></td><td><strong>Title</strong></td><td><strong>CVSS 3.1 Score</strong></td><td><strong>Severity</strong></td></tr><tr><td><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-august/\">CVE-2025-53731</a></td><td>Microsoft Office Remote Code Execution Vulnerability</td><td>8.4&nbsp;</td><td>Critical</td></tr><tr><td><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-august/\">CVE-2025-53740</a></td><td>Microsoft Office Remote Code Execution Vulnerability</td><td>8.4&nbsp;</td><td>Critical</td></tr><tr><td><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-august/\">CVE-2025-53730</a></td><td>Microsoft Office Visio Remote Code Execution Vulnerability</td><td>7.8</td><td>Important</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitigations</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft has released comprehensive security updates for all affected Office versions, with update KB5002756 addressing the vulnerabilities in Office 2016 editions.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">For newer Office versions, updates are delivered through Click-to-Run mechanisms, with detailed information available through Microsoft’s official security release channels.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should prioritize the immediate deployment of these updates, given the critical nature of the vulnerabilities and the potential for exploitation of the Preview Pane.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">References:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/microsoft-office-rce-vulnerabilities/\">https://cybersecuritynews.com/microsoft-office-rce-vulnerabilities/</a> </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n",
+  "displaySummary": "Microsoft released critical security updates, addressing three serious vulnerabilities in Microsoft Office that could allow attackers to execute remote code on affected systems.",
+  "sourceExcerpt": "<p>Be advised, Microsoft released critical security updates, addressing three serious vulnerabilities in Microsoft Office that could allow attackers to execute remote code on affected systems.&nbsp; The vulnerabilities, tracked as CVE-2025-53731, CVE-2025-53740, and CVE-2025-53730, affect Microsoft Office versions 2016 &#8211; 2024, including Microsoft Office 2016, Office 2019, Office LTSC 2021, Office LTSC 2024, and Microsoft 365 [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-447-14-08-25-microsoft-office-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Be advised, Microsoft released critical security updates, addressing three serious vulnerabilities in Microsoft Office that could allow attackers to execute remote code on affected systems.&nbsp;</p>",
+          "text": "Be advised, Microsoft released critical security updates, addressing three serious vulnerabilities in Microsoft Office that could allow attackers to execute remote code on affected systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerabilities, tracked as CVE-2025-53731, CVE-2025-53740, and CVE-2025-53730, affect Microsoft Office versions 2016 &#8211; 2024, including Microsoft Office 2016, Office 2019, Office LTSC 2021, Office LTSC 2024, and Microsoft 365 Apps for Enterprise across both 32-bit and 64-bit architectures, posing significant security risks to organizations and individual users worldwide. Mac users are also at risk, with Microsoft Office LTSC for Mac 2021 and 2024 versions, requiring immediate updates.</p>",
+          "text": "The vulnerabilities, tracked as CVE-2025-53731, CVE-2025-53740, and CVE-2025-53730, affect Microsoft Office versions 2016 – 2024, including Microsoft Office 2016, Office 2019, Office LTSC 2021, Office LTSC 2024, and Microsoft 365 Apps for Enterprise across both 32-bit and 64-bit architectures, posing significant security risks to organizations and individual users worldwide. Mac users are also at risk, with Microsoft Office LTSC for Mac 2021 and 2024 versions, requiring immediate updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These vulnerabilities share a standard attack pattern where unauthorized attackers can exploit memory management flaws to execute arbitrary code locally on target systems, indicating low attack complexity, no privileges required, and no user interaction needed for exploitation.&nbsp;</p>",
+          "text": "These vulnerabilities share a standard attack pattern where unauthorized attackers can exploit memory management flaws to execute arbitrary code locally on target systems, indicating low attack complexity, no privileges required, and no user interaction needed for exploitation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Particularly alarming is that the Preview Pane serves as an attack vector for CVE-2025-53731 and CVE-2025-53740, meaning users could be compromised simply by previewing malicious Office documents.&nbsp;</p>",
+          "text": "Particularly alarming is that the Preview Pane serves as an attack vector for CVE-2025-53731 and CVE-2025-53740, meaning users could be compromised simply by previewing malicious Office documents."
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">CVE</th><th scope=\"col\" class=\"govuk-table__header\">Title</th><th scope=\"col\" class=\"govuk-table__header govuk-table__header--numeric\">CVSS 3.1 Score</th><th scope=\"col\" class=\"govuk-table__header\">Severity</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-august/\">CVE-2025-53731</a></th><td class=\"govuk-table__cell\">Microsoft Office Remote Code Execution Vulnerability</td><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\">8.4&nbsp;</td><td class=\"govuk-table__cell\">Critical</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-august/\">CVE-2025-53740</a></th><td class=\"govuk-table__cell\">Microsoft Office Remote Code Execution Vulnerability</td><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\">8.4&nbsp;</td><td class=\"govuk-table__cell\">Critical</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-august/\">CVE-2025-53730</a></th><td class=\"govuk-table__cell\">Microsoft Office Visio Remote Code Execution Vulnerability</td><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\">7.8</td><td class=\"govuk-table__cell\">Important</td></tr></tbody>\n      </table>\n    </div>"
+        }
+      ]
+    },
+    {
+      "id": "mitigations",
+      "title": "Mitigations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released comprehensive security updates for all affected Office versions, with update KB5002756 addressing the vulnerabilities in Office 2016 editions.&nbsp;</p>",
+          "text": "Microsoft has released comprehensive security updates for all affected Office versions, with update KB5002756 addressing the vulnerabilities in Office 2016 editions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For newer Office versions, updates are delivered through Click-to-Run mechanisms, with detailed information available through Microsoft’s official security release channels.&nbsp;</p>",
+          "text": "For newer Office versions, updates are delivered through Click-to-Run mechanisms, with detailed information available through Microsoft’s official security release channels."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Organizations should prioritize the immediate deployment of these updates, given the critical nature of the vulnerabilities and the potential for exploitation of the Preview Pane.</p>",
+          "text": "Organizations should prioritize the immediate deployment of these updates, given the critical nature of the vulnerabilities and the potential for exploitation of the Preview Pane."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://cybersecuritynews.com/microsoft-office-rce-vulnerabilities/\">https://cybersecuritynews.com/microsoft-office-rce-vulnerabilities/</a></p>",
+          "text": "https://cybersecuritynews.com/microsoft-office-rce-vulnerabilities/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "mitigations",
+      "label": "Mitigations"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://cybersecuritynews.com/microsoft-patch-tuesday-august/",
+    "https://cybersecuritynews.com/microsoft-office-rce-vulnerabilities/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-447-14-08-25-microsoft-office-vulnerabilities/",
+    "upstreamDisclosedAt": "2025-08-14T13:22:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "5715",
+  "legacyPostId": 5715,
+  "referenceNumber": "TT-CSIRT 427.12.04.24",
+  "classification": "advisory",
+  "title": "CVE-2024-3400 PAN-OS: OS command injection vulnerability in globalprotect gateway",
+  "rawTitle": "TT-CSIRT 427.12.04.24: CVE-2024-3400 PAN-OS: OS Command Injection Vulnerability in GlobalProtect Gateway",
+  "slug": "tt-csirt-428-12-04-24-cve-2024-3400-pan-os-os-command-injection-vulnerability-in-globalprotect-gateway",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. The severity of the vulnerability is critical and it carries a CVSS4.0 score of 10.",
+  "cveList": [
+    "CVE-2024-3400"
+  ],
+  "date": "12 April 2024",
+  "rawDate": "2024-04-12T12:42:00",
+  "modifiedDate": "12 April 2024",
+  "rawModifiedDate": "2024-04-12T12:42:00",
+  "contentHtml": "<p>A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. The severity of the vulnerability is critical and it carries a CVSS4.0 score of 10.</p>\n<p>Fixes for PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 are in development and are expected to be released by April 14, 2024. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability. All other versions of PAN-OS are also not impacted. This issue applies only to PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 firewalls with the configurations for both GlobalProtect gateway and device telemetry enabled. This vulnerability is actively being exploited in the wild.</p>\n<p>&nbsp;</p>\n<p><strong>Solution:</strong> This issue will be fixed in hotfix releases of PAN-OS 10.2.9-h1 (ETA: By 4/14), PAN-OS 11.0.4-h1 (ETA: By 4/14), and PAN-OS 11.1.2-h3 (ETA: By 4/14), and in all later PAN-OS versions.</p>\n<p>&nbsp;</p>\n<p><strong>Recommended Mitigation:</strong> Customers with a Threat Prevention subscription can block attacks for this vulnerability by enabling Threat ID 95187 (introduced in Applications and Threats content version 8833-8682). In addition to enabling Threat ID 95187, customers must ensure vulnerability protection has been applied to their GlobalProtect interface to prevent exploitation of this issue on their device. Please see <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=7c46e7c06b&amp;e=f76cfbd23d\">https://live.paloaltonetworks.com/t5/globalprotect-articles/applying-vulnerability-protection-to-globalprotect-interfaces/ta-p/340184</a> for more information.</p>\n<p>&nbsp;</p>\n<p>If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></p>\n",
+  "displaySummary": "A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an…",
+  "sourceExcerpt": "<p>A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. The severity of the vulnerability is critical and it carries a CVSS4.0 score of 10. Fixes for PAN-OS [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-428-12-04-24-cve-2024-3400-pan-os-os-command-injection-vulnerability-in-globalprotect-gateway/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. The severity of the vulnerability is critical and it carries a CVSS4.0 score of 10.</p>",
+          "text": "A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall. The severity of the vulnerability is critical and it carries a CVSS4.0 score of 10."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Fixes for PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 are in development and are expected to be released by April 14, 2024. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability. All other versions of PAN-OS are also not impacted. This issue applies only to PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 firewalls with the configurations for both GlobalProtect gateway and device telemetry enabled. This vulnerability is actively being exploited in the wild.</p>",
+          "text": "Fixes for PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 are in development and are expected to be released by April 14, 2024. Cloud NGFW, Panorama appliances, and Prisma Access are not impacted by this vulnerability. All other versions of PAN-OS are also not impacted. This issue applies only to PAN-OS 10.2, PAN-OS 11.0, and PAN-OS 11.1 firewalls with the configurations for both GlobalProtect gateway and device telemetry enabled. This vulnerability is actively being exploited in the wild."
+        }
+      ]
+    },
+    {
+      "id": "solution",
+      "title": "Solution",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>This issue will be fixed in hotfix releases of PAN-OS 10.2.9-h1 (ETA: By 4/14), PAN-OS 11.0.4-h1 (ETA: By 4/14), and PAN-OS 11.1.2-h3 (ETA: By 4/14), and in all later PAN-OS versions.</p>",
+          "text": "This issue will be fixed in hotfix releases of PAN-OS 10.2.9-h1 (ETA: By 4/14), PAN-OS 11.0.4-h1 (ETA: By 4/14), and PAN-OS 11.1.2-h3 (ETA: By 4/14), and in all later PAN-OS versions."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Recommended mitigation",
+          "id": "recommended-mitigation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Customers with a Threat Prevention subscription can block attacks for this vulnerability by enabling Threat ID 95187 (introduced in Applications and Threats content version 8833-8682). In addition to enabling Threat ID 95187, customers must ensure vulnerability protection has been applied to their GlobalProtect interface to prevent exploitation of this issue on their device. Please see <a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=7c46e7c06b&amp;e=f76cfbd23d\">https://live.paloaltonetworks.com/t5/globalprotect-articles/applying-vulnerability-protection-to-globalprotect-interfaces/ta-p/340184</a> for more information.</p>",
+          "text": "Customers with a Threat Prevention subscription can block attacks for this vulnerability by enabling Threat ID 95187 (introduced in Applications and Threats content version 8833-8682). In addition to enabling Threat ID 95187, customers must ensure vulnerability protection has been applied to their GlobalProtect interface to prevent exploitation of this issue on their device. Please see https://live.paloaltonetworks.com/t5/globalprotect-articles/applying-vulnerability-protection-to-globalprotect-interfaces/ta-p/340184 for more information."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "solution",
+      "label": "Solution"
+    },
+    {
+      "id": "recommended-mitigation",
+      "label": "Recommended mitigation",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-428-12-04-24-cve-2024-3400-pan-os-os-command-injection-vulnerability-in-globalprotect-gateway/",
+    "upstreamDisclosedAt": "2024-04-12T12:42:00",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "4680",
+  "legacyPostId": 4680,
+  "referenceNumber": "TT-CSIRT 338.08.19.20",
+  "classification": "advisory",
+  "title": "Microsoft Windows kernel information disclosure",
+  "rawTitle": "TTCSIRT-338.08.19.20: TT-CSIRT ADVISORY &#8211; Microsoft Windows Kernel Information Disclosure",
+  "slug": "ttcsirt-338-08-19-20-tt-csirt-advisory-microsoft-windows-kernel-information-disclosure",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An information disclosure vulnerability exists in the Windows kernel that could allow an attacker to retrieve information that could lead to a Kernel Address Space Layout Randomization (ASLR) bypass.",
+  "cveList": [
+    "CVE-2020-1578"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:18:49",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:18:49",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An information disclosure vulnerability exists in the Windows kernel that could allow an attacker to retrieve<br>information that could lead to a Kernel Address Space Layout Randomization (ASLR) bypass.<br><br>An attacker who successfully exploited the vulnerability could retrieve the memory address of a kernel object.<br><br>Successful exploitation of this vulnerability would allow a remote attacker to obtain sensitive information.<br><br>Security updates addresses the vulnerability by correcting how the Windows kernel handles memory addresses.<br><br>Please see the following link for further support and information about this vulnerability:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=eead1624e7&amp;e=64e3bb0ab9\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1578</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "An information disclosure vulnerability exists in the Windows kernel that could allow an attacker to retrieveinformation that could lead to a Kernel Address Space Layout Randomization (ASLR) bypass.",
+  "sourceExcerpt": "<p>An information disclosure vulnerability exists in the Windows kernel that could allow an attacker to retrieveinformation that could lead to a Kernel Address Space Layout Randomization (ASLR) bypass. An attacker who successfully exploited the vulnerability could retrieve the memory address of a kernel object. Successful exploitation of this vulnerability would allow a remote attacker to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-338-08-19-20-tt-csirt-advisory-microsoft-windows-kernel-information-disclosure/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An information disclosure vulnerability exists in the Windows kernel that could allow an attacker to retrieve<br>information that could lead to a Kernel Address Space Layout Randomization (ASLR) bypass.</p>",
+          "text": "An information disclosure vulnerability exists in the Windows kernel that could allow an attacker to retrieve information that could lead to a Kernel Address Space Layout Randomization (ASLR) bypass."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker who successfully exploited the vulnerability could retrieve the memory address of a kernel object.</p>",
+          "text": "An attacker who successfully exploited the vulnerability could retrieve the memory address of a kernel object."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this vulnerability would allow a remote attacker to obtain sensitive information.</p>",
+          "text": "Successful exploitation of this vulnerability would allow a remote attacker to obtain sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Security updates addresses the vulnerability by correcting how the Windows kernel handles memory addresses.</p>",
+          "text": "Security updates addresses the vulnerability by correcting how the Windows kernel handles memory addresses."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please see the following link for further support and information about this vulnerability:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=eead1624e7&amp;e=64e3bb0ab9\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1578</a></p>",
+          "text": "Please see the following link for further support and information about this vulnerability: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1578"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-338-08-19-20-tt-csirt-advisory-microsoft-windows-kernel-information-disclosure/",
+    "upstreamDisclosedAt": "2020-09-22T23:18:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

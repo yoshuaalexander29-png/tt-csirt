@@ -1,0 +1,174 @@
+{
+  "id": "10647",
+  "legacyPostId": 10647,
+  "referenceNumber": "TT-CSIRT 445.06.08.25",
+  "classification": "advisory",
+  "title": "Critical RCE vulnerabilities in trend micro apex one (on-premise) management console",
+  "rawTitle": "TT-CSIRT – 445.06.08.25 – Critical RCE Vulnerabilities in Trend Micro Apex One (On-Premise) Management Console",
+  "slug": "tt-csirt-445-06-08-25-critical-rce-vulnerabilities-in-trend-micro-apex-one-on-premise-management-console",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Trend Micro has identified and issued mitigations for two critical command injection vulnerabilities, CVE-2025-54948 and CVE-2025-54987 , affecting the Apex One (On-Premise) Management Console. Both vulnerabilities may allow unauthenticated remote attackers to execute arbitrary commands on affected systems.",
+  "cveList": [
+    "CVE-2025-54948",
+    "CVE-2025-54987"
+  ],
+  "date": "6 August 2025",
+  "rawDate": "2025-08-06T11:21:03",
+  "modifiedDate": "6 August 2025",
+  "rawModifiedDate": "2025-08-06T11:27:54",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that&nbsp;Trend Micro has identified and issued mitigations for two critical command injection vulnerabilities, <strong>CVE-2025-54948 and CVE-2025-54987</strong>, affecting the Apex One (On-Premise) Management Console. Both vulnerabilities may allow unauthenticated remote attackers to execute arbitrary commands on affected systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Importantly, Trend Micro has observed active exploitation attempts in the wild (ITW) for at least one of these vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Remote Code Execution (RCE): Vulnerabilities allow unauthenticated, pre-authenticated attackers to execute arbitrary OS commands via the Apex One Management Console.</li>\n\n\n\n<li>Multiple CPU Architectures Affected: Exploitation affects various system architectures, increasing potential exposure.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitigating Factors</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Exploitation requires access (physical or remote) to the <strong>Apex One Management Console</strong>.</li>\n\n\n\n<li>Systems with <strong>externally exposed console IPs</strong> are at higher risk.</li>\n\n\n\n<li>It is recommended to:<ul><br><li>Restrict access to the console via IP allowlisting.</li></ul>\n<ul class=\"wp-block-list\">\n<li>Review and harden perimeter firewall and remote access policies.</li>\n</ul>\n</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected and Previously Impacted Version(s)</strong></p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>Product</strong></td><td><strong>Affected Version(s)</strong></td><td><strong>Platform</strong></td><td><strong>Language</strong></td></tr><tr><td>Trend Micro Apex One (On-Prem)</td><td>2019 – Management Server v14039 and below</td><td>Windows</td><td>English</td></tr><tr><td>Trend Micro Apex One as a Service</td><td>N/A*</td><td>Windows</td><td>English</td></tr><tr><td>Trend Vision One™ Endpoint Security</td><td>N/A*</td><td>Windows</td><td>English</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Solution: Update Firmware</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Trend Micro has released the following mitigations to address the issue:</p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><thead><tr><td><strong>Product</strong></td><td><strong>Updated version</strong></td><td><strong>Notes</strong></td><td><strong>Platform</strong></td><td><strong>Availability</strong></td></tr></thead><tbody><tr><td>Trend Micro Apex One (on-prem)</td><td>FixTool_Aug2025 (Short-Term Mitigation)</td><td>Updated on Aug. 6, 2025**</td><td>Windows</td><td>Now Available</td></tr><tr><td>Trend Micro Apex One as a Service* <br>Trend Vision One™ Endpoint<br>Security &#8211; Standard Endpoint<br>Protection</td><td>July 31, 2025 Implemented Mitigation </td><td>&nbsp;</td><td>Windows</td><td>Already Deployed</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Recommendations</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Immediately apply <strong>FixTool_Aug2025</strong> if running affected on-prem versions.</li>\n\n\n\n<li>Monitor systems for unusual activity.</li>\n\n\n\n<li>Prepare to deploy the <strong>critical patch</strong> once available in mid-August.</li>\n\n\n\n<li>Consider limiting external exposure of the management console.</li>\n\n\n\n<li>Review and update user credentials and access controls regularly.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a href=\"https://success.trendmicro.com/en-US/solution/KA-0020652\" target=\"_blank\" rel=\"noreferrer noopener\">https://success.trendmicro.com/en-US/solution/KA-0020652</a></li>\n\n\n\n<li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-54987\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-54987</a></li>\n\n\n\n<li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-54948\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-54948</a></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments, or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt .</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Trend Micro has identified and issued mitigations for two critical command injection vulnerabilities, CVE-2025-54948 and CVE-2025-54987, affecting the Apex One (On-Premise) Management Console.",
+  "sourceExcerpt": "<p>Please be advised that&nbsp;Trend Micro has identified and issued mitigations for two critical command injection vulnerabilities, CVE-2025-54948 and CVE-2025-54987, affecting the Apex One (On-Premise) Management Console. Both vulnerabilities may allow unauthenticated remote attackers to execute arbitrary commands on affected systems. Importantly, Trend Micro has observed active exploitation attempts in the wild (ITW) for at least [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-445-06-08-25-critical-rce-vulnerabilities-in-trend-micro-apex-one-on-premise-management-console/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>&nbsp;Trend Micro has identified and issued mitigations for two critical command injection vulnerabilities, <strong>CVE-2025-54948 and CVE-2025-54987</strong>, affecting the Apex One (On-Premise) Management Console. Both vulnerabilities may allow unauthenticated remote attackers to execute arbitrary commands on affected systems.</p>",
+          "text": "Trend Micro has identified and issued mitigations for two critical command injection vulnerabilities, CVE-2025-54948 and CVE-2025-54987 , affecting the Apex One (On-Premise) Management Console. Both vulnerabilities may allow unauthenticated remote attackers to execute arbitrary commands on affected systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Importantly, Trend Micro has observed active exploitation attempts in the wild (ITW) for at least one of these vulnerabilities.</p>",
+          "text": "Importantly, Trend Micro has observed active exploitation attempts in the wild (ITW) for at least one of these vulnerabilities."
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Remote Code Execution (RCE): Vulnerabilities allow unauthenticated, pre-authenticated attackers to execute arbitrary OS commands via the Apex One Management Console.</li>\n\n\n\n<li>Multiple CPU Architectures Affected: Exploitation affects various system architectures, increasing potential exposure.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Mitigating factors",
+          "id": "mitigating-factors"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Exploitation requires access (physical or remote) to the <strong>Apex One Management Console</strong>.</li>\n\n\n\n<li>Systems with <strong>externally exposed console IPs</strong> are at higher risk.</li>\n\n\n\n<li>It is recommended to:<ul><br><li>Restrict access to the console via IP allowlisting.</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Review and harden perimeter firewall and remote access policies.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Affected and previously impacted version(s)",
+          "id": "affected-and-previously-impacted-versions"
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Product</th><th scope=\"col\" class=\"govuk-table__header\">Affected Version(s)</th><th scope=\"col\" class=\"govuk-table__header\">Platform</th><th scope=\"col\" class=\"govuk-table__header\">Language</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Trend Micro Apex One (On-Prem)</th><td class=\"govuk-table__cell\">2019 – Management Server v14039 and below</td><td class=\"govuk-table__cell\">Windows</td><td class=\"govuk-table__cell\">English</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Trend Micro Apex One as a Service</th><td class=\"govuk-table__cell\">N/A*</td><td class=\"govuk-table__cell\">Windows</td><td class=\"govuk-table__cell\">English</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Trend Vision One™ Endpoint Security</th><td class=\"govuk-table__cell\">N/A*</td><td class=\"govuk-table__cell\">Windows</td><td class=\"govuk-table__cell\">English</td></tr></tbody>\n      </table>\n    </div>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Solution: update firmware",
+          "id": "solution-update-firmware"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Trend Micro has released the following mitigations to address the issue:</p>",
+          "text": "Trend Micro has released the following mitigations to address the issue:"
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Product</th><th scope=\"col\" class=\"govuk-table__header\">Updated version</th><th scope=\"col\" class=\"govuk-table__header\">Notes</th><th scope=\"col\" class=\"govuk-table__header\">Platform</th><th scope=\"col\" class=\"govuk-table__header\">Availability</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Trend Micro Apex One (on-prem)</th><td class=\"govuk-table__cell\">FixTool_Aug2025 (Short-Term Mitigation)</td><td class=\"govuk-table__cell\">Updated on Aug. 6, 2025**</td><td class=\"govuk-table__cell\">Windows</td><td class=\"govuk-table__cell\">Now Available</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Trend Micro Apex One as a Service* <br>Trend Vision One™ Endpoint<br>Security &#8211; Standard Endpoint<br>Protection</th><td class=\"govuk-table__cell\">July 31, 2025 Implemented Mitigation</td><td class=\"govuk-table__cell\">&nbsp;</td><td class=\"govuk-table__cell\">Windows</td><td class=\"govuk-table__cell\">Already Deployed</td></tr></tbody>\n      </table>\n    </div>"
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Immediately apply <strong>FixTool_Aug2025</strong> if running affected on-prem versions.</li>\n\n\n\n<li>Monitor systems for unusual activity.</li>\n\n\n\n<li>Prepare to deploy the <strong>critical patch</strong> once available in mid-August.</li>\n\n\n\n<li>Consider limiting external exposure of the management console.</li>\n\n\n\n<li>Review and update user credentials and access controls regularly.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><a href=\"https://success.trendmicro.com/en-US/solution/KA-0020652\" target=\"_blank\" rel=\"noreferrer noopener\">https://success.trendmicro.com/en-US/solution/KA-0020652</a></li>\n\n\n\n<li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-54987\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-54987</a></li>\n\n\n\n<li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-54948\" target=\"_blank\" rel=\"noreferrer noopener\">https://nvd.nist.gov/vuln/detail/CVE-2025-54948</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "mitigating-factors",
+      "label": "Mitigating factors",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-and-previously-impacted-versions",
+      "label": "Affected and previously impacted version(s)",
+      "isSubItem": true
+    },
+    {
+      "id": "solution-update-firmware",
+      "label": "Solution: update firmware",
+      "isSubItem": true
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://success.trendmicro.com/en-US/solution/KA-0020652",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-54987",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-54948"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-445-06-08-25-critical-rce-vulnerabilities-in-trend-micro-apex-one-on-premise-management-console/",
+    "upstreamDisclosedAt": "2025-08-06T11:21:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

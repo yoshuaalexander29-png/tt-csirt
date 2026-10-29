@@ -1,0 +1,277 @@
+{
+  "id": "3476",
+  "legacyPostId": 3476,
+  "referenceNumber": "TT-CSIRT #149",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-149.072718: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-149-072718-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:",
+  "cveList": [
+    "CVE-2018-6168",
+    "CVE-2018-4117",
+    "CVE-2018-6177",
+    "CVE-2018-6154",
+    "CVE-2018-6162",
+    "CVE-2018-6156",
+    "CVE-2018-6174",
+    "CVE-2018-6179",
+    "CVE-2018-6176",
+    "CVE-2018-6169",
+    "CVE-2018-6044",
+    "CVE-2018-6159",
+    "CVE-2018-6164",
+    "CVE-2018-6161",
+    "CVE-2018-6153",
+    "CVE-2018-6170",
+    "CVE-2018-6157",
+    "CVE-2018-6178",
+    "CVE-2018-6160",
+    "CVE-2018-6163",
+    "CVE-2018-6158",
+    "CVE-2018-6171",
+    "CVE-2018-6155"
+  ],
+  "date": "27 July 2018",
+  "rawDate": "2018-07-27T11:51:06",
+  "modifiedDate": "27 July 2018",
+  "rawModifiedDate": "2018-07-27T11:51:06",
+  "contentHtml": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:</p>\n<p>a) CORS bypass in Blink &#8211; (CVE-2018-6168)</p>\n<p>b) Cross origin information leak in Blink &#8211; (CVE-2018-4117, CVE-2018-6177)</p>\n<p>c) Heap buffer overflow in WebGL &#8211; (CVE-2018-6154, CVE-2018-6162)</p>\n<p>d) Heap buffer overflow in WebRTC &#8211; (CVE-2018-6156)</p>\n<p>e) Integer overflow in SwiftShader &#8211; (CVE-2018-6174)</p>\n<p>f) Local file information leak in Extensions &#8211; (CVE-2018-6179)</p>\n<p>g) Local user privilege escalation in Extensions &#8211; (CVE-2018-6176)</p>\n<p>h) Permissions bypass in extension installation &#8211; (CVE-2018-6169)</p>\n<p>i) Request privilege escalation in Extensions &#8211; (CVE-2018-6044)</p>\n<p>j) Same origin policy bypass in ServiceWorker &#8211; (CVE-2018-6159, CVE-2018-6164)</p>\n<p>k) Same origin policy bypass in WebAudio &#8211; (CVE-2018-6161)</p>\n<p>l) Stack buffer overflow in Skia &#8211; (CVE-2018-6153)</p>\n<p>m) Type confusion in PDFium &#8211; (CVE-2018-6170)</p>\n<p>n) Type confusion in WebRTC &#8211; (CVE-2018-6157)</p>\n<p>o) UI spoof in Extensions &#8211; (CVE-2018-6178)</p>\n<p>p) URL spoof in Chrome on iOS &#8211; (CVE-2018-6160)</p>\n<p>q) URL spoof in Omnibox &#8211; (CVE-2018-6163)</p>\n<p>r) Use after free in Blink &#8211; (CVE-2018-6158)</p>\n<p>s) Use after free in WebBluetooth &#8211; (CVE-2018-6171)</p>\n<p>t) Use after free in WebRTC &#8211; (CVE-2018-6155)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/2018/07/stable-channel-update-for-desktop.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2018/07/stable-channel-update-for-desktop.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome: a) CORS bypass in Blink &#8211; (CVE-2018-6168) b) Cross origin…",
+  "sourceExcerpt": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome: a) CORS bypass in Blink &#8211; (CVE-2018-6168) b) Cross origin information leak in Blink &#8211; (CVE-2018-4117, CVE-2018-6177) c) Heap buffer overflow in WebGL &#8211; (CVE-2018-6154, CVE-2018-6162) d) Heap buffer overflow in WebRTC &#8211; (CVE-2018-6156) e) Integer overflow in [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-149-072718-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:</p>",
+          "text": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Cors bypass in blink – (CVE-2018-6168)",
+          "id": "cors-bypass-in-blink-cve-2018-6168"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Cross origin information leak in Blink &#8211; (CVE-2018-4117, CVE-2018-6177)</p>",
+          "text": "b) Cross origin information leak in Blink – (CVE-2018-4117, CVE-2018-6177)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Heap buffer overflow in WebGL &#8211; (CVE-2018-6154, CVE-2018-6162)</p>",
+          "text": "c) Heap buffer overflow in WebGL – (CVE-2018-6154, CVE-2018-6162)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap buffer overflow in webrtc – (CVE-2018-6156)",
+          "id": "heap-buffer-overflow-in-webrtc-cve-2018-6156"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Integer overflow in swiftshader – (CVE-2018-6174)",
+          "id": "integer-overflow-in-swiftshader-cve-2018-6174"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Local file information leak in Extensions &#8211; (CVE-2018-6179)</p>",
+          "text": "f) Local file information leak in Extensions – (CVE-2018-6179)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Local user privilege escalation in Extensions &#8211; (CVE-2018-6176)</p>",
+          "text": "g) Local user privilege escalation in Extensions – (CVE-2018-6176)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Permissions bypass in extension installation &#8211; (CVE-2018-6169)</p>",
+          "text": "h) Permissions bypass in extension installation – (CVE-2018-6169)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Request privilege escalation in Extensions &#8211; (CVE-2018-6044)</p>",
+          "text": "i) Request privilege escalation in Extensions – (CVE-2018-6044)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Same origin policy bypass in ServiceWorker &#8211; (CVE-2018-6159, CVE-2018-6164)</p>",
+          "text": "j) Same origin policy bypass in ServiceWorker – (CVE-2018-6159, CVE-2018-6164)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Same origin policy bypass in webaudio – (CVE-2018-6161)",
+          "id": "same-origin-policy-bypass-in-webaudio-cve-2018-6161"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Stack buffer overflow in skia – (CVE-2018-6153)",
+          "id": "stack-buffer-overflow-in-skia-cve-2018-6153"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type confusion in pdfium – (CVE-2018-6170)",
+          "id": "type-confusion-in-pdfium-cve-2018-6170"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type confusion in webrtc – (CVE-2018-6157)",
+          "id": "type-confusion-in-webrtc-cve-2018-6157"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Ui spoof in extensions – (CVE-2018-6178)",
+          "id": "ui-spoof-in-extensions-cve-2018-6178"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoof in Chrome on ios – (CVE-2018-6160)",
+          "id": "url-spoof-in-chrome-on-ios-cve-2018-6160"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoof in omnibox – (CVE-2018-6163)",
+          "id": "url-spoof-in-omnibox-cve-2018-6163"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in blink – (CVE-2018-6158)",
+          "id": "use-after-free-in-blink-cve-2018-6158"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in webbluetooth – (CVE-2018-6171)",
+          "id": "use-after-free-in-webbluetooth-cve-2018-6171"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in webrtc – (CVE-2018-6155)",
+          "id": "use-after-free-in-webrtc-cve-2018-6155"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/2018/07/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2018/07/stable-channel-update-for-desktop.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Google Chrome Website at https://chromereleases.googleblog.com/2018/07/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "cors-bypass-in-blink-cve-2018-6168",
+      "label": "Cors bypass in blink – (CVE-2018-6168)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-buffer-overflow-in-webrtc-cve-2018-6156",
+      "label": "Heap buffer overflow in webrtc – (CVE-2018-6156)",
+      "isSubItem": true
+    },
+    {
+      "id": "integer-overflow-in-swiftshader-cve-2018-6174",
+      "label": "Integer overflow in swiftshader – (CVE-2018-6174)",
+      "isSubItem": true
+    },
+    {
+      "id": "same-origin-policy-bypass-in-webaudio-cve-2018-6161",
+      "label": "Same origin policy bypass in webaudio – (CVE-2018-6161)",
+      "isSubItem": true
+    },
+    {
+      "id": "stack-buffer-overflow-in-skia-cve-2018-6153",
+      "label": "Stack buffer overflow in skia – (CVE-2018-6153)",
+      "isSubItem": true
+    },
+    {
+      "id": "type-confusion-in-pdfium-cve-2018-6170",
+      "label": "Type confusion in pdfium – (CVE-2018-6170)",
+      "isSubItem": true
+    },
+    {
+      "id": "type-confusion-in-webrtc-cve-2018-6157",
+      "label": "Type confusion in webrtc – (CVE-2018-6157)",
+      "isSubItem": true
+    },
+    {
+      "id": "ui-spoof-in-extensions-cve-2018-6178",
+      "label": "Ui spoof in extensions – (CVE-2018-6178)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoof-in-chrome-on-ios-cve-2018-6160",
+      "label": "URL spoof in Chrome on ios – (CVE-2018-6160)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoof-in-omnibox-cve-2018-6163",
+      "label": "URL spoof in omnibox – (CVE-2018-6163)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-blink-cve-2018-6158",
+      "label": "Use after free in blink – (CVE-2018-6158)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-webbluetooth-cve-2018-6171",
+      "label": "Use after free in webbluetooth – (CVE-2018-6171)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-webrtc-cve-2018-6155",
+      "label": "Use after free in webrtc – (CVE-2018-6155)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2018/07/stable-channel-update-for-desktop.html"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-149-072718-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-07-27T11:51:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

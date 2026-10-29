@@ -1,0 +1,84 @@
+{
+  "id": "4119",
+  "legacyPostId": 4119,
+  "referenceNumber": "TT-CSIRT #283",
+  "classification": "advisory",
+  "title": "Cisco releases security updates",
+  "rawTitle": "TTCSIRT-283.022620: TT-CSIRT ADVISORY-CISCO RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-283-022620-tt-csirt-advisory-cisco-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.",
+  "cveList": [],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T08:39:08",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T08:39:08",
+  "contentHtml": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.</p>\n<p style=\"text-align: justify; line-height: 150%; box-sizing: border-box; -webkit-text-stroke-width: 0px; word-spacing: 0px; margin: 0cm 0cm 7.5pt 0cm;\">TT-CSIRT encourages users and administrators to review the following Cisco advisories and apply the necessary updates:</p>\n<ul type=\"disc\">\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Smart Software Manager On-Prem Static Credential Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8</a></span></li>\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Unified Contact Center Express Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uccx-privesc-Zd7bvwyf\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uccx-privesc-Zd7bvwyf</a></span></li>\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Multiple Cisco UCS-Based Products UEFI Secure Boot Bypass Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-ucs-boot-bypass\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-ucs-boot-bypass</a></span></li>\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Email Security Appliance and Content Security Management Appliance Denial-of-Service Vulnerability </span><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">                            <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-sma-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-sma-dos</a></span></li>\n</ul>\n<ul type=\"disc\">\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Email Security Appliance Denial-of-Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-dos</a></span></li>\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Data Center Network Manager Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-priv-esc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-priv-esc</a></span></li>\n<li><span lang=\"EN-US\" style=\"font-family: '&amp;quot','serif';\">Data Center Network Manager Cross-Site Request Forgery Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-csrf\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-csrf</a></span></li>\n</ul>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page. TT-CSIRT encourages users and administrators to review the following Cisco advisories and apply the necessary updates: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-283-022620-tt-csirt-advisory-cisco-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities affecting multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review the following Cisco advisories and apply the necessary updates:</p>",
+          "text": "TT-CSIRT encourages users and administrators to review the following Cisco advisories and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" type=\"disc\">\n<li><span lang=\"EN-US\" >Smart Software Manager On-Prem Static Credential Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8</a></span></li>\n<li><span lang=\"EN-US\" >Unified Contact Center Express Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uccx-privesc-Zd7bvwyf\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uccx-privesc-Zd7bvwyf</a></span></li>\n<li><span lang=\"EN-US\" >Multiple Cisco UCS-Based Products UEFI Secure Boot Bypass Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-ucs-boot-bypass\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-ucs-boot-bypass</a></span></li>\n<li><span lang=\"EN-US\" >Email Security Appliance and Content Security Management Appliance Denial-of-Service Vulnerability </span><span lang=\"EN-US\" >                            <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-sma-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-sma-dos</a></span></li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" type=\"disc\">\n<li><span lang=\"EN-US\" >Email Security Appliance Denial-of-Service Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-dos</a></span></li>\n<li><span lang=\"EN-US\" >Data Center Network Manager Privilege Escalation Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-priv-esc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-priv-esc</a></span></li>\n<li><span lang=\"EN-US\" >Data Center Network Manager Cross-Site Request Forgery Vulnerability <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-csrf\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-csrf</a></span></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uccx-privesc-Zd7bvwyf",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-ucs-boot-bypass",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-sma-dos",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-esa-dos",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-priv-esc",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-csrf"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-283-022620-tt-csirt-advisory-cisco-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-02-26T08:39:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

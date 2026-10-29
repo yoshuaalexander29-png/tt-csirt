@@ -1,0 +1,106 @@
+{
+  "id": "3762",
+  "legacyPostId": 3762,
+  "referenceNumber": "TT-CSIRT #222",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-222.082719: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-222-082719-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat and Reader:",
+  "cveList": [
+    "CVE-2019-8077",
+    "CVE-2019-8060",
+    "CVE-2019-7832",
+    "CVE-2019-8099",
+    "CVE-2019-8019"
+  ],
+  "date": "26 August 2019",
+  "rawDate": "2019-08-26T20:05:16",
+  "modifiedDate": "26 August 2019",
+  "rawModifiedDate": "2019-08-26T20:05:16",
+  "contentHtml": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat and Reader:</p>\n<p>a) Multiple Out-of-Bounds Read vulnerabilities that could allow for information disclosure &#8211; (CVE-2019-8077).</p>\n<p>b) A command injection vulnerability that could allow for arbitrary code execution &#8211; (CVE-2019-8060).</p>\n<p>c) Multiple heap overflow vulnerabilities that could allow for privilege escalation &#8211; (CVE-2019-7832).</p>\n<p>d) Multiple integer overflow vulnerabilities that could allow for information disclosure &#8211; (CVE-2019-8099).</p>\n<p>e) A type confusion vulnerability could allow for arbitrary code execution &#8211; (CVE-2019-8019).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with the user, an attacker could then install programs; view, change or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/acrobat/apsb19-41.html\"><font size=\"2\" color=\"maroon\">https://helpx.adobe.com/security/products/acrobat/apsb19-41.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat and Reader: a) Multiple Out-of-Bounds Read vulnerabilities that could allow for…",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat and Reader: a) Multiple Out-of-Bounds Read vulnerabilities that could allow for information disclosure &#8211; (CVE-2019-8077). b) A command injection vulnerability that could allow for arbitrary code execution &#8211; (CVE-2019-8060). c) Multiple heap overflow vulnerabilities that could allow for [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-222-082719-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat and Reader:</p>",
+          "text": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat and Reader:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Multiple Out-of-Bounds Read vulnerabilities that could allow for information disclosure &#8211; (CVE-2019-8077).</p>",
+          "text": "a) Multiple Out-of-Bounds Read vulnerabilities that could allow for information disclosure – (CVE-2019-8077)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A command injection vulnerability that could allow for arbitrary code execution &#8211; (CVE-2019-8060).</p>",
+          "text": "b) A command injection vulnerability that could allow for arbitrary code execution – (CVE-2019-8060)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Multiple heap overflow vulnerabilities that could allow for privilege escalation &#8211; (CVE-2019-7832).</p>",
+          "text": "c) Multiple heap overflow vulnerabilities that could allow for privilege escalation – (CVE-2019-7832)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple integer overflow vulnerabilities that could allow for information disclosure &#8211; (CVE-2019-8099).</p>",
+          "text": "d) Multiple integer overflow vulnerabilities that could allow for information disclosure – (CVE-2019-8099)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A type confusion vulnerability could allow for arbitrary code execution &#8211; (CVE-2019-8019).</p>",
+          "text": "e) A type confusion vulnerability could allow for arbitrary code execution – (CVE-2019-8019)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with the user, an attacker could then install programs; view, change or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with the user, an attacker could then install programs; view, change or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/acrobat/apsb19-41.html\">https://helpx.adobe.com/security/products/acrobat/apsb19-41.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at https://helpx.adobe.com/security/products/acrobat/apsb19-41.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/acrobat/apsb19-41.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-222-082719-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2019-08-26T20:05:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

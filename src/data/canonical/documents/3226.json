@@ -1,0 +1,80 @@
+{
+  "id": "3226",
+  "legacyPostId": 3226,
+  "referenceNumber": "TT-CSIRT #094",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-094.030218: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-094-030218-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Several security vulnerabilities have been found in PHP7 which include:",
+  "cveList": [],
+  "date": "2 March 2018",
+  "rawDate": "2018-03-02T11:15:48",
+  "modifiedDate": "2 March 2018",
+  "rawModifiedDate": "2018-03-02T11:15:48",
+  "contentHtml": "<p>Several security vulnerabilities have been found in PHP7 which include:</p>\n<p>a) Bug #49876 (Fix LDAP path lookup on 64-bit distros).<br />\nb) Bug #54289 (Phar::extractTo() does not accept specific directories to be extracted).<br />\nc) Bug #65414 (deal with leading slash when adding files correctly).<br />\nd) Bug #65414 (deal with leading slash while adding files correctly).<br />\ne) Bug #68406 (calling var_dump on a DateTimeZone object modifies it).<br />\nf) Bug #73725 (Unable to retrieve value of varchar(max) type).<br />\ng) Bug #74519 (strange behavior of AppendIterator).<br />\nh) Bug #75729 (opcache segfault when installing Bitrix).<br />\ni) Bug #75838 (Memory leak in pg_escape_bytea()).<br />\nj) Bug #75857 (Timezone gets truncated when formatted).<br />\nk) Bug #75864 (&#8220;stream_isatty&#8221; returns wrong value on s390x).<br />\nl) Bug #75871 (use pkg-config where available).<br />\nm) Bug #75882 (a simple way for segfaults in threadsafe php just with configuration).<br />\nn) Bug #75893 (file_get_contents $http_response_header variable bugged with opcache).<br />\no) Bug #75916 (DNS_CAA record results contain garbage).<br />\np) Bug #75928 (Argument 2 for DateTimeZone::listIdentifiers() should accept null).<br />\nq) Bug #75938 (Modulus value not stored in variable).<br />\nr) Bug #75981 (Prevent reading beyond buffer start in http wrapper).</p>\n<p>Successful exploitation of any of these vulnerabilities by an attacker could allow for arbitrary code execution in the context of the affected application. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-023/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-023/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Several security vulnerabilities have been found in PHP7 which include: a) Bug #49876 (Fix LDAP path lookup on 64-bit distros). b) Bug #54289 (Phar::extractTo() does not accept specific…",
+  "sourceExcerpt": "<p>Several security vulnerabilities have been found in PHP7 which include: a) Bug #49876 (Fix LDAP path lookup on 64-bit distros). b) Bug #54289 (Phar::extractTo() does not accept specific directories to be extracted). c) Bug #65414 (deal with leading slash when adding files correctly). d) Bug #65414 (deal with leading slash while adding files correctly). e) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-094-030218-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Several security vulnerabilities have been found in PHP7 which include:</p>",
+          "text": "Several security vulnerabilities have been found in PHP7 which include:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Bug #49876 (Fix LDAP path lookup on 64-bit distros).<br />\nb) Bug #54289 (Phar::extractTo() does not accept specific directories to be extracted).<br />\nc) Bug #65414 (deal with leading slash when adding files correctly).<br />\nd) Bug #65414 (deal with leading slash while adding files correctly).<br />\ne) Bug #68406 (calling var_dump on a DateTimeZone object modifies it).<br />\nf) Bug #73725 (Unable to retrieve value of varchar(max) type).<br />\ng) Bug #74519 (strange behavior of AppendIterator).<br />\nh) Bug #75729 (opcache segfault when installing Bitrix).<br />\ni) Bug #75838 (Memory leak in pg_escape_bytea()).<br />\nj) Bug #75857 (Timezone gets truncated when formatted).<br />\nk) Bug #75864 (&#8220;stream_isatty&#8221; returns wrong value on s390x).<br />\nl) Bug #75871 (use pkg-config where available).<br />\nm) Bug #75882 (a simple way for segfaults in threadsafe php just with configuration).<br />\nn) Bug #75893 (file_get_contents $http_response_header variable bugged with opcache).<br />\no) Bug #75916 (DNS_CAA record results contain garbage).<br />\np) Bug #75928 (Argument 2 for DateTimeZone::listIdentifiers() should accept null).<br />\nq) Bug #75938 (Modulus value not stored in variable).<br />\nr) Bug #75981 (Prevent reading beyond buffer start in http wrapper).</p>",
+          "text": "a) Bug #49876 (Fix LDAP path lookup on 64-bit distros). b) Bug #54289 (Phar::extractTo() does not accept specific directories to be extracted). c) Bug #65414 (deal with leading slash when adding files correctly). d) Bug #65414 (deal with leading slash while adding files correctly). e) Bug #68406 (calling var_dump on a DateTimeZone object modifies it). f) Bug #73725 (Unable to retrieve value of varchar(max) type). g) Bug #74519 (strange behavior of AppendIterator). h) Bug #75729 (opcache segfault when installing Bitrix). i) Bug #75838 (Memory leak in pg_escape_bytea()). j) Bug #75857 (Timezone gets truncated when formatted). k) Bug #75864 (“stream_isatty” returns wrong value on s390x). l) Bug #75871 (use pkg-config where available). m) Bug #75882 (a simple way for segfaults in threadsafe php just with configuration). n) Bug #75893 (file_get_contents $http_response_header variable bugged with opcache). o) Bug #75916 (DNS_CAA record results contain garbage). p) Bug #75928 (Argument 2 for DateTimeZone::listIdentifiers() should accept null). q) Bug #75938 (Modulus value not stored in variable). r) Bug #75981 (Prevent reading beyond buffer start in http wrapper)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of any of these vulnerabilities by an attacker could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successful exploitation of any of these vulnerabilities by an attacker could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-023/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-023/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-023/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-023/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-094-030218-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2018-03-02T11:15:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

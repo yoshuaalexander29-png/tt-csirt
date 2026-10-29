@@ -1,0 +1,117 @@
+{
+  "id": "3913",
+  "legacyPostId": 3913,
+  "referenceNumber": "TT-CSIRT #251",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-251.121119: TT-CSIRT ADVISORY – APPLE SECURITY UPDATES",
+  "slug": "ttcsirt-251-121119-tt-csirt-advisory-apple-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "11 December 2019",
+  "rawDate": "2019-12-11T09:19:05",
+  "modifiedDate": "11 December 2019",
+  "rawModifiedDate": "2019-12-11T09:19:05",
+  "contentHtml": "<p><span lang=\"EN-US\">Please be advised that Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</span></p>\n<p><span lang=\"EN-US\">TTCSIRT strongly encourages administrators to review the following releases from Apple and implement the necessary remediation actions:</span></p>\n<p><span lang=\"EN-US\">macOS Catalina 10.15.2<br />\n<a href=\"https://support.apple.com/en-us/HT210788\">https://support.apple.com/en-us/HT210788</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">Safari 13.0.4<br />\n<a href=\"https://support.apple.com/en-us/HT210792\">https://support.apple.com/en-us/HT210792</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">iOS 12.4.4<br />\n<a href=\"https://support.apple.com/en-us/HT210787\">https://support.apple.com/en-us/HT210787</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">iOS 13.3 and iPadOS 13.3<br />\n<a href=\"https://support.apple.com/en-us/HT210785\">https://support.apple.com/en-us/HT210785</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">Xcode 11.3<br />\n<a href=\"https://support.apple.com/en-us/HT210796\">https://support.apple.com/en-us/HT210796</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">watchOS 5.3.4<br />\n<a href=\"https://support.apple.com/en-us/HT210791\">https://support.apple.com/en-us/HT210791</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">watchOS 6.1.1<br />\n<a href=\"https://support.apple.com/en-us/HT210789\">https://support.apple.com/en-us/HT210789</a></span></p>\n<p>&nbsp;</p>\n<p><span lang=\"EN-US\">tvOS 13.3<br />\n<a href=\"https://support.apple.com/en-us/HT210790\">https://support.apple.com/en-us/HT210790</a></span></p>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Please be advised that Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT strongly encourages administrators to review the following releases from Apple and implement the necessary remediation actions: macOS Catalina 10.15.2 https://support.apple.com/en-us/HT210788 &nbsp; Safari 13.0.4 https://support.apple.com/en-us/HT210792 [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-251-121119-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">Please be advised that Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</span></p>",
+          "text": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">TTCSIRT strongly encourages administrators to review the following releases from Apple and implement the necessary remediation actions:</span></p>",
+          "text": "TTCSIRT strongly encourages administrators to review the following releases from Apple and implement the necessary remediation actions:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">macOS Catalina 10.15.2<br />\n<a href=\"https://support.apple.com/en-us/HT210788\">https://support.apple.com/en-us/HT210788</a></span></p>",
+          "text": "macOS Catalina 10.15.2 https://support.apple.com/en-us/HT210788"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">Safari 13.0.4<br />\n<a href=\"https://support.apple.com/en-us/HT210792\">https://support.apple.com/en-us/HT210792</a></span></p>",
+          "text": "Safari 13.0.4 https://support.apple.com/en-us/HT210792"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">iOS 12.4.4<br />\n<a href=\"https://support.apple.com/en-us/HT210787\">https://support.apple.com/en-us/HT210787</a></span></p>",
+          "text": "iOS 12.4.4 https://support.apple.com/en-us/HT210787"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">iOS 13.3 and iPadOS 13.3<br />\n<a href=\"https://support.apple.com/en-us/HT210785\">https://support.apple.com/en-us/HT210785</a></span></p>",
+          "text": "iOS 13.3 and iPadOS 13.3 https://support.apple.com/en-us/HT210785"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">Xcode 11.3<br />\n<a href=\"https://support.apple.com/en-us/HT210796\">https://support.apple.com/en-us/HT210796</a></span></p>",
+          "text": "Xcode 11.3 https://support.apple.com/en-us/HT210796"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">watchOS 5.3.4<br />\n<a href=\"https://support.apple.com/en-us/HT210791\">https://support.apple.com/en-us/HT210791</a></span></p>",
+          "text": "watchOS 5.3.4 https://support.apple.com/en-us/HT210791"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">watchOS 6.1.1<br />\n<a href=\"https://support.apple.com/en-us/HT210789\">https://support.apple.com/en-us/HT210789</a></span></p>",
+          "text": "watchOS 6.1.1 https://support.apple.com/en-us/HT210789"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\">tvOS 13.3<br />\n<a href=\"https://support.apple.com/en-us/HT210790\">https://support.apple.com/en-us/HT210790</a></span></p>",
+          "text": "tvOS 13.3 https://support.apple.com/en-us/HT210790"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT210788",
+    "https://support.apple.com/en-us/HT210792",
+    "https://support.apple.com/en-us/HT210787",
+    "https://support.apple.com/en-us/HT210785",
+    "https://support.apple.com/en-us/HT210796",
+    "https://support.apple.com/en-us/HT210791",
+    "https://support.apple.com/en-us/HT210789",
+    "https://support.apple.com/en-us/HT210790"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-251-121119-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2019-12-11T09:19:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

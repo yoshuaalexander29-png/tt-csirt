@@ -1,0 +1,129 @@
+{
+  "id": "4474",
+  "legacyPostId": 4474,
+  "referenceNumber": "TT-CSIRT #309",
+  "classification": "advisory",
+  "title": "Intel releases security updates",
+  "rawTitle": "TTCSIRT-309.041520: TT-CSIRT ADVISORY – INTEL RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-309-041520-tt-csirt-advisory-intel-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain escalation of privileges.",
+  "cveList": [],
+  "date": "15 April 2020",
+  "rawDate": "2020-04-15T18:56:16",
+  "modifiedDate": "15 April 2020",
+  "rawModifiedDate": "2020-04-15T18:56:16",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain escalation of privileges.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates or workarounds:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Data Migration Software Advisory- INTEL-SA-00327</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"> <a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html</a></p>\n\n\n\n<ul class=\"wp-block-list\"><li>PROSet/Wireless WiFi Software Advisory- INTEL-SA-00338</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html</a></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Driver and Support Assistant Advisory – INTEL-SA-00344</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00344.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00344.html</a></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Modular Server Compute Module Advisory –INTEL-SA-00351</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00351.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00351.html</a></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Binary Configuration Tool for Windows Advisory –INTEL-SA-00359</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00359.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00359.html</a></p>\n\n\n\n<ul class=\"wp-block-list\"><li>NUC Firmware Advisory – INTEL-SA-00363</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00363.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00363.html</a></p>\n",
+  "displaySummary": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain escalation of privileges.",
+  "sourceExcerpt": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain escalation of privileges. TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates or workarounds: Data Migration Software Advisory- INTEL-SA-00327 https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html PROSet/Wireless WiFi Software Advisory- INTEL-SA-00338 https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html Driver [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-309-041520-tt-csirt-advisory-intel-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain escalation of privileges.</p>",
+          "text": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain escalation of privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates or workarounds:</p>",
+          "text": "TT-CSIRT encourages users and administrators to review the following Intel advisories and apply the necessary updates or workarounds:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Data Migration Software Advisory- INTEL-SA-00327</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>PROSet/Wireless WiFi Software Advisory- INTEL-SA-00338</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Driver and Support Assistant Advisory – INTEL-SA-00344</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00344.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00344.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00344.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Modular Server Compute Module Advisory –INTEL-SA-00351</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00351.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00351.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00351.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Binary Configuration Tool for Windows Advisory –INTEL-SA-00359</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00359.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00359.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00359.html"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>NUC Firmware Advisory – INTEL-SA-00363</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00363.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00363.html</a></p>",
+          "text": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00363.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00327.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00338.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00344.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00351.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00359.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00363.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-309-041520-tt-csirt-advisory-intel-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-04-15T18:56:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

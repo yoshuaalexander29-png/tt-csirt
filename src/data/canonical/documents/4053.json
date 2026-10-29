@@ -1,0 +1,87 @@
+{
+  "id": "4053",
+  "legacyPostId": 4053,
+  "referenceNumber": "TT-CSIRT #274",
+  "classification": "advisory",
+  "title": "Mysql vulnerabilities advisory",
+  "rawTitle": "TTCSIRT-274.012820: TT-CSIRT ADVISORY – MySQL VULNERABILITIES ADVISORY",
+  "slug": "ttcsirt-274-012820-tt-csirt-advisory-usn-4250-1-mysql-vulnerabilities-advisory",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues.",
+  "cveList": [],
+  "date": "28 January 2020",
+  "rawDate": "2020-01-28T10:47:06",
+  "modifiedDate": "28 January 2020",
+  "rawModifiedDate": "2020-01-28T10:47:06",
+  "contentHtml": "<p>Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues.</p>\n<p>MySQL has been updated to 8.0.19 in Ubuntu 19.10. Ubuntu 16.04 LTS and Ubuntu 18.04 LTS have been updated to MySQL 5.7.29.</p>\n<p>In addition to security fixes, the updated packages contain bug fixes, new features, and possibly incompatible changes.</p>\n<p>TT-CSIRT encourages users and administrators to review and apply the necessary updates.</p>\n<ul>\n<li><a href=\"https://usn.ubuntu.com/4250-1/\">https://usn.ubuntu.com/4250-1/</a></li>\n<li><a href=\"https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-29.html\">https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-29.html</a></li>\n<li><a href=\"https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-19.html\">https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-19.html</a></li>\n<li><a href=\"https://www.oracle.com/security-alerts/cpujan2020.html\">https://www.oracle.com/security-alerts/cpujan2020.html</a></li>\n</ul>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues. MySQL has been updated to 8.0.19 in Ubuntu 19.10.",
+  "sourceExcerpt": "<p>Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues. MySQL has been updated to 8.0.19 in Ubuntu 19.10. Ubuntu 16.04 LTS and Ubuntu 18.04 LTS have been updated to MySQL 5.7.29. In addition to security fixes, the updated packages contain bug fixes, new features, and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-274-012820-tt-csirt-advisory-usn-4250-1-mysql-vulnerabilities-advisory/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues.</p>",
+          "text": "Multiple security issues were discovered in MySQL and this update includes new upstream MySQL versions to fix these issues."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>MySQL has been updated to 8.0.19 in Ubuntu 19.10. Ubuntu 16.04 LTS and Ubuntu 18.04 LTS have been updated to MySQL 5.7.29.</p>",
+          "text": "MySQL has been updated to 8.0.19 in Ubuntu 19.10. Ubuntu 16.04 LTS and Ubuntu 18.04 LTS have been updated to MySQL 5.7.29."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In addition to security fixes, the updated packages contain bug fixes, new features, and possibly incompatible changes.</p>",
+          "text": "In addition to security fixes, the updated packages contain bug fixes, new features, and possibly incompatible changes."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "TT-CSIRT encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://usn.ubuntu.com/4250-1/\">https://usn.ubuntu.com/4250-1/</a></li>\n<li><a href=\"https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-29.html\">https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-29.html</a></li>\n<li><a href=\"https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-19.html\">https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-19.html</a></li>\n<li><a href=\"https://www.oracle.com/security-alerts/cpujan2020.html\">https://www.oracle.com/security-alerts/cpujan2020.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://usn.ubuntu.com/4250-1/",
+    "https://dev.mysql.com/doc/relnotes/mysql/5.7/en/news-5-7-29.html",
+    "https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-19.html",
+    "https://www.oracle.com/security-alerts/cpujan2020.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-274-012820-tt-csirt-advisory-usn-4250-1-mysql-vulnerabilities-advisory/",
+    "upstreamDisclosedAt": "2020-01-28T10:47:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

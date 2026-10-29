@@ -1,0 +1,75 @@
+{
+  "id": "3486",
+  "legacyPostId": 3486,
+  "referenceNumber": "TT-CSIRT #152",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-152.080218: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-152-080218-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that a vulnerability in the password change function of Cisco Prime Collaboration Provisioning could allow an authenticated, remote attacker to cause the system to become inoperable and susceptible to Denial of Service (DoS) attacks.",
+  "cveList": [],
+  "date": "2 August 2018",
+  "rawDate": "2018-08-02T14:07:18",
+  "modifiedDate": "2 August 2018",
+  "rawModifiedDate": "2018-08-02T14:07:18",
+  "contentHtml": "<p>Cisco has released a security update stating that a vulnerability in the password change function of Cisco Prime Collaboration Provisioning could allow an authenticated, remote attacker to cause the system to become inoperable and susceptible to Denial of Service (DoS) attacks. </p>\n<p>This issue exists due to to insufficient validation of a password change request.</p>\n<table>\n<tr>\n<td>Further information vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180801-pcp-dos\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180801-pcp-dos</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that a vulnerability in the password change function of Cisco Prime Collaboration Provisioning could allow an authenticated, remote attacker to cause…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that a vulnerability in the password change function of Cisco Prime Collaboration Provisioning could allow an authenticated, remote attacker to cause the system to become inoperable and susceptible to Denial of Service (DoS) attacks. This issue exists due to to insufficient validation of a password change request. Further [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-152-080218-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that a vulnerability in the password change function of Cisco Prime Collaboration Provisioning could allow an authenticated, remote attacker to cause the system to become inoperable and susceptible to Denial of Service (DoS) attacks.</p>",
+          "text": "Cisco has released a security update stating that a vulnerability in the password change function of Cisco Prime Collaboration Provisioning could allow an authenticated, remote attacker to cause the system to become inoperable and susceptible to Denial of Service (DoS) attacks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue exists due to to insufficient validation of a password change request.</p>",
+          "text": "This issue exists due to to insufficient validation of a password change request."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180801-pcp-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180801-pcp-dos</a></p>",
+          "text": "Further information vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180801-pcp-dos"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180801-pcp-dos"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-152-080218-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2018-08-02T14:07:18",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

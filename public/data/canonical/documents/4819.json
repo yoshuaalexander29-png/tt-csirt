@@ -1,0 +1,75 @@
+{
+  "id": "4819",
+  "legacyPostId": 4819,
+  "referenceNumber": "TT-CSIRT 381.12.03.20",
+  "classification": "advisory",
+  "title": "Xerox releases security updates for docushare",
+  "rawTitle": "TTCSIRT-381.12.03.20: TT-CSIRT ADVISORY – Xerox Releases Security Updates for DocuShare",
+  "slug": "ttcsirt-381-12-03-20-tt-csirt-advisory-xerox-releases-security-updates-for-docushare",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Xerox has released security updates for DocuShare 6.6.1, 7.0, and 7.5 to address a vulnerability that could allow an unauthenticated attacker to obtain sensitive information.",
+  "cveList": [],
+  "date": "3 December 2020",
+  "rawDate": "2020-12-03T15:04:51",
+  "modifiedDate": "3 December 2020",
+  "rawModifiedDate": "2020-12-03T15:04:51",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Xerox has released security updates for DocuShare 6.6.1, 7.0, and 7.5 to address a vulnerability that could allow an unauthenticated attacker to obtain sensitive information.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is urged that&nbsp;users and administrators review Xerox and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDIuMzE0NDU5MjEiLCJ1cmwiOiJodHRwczovL3NlY3VyaXR5ZG9jcy5idXNpbmVzcy54ZXJveC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTEvY2VydF9TZWN1cml0eV9NaW5pX0J1bGxldGluX1hSWDIwV19mb3ItRG9jdVNoYXJlLTYuNjFfNy4wXzcuNS5wZGYifQ.AniaDSJh6903IrgNyRz5AJ-OBMgGetqBdi3lkeA7ml4/s/1193638257/br/90911981884-l\">Mini Bulletin XRX20W</a></p>\n",
+  "displaySummary": "Xerox has released security updates for DocuShare 6.6.1, 7.0, and 7.5 to address a vulnerability that could allow an unauthenticated attacker to obtain sensitive information.",
+  "sourceExcerpt": "<p>Xerox has released security updates for DocuShare 6.6.1, 7.0, and 7.5 to address a vulnerability that could allow an unauthenticated attacker to obtain sensitive information. It is urged that&nbsp;users and administrators review Xerox and apply the necessary updates. Please visit the link below:Mini Bulletin XRX20W</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-381-12-03-20-tt-csirt-advisory-xerox-releases-security-updates-for-docushare/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Xerox has released security updates for DocuShare 6.6.1, 7.0, and 7.5 to address a vulnerability that could allow an unauthenticated attacker to obtain sensitive information.</p>",
+          "text": "Xerox has released security updates for DocuShare 6.6.1, 7.0, and 7.5 to address a vulnerability that could allow an unauthenticated attacker to obtain sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is urged that&nbsp;users and administrators review Xerox and apply the necessary updates.</p>",
+          "text": "It is urged that users and administrators review Xerox and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDIuMzE0NDU5MjEiLCJ1cmwiOiJodHRwczovL3NlY3VyaXR5ZG9jcy5idXNpbmVzcy54ZXJveC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTEvY2VydF9TZWN1cml0eV9NaW5pX0J1bGxldGluX1hSWDIwV19mb3ItRG9jdVNoYXJlLTYuNjFfNy4wXzcuNS5wZGYifQ.AniaDSJh6903IrgNyRz5AJ-OBMgGetqBdi3lkeA7ml4/s/1193638257/br/90911981884-l\">Mini Bulletin XRX20W</a></p>",
+          "text": "Please visit the link below: Mini Bulletin XRX20W"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDIuMzE0NDU5MjEiLCJ1cmwiOiJodHRwczovL3NlY3VyaXR5ZG9jcy5idXNpbmVzcy54ZXJveC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTEvY2VydF9TZWN1cml0eV9NaW5pX0J1bGxldGluX1hSWDIwV19mb3ItRG9jdVNoYXJlLTYuNjFfNy4wXzcuNS5wZGYifQ.AniaDSJh6903IrgNyRz5AJ-OBMgGetqBdi3lkeA7ml4/s/1193638257/br/90911981884-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-381-12-03-20-tt-csirt-advisory-xerox-releases-security-updates-for-docushare/",
+    "upstreamDisclosedAt": "2020-12-03T15:04:51",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

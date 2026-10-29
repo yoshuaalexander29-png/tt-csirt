@@ -1,0 +1,74 @@
+{
+  "id": "3293",
+  "legacyPostId": 3293,
+  "referenceNumber": "TT-CSIRT #109",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-109.041918: TT-CSIRT Advisory – Oracle Security Updates",
+  "slug": "ttcsirt-109-041918-tt-csirt-advisory-oracle-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released its Critical Patch Update for April 2018 to address 254 vulnerabilities across multiple products including",
+  "cveList": [],
+  "date": "19 April 2018",
+  "rawDate": "2018-04-19T12:03:48",
+  "modifiedDate": "19 April 2018",
+  "rawModifiedDate": "2018-04-19T12:03:48",
+  "contentHtml": "<p>Oracle has released its Critical Patch Update for April 2018 to address 254 vulnerabilities across multiple products including</p>\n<p>1) Enterprise Manager Base Platform, versions 12.1.0.5, 13.2.0.0<br />\n2) Enterprise Manager for MySQL Database, version 12.1.0.4<br />\n3) Enterprise Manager for Virtualization, version 13.2<br />\n4) Enterprise Manager Ops Center, versions 12.2.2, 12.3.3<br />\n5) Hardware Management Pack, versions prior to 2.4.3<br />\n6) Instantis EnterpriseTrack, versions 17.1, 17.2<br />\n7) Integrated Lights Out Manager (ILOM), versions 3.x, 4.x<br />\n8) JD Edwards EnterpriseOne Tools, version 9.2.2<br />\n9) JD Edwards World Security, versions A9.2, A9.3, A9.4<br />\n10) Management Pack for Oracle GoldenGate, version 11.2.1.0.13<br />\n11) MICROS Handheld Terminal, versions Prior to Fusion 2.03.0.0.021R<br />\n12) MICROS Lucas, version 2.9.5<br />\n13) MySQL Cluster, versions 7.2.27 and prior, 7.3.16 and prior, 7.4.14 and prior, 7.5.5 and prior<br />\n14) MySQL Enterprise Monitor, versions 3.3.7.3306 and prior, 3.4.5.4248 and prior, 4.0.2.5168 and prior<br />\n15) MySQL Server, versions 5.5.59 and prior, 5.6.39 and prior, 5.7.21 and prior<br />\n16) Oracle Access Manager, versions 10.1.4.3.0, 11.1.2.3.0, 12.2.1.3.0<br />\n17) Oracle Adaptive Access Manager, version 11.1.2.3.0<br />\n18) Oracle Agile Engineering Data Management, versions 6.1.3, 6.2.0, 6.2.1<br />\n19) Oracle Agile PLM Framework, version 9.3.6<br />\n20) Oracle Agile Product Lifecycle Management for Process, versions 6.1.1.6, 6.2.0.0, 6.2.1.0<br />\n21) Oracle Application Testing Suite, versions 12.5.0.3, 13.1.0.1, 13.2.0.1<br />\n22) Oracle Banking Corporate Lending, versions 12.3.0, 12.4.0, 12.5.0, 14.0.0<br />\n23) Oracle Banking Enterprise Collections, version 2.6<br />\n24) Oracle Banking Enterprise Originations, version 2.6<br />\n25) Oracle Banking Enterprise Product Manufacturing, version 2.6<br />\n26) Oracle Banking Payments, versions 12.3.0, 12.4.0, 12.5.0, 14.0.0<br />\n27) Oracle Banking Platform, versions 2.4, 2.5, 2.6<br />\n28) Oracle Big Data Discovery, version 1.6.0<br />\n29) Oracle Business Intelligence Data Warehouse Administration Console, version 11.1.1.6.4<br />\n30) Oracle Business Intelligence Enterprise Edition, versions 11.1.1.7.0, 11.1.1.9.0, 12.2.1.2.0, 12.2.1.3.0</p>\n<table>\n<tr>\n<td>Further information on these patches an be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html\"><font size=\"2\" color=\"maroon\">http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Oracle has released its Critical Patch Update for April 2018 to address 254 vulnerabilities across multiple products including 1) Enterprise Manager Base Platform, versions 12.1.0.5, 13.2.0.0 2)…",
+  "sourceExcerpt": "<p>Oracle has released its Critical Patch Update for April 2018 to address 254 vulnerabilities across multiple products including 1) Enterprise Manager Base Platform, versions 12.1.0.5, 13.2.0.0 2) Enterprise Manager for MySQL Database, version 12.1.0.4 3) Enterprise Manager for Virtualization, version 13.2 4) Enterprise Manager Ops Center, versions 12.2.2, 12.3.3 5) Hardware Management Pack, versions prior [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-109-041918-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released its Critical Patch Update for April 2018 to address 254 vulnerabilities across multiple products including</p>",
+          "text": "Oracle has released its Critical Patch Update for April 2018 to address 254 vulnerabilities across multiple products including"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>Enterprise Manager Base Platform, versions 12.1.0.5, 13.2.0.0</li>\n  <li>Enterprise Manager for MySQL Database, version 12.1.0.4</li>\n  <li>Enterprise Manager for Virtualization, version 13.2</li>\n  <li>Enterprise Manager Ops Center, versions 12.2.2, 12.3.3</li>\n  <li>Hardware Management Pack, versions prior to 2.4.3</li>\n  <li>Instantis EnterpriseTrack, versions 17.1, 17.2</li>\n  <li>Integrated Lights Out Manager (ILOM), versions 3.x, 4.x</li>\n  <li>JD Edwards EnterpriseOne Tools, version 9.2.2</li>\n  <li>JD Edwards World Security, versions A9.2, A9.3, A9.4</li>\n  <li>Management Pack for Oracle GoldenGate, version 11.2.1.0.13</li>\n  <li>MICROS Handheld Terminal, versions Prior to Fusion 2.03.0.0.021R</li>\n  <li>MICROS Lucas, version 2.9.5</li>\n  <li>MySQL Cluster, versions 7.2.27 and prior, 7.3.16 and prior, 7.4.14 and prior, 7.5.5 and prior</li>\n  <li>MySQL Enterprise Monitor, versions 3.3.7.3306 and prior, 3.4.5.4248 and prior, 4.0.2.5168 and prior</li>\n  <li>MySQL Server, versions 5.5.59 and prior, 5.6.39 and prior, 5.7.21 and prior</li>\n  <li>Oracle Access Manager, versions 10.1.4.3.0, 11.1.2.3.0, 12.2.1.3.0</li>\n  <li>Oracle Adaptive Access Manager, version 11.1.2.3.0</li>\n  <li>Oracle Agile Engineering Data Management, versions 6.1.3, 6.2.0, 6.2.1</li>\n  <li>Oracle Agile PLM Framework, version 9.3.6</li>\n  <li>Oracle Agile Product Lifecycle Management for Process, versions 6.1.1.6, 6.2.0.0, 6.2.1.0</li>\n  <li>Oracle Application Testing Suite, versions 12.5.0.3, 13.1.0.1, 13.2.0.1</li>\n  <li>Oracle Banking Corporate Lending, versions 12.3.0, 12.4.0, 12.5.0, 14.0.0</li>\n  <li>Oracle Banking Enterprise Collections, version 2.6</li>\n  <li>Oracle Banking Enterprise Originations, version 2.6</li>\n  <li>Oracle Banking Enterprise Product Manufacturing, version 2.6</li>\n  <li>Oracle Banking Payments, versions 12.3.0, 12.4.0, 12.5.0, 14.0.0</li>\n  <li>Oracle Banking Platform, versions 2.4, 2.5, 2.6</li>\n  <li>Oracle Big Data Discovery, version 1.6.0</li>\n  <li>Oracle Business Intelligence Data Warehouse Administration Console, version 11.1.1.6.4</li>\n  <li>Oracle Business Intelligence Enterprise Edition, versions 11.1.1.7.0, 11.1.1.9.0, 12.2.1.2.0, 12.2.1.3.0</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these patches an be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html\">http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html</a></p>",
+          "text": "Further information on these patches an be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.oracle.com/technetwork/security-advisory/cpuapr2018-3678067.html"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-109-041918-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2018-04-19T12:03:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

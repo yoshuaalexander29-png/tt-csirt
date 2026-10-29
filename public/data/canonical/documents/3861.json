@@ -1,0 +1,73 @@
+{
+  "id": "3861",
+  "legacyPostId": 3861,
+  "referenceNumber": "TT-CSIRT #238",
+  "classification": "advisory",
+  "title": "Bind security updates",
+  "rawTitle": "TTCSIRT-238.101819: TT-CSIRT ADVISORY – BIND SECURITY UPDATES",
+  "slug": "ttcsirt-238-101819-tt-csirt-advisory-bind-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). BIND is the most common implementation of the DNS protocol on the Internet. A remote attacker could exploit one of these vulnerabilities to obtain sensitive information or cause a denial of service. TTCSIRT encourages users and administrators to review the following publications from the ISC and implement the recommended remediation strategies:",
+  "cveList": [
+    "CVE-2019-6475",
+    "CVE-2019-6476"
+  ],
+  "date": "18 October 2019",
+  "rawDate": "2019-10-18T08:14:28",
+  "modifiedDate": "18 October 2019",
+  "rawModifiedDate": "2019-10-18T08:14:28",
+  "contentHtml": "<p>The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). BIND is the most common implementation of the <strong>DNS protocol</strong> on the Internet. A remote attacker could exploit one of these vulnerabilities to obtain sensitive information or cause a denial of service. TTCSIRT encourages users and administrators to review the following publications from the ISC and implement the recommended remediation strategies:</p>\n<ul>\n<li>CVE-2019-6475:<br />\n<a href=\"https://kb.isc.org/docs/cve-2019-6475\">https://kb.isc.org/docs/cve-2019-6475<br />\n</a></li>\n<li>CVE-2019-6476:<br />\n<a href=\"https://kb.isc.org/docs/cve-2019-6476\">https://kb.isc.org/docs/cve-2019-6476<br />\n</a></li>\n</ul>\n",
+  "displaySummary": "The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND).",
+  "sourceExcerpt": "<p>The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). BIND is the most common implementation of the DNS protocol on the Internet. A remote attacker could exploit one of these vulnerabilities to obtain sensitive information or cause a denial of service. TTCSIRT [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-238-101819-tt-csirt-advisory-bind-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). BIND is the most common implementation of the <strong>DNS protocol</strong> on the Internet. A remote attacker could exploit one of these vulnerabilities to obtain sensitive information or cause a denial of service. TTCSIRT encourages users and administrators to review the following publications from the ISC and implement the recommended remediation strategies:</p>",
+          "text": "The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). BIND is the most common implementation of the DNS protocol on the Internet. A remote attacker could exploit one of these vulnerabilities to obtain sensitive information or cause a denial of service. TTCSIRT encourages users and administrators to review the following publications from the ISC and implement the recommended remediation strategies:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-6475:<br />\n<a href=\"https://kb.isc.org/docs/cve-2019-6475\">https://kb.isc.org/docs/cve-2019-6475<br />\n</a></li>\n<li>CVE-2019-6476:<br />\n<a href=\"https://kb.isc.org/docs/cve-2019-6476\">https://kb.isc.org/docs/cve-2019-6476<br />\n</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.isc.org/docs/cve-2019-6475",
+    "https://kb.isc.org/docs/cve-2019-6476"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-238-101819-tt-csirt-advisory-bind-security-updates/",
+    "upstreamDisclosedAt": "2019-10-18T08:14:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

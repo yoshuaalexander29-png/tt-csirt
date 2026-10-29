@@ -1,0 +1,104 @@
+{
+  "id": "4403",
+  "legacyPostId": 4403,
+  "referenceNumber": "TT-CSIRT #300",
+  "classification": "advisory",
+  "title": "Apple releases security updates",
+  "rawTitle": "TTCSIRT-300.032520: TT-CSIRT ADVISORY- APPLE RELEASES SECURITY UPDATES",
+  "slug": "ttcsirt-300-032520-tt-csirt-advisory-apple-releases-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "25 March 2020",
+  "rawDate": "2020-03-25T14:48:11",
+  "modifiedDate": "25 March 2020",
+  "rawModifiedDate": "2020-03-25T14:48:11",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the Apple security pages for the following products and apply the necessary updates:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>iTunes 12.10.5 for Windows: <a href=\"https://support.apple.com/en-us/HT211105\">https://support.apple.com/en-us/HT211105</a></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>iOS 13.4 and iPadOS 13.4: <a href=\"https://support.apple.com/en-us/HT211102\">https://support.apple.com/en-us/HT211102</a></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>Safari 13.1:      <a href=\"https://support.apple.com/en-us/HT211104\">https://support.apple.com/en-us/HT211104</a></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>watchOS 6.2:      <a href=\"https://support.apple.com/en-us/HT211103\">https://support.apple.com/en-us/HT211103</a></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>tvOS 13.4:      <a href=\"https://support.apple.com/en-us/HT211101\">https://support.apple.com/en-us/HT211101</a>   </li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>macOS Catalina 10.15.4, Security Update 2020-002 Mojave, Security Update      2020-002 High Sierra: <a href=\"https://support.apple.com/en-us/HT211100\">https://support.apple.com/en-us/HT211100</a></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li>Xcode 11.4: <a href=\"https://support.apple.com/en-us/HT211108\">https://support.apple.com/en-us/HT211108</a></li></ul>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the Apple security pages for the following products and apply the necessary updates: [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-300-032520-tt-csirt-advisory-apple-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the Apple security pages for the following products and apply the necessary updates:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review the Apple security pages for the following products and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>iTunes 12.10.5 for Windows: <a href=\"https://support.apple.com/en-us/HT211105\">https://support.apple.com/en-us/HT211105</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>iOS 13.4 and iPadOS 13.4: <a href=\"https://support.apple.com/en-us/HT211102\">https://support.apple.com/en-us/HT211102</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Safari 13.1:      <a href=\"https://support.apple.com/en-us/HT211104\">https://support.apple.com/en-us/HT211104</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>watchOS 6.2:      <a href=\"https://support.apple.com/en-us/HT211103\">https://support.apple.com/en-us/HT211103</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>tvOS 13.4:      <a href=\"https://support.apple.com/en-us/HT211101\">https://support.apple.com/en-us/HT211101</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>macOS Catalina 10.15.4, Security Update 2020-002 Mojave, Security Update      2020-002 High Sierra: <a href=\"https://support.apple.com/en-us/HT211100\">https://support.apple.com/en-us/HT211100</a></li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Xcode 11.4: <a href=\"https://support.apple.com/en-us/HT211108\">https://support.apple.com/en-us/HT211108</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT211105",
+    "https://support.apple.com/en-us/HT211102",
+    "https://support.apple.com/en-us/HT211104",
+    "https://support.apple.com/en-us/HT211103",
+    "https://support.apple.com/en-us/HT211101",
+    "https://support.apple.com/en-us/HT211100",
+    "https://support.apple.com/en-us/HT211108"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-300-032520-tt-csirt-advisory-apple-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-03-25T14:48:11",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

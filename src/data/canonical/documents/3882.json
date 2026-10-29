@@ -1,0 +1,85 @@
+{
+  "id": "3882",
+  "legacyPostId": 3882,
+  "referenceNumber": "TT-CSIRT #243",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-243.110719: TT-CSIRT ADVISORY – CISCO SECURITY UPDATES",
+  "slug": "ttcsirt-243-110719-tt-csirt-advisory-cisco-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from Cisco and apply the necessary solutions. Issues addressed include the following high level vulnerabilities:",
+  "cveList": [
+    "CVE-2019-15958",
+    "CVE-2019-15957",
+    "CVE-2019-15289",
+    "CVE-2019-15288",
+    "CVE-2019-15283",
+    "CVE-2019-15284",
+    "CVE-2019-15285",
+    "CVE-2019-15276",
+    "CVE-2019-15956"
+  ],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:27:32",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:27:32",
+  "contentHtml": "<p>Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from Cisco and apply the necessary solutions. Issues addressed include the following high level vulnerabilities:</p>\n<ul>\n<li>CVE-2019-15958 &#8211; Cisco Prime Infrastructure and Evolved Programmable Network Manager Remote Code Execution Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex<br />\n</a></li>\n<li>CVE-2019-15957 &#8211; Cisco Small Business Routers RV016, RV042, RV042G, RV082, RV320, and RV325 Command Injection Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj<br />\n</a></li>\n<li>CVE-2019-15289 &#8211; Cisco TelePresence Collaboration Endpoint and RoomOS Software Denial of Service Vulnerabilities<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-dos<br />\n</a></li>\n<li>CVE-2019-15288 &#8211; Cisco TelePresence Collaboration Endpoint, TelePresence Codec, and RoomOS Software Privilege Escalation Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc<br />\n</a></li>\n<li>CVE-2019-15283, CVE-2019-15284, CVE-2019-15285 &#8211; Cisco Webex Network Recording Player and Cisco Webex Player Arbitrary Code Execution Vulnerabilities<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-webex-player\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-webex-player<br />\n</a></li>\n<li>CVE-2019-15276 &#8211; Cisco Wireless LAN Controller HTTP Parsing Engine Denial of Service Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wlc-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wlc-dos<br />\n</a></li>\n<li>CVE-2019-15956 &#8211; Cisco Web Security Appliance Unauthorized Device Reset Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset</a></li>\n</ul>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from Cisco and apply the necessary solutions. Issues addressed include the following high level vulnerabilities: CVE-2019-15958 &#8211; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-243-110719-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from Cisco and apply the necessary solutions. Issues addressed include the following high level vulnerabilities:</p>",
+          "text": "Cisco has released security updates to address vulnerabilities in multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from Cisco and apply the necessary solutions. Issues addressed include the following high level vulnerabilities:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-15958 &#8211; Cisco Prime Infrastructure and Evolved Programmable Network Manager Remote Code Execution Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex<br />\n</a></li>\n<li>CVE-2019-15957 &#8211; Cisco Small Business Routers RV016, RV042, RV042G, RV082, RV320, and RV325 Command Injection Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj<br />\n</a></li>\n<li>CVE-2019-15289 &#8211; Cisco TelePresence Collaboration Endpoint and RoomOS Software Denial of Service Vulnerabilities<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-dos<br />\n</a></li>\n<li>CVE-2019-15288 &#8211; Cisco TelePresence Collaboration Endpoint, TelePresence Codec, and RoomOS Software Privilege Escalation Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc<br />\n</a></li>\n<li>CVE-2019-15283, CVE-2019-15284, CVE-2019-15285 &#8211; Cisco Webex Network Recording Player and Cisco Webex Player Arbitrary Code Execution Vulnerabilities<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-webex-player\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-webex-player<br />\n</a></li>\n<li>CVE-2019-15276 &#8211; Cisco Wireless LAN Controller HTTP Parsing Engine Denial of Service Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wlc-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wlc-dos<br />\n</a></li>\n<li>CVE-2019-15956 &#8211; Cisco Web Security Appliance Unauthorized Device Reset Vulnerability<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-dos",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-webex-player",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wlc-dos",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-243-110719-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2019-11-13T08:27:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

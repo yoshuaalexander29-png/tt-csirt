@@ -1,0 +1,118 @@
+{
+  "id": "3750",
+  "legacyPostId": 3750,
+  "referenceNumber": "TT-CSIRT #220",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-220.080619: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-220-080619-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update sting that it has discovered in the following vulnerabilities in Google Chrome:",
+  "cveList": [
+    "CVE-2019-5856",
+    "CVE-2019-5858",
+    "CVE-2019-5864",
+    "CVE-2019-5855",
+    "CVE-2019-5854",
+    "CVE-2019-5853",
+    "CVE-2019-5852"
+  ],
+  "date": "6 August 2019",
+  "rawDate": "2019-08-06T17:53:47",
+  "modifiedDate": "6 August 2019",
+  "rawModifiedDate": "2019-08-06T17:53:47",
+  "contentHtml": "<p>Google has released a security update sting that it has discovered in the following vulnerabilities in Google Chrome:</p>\n<p>a) Insufficient checks on filesystem &#8211; (CVE-2019-5856).</p>\n<p>b) Insufficient filtering of Open URL service parameters &#8211; (CVE-2019-5858).</p>\n<p>c) Insufficient port filtering in CORS for extensions &#8211; (CVE-2019-5864).</p>\n<p>d) Integer overflow in PDFium &#8211; (CVE-2019-5855).</p>\n<p>e) Integer overflow in PDFium text rendering &#8211; (CVE-2019-5854).</p>\n<p>f) Memory corruption in regexp length check &#8211; (CVE-2019-5853).</p>\n<p>g) Object leak of utility functions &#8211; (CVE-2019-5852).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions, perform unauthorized actions or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update sting that it has discovered in the following vulnerabilities in Google Chrome: a) Insufficient checks on filesystem &#8211; (CVE-2019-5856). b)…",
+  "sourceExcerpt": "<p>Google has released a security update sting that it has discovered in the following vulnerabilities in Google Chrome: a) Insufficient checks on filesystem &#8211; (CVE-2019-5856). b) Insufficient filtering of Open URL service parameters &#8211; (CVE-2019-5858). c) Insufficient port filtering in CORS for extensions &#8211; (CVE-2019-5864). d) Integer overflow in PDFium &#8211; (CVE-2019-5855). e) Integer overflow [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-220-080619-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update sting that it has discovered in the following vulnerabilities in Google Chrome:</p>",
+          "text": "Google has released a security update sting that it has discovered in the following vulnerabilities in Google Chrome:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Insufficient checks on filesystem &#8211; (CVE-2019-5856).</p>",
+          "text": "a) Insufficient checks on filesystem – (CVE-2019-5856)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Insufficient filtering of Open URL service parameters &#8211; (CVE-2019-5858).</p>",
+          "text": "b) Insufficient filtering of Open URL service parameters – (CVE-2019-5858)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Insufficient port filtering in CORS for extensions &#8211; (CVE-2019-5864).</p>",
+          "text": "c) Insufficient port filtering in CORS for extensions – (CVE-2019-5864)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Integer overflow in PDFium &#8211; (CVE-2019-5855).</p>",
+          "text": "d) Integer overflow in PDFium – (CVE-2019-5855)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Integer overflow in PDFium text rendering &#8211; (CVE-2019-5854).</p>",
+          "text": "e) Integer overflow in PDFium text rendering – (CVE-2019-5854)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Memory corruption in regexp length check &#8211; (CVE-2019-5853).</p>",
+          "text": "f) Memory corruption in regexp length check – (CVE-2019-5853)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Object leak of utility functions &#8211; (CVE-2019-5852).</p>",
+          "text": "g) Object leak of utility functions – (CVE-2019-5852)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions, perform unauthorized actions or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions, perform unauthorized actions or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Chrome Website at <a href=\"https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html\">https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Google Chrome Website at https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2019/07/stable-channel-update-for-desktop_30.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-220-080619-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2019-08-06T17:53:47",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

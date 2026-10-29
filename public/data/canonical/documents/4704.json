@@ -1,0 +1,83 @@
+{
+  "id": "4704",
+  "legacyPostId": 4704,
+  "referenceNumber": "TT-CSIRT 350.09.03.20",
+  "classification": "advisory",
+  "title": "Ransomware families lockbit, maze headline ransomware",
+  "rawTitle": "TTCSIRT-350.09.03.20: TT-CSIRT ADVISORY – Ransomware families LockBit, Maze headline ransomware",
+  "slug": "ttcsirt-350-09-03-20-tt-csirt-advisory-ransomware-families-lockbit-maze-headline-ransomware",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco Talos Incident Response (CTIR) observed ransomware dominating the threat landscape over the past quarter, according to a new report. Infections involved a wide variety of malware families including LockBit and Maze, among others.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:27:24",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:27:24",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Cisco Talos Incident Response (CTIR) observed ransomware dominating the threat landscape over the past quarter, according to a new report. Infections involved a wide variety of malware families including LockBit and Maze, among others.<br><br>Sixty-six percent of all ransomware attacks this quarter involved the red-teaming framework Cobalt Strike, suggesting that ransomware actors are increasingly relying on the tool as they abandon commodity trojans.<br><br>Actors targeted a broad range of verticals, including manufacturing, education, construction, facility services, food and beverage, energy and utilities, financial services, healthcare, industrial distribution, real estate, technology, and telecommunications.<br><br>The top targeted vertical was manufacturing, a change from last quarter when the top targeted industries were health care and technology.<br><br>For detailed information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=01ead10680&amp;e=64e3bb0ab9\">https://blog.talosintelligence.com/2020/09/CTIR-quarterly-trends-Q4-2020.html</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Cisco Talos Incident Response (CTIR) observed ransomware dominating the threat landscape over the past quarter, according to a new report.",
+  "sourceExcerpt": "<p>Cisco Talos Incident Response (CTIR) observed ransomware dominating the threat landscape over the past quarter, according to a new report. Infections involved a wide variety of malware families including LockBit and Maze, among others. Sixty-six percent of all ransomware attacks this quarter involved the red-teaming framework Cobalt Strike, suggesting that ransomware actors are increasingly relying [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-350-09-03-20-tt-csirt-advisory-ransomware-families-lockbit-maze-headline-ransomware/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco Talos Incident Response (CTIR) observed ransomware dominating the threat landscape over the past quarter, according to a new report. Infections involved a wide variety of malware families including LockBit and Maze, among others.</p>",
+          "text": "Cisco Talos Incident Response (CTIR) observed ransomware dominating the threat landscape over the past quarter, according to a new report. Infections involved a wide variety of malware families including LockBit and Maze, among others."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Sixty-six percent of all ransomware attacks this quarter involved the red-teaming framework Cobalt Strike, suggesting that ransomware actors are increasingly relying on the tool as they abandon commodity trojans.</p>",
+          "text": "Sixty-six percent of all ransomware attacks this quarter involved the red-teaming framework Cobalt Strike, suggesting that ransomware actors are increasingly relying on the tool as they abandon commodity trojans."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Actors targeted a broad range of verticals, including manufacturing, education, construction, facility services, food and beverage, energy and utilities, financial services, healthcare, industrial distribution, real estate, technology, and telecommunications.</p>",
+          "text": "Actors targeted a broad range of verticals, including manufacturing, education, construction, facility services, food and beverage, energy and utilities, financial services, healthcare, industrial distribution, real estate, technology, and telecommunications."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The top targeted vertical was manufacturing, a change from last quarter when the top targeted industries were health care and technology.</p>",
+          "text": "The top targeted vertical was manufacturing, a change from last quarter when the top targeted industries were health care and technology."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For detailed information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=01ead10680&amp;e=64e3bb0ab9\">https://blog.talosintelligence.com/2020/09/CTIR-quarterly-trends-Q4-2020.html</a></p>",
+          "text": "For detailed information and support, please visit the following link: https://blog.talosintelligence.com/2020/09/CTIR-quarterly-trends-Q4-2020.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-350-09-03-20-tt-csirt-advisory-ransomware-families-lockbit-maze-headline-ransomware/",
+    "upstreamDisclosedAt": "2020-09-22T23:27:24",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

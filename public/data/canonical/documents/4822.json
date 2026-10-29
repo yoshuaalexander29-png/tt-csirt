@@ -1,0 +1,75 @@
+{
+  "id": "4822",
+  "legacyPostId": 4822,
+  "referenceNumber": "TT-CSIRT 382.12.03.20",
+  "classification": "advisory",
+  "title": "Mozilla releases security update for thunderbird",
+  "rawTitle": "TTCSIRT-382.12.03.20: TT-CSIRT ADVISORY – Mozilla Releases Security Update for Thunderbird",
+  "slug": "ttcsirt-382-12-03-20-tt-csirt-advisory-mozilla-releases-security-update-for-thunderbird",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update to address a vulnerability in Thunderbird. An attacker could exploit this vulnerability to take control of an affected system.",
+  "cveList": [],
+  "date": "3 December 2020",
+  "rawDate": "2020-12-03T15:13:21",
+  "modifiedDate": "3 December 2020",
+  "rawModifiedDate": "2020-12-03T15:13:21",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Mozilla has released a security update to address a vulnerability in Thunderbird. An attacker could exploit this vulnerability to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that users and administrators to review the Mozilla Security Advisory for and apply the necessary update.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDIuMzE0NDU0MjEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTUzLyJ9.lrfcxdhlmn51zR9KqR0MVine69sA1zS3dA0jmj24p20/s/1193638257/br/90911815764-l\">Thunderbird 78.5.1</a></p>\n",
+  "displaySummary": "Mozilla has released a security update to address a vulnerability in Thunderbird. An attacker could exploit this vulnerability to take control of an affected system.",
+  "sourceExcerpt": "<p>Mozilla has released a security update to address a vulnerability in Thunderbird. An attacker could exploit this vulnerability to take control of an affected system. It is encouraged that users and administrators to review the Mozilla Security Advisory for and apply the necessary update. Please visit the link below:Thunderbird 78.5.1</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-382-12-03-20-tt-csirt-advisory-mozilla-releases-security-update-for-thunderbird/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update to address a vulnerability in Thunderbird. An attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "Mozilla has released a security update to address a vulnerability in Thunderbird. An attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that users and administrators to review the Mozilla Security Advisory for and apply the necessary update.</p>",
+          "text": "It is encouraged that users and administrators to review the Mozilla Security Advisory for and apply the necessary update."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDIuMzE0NDU0MjEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTUzLyJ9.lrfcxdhlmn51zR9KqR0MVine69sA1zS3dA0jmj24p20/s/1193638257/br/90911815764-l\">Thunderbird 78.5.1</a></p>",
+          "text": "Please visit the link below: Thunderbird 78.5.1"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEyMDIuMzE0NDU0MjEiLCJ1cmwiOiJodHRwczovL3d3dy5tb3ppbGxhLm9yZy9lbi1VUy9zZWN1cml0eS9hZHZpc29yaWVzL21mc2EyMDIwLTUzLyJ9.lrfcxdhlmn51zR9KqR0MVine69sA1zS3dA0jmj24p20/s/1193638257/br/90911815764-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-382-12-03-20-tt-csirt-advisory-mozilla-releases-security-update-for-thunderbird/",
+    "upstreamDisclosedAt": "2020-12-03T15:13:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

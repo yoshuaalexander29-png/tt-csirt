@@ -1,0 +1,120 @@
+{
+  "id": "4010",
+  "legacyPostId": 4010,
+  "referenceNumber": "TT-CSIRT #269",
+  "classification": "advisory",
+  "title": "Citrix adds sd-wan wanop, updated mitigations to CVE-2019-19781 advisory",
+  "rawTitle": "TTCSIRT-269.012020: TT-CSIRT ADVISORY- CITRIX ADDS SD-WAN WANOP, UPDATED MITIGATIONS TO CVE-2019-19781 ADVISORY",
+  "slug": "ttcsirt-269-012020-tt-csirt-advisory-citrix-adds-sd-wan-wanop-updated-mitigations-to-cve-2019-19781-advisory",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Citrix has released an article with updates on CVE-2019-19781, a vulnerability affecting Citrix Application Delivery Controller (ADC) and Citrix Gateway.",
+  "cveList": [
+    "CVE-2019-19781"
+  ],
+  "date": "20 January 2020",
+  "rawDate": "2020-01-20T11:41:20",
+  "modifiedDate": "20 January 2020",
+  "rawModifiedDate": "2020-01-20T11:41:20",
+  "contentHtml": "<p>Citrix has released an article with updates on CVE-2019-19781, a vulnerability affecting Citrix Application Delivery Controller (ADC) and Citrix Gateway.</p>\n<p>This vulnerability also affects Citrix SD-WAN WANOP product versions 10.2.6 and version 11.0.3. The article includes updated mitigations for Citrix ADC and Citrix Gateway Release 12.1 build 50.28.</p>\n<p>An attacker could exploit CVE-2019-19781 to take control of an affected system. Citrix plans to begin releasing security updates for affected software starting January 20, 2020.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) recommends users and administrators:</p>\n<ul>\n<li>Review the Citrix article on updates on Citrix ADC, Citrix Gateway vulnerability, published January 17, 2020;</li>\n<li>See Citrix Security Bulletin CTX267027 – Vulnerability in Citrix Application Delivery Controller, Citrix Gateway, and Citrix SD-WAN WANOP appliance;</li>\n<li>Apply the recommended mitigations in CTX267679 – Mitigation Steps for CVE-2019-19781; and</li>\n<li>Verify the successful application of the above mitigations by using the tool in CTX269180 – CVE-2019-19781 – Verification ToolTest.</li>\n</ul>\n<p>&nbsp;</p>\n<p>For further review please see the following links:</p>\n<p><a href=\"https://www.citrix.com/blogs/2020/01/17/citrix-updates-on-citrix-adc-citrix-gateway-vulnerability/\">https://www.citrix.com/blogs/2020/01/17/citrix-updates-on-citrix-adc-citrix-gateway-vulnerability/</a></p>\n<p><a href=\"https://support.citrix.com/article/CTX267027\">https://support.citrix.com/article/CTX267027</a></p>\n<p><a href=\"https://support.citrix.com/article/CTX267679\">https://support.citrix.com/article/CTX267679</a></p>\n<p><a href=\"https://support.citrix.com/article/CTX269180\">https://support.citrix.com/article/CTX269180</a></p>\n",
+  "displaySummary": "Citrix has released an article with updates on CVE-2019-19781, a vulnerability affecting Citrix Application Delivery Controller (ADC) and Citrix Gateway.",
+  "sourceExcerpt": "<p>Citrix has released an article with updates on CVE-2019-19781, a vulnerability affecting Citrix Application Delivery Controller (ADC) and Citrix Gateway. This vulnerability also affects Citrix SD-WAN WANOP product versions 10.2.6 and version 11.0.3. The article includes updated mitigations for Citrix ADC and Citrix Gateway Release 12.1 build 50.28. An attacker could exploit CVE-2019-19781 to take [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-269-012020-tt-csirt-advisory-citrix-adds-sd-wan-wanop-updated-mitigations-to-cve-2019-19781-advisory/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Citrix has released an article with updates on CVE-2019-19781, a vulnerability affecting Citrix Application Delivery Controller (ADC) and Citrix Gateway.</p>",
+          "text": "Citrix has released an article with updates on CVE-2019-19781, a vulnerability affecting Citrix Application Delivery Controller (ADC) and Citrix Gateway."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability also affects Citrix SD-WAN WANOP product versions 10.2.6 and version 11.0.3. The article includes updated mitigations for Citrix ADC and Citrix Gateway Release 12.1 build 50.28.</p>",
+          "text": "This vulnerability also affects Citrix SD-WAN WANOP product versions 10.2.6 and version 11.0.3. The article includes updated mitigations for Citrix ADC and Citrix Gateway Release 12.1 build 50.28."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit CVE-2019-19781 to take control of an affected system. Citrix plans to begin releasing security updates for affected software starting January 20, 2020.</p>",
+          "text": "An attacker could exploit CVE-2019-19781 to take control of an affected system. Citrix plans to begin releasing security updates for affected software starting January 20, 2020."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) recommends users and administrators:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) recommends users and administrators:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Review the Citrix article on updates on Citrix ADC, Citrix Gateway vulnerability, published January 17, 2020;</li>\n<li>See Citrix Security Bulletin CTX267027 – Vulnerability in Citrix Application Delivery Controller, Citrix Gateway, and Citrix SD-WAN WANOP appliance;</li>\n<li>Apply the recommended mitigations in CTX267679 – Mitigation Steps for CVE-2019-19781; and</li>\n<li>Verify the successful application of the above mitigations by using the tool in CTX269180 – CVE-2019-19781 – Verification ToolTest.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.citrix.com/blogs/2020/01/17/citrix-updates-on-citrix-adc-citrix-gateway-vulnerability/\">https://www.citrix.com/blogs/2020/01/17/citrix-updates-on-citrix-adc-citrix-gateway-vulnerability/</a></p>",
+          "text": "https://www.citrix.com/blogs/2020/01/17/citrix-updates-on-citrix-adc-citrix-gateway-vulnerability/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.citrix.com/article/CTX267027\">https://support.citrix.com/article/CTX267027</a></p>",
+          "text": "https://support.citrix.com/article/CTX267027"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.citrix.com/article/CTX267679\">https://support.citrix.com/article/CTX267679</a></p>",
+          "text": "https://support.citrix.com/article/CTX267679"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.citrix.com/article/CTX269180\">https://support.citrix.com/article/CTX269180</a></p>",
+          "text": "https://support.citrix.com/article/CTX269180"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.citrix.com/blogs/2020/01/17/citrix-updates-on-citrix-adc-citrix-gateway-vulnerability/",
+    "https://support.citrix.com/article/CTX267027",
+    "https://support.citrix.com/article/CTX267679",
+    "https://support.citrix.com/article/CTX269180"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-269-012020-tt-csirt-advisory-citrix-adds-sd-wan-wanop-updated-mitigations-to-cve-2019-19781-advisory/",
+    "upstreamDisclosedAt": "2020-01-20T11:41:20",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

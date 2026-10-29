@@ -1,0 +1,75 @@
+{
+  "id": "2821",
+  "legacyPostId": 2821,
+  "referenceNumber": "TT-CSIRT #018",
+  "classification": "advisory",
+  "title": "Joomla security updates",
+  "rawTitle": "TTCSIRT-018.070617: TT-CSIRT Advisory – Joomla Security Updates",
+  "slug": "ttcsirt-018-070617-tt-csirt-advisory-joomla-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Joomla has released version 3.7.3 of its Content Management System software to address several vulnerabilities:",
+  "cveList": [],
+  "date": "6 July 2017",
+  "rawDate": "2017-07-06T14:56:59",
+  "modifiedDate": "6 July 2017",
+  "rawModifiedDate": "2017-07-06T14:56:59",
+  "contentHtml": "<p>Joomla has released version 3.7.3 of its Content Management System software to address several vulnerabilities:</p>\n<p>a) Core &#8211; Information Disclosure affecting Joomla 1.7.3-3.7.2<br />\nb) Core &#8211; XSS Vulnerability affecting Joomla 1.7.3-3.7.2<br />\nc) Core &#8211; XSS Vulnerability affecting Joomla 1.5.0-3.6.5</p>\n<table>\n<tr>\n<td>Further information on these vulnerability updates and fixes can be found on the Joomla Website at <a href=\"https://www.joomla.org/announcements/release-news/5709-joomla-3-7-3-release.html\"><font size=\"2\" color=\"maroon\">https://www.joomla.org/announcements/release-news/5709-joomla-3-7-3-release.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Joomla has released version 3.7.3 of its Content Management System software to address several vulnerabilities: a) Core &#8211; Information Disclosure affecting Joomla 1.7.3-3.7.2 b) Core…",
+  "sourceExcerpt": "<p>Joomla has released version 3.7.3 of its Content Management System software to address several vulnerabilities: a) Core &#8211; Information Disclosure affecting Joomla 1.7.3-3.7.2 b) Core &#8211; XSS Vulnerability affecting Joomla 1.7.3-3.7.2 c) Core &#8211; XSS Vulnerability affecting Joomla 1.5.0-3.6.5 Further information on these vulnerability updates and fixes can be found on the Joomla Website at [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-018-070617-tt-csirt-advisory-joomla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Joomla has released version 3.7.3 of its Content Management System software to address several vulnerabilities:</p>",
+          "text": "Joomla has released version 3.7.3 of its Content Management System software to address several vulnerabilities:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Core &#8211; Information Disclosure affecting Joomla 1.7.3-3.7.2<br />\nb) Core &#8211; XSS Vulnerability affecting Joomla 1.7.3-3.7.2<br />\nc) Core &#8211; XSS Vulnerability affecting Joomla 1.5.0-3.6.5</p>",
+          "text": "a) Core – Information Disclosure affecting Joomla 1.7.3-3.7.2 b) Core – XSS Vulnerability affecting Joomla 1.7.3-3.7.2 c) Core – XSS Vulnerability affecting Joomla 1.5.0-3.6.5"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerability updates and fixes can be found on the Joomla Website at <a href=\"https://www.joomla.org/announcements/release-news/5709-joomla-3-7-3-release.html\">https://www.joomla.org/announcements/release-news/5709-joomla-3-7-3-release.html</a></p>",
+          "text": "Further information on these vulnerability updates and fixes can be found on the Joomla Website at https://www.joomla.org/announcements/release-news/5709-joomla-3-7-3-release.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.joomla.org/announcements/release-news/5709-joomla-3-7-3-release.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-018-070617-tt-csirt-advisory-joomla-security-updates/",
+    "upstreamDisclosedAt": "2017-07-06T14:56:59",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

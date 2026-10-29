@@ -1,0 +1,107 @@
+{
+  "id": "3478",
+  "legacyPostId": 3478,
+  "referenceNumber": "TT-CSIRT #150",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-150.072718: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-150-072718-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "PHP has released a security update stating that the following vulnerabilities have been found in PHP 7:",
+  "cveList": [],
+  "date": "27 July 2018",
+  "rawDate": "2018-07-27T12:11:14",
+  "modifiedDate": "27 July 2018",
+  "rawModifiedDate": "2018-07-27T12:11:14",
+  "contentHtml": "<p>PHP has released a security update stating that the following vulnerabilities have been found in PHP 7:</p>\n<p><b>Ver 7.2.8</b></p>\n<p>Bug #71848 &#8211; Getimagesize with $imageinfo returns false<br />\nBug #73342 &#8211; Vulnerability in php-fpm by changing stdin to non-blocking<br />\nBug #74670 &#8211; Integer underflow when unserializing GMP and possible other classes<br />\nBug #75231 &#8211; ReflectionProperty#getValue() incorrectly works with inherited classes<br />\nBug #76409 &#8211; Heap use after free in _php_stream_free<br />\nBug #76423 &#8211; Int Overflow lead to Heap OverFlow in exif_thumbnail_extract of exif.c<br />\nBug #76459 &#8211; Windows linkinfo lacks openbasedir check<br />\nBug #76461 &#8211; OPSYS_Z_CPM defined instead of OPSYS_CPM<br />\nBug #76462 &#8211; Undefined property: DateInterval::$f<br />\nBug #76477 &#8211; Opcache causes empty return value<br />\nBug #76502 &#8211; Chain of mixed exceptions and errors does not serialize properly<br />\nBug #76505 &#8211; Array_merge_recursive() is duplicating sub-array keys<br />\nBug #76520 &#8211; Object creation leaks memory when executed over HTTP<br />\nBug #76532 &#8211; Integer overflow and excessive memory usage in mb_strimwidth<br />\nBug #76534 &#8211; PHP hangs on &#8216;illegal string offset on string references with an error handler</p>\n<p><b>Ver 7.1.20</b></p>\n<p>Bug #71848 &#8211; getimagesize with $imageinfo returns false<br />\nBug #73342 &#8211; Vulnerability in php-fpm by changing stdin to non-blocking<br />\nBug #74670 &#8211; Integer Underflow when unserializing GMP and possible other classes<br />\nBug #75231 &#8211; ReflectionProperty#getValue() incorrectly works with inherited classes<br />\nBug #76423 &#8211; Int Overflow lead to Heap OverFlow in exif_thumbnail_extract of exif.c<br />\nBug #76459 &#8211; windows linkinfo lacks openbasedir check<br />\nBug #76462 &#8211; Undefined property: DateInterval::$f<br />\nBug #76502 &#8211; Chain of mixed exceptions and errors does not serialize properly<br />\nBug #76505 &#8211; array_merge_recursive() is duplicating sub-array keys<br />\nBug #76532 &#8211; Integer overflow and excessive memory usage in mb_strimwidth<br />\nBug #76534 &#8211; PHP hangs on &#8216;illegal string offset on string references with an error handler<br />\nBug #76536 &#8211; PHP crashes with core dump when throwing exception in error handler<br />\nBug #76548 &#8211; Pg_fetch_result did not fetch the next row<br />\nBug #76556 &#8211; Get_debug_info handler for BreakIterator shows wrong type<br />\nBug #76557 &#8211; Heap-buffer-overflow (READ of size 48) while reading exif data</p>\n<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the TTCSIRT Website at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-083/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-083/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "PHP has released a security update stating that the following vulnerabilities have been found in PHP 7: Ver 7.2.8 Bug #71848 &#8211; Getimagesize with $imageinfo returns false Bug #73342 &#8211;…",
+  "sourceExcerpt": "<p>PHP has released a security update stating that the following vulnerabilities have been found in PHP 7: Ver 7.2.8 Bug #71848 &#8211; Getimagesize with $imageinfo returns false Bug #73342 &#8211; Vulnerability in php-fpm by changing stdin to non-blocking Bug #74670 &#8211; Integer underflow when unserializing GMP and possible other classes Bug #75231 &#8211; ReflectionProperty#getValue() incorrectly [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-150-072718-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>PHP has released a security update stating that the following vulnerabilities have been found in PHP 7:</p>",
+          "text": "PHP has released a security update stating that the following vulnerabilities have been found in PHP 7:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Ver 7.2.8",
+          "id": "ver-728"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #71848 &#8211; Getimagesize with $imageinfo returns false<br />\nBug #73342 &#8211; Vulnerability in php-fpm by changing stdin to non-blocking<br />\nBug #74670 &#8211; Integer underflow when unserializing GMP and possible other classes<br />\nBug #75231 &#8211; ReflectionProperty#getValue() incorrectly works with inherited classes<br />\nBug #76409 &#8211; Heap use after free in _php_stream_free<br />\nBug #76423 &#8211; Int Overflow lead to Heap OverFlow in exif_thumbnail_extract of exif.c<br />\nBug #76459 &#8211; Windows linkinfo lacks openbasedir check<br />\nBug #76461 &#8211; OPSYS_Z_CPM defined instead of OPSYS_CPM<br />\nBug #76462 &#8211; Undefined property: DateInterval::$f<br />\nBug #76477 &#8211; Opcache causes empty return value<br />\nBug #76502 &#8211; Chain of mixed exceptions and errors does not serialize properly<br />\nBug #76505 &#8211; Array_merge_recursive() is duplicating sub-array keys<br />\nBug #76520 &#8211; Object creation leaks memory when executed over HTTP<br />\nBug #76532 &#8211; Integer overflow and excessive memory usage in mb_strimwidth<br />\nBug #76534 &#8211; PHP hangs on &#8216;illegal string offset on string references with an error handler</p>",
+          "text": "Bug #71848 – Getimagesize with $imageinfo returns false Bug #73342 – Vulnerability in php-fpm by changing stdin to non-blocking Bug #74670 – Integer underflow when unserializing GMP and possible other classes Bug #75231 – ReflectionProperty#getValue() incorrectly works with inherited classes Bug #76409 – Heap use after free in _php_stream_free Bug #76423 – Int Overflow lead to Heap OverFlow in exif_thumbnail_extract of exif.c Bug #76459 – Windows linkinfo lacks openbasedir check Bug #76461 – OPSYS_Z_CPM defined instead of OPSYS_CPM Bug #76462 – Undefined property: DateInterval::$f Bug #76477 – Opcache causes empty return value Bug #76502 – Chain of mixed exceptions and errors does not serialize properly Bug #76505 – Array_merge_recursive() is duplicating sub-array keys Bug #76520 – Object creation leaks memory when executed over HTTP Bug #76532 – Integer overflow and excessive memory usage in mb_strimwidth Bug #76534 – PHP hangs on ‘illegal string offset on string references with an error handler"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Ver 7.1.20",
+          "id": "ver-7120"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bug #71848 &#8211; getimagesize with $imageinfo returns false<br />\nBug #73342 &#8211; Vulnerability in php-fpm by changing stdin to non-blocking<br />\nBug #74670 &#8211; Integer Underflow when unserializing GMP and possible other classes<br />\nBug #75231 &#8211; ReflectionProperty#getValue() incorrectly works with inherited classes<br />\nBug #76423 &#8211; Int Overflow lead to Heap OverFlow in exif_thumbnail_extract of exif.c<br />\nBug #76459 &#8211; windows linkinfo lacks openbasedir check<br />\nBug #76462 &#8211; Undefined property: DateInterval::$f<br />\nBug #76502 &#8211; Chain of mixed exceptions and errors does not serialize properly<br />\nBug #76505 &#8211; array_merge_recursive() is duplicating sub-array keys<br />\nBug #76532 &#8211; Integer overflow and excessive memory usage in mb_strimwidth<br />\nBug #76534 &#8211; PHP hangs on &#8216;illegal string offset on string references with an error handler<br />\nBug #76536 &#8211; PHP crashes with core dump when throwing exception in error handler<br />\nBug #76548 &#8211; Pg_fetch_result did not fetch the next row<br />\nBug #76556 &#8211; Get_debug_info handler for BreakIterator shows wrong type<br />\nBug #76557 &#8211; Heap-buffer-overflow (READ of size 48) while reading exif data</p>",
+          "text": "Bug #71848 – getimagesize with $imageinfo returns false Bug #73342 – Vulnerability in php-fpm by changing stdin to non-blocking Bug #74670 – Integer Underflow when unserializing GMP and possible other classes Bug #75231 – ReflectionProperty#getValue() incorrectly works with inherited classes Bug #76423 – Int Overflow lead to Heap OverFlow in exif_thumbnail_extract of exif.c Bug #76459 – windows linkinfo lacks openbasedir check Bug #76462 – Undefined property: DateInterval::$f Bug #76502 – Chain of mixed exceptions and errors does not serialize properly Bug #76505 – array_merge_recursive() is duplicating sub-array keys Bug #76532 – Integer overflow and excessive memory usage in mb_strimwidth Bug #76534 – PHP hangs on ‘illegal string offset on string references with an error handler Bug #76536 – PHP crashes with core dump when throwing exception in error handler Bug #76548 – Pg_fetch_result did not fetch the next row Bug #76556 – Get_debug_info handler for BreakIterator shows wrong type Bug #76557 – Heap-buffer-overflow (READ of size 48) while reading exif data"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successfully exploiting the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the TTCSIRT Website at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-083/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-083/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the TTCSIRT Website at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-083/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "ver-728",
+      "label": "Ver 7.2.8",
+      "isSubItem": true
+    },
+    {
+      "id": "ver-7120",
+      "label": "Ver 7.1.20",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-083/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-150-072718-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2018-07-27T12:11:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

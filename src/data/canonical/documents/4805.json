@@ -1,0 +1,81 @@
+{
+  "id": "4805",
+  "legacyPostId": 4805,
+  "referenceNumber": "TT-CSIRT 376.11.16.20",
+  "classification": "advisory",
+  "title": "Adobe releases security updates",
+  "rawTitle": "TTCSIRT-376.11.16.20: TT-CSIRT ADVISORY – Adobe Releases Security Updates",
+  "slug": "ttcsirt-376-11-16-20-tt-csirt-advisory-adobe-releases-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address vulnerabilities in multiple products.",
+  "cveList": [],
+  "date": "16 November 2020",
+  "rawDate": "2020-11-16T14:53:53",
+  "modifiedDate": "16 November 2020",
+  "rawModifiedDate": "2020-11-16T14:53:53",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Adobe has released security updates to address vulnerabilities in multiple products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that users and administrators, review the Adobe security advisories and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For advisory information and updates, please visit the links below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMjIzOTEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9hZG9iZS1jb25uZWN0L2Nvbm5lY3QtZG93bmxvYWRzLXVwZGF0ZXMuaHRtbCJ9.AX9X2SIpuscwjV-TpHAopXpWK-zVqcOJKhmeBdzjnJ4/s/1193638257/br/88345330261-l\">Adobe Connect</a><br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMjIzOTEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9zZWN1cml0eS9wcm9kdWN0cy9yZWFkZXItbW9iaWxlL2Fwc2IyMC03MS5odG1sIn0.8AeAx03VeNeYjXOWnMXbDWpGen_h7z7fxOl2cnwTBYs/s/1193638257/br/88345330261-l\">Adobe Reader for Android</a></p>\n",
+  "displaySummary": "Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. It is encouraged that users and administrators, review the Adobe security advisories and apply the necessary updates. For advisory information and updates, please visit the links below:Adobe ConnectAdobe Reader for [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-376-11-16-20-tt-csirt-advisory-adobe-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address vulnerabilities in multiple products.</p>",
+          "text": "Adobe has released security updates to address vulnerabilities in multiple products."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that users and administrators, review the Adobe security advisories and apply the necessary updates.</p>",
+          "text": "It is encouraged that users and administrators, review the Adobe security advisories and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For advisory information and updates, please visit the links below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMjIzOTEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9hZG9iZS1jb25uZWN0L2Nvbm5lY3QtZG93bmxvYWRzLXVwZGF0ZXMuaHRtbCJ9.AX9X2SIpuscwjV-TpHAopXpWK-zVqcOJKhmeBdzjnJ4/s/1193638257/br/88345330261-l\">Adobe Connect</a><br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMjIzOTEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9zZWN1cml0eS9wcm9kdWN0cy9yZWFkZXItbW9iaWxlL2Fwc2IyMC03MS5odG1sIn0.8AeAx03VeNeYjXOWnMXbDWpGen_h7z7fxOl2cnwTBYs/s/1193638257/br/88345330261-l\">Adobe Reader for Android</a></p>",
+          "text": "For advisory information and updates, please visit the links below: Adobe Connect Adobe Reader for Android"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMjIzOTEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9hZG9iZS1jb25uZWN0L2Nvbm5lY3QtZG93bmxvYWRzLXVwZGF0ZXMuaHRtbCJ9.AX9X2SIpuscwjV-TpHAopXpWK-zVqcOJKhmeBdzjnJ4/s/1193638257/br/88345330261-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTAuMzAyMjIzOTEiLCJ1cmwiOiJodHRwczovL2hlbHB4LmFkb2JlLmNvbS9zZWN1cml0eS9wcm9kdWN0cy9yZWFkZXItbW9iaWxlL2Fwc2IyMC03MS5odG1sIn0.8AeAx03VeNeYjXOWnMXbDWpGen_h7z7fxOl2cnwTBYs/s/1193638257/br/88345330261-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-376-11-16-20-tt-csirt-advisory-adobe-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-11-16T14:53:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

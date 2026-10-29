@@ -1,0 +1,89 @@
+{
+  "id": "3740",
+  "legacyPostId": 3740,
+  "referenceNumber": "TT-CSIRT #216",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-216.070919: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-216-070919-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that it has found the following issues in the Android OS:",
+  "cveList": [
+    "CVE-2019-2104",
+    "CVE-2019-2105",
+    "CVE-2019-2111"
+  ],
+  "date": "9 July 2019",
+  "rawDate": "2019-07-09T18:43:01",
+  "modifiedDate": "9 July 2019",
+  "rawModifiedDate": "2019-07-09T18:43:01",
+  "contentHtml": "<p>Google has released a security update stating that it has found the following issues in the Android OS:</p>\n<p>a) Framework vulnerability enable a local malicious application to bypass user interaction requirements in order to gain access to additional permissions &#8211; (CVE-2019-2104).</p>\n<p>b) Library vulnerability enable a remote attacker using a specially crafted file to execute arbitrary code within the context of an unprivileged process &#8211; (CVE-2019-2105).</p>\n<p>c) System vulnerability enable a remote attacker using a specially crafted file to execute arbitrary code within the context of a privileged process &#8211; (CVE-2019-2111).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Android Website at <a href=\"https://source.android.com/security/bulletin/2019-07-01.html\"><font size=\"2\" color=\"maroon\">https://source.android.com/security/bulletin/2019-07-01.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that it has found the following issues in the Android OS: a) Framework vulnerability enable a local malicious application to bypass user interaction…",
+  "sourceExcerpt": "<p>Google has released a security update stating that it has found the following issues in the Android OS: a) Framework vulnerability enable a local malicious application to bypass user interaction requirements in order to gain access to additional permissions &#8211; (CVE-2019-2104). b) Library vulnerability enable a remote attacker using a specially crafted file to execute [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-216-070919-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that it has found the following issues in the Android OS:</p>",
+          "text": "Google has released a security update stating that it has found the following issues in the Android OS:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Framework vulnerability enable a local malicious application to bypass user interaction requirements in order to gain access to additional permissions &#8211; (CVE-2019-2104).</p>",
+          "text": "a) Framework vulnerability enable a local malicious application to bypass user interaction requirements in order to gain access to additional permissions – (CVE-2019-2104)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Library vulnerability enable a remote attacker using a specially crafted file to execute arbitrary code within the context of an unprivileged process &#8211; (CVE-2019-2105).</p>",
+          "text": "b) Library vulnerability enable a remote attacker using a specially crafted file to execute arbitrary code within the context of an unprivileged process – (CVE-2019-2105)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) System vulnerability enable a remote attacker using a specially crafted file to execute arbitrary code within the context of a privileged process &#8211; (CVE-2019-2111).</p>",
+          "text": "c) System vulnerability enable a remote attacker using a specially crafted file to execute arbitrary code within the context of a privileged process – (CVE-2019-2111)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Android Website at <a href=\"https://source.android.com/security/bulletin/2019-07-01.html\">https://source.android.com/security/bulletin/2019-07-01.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Android Website at https://source.android.com/security/bulletin/2019-07-01.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://source.android.com/security/bulletin/2019-07-01.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-216-070919-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2019-07-09T18:43:01",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

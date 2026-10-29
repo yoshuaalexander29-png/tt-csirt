@@ -1,0 +1,235 @@
+{
+  "id": "10127",
+  "legacyPostId": 10127,
+  "referenceNumber": "TT-CSIRT #10127",
+  "classification": "alert",
+  "title": "WhatsApp phishing campaign alert",
+  "rawTitle": "WhatsApp Phishing Campaign Alert",
+  "slug": "whatsapp-phishing-campaign-alert",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "TTCSIRT has been made aware of an ongoing WhatsApp phishing campaign targeting users. Attackers are impersonating known contacts to trick victims into compromising their accounts.",
+  "cveList": [],
+  "date": "21 November 2024",
+  "rawDate": "2024-11-21T09:21:08",
+  "modifiedDate": "21 November 2024",
+  "rawModifiedDate": "2024-11-21T09:21:08",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT has been made aware of an ongoing WhatsApp phishing campaign targeting users. Attackers are impersonating known contacts to trick victims into compromising their accounts.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Methods of Attack:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Deceptive Message:</strong> Victims receive messages from seemingly legitimate contacts, often requesting a favor or vote. This message may look like the following:<em> &#8220;Blessings hope all is well with you. Can you do me a favour please? I need your vote as a brand ambassador.&#8221;  </em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>MFA Code Phishing:</strong> The victim is prompted to share a verification code received via SMS or WhatsApp. This code is used to authenticate the user&#8217;s identity and grant the attacker access to the account.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Account Takeover:</strong> Once compromised, the attacker converts the account to a business profile.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Secondary Phishing Attacks:</strong> The attacker leverages the compromised account to launch further phishing attacks on the victim&#8217;s contacts.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img decoding=\"async\" width=\"829\" height=\"767\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image.png\" alt=\"\" class=\"wp-image-10128\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image.png 829w, https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-300x278.png 300w, https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-768x711.png 768w\" sizes=\"(max-width: 829px) 100vw, 829px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT urges the public to continue reporting these cyber-crime incidents to TTPS Cyber-crime and Social Media Unit via the information at the following link:&nbsp;<a href=\"https://ttcsirt.gov.tt/ttps-cyber-crime-unit/\">https://ttcsirt.gov.tt/ttps-cyber-crime-unit/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>About stolen WhatsApp accounts</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">You should never share your WhatsApp SMS verification code with others, not even friends or family. If you’re tricked into sharing your code and lose access to your WhatsApp account, read the instructions below to recover your account.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you suspect someone else is using your WhatsApp account, you should notify family and friends as this individual could impersonate you in chats and groups. Please note, WhatsApp is&nbsp;<a href=\"https://faq.whatsapp.com/general/security-and-privacy/end-to-end-encryption\">end-to-end encrypted</a>&nbsp;and messages are stored on your device, so someone accessing your account on another device can’t read your past conversations.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"683\" height=\"1024\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-1-683x1024.png\" alt=\"\" class=\"wp-image-10129\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-1-683x1024.png 683w, https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-1-200x300.png 200w, https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-1-768x1152.png 768w, https://ttcsirt.gov.tt/wp-content/uploads/2024/11/image-1.png 1024w\" sizes=\"(max-width: 683px) 100vw, 683px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>How to recover your account</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Sign into WhatsApp with your phone number and verify your phone number by entering the 6-digit code you receive via SMS. Learn more about verifying your phone number in our Help Center:&nbsp;<a href=\"https://faq.whatsapp.com/android/verification/verifying-your-number\">Android</a>&nbsp;|&nbsp;<a href=\"https://faq.whatsapp.com/iphone/verification/how-to-verify-your-number\">iPhone</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Once you enter the 6-digit SMS code, the individual using your account is automatically logged out.</p>\n\n\n\n<p class=\"wp-block-paragraph\">You may also be asked to provide a two-step verification code. If you don’t know this code, the individual using your account may have enabled two-step verification. You must wait 7 days before you can sign in without the two-step verification code. Regardless of whether you know this verification code, the other individual was logged out of your account once you entered the 6-digit SMS code. Learn more about two-step verification in this&nbsp;<a href=\"https://faq.whatsapp.com/general/verification/about-two-step-verification\">article</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Note</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>If you have access to your account and suspect someone is using your account via WhatsApp Web/Desktop, we recommend that you <a href=\"https://faq.whatsapp.com/web/download-and-installation/how-to-log-in-or-out\">log out of all computers</a> from your phone.</li>\n\n\n\n<li>To protect your account, WhatsApp will notify you when someone tries to register a WhatsApp account with your phone number. Learn more in <a href=\"https://faq.whatsapp.com/general/received-verification-code-without-requesting-it\">this article</a>.</li>\n\n\n\n<li>Be aware of the phone number of the contact sending you links or requesting information. Ensure the number matches the contact claiming to be.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><u>Resources</u></strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>For more account security tips read our <a href=\"https://faq.whatsapp.com/general/security-and-privacy/account-security-tips\">Account Security Tips article</a>.</li>\n\n\n\n<li>If your phone is lost or stolen, see the article <a href=\"https://faq.whatsapp.com/general/account-and-profile/lost-and-stolen-phones\">Lost and stolen phones</a>.</li>\n\n\n\n<li>If you received a verification code without requesting it, read <a href=\"https://faq.whatsapp.com/general/received-verification-code-without-requesting-it\">this article</a>.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Source:&nbsp;<a href=\"https://faq.whatsapp.com/general/account-and-profile/stolen-accounts/?lang=en\">https://faq.whatsapp.com/general/account-and-profile/stolen-accounts/?lang=en</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Has been made aware of an ongoing WhatsApp phishing campaign targeting users. Attackers are impersonating known contacts to trick victims into compromising their accounts.",
+  "sourceExcerpt": "<p>TTCSIRT has been made aware of an ongoing WhatsApp phishing campaign targeting users. Attackers are impersonating known contacts to trick victims into compromising their accounts. Methods of Attack: Deceptive Message: Victims receive messages from seemingly legitimate contacts, often requesting a favor or vote. This message may look like the following: &#8220;Blessings hope all is well [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/whatsapp-phishing-campaign-alert/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT has been made aware of an ongoing WhatsApp phishing campaign targeting users. Attackers are impersonating known contacts to trick victims into compromising their accounts.</p>",
+          "text": "TTCSIRT has been made aware of an ongoing WhatsApp phishing campaign targeting users. Attackers are impersonating known contacts to trick victims into compromising their accounts."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Methods of attack",
+          "id": "methods-of-attack"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Deceptive message",
+          "id": "deceptive-message"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Victims receive messages from seemingly legitimate contacts, often requesting a favor or vote. This message may look like the following:<em> &#8220;Blessings hope all is well with you. Can you do me a favour please? I need your vote as a brand ambassador.&#8221;  </em></p>",
+          "text": "Victims receive messages from seemingly legitimate contacts, often requesting a favor or vote. This message may look like the following: “Blessings hope all is well with you. Can you do me a favour please? I need your vote as a brand ambassador.”"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "MFA code phishing",
+          "id": "mfa-code-phishing"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The victim is prompted to share a verification code received via SMS or WhatsApp. This code is used to authenticate the user&#8217;s identity and grant the attacker access to the account.</p>",
+          "text": "The victim is prompted to share a verification code received via SMS or WhatsApp. This code is used to authenticate the user’s identity and grant the attacker access to the account."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Account takeover",
+          "id": "account-takeover"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once compromised, the attacker converts the account to a business profile.</p>",
+          "text": "Once compromised, the attacker converts the account to a business profile."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Secondary phishing attacks",
+          "id": "secondary-phishing-attacks"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The attacker leverages the compromised account to launch further phishing attacks on the victim&#8217;s contacts.</p>",
+          "text": "The attacker leverages the compromised account to launch further phishing attacks on the victim’s contacts."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT urges the public to continue reporting these cyber-crime incidents to TTPS Cyber-crime and Social Media Unit via the information at the following link:&nbsp;<a href=\"https://ttcsirt.gov.tt/ttps-cyber-crime-unit/\">https://ttcsirt.gov.tt/ttps-cyber-crime-unit/</a></p>",
+          "text": "TT-CSIRT urges the public to continue reporting these cyber-crime incidents to TTPS Cyber-crime and Social Media Unit via the information at the following link:  https://ttcsirt.gov.tt/ttps-cyber-crime-unit/"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "About stolen whatsapp accounts",
+          "id": "about-stolen-whatsapp-accounts"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>You should never share your WhatsApp SMS verification code with others, not even friends or family. If you’re tricked into sharing your code and lose access to your WhatsApp account, read the instructions below to recover your account.</p>",
+          "text": "You should never share your WhatsApp SMS verification code with others, not even friends or family. If you’re tricked into sharing your code and lose access to your WhatsApp account, read the instructions below to recover your account."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you suspect someone else is using your WhatsApp account, you should notify family and friends as this individual could impersonate you in chats and groups. Please note, WhatsApp is&nbsp;<a href=\"https://faq.whatsapp.com/general/security-and-privacy/end-to-end-encryption\">end-to-end encrypted</a>&nbsp;and messages are stored on your device, so someone accessing your account on another device can’t read your past conversations.</p>",
+          "text": "If you suspect someone else is using your WhatsApp account, you should notify family and friends as this individual could impersonate you in chats and groups. Please note, WhatsApp is  end-to-end encrypted  and messages are stored on your device, so someone accessing your account on another device can’t read your past conversations."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "How to recover your account",
+          "id": "how-to-recover-your-account"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Sign into WhatsApp with your phone number and verify your phone number by entering the 6-digit code you receive via SMS. Learn more about verifying your phone number in our Help Center:&nbsp;<a href=\"https://faq.whatsapp.com/android/verification/verifying-your-number\">Android</a>&nbsp;|&nbsp;<a href=\"https://faq.whatsapp.com/iphone/verification/how-to-verify-your-number\">iPhone</a>.</p>",
+          "text": "Sign into WhatsApp with your phone number and verify your phone number by entering the 6-digit code you receive via SMS. Learn more about verifying your phone number in our Help Center:  Android  |  iPhone ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once you enter the 6-digit SMS code, the individual using your account is automatically logged out.</p>",
+          "text": "Once you enter the 6-digit SMS code, the individual using your account is automatically logged out."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>You may also be asked to provide a two-step verification code. If you don’t know this code, the individual using your account may have enabled two-step verification. You must wait 7 days before you can sign in without the two-step verification code. Regardless of whether you know this verification code, the other individual was logged out of your account once you entered the 6-digit SMS code. Learn more about two-step verification in this&nbsp;<a href=\"https://faq.whatsapp.com/general/verification/about-two-step-verification\">article</a>.</p>",
+          "text": "You may also be asked to provide a two-step verification code. If you don’t know this code, the individual using your account may have enabled two-step verification. You must wait 7 days before you can sign in without the two-step verification code. Regardless of whether you know this verification code, the other individual was logged out of your account once you entered the 6-digit SMS code. Learn more about two-step verification in this  article ."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Note",
+          "id": "note"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>If you have access to your account and suspect someone is using your account via WhatsApp Web/Desktop, we recommend that you <a href=\"https://faq.whatsapp.com/web/download-and-installation/how-to-log-in-or-out\">log out of all computers</a> from your phone.</li>\n\n\n\n<li>To protect your account, WhatsApp will notify you when someone tries to register a WhatsApp account with your phone number. Learn more in <a href=\"https://faq.whatsapp.com/general/received-verification-code-without-requesting-it\">this article</a>.</li>\n\n\n\n<li>Be aware of the phone number of the contact sending you links or requesting information. Ensure the number matches the contact claiming to be.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Resources",
+          "id": "resources"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>For more account security tips read our <a href=\"https://faq.whatsapp.com/general/security-and-privacy/account-security-tips\">Account Security Tips article</a>.</li>\n\n\n\n<li>If your phone is lost or stolen, see the article <a href=\"https://faq.whatsapp.com/general/account-and-profile/lost-and-stolen-phones\">Lost and stolen phones</a>.</li>\n\n\n\n<li>If you received a verification code without requesting it, read <a href=\"https://faq.whatsapp.com/general/received-verification-code-without-requesting-it\">this article</a>.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Source:&nbsp;<a href=\"https://faq.whatsapp.com/general/account-and-profile/stolen-accounts/?lang=en\">https://faq.whatsapp.com/general/account-and-profile/stolen-accounts/?lang=en</a></p>",
+          "text": "Source:  https://faq.whatsapp.com/general/account-and-profile/stolen-accounts/?lang=en"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "methods-of-attack",
+      "label": "Methods of attack",
+      "isSubItem": true
+    },
+    {
+      "id": "deceptive-message",
+      "label": "Deceptive message",
+      "isSubItem": true
+    },
+    {
+      "id": "mfa-code-phishing",
+      "label": "MFA code phishing",
+      "isSubItem": true
+    },
+    {
+      "id": "account-takeover",
+      "label": "Account takeover",
+      "isSubItem": true
+    },
+    {
+      "id": "secondary-phishing-attacks",
+      "label": "Secondary phishing attacks",
+      "isSubItem": true
+    },
+    {
+      "id": "about-stolen-whatsapp-accounts",
+      "label": "About stolen whatsapp accounts",
+      "isSubItem": true
+    },
+    {
+      "id": "how-to-recover-your-account",
+      "label": "How to recover your account",
+      "isSubItem": true
+    },
+    {
+      "id": "note",
+      "label": "Note",
+      "isSubItem": true
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://faq.whatsapp.com/general/security-and-privacy/end-to-end-encryption",
+    "https://faq.whatsapp.com/android/verification/verifying-your-number",
+    "https://faq.whatsapp.com/iphone/verification/how-to-verify-your-number",
+    "https://faq.whatsapp.com/general/verification/about-two-step-verification",
+    "https://faq.whatsapp.com/web/download-and-installation/how-to-log-in-or-out",
+    "https://faq.whatsapp.com/general/received-verification-code-without-requesting-it",
+    "https://faq.whatsapp.com/general/security-and-privacy/account-security-tips",
+    "https://faq.whatsapp.com/general/account-and-profile/lost-and-stolen-phones",
+    "https://faq.whatsapp.com/general/account-and-profile/stolen-accounts/?lang=en"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/whatsapp-phishing-campaign-alert/",
+    "upstreamDisclosedAt": "2024-11-21T09:21:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

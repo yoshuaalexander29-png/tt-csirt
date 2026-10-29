@@ -1,0 +1,77 @@
+{
+  "id": "3603",
+  "legacyPostId": 3603,
+  "referenceNumber": "TT-CSIRT #183",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-183.112118: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-183-112118-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that a vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution.",
+  "cveList": [
+    "CVE-2018-17479"
+  ],
+  "date": "21 November 2018",
+  "rawDate": "2018-11-21T18:53:28",
+  "modifiedDate": "21 November 2018",
+  "rawModifiedDate": "2018-11-21T18:53:28",
+  "contentHtml": "<p>Google has released a security update stating that a vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution.</p>\n<p>This vulnerability is caused by a use-after-free flaw in GPU (CVE-2018-17479).</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Google Website at <a href=\"https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that a vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Google has released a security update stating that a vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution. This vulnerability is caused by a use-after-free flaw in GPU (CVE-2018-17479). Further information on this vulnerability and how it can be mitigated can be found on the Google Website at https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-183-112118-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that a vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution.</p>",
+          "text": "Google has released a security update stating that a vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability is caused by a use-after-free flaw in GPU (CVE-2018-17479).</p>",
+          "text": "This vulnerability is caused by a use-after-free flaw in GPU (CVE-2018-17479)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Google Website at <a href=\"https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html\">https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Google Website at https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2018/11/stable-channel-update-for-desktop_19.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-183-112118-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-11-21T18:53:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

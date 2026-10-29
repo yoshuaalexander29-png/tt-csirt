@@ -1,0 +1,109 @@
+{
+  "id": "4659",
+  "legacyPostId": 4659,
+  "referenceNumber": "TT-CSIRT #328",
+  "classification": "advisory",
+  "title": "27.20: TT-CSIRT advisory- potential legacy risk from malware targeting qnap nas devices",
+  "rawTitle": "TTCSIRT-328.07. 27.20: TT-CSIRT ADVISORY- POTENTIAL LEGACY RISK FROM MALWARE TARGETING QNAP NAS DEVICES",
+  "slug": "ttcsirt-328-07-27-20-tt-csirt-advisory-potential-legacy-risk-from-malware-targeting-qnap-nas-devices",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The United States Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC); are investigating a strain of malware known as QSnatch, which attackers used in late 2019 to target Network Attached Storage (NAS) devices manufactured by the firm QNAP.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:07:33",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:07:33",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The United States Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC); are investigating a strain of malware known as QSnatch, which attackers used in late 2019 to target Network Attached Storage (NAS) devices manufactured by the firm QNAP.  <br><br>All QNAP NAS devices are potentially vulnerable to QSnatch malware if not updated with the latest security fixes.<br>The malware, documented in open-source reports, has infected thousands of devices worldwide with a particularly high number of infections in North America and Europe.<br><br>Further, once a device has been infected, attackers can prevent administrators from successfully running firmware updates.<br><br><strong>Organizations that are still running a vulnerable version must run a full factory reset on the device prior to completing the firmware upgrade</strong> to ensure the device is not left vulnerable.<br><br>The usual checks to ensure that the latest updates are installed still apply.<br><br><strong>To prevent reinfection, this recommendation also applies to devices previously infected with QSnatch but from which the malware has been removed.</strong><br><br>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.<br><br>For further review please see the following link:<br><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=068f548d09&amp;e=64e3bb0ab9\">https://us-cert.cisa.gov/ncas/alerts/aa20-209a</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "The United States Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC); are investigating a strain of malware known as QSnatch,…",
+  "sourceExcerpt": "<p>The United States Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC); are investigating a strain of malware known as QSnatch, which attackers used in late 2019 to target Network Attached Storage (NAS) devices manufactured by the firm QNAP.   All QNAP NAS devices are potentially vulnerable to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-328-07-27-20-tt-csirt-advisory-potential-legacy-risk-from-malware-targeting-qnap-nas-devices/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The United States Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC); are investigating a strain of malware known as QSnatch, which attackers used in late 2019 to target Network Attached Storage (NAS) devices manufactured by the firm QNAP.</p>",
+          "text": "The United States Cyber security and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC); are investigating a strain of malware known as QSnatch, which attackers used in late 2019 to target Network Attached Storage (NAS) devices manufactured by the firm QNAP."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>All QNAP NAS devices are potentially vulnerable to QSnatch malware if not updated with the latest security fixes.<br>The malware, documented in open-source reports, has infected thousands of devices worldwide with a particularly high number of infections in North America and Europe.</p>",
+          "text": "All QNAP NAS devices are potentially vulnerable to QSnatch malware if not updated with the latest security fixes. The malware, documented in open-source reports, has infected thousands of devices worldwide with a particularly high number of infections in North America and Europe."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further, once a device has been infected, attackers can prevent administrators from successfully running firmware updates.</p>",
+          "text": "Further, once a device has been infected, attackers can prevent administrators from successfully running firmware updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Organizations that are still running a vulnerable version must run a full factory reset on the device prior to completing the firmware upgrade</strong> to ensure the device is not left vulnerable.</p>",
+          "text": "Organizations that are still running a vulnerable version must run a full factory reset on the device prior to completing the firmware upgrade to ensure the device is not left vulnerable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The usual checks to ensure that the latest updates are installed still apply.</p>",
+          "text": "The usual checks to ensure that the latest updates are installed still apply."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>To prevent reinfection, this recommendation also applies to devices previously infected with QSnatch but from which the malware has been removed.</strong></p>",
+          "text": "To prevent reinfection, this recommendation also applies to devices previously infected with QSnatch but from which the malware has been removed."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=068f548d09&amp;e=64e3bb0ab9\">https://us-cert.cisa.gov/ncas/alerts/aa20-209a</a></p>",
+          "text": "https://us-cert.cisa.gov/ncas/alerts/aa20-209a"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-328-07-27-20-tt-csirt-advisory-potential-legacy-risk-from-malware-targeting-qnap-nas-devices/",
+    "upstreamDisclosedAt": "2020-09-22T23:07:33",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

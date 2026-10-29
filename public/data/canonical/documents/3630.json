@@ -1,0 +1,82 @@
+{
+  "id": "3630",
+  "legacyPostId": 3630,
+  "referenceNumber": "TT-CSIRT #191",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-191.122718: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-191-122718-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that a remote code execution issue exists in the scripting engine that handles objects in memory in Internet Explorer ver 9, 10 &#038; 11.",
+  "cveList": [
+    "CVE-2018-8653"
+  ],
+  "date": "27 December 2018",
+  "rawDate": "2018-12-27T18:30:14",
+  "modifiedDate": "27 December 2018",
+  "rawModifiedDate": "2018-12-27T18:30:14",
+  "contentHtml": "<p>Microsoft has released a security update stating that a remote code execution issue exists in the scripting engine that handles objects in memory in Internet Explorer ver 9, 10 &#038; 11. </p>\n<p>The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user. </p>\n<p>In a web-based attack scenario, an attacker could host a specially crafted website that is designed to exploit the vulnerability through Internet Explorer and then convince a user to view the website, for example, by sending a phishing email.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8653#ID0EA\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8653#ID0EA</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that a remote code execution issue exists in the scripting engine that handles objects in memory in Internet Explorer ver 9, 10 &#038; 11.",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that a remote code execution issue exists in the scripting engine that handles objects in memory in Internet Explorer ver 9, 10 &#038; 11. The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user. In [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-191-122718-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that a remote code execution issue exists in the scripting engine that handles objects in memory in Internet Explorer ver 9, 10 &#038; 11.</p>",
+          "text": "Microsoft has released a security update stating that a remote code execution issue exists in the scripting engine that handles objects in memory in Internet Explorer ver 9, 10 &#038; 11."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user.</p>",
+          "text": "The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In a web-based attack scenario, an attacker could host a specially crafted website that is designed to exploit the vulnerability through Internet Explorer and then convince a user to view the website, for example, by sending a phishing email.</p>",
+          "text": "In a web-based attack scenario, an attacker could host a specially crafted website that is designed to exploit the vulnerability through Internet Explorer and then convince a user to view the website, for example, by sending a phishing email."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8653#ID0EA\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8653#ID0EA</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8653#ID0EA"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8653#ID0EA"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-191-122718-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2018-12-27T18:30:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

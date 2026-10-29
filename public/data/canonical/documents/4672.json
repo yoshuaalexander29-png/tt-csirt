@@ -1,0 +1,98 @@
+{
+  "id": "4672",
+  "legacyPostId": 4672,
+  "referenceNumber": "TT-CSIRT 334.08.19.20",
+  "classification": "advisory",
+  "title": "Potential remote vulnerability in secure messaging gateway micro focus",
+  "rawTitle": "TTCSIRT-334.08.19.20: TT-CSIRT ADVISORY- POTENTIAL REMOTE VULNERABILITY IN SECURE MESSAGING GATEWAY MICRO FOCUS",
+  "slug": "ttcsirt-334-08-19-20-tt-csirt-advisory-potential-remote-vulnerability-in-secure-messaging-gateway-micro-focus",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A potential vulnerability has been identified in Secure Messaging Gateway.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:16:02",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:16:02",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A potential vulnerability has been identified in Secure Messaging Gateway.<br><br>The Secure Messaging Gateway appliance on SLES had a potential vulnerability in the DKIM key management page.<br><br>A logged in user with rights to generate DKIM key information could inject system commands into the call to the DKIM system command by setting the domain parameter to an injectable string. <br><br>The command is run as the wwwrun user that has restricted rights.<br><br>The cause was due to improper Neutralization of Special Elements in Output Used by a Downstream Component (&#8216;Injection&#8217;)<br><br>The fix available can be found by following the upgrade and migrating instructions utilising the link below:<br><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2d909e18b6&amp;e=64e3bb0ab9\">https://www.novell.com/documentation/secure-messaging-gateway/secure-messaging-gateway/data/migrating_to_sles_appliance.html</a><br><br><br>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.<br><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A potential vulnerability has been identified in Secure Messaging Gateway. The Secure Messaging Gateway appliance on SLES had a potential vulnerability in the DKIM key management page.",
+  "sourceExcerpt": "<p>A potential vulnerability has been identified in Secure Messaging Gateway. The Secure Messaging Gateway appliance on SLES had a potential vulnerability in the DKIM key management page. A logged in user with rights to generate DKIM key information could inject system commands into the call to the DKIM system command by setting the domain parameter [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-334-08-19-20-tt-csirt-advisory-potential-remote-vulnerability-in-secure-messaging-gateway-micro-focus/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A potential vulnerability has been identified in Secure Messaging Gateway.</p>",
+          "text": "A potential vulnerability has been identified in Secure Messaging Gateway."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Secure Messaging Gateway appliance on SLES had a potential vulnerability in the DKIM key management page.</p>",
+          "text": "The Secure Messaging Gateway appliance on SLES had a potential vulnerability in the DKIM key management page."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A logged in user with rights to generate DKIM key information could inject system commands into the call to the DKIM system command by setting the domain parameter to an injectable string.</p>",
+          "text": "A logged in user with rights to generate DKIM key information could inject system commands into the call to the DKIM system command by setting the domain parameter to an injectable string."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The command is run as the wwwrun user that has restricted rights.</p>",
+          "text": "The command is run as the wwwrun user that has restricted rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The cause was due to improper Neutralization of Special Elements in Output Used by a Downstream Component (&#8216;Injection&#8217;)</p>",
+          "text": "The cause was due to improper Neutralization of Special Elements in Output Used by a Downstream Component (‘Injection’)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The fix available can be found by following the upgrade and migrating instructions utilising the link below:</p>",
+          "text": "The fix available can be found by following the upgrade and migrating instructions utilising the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2d909e18b6&amp;e=64e3bb0ab9\">https://www.novell.com/documentation/secure-messaging-gateway/secure-messaging-gateway/data/migrating_to_sles_appliance.html</a></p>",
+          "text": "https://www.novell.com/documentation/secure-messaging-gateway/secure-messaging-gateway/data/migrating_to_sles_appliance.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-334-08-19-20-tt-csirt-advisory-potential-remote-vulnerability-in-secure-messaging-gateway-micro-focus/",
+    "upstreamDisclosedAt": "2020-09-22T23:16:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

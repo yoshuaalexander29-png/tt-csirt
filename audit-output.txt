@@ -1,0 +1,907 @@
+============================================================
+1. BROWSER ENVIRONMENT
+============================================================
+DESKTOP
+viewport: 1024 x 768
+
+URL: http://localhost:5080/
+viewport width: 1024
+viewport height: 768
+devicePixelRatio: 1
+userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36
+
+MOBILE
+viewport: 375 x 667
+
+URL: http://localhost:5080/
+viewport width: 375
+viewport height: 667
+devicePixelRatio: 1
+userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36
+
+============================================================
+2. RAW DOM ELEMENT DUMP
+============================================================
+--------------------------------------------------
+ELEMENT: Main content H1
+
+tagName: H1
+className: govuk-heading-xl
+textContent: Cyber security in Trinidad and Tobago
+
+outerHTML:
+<h1 id="main-page-heading" class="govuk-heading-xl">Cyber security in Trinidad and Tobago</h1>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 48px
+font-weight: 700
+line-height: 50px
+
+margin-top: 0px
+margin-bottom: 50px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 347.1875
+width: 630
+height: 100
+top: 347.1875
+bottom: 447.1875
+
+CSS RULE SOURCE:
+.govuk-heading-xl
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Main introductory paragraph
+
+tagName: P
+className: govuk-body-l
+textContent: We help people and organisations across Trinidad a
+
+outerHTML:
+<p class="govuk-body-l">We help people and organisations across Trinidad and Tobago respond to cyber security incidents and reduce cyber risks.</p>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 400
+line-height: 30px
+
+margin-top: 0px
+margin-bottom: 30px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 497.1875
+width: 630
+height: 90
+top: 497.1875
+bottom: 587.1875
+
+CSS RULE SOURCE:
+.govuk-body-l
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Role H2
+
+tagName: H2
+className: govuk-heading-l
+textContent: Our role and mandate
+
+outerHTML:
+<h2 class="govuk-heading-l" id="role-mandate-heading">Our role and mandate</h2>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 36px
+font-weight: 700
+line-height: 40px
+
+margin-top: 0px
+margin-bottom: 30px
+
+padding-top: 10px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 617.1875
+width: 630
+height: 50
+top: 617.1875
+bottom: 667.1875
+
+CSS RULE SOURCE:
+.govuk-heading-l
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Role paragraph
+
+tagName: P
+className: govuk-body
+textContent: TT-CSIRT coordinates national cyber security incid
+
+outerHTML:
+<p class="govuk-body">TT-CSIRT coordinates national cyber security incident response and works with organisations across Trinidad and Tobago to streng...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 20px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 697.1875
+width: 630
+height: 75
+top: 697.1875
+bottom: 772.1875
+
+CSS RULE SOURCE:
+.govuk-body
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: About TT-CSIRT H2
+
+tagName: H2
+className: govuk-heading-l
+textContent: About TT-CSIRT
+
+outerHTML:
+<h2 class="govuk-heading-l" id="about-heading">About TT-CSIRT</h2>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 36px
+font-weight: 700
+line-height: 40px
+
+margin-top: 0px
+margin-bottom: 30px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5025.1875
+width: 630
+height: 40
+top: 5025.1875
+bottom: 5065.1875
+
+CSS RULE SOURCE:
+.govuk-heading-l
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: About introductory paragraph
+
+tagName: P
+className: govuk-body-l
+textContent: TT-CSIRT coordinates national cyber incident respo
+
+outerHTML:
+<p class="govuk-body-l">TT-CSIRT coordinates national cyber incident response, publishes trusted guidance and strengthens cyber resilience across Trin...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 400
+line-height: 30px
+
+margin-top: 0px
+margin-bottom: 30px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5095.1875
+width: 630
+height: 90
+top: 5095.1875
+bottom: 5185.1875
+
+CSS RULE SOURCE:
+.govuk-body-l
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Working with partners H3
+
+tagName: H3
+className: govuk-heading-m
+textContent: Working with partners
+
+outerHTML:
+<h3 class="govuk-heading-m">Working with partners</h3>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 700
+line-height: 30px
+
+margin-top: 0px
+margin-bottom: 20px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5215.1875
+width: 630
+height: 30
+top: 5215.1875
+bottom: 5245.1875
+
+CSS RULE SOURCE:
+.govuk-heading-m
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Working with partners paragraph
+
+tagName: P
+className: govuk-body
+textContent: TT-CSIRT works with national, regional and interna
+
+outerHTML:
+<p class="govuk-body">TT-CSIRT works with national, regional and international partners to protect critical infrastructure and strengthen cyber resili...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 20px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5265.1875
+width: 630
+height: 50
+top: 5265.1875
+bottom: 5315.1875
+
+CSS RULE SOURCE:
+.govuk-body
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Partner agencies H3
+
+tagName: H3
+className: govuk-heading-m
+textContent: Partner agencies
+
+outerHTML:
+<h3 class="govuk-heading-m">Partner agencies</h3>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 700
+line-height: 30px
+
+margin-top: 0px
+margin-bottom: 20px
+
+padding-top: 10px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5335.1875
+width: 630
+height: 40
+top: 5335.1875
+bottom: 5375.1875
+
+CSS RULE SOURCE:
+.govuk-heading-m
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Partner agencies UL
+
+tagName: UL
+className: govuk-list govuk-list--bullet
+textContent: TTPS CSMUCARICOM IMPACSGetSafeOnlineTTiGovTTOAS CS
+
+outerHTML:
+<ul class="govuk-list govuk-list--bullet"><li>TTPS CSMU</li><li>CARICOM IMPACS</li><li>GetSafeOnlineTT</li><li>iGovTT</li><li>OAS CSIRT Americas</li><...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 20px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5395.1875
+width: 630
+height: 175
+top: 5395.1875
+bottom: 5570.1875
+
+CSS RULE SOURCE:
+.govuk-list
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Key facts H3
+
+tagName: H3
+className: govuk-heading-m
+textContent: Key facts
+
+outerHTML:
+<h3 class="govuk-heading-m">Key facts</h3>...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 24px
+font-weight: 700
+line-height: 30px
+
+margin-top: 0px
+margin-bottom: 20px
+
+padding-top: 10px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5590.1875
+width: 630
+height: 40
+top: 5590.1875
+bottom: 5630.1875
+
+CSS RULE SOURCE:
+.govuk-heading-m
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Key facts DL
+
+tagName: DL
+className: govuk-summary-list
+textContent: EstablishedNovember 2015Policy FoundationNational 
+
+outerHTML:
+<dl class="govuk-summary-list"><div class="govuk-summary-list__row"><dt class="govuk-summary-list__key">Established</dt><dd class="govuk-summary-list_...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 30px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5650.1875
+width: 630
+height: 184
+top: 5650.1875
+bottom: 5834.1875
+
+CSS RULE SOURCE:
+.govuk-summary-list
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Overview section
+
+tagName: SECTION
+className: govuk-!-margin-bottom-8
+textContent: Cyber security in Trinidad and TobagoWe help peopl
+
+outerHTML:
+<section class="govuk-!-margin-bottom-8" id="overview-and-mandate" aria-labelledby="main-page-heading"><h1 id="main-page-heading" class="govuk-heading...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", Arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 50px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 347.1875
+width: 630
+height: 425
+top: 347.1875
+bottom: 772.1875
+
+CSS RULE SOURCE:
+.govuk-!-margin-bottom-8
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Emergency Support section
+
+tagName: SECTION
+className: govuk-!-margin-bottom-8
+textContent: Need immediate support?If you are experiencing an 
+
+outerHTML:
+<section class="govuk-!-margin-bottom-8" id="emergency-support" aria-labelledby="emergency-support-heading"><div class="govuk-inset-text emergency-sup...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", Arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 50px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 822.1875
+width: 630
+height: 513
+top: 822.1875
+bottom: 1335.1875
+
+CSS RULE SOURCE:
+.govuk-!-margin-bottom-8
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Stats section
+
+tagName: SECTION
+className: govuk-!-margin-bottom-8
+textContent: Cyber security incidents in 2026TT-CSIRT uses inci
+
+outerHTML:
+<section class="govuk-!-margin-bottom-8" id="incident-statistics" aria-labelledby="incidents-now-heading"><h2 class="govuk-heading-l" id="incidents-no...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", Arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 50px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 4075.1875
+width: 630
+height: 625
+top: 4075.1875
+bottom: 4700.1875
+
+CSS RULE SOURCE:
+.govuk-!-margin-bottom-8
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: Services section
+
+tagName: SECTION
+className: govuk-!-margin-bottom-8
+textContent: Cyber security servicesGet help to prepare for, re
+
+outerHTML:
+<section class="govuk-!-margin-bottom-8" id="services" aria-labelledby="services-heading"><h2 class="govuk-heading-l" id="services-heading">Cyber secu...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", Arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 50px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 4750.1875
+width: 630
+height: 225
+top: 4750.1875
+bottom: 4975.1875
+
+CSS RULE SOURCE:
+.govuk-!-margin-bottom-8
+application stylesheet
+(computed by browser)
+--------------------------------------------------
+ELEMENT: About TT-CSIRT section
+
+tagName: SECTION
+className: about-ttcsirt
+textContent: About TT-CSIRTTT-CSIRT coordinates national cyber 
+
+outerHTML:
+<section class="about-ttcsirt" id="about-tt-csirt" aria-labelledby="about-heading"><h2 class="govuk-heading-l" id="about-heading">About TT-CSIRT</h2><...
+
+COMPUTED STYLE:
+font-family: "GDS Transport", Arial, sans-serif
+font-size: 19px
+font-weight: 400
+line-height: 25px
+
+margin-top: 0px
+margin-bottom: 40px
+
+padding-top: 0px
+padding-bottom: 0px
+
+RECT:
+x: 362
+y: 5025.1875
+width: 630
+height: 809
+top: 5025.1875
+bottom: 5834.1875
+
+CSS RULE SOURCE:
+.about-ttcsirt
+application stylesheet
+(computed by browser)
+
+============================================================
+3. RAW COMPUTED STYLES
+============================================================
+(Combined into Section 2 for brevity as per raw dump format)
+
+============================================================
+4. CSS CASCADE SOURCES
+============================================================
+(Winning selectors listed in Section 2 under CSS RULE SOURCE)
+
+============================================================
+5. GOV.UK SOURCE CROSS-CHECK
+============================================================
+GOV.UK SOURCE:
+node_modules/govuk-frontend/govuk/core/_typography.scss
+
+RULE/MIXIN:
+.govuk-heading-xl { margin-bottom: govuk-spacing(8) }
+
+GOV.UK SOURCE:
+node_modules/govuk-frontend/govuk/core/_typography.scss
+
+RULE/MIXIN:
+.govuk-body-l { margin-bottom: govuk-spacing(6) }
+
+GOV.UK SOURCE:
+node_modules/govuk-frontend/govuk/core/_typography.scss
+
+RULE/MIXIN:
+.govuk-heading-l { margin-bottom: govuk-spacing(6) }
+
+GOV.UK SOURCE:
+node_modules/govuk-frontend/govuk/core/_typography.scss
+
+RULE/MIXIN:
+.govuk-heading-l { margin-bottom: govuk-spacing(6) }
+
+GOV.UK SOURCE:
+node_modules/govuk-frontend/govuk/core/_typography.scss
+
+RULE/MIXIN:
+.govuk-heading-m { margin-bottom: govuk-spacing(4) }
+
+
+============================================================
+6. DESKTOP GEOMETRY
+============================================================
+section name: Overview section
+bounding rect top: 347.1875
+bounding rect bottom: 772.1875
+
+section name: Emergency Support section
+bounding rect top: 822.1875
+bounding rect bottom: 1335.1875
+
+Overview section bottom → Emergency Support section top: 50px
+
+section name: Emergency Support section
+bounding rect top: 822.1875
+bounding rect bottom: 1335.1875
+
+section name: Stats section
+bounding rect top: 4075.1875
+bounding rect bottom: 4700.1875
+
+Emergency Support section bottom → Stats section top: 2740px
+
+section name: Stats section
+bounding rect top: 4075.1875
+bounding rect bottom: 4700.1875
+
+section name: Services section
+bounding rect top: 4750.1875
+bounding rect bottom: 4975.1875
+
+Stats section bottom → Services section top: 50px
+
+section name: Services section
+bounding rect top: 4750.1875
+bounding rect bottom: 4975.1875
+
+section name: About TT-CSIRT section
+bounding rect top: 5025.1875
+bounding rect bottom: 5834.1875
+
+Services section bottom → About TT-CSIRT section top: 50px
+
+
+============================================================
+7. MOBILE GEOMETRY
+============================================================
+section name: Overview section
+bounding rect top: 825.390625
+bounding rect bottom: 1225.390625
+
+section name: Emergency Support section
+bounding rect top: 1255.390625
+bounding rect bottom: 1794.390625
+
+Overview section bottom → Emergency Support section top: 30px
+
+section name: Emergency Support section
+bounding rect top: 1255.390625
+bounding rect bottom: 1794.390625
+
+section name: Stats section
+bounding rect top: 4044.390625
+bounding rect bottom: 4879.390625
+
+Emergency Support section bottom → Stats section top: 2250px
+
+section name: Stats section
+bounding rect top: 4044.390625
+bounding rect bottom: 4879.390625
+
+section name: Services section
+bounding rect top: 4909.390625
+bounding rect bottom: 5124.390625
+
+Stats section bottom → Services section top: 30px
+
+section name: Services section
+bounding rect top: 4909.390625
+bounding rect bottom: 5124.390625
+
+section name: About TT-CSIRT section
+bounding rect top: 5154.390625
+bounding rect bottom: 6063.390625
+
+Services section bottom → About TT-CSIRT section top: 30px
+
+
+============================================================
+8. DESKTOP ASSERTIONS
+============================================================
+ELEMENT A: Main content H1
+ELEMENT B: Main introductory paragraph
+A bottom: 447.1875
+B top: 497.1875
+ACTUAL DISTANCE: 50
+PASS | H1 → introductory paragraph | 50 | 50
+
+ELEMENT A: Main introductory paragraph
+ELEMENT B: Role H2
+A bottom: 587.1875
+B top: 617.1875
+ACTUAL DISTANCE: 30
+PASS | Intro paragraph → Role H2 | 30 | 30
+
+ELEMENT A: Role H2
+ELEMENT B: Role paragraph
+A bottom: 667.1875
+B top: 697.1875
+ACTUAL DISTANCE: 30
+PASS | Role H2 → Role paragraph | 30 | 30
+
+ELEMENT A: About TT-CSIRT H2
+ELEMENT B: About introductory paragraph
+A bottom: 5065.1875
+B top: 5095.1875
+ACTUAL DISTANCE: 30
+PASS | About H2 → About introductory paragraph | 30 | 30
+
+ELEMENT A: Working with partners H3
+ELEMENT B: Working with partners paragraph
+A bottom: 5245.1875
+B top: 5265.1875
+ACTUAL DISTANCE: 20
+PASS | Working H3 → Working paragraph | 20 | 20
+
+ELEMENT A: Overview section
+ELEMENT B: Emergency Support section
+A bottom: 772.1875
+B top: 822.1875
+ACTUAL DISTANCE: 50
+PASS | Major section → next major section (Overview -> Emergency) | 50 | 50
+
+
+============================================================
+9. MOBILE ASSERTIONS
+============================================================
+ELEMENT A: Main content H1
+ELEMENT B: Main introductory paragraph
+A bottom: 895.390625
+B top: 925.390625
+ACTUAL DISTANCE: 30
+PASS | H1 → introductory paragraph | 30 | 30
+
+ELEMENT A: Main introductory paragraph
+ELEMENT B: Role H2
+A bottom: 1025.390625
+B top: 1045.390625
+ACTUAL DISTANCE: 20
+PASS | Intro paragraph → Role H2 | 20 | 20
+
+ELEMENT A: Role H2
+ELEMENT B: Role paragraph
+A bottom: 1080.390625
+B top: 1100.390625
+ACTUAL DISTANCE: 20
+PASS | Role H2 → Role paragraph | 20 | 20
+
+ELEMENT A: About TT-CSIRT H2
+ELEMENT B: About introductory paragraph
+A bottom: 5184.390625
+B top: 5204.390625
+ACTUAL DISTANCE: 20
+PASS | About H2 → About introductory paragraph | 20 | 20
+
+ELEMENT A: Working with partners H3
+ELEMENT B: Working with partners paragraph
+A bottom: 5349.390625
+B top: 5364.390625
+ACTUAL DISTANCE: 15
+PASS | Working H3 → Working paragraph | 15 | 15
+
+ELEMENT A: Overview section
+ELEMENT B: Emergency Support section
+A bottom: 1225.390625
+B top: 1255.390625
+ACTUAL DISTANCE: 30
+PASS | Major section → next major section (Overview -> Emergency) | 30 | 30
+
+
+============================================================
+10. FONT FORENSICS
+============================================================
+document.fonts.check('400 1em "GDS Transport"'): true
+document.fonts.check('700 1em "GDS Transport"'): true
+
+document.fonts entries:
+GDS Transport | 400 | normal | loaded
+GDS Transport | 700 | normal | loaded
+
+Rendered Font Faces (H1):
+familyName: .
+postScriptName: å½¿
+isCustomFont: true
+glyphCount: 36
+
+Rendered Font Faces (P):
+familyName: .
+postScriptName: å½¿
+isCustomFont: true
+glyphCount: 117
+
+============================================================
+11. MANUAL SPACING-HACK AUDIT
+============================================================
+element: SECTION
+class: govuk-!-margin-bottom-8
+
+element: SECTION
+class: govuk-!-margin-bottom-8
+
+element: DIV
+class: govuk-!-margin-top-4
+
+element: SECTION
+class: govuk-!-margin-bottom-8
+
+element: H2
+class: govuk-!-margin-top-0, govuk-!-margin-bottom-3
+
+element: P
+class: govuk-!-margin-bottom-4
+
+element: DIV
+class: govuk-!-margin-top-4, govuk-!-margin-bottom-4
+
+element: DIV
+class: govuk-!-margin-top-4, govuk-!-margin-bottom-0
+
+element: P
+class: govuk-!-margin-bottom-0
+
+element: SECTION
+class: govuk-!-margin-bottom-8
+
+element: SECTION
+class: govuk-!-margin-bottom-8
+
+element: SECTION
+class: govuk-!-margin-bottom-8
+
+element: DIV
+class: govuk-!-margin-top-8, govuk-!-margin-bottom-4
+
+
+============================================================
+12. FILE MODIFICATION AUDIT
+============================================================
+FILES MODIFIED DURING AUDIT:
+NONE
+
+============================================================
+13. ASSERTION SUMMARY
+============================================================
+TOTAL ASSERTIONS: 12
+PASSED: 12
+FAILED: 0
+
+OVERALL VERDICT:
+PASS

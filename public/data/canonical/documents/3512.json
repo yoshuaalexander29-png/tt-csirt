@@ -1,0 +1,88 @@
+{
+  "id": "3512",
+  "legacyPostId": 3512,
+  "referenceNumber": "TT-CSIRT #158",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-158.081718: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-158-081718-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:",
+  "cveList": [
+    "CVE-2018-12808",
+    "CVE-2018-12799"
+  ],
+  "date": "17 August 2018",
+  "rawDate": "2018-08-17T11:54:10",
+  "modifiedDate": "17 August 2018",
+  "rawModifiedDate": "2018-08-17T11:54:10",
+  "contentHtml": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:</p>\n<p>a) One out-of-bounds vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-12808).</p>\n<p>b) One untrusted pointer deference vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-12799).</p>\n<p>Successful exploitation of these vulnerabilities could result in an attacker executing arbitrary code in the context of the affected application. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-reader-could-allow-for-arbitrary-code-execution-apsb18-29_2018-090/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-reader-could-allow-for-arbitrary-code-execution-apsb18-29_2018-090/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader: a) One out-of-bounds vulnerability that could allow for arbitrary code…",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader: a) One out-of-bounds vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-12808). b) One untrusted pointer deference vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-12799). Successful exploitation of these vulnerabilities could result in [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-158-081718-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:</p>",
+          "text": "Adobe has released a security update stating that the following issues have been discovered in Adobe Acrobat &#038; Reader:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) One out-of-bounds vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-12808).</p>",
+          "text": "a) One out-of-bounds vulnerability that could allow for arbitrary code execution – (CVE-2018-12808)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) One untrusted pointer deference vulnerability that could allow for arbitrary code execution &#8211; (CVE-2018-12799).</p>",
+          "text": "b) One untrusted pointer deference vulnerability that could allow for arbitrary code execution – (CVE-2018-12799)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of these vulnerabilities could result in an attacker executing arbitrary code in the context of the affected application.</p>",
+          "text": "Successful exploitation of these vulnerabilities could result in an attacker executing arbitrary code in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-reader-could-allow-for-arbitrary-code-execution-apsb18-29_2018-090/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-reader-could-allow-for-arbitrary-code-execution-apsb18-29_2018-090/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-reader-could-allow-for-arbitrary-code-execution-apsb18-29_2018-090/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-reader-could-allow-for-arbitrary-code-execution-apsb18-29_2018-090/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-158-081718-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-08-17T11:54:10",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

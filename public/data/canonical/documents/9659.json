@@ -1,0 +1,87 @@
+{
+  "id": "9659",
+  "legacyPostId": 9659,
+  "referenceNumber": "TT-CSIRT 435.26.09.24",
+  "classification": "alert",
+  "title": "Phishing alert",
+  "rawTitle": "TTCSIRT – 435.26.09.24: Phishing Alert",
+  "slug": "ttcsirt-435-26-09-24-phishing-alert",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from a GovNeTT user’s compromised email “akesha.hazel@gov[.]tt’”. In this respect we are advising all persons not to engage with any emails received from the aforementioned email address with the following details:",
+  "cveList": [],
+  "date": "26 September 2024",
+  "rawDate": "2024-09-26T00:08:00",
+  "modifiedDate": "27 September 2024",
+  "rawModifiedDate": "2024-09-27T12:37:04",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from a GovNeTT user’s compromised email “akesha.hazel@gov[.]tt’”. In this respect we are advising all persons not to engage with any emails received from the aforementioned email address with the following details:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Subject: “ATTENTION!!!”</li>\n\n\n\n<li>Hyperlink: “Click here to VERIFY”</li>\n</ul>\n\n\n\n<figure class=\"wp-block-image\"><a href=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/09/GOV-NET-PHIISHING.jpeg\"><img decoding=\"async\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/09/GOV-NET-PHIISHING-295x300.jpeg\" alt=\"\" class=\"wp-image-5785\"/></a></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Persons who receive the email are advised to delete it immediately. If you are unsure about the legitimacy of any email, please contact your in-house IT department for verification.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Email administrators are advised to check their mail systems to determine whether emails with the aforementioned subject are being received or sent and contact the TT-CSIRT if you see suspicious activity via https://ttcsirt.gov.tt/contact-us/</p>\n\n\n\n<p class=\"wp-block-paragraph\">In the event that the URL is opened, a phishing website will be rendered to the user resembling a login page requesting the user’s credentials. Users should not click on the URL or submit information to the form.</p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have submitted your credentials to the website below, you must alert your IT department and change your password immediately. If you have reused this password on other accounts, this must also be changed.</p>\n\n\n\n<figure class=\"wp-block-image\"><a href=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-9.38.34-AM.jpeg\"><img decoding=\"async\" src=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-26-at-9.38.34-AM-300x213.jpeg\" alt=\"\" class=\"wp-image-5786\"/></a></figure>\n",
+  "displaySummary": "Originating from a GovNeTT user’s compromised email “akesha.hazel@gov[.]tt’”.",
+  "sourceExcerpt": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from a GovNeTT user’s compromised email “akesha.hazel@gov[.]tt’”. In this respect we are advising all persons not to engage with any emails received from the aforementioned email address with the following details: Persons who receive the email are advised [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-435-26-09-24-phishing-alert/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from a GovNeTT user’s compromised email “akesha.hazel@gov[.]tt’”. In this respect we are advising all persons not to engage with any emails received from the aforementioned email address with the following details:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is aware of a phishing email originating from a GovNeTT user’s compromised email “akesha.hazel@gov[.]tt’”. In this respect we are advising all persons not to engage with any emails received from the aforementioned email address with the following details:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Subject: “ATTENTION!!!”</li>\n\n\n\n<li>Hyperlink: “Click here to VERIFY”</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Persons who receive the email are advised to delete it immediately. If you are unsure about the legitimacy of any email, please contact your in-house IT department for verification.</p>",
+          "text": "Persons who receive the email are advised to delete it immediately. If you are unsure about the legitimacy of any email, please contact your in-house IT department for verification."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Email administrators are advised to check their mail systems to determine whether emails with the aforementioned subject are being received or sent and contact the TT-CSIRT if you see suspicious activity via https://ttcsirt.gov.tt/contact-us/</p>",
+          "text": "Email administrators are advised to check their mail systems to determine whether emails with the aforementioned subject are being received or sent and contact the TT-CSIRT if you see suspicious activity via https://ttcsirt.gov.tt/contact-us/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In the event that the URL is opened, a phishing website will be rendered to the user resembling a login page requesting the user’s credentials. Users should not click on the URL or submit information to the form.</p>",
+          "text": "In the event that the URL is opened, a phishing website will be rendered to the user resembling a login page requesting the user’s credentials. Users should not click on the URL or submit information to the form."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If you have submitted your credentials to the website below, you must alert your IT department and change your password immediately. If you have reused this password on other accounts, this must also be changed.</p>",
+          "text": "If you have submitted your credentials to the website below, you must alert your IT department and change your password immediately. If you have reused this password on other accounts, this must also be changed."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-435-26-09-24-phishing-alert/",
+    "upstreamDisclosedAt": "2024-09-26T00:08:00",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

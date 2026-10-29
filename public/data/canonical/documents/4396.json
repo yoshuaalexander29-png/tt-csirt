@@ -1,0 +1,75 @@
+{
+  "id": "4396",
+  "legacyPostId": 4396,
+  "referenceNumber": "TT-CSIRT #299",
+  "classification": "advisory",
+  "title": "Adobe releases security update for creative cloud desktop application",
+  "rawTitle": "TTCSIRT-299.032520: TT-CSIRT ADVISORY- ADOBE RELEASES SECURITY UPDATE FOR CREATIVE CLOUD DESKTOP APPLICATION",
+  "slug": "ttcsirt-299-032520-tt-csirt-advisory-adobe-releases-security-update-for-creative-cloud-desktop-application",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update to address a vulnerability in Creative Cloud Desktop Application. An attacker could exploit this vulnerability to take control of an affected system.",
+  "cveList": [],
+  "date": "25 March 2020",
+  "rawDate": "2020-03-25T14:07:59",
+  "modifiedDate": "25 March 2020",
+  "rawModifiedDate": "2020-03-25T14:07:59",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Adobe has released a security update to address a vulnerability in Creative Cloud Desktop Application. An attacker could exploit this vulnerability to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT encourages users and administrators to review Adobe Security Bulletin <strong>APSB20-11 </strong>and apply the necessary update:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html\">https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Adobe has released a security update to address a vulnerability in Creative Cloud Desktop Application. An attacker could exploit this vulnerability to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released a security update to address a vulnerability in Creative Cloud Desktop Application. An attacker could exploit this vulnerability to take control of an affected system. TT-CSIRT encourages users and administrators to review Adobe Security Bulletin APSB20-11 and apply the necessary update: https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-299-032520-tt-csirt-advisory-adobe-releases-security-update-for-creative-cloud-desktop-application/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update to address a vulnerability in Creative Cloud Desktop Application. An attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "Adobe has released a security update to address a vulnerability in Creative Cloud Desktop Application. An attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review Adobe Security Bulletin <strong>APSB20-11 </strong>and apply the necessary update:</p>",
+          "text": "TT-CSIRT encourages users and administrators to review Adobe Security Bulletin APSB20-11 and apply the necessary update:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html\">https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html</a></p>",
+          "text": "https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/creative-cloud/apsb20-11.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-299-032520-tt-csirt-advisory-adobe-releases-security-update-for-creative-cloud-desktop-application/",
+    "upstreamDisclosedAt": "2020-03-25T14:07:59",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

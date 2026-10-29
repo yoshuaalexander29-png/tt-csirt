@@ -1,0 +1,75 @@
+{
+  "id": "3577",
+  "legacyPostId": 3577,
+  "referenceNumber": "TT-CSIRT #176",
+  "classification": "advisory",
+  "title": "Linux security updates",
+  "rawTitle": "TTCSIRT-176.102918: TT-CSIRT Advisory – Linux Security Updates",
+  "slug": "ttcsirt-176-102918-tt-csirt-advisory-linux-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "It has been discovered that several Linux Operating Systems including Red Hat, CentOS, Debian, Ubuntu and OpenBSD can be affected by a serious X.Org vulnerability.",
+  "cveList": [],
+  "date": "29 October 2018",
+  "rawDate": "2018-10-29T16:48:46",
+  "modifiedDate": "29 October 2018",
+  "rawModifiedDate": "2018-10-29T16:48:46",
+  "contentHtml": "<p>It has been discovered that several Linux Operating Systems including Red Hat, CentOS, Debian, Ubuntu and OpenBSD can be affected by a serious X.Org vulnerability.</p>\n<p>This issue is caused by an incorrect command-line parameter validation in the X.org X server which can lead to privilege elevation and/or arbitrary files overwrite especially when the X server is running with elevated privileges (ie when X.org is installed with the setuid bit set and started by a non-root user).</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the X.Org Website at <a href=\"https://lists.x.org/archives/xorg-announce/2018-October/002927.html\"><font size=\"2\" color=\"maroon\">https://lists.x.org/archives/xorg-announce/2018-October/002927.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "It has been discovered that several Linux Operating Systems including Red Hat, CentOS, Debian, Ubuntu and OpenBSD can be affected by a serious X.Org vulnerability.",
+  "sourceExcerpt": "<p>It has been discovered that several Linux Operating Systems including Red Hat, CentOS, Debian, Ubuntu and OpenBSD can be affected by a serious X.Org vulnerability. This issue is caused by an incorrect command-line parameter validation in the X.org X server which can lead to privilege elevation and/or arbitrary files overwrite especially when the X server [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-176-102918-tt-csirt-advisory-linux-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>It has been discovered that several Linux Operating Systems including Red Hat, CentOS, Debian, Ubuntu and OpenBSD can be affected by a serious X.Org vulnerability.</p>",
+          "text": "It has been discovered that several Linux Operating Systems including Red Hat, CentOS, Debian, Ubuntu and OpenBSD can be affected by a serious X.Org vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This issue is caused by an incorrect command-line parameter validation in the X.org X server which can lead to privilege elevation and/or arbitrary files overwrite especially when the X server is running with elevated privileges (ie when X.org is installed with the setuid bit set and started by a non-root user).</p>",
+          "text": "This issue is caused by an incorrect command-line parameter validation in the X.org X server which can lead to privilege elevation and/or arbitrary files overwrite especially when the X server is running with elevated privileges (ie when X.org is installed with the setuid bit set and started by a non-root user)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the X.Org Website at <a href=\"https://lists.x.org/archives/xorg-announce/2018-October/002927.html\">https://lists.x.org/archives/xorg-announce/2018-October/002927.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the X.Org Website at https://lists.x.org/archives/xorg-announce/2018-October/002927.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lists.x.org/archives/xorg-announce/2018-October/002927.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-176-102918-tt-csirt-advisory-linux-security-updates/",
+    "upstreamDisclosedAt": "2018-10-29T16:48:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

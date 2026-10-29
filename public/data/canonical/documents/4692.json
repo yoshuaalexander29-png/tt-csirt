@@ -1,0 +1,72 @@
+{
+  "id": "4692",
+  "legacyPostId": 4692,
+  "referenceNumber": "TT-CSIRT 344.08.24.20",
+  "classification": "advisory",
+  "title": "Isc releases security advisories for bind",
+  "rawTitle": "TTCSIRT-344.08.24.20: TT-CSIRT ADVISORY &#8211; ISC Releases Security Advisories for BIND",
+  "slug": "ttcsirt-344-08-24-20-tt-csirt-advisory-isc-releases-security-advisories-for-bind",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "ISC has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). A remote attacker could exploit these vulnerabilities to cause a denial-of-service condition.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:23:03",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:23:03",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">ISC has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). A remote attacker could exploit these vulnerabilities to cause a denial-of-service condition.<br><br>The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following ISC advisories for more information and to apply the necessary updates.</p>\n\n\n\n<ul class=\"wp-block-list\"><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=31f91fc5b5&amp;e=64e3bb0ab9\">CVE-20-8620</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=cf285b5fe8&amp;e=64e3bb0ab9\">CVE-20-8621</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=5fd39775b8&amp;e=64e3bb0ab9\">CVE-20-8622</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f075ec0580&amp;e=64e3bb0ab9\">CVE-20-8623</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=59fceace6a&amp;e=64e3bb0ab9\">CVE-20-8624</a></li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "ISC has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND).",
+  "sourceExcerpt": "<p>ISC has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). A remote attacker could exploit these vulnerabilities to cause a denial-of-service condition. The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following ISC advisories for more information and to apply the necessary [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-344-08-24-20-tt-csirt-advisory-isc-releases-security-advisories-for-bind/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>ISC has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). A remote attacker could exploit these vulnerabilities to cause a denial-of-service condition.</p>",
+          "text": "ISC has released security advisories that address vulnerabilities affecting multiple versions of ISC Berkeley Internet Name Domain (BIND). A remote attacker could exploit these vulnerabilities to cause a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following ISC advisories for more information and to apply the necessary updates.</p>",
+          "text": "The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and administrators to review the following ISC advisories for more information and to apply the necessary updates."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=31f91fc5b5&amp;e=64e3bb0ab9\">CVE-20-8620</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=cf285b5fe8&amp;e=64e3bb0ab9\">CVE-20-8621</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=5fd39775b8&amp;e=64e3bb0ab9\">CVE-20-8622</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f075ec0580&amp;e=64e3bb0ab9\">CVE-20-8623</a></li><li><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=59fceace6a&amp;e=64e3bb0ab9\">CVE-20-8624</a></li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-344-08-24-20-tt-csirt-advisory-isc-releases-security-advisories-for-bind/",
+    "upstreamDisclosedAt": "2020-09-22T23:23:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

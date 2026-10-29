@@ -1,0 +1,70 @@
+{
+  "id": "3892",
+  "legacyPostId": 3892,
+  "referenceNumber": "TT-CSIRT #245",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-245.111319: TT-CSIRT ADVISORY – VMWARE SECURITY UPDATES",
+  "slug": "ttcsirt-245-111319-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released security updates to address vulnerabilities in ESXi, Workstation, and Fusion. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from VMware and apply the necessary solutions:",
+  "cveList": [],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:32:34",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:32:34",
+  "contentHtml": "<p>Please be advised that VMware has released security updates to address vulnerabilities in ESXi, Workstation, and Fusion. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from VMware and apply the necessary solutions:</p>\n<ul>\n<li>VMSA-2019-0020 &#8211; VMware ESXi, Workstation, and Fusion patches provide Hypervisor-Specific Mitigations for Denial-of-Service and Speculative-Execution Vulnerabilities<br />\n<a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0020.html\">https://www.vmware.com/security/advisories/VMSA-2019-0020.html</a></li>\n<li>VMSA-2019-0021 &#8211; VMware Workstation and Fusion updates address multiple security vulnerabilities <a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0021.html\">https://www.vmware.com/security/advisories/VMSA-2019-0021.html</a></li>\n</ul>\n",
+  "displaySummary": "VMware has released security updates to address vulnerabilities in ESXi, Workstation, and Fusion. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Please be advised that VMware has released security updates to address vulnerabilities in ESXi, Workstation, and Fusion. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from VMware and apply the necessary solutions: VMSA-2019-0020 &#8211; VMware ESXi, Workstation, and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-245-111319-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released security updates to address vulnerabilities in ESXi, Workstation, and Fusion. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from VMware and apply the necessary solutions:</p>",
+          "text": "VMware has released security updates to address vulnerabilities in ESXi, Workstation, and Fusion. An attacker could exploit some of these vulnerabilities to take control of an affected system. TTCSIRT encourages users and administrators to review the following releases from VMware and apply the necessary solutions:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>VMSA-2019-0020 &#8211; VMware ESXi, Workstation, and Fusion patches provide Hypervisor-Specific Mitigations for Denial-of-Service and Speculative-Execution Vulnerabilities<br />\n<a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0020.html\">https://www.vmware.com/security/advisories/VMSA-2019-0020.html</a></li>\n<li>VMSA-2019-0021 &#8211; VMware Workstation and Fusion updates address multiple security vulnerabilities <a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0021.html\">https://www.vmware.com/security/advisories/VMSA-2019-0021.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2019-0020.html",
+    "https://www.vmware.com/security/advisories/VMSA-2019-0021.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-245-111319-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2019-11-13T08:32:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

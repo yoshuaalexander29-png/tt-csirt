@@ -1,0 +1,89 @@
+{
+  "id": "3660",
+  "legacyPostId": 3660,
+  "referenceNumber": "TT-CSIRT #198",
+  "classification": "advisory",
+  "title": "Firefox security updates",
+  "rawTitle": "TTCSIRT-198.020419: TT-CSIRT Advisory – FireFox Security Updates",
+  "slug": "ttcsirt-198-020419-tt-csirt-advisory-firefox-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that the following issues have been discovered in Mozilla FireFox ver 65.0:",
+  "cveList": [
+    "CVE-2018-18504",
+    "CVE-2018-18500",
+    "CVE-2018-18503"
+  ],
+  "date": "4 February 2019",
+  "rawDate": "2019-02-04T17:51:32",
+  "modifiedDate": "4 February 2019",
+  "rawModifiedDate": "2019-02-04T17:51:32",
+  "contentHtml": "<p>Mozilla has released a security update stating that the following issues have been discovered in Mozilla FireFox ver 65.0:</p>\n<p>a) A crash and out-of-bounds read can occur when the buffer of a texture client is freed while it is still in use during graphic operations &#8211; (CVE-2018-18504).</p>\n<p>b) A use-after-free vulnerability can occur while parsing an HTML5 stream in concert with custom HTML elements &#8211; (CVE-2018-18500).</p>\n<p>c) When JavaScript is used to create and manipulate an audio buffer, a potentially exploitable crash may occur because of a compartment mismatch in some situations &#8211; (CVE-2018-18503).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2019-01/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2019-01/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that the following issues have been discovered in Mozilla FireFox ver 65.0: a) A crash and out-of-bounds read can occur when the buffer of a…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that the following issues have been discovered in Mozilla FireFox ver 65.0: a) A crash and out-of-bounds read can occur when the buffer of a texture client is freed while it is still in use during graphic operations &#8211; (CVE-2018-18504). b) A use-after-free vulnerability can occur while parsing [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-198-020419-tt-csirt-advisory-firefox-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that the following issues have been discovered in Mozilla FireFox ver 65.0:</p>",
+          "text": "Mozilla has released a security update stating that the following issues have been discovered in Mozilla FireFox ver 65.0:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A crash and out-of-bounds read can occur when the buffer of a texture client is freed while it is still in use during graphic operations &#8211; (CVE-2018-18504).</p>",
+          "text": "a) A crash and out-of-bounds read can occur when the buffer of a texture client is freed while it is still in use during graphic operations – (CVE-2018-18504)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A use-after-free vulnerability can occur while parsing an HTML5 stream in concert with custom HTML elements &#8211; (CVE-2018-18500).</p>",
+          "text": "b) A use-after-free vulnerability can occur while parsing an HTML5 stream in concert with custom HTML elements – (CVE-2018-18500)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) When JavaScript is used to create and manipulate an audio buffer, a potentially exploitable crash may occur because of a compartment mismatch in some situations &#8211; (CVE-2018-18503).</p>",
+          "text": "c) When JavaScript is used to create and manipulate an audio buffer, a potentially exploitable crash may occur because of a compartment mismatch in some situations – (CVE-2018-18503)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2019-01/\">https://www.mozilla.org/en-US/security/advisories/mfsa2019-01/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2019-01/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2019-01/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-198-020419-tt-csirt-advisory-firefox-security-updates/",
+    "upstreamDisclosedAt": "2019-02-04T17:51:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

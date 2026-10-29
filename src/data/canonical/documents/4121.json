@@ -1,0 +1,75 @@
+{
+  "id": "4121",
+  "legacyPostId": 4121,
+  "referenceNumber": "TT-CSIRT #284",
+  "classification": "advisory",
+  "title": "Google releases security updates for Chrome",
+  "rawTitle": "TTCSIRT-284.022620: TT-CSIRT ADVISORY-GOOGLE RELEASES SECURITY UPDATES FOR CHROME",
+  "slug": "ttcsirt-284-022620-tt-csirt-advisory-google-releases-security-updates-for-chrome",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 80.0.3987.122 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.",
+  "cveList": [],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T08:45:43",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T08:45:43",
+  "contentHtml": "<p><span style=\"font-family: '&amp;quot','serif';\">Google has released Chrome version 80.0.3987.122 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.</span></p>\n<p style=\"margin: 0cm; margin-bottom: .0001pt; text-align: justify; line-height: 150%; box-sizing: border-box; -webkit-text-stroke-width: 0px; word-spacing: 0px;\"><span style=\"font-family: '&amp;quot','serif';\">TT-CSIRT encourages users and administrators to review the Chrome Release and apply the necessary updates.</span></p>\n<p><span lang=\"EN-US\" style=\"font-family: 'Times New Roman','serif';\"><a href=\"https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html\">https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html</a></span></p>\n<p><span lang=\"EN-US\" style=\"font-family: 'Times New Roman','serif';\"> </span></p>\n",
+  "displaySummary": "Google has released Chrome version 80.0.3987.122 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.",
+  "sourceExcerpt": "<p>Google has released Chrome version 80.0.3987.122 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. TT-CSIRT encourages users and administrators to review the Chrome Release and apply the necessary updates. https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html  </p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-284-022620-tt-csirt-advisory-google-releases-security-updates-for-chrome/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><span >Google has released Chrome version 80.0.3987.122 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.</span></p>",
+          "text": "Google has released Chrome version 80.0.3987.122 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span >TT-CSIRT encourages users and administrators to review the Chrome Release and apply the necessary updates.</span></p>",
+          "text": "TT-CSIRT encourages users and administrators to review the Chrome Release and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><span lang=\"EN-US\" ><a href=\"https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html\">https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html</a></span></p>",
+          "text": "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2020/02/stable-channel-update-for-desktop_24.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-284-022620-tt-csirt-advisory-google-releases-security-updates-for-chrome/",
+    "upstreamDisclosedAt": "2020-02-26T08:45:43",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

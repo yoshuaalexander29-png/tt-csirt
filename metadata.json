@@ -1,0 +1,8 @@
+{
+  "name": "TTCSIRT Edutainment Browser Gme",
+  "description": "An educational browser game within the TTCSIRT website for general audiences who may find the game intuitive for learning and teaching guidance",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

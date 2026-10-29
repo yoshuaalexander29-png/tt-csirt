@@ -1,0 +1,75 @@
+{
+  "id": "2876",
+  "legacyPostId": 2876,
+  "referenceNumber": "TT-CSIRT #026",
+  "classification": "advisory",
+  "title": "Joomla security updates",
+  "rawTitle": "TTCSIRT-026.072717: TT-CSIRT Advisory – Joomla Security Updates",
+  "slug": "ttcsirt-026-072617-tt-csirt-advisory-joomla-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Joomla has released version 3.7.4 of its Content Management System software to address several security vulnerabilities in its previous versions:",
+  "cveList": [],
+  "date": "27 July 2017",
+  "rawDate": "2017-07-27T11:02:21",
+  "modifiedDate": "27 July 2017",
+  "rawModifiedDate": "2017-07-27T11:02:21",
+  "contentHtml": "<p>Joomla has released version 3.7.4 of its Content Management System software to address several security vulnerabilities in its previous versions:</p>\n<p>a) Lack of Ownership Verification affecting Joomla! 1.0.0 through Joomla 3.7.3<br />\nb) XSS Vulnerability affecting Joomla! 1.5.0 through Joomla! 3.7.3</p>\n<table>\n<tr>\n<td>For further information on this security update, view the Joomla Website at <a href=\"https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html\"><font size=\"2\" color=\"maroon\">https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Joomla has released version 3.7.4 of its Content Management System software to address several security vulnerabilities in its previous versions: a) Lack of Ownership Verification affecting Joomla!",
+  "sourceExcerpt": "<p>Joomla has released version 3.7.4 of its Content Management System software to address several security vulnerabilities in its previous versions: a) Lack of Ownership Verification affecting Joomla! 1.0.0 through Joomla 3.7.3 b) XSS Vulnerability affecting Joomla! 1.5.0 through Joomla! 3.7.3 For further information on this security update, view the Joomla Website at https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-026-072617-tt-csirt-advisory-joomla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Joomla has released version 3.7.4 of its Content Management System software to address several security vulnerabilities in its previous versions:</p>",
+          "text": "Joomla has released version 3.7.4 of its Content Management System software to address several security vulnerabilities in its previous versions:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Lack of Ownership Verification affecting Joomla! 1.0.0 through Joomla 3.7.3<br />\nb) XSS Vulnerability affecting Joomla! 1.5.0 through Joomla! 3.7.3</p>",
+          "text": "a) Lack of Ownership Verification affecting Joomla! 1.0.0 through Joomla 3.7.3 b) XSS Vulnerability affecting Joomla! 1.5.0 through Joomla! 3.7.3"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information on this security update, view the Joomla Website at <a href=\"https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html\">https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html</a></p>",
+          "text": "For further information on this security update, view the Joomla Website at https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.joomla.org/announcements/release-news/5710-joomla-3-7-4-release.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-026-072617-tt-csirt-advisory-joomla-security-updates/",
+    "upstreamDisclosedAt": "2017-07-27T11:02:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

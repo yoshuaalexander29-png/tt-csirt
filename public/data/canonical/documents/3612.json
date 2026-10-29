@@ -1,0 +1,103 @@
+{
+  "id": "3612",
+  "legacyPostId": 3612,
+  "referenceNumber": "TT-CSIRT #186",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-186.120518: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-186-120518-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that the following issues have been discovered in the Android OS:",
+  "cveList": [
+    "CVE-2018-9547",
+    "CVE-2018-9548",
+    "CVE-2018-9555",
+    "CVE-2018-9556",
+    "CVE-2018-11960",
+    "CVE-2018-11961",
+    "CVE-2018-11963"
+  ],
+  "date": "5 December 2018",
+  "rawDate": "2018-12-05T17:19:16",
+  "modifiedDate": "5 December 2018",
+  "rawModifiedDate": "2018-12-05T17:19:16",
+  "contentHtml": "<p>Google has released a security update stating that the following issues have been discovered in the Android OS:</p>\n<p>a) Elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9547).</p>\n<p>b) Information disclosure vulnerability in Framework &#8211; (CVE-2018-9548).</p>\n<p>c) Multiple arbitrary code execution in System &#8211; (CVE-2018-9555, CVE-2018-9556).</p>\n<p>d) Multiple vulnerabilities in Qualcomm components &#8211; (CVE-2018-11960, CVE-2018-11961, CVE-2018-11963).</p>\n<p>These vulnerabilities could be exploited through multiple methods such as email, web browsing and MMS when processing media files and depending on the privileges associated with the application, an attacker could then install programs, view, change, delete data or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Android Website at <a href=\"https://source.android.com/security/bulletin/2018-12-01.html\"><font size=\"2\" color=\"maroon\">https://source.android.com/security/bulletin/2018-12-01.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that the following issues have been discovered in the Android OS: a) Elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9547). b)…",
+  "sourceExcerpt": "<p>Google has released a security update stating that the following issues have been discovered in the Android OS: a) Elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9547). b) Information disclosure vulnerability in Framework &#8211; (CVE-2018-9548). c) Multiple arbitrary code execution in System &#8211; (CVE-2018-9555, CVE-2018-9556). d) Multiple vulnerabilities in Qualcomm components &#8211; (CVE-2018-11960, CVE-2018-11961, CVE-2018-11963). [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-186-120518-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that the following issues have been discovered in the Android OS:</p>",
+          "text": "Google has released a security update stating that the following issues have been discovered in the Android OS:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Elevation of privilege vulnerability in Framework &#8211; (CVE-2018-9547).</p>",
+          "text": "a) Elevation of privilege vulnerability in Framework – (CVE-2018-9547)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Information disclosure vulnerability in Framework &#8211; (CVE-2018-9548).</p>",
+          "text": "b) Information disclosure vulnerability in Framework – (CVE-2018-9548)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Multiple arbitrary code execution in System &#8211; (CVE-2018-9555, CVE-2018-9556).</p>",
+          "text": "c) Multiple arbitrary code execution in System – (CVE-2018-9555, CVE-2018-9556)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple vulnerabilities in Qualcomm components &#8211; (CVE-2018-11960, CVE-2018-11961, CVE-2018-11963).</p>",
+          "text": "d) Multiple vulnerabilities in Qualcomm components – (CVE-2018-11960, CVE-2018-11961, CVE-2018-11963)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These vulnerabilities could be exploited through multiple methods such as email, web browsing and MMS when processing media files and depending on the privileges associated with the application, an attacker could then install programs, view, change, delete data or create new accounts with full user rights.</p>",
+          "text": "These vulnerabilities could be exploited through multiple methods such as email, web browsing and MMS when processing media files and depending on the privileges associated with the application, an attacker could then install programs, view, change, delete data or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Android Website at <a href=\"https://source.android.com/security/bulletin/2018-12-01.html\">https://source.android.com/security/bulletin/2018-12-01.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Android Website at https://source.android.com/security/bulletin/2018-12-01.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://source.android.com/security/bulletin/2018-12-01.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-186-120518-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2018-12-05T17:19:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

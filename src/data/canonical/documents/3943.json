@@ -1,0 +1,88 @@
+{
+  "id": "3943",
+  "legacyPostId": 3943,
+  "referenceNumber": "TT-CSIRT #257",
+  "classification": "advisory",
+  "title": "SharePoint security update",
+  "rawTitle": "TTCSIRT-257.121919:TT-CSIRT ADVISORY- SHAREPOINT SECURITY UPDATE",
+  "slug": "ttcsirt-257-121919tt-csirt-advisory-sharepoint-security-update",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released out-of-band security updates to address a vulnerability in SharePoint Server. An attacker could exploit this vulnerability to obtain sensitive information.",
+  "cveList": [
+    "CVE-2019-1491"
+  ],
+  "date": "19 December 2019",
+  "rawDate": "2019-12-19T10:19:31",
+  "modifiedDate": "19 December 2019",
+  "rawModifiedDate": "2019-12-19T10:19:31",
+  "contentHtml": "<p>Microsoft has released out-of-band security updates to address a vulnerability in SharePoint Server. An attacker could exploit this vulnerability to obtain sensitive information.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft Security Advisory for CVE-2019-1491 and apply the necessary updates.</p>\n<p>For further review please see the following link:</p>\n<p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1491\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1491</a></p>\n",
+  "displaySummary": "Microsoft has released out-of-band security updates to address a vulnerability in SharePoint Server. An attacker could exploit this vulnerability to obtain sensitive information.",
+  "sourceExcerpt": "<p>Microsoft has released out-of-band security updates to address a vulnerability in SharePoint Server. An attacker could exploit this vulnerability to obtain sensitive information. The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft Security Advisory for CVE-2019-1491 and apply the necessary updates. For further review please see the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-257-121919tt-csirt-advisory-sharepoint-security-update/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released out-of-band security updates to address a vulnerability in SharePoint Server. An attacker could exploit this vulnerability to obtain sensitive information.</p>",
+          "text": "Microsoft has released out-of-band security updates to address a vulnerability in SharePoint Server. An attacker could exploit this vulnerability to obtain sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft Security Advisory for CVE-2019-1491 and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review Microsoft Security Advisory for CVE-2019-1491 and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1491\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1491</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1491"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1491"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-257-121919tt-csirt-advisory-sharepoint-security-update/",
+    "upstreamDisclosedAt": "2019-12-19T10:19:31",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

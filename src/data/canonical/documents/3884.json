@@ -1,0 +1,72 @@
+{
+  "id": "3884",
+  "legacyPostId": 3884,
+  "referenceNumber": "TT-CSIRT #242",
+  "classification": "advisory",
+  "title": "Ransomware response plan",
+  "rawTitle": "TTCSIRT-242.110719: TT-CSIRT ADVISORY – RANSOMWARE RESPONSE PLAN",
+  "slug": "ttcsirt-242-110719-tt-csirt-advisory-ransomware-response-plan",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "In light of the ongoing Emotet malware campaign and the reports of threat actors exploiting the BlueKeep vulnerability, TTCSIRT has developed the following response plan in the event your organization becomes infected with ransomware:",
+  "cveList": [],
+  "date": "13 November 2019",
+  "rawDate": "2019-11-13T08:28:53",
+  "modifiedDate": "13 November 2019",
+  "rawModifiedDate": "2019-11-13T08:28:53",
+  "contentHtml": "<p>In light of the ongoing Emotet malware campaign and the reports of threat actors exploiting the BlueKeep vulnerability, TTCSIRT has developed the following response plan in the event your organization becomes infected with ransomware:</p>\n<ul>\n<li>Isolate the infected computer(s) immediately – Infected systems should be removed from the network as soon as possible to prevent the ransomware from spreading to other systems.</li>\n<li>DO NOT power off infected devices – ransomware encryption keys are sometimes stored in memory. Restarting or shutting down the infected machine my result in your data being permanently lost even if you pay the ransom.</li>\n<li>Immediately secure backup data or systems by taking them offline. Also ensure that backups are not already infected.</li>\n<li>Contact TTCSIRT and the TTPS Cyber Crime Unit immediately upon discovery to report a ransomware event and request assistance.</li>\n</ul>\n<p>This ransomware response plan is meant to be incorporated into your organization’s security incident response and business continuity plan. Organizations should always ensure they have appropriate backups, so their response to an attack will simply be to restore the data from a known clean backup. Having a data backup can eliminate the need to pay a ransom to recover data. TTCSIRT does not encourage paying a ransom to criminal actors.</p>\n",
+  "displaySummary": "In light of the ongoing Emotet malware campaign and the reports of threat actors exploiting the BlueKeep vulnerability, TTCSIRT has developed the following response plan in the event your…",
+  "sourceExcerpt": "<p>In light of the ongoing Emotet malware campaign and the reports of threat actors exploiting the BlueKeep vulnerability, TTCSIRT has developed the following response plan in the event your organization becomes infected with ransomware: Isolate the infected computer(s) immediately – Infected systems should be removed from the network as soon as possible to prevent the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-242-110719-tt-csirt-advisory-ransomware-response-plan/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>In light of the ongoing Emotet malware campaign and the reports of threat actors exploiting the BlueKeep vulnerability, TTCSIRT has developed the following response plan in the event your organization becomes infected with ransomware:</p>",
+          "text": "In light of the ongoing Emotet malware campaign and the reports of threat actors exploiting the BlueKeep vulnerability, TTCSIRT has developed the following response plan in the event your organization becomes infected with ransomware:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Isolate the infected computer(s) immediately – Infected systems should be removed from the network as soon as possible to prevent the ransomware from spreading to other systems.</li>\n<li>DO NOT power off infected devices – ransomware encryption keys are sometimes stored in memory. Restarting or shutting down the infected machine my result in your data being permanently lost even if you pay the ransom.</li>\n<li>Immediately secure backup data or systems by taking them offline. Also ensure that backups are not already infected.</li>\n<li>Contact TTCSIRT and the TTPS Cyber Crime Unit immediately upon discovery to report a ransomware event and request assistance.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This ransomware response plan is meant to be incorporated into your organization’s security incident response and business continuity plan. Organizations should always ensure they have appropriate backups, so their response to an attack will simply be to restore the data from a known clean backup. Having a data backup can eliminate the need to pay a ransom to recover data. TTCSIRT does not encourage paying a ransom to criminal actors.</p>",
+          "text": "This ransomware response plan is meant to be incorporated into your organization’s security incident response and business continuity plan. Organizations should always ensure they have appropriate backups, so their response to an attack will simply be to restore the data from a known clean backup. Having a data backup can eliminate the need to pay a ransom to recover data. TTCSIRT does not encourage paying a ransom to criminal actors."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-242-110719-tt-csirt-advisory-ransomware-response-plan/",
+    "upstreamDisclosedAt": "2019-11-13T08:28:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "3556",
+  "legacyPostId": 3556,
+  "referenceNumber": "TT-CSIRT #171",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-171.100818: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-171-100818-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:",
+  "cveList": [
+    "CVE-2018-9452",
+    "CVE-2018-9490",
+    "CVE-2018-9492",
+    "CVE-2018-9493",
+    "CVE-2018-9491",
+    "CVE-2018-9499",
+    "CVE-2018-9473",
+    "CVE-2018-9496",
+    "CVE-2018-9497",
+    "CVE-2018-9498",
+    "CVE-2018-9502",
+    "CVE-2017-13283",
+    "CVE-2018-9504",
+    "CVE-2018-9511",
+    "CVE-2018-9476",
+    "CVE-2018-9501",
+    "CVE-2018-9513",
+    "CVE-2018-9514",
+    "CVE-2018-9515"
+  ],
+  "date": "8 October 2018",
+  "rawDate": "2018-10-08T11:09:00",
+  "modifiedDate": "8 October 2018",
+  "rawModifiedDate": "2018-10-08T11:09:00",
+  "contentHtml": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:</p>\n<p>a) A denial of service vulnerability in Framework &#8211; (CVE-2018-9452).</p>\n<p>b) Multiple elevation of privilege vulnerabilities in Framework &#8211; (CVE-2018-9490, CVE-2018-9492).</p>\n<p>c) An information disclosure vulnerability in Framework &#8211; (CVE-2018-9493).</p>\n<p>d) A remote code vulnerability in Framework &#8211; (CVE-2018-9491).</p>\n<p>e) An information disclosure vulnerability in Media Framework &#8211; (CVE-2018-9499).</p>\n<p>f) Multiple remote code vulnerabilities in Media Framework &#8211; (CVE-2018-9473, CVE-2018-9496, CVE-2018-9497, CVE-2018-9498).</p>\n<p>g) Multiple information disclosure vulnerabilities in System &#8211; (CVE-2018-9502).</p>\n<p>h) Multiple remote code vulnerabilities in System &#8211; (CVE-2017-13283, CVE-2018-9504).</p>\n<p>i) A denial of service vulnerability in System &#8211; (CVE-2018-9511).</p>\n<p>j) Multiple elevation of privilege vulnerabilities in System &#8211; (CVE-2018-9476, CVE-2018-9501).</p>\n<p>k) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2018-9513, CVE-2018-9514, CVE-2018-9515).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution in the context of a privileged process.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-108/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-108/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System: a) A denial of service vulnerability in Framework &#8211;…",
+  "sourceExcerpt": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System: a) A denial of service vulnerability in Framework &#8211; (CVE-2018-9452). b) Multiple elevation of privilege vulnerabilities in Framework &#8211; (CVE-2018-9490, CVE-2018-9492). c) An information disclosure vulnerability in Framework &#8211; (CVE-2018-9493). d) A remote code vulnerability in [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-171-100818-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:</p>",
+          "text": "Google has released a security update stating that the following vulnerabilities have been discovered in the Android Operating System:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A denial of service vulnerability in Framework &#8211; (CVE-2018-9452).</p>",
+          "text": "a) A denial of service vulnerability in Framework – (CVE-2018-9452)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Multiple elevation of privilege vulnerabilities in Framework &#8211; (CVE-2018-9490, CVE-2018-9492).</p>",
+          "text": "b) Multiple elevation of privilege vulnerabilities in Framework – (CVE-2018-9490, CVE-2018-9492)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An information disclosure vulnerability in Framework &#8211; (CVE-2018-9493).</p>",
+          "text": "c) An information disclosure vulnerability in Framework – (CVE-2018-9493)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) A remote code vulnerability in Framework &#8211; (CVE-2018-9491).</p>",
+          "text": "d) A remote code vulnerability in Framework – (CVE-2018-9491)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) An information disclosure vulnerability in Media Framework &#8211; (CVE-2018-9499).</p>",
+          "text": "e) An information disclosure vulnerability in Media Framework – (CVE-2018-9499)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Multiple remote code vulnerabilities in Media Framework &#8211; (CVE-2018-9473, CVE-2018-9496, CVE-2018-9497, CVE-2018-9498).</p>",
+          "text": "f) Multiple remote code vulnerabilities in Media Framework – (CVE-2018-9473, CVE-2018-9496, CVE-2018-9497, CVE-2018-9498)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Multiple information disclosure vulnerabilities in System &#8211; (CVE-2018-9502).</p>",
+          "text": "g) Multiple information disclosure vulnerabilities in System – (CVE-2018-9502)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Multiple remote code vulnerabilities in System &#8211; (CVE-2017-13283, CVE-2018-9504).</p>",
+          "text": "h) Multiple remote code vulnerabilities in System – (CVE-2017-13283, CVE-2018-9504)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) A denial of service vulnerability in System &#8211; (CVE-2018-9511).</p>",
+          "text": "i) A denial of service vulnerability in System – (CVE-2018-9511)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Multiple elevation of privilege vulnerabilities in System &#8211; (CVE-2018-9476, CVE-2018-9501).</p>",
+          "text": "j) Multiple elevation of privilege vulnerabilities in System – (CVE-2018-9476, CVE-2018-9501)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Multiple elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2018-9513, CVE-2018-9514, CVE-2018-9515).</p>",
+          "text": "k) Multiple elevation of privilege vulnerabilities in Kernel components – (CVE-2018-9513, CVE-2018-9514, CVE-2018-9515)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution in the context of a privileged process.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution in the context of a privileged process."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-108/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-108/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-108/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2018-108/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-171-100818-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2018-10-08T11:09:00",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "4471",
+  "legacyPostId": 4471,
+  "referenceNumber": "TT-CSIRT #308",
+  "classification": "advisory",
+  "title": "Oracle critical patch update",
+  "rawTitle": "TTCSIRT-308.041520: TT-CSIRT ADVISORY – ORACLE CRITICAL PATCH UPDATE",
+  "slug": "ttcsirt-308-041520-tt-csirt-advisory-oracle-critical-patch-update",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A Critical Patch Update is a collection of patches for multiple security vulnerabilities.",
+  "cveList": [],
+  "date": "15 April 2020",
+  "rawDate": "2020-04-15T17:29:41",
+  "modifiedDate": "15 April 2020",
+  "rawModifiedDate": "2020-04-15T17:29:41",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A Critical Patch Update is a collection of patches for multiple security vulnerabilities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">These patches are usually cumulative, but each advisory describes only the security patches added since the previous Critical Patch Update advisory.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Thus, prior Critical Patch Update advisories should be reviewed for information regarding earlier published security patches.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please refer to the following link for Critical Patch Updates, Security Alerts and Bulletins regarding Oracle Security Advisories:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.oracle.com/security-alerts/\">https://www.oracle.com/security-alerts/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"> A more comprehensive breakdown of the multiple affected products and patch information can be viewed utilising the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.oracle.com/security-alerts/cpuapr2020.html\">https://www.oracle.com/security-alerts/cpuapr2020.html</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "A Critical Patch Update is a collection of patches for multiple security vulnerabilities.",
+  "sourceExcerpt": "<p>A Critical Patch Update is a collection of patches for multiple security vulnerabilities. These patches are usually cumulative, but each advisory describes only the security patches added since the previous Critical Patch Update advisory. Thus, prior Critical Patch Update advisories should be reviewed for information regarding earlier published security patches. Please refer to the following [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-308-041520-tt-csirt-advisory-oracle-critical-patch-update/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A Critical Patch Update is a collection of patches for multiple security vulnerabilities.</p>",
+          "text": "A Critical Patch Update is a collection of patches for multiple security vulnerabilities."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These patches are usually cumulative, but each advisory describes only the security patches added since the previous Critical Patch Update advisory.</p>",
+          "text": "These patches are usually cumulative, but each advisory describes only the security patches added since the previous Critical Patch Update advisory."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Thus, prior Critical Patch Update advisories should be reviewed for information regarding earlier published security patches.</p>",
+          "text": "Thus, prior Critical Patch Update advisories should be reviewed for information regarding earlier published security patches."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please refer to the following link for Critical Patch Updates, Security Alerts and Bulletins regarding Oracle Security Advisories:</p>",
+          "text": "Please refer to the following link for Critical Patch Updates, Security Alerts and Bulletins regarding Oracle Security Advisories:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.oracle.com/security-alerts/\">https://www.oracle.com/security-alerts/</a></p>",
+          "text": "https://www.oracle.com/security-alerts/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A more comprehensive breakdown of the multiple affected products and patch information can be viewed utilising the link below:</p>",
+          "text": "A more comprehensive breakdown of the multiple affected products and patch information can be viewed utilising the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.oracle.com/security-alerts/cpuapr2020.html\">https://www.oracle.com/security-alerts/cpuapr2020.html</a></p>",
+          "text": "https://www.oracle.com/security-alerts/cpuapr2020.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.oracle.com/security-alerts/",
+    "https://www.oracle.com/security-alerts/cpuapr2020.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-308-041520-tt-csirt-advisory-oracle-critical-patch-update/",
+    "upstreamDisclosedAt": "2020-04-15T17:29:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

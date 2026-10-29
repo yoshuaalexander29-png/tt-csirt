@@ -1,0 +1,95 @@
+{
+  "id": "3470",
+  "legacyPostId": 3470,
+  "referenceNumber": "TT-CSIRT #147",
+  "classification": "advisory",
+  "title": "Apache security updates",
+  "rawTitle": "TTCSIRT-147.072418: TT-CSIRT Advisory – Apache Security Updates",
+  "slug": "ttcsirt-147-072418-tt-csirt-advisory-apache-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apache has released a security update stating that it has discovered the following vulnerabilities in all versions of Apache Tomcat 9.0 and above:",
+  "cveList": [
+    "CVE-2018-8037",
+    "CVE-2018-1336",
+    "CVE-2017-12617",
+    "CVE-2017-7675"
+  ],
+  "date": "24 July 2018",
+  "rawDate": "2018-07-24T12:28:16",
+  "modifiedDate": "24 July 2018",
+  "rawModifiedDate": "2018-07-24T12:28:16",
+  "contentHtml": "<p>Apache has released a security update stating that it has discovered the following vulnerabilities in all versions of Apache Tomcat 9.0 and above:</p>\n<p>a) Due to a mishandling of close in NIO/NIO2 connectors user sessions can get mixed up &#8211; CVE-2018-8037.</p>\n<p>b) A bug in the UTF-8 decoder can lead to Denial of Service (DoS) attackts &#8211; CVE-2018-1336.</p>\n<p>c) When running with HTTP PUTs enabled, an attacker could upload a JSP file to the server via a specially crafted request thereby allowing any code contained in it to be executed by the server &#8211; CVE-2017-12617.</p>\n<p>d) The HTTP/2 implementation allows an attacker to bypass a number of security checks that prevented directory traversal attacks &#8211;  CVE-2017-7675.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Apache Tomcat Website at <a href=\"https://tomcat.apache.org/security-9.html\"><font size=\"2\" color=\"maroon\">https://tomcat.apache.org/security-9.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apache has released a security update stating that it has discovered the following vulnerabilities in all versions of Apache Tomcat 9.0 and above: a) Due to a mishandling of close in NIO/NIO2…",
+  "sourceExcerpt": "<p>Apache has released a security update stating that it has discovered the following vulnerabilities in all versions of Apache Tomcat 9.0 and above: a) Due to a mishandling of close in NIO/NIO2 connectors user sessions can get mixed up &#8211; CVE-2018-8037. b) A bug in the UTF-8 decoder can lead to Denial of Service (DoS) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-147-072418-tt-csirt-advisory-apache-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apache has released a security update stating that it has discovered the following vulnerabilities in all versions of Apache Tomcat 9.0 and above:</p>",
+          "text": "Apache has released a security update stating that it has discovered the following vulnerabilities in all versions of Apache Tomcat 9.0 and above:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Due to a mishandling of close in NIO/NIO2 connectors user sessions can get mixed up &#8211; CVE-2018-8037.</p>",
+          "text": "a) Due to a mishandling of close in NIO/NIO2 connectors user sessions can get mixed up – CVE-2018-8037."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A bug in the UTF-8 decoder can lead to Denial of Service (DoS) attackts &#8211; CVE-2018-1336.</p>",
+          "text": "b) A bug in the UTF-8 decoder can lead to Denial of Service (DoS) attackts – CVE-2018-1336."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) When running with HTTP PUTs enabled, an attacker could upload a JSP file to the server via a specially crafted request thereby allowing any code contained in it to be executed by the server &#8211; CVE-2017-12617.</p>",
+          "text": "c) When running with HTTP PUTs enabled, an attacker could upload a JSP file to the server via a specially crafted request thereby allowing any code contained in it to be executed by the server – CVE-2017-12617."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) The HTTP/2 implementation allows an attacker to bypass a number of security checks that prevented directory traversal attacks &#8211;  CVE-2017-7675.</p>",
+          "text": "d) The HTTP/2 implementation allows an attacker to bypass a number of security checks that prevented directory traversal attacks – CVE-2017-7675."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Apache Tomcat Website at <a href=\"https://tomcat.apache.org/security-9.html\">https://tomcat.apache.org/security-9.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Apache Tomcat Website at https://tomcat.apache.org/security-9.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tomcat.apache.org/security-9.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-147-072418-tt-csirt-advisory-apache-security-updates/",
+    "upstreamDisclosedAt": "2018-07-24T12:28:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

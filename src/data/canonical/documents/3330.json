@@ -1,0 +1,75 @@
+{
+  "id": "3330",
+  "legacyPostId": 3330,
+  "referenceNumber": "TT-CSIRT #115",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-115.050918: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-115-050918-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that a vulnerability has been discovered in Adobe Flash Player which could allow for arbitrary code execution due to type confusion error.",
+  "cveList": [],
+  "date": "9 May 2018",
+  "rawDate": "2018-05-09T11:48:26",
+  "modifiedDate": "9 May 2018",
+  "rawModifiedDate": "2018-05-09T11:48:26",
+  "contentHtml": "<p>Adobe has released a security update stating that a vulnerability has been discovered in Adobe Flash Player which could allow for arbitrary code execution due to type confusion error. </p>\n<p>Depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data or create new accounts with full user rights. However, users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-16_2018-052/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-16_2018-052/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that a vulnerability has been discovered in Adobe Flash Player which could allow for arbitrary code execution due to type confusion error.",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that a vulnerability has been discovered in Adobe Flash Player which could allow for arbitrary code execution due to type confusion error. Depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data or create new accounts with full user rights. [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-115-050918-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that a vulnerability has been discovered in Adobe Flash Player which could allow for arbitrary code execution due to type confusion error.</p>",
+          "text": "Adobe has released a security update stating that a vulnerability has been discovered in Adobe Flash Player which could allow for arbitrary code execution due to type confusion error."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data or create new accounts with full user rights. However, users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+          "text": "Depending on the privileges associated with the user, an attacker could then install programs, view, change, delete data or create new accounts with full user rights. However, users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-16_2018-052/\">https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-16_2018-052/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found at https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-16_2018-052/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-adobe-flash-player-could-allow-for-arbitrary-code-execution-apsb18-16_2018-052/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-115-050918-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-05-09T11:48:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "4678",
+  "legacyPostId": 4678,
+  "referenceNumber": "TT-CSIRT 337.08.19.20",
+  "classification": "advisory",
+  "title": "Microsoft internet explorer scripting engine memory corruption",
+  "rawTitle": "TTCSIRT-337.08.19.20: TT-CSIRT ADVISORY – Microsoft Internet Explorer Scripting Engine Memory Corruption",
+  "slug": "ttcsirt-337-08-19-20-tt-csirt-advisory-microsoft-internet-explorer-scripting-engine-memory-corruption",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user.",
+  "cveList": [
+    "CVE-2020-1570"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:18:15",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:18:15",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user.<br><br>A memory corruption vulnerability exists in Microsoft Windows. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the affected system.<br><br>Applying a patch is able to eliminate this problem. Mitigation instructions has been published at the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=14346af5f2&amp;e=64e3bb0ab9\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1570</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer.",
+  "sourceExcerpt": "<p>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user. A memory corruption vulnerability exists in Microsoft Windows. Successful exploitation of this [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-337-08-19-20-tt-csirt-advisory-microsoft-internet-explorer-scripting-engine-memory-corruption/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user.</p>",
+          "text": "A remote code execution vulnerability exists in the way that the scripting engine handles objects in memory in Internet Explorer. The vulnerability could corrupt memory in such a way that an attacker could execute arbitrary code in the context of the current user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A memory corruption vulnerability exists in Microsoft Windows. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the affected system.</p>",
+          "text": "A memory corruption vulnerability exists in Microsoft Windows. Successful exploitation of this vulnerability could allow a remote attacker to execute arbitrary code on the affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Applying a patch is able to eliminate this problem. Mitigation instructions has been published at the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=14346af5f2&amp;e=64e3bb0ab9\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1570</a></p>",
+          "text": "Applying a patch is able to eliminate this problem. Mitigation instructions has been published at the following link: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1570"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-337-08-19-20-tt-csirt-advisory-microsoft-internet-explorer-scripting-engine-memory-corruption/",
+    "upstreamDisclosedAt": "2020-09-22T23:18:15",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

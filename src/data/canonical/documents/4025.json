@@ -1,0 +1,80 @@
+{
+  "id": "4025",
+  "legacyPostId": 4025,
+  "referenceNumber": "TT-CSIRT #272",
+  "classification": "advisory",
+  "title": "Cisco email security appliance content filter bypass vulnerabilty",
+  "rawTitle": "TTCSIRT-272.012720: TT-CSIRT ADVISORY – CISCO EMAIL SECURITY APPLIANCE CONTENT FILTER BYPASS VULNERABILTY",
+  "slug": "ttcsirt-272-012720-tt-csirt-advisory-cisco-email-security-appliance-multiple-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address a vulnerability affecting the email message of Cisco AsyncOS Software for Cisco Email Security Appliance (ESA). This could allow an unauthenticated, remote attacker to bypass configured filters on the device.",
+  "cveList": [],
+  "date": "27 January 2020",
+  "rawDate": "2020-01-27T09:36:26",
+  "modifiedDate": "27 January 2020",
+  "rawModifiedDate": "2020-01-27T09:36:26",
+  "contentHtml": "<p>Cisco has released security updates to address a vulnerability affecting the email message of Cisco AsyncOS Software for Cisco Email Security Appliance (ESA). This could allow an unauthenticated, remote attacker to bypass configured filters on the device.</p>\n<p>An attacker could exploit this vulnerability by sending a crafted email message to a recipient protected by the ESA. A successful exploit could allow the attacker to bypass the configured content filters, which could allow malicious content to pass through the device.</p>\n<p>TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates.</p>\n<p><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA</a></p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Cisco has released security updates to address a vulnerability affecting the email message of Cisco AsyncOS Software for Cisco Email Security Appliance (ESA).",
+  "sourceExcerpt": "<p>Cisco has released security updates to address a vulnerability affecting the email message of Cisco AsyncOS Software for Cisco Email Security Appliance (ESA). This could allow an unauthenticated, remote attacker to bypass configured filters on the device. An attacker could exploit this vulnerability by sending a crafted email message to a recipient protected by the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-272-012720-tt-csirt-advisory-cisco-email-security-appliance-multiple-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address a vulnerability affecting the email message of Cisco AsyncOS Software for Cisco Email Security Appliance (ESA). This could allow an unauthenticated, remote attacker to bypass configured filters on the device.</p>",
+          "text": "Cisco has released security updates to address a vulnerability affecting the email message of Cisco AsyncOS Software for Cisco Email Security Appliance (ESA). This could allow an unauthenticated, remote attacker to bypass configured filters on the device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability by sending a crafted email message to a recipient protected by the ESA. A successful exploit could allow the attacker to bypass the configured content filters, which could allow malicious content to pass through the device.</p>",
+          "text": "An attacker could exploit this vulnerability by sending a crafted email message to a recipient protected by the ESA. A successful exploit could allow the attacker to bypass the configured content filters, which could allow malicious content to pass through the device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates.</p>",
+          "text": "TT-CSIRT encourages users and administrators to review Cisco Security Advisory and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA</a></p>",
+          "text": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-272-012720-tt-csirt-advisory-cisco-email-security-appliance-multiple-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-01-27T09:36:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

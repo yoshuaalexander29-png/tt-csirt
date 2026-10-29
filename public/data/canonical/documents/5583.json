@@ -1,0 +1,107 @@
+{
+  "id": "5583",
+  "legacyPostId": 5583,
+  "referenceNumber": "TT-CSIRT #419",
+  "classification": "advisory",
+  "title": "Ransomware prevention and response",
+  "rawTitle": "TT-CSIRT-419.7.7.23: Ransomware Prevention and Response",
+  "slug": "tt-csirt-419-7-7-23-ransomware-prevention-and-response",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all organizations to take the necessary precautions to mitigate against rising ransomware attacks in Trinidad and Tobago. The following resources detail the necessary actions that must be taken to harden your organization:",
+  "cveList": [],
+  "date": "7 July 2023",
+  "rawDate": "2023-07-07T05:57:56",
+  "modifiedDate": "7 July 2023",
+  "rawModifiedDate": "2023-07-07T05:57:56",
+  "contentHtml": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all organizations to take the necessary precautions to mitigate against rising ransomware attacks in Trinidad and Tobago. The following resources detail the necessary actions that must be taken to harden your organization:</p>\n<ul>\n<li>Ransomware Prevention Guide: <a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\">https://ttcsirt.gov.tt/ransomware-prevention/</a></li>\n<li>Ransomware Response Checklist: <a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\">https://ttcsirt.gov.tt/ransomware-response-checklist/</a></li>\n</ul>\n<p><strong>Incident Reporting</strong></p>\n<p>Should your organization fall victim to a ransomware attack, contact TT-CSIRT immediately via:</p>\n<ul>\n<li>Online Form: <a href=\"https://ttcsirt.gov.tt/report-an-incident/\">https://ttcsirt.gov.tt/report-an-incident/</a></li>\n<li>Email: <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></li>\n</ul>\n<p>TT-CSIRT provides different tiers of incident response depending on the need of the organization. These tiers are:</p>\n<ul>\n<li><strong>Consultative</strong> – gives advice and guidance to the organization’s incident response team (IRT)</li>\n<li><strong>Incident Handling</strong> – coordinates the incident response process and advises the organization’s IRT</li>\n<li><strong>Incident Management</strong> – coordinates the incident response process, leads the organization’s IRT and deployment of TT-CSIRT’s technical personnel and resources to resolve the incident</li>\n</ul>\n<p><strong>Information Confidentiality and Privacy:</strong></p>\n<ul>\n<li>Information provided to the TT-CSIRT is protected in the same way we protect our own confidential information: held securely, with limited access.</li>\n<li>Your information will not be disclosed without the consent of the client organization</li>\n<li>The information we hold will be anonymized and depicted in aggregated statistics.</li>\n</ul>\n",
+  "displaySummary": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all organizations to take the necessary precautions to mitigate against rising ransomware attacks in Trinidad and Tobago.",
+  "sourceExcerpt": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all organizations to take the necessary precautions to mitigate against rising ransomware attacks in Trinidad and Tobago. The following resources detail the necessary actions that must be taken to harden your organization: Ransomware Prevention Guide: https://ttcsirt.gov.tt/ransomware-prevention/ Ransomware Response Checklist: https://ttcsirt.gov.tt/ransomware-response-checklist/ Incident Reporting Should your organization fall [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-419-7-7-23-ransomware-prevention-and-response/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all organizations to take the necessary precautions to mitigate against rising ransomware attacks in Trinidad and Tobago. The following resources detail the necessary actions that must be taken to harden your organization:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) urges all organizations to take the necessary precautions to mitigate against rising ransomware attacks in Trinidad and Tobago. The following resources detail the necessary actions that must be taken to harden your organization:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Ransomware Prevention Guide: <a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\">https://ttcsirt.gov.tt/ransomware-prevention/</a></li>\n<li>Ransomware Response Checklist: <a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\">https://ttcsirt.gov.tt/ransomware-response-checklist/</a></li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Incident reporting",
+          "id": "incident-reporting"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Should your organization fall victim to a ransomware attack, contact TT-CSIRT immediately via:</p>",
+          "text": "Should your organization fall victim to a ransomware attack, contact TT-CSIRT immediately via:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT provides different tiers of incident response depending on the need of the organization. These tiers are:</p>",
+          "text": "TT-CSIRT provides different tiers of incident response depending on the need of the organization. These tiers are:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><strong>Consultative</strong> – gives advice and guidance to the organization’s incident response team (IRT)</li>\n<li><strong>Incident Handling</strong> – coordinates the incident response process and advises the organization’s IRT</li>\n<li><strong>Incident Management</strong> – coordinates the incident response process, leads the organization’s IRT and deployment of TT-CSIRT’s technical personnel and resources to resolve the incident</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Information confidentiality and privacy",
+          "id": "information-confidentiality-and-privacy"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Information provided to the TT-CSIRT is protected in the same way we protect our own confidential information: held securely, with limited access.</li>\n<li>Your information will not be disclosed without the consent of the client organization</li>\n<li>The information we hold will be anonymized and depicted in aggregated statistics.</li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "incident-reporting",
+      "label": "Incident reporting",
+      "isSubItem": true
+    },
+    {
+      "id": "information-confidentiality-and-privacy",
+      "label": "Information confidentiality and privacy",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-419-7-7-23-ransomware-prevention-and-response/",
+    "upstreamDisclosedAt": "2023-07-07T05:57:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

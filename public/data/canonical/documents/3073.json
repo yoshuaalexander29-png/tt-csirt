@@ -1,0 +1,213 @@
+{
+  "id": "3073",
+  "legacyPostId": 3073,
+  "referenceNumber": "TT-CSIRT #061",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-061.111517: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-061-110917-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Adobe Acrobat and Adobe Reader, the most severe of which could allow for remote code execution. The vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-16377",
+    "CVE-2017-16378",
+    "CVE-2017-16360",
+    "CVE-2017-16388",
+    "CVE-2017-16389",
+    "CVE-2017-16390",
+    "CVE-2017-16393",
+    "CVE-2017-16398",
+    "CVE-2017-16381",
+    "CVE-2017-16385",
+    "CVE-2017-16392",
+    "CVE-2017-16395",
+    "CVE-2017-16396",
+    "CVE-2017-16363",
+    "CVE-2017-16365",
+    "CVE-2017-16374",
+    "CVE-2017-16384",
+    "CVE-2017-16386",
+    "CVE-2017-16387",
+    "CVE-2017-16368",
+    "CVE-2017-16383",
+    "CVE-2017-16391",
+    "CVE-2017-16410",
+    "CVE-2017-16362",
+    "CVE-2017-16370",
+    "CVE-2017-16376",
+    "CVE-2017-16382",
+    "CVE-2017-16394",
+    "CVE-2017-16397",
+    "CVE-2017-16399",
+    "CVE-2017-16400",
+    "CVE-2017-16401",
+    "CVE-2017-16402",
+    "CVE-2017-16403",
+    "CVE-2017-16404",
+    "CVE-2017-16405",
+    "CVE-2017-16408",
+    "CVE-2017-16409",
+    "CVE-2017-16412",
+    "CVE-2017-16414",
+    "CVE-2017-16417",
+    "CVE-2017-16418",
+    "CVE-2017-16420",
+    "CVE-2017-11293",
+    "CVE-2017-16407",
+    "CVE-2017-16413",
+    "CVE-2017-16415",
+    "CVE-2017-16416",
+    "CVE-2017-16361",
+    "CVE-2017-16366",
+    "CVE-2017-16369",
+    "CVE-2017-16380",
+    "CVE-2017-16419",
+    "CVE-2017-16367",
+    "CVE-2017-16379",
+    "CVE-2017-16406",
+    "CVE-2017-16364",
+    "CVE-2017-16371",
+    "CVE-2017-16372",
+    "CVE-2017-16373",
+    "CVE-2017-16375",
+    "CVE-2017-16411"
+  ],
+  "date": "15 November 2017",
+  "rawDate": "2017-11-15T11:31:33",
+  "modifiedDate": "15 November 2017",
+  "rawModifiedDate": "2017-11-15T11:31:33",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Adobe Acrobat and Adobe Reader, the most severe of which could allow for remote code execution. The vulnerabilities are as follows:</p>\n<p>a) Two access of uninitialized point vulnerabilities that could result in remote could execution &#8211; (CVE-2017-16377, CVE-2017-16378)</p>\n<p>b) Six use after free vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16360, CVE-2017-16388, CVE-2017-16389, CVE-2017-16390, CVE-2017-16393, CVE-2017-16398)</p>\n<p>c) Five buffer access with incorrect length value vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16381, CVE-2017-16385, CVE-2017-16392, CVE-2017-16395, CVE-2017-16396)</p>\n<p>d) Six buffer over-read vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16363, CVE-2017-16365, CVE-2017-16374, CVE-2017-16384, CVE-2017-16386, CVE-2017-16387)</p>\n<p>e) A buffer overflow vulnerability that could result in remote code execution &#8211; (CVE-2017-16368)</p>\n<p>f) A heap overflow vulnerability that could result in remote code execution &#8211; (CVE-2017-16383)</p>\n<p>g) Two improper validation of array index vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16391, CVE-2017-16410)</p>\n<p>h) Multiple out-of-bounds read vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16362, CVE-2017-16370, CVE-2017-16376, CVE-2017-16382, CVE-2017-16394, CVE-2017-16397, CVE-2017-16399, CVE-2017-16400, CVE-2017-16401, CVE-2017-16402, CVE-2017-16403, CVE-2017-16404, CVE-2017-16405, CVE-2017-16408, CVE-2017-16409, CVE-2017-16412, CVE-2017-16414, CVE-2017-16417, CVE-2017-16418, CVE-2017-16420, CVE-2017-11293)</p>\n<p>i) Four out-of-bounds write vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16407, CVE-2017-16413, CVE-2017-16415, CVE-2017-16416)</p>\n<p>j) Two security bypass vulnerabilities that could result in drive-by-downloads &#8211; (CVE-2017-16361, CVE-2017-16366)</p>\n<p>k) A security bypass vulnerability that could result in information disclosure &#8211; (CVE-2017-16369)</p>\n<p>l) A security bypass vulnerability that could result in remote code execution &#8211; (CVE-2017-16380)</p>\n<p>m) A stack exhaustion vulnerability that could result in excessive resource consumption &#8211; (CVE-2017-16419)</p>\n<p>n) Three type confusion vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16367, CVE-2017-16379, CVE-2017-16406)</p>\n<p>o) Six untrusted pointer dereference vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16364, CVE-2017-16371, CVE-2017-16372, CVE-2017-16373, CVE-2017-16375, CVE-2017-16411)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-adobe-reader-could-allow-for-remote-code-execution-apsb17-36_2017-113/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-adobe-reader-could-allow-for-remote-code-execution-apsb17-36_2017-113/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Adobe Acrobat and Adobe Reader, the most severe of which could allow for remote code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Adobe Acrobat and Adobe Reader, the most severe of which could allow for remote code execution. The vulnerabilities are as follows: a) Two access of uninitialized point vulnerabilities that could result in remote could execution &#8211; (CVE-2017-16377, CVE-2017-16378) b) Six use after free vulnerabilities that could result in remote [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-061-110917-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Adobe Acrobat and Adobe Reader, the most severe of which could allow for remote code execution. The vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Adobe Acrobat and Adobe Reader, the most severe of which could allow for remote code execution. The vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Two access of uninitialized point vulnerabilities that could result in remote could execution &#8211; (CVE-2017-16377, CVE-2017-16378)</p>",
+          "text": "a) Two access of uninitialized point vulnerabilities that could result in remote could execution – (CVE-2017-16377, CVE-2017-16378)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Six use after free vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16360, CVE-2017-16388, CVE-2017-16389, CVE-2017-16390, CVE-2017-16393, CVE-2017-16398)</p>",
+          "text": "b) Six use after free vulnerabilities that could result in remote code execution – (CVE-2017-16360, CVE-2017-16388, CVE-2017-16389, CVE-2017-16390, CVE-2017-16393, CVE-2017-16398)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Five buffer access with incorrect length value vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16381, CVE-2017-16385, CVE-2017-16392, CVE-2017-16395, CVE-2017-16396)</p>",
+          "text": "c) Five buffer access with incorrect length value vulnerabilities that could result in remote code execution – (CVE-2017-16381, CVE-2017-16385, CVE-2017-16392, CVE-2017-16395, CVE-2017-16396)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Six buffer over-read vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16363, CVE-2017-16365, CVE-2017-16374, CVE-2017-16384, CVE-2017-16386, CVE-2017-16387)</p>",
+          "text": "d) Six buffer over-read vulnerabilities that could result in remote code execution – (CVE-2017-16363, CVE-2017-16365, CVE-2017-16374, CVE-2017-16384, CVE-2017-16386, CVE-2017-16387)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A buffer overflow vulnerability that could result in remote code execution &#8211; (CVE-2017-16368)</p>",
+          "text": "e) A buffer overflow vulnerability that could result in remote code execution – (CVE-2017-16368)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) A heap overflow vulnerability that could result in remote code execution &#8211; (CVE-2017-16383)</p>",
+          "text": "f) A heap overflow vulnerability that could result in remote code execution – (CVE-2017-16383)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Two improper validation of array index vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16391, CVE-2017-16410)</p>",
+          "text": "g) Two improper validation of array index vulnerabilities that could result in remote code execution – (CVE-2017-16391, CVE-2017-16410)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Multiple out-of-bounds read vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16362, CVE-2017-16370, CVE-2017-16376, CVE-2017-16382, CVE-2017-16394, CVE-2017-16397, CVE-2017-16399, CVE-2017-16400, CVE-2017-16401, CVE-2017-16402, CVE-2017-16403, CVE-2017-16404, CVE-2017-16405, CVE-2017-16408, CVE-2017-16409, CVE-2017-16412, CVE-2017-16414, CVE-2017-16417, CVE-2017-16418, CVE-2017-16420, CVE-2017-11293)</p>",
+          "text": "h) Multiple out-of-bounds read vulnerabilities that could result in remote code execution – (CVE-2017-16362, CVE-2017-16370, CVE-2017-16376, CVE-2017-16382, CVE-2017-16394, CVE-2017-16397, CVE-2017-16399, CVE-2017-16400, CVE-2017-16401, CVE-2017-16402, CVE-2017-16403, CVE-2017-16404, CVE-2017-16405, CVE-2017-16408, CVE-2017-16409, CVE-2017-16412, CVE-2017-16414, CVE-2017-16417, CVE-2017-16418, CVE-2017-16420, CVE-2017-11293)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Four out-of-bounds write vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16407, CVE-2017-16413, CVE-2017-16415, CVE-2017-16416)</p>",
+          "text": "i) Four out-of-bounds write vulnerabilities that could result in remote code execution – (CVE-2017-16407, CVE-2017-16413, CVE-2017-16415, CVE-2017-16416)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Two security bypass vulnerabilities that could result in drive-by-downloads &#8211; (CVE-2017-16361, CVE-2017-16366)</p>",
+          "text": "j) Two security bypass vulnerabilities that could result in drive-by-downloads – (CVE-2017-16361, CVE-2017-16366)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) A security bypass vulnerability that could result in information disclosure &#8211; (CVE-2017-16369)</p>",
+          "text": "k) A security bypass vulnerability that could result in information disclosure – (CVE-2017-16369)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) A security bypass vulnerability that could result in remote code execution &#8211; (CVE-2017-16380)</p>",
+          "text": "l) A security bypass vulnerability that could result in remote code execution – (CVE-2017-16380)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) A stack exhaustion vulnerability that could result in excessive resource consumption &#8211; (CVE-2017-16419)</p>",
+          "text": "m) A stack exhaustion vulnerability that could result in excessive resource consumption – (CVE-2017-16419)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>n) Three type confusion vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16367, CVE-2017-16379, CVE-2017-16406)</p>",
+          "text": "n) Three type confusion vulnerabilities that could result in remote code execution – (CVE-2017-16367, CVE-2017-16379, CVE-2017-16406)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>o) Six untrusted pointer dereference vulnerabilities that could result in remote code execution &#8211; (CVE-2017-16364, CVE-2017-16371, CVE-2017-16372, CVE-2017-16373, CVE-2017-16375, CVE-2017-16411)</p>",
+          "text": "o) Six untrusted pointer dereference vulnerabilities that could result in remote code execution – (CVE-2017-16364, CVE-2017-16371, CVE-2017-16372, CVE-2017-16373, CVE-2017-16375, CVE-2017-16411)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-adobe-reader-could-allow-for-remote-code-execution-apsb17-36_2017-113/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-adobe-reader-could-allow-for-remote-code-execution-apsb17-36_2017-113/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-adobe-reader-could-allow-for-remote-code-execution-apsb17-36_2017-113/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-acrobat-and-adobe-reader-could-allow-for-remote-code-execution-apsb17-36_2017-113/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-061-110917-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2017-11-15T11:31:33",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

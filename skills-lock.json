@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "jev-agent": {
+      "source": "jev-ai/jev-agent-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "f23aa1c048f8f7fb866ef4a2bd529a18dbec066568cacd978a52f6e7b8e2be62"
+    }
+  }
+}

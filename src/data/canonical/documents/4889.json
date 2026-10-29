@@ -1,0 +1,109 @@
+{
+  "id": "4889",
+  "legacyPostId": 4889,
+  "referenceNumber": "TT-CSIRT 389.02.04.21",
+  "classification": "advisory",
+  "title": "Sma 100 series 10.X firmware 0-day vulnerability",
+  "rawTitle": "TTCSIRT-389.02.04.21: TTCSIRT ADVISORY- SMA 100 SERIES 10.X FIRMWARE ZERO-DAY VULNERABILITY",
+  "slug": "ttcsirt-389-02-04-21-ttcsirt-advisory-sma-100-series-10-x-firmware-zero-day-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "SonicWall is announcing the availability of an SMA 100 series firmware 10.2.0.5-29sv update to patch a zero-day vulnerability on SMA 100 series 10.x code. All SMA 100 series users must apply this patch IMMEDIATELY to avoid potential exploitation.",
+  "cveList": [],
+  "date": "4 February 2021",
+  "rawDate": "2021-02-04T11:31:42",
+  "modifiedDate": "4 February 2021",
+  "rawModifiedDate": "2021-02-04T11:31:42",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be advised that SonicWall is announcing the availability of an SMA 100 series firmware <strong>10.2.0.5-29sv</strong> update to patch a zero-day vulnerability on SMA 100 series 10.x code. All SMA 100 series users must apply this patch <strong>IMMEDIATELY</strong> to avoid potential exploitation.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected SMA 100 Devices with 10.x Firmware that Require the Critical Patch:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Physical Appliances:</strong> SMA 200, SMA 210, SMA 400, SMA 410</li><li><strong>Virtual Appliances:</strong> SMA 500v (Azure, AWS, ESXi, HyperV)</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Upgrade Recommended Steps</strong><br>Due to the potential credential exposure in SNWLID-2021-0001, all customers using SMA 10.x firmware should immediately follow the following procedures:</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<ol class=\"wp-block-list\"><li><strong>Upgrade to SMA 10.2.0.5-29sv firmware, available from www.mysonicwall.com.</strong><ul><li>This firmware is available for everybody, regardless of the status of their support/service contract.</li><li>Instructions on how to update the SMA 100 10.x series firmware can be found in this KB article for physical appliances and this KB article for virtual devices.</li></ul></li><li><strong>Reset the passwords for any users who may have logged in to the device via the web interface.</strong></li><li> <strong>Enable multifactor authentication (MFA) as a safety measure</strong>.<ul><li>MFA has an invaluable safeguard against credential theft and is a key measure of good security posture.</li><li>MFA is effective whether it is enabled on the appliance directly or on the directory service in your organization.</li></ul></li></ol>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.sonicwall.com/support/product-notification/urgent-patch-available-for-sma-100-series-10-x-firmware-zero-day-vulnerability-updated-feb-3-2-p-m-cst/210122173415410/\">https://www.sonicwall.com/support/product-notification/urgent-patch-available-for-sma-100-series-10-x-firmware-zero-day-vulnerability-updated-feb-3-2-p-m-cst/210122173415410/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "SonicWall is announcing the availability of an SMA 100 series firmware 10.2.0.5-29sv update to patch a zero-day vulnerability on SMA 100 series 10.x code.",
+  "sourceExcerpt": "<p>Please be advised that SonicWall is announcing the availability of an SMA 100 series firmware 10.2.0.5-29sv update to patch a zero-day vulnerability on SMA 100 series 10.x code. All SMA 100 series users must apply this patch IMMEDIATELY to avoid potential exploitation. Affected SMA 100 Devices with 10.x Firmware that Require the Critical Patch: Physical Appliances: SMA 200, SMA 210, SMA 400, SMA [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-389-02-04-21-ttcsirt-advisory-sma-100-series-10-x-firmware-zero-day-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>SonicWall is announcing the availability of an SMA 100 series firmware <strong>10.2.0.5-29sv</strong> update to patch a zero-day vulnerability on SMA 100 series 10.x code. All SMA 100 series users must apply this patch <strong>IMMEDIATELY</strong> to avoid potential exploitation.</p>",
+          "text": "SonicWall is announcing the availability of an SMA 100 series firmware 10.2.0.5-29sv update to patch a zero-day vulnerability on SMA 100 series 10.x code. All SMA 100 series users must apply this patch IMMEDIATELY to avoid potential exploitation."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Affected SMA 100 Devices with 10.x Firmware that Require the Critical Patch:</strong></p>",
+          "text": "Affected SMA 100 Devices with 10.x Firmware that Require the Critical Patch:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li><strong>Physical Appliances:</strong> SMA 200, SMA 210, SMA 400, SMA 410</li><li><strong>Virtual Appliances:</strong> SMA 500v (Azure, AWS, ESXi, HyperV)</li></ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Upgrade recommended steps",
+          "id": "upgrade-recommended-steps"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Due to the potential credential exposure in SNWLID-2021-0001, all customers using SMA 10.x firmware should immediately follow the following procedures:</p>",
+          "text": "Due to the potential credential exposure in SNWLID-2021-0001, all customers using SMA 10.x firmware should immediately follow the following procedures:"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"wp-block-list\"><li><strong>Upgrade to SMA 10.2.0.5-29sv firmware, available from www.mysonicwall.com.</strong><ul><li>This firmware is available for everybody, regardless of the status of their support/service contract.</li><li>Instructions on how to update the SMA 100 10.x series firmware can be found in this KB article for physical appliances and this KB article for virtual devices.</li></ul></li><li><strong>Reset the passwords for any users who may have logged in to the device via the web interface.</strong></li><li><strong>Enable multifactor authentication (MFA) as a safety measure</strong>.<ul><li>MFA has an invaluable safeguard against credential theft and is a key measure of good security posture.</li><li>MFA is effective whether it is enabled on the appliance directly or on the directory service in your organization.</li></ul></li></ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:</p>",
+          "text": "For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.sonicwall.com/support/product-notification/urgent-patch-available-for-sma-100-series-10-x-firmware-zero-day-vulnerability-updated-feb-3-2-p-m-cst/210122173415410/\">https://www.sonicwall.com/support/product-notification/urgent-patch-available-for-sma-100-series-10-x-firmware-zero-day-vulnerability-updated-feb-3-2-p-m-cst/210122173415410/</a></p>",
+          "text": "https://www.sonicwall.com/support/product-notification/urgent-patch-available-for-sma-100-series-10-x-firmware-zero-day-vulnerability-updated-feb-3-2-p-m-cst/210122173415410/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "upgrade-recommended-steps",
+      "label": "Upgrade recommended steps",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.sonicwall.com/support/product-notification/urgent-patch-available-for-sma-100-series-10-x-firmware-zero-day-vulnerability-updated-feb-3-2-p-m-cst/210122173415410/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-389-02-04-21-ttcsirt-advisory-sma-100-series-10-x-firmware-zero-day-vulnerability/",
+    "upstreamDisclosedAt": "2021-02-04T11:31:42",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

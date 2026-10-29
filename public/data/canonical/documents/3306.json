@@ -1,0 +1,75 @@
+{
+  "id": "3306",
+  "legacyPostId": 3306,
+  "referenceNumber": "TT-CSIRT #111",
+  "classification": "advisory",
+  "title": "Drupal security updates",
+  "rawTitle": "TTCSIRT-111.042518: TT-CSIRT Advisory – Drupal Security Updates",
+  "slug": "ttcsirt-111-042518-tt-csirt-advisory-drupal-releases-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Drupal has released a security update stating that CKEditor, a third-party JavaScript library included in Drupal core, has fixed a cross-site scripting (XSS) vulnerability.",
+  "cveList": [],
+  "date": "25 April 2018",
+  "rawDate": "2018-04-25T11:10:22",
+  "modifiedDate": "25 April 2018",
+  "rawModifiedDate": "2018-04-25T11:10:22",
+  "contentHtml": "<p>Drupal has released a security update stating that CKEditor, a third-party JavaScript library included in Drupal core, has fixed a cross-site scripting (XSS) vulnerability. </p>\n<p>The vulnerability stemmed from the fact that it was possible to execute XSS inside CKEditor when using the image2 plugin (which Drupal 8 core also uses).</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-003\"><font size=\"2\" color=\"maroon\">https://www.drupal.org/sa-core-2018-003</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Drupal has released a security update stating that CKEditor, a third-party JavaScript library included in Drupal core, has fixed a cross-site scripting (XSS) vulnerability.",
+  "sourceExcerpt": "<p>Drupal has released a security update stating that CKEditor, a third-party JavaScript library included in Drupal core, has fixed a cross-site scripting (XSS) vulnerability. The vulnerability stemmed from the fact that it was possible to execute XSS inside CKEditor when using the image2 plugin (which Drupal 8 core also uses). Further information on this vulnerability [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-111-042518-tt-csirt-advisory-drupal-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Drupal has released a security update stating that CKEditor, a third-party JavaScript library included in Drupal core, has fixed a cross-site scripting (XSS) vulnerability.</p>",
+          "text": "Drupal has released a security update stating that CKEditor, a third-party JavaScript library included in Drupal core, has fixed a cross-site scripting (XSS) vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability stemmed from the fact that it was possible to execute XSS inside CKEditor when using the image2 plugin (which Drupal 8 core also uses).</p>",
+          "text": "The vulnerability stemmed from the fact that it was possible to execute XSS inside CKEditor when using the image2 plugin (which Drupal 8 core also uses)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at <a href=\"https://www.drupal.org/sa-core-2018-003\">https://www.drupal.org/sa-core-2018-003</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Drupal Website at https://www.drupal.org/sa-core-2018-003"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.drupal.org/sa-core-2018-003"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-111-042518-tt-csirt-advisory-drupal-releases-security-updates/",
+    "upstreamDisclosedAt": "2018-04-25T11:10:22",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "4811",
+  "legacyPostId": 4811,
+  "referenceNumber": "TT-CSIRT 379.11.25.20",
+  "classification": "advisory",
+  "title": "VMware releases workarounds for",
+  "rawTitle": "TTCSIRT-379.11.25.20: TT-CSIRT ADVISORY – VMware Releases Workarounds for CVE-2020-4006",
+  "slug": "ttcsirt-379-11-25-20-tt-csirt-advisory-vmware-releases-workarounds-for-cve-2020-4006",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMware has released workarounds to address a vulnerability—CVE-2020-4006—in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.",
+  "cveList": [
+    "CVE-2020-4006"
+  ],
+  "date": "25 November 2020",
+  "rawDate": "2020-11-25T17:57:03",
+  "modifiedDate": "25 November 2020",
+  "rawModifiedDate": "2020-11-25T17:57:03",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">VMware has released workarounds to address a vulnerability—CVE-2020-4006—in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit this vulnerability to take control of an affected system.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged, users and administrators review VMware Security Advisory and apply the necessary workarounds.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further information, please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMjMuMzA5OTE1MzEiLCJ1cmwiOiJodHRwczovL3d3dy52bXdhcmUuY29tL3NlY3VyaXR5L2Fkdmlzb3JpZXMvVk1TQS0yMDIwLTAwMjcuaHRtbCJ9.YQoKJB-fFkEUYwl5GP4zb-wNvNShdOwYKqZlgcpAlq4/s/1193638257/br/90298249603-l\">VMSA-2020-0027</a></p>\n",
+  "displaySummary": "VMware has released workarounds to address a vulnerability—CVE-2020-4006—in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.",
+  "sourceExcerpt": "<p>VMware has released workarounds to address a vulnerability—CVE-2020-4006—in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector. An attacker could exploit this vulnerability to take control of an affected system. It is encouraged, users and administrators review VMware Security Advisory and apply the necessary workarounds. For further information, please visit the link below:VMSA-2020-0027</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-379-11-25-20-tt-csirt-advisory-vmware-releases-workarounds-for-cve-2020-4006/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMware has released workarounds to address a vulnerability—CVE-2020-4006—in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector.</p>",
+          "text": "VMware has released workarounds to address a vulnerability—CVE-2020-4006—in VMware Workspace One Access, Access Connector, Identity Manager, and Identity Manager Connector."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit this vulnerability to take control of an affected system.</p>",
+          "text": "An attacker could exploit this vulnerability to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged, users and administrators review VMware Security Advisory and apply the necessary workarounds.</p>",
+          "text": "It is encouraged, users and administrators review VMware Security Advisory and apply the necessary workarounds."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information, please visit the link below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMjMuMzA5OTE1MzEiLCJ1cmwiOiJodHRwczovL3d3dy52bXdhcmUuY29tL3NlY3VyaXR5L2Fkdmlzb3JpZXMvVk1TQS0yMDIwLTAwMjcuaHRtbCJ9.YQoKJB-fFkEUYwl5GP4zb-wNvNShdOwYKqZlgcpAlq4/s/1193638257/br/90298249603-l\">VMSA-2020-0027</a></p>",
+          "text": "For further information, please visit the link below: VMSA-2020-0027"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMjMuMzA5OTE1MzEiLCJ1cmwiOiJodHRwczovL3d3dy52bXdhcmUuY29tL3NlY3VyaXR5L2Fkdmlzb3JpZXMvVk1TQS0yMDIwLTAwMjcuaHRtbCJ9.YQoKJB-fFkEUYwl5GP4zb-wNvNShdOwYKqZlgcpAlq4/s/1193638257/br/90298249603-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-379-11-25-20-tt-csirt-advisory-vmware-releases-workarounds-for-cve-2020-4006/",
+    "upstreamDisclosedAt": "2020-11-25T17:57:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

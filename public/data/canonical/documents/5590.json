@@ -1,0 +1,72 @@
+{
+  "id": "5590",
+  "legacyPostId": 5590,
+  "referenceNumber": "TT-CSIRT #421",
+  "classification": "advisory",
+  "title": "Fortinet security vulnerability",
+  "rawTitle": "TT-CSIRT-421.13.7.23: Fortinet Security Vulnerability",
+  "slug": "tt-csirt-421-13-7-23-fortinet-security-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Fortinet has released a security update to address a critical vulnerability (CVE-2023-33308) affecting FortiOS and FortiProxy.",
+  "cveList": [
+    "CVE-2023-33308"
+  ],
+  "date": "13 July 2023",
+  "rawDate": "2023-07-13T13:03:48",
+  "modifiedDate": "13 July 2023",
+  "rawModifiedDate": "2023-07-13T13:03:48",
+  "contentHtml": "<p>Fortinet has released a security update to address a critical vulnerability (CVE-2023-33308) affecting FortiOS and FortiProxy.</p>\n<p>TT-CSIRT encourages administrators to review the following release from Fortinet and take the necessary actions immediately: <a href=\"https://www.fortiguard.com/psirt/FG-IR-23-183\" target=\"_blank\" rel=\"noopener\">https://www.fortiguard.com/psirt/FG-IR-23-183</a></p>\n",
+  "displaySummary": "Fortinet has released a security update to address a critical vulnerability (CVE-2023-33308) affecting FortiOS and FortiProxy.",
+  "sourceExcerpt": "<p>Fortinet has released a security update to address a critical vulnerability (CVE-2023-33308) affecting FortiOS and FortiProxy. TT-CSIRT encourages administrators to review the following release from Fortinet and take the necessary actions immediately: https://www.fortiguard.com/psirt/FG-IR-23-183</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-421-13-7-23-fortinet-security-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has released a security update to address a critical vulnerability (CVE-2023-33308) affecting FortiOS and FortiProxy.</p>",
+          "text": "Fortinet has released a security update to address a critical vulnerability (CVE-2023-33308) affecting FortiOS and FortiProxy."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following release from Fortinet and take the necessary actions immediately: <a href=\"https://www.fortiguard.com/psirt/FG-IR-23-183\" target=\"_blank\" rel=\"noopener\">https://www.fortiguard.com/psirt/FG-IR-23-183</a></p>",
+          "text": "TT-CSIRT encourages administrators to review the following release from Fortinet and take the necessary actions immediately: https://www.fortiguard.com/psirt/FG-IR-23-183"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fortiguard.com/psirt/FG-IR-23-183"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-421-13-7-23-fortinet-security-vulnerability/",
+    "upstreamDisclosedAt": "2023-07-13T13:03:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

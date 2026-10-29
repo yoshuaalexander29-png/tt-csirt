@@ -1,0 +1,75 @@
+{
+  "id": "3839",
+  "legacyPostId": 3839,
+  "referenceNumber": "TT-CSIRT #233",
+  "classification": "advisory",
+  "title": "Intel security updates",
+  "rawTitle": "TTCSIRT-233.101019: TT-CSIRT ADVISORY – INTEL SECURITY UPDATES",
+  "slug": "ttcsirt-233-101019-tt-csirt-advisory-vpn-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain an escalation of privileges on a previously infected machine. TTCSIRT encourages users and administrators to review the following advisories from Intel and apply the necessary remediation actions:",
+  "cveList": [
+    "CVE-2019-14569",
+    "CVE-2019-11167",
+    "CVE-2019-11120"
+  ],
+  "date": "10 October 2019",
+  "rawDate": "2019-10-10T07:37:36",
+  "modifiedDate": "10 October 2019",
+  "rawModifiedDate": "2019-10-10T07:37:36",
+  "contentHtml": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain an escalation of privileges on a previously infected machine. TTCSIRT encourages users and administrators to review the following advisories from Intel and apply the necessary remediation actions:</p>\n<ul>\n<li>CVE-2019-14569 – Potential security vulnerabilities in system firmware for Intel® NUC may allow escalation of privilege, denial of service and/or information disclosure.<br />\n<a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00296.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00296.html</a></li>\n<li>CVE-2019-11167 – A potential security vulnerability in Intel® Smart Connect Technology for Intel® NUC may allow escalation of privilege.<br />\n<a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00286.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00286.html</a></li>\n<li>CVE-2019-11120 – A potential security vulnerability in Intel Active System Console for Intel® Server Boards and Systems may allow an escalation of privilege.<strong><br />\n</strong><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00261.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00261.html</a></li>\n</ul>\n",
+  "displaySummary": "Intel has released security updates to address vulnerabilities in multiple products.",
+  "sourceExcerpt": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain an escalation of privileges on a previously infected machine. TTCSIRT encourages users and administrators to review the following advisories from Intel and apply the necessary remediation actions: CVE-2019-14569 – Potential security vulnerabilities in system [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-233-101019-tt-csirt-advisory-vpn-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain an escalation of privileges on a previously infected machine. TTCSIRT encourages users and administrators to review the following advisories from Intel and apply the necessary remediation actions:</p>",
+          "text": "Intel has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to gain an escalation of privileges on a previously infected machine. TTCSIRT encourages users and administrators to review the following advisories from Intel and apply the necessary remediation actions:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>CVE-2019-14569 – Potential security vulnerabilities in system firmware for Intel® NUC may allow escalation of privilege, denial of service and/or information disclosure.<br />\n<a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00296.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00296.html</a></li>\n<li>CVE-2019-11167 – A potential security vulnerability in Intel® Smart Connect Technology for Intel® NUC may allow escalation of privilege.<br />\n<a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00286.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00286.html</a></li>\n<li>CVE-2019-11120 – A potential security vulnerability in Intel Active System Console for Intel® Server Boards and Systems may allow an escalation of privilege.<strong><br />\n</strong><a href=\"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00261.html\">https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00261.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00296.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00286.html",
+    "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00261.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-233-101019-tt-csirt-advisory-vpn-security-updates/",
+    "upstreamDisclosedAt": "2019-10-10T07:37:36",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

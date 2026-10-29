@@ -1,0 +1,77 @@
+{
+  "id": "3224",
+  "legacyPostId": 3224,
+  "referenceNumber": "TT-CSIRT #093",
+  "classification": "advisory",
+  "title": "Bind security updates",
+  "rawTitle": "TTCSIRT-093.030218: TT-CSIRT Advisory – BIND Security Updates",
+  "slug": "ttcsirt-093-030218-tt-csirt-advisory-bind-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Internet Systems Consortium (ISC) has released a security update stating that a vulnerability in the Berkeley Internet Name Domain (BIND) has been found which, if exploited an attacker, could cause a Denial of Service (DoS) condition.",
+  "cveList": [
+    "CVE-2018-5734"
+  ],
+  "date": "2 March 2018",
+  "rawDate": "2018-03-02T11:08:42",
+  "modifiedDate": "2 March 2018",
+  "rawModifiedDate": "2018-03-02T11:08:42",
+  "contentHtml": "<p>The Internet Systems Consortium (ISC) has released a security update stating that a vulnerability in the Berkeley Internet Name Domain (BIND) has been found which, if exploited an attacker, could cause a Denial of Service (DoS) condition.</p>\n<p>This vulnerability is caused by a malformed packet BIND erroneously selecting a SERVFAIL rcode instead of a FORMERR rcode. If the receiving view has the SERVFAIL cache feature enabled, this can trigger an assertion failure in badcache.c when the request doesn&#8217;t contain all of the expected information.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://kb.isc.org/article/AA-01562/74/CVE-2018-5734\"><font size=\"2\" color=\"maroon\">https://kb.isc.org/article/AA-01562/74/CVE-2018-5734</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "The Internet Systems Consortium (ISC) has released a security update stating that a vulnerability in the Berkeley Internet Name Domain (BIND) has been found which, if exploited an attacker,…",
+  "sourceExcerpt": "<p>The Internet Systems Consortium (ISC) has released a security update stating that a vulnerability in the Berkeley Internet Name Domain (BIND) has been found which, if exploited an attacker, could cause a Denial of Service (DoS) condition. This vulnerability is caused by a malformed packet BIND erroneously selecting a SERVFAIL rcode instead of a FORMERR [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-093-030218-tt-csirt-advisory-bind-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Internet Systems Consortium (ISC) has released a security update stating that a vulnerability in the Berkeley Internet Name Domain (BIND) has been found which, if exploited an attacker, could cause a Denial of Service (DoS) condition.</p>",
+          "text": "The Internet Systems Consortium (ISC) has released a security update stating that a vulnerability in the Berkeley Internet Name Domain (BIND) has been found which, if exploited an attacker, could cause a Denial of Service (DoS) condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This vulnerability is caused by a malformed packet BIND erroneously selecting a SERVFAIL rcode instead of a FORMERR rcode. If the receiving view has the SERVFAIL cache feature enabled, this can trigger an assertion failure in badcache.c when the request doesn&#8217;t contain all of the expected information.</p>",
+          "text": "This vulnerability is caused by a malformed packet BIND erroneously selecting a SERVFAIL rcode instead of a FORMERR rcode. If the receiving view has the SERVFAIL cache feature enabled, this can trigger an assertion failure in badcache.c when the request doesn’t contain all of the expected information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found at <a href=\"https://kb.isc.org/article/AA-01562/74/CVE-2018-5734\">https://kb.isc.org/article/AA-01562/74/CVE-2018-5734</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found at https://kb.isc.org/article/AA-01562/74/CVE-2018-5734"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.isc.org/article/AA-01562/74/CVE-2018-5734"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-093-030218-tt-csirt-advisory-bind-security-updates/",
+    "upstreamDisclosedAt": "2018-03-02T11:08:42",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

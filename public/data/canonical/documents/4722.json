@@ -1,0 +1,75 @@
+{
+  "id": "4722",
+  "legacyPostId": 4722,
+  "referenceNumber": "TT-CSIRT 359.09.15.20",
+  "classification": "advisory",
+  "title": "Netlogon remote protocol vulnerability",
+  "rawTitle": "TTCSIRT-359.09.15.20: TT-CSIRT ADVISORY – Netlogon Remote Protocol Vulnerability",
+  "slug": "ttcsirt-359-09-15-20-tt-csirt-advisory-netlogon-remote-protocol-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "There is a publicly available exploit code for CVE-2020-1472, an elevation of privilege vulnerability in Microsoft’s Netlogon.",
+  "cveList": [
+    "CVE-2020-1472"
+  ],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:33:41",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:33:41",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">There is a publicly available exploit code for CVE-2020-1472, an elevation of privilege vulnerability in Microsoft’s Netlogon.<br><br>Although Microsoft provided patches for CVE-2020-1472 in August 2020, unpatched systems will be an attractive target for malicious actors. Attackers could exploit this vulnerability to obtain domain administrator access.<br><br>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f7dee43ff6&amp;e=64e3bb0ab9\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1472</a><br><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "There is a publicly available exploit code for CVE-2020-1472, an elevation of privilege vulnerability in Microsoft’s Netlogon.",
+  "sourceExcerpt": "<p>There is a publicly available exploit code for CVE-2020-1472, an elevation of privilege vulnerability in Microsoft’s Netlogon. Although Microsoft provided patches for CVE-2020-1472 in August 2020, unpatched systems will be an attractive target for malicious actors. Attackers could exploit this vulnerability to obtain domain administrator access. For further information and support, please visit the following link:https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1472 [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-359-09-15-20-tt-csirt-advisory-netlogon-remote-protocol-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>There is a publicly available exploit code for CVE-2020-1472, an elevation of privilege vulnerability in Microsoft’s Netlogon.</p>",
+          "text": "There is a publicly available exploit code for CVE-2020-1472, an elevation of privilege vulnerability in Microsoft’s Netlogon."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Although Microsoft provided patches for CVE-2020-1472 in August 2020, unpatched systems will be an attractive target for malicious actors. Attackers could exploit this vulnerability to obtain domain administrator access.</p>",
+          "text": "Although Microsoft provided patches for CVE-2020-1472 in August 2020, unpatched systems will be an attractive target for malicious actors. Attackers could exploit this vulnerability to obtain domain administrator access."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=f7dee43ff6&amp;e=64e3bb0ab9\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1472</a></p>",
+          "text": "For further information and support, please visit the following link: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1472"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-359-09-15-20-tt-csirt-advisory-netlogon-remote-protocol-vulnerability/",
+    "upstreamDisclosedAt": "2020-09-22T23:33:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

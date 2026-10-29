@@ -1,0 +1,94 @@
+{
+  "id": "4537",
+  "legacyPostId": 4537,
+  "referenceNumber": "TT-CSIRT 321.07.08.20",
+  "classification": "advisory",
+  "title": "Citrix multiple vulnerabilities",
+  "rawTitle": "TTCSIRT-321.07.08.20: TT-CSIRT ADVISORY-  CITRIX MULTIPLE VULNERABILITIES",
+  "slug": "ttcsirt-321-07-08-20-tt-csirt-advisory-citrix-multiple-vulnerabilities",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Citrix ADC (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP appliance models 4000-WO, 4100-WO, 5000-WO, and 5100-WO. These vulnerabilities, if exploited, could result in a number of security issues including:",
+  "cveList": [],
+  "date": "8 July 2020",
+  "rawDate": "2020-07-08T13:06:30",
+  "modifiedDate": "8 July 2020",
+  "rawModifiedDate": "2020-07-08T13:06:30",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Multiple vulnerabilities have been discovered in Citrix ADC (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP appliance models 4000-WO, 4100-WO, 5000-WO, and 5100-WO. These vulnerabilities, if exploited, could result in a number of security issues including:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Attacks that are limited to the management interface</p>\n\n\n\n<ul class=\"wp-block-list\"><li>System compromise by an unauthenticated user on the management network.</li><li>System compromise through Cross Site Scripting (XSS) on the management interface</li><li>Creation of a download link for the device which, if downloaded and then executed by an unauthenticated user on the management network, may result in the compromise of their local computer.</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">Customers who have not enabled either the Gateway or Authentication virtual servers are not at risk from attacks that are applicable to those servers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Other virtual servers e.g. load balancing and content switching virtual servers are not affected by these issues.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates by visiting the following link; which also reflects the various vulnerability types, affected products, attacker privileges and pre-conditions:</p>\n\n\n\n<pre class=\"wp-block-preformatted\"><a href=\"https://support.citrix.com/article/CTX276688\">https://support.citrix.com/article/CTX276688</a></pre>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Citrix ADC (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP appliance models…",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Citrix ADC (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP appliance models 4000-WO, 4100-WO, 5000-WO, and 5100-WO. These vulnerabilities, if exploited, could result in a number of security issues including: Attacks that are limited to the management interface System compromise by an unauthenticated user on the management network. System compromise through Cross [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-321-07-08-20-tt-csirt-advisory-citrix-multiple-vulnerabilities/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Citrix ADC (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP appliance models 4000-WO, 4100-WO, 5000-WO, and 5100-WO. These vulnerabilities, if exploited, could result in a number of security issues including:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Citrix ADC (formerly known as NetScaler ADC), Citrix Gateway (formerly known as NetScaler Gateway) and Citrix SD-WAN WANOP appliance models 4000-WO, 4100-WO, 5000-WO, and 5100-WO. These vulnerabilities, if exploited, could result in a number of security issues including:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Attacks that are limited to the management interface</p>",
+          "text": "Attacks that are limited to the management interface"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>System compromise by an unauthenticated user on the management network.</li><li>System compromise through Cross Site Scripting (XSS) on the management interface</li><li>Creation of a download link for the device which, if downloaded and then executed by an unauthenticated user on the management network, may result in the compromise of their local computer.</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Customers who have not enabled either the Gateway or Authentication virtual servers are not at risk from attacks that are applicable to those servers.</p>",
+          "text": "Customers who have not enabled either the Gateway or Authentication virtual servers are not at risk from attacks that are applicable to those servers."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Other virtual servers e.g. load balancing and content switching virtual servers are not affected by these issues.</p>",
+          "text": "Other virtual servers e.g. load balancing and content switching virtual servers are not affected by these issues."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates by visiting the following link; which also reflects the various vulnerability types, affected products, attacker privileges and pre-conditions:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates by visiting the following link; which also reflects the various vulnerability types, affected products, attacker privileges and pre-conditions:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.citrix.com/article/CTX276688\">https://support.citrix.com/article/CTX276688</a></p>",
+          "text": "https://support.citrix.com/article/CTX276688"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.citrix.com/article/CTX276688"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-321-07-08-20-tt-csirt-advisory-citrix-multiple-vulnerabilities/",
+    "upstreamDisclosedAt": "2020-07-08T13:06:30",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

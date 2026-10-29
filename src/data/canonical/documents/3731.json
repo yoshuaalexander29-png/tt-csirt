@@ -1,0 +1,70 @@
+{
+  "id": "3731",
+  "legacyPostId": 3731,
+  "referenceNumber": "TT-CSIRT #215",
+  "classification": "advisory",
+  "title": "Ubuntu security updates",
+  "rawTitle": "TTCSIRT-215.062819: TT-CSIRT Advisory – Ubuntu Security Updates",
+  "slug": "ttcsirt-215-062819-tt-csirt-advisory-ubuntu-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Canonical has released a security update stating that it has discovered a vulnerability in its Ubuntu Linux OS where a sequence of specifically crafted selective acknowledgements (SACK) may trigger an integer overflow, leading to a denial of service or possible kernel failure.",
+  "cveList": [],
+  "date": "28 June 2019",
+  "rawDate": "2019-06-28T17:32:46",
+  "modifiedDate": "28 June 2019",
+  "rawModifiedDate": "2019-06-28T17:32:46",
+  "contentHtml": "<p>Canonical has released a security update stating that it has discovered a vulnerability in its Ubuntu Linux OS where a sequence of specifically crafted selective acknowledgements (SACK) may trigger an integer overflow, leading to a denial of service or possible kernel failure.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Ubuntu Webste at <a href=\"https://usn.ubuntu.com/4017-1/\"><font size=\"2\" color=\"maroon\">https://usn.ubuntu.com/4017-1/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Canonical has released a security update stating that it has discovered a vulnerability in its Ubuntu Linux OS where a sequence of specifically crafted selective acknowledgements (SACK) may…",
+  "sourceExcerpt": "<p>Canonical has released a security update stating that it has discovered a vulnerability in its Ubuntu Linux OS where a sequence of specifically crafted selective acknowledgements (SACK) may trigger an integer overflow, leading to a denial of service or possible kernel failure. Further information on this vulnerability and how it can be mitigated can be [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-215-062819-tt-csirt-advisory-ubuntu-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Canonical has released a security update stating that it has discovered a vulnerability in its Ubuntu Linux OS where a sequence of specifically crafted selective acknowledgements (SACK) may trigger an integer overflow, leading to a denial of service or possible kernel failure.</p>",
+          "text": "Canonical has released a security update stating that it has discovered a vulnerability in its Ubuntu Linux OS where a sequence of specifically crafted selective acknowledgements (SACK) may trigger an integer overflow, leading to a denial of service or possible kernel failure."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Ubuntu Webste at <a href=\"https://usn.ubuntu.com/4017-1/\">https://usn.ubuntu.com/4017-1/</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Ubuntu Webste at https://usn.ubuntu.com/4017-1/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://usn.ubuntu.com/4017-1/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-215-062819-tt-csirt-advisory-ubuntu-security-updates/",
+    "upstreamDisclosedAt": "2019-06-28T17:32:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

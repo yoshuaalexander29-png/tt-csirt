@@ -1,0 +1,114 @@
+{
+  "id": "4461",
+  "legacyPostId": 4461,
+  "referenceNumber": "TT-CSIRT #305",
+  "classification": "advisory",
+  "title": "XSS vulnerability in the dashboard name parameter of fortiadc",
+  "rawTitle": "TTCSIRT-305.041020: TT-CSIRT ADVISORY- XSS VULNERABILITY IN THE DASHBOARD NAME PARAMETER OF FortiADC",
+  "slug": "ttcsirt-305-041020-tt-csirt-advisory-xss-vulnerability-in-the-dashboard-name-parameter-of-fortiadc",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter.",
+  "cveList": [
+    "CVE-2020-6647"
+  ],
+  "date": "10 April 2020",
+  "rawDate": "2020-04-10T17:00:55",
+  "modifiedDate": "10 April 2020",
+  "rawModifiedDate": "2020-04-10T17:00:55",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Impact</em>: Execute Unauthorized Code or Commands</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Affected Products</em>:</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiADC version 5.3.4 and below<br>FortiADC version 5.4.0 and below</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Solutions</em>: Upgrades to FortiADC versions 5.3.5 or above and FortiADC version 5.4.1 or above.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Kindly review the following link for further reference:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6647\">http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6647</a></p>\n",
+  "displaySummary": "An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter.",
+  "sourceExcerpt": "<p>An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter. Impact: Execute Unauthorized Code or Commands Affected Products: FortiADC version 5.3.4 and belowFortiADC version 5.4.0 and below Solutions: Upgrades to FortiADC versions 5.3.5 or above and FortiADC [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-305-041020-tt-csirt-advisory-xss-vulnerability-in-the-dashboard-name-parameter-of-fortiadc/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter.</p>",
+          "text": "An improper neutralization of input vulnerability in the dashboard of FortiADC may allow an authenticated attacker to perform a cross site scripting attack (XSS) via the name parameter."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Impact</em>: Execute Unauthorized Code or Commands</p>",
+          "text": "Impact : Execute Unauthorized Code or Commands"
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected products",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>FortiADC version 5.3.4 and below<br>FortiADC version 5.4.0 and below</p>",
+          "text": "FortiADC version 5.3.4 and below FortiADC version 5.4.0 and below"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>Solutions</em>: Upgrades to FortiADC versions 5.3.5 or above and FortiADC version 5.4.1 or above.</p>",
+          "text": "Solutions : Upgrades to FortiADC versions 5.3.5 or above and FortiADC version 5.4.1 or above."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Kindly review the following link for further reference",
+          "id": "kindly-review-the-following-link-for-further-reference"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6647\">http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6647</a></p>",
+          "text": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6647"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected products"
+    },
+    {
+      "id": "kindly-review-the-following-link-for-further-reference",
+      "label": "Kindly review the following link for further reference",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-6647"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-305-041020-tt-csirt-advisory-xss-vulnerability-in-the-dashboard-name-parameter-of-fortiadc/",
+    "upstreamDisclosedAt": "2020-04-10T17:00:55",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2886",
+  "legacyPostId": 2886,
+  "referenceNumber": "TT-CSIRT #028",
+  "classification": "advisory",
+  "title": "Mcafee security updates",
+  "rawTitle": "TTCSIRT-028.073117: TT-CSIRT Advisory – McAfee Security Updates",
+  "slug": "ttcsirt-028-073117-tt-csirt-advisory-mcafee-releases-security-bulletin",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "McAfee has released a security bulletin to address multiple vulnerabilities in Web Gateway:",
+  "cveList": [
+    "CVE-2012-6706",
+    "CVE-2017-1000364",
+    "CVE-2017-1000366",
+    "CVE-2017-1000368"
+  ],
+  "date": "31 July 2017",
+  "rawDate": "2017-07-31T10:03:43",
+  "modifiedDate": "31 July 2017",
+  "rawModifiedDate": "2017-07-31T10:03:43",
+  "contentHtml": "<p>McAfee has released a security bulletin to address multiple vulnerabilities in Web Gateway:</p>\n<p>a) <strong>CVE-2012-6706</strong> &#8211; a VMSF_DELTA memory corruption was discovered in unrar before 5.5.5, as used in Sophos Anti-Virus Threat Detection Engine before 3.37.2 and other products, that can lead to arbitrary code execution. </p>\n<p>b) <strong>CVE-2017-1000364</strong> &#8211; an issue was discovered in the size of the stack guard page on Linux, specifically a 4k stack guard page is not sufficiently large and can be &#8220;jumped&#8221; over (the stack guard page is bypassed). </p>\n<p>c) <strong>CVE-2017-1000366</strong> &#8211; glibc contains a vulnerability that allows specially crafted LD_LIBRARY_PATH values to manipulate the heap/stack, causing them to alias, potentially resulting in arbitrary code execution.</p>\n<p>d) <strong>CVE-2017-1000368</strong> &#8211; sudo version 1.8.20p1 and earlier is vulnerable to an input validation (embedded newlines) in the get_process_ttyname() function resulting in information disclosure and command execution.</p>\n<table>\n<tr>\n<td>Further information on this security bulletin and how the vulnerabilities can be fixed are available on the McAfee Website at <a href=\"https://kc.mcafee.com/corporate/index?page=content&#038;id=SB10205&#038;actp=null&#038;viewlocale=en_US&#038;showDraft=false&#038;platinum_status=false&#038;locale=en_US\"><font size=\"2\" color=\"maroon\">https://kc.mcafee.com/corporate/index?page=content&#038;id=SB10205&#038;actp=null&#038;viewlocale=en_US&#038;showDraft=false&#038;platinum_status=false&#038;locale=en_US</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "McAfee has released a security bulletin to address multiple vulnerabilities in Web Gateway: a) CVE-2012-6706 &#8211; a VMSF_DELTA memory corruption was discovered in unrar before 5.5.5, as used…",
+  "sourceExcerpt": "<p>McAfee has released a security bulletin to address multiple vulnerabilities in Web Gateway: a) CVE-2012-6706 &#8211; a VMSF_DELTA memory corruption was discovered in unrar before 5.5.5, as used in Sophos Anti-Virus Threat Detection Engine before 3.37.2 and other products, that can lead to arbitrary code execution. b) CVE-2017-1000364 &#8211; an issue was discovered in the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-028-073117-tt-csirt-advisory-mcafee-releases-security-bulletin/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>McAfee has released a security bulletin to address multiple vulnerabilities in Web Gateway:</p>",
+          "text": "McAfee has released a security bulletin to address multiple vulnerabilities in Web Gateway:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) <strong>CVE-2012-6706</strong> &#8211; a VMSF_DELTA memory corruption was discovered in unrar before 5.5.5, as used in Sophos Anti-Virus Threat Detection Engine before 3.37.2 and other products, that can lead to arbitrary code execution.</p>",
+          "text": "a) CVE-2012-6706 – a VMSF_DELTA memory corruption was discovered in unrar before 5.5.5, as used in Sophos Anti-Virus Threat Detection Engine before 3.37.2 and other products, that can lead to arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) <strong>CVE-2017-1000364</strong> &#8211; an issue was discovered in the size of the stack guard page on Linux, specifically a 4k stack guard page is not sufficiently large and can be &#8220;jumped&#8221; over (the stack guard page is bypassed).</p>",
+          "text": "b) CVE-2017-1000364 – an issue was discovered in the size of the stack guard page on Linux, specifically a 4k stack guard page is not sufficiently large and can be “jumped” over (the stack guard page is bypassed)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) <strong>CVE-2017-1000366</strong> &#8211; glibc contains a vulnerability that allows specially crafted LD_LIBRARY_PATH values to manipulate the heap/stack, causing them to alias, potentially resulting in arbitrary code execution.</p>",
+          "text": "c) CVE-2017-1000366 – glibc contains a vulnerability that allows specially crafted LD_LIBRARY_PATH values to manipulate the heap/stack, causing them to alias, potentially resulting in arbitrary code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) <strong>CVE-2017-1000368</strong> &#8211; sudo version 1.8.20p1 and earlier is vulnerable to an input validation (embedded newlines) in the get_process_ttyname() function resulting in information disclosure and command execution.</p>",
+          "text": "d) CVE-2017-1000368 – sudo version 1.8.20p1 and earlier is vulnerable to an input validation (embedded newlines) in the get_process_ttyname() function resulting in information disclosure and command execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this security bulletin and how the vulnerabilities can be fixed are available on the McAfee Website at <a href=\"https://kc.mcafee.com/corporate/index?page=content&#038;id=SB10205&#038;actp=null&#038;viewlocale=en_US&#038;showDraft=false&#038;platinum_status=false&#038;locale=en_US\">https://kc.mcafee.com/corporate/index?page=content&#038;id=SB10205&#038;actp=null&#038;viewlocale=en_US&#038;showDraft=false&#038;platinum_status=false&#038;locale=en_US</a></p>",
+          "text": "Further information on this security bulletin and how the vulnerabilities can be fixed are available on the McAfee Website at https://kc.mcafee.com/corporate/index?page=content&#038;id=SB10205&#038;actp=null&#038;viewlocale=en_US&#038;showDraft=false&#038;platinum_status=false&#038;locale=en_US"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kc.mcafee.com/corporate/index?page=content&#038;id=SB10205&#038;actp=null&#038;viewlocale=en_US&#038;showDraft=false&#038;platinum_status=false&#038;locale=en_US"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-028-073117-tt-csirt-advisory-mcafee-releases-security-bulletin/",
+    "upstreamDisclosedAt": "2017-07-31T10:03:43",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

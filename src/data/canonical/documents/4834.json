@@ -1,0 +1,105 @@
+{
+  "id": "4834",
+  "legacyPostId": 4834,
+  "referenceNumber": "TT-CSIRT 386.12.14.20",
+  "classification": "advisory",
+  "title": "Sunburst backdoor",
+  "rawTitle": "TTCSIRT-386.12.14.20:TTCSIRT ADVISORY – SUNBURST BACKDOOR",
+  "slug": "ttcsirt-386-12-14-20ttcsirt-advisory-sunburst-backdoor",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "FireEye has uncovered a widespread campaign that they are tracking as UNC2452.",
+  "cveList": [],
+  "date": "14 December 2020",
+  "rawDate": "2020-12-14T09:19:53",
+  "modifiedDate": "14 December 2020",
+  "rawModifiedDate": "2020-12-14T09:19:53",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">FireEye has uncovered a widespread campaign that they are tracking as UNC2452.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The actors behind this campaign gained access to numerous public and private organizations around the world.</p>\n\n\n\n<p class=\"wp-block-paragraph\">They gained access to victims via trojanized updates to SolarWind’s Orion IT monitoring and management software.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FireEye stated that this campaign may have begun as early as Spring 2020 and is currently ongoing.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Post compromise activity following this supply chain compromise has included lateral movement and data theft.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The campaign is the work of a highly skilled actor and the operation was conducted with significant operational security.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\\\">https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\\</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "FireEye has uncovered a widespread campaign that they are tracking as UNC2452. The actors behind this campaign gained access to numerous public and private organizations around the world.",
+  "sourceExcerpt": "<p>FireEye has uncovered a widespread campaign that they are tracking as UNC2452. The actors behind this campaign gained access to numerous public and private organizations around the world. They gained access to victims via trojanized updates to SolarWind’s Orion IT monitoring and management software. FireEye stated that this campaign may have begun as early as [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-386-12-14-20ttcsirt-advisory-sunburst-backdoor/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>FireEye has uncovered a widespread campaign that they are tracking as UNC2452.</p>",
+          "text": "FireEye has uncovered a widespread campaign that they are tracking as UNC2452."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The actors behind this campaign gained access to numerous public and private organizations around the world.</p>",
+          "text": "The actors behind this campaign gained access to numerous public and private organizations around the world."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>They gained access to victims via trojanized updates to SolarWind’s Orion IT monitoring and management software.</p>",
+          "text": "They gained access to victims via trojanized updates to SolarWind’s Orion IT monitoring and management software."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>FireEye stated that this campaign may have begun as early as Spring 2020 and is currently ongoing.</p>",
+          "text": "FireEye stated that this campaign may have begun as early as Spring 2020 and is currently ongoing."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Post compromise activity following this supply chain compromise has included lateral movement and data theft.</p>",
+          "text": "Post compromise activity following this supply chain compromise has included lateral movement and data theft."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The campaign is the work of a highly skilled actor and the operation was conducted with significant operational security.</p>",
+          "text": "The campaign is the work of a highly skilled actor and the operation was conducted with significant operational security."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:</p>",
+          "text": "For more insight on this vulnerability and to be aware of the current mitigation instructions please follow the link below:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\\\">https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\\</a></p>",
+          "text": "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\\"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html\\"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-386-12-14-20ttcsirt-advisory-sunburst-backdoor/",
+    "upstreamDisclosedAt": "2020-12-14T09:19:53",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

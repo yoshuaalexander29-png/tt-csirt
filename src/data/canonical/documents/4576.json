@@ -1,0 +1,97 @@
+{
+  "id": "4576",
+  "legacyPostId": 4576,
+  "referenceNumber": "TT-CSIRT 326.07.20.20",
+  "classification": "advisory",
+  "title": "Performancepoint services remote code execution vulnerability",
+  "rawTitle": "TTCSIRT-326.07.20.20: TT-CSIRT ADVISORY-PERFORMANCEPOINT SERVICES REMOTE CODE EXECUTION VULNERABILITY",
+  "slug": "ttcsirt-326-07-20-20-tt-csirt-advisory-performancepoint-services-remote-code-execution-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A remote code execution vulnerability exists in PerformancePoint Services for SharePoint Server when the software fails to check the source markup of XML file input.",
+  "cveList": [
+    "CVE-2020-1439"
+  ],
+  "date": "20 July 2020",
+  "rawDate": "2020-07-20T09:25:35",
+  "modifiedDate": "20 July 2020",
+  "rawModifiedDate": "2020-07-20T09:25:35",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A remote code execution vulnerability exists in PerformancePoint Services for SharePoint Server when the software fails to check the source markup of XML file input.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the process responsible for deserialization of the XML content.</p>\n\n\n\n<p class=\"wp-block-paragraph\">To exploit this vulnerability, an attacker could upload a specially crafted document to a server utilizing an affected product to process content.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The security update addresses the vulnerability by correcting how PerformancePoint Services validates the source markup of XML content.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft has not identified any workarounds or mitigating factors for this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following link and apply the necessary updates listed in the “Security Updates” table of the advisory:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "A remote code execution vulnerability exists in PerformancePoint Services for SharePoint Server when the software fails to check the source markup of XML file input.",
+  "sourceExcerpt": "<p>A remote code execution vulnerability exists in PerformancePoint Services for SharePoint Server when the software fails to check the source markup of XML file input. An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the process responsible for deserialization of the XML content. To exploit this vulnerability, an attacker [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-326-07-20-20-tt-csirt-advisory-performancepoint-services-remote-code-execution-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A remote code execution vulnerability exists in PerformancePoint Services for SharePoint Server when the software fails to check the source markup of XML file input.</p>",
+          "text": "A remote code execution vulnerability exists in PerformancePoint Services for SharePoint Server when the software fails to check the source markup of XML file input."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the process responsible for deserialization of the XML content.</p>",
+          "text": "An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the process responsible for deserialization of the XML content."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To exploit this vulnerability, an attacker could upload a specially crafted document to a server utilizing an affected product to process content.</p>",
+          "text": "To exploit this vulnerability, an attacker could upload a specially crafted document to a server utilizing an affected product to process content."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The security update addresses the vulnerability by correcting how PerformancePoint Services validates the source markup of XML content.</p>",
+          "text": "The security update addresses the vulnerability by correcting how PerformancePoint Services validates the source markup of XML content."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has not identified any workarounds or mitigating factors for this vulnerability.</p>",
+          "text": "Microsoft has not identified any workarounds or mitigating factors for this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following link and apply the necessary updates listed in the “Security Updates” table of the advisory:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review the following link and apply the necessary updates listed in the “Security Updates” table of the advisory:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439</a></p>",
+          "text": "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-1439"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-326-07-20-20-tt-csirt-advisory-performancepoint-services-remote-code-execution-vulnerability/",
+    "upstreamDisclosedAt": "2020-07-20T09:25:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

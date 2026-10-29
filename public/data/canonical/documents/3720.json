@@ -1,0 +1,89 @@
+{
+  "id": "3720",
+  "legacyPostId": 3720,
+  "referenceNumber": "TT-CSIRT #213",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-213.061419: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-213-061419-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that it has found the following vulnerabilities in Google Chrome:",
+  "cveList": [
+    "CVE-2019-5837",
+    "CVE-2019-5836",
+    "CVE-2019-5833",
+    "CVE-2019-5832",
+    "CVE-2019-5839",
+    "CVE-2019-5830",
+    "CVE-2019-5831",
+    "CVE-2019-5835",
+    "CVE-2019-5838",
+    "CVE-2019-5840",
+    "CVE-2019-5834",
+    "CVE-2019-5829",
+    "CVE-2019-5828"
+  ],
+  "date": "13 June 2019",
+  "rawDate": "2019-06-13T20:54:56",
+  "modifiedDate": "13 June 2019",
+  "rawModifiedDate": "2019-06-13T20:54:56",
+  "contentHtml": "<p>Google has released a security update stating that it has found the following vulnerabilities in Google Chrome:</p>\n<p>a) Cross-origin resources size disclosure in Appcache &#8211; (CVE-2019-5837)<br />\nb) Heap buffer overflow in Angle &#8211; (CVE-2019-5836)<br />\nc) Inconsistent security UI placement &#8211; (CVE-2019-5833)<br />\nd) Incorrect CORS handling in XHR &#8211; (CVE-2019-5832)<br />\ne) Incorrect handling of certain code points in Blink &#8211; (CVE-2019-5839)<br />\nf) Incorrectly credentialed requests in CORS &#8211; (CVE-2019-5830)<br />\ng) Incorrect map processing in V8 &#8211; (CVE-2019-5831)<br />\nh) Out of bounds read in Swiftshader &#8211; (CVE-2019-5835)<br />\ni) Overly permissive tab access in Extensions &#8211; (CVE-2019-5838)<br />\nj) Popup blocker bypass &#8211; (CVE-2019-5840)<br />\nk) URL spoof in Omnibox on iOS &#8211; (CVE-2019-5834)<br />\nl) Use after free in Download Manager &#8211; (CVE-2019-5829)<br />\nm) Use after free in ServiceWorker &#8211; (CVE-2019-5828)</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Website at <a href=\"https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html</a></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that it has found the following vulnerabilities in Google Chrome: a) Cross-origin resources size disclosure in Appcache &#8211; (CVE-2019-5837) b)…",
+  "sourceExcerpt": "<p>Google has released a security update stating that it has found the following vulnerabilities in Google Chrome: a) Cross-origin resources size disclosure in Appcache &#8211; (CVE-2019-5837) b) Heap buffer overflow in Angle &#8211; (CVE-2019-5836) c) Inconsistent security UI placement &#8211; (CVE-2019-5833) d) Incorrect CORS handling in XHR &#8211; (CVE-2019-5832) e) Incorrect handling of certain code [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-213-061419-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that it has found the following vulnerabilities in Google Chrome:</p>",
+          "text": "Google has released a security update stating that it has found the following vulnerabilities in Google Chrome:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Cross-origin resources size disclosure in Appcache &#8211; (CVE-2019-5837)<br />\nb) Heap buffer overflow in Angle &#8211; (CVE-2019-5836)<br />\nc) Inconsistent security UI placement &#8211; (CVE-2019-5833)<br />\nd) Incorrect CORS handling in XHR &#8211; (CVE-2019-5832)<br />\ne) Incorrect handling of certain code points in Blink &#8211; (CVE-2019-5839)<br />\nf) Incorrectly credentialed requests in CORS &#8211; (CVE-2019-5830)<br />\ng) Incorrect map processing in V8 &#8211; (CVE-2019-5831)<br />\nh) Out of bounds read in Swiftshader &#8211; (CVE-2019-5835)<br />\ni) Overly permissive tab access in Extensions &#8211; (CVE-2019-5838)<br />\nj) Popup blocker bypass &#8211; (CVE-2019-5840)<br />\nk) URL spoof in Omnibox on iOS &#8211; (CVE-2019-5834)<br />\nl) Use after free in Download Manager &#8211; (CVE-2019-5829)<br />\nm) Use after free in ServiceWorker &#8211; (CVE-2019-5828)</p>",
+          "text": "a) Cross-origin resources size disclosure in Appcache – (CVE-2019-5837) b) Heap buffer overflow in Angle – (CVE-2019-5836) c) Inconsistent security UI placement – (CVE-2019-5833) d) Incorrect CORS handling in XHR – (CVE-2019-5832) e) Incorrect handling of certain code points in Blink – (CVE-2019-5839) f) Incorrectly credentialed requests in CORS – (CVE-2019-5830) g) Incorrect map processing in V8 – (CVE-2019-5831) h) Out of bounds read in Swiftshader – (CVE-2019-5835) i) Overly permissive tab access in Extensions – (CVE-2019-5838) j) Popup blocker bypass – (CVE-2019-5840) k) URL spoof in Omnibox on iOS – (CVE-2019-5834) l) Use after free in Download Manager – (CVE-2019-5829) m) Use after free in ServiceWorker – (CVE-2019-5828)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Google Website at <a href=\"https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html</a></a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Google Website at https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2019/06/stable-channel-update-for-desktop.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-213-061419-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2019-06-13T20:54:56",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

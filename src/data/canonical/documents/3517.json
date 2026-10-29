@@ -1,0 +1,94 @@
+{
+  "id": "3517",
+  "legacyPostId": 3517,
+  "referenceNumber": "TT-CSIRT #160",
+  "classification": "advisory",
+  "title": "Joomla security updates",
+  "rawTitle": "TTCSIRT-160.090318: TT-CSIRT Advisory – Joomla Security Updates",
+  "slug": "ttcsirt-160-090318-tt-csirt-advisory-joomla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Joomla has released a security update stating that the following vulnerabilities have been found in its Joomla Content Management System (CMS) –",
+  "cveList": [
+    "CVE-2018-15881",
+    "CVE-2018-15880",
+    "CVE-2018-15882"
+  ],
+  "date": "3 September 2018",
+  "rawDate": "2018-09-03T11:24:48",
+  "modifiedDate": "3 September 2018",
+  "rawModifiedDate": "2018-09-03T11:24:48",
+  "contentHtml": "<p>Joomla has released a security update stating that the following vulnerabilities have been found in its Joomla Content Management System (CMS) &#8211; </p>\n<p>a) Inadequate checks regarding disabled fields can lead to an ACL violation &#8211; (CVE-2018-15881).</p>\n<p>b) Inadequate output filtering on the user profile page could lead to a stored XSS attack &#8211; (CVE-2018-15880).</p>\n<p>c) Inadequate checks in the InputFilter class could allow specifically prepared PHAR files to pass the upload filter &#8211; (CVE-2018-15882).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-joomla-could-allow-for-arbitrary-code-execution_2018-094/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-joomla-could-allow-for-arbitrary-code-execution_2018-094/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Joomla has released a security update stating that the following vulnerabilities have been found in its Joomla Content Management System (CMS) &#8211; a) Inadequate checks regarding disabled…",
+  "sourceExcerpt": "<p>Joomla has released a security update stating that the following vulnerabilities have been found in its Joomla Content Management System (CMS) &#8211; a) Inadequate checks regarding disabled fields can lead to an ACL violation &#8211; (CVE-2018-15881). b) Inadequate output filtering on the user profile page could lead to a stored XSS attack &#8211; (CVE-2018-15880). c) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-160-090318-tt-csirt-advisory-joomla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Joomla has released a security update stating that the following vulnerabilities have been found in its Joomla Content Management System (CMS) &#8211;</p>",
+          "text": "Joomla has released a security update stating that the following vulnerabilities have been found in its Joomla Content Management System (CMS) –"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Inadequate checks regarding disabled fields can lead to an ACL violation &#8211; (CVE-2018-15881).</p>",
+          "text": "a) Inadequate checks regarding disabled fields can lead to an ACL violation – (CVE-2018-15881)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Inadequate output filtering on the user profile page could lead to a stored XSS attack &#8211; (CVE-2018-15880).</p>",
+          "text": "b) Inadequate output filtering on the user profile page could lead to a stored XSS attack – (CVE-2018-15880)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Inadequate checks in the InputFilter class could allow specifically prepared PHAR files to pass the upload filter &#8211; (CVE-2018-15882).</p>",
+          "text": "c) Inadequate checks in the InputFilter class could allow specifically prepared PHAR files to pass the upload filter – (CVE-2018-15882)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-joomla-could-allow-for-arbitrary-code-execution_2018-094/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-joomla-could-allow-for-arbitrary-code-execution_2018-094/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-joomla-could-allow-for-arbitrary-code-execution_2018-094/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-joomla-could-allow-for-arbitrary-code-execution_2018-094/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-160-090318-tt-csirt-advisory-joomla-security-updates/",
+    "upstreamDisclosedAt": "2018-09-03T11:24:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

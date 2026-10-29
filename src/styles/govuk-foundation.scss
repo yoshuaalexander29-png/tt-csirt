@@ -1,0 +1,110 @@
+////
+/// GOV.UK Frontend v6 foundation
+/// Imports authentic GOV.UK Typography, Font-face, Lists, Links, and Spacing overrides.
+////
+
+@use "sass:meta";
+@use "./govuk-url-functions" as govuk-url;
+@use "govuk-frontend/dist/govuk/settings/assets" with (
+  $govuk-assets-path: "/assets/",
+  $govuk-images-path: "/assets/images/",
+  $govuk-fonts-path: "/assets/fonts/",
+  $govuk-font-url-function: meta.get-function("font-url", $module: "govuk-url"),
+  $govuk-image-url-function: meta.get-function("image-url", $module: "govuk-url")
+);
+@use "govuk-frontend/dist/govuk/settings/measurements" with (
+  $govuk-page-width: 1020px
+);
+@use "govuk-frontend/dist/govuk/settings";
+@use "govuk-frontend/dist/govuk/tools" as *;
+@use "govuk-frontend/dist/govuk/helpers" as *;
+
+// Core typography and document flow
+@use "govuk-frontend/dist/govuk/core/typography" as core-typography;
+@use "govuk-frontend/dist/govuk/core/lists" as core-lists;
+@use "govuk-frontend/dist/govuk/core/links" as core-links;
+@use "govuk-frontend/dist/govuk/core/section-break" as core-section-break;
+
+// Responsive overrides (spacing scale, typography, and layout helpers)
+@use "govuk-frontend/dist/govuk/overrides/spacing" as overrides-spacing;
+@use "govuk-frontend/dist/govuk/overrides/typography" as overrides-typography;
+@use "govuk-frontend/dist/govuk/overrides/width" as overrides-width;
+@use "govuk-frontend/dist/govuk/overrides/display" as overrides-display;
+@use "govuk-frontend/dist/govuk/overrides/text-align" as overrides-text-align;
+
+// Core utilities (visually-hidden, clearfix)
+@use "govuk-frontend/dist/govuk/utilities" as utilities;
+
+// Objects: Grid and Layout containers
+@use "govuk-frontend/dist/govuk/objects/grid" as objects-grid;
+@use "govuk-frontend/dist/govuk/objects/width-container" as objects-width-container;
+
+// Components
+@use "govuk-frontend/dist/govuk/components/summary-list" as components-summary-list;
+@use "govuk-frontend/dist/govuk/components/error-message" as components-error-message;
+@use "govuk-frontend/dist/govuk/components/error-summary" as components-error-summary;
+@use "govuk-frontend/dist/govuk/components/radios" as components-radios;
+@use "govuk-frontend/dist/govuk/components/textarea" as components-textarea;
+@use "govuk-frontend/dist/govuk/components/character-count" as components-character-count;
+@use "govuk-frontend/dist/govuk/components/checkboxes" as components-checkboxes;
+@use "govuk-frontend/dist/govuk/components/date-input" as components-date-input;
+@use "govuk-frontend/dist/govuk/components/input" as components-input;
+@use "govuk-frontend/dist/govuk/components/select" as components-select;
+@use "govuk-frontend/dist/govuk/components/label" as components-label;
+@use "govuk-frontend/dist/govuk/components/hint" as components-hint;
+@use "govuk-frontend/dist/govuk/components/fieldset" as components-fieldset;
+@use "govuk-frontend/dist/govuk/objects/form-group" as objects-form-group;
+
+@use "govuk-frontend/dist/govuk/objects/main-wrapper" as objects-main-wrapper;
+@use "govuk-frontend/dist/govuk/components/back-link" as components-back-link;
+@use "govuk-frontend/dist/govuk/components/breadcrumbs" as components-breadcrumbs;
+@use "govuk-frontend/dist/govuk/components/button" as components-button;
+@use "govuk-frontend/dist/govuk/components/details" as components-details;
+@use "govuk-frontend/dist/govuk/components/footer" as components-footer;
+@use "govuk-frontend/dist/govuk/components/generic-header" as components-generic-header;
+@use "govuk-frontend/dist/govuk/components/header" as components-header;
+@use "govuk-frontend/dist/govuk/components/inset-text" as components-inset-text;
+@use "govuk-frontend/dist/govuk/components/notification-banner" as components-notification-banner;
+@use "govuk-frontend/dist/govuk/components/pagination" as components-pagination;
+@use "govuk-frontend/dist/govuk/components/panel" as components-panel;
+@use "govuk-frontend/dist/govuk/components/phase-banner" as components-phase-banner;
+@use "govuk-frontend/dist/govuk/components/skip-link" as components-skip-link;
+@use "govuk-frontend/dist/govuk/components/table" as components-table;
+@use "govuk-frontend/dist/govuk/components/tabs" as components-tabs;
+@use "govuk-frontend/dist/govuk/components/tag" as components-tag;
+@use "govuk-frontend/dist/govuk/components/warning-text" as components-warning-text;
+@use "./ttcsirt-header-search.scss";
+
+.govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning) {
+  background-color: #005ea2;
+  box-shadow: 0 2px 0 #003b66;
+}
+
+.govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):not([disabled]):hover {
+  background-color: #004b83;
+}
+
+.govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):focus {
+  outline: 3px solid transparent;
+  box-shadow: inset 0 0 0 1px #ffdd00;
+}
+
+.govuk-button:not(.govuk-button--secondary):not(.govuk-button--warning):focus:not(:active):not(:hover) {
+  border-color: #ffdd00;
+  color: #0b0c0c;
+  background-color: #ffdd00;
+  box-shadow: 0 2px 0 #0b0c0c;
+}
+
+@media (max-width: 640px) {
+  .govuk-button {
+    min-height: 44px;
+  }
+}
+
+.govuk-tag {
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

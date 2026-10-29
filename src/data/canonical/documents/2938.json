@@ -1,0 +1,87 @@
+{
+  "id": "2938",
+  "legacyPostId": 2938,
+  "referenceNumber": "TT-CSIRT #034",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-034.081817: TT-CSIRT Advisory – CISCO Security Updates",
+  "slug": "ttcsirt-034-081817-tt-csirt-advisory-cisco-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released updates to address vulnerabilities affecting multiple products:",
+  "cveList": [],
+  "date": "18 August 2017",
+  "rawDate": "2017-08-18T14:50:39",
+  "modifiedDate": "18 August 2017",
+  "rawModifiedDate": "2017-08-18T14:50:39",
+  "contentHtml": "<p>Cisco has released updates to address vulnerabilities affecting multiple products:</p>\n<p>a) Cisco Application Policy Infrastructure Controller Vulnerability &#8211; could allow an authenticated remote attacker to gain higher privileges than the account is assigned. The attacker will be granted the privileges of the last user to log in, regardless of whether those privileges are higher or lower than what should have been granted.</p>\n<p>b) Cisco Application Policy Infrastructure Controller Vulnerability &#8211; could allow an authenticated, local attacker to gain root-level privileges. This is due to a custom executable system file that was built to use relative search paths for libraries without properly validating the library to be loaded.</p>\n<p>c) Cisco Virtual Network Function Element Manager Arbitrary Vulnerability &#8211; could allow an authenticated, remote attacker to elevate privileges and run commands in the context of the root user on the server. This vulnerability is due to command settings that allow Cisco VNF Element Manager users to specify arbitrary commands that will run as root on the server. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found by clicking on the following links &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-apic1\"><font size=\"2\" color=\"maroon\">cisco-sa-20170816-apic1</font></a>, <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-apic2\"><font size=\"2\" color=\"maroon\">cisco-sa-20170816-apic2</font></a>, <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-em\"><font size=\"2\" color=\"maroon\">cisco-sa-20170816-em</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released updates to address vulnerabilities affecting multiple products: a) Cisco Application Policy Infrastructure Controller Vulnerability &#8211; could allow an authenticated remote…",
+  "sourceExcerpt": "<p>Cisco has released updates to address vulnerabilities affecting multiple products: a) Cisco Application Policy Infrastructure Controller Vulnerability &#8211; could allow an authenticated remote attacker to gain higher privileges than the account is assigned. The attacker will be granted the privileges of the last user to log in, regardless of whether those privileges are higher or [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-034-081817-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released updates to address vulnerabilities affecting multiple products:</p>",
+          "text": "Cisco has released updates to address vulnerabilities affecting multiple products:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Cisco Application Policy Infrastructure Controller Vulnerability &#8211; could allow an authenticated remote attacker to gain higher privileges than the account is assigned. The attacker will be granted the privileges of the last user to log in, regardless of whether those privileges are higher or lower than what should have been granted.</p>",
+          "text": "a) Cisco Application Policy Infrastructure Controller Vulnerability – could allow an authenticated remote attacker to gain higher privileges than the account is assigned. The attacker will be granted the privileges of the last user to log in, regardless of whether those privileges are higher or lower than what should have been granted."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Cisco Application Policy Infrastructure Controller Vulnerability &#8211; could allow an authenticated, local attacker to gain root-level privileges. This is due to a custom executable system file that was built to use relative search paths for libraries without properly validating the library to be loaded.</p>",
+          "text": "b) Cisco Application Policy Infrastructure Controller Vulnerability – could allow an authenticated, local attacker to gain root-level privileges. This is due to a custom executable system file that was built to use relative search paths for libraries without properly validating the library to be loaded."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Cisco Virtual Network Function Element Manager Arbitrary Vulnerability &#8211; could allow an authenticated, remote attacker to elevate privileges and run commands in the context of the root user on the server. This vulnerability is due to command settings that allow Cisco VNF Element Manager users to specify arbitrary commands that will run as root on the server.</p>",
+          "text": "c) Cisco Virtual Network Function Element Manager Arbitrary Vulnerability – could allow an authenticated, remote attacker to elevate privileges and run commands in the context of the root user on the server. This vulnerability is due to command settings that allow Cisco VNF Element Manager users to specify arbitrary commands that will run as root on the server."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found by clicking on the following links &#8211; <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-apic1\">cisco-sa-20170816-apic1</a>, <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-apic2\">cisco-sa-20170816-apic2</a>, <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-em\">cisco-sa-20170816-em</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found by clicking on the following links – cisco-sa-20170816-apic1 , cisco-sa-20170816-apic2 , cisco-sa-20170816-em"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-apic1",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-apic2",
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170816-em"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-034-081817-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2017-08-18T14:50:39",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

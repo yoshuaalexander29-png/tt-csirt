@@ -1,0 +1,75 @@
+{
+  "id": "4116",
+  "legacyPostId": 4116,
+  "referenceNumber": "TT-CSIRT #282",
+  "classification": "advisory",
+  "title": "Adobe releases security updates for after effects and media encoder",
+  "rawTitle": "TTCSIRT-282.022620: TT-CSIRT ADVISORY-ADOBE RELEASES SECURITY UPDATES FOR AFTER EFFECTS AND MEDIA ENCODER",
+  "slug": "ttcsirt-282-022620-tt-csirt-advisory-adobe-releases-security-updates-for-after-effects-and-media-encoder",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released security updates to address vulnerabilities in After Effects and Media Encoder. An attacker could exploit these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "26 February 2020",
+  "rawDate": "2020-02-26T08:26:34",
+  "modifiedDate": "26 February 2020",
+  "rawModifiedDate": "2020-02-26T08:26:34",
+  "contentHtml": "<p>Adobe has released security updates to address vulnerabilities in After Effects and Media Encoder. An attacker could exploit these vulnerabilities to take control of an affected system.</p>\n<p>TT-CSIRT encourages users and administrators to review Adobe Security Bulletins APSB20-09 and APSB20-10 and apply the necessary updates:</p>\n<ul>\n<li><a href=\"https://helpx.adobe.com/security/products/after_effects/apsb20-09.html\">https://helpx.adobe.com/security/products/after_effects/apsb20-09.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/media-encoder/apsb20-10.html\">https://helpx.adobe.com/security/products/media-encoder/apsb20-10.html</a></li>\n</ul>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Adobe has released security updates to address vulnerabilities in After Effects and Media Encoder. An attacker could exploit these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Adobe has released security updates to address vulnerabilities in After Effects and Media Encoder. An attacker could exploit these vulnerabilities to take control of an affected system. TT-CSIRT encourages users and administrators to review Adobe Security Bulletins APSB20-09 and APSB20-10 and apply the necessary updates: https://helpx.adobe.com/security/products/after_effects/apsb20-09.html https://helpx.adobe.com/security/products/media-encoder/apsb20-10.html &nbsp;</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-282-022620-tt-csirt-advisory-adobe-releases-security-updates-for-after-effects-and-media-encoder/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released security updates to address vulnerabilities in After Effects and Media Encoder. An attacker could exploit these vulnerabilities to take control of an affected system.</p>",
+          "text": "Adobe has released security updates to address vulnerabilities in After Effects and Media Encoder. An attacker could exploit these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review Adobe Security Bulletins APSB20-09 and APSB20-10 and apply the necessary updates:</p>",
+          "text": "TT-CSIRT encourages users and administrators to review Adobe Security Bulletins APSB20-09 and APSB20-10 and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://helpx.adobe.com/security/products/after_effects/apsb20-09.html\">https://helpx.adobe.com/security/products/after_effects/apsb20-09.html</a></li>\n<li><a href=\"https://helpx.adobe.com/security/products/media-encoder/apsb20-10.html\">https://helpx.adobe.com/security/products/media-encoder/apsb20-10.html</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/after_effects/apsb20-09.html",
+    "https://helpx.adobe.com/security/products/media-encoder/apsb20-10.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-282-022620-tt-csirt-advisory-adobe-releases-security-updates-for-after-effects-and-media-encoder/",
+    "upstreamDisclosedAt": "2020-02-26T08:26:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

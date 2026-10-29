@@ -1,0 +1,90 @@
+{
+  "id": "3153",
+  "legacyPostId": 3153,
+  "referenceNumber": "TT-CSIRT #079",
+  "classification": "advisory",
+  "title": "Oracle security updates",
+  "rawTitle": "TTCSIRT-079.012218: TT-CSIRT Advisory – Oracle Security Updates",
+  "slug": "ttcsirt-079-012218-tt-csirt-advisory-oracle-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Oracle has released a January 2018 Critical Patch Update to fix certain products vulnerable to Spectre (CVE-2017-5753, CVE-2017-5715) and Meltdown (CVE-2017-5754) Intel processor vulnerabilities.",
+  "cveList": [
+    "CVE-2017-5753",
+    "CVE-2017-5715",
+    "CVE-2017-5754"
+  ],
+  "date": "22 January 2018",
+  "rawDate": "2018-01-22T11:45:49",
+  "modifiedDate": "22 January 2018",
+  "rawModifiedDate": "2018-01-22T11:45:49",
+  "contentHtml": "<p>Oracle has released a January 2018 Critical Patch Update to fix certain products vulnerable to Spectre (CVE-2017-5753, CVE-2017-5715) and Meltdown (CVE-2017-5754) Intel processor vulnerabilities.</p>\n<p>Some of the products affected include:</p>\n<p>a) Application Express, versions prior to 5.1.4.00.08<br />\nb) Java Advanced Management Console, version 2.8<br />\nc) MySQL Enterprise Monitor, versions 3.3.6.3293 and prior, 3.4.4.4226 and prior, 4.0.0.5135 and prior<br />\nd) Oracle Access Manager, versions 10.1.4.3.0, 11.1.2.3.0<br />\ne) Oracle Mobile Security Suite, version 3.0.1<br />\nf) PeopleSoft Enterprise PeopleTools, versions 8.54, 8.55, 8.56</p>\n<table>\n<tr>\n<td>Further information on this Critical Patch and which products have been affected can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html\"><font size=\"2\" color=\"maroon\">http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html</a></font></td>\n</tr>\n</table>\n",
+  "displaySummary": "Oracle has released a January 2018 Critical Patch Update to fix certain products vulnerable to Spectre (CVE-2017-5753, CVE-2017-5715) and Meltdown (CVE-2017-5754) Intel processor vulnerabilities.",
+  "sourceExcerpt": "<p>Oracle has released a January 2018 Critical Patch Update to fix certain products vulnerable to Spectre (CVE-2017-5753, CVE-2017-5715) and Meltdown (CVE-2017-5754) Intel processor vulnerabilities. Some of the products affected include: a) Application Express, versions prior to 5.1.4.00.08 b) Java Advanced Management Console, version 2.8 c) MySQL Enterprise Monitor, versions 3.3.6.3293 and prior, 3.4.4.4226 and prior, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-079-012218-tt-csirt-advisory-oracle-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Oracle has released a January 2018 Critical Patch Update to fix certain products vulnerable to Spectre (CVE-2017-5753, CVE-2017-5715) and Meltdown (CVE-2017-5754) Intel processor vulnerabilities.</p>",
+          "text": "Oracle has released a January 2018 Critical Patch Update to fix certain products vulnerable to Spectre (CVE-2017-5753, CVE-2017-5715) and Meltdown (CVE-2017-5754) Intel processor vulnerabilities."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Some of the products affected include",
+          "id": "some-of-the-products-affected-include"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Application Express, versions prior to 5.1.4.00.08<br />\nb) Java Advanced Management Console, version 2.8<br />\nc) MySQL Enterprise Monitor, versions 3.3.6.3293 and prior, 3.4.4.4226 and prior, 4.0.0.5135 and prior<br />\nd) Oracle Access Manager, versions 10.1.4.3.0, 11.1.2.3.0<br />\ne) Oracle Mobile Security Suite, version 3.0.1<br />\nf) PeopleSoft Enterprise PeopleTools, versions 8.54, 8.55, 8.56</p>",
+          "text": "a) Application Express, versions prior to 5.1.4.00.08 b) Java Advanced Management Console, version 2.8 c) MySQL Enterprise Monitor, versions 3.3.6.3293 and prior, 3.4.4.4226 and prior, 4.0.0.5135 and prior d) Oracle Access Manager, versions 10.1.4.3.0, 11.1.2.3.0 e) Oracle Mobile Security Suite, version 3.0.1 f) PeopleSoft Enterprise PeopleTools, versions 8.54, 8.55, 8.56"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this Critical Patch and which products have been affected can be found on the Oracle Website at <a href=\"http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html\">http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html</a></p>",
+          "text": "Further information on this Critical Patch and which products have been affected can be found on the Oracle Website at http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "some-of-the-products-affected-include",
+      "label": "Some of the products affected include",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-079-012218-tt-csirt-advisory-oracle-security-updates/",
+    "upstreamDisclosedAt": "2018-01-22T11:45:49",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

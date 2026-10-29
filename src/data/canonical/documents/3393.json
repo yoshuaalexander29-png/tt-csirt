@@ -1,0 +1,100 @@
+{
+  "id": "3393",
+  "legacyPostId": 3393,
+  "referenceNumber": "TT-CSIRT #127",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-127.060818: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-126-060818-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that Adobe Flash Player is prone to the following vulnerabilities:",
+  "cveList": [
+    "CVE-2018-5002",
+    "CVE-2018-4945",
+    "CVE-2018-5000",
+    "CVE-2018-5001"
+  ],
+  "date": "8 June 2018",
+  "rawDate": "2018-06-08T11:19:10",
+  "modifiedDate": "8 June 2018",
+  "rawModifiedDate": "2018-06-08T11:19:10",
+  "contentHtml": "<p>Adobe has released a security update stating that Adobe Flash Player is prone to the following vulnerabilities:</p>\n<p>a) A stack-based buffer overflow that could allow for arbitrary code execution &#8211; (CVE-2018-5002).</p>\n<p>b) A type confusion that could allow for arbitrary code execution &#8211; (CVE-2018-4945).</p>\n<p>c) An integer overflow that could lead to information disclosure &#8211; (CVE-2018-5000).</p>\n<p>d) An out-of-bounds read that could lead to information disclosure &#8211; (CVE-2018-5001).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. </p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/flash-player/apsb18-19.html\"><font size=\"2\" color=\"maroon\">https://helpx.adobe.com/security/products/flash-player/apsb18-19.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that Adobe Flash Player is prone to the following vulnerabilities: a) A stack-based buffer overflow that could allow for arbitrary code execution…",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that Adobe Flash Player is prone to the following vulnerabilities: a) A stack-based buffer overflow that could allow for arbitrary code execution &#8211; (CVE-2018-5002). b) A type confusion that could allow for arbitrary code execution &#8211; (CVE-2018-4945). c) An integer overflow that could lead to information disclosure &#8211; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-126-060818-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that Adobe Flash Player is prone to the following vulnerabilities:</p>",
+          "text": "Adobe has released a security update stating that Adobe Flash Player is prone to the following vulnerabilities:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A stack-based buffer overflow that could allow for arbitrary code execution &#8211; (CVE-2018-5002).</p>",
+          "text": "a) A stack-based buffer overflow that could allow for arbitrary code execution – (CVE-2018-5002)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A type confusion that could allow for arbitrary code execution &#8211; (CVE-2018-4945).</p>",
+          "text": "b) A type confusion that could allow for arbitrary code execution – (CVE-2018-4945)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An integer overflow that could lead to information disclosure &#8211; (CVE-2018-5000).</p>",
+          "text": "c) An integer overflow that could lead to information disclosure – (CVE-2018-5000)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) An out-of-bounds read that could lead to information disclosure &#8211; (CVE-2018-5001).</p>",
+          "text": "d) An out-of-bounds read that could lead to information disclosure – (CVE-2018-5001)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in the attacker gaining control of the affected system and depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at <a href=\"https://helpx.adobe.com/security/products/flash-player/apsb18-19.html\">https://helpx.adobe.com/security/products/flash-player/apsb18-19.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Adobe Website at https://helpx.adobe.com/security/products/flash-player/apsb18-19.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/flash-player/apsb18-19.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-126-060818-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-06-08T11:19:10",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

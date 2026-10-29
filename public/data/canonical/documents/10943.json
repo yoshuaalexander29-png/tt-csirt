@@ -1,0 +1,203 @@
+{
+  "id": "10943",
+  "legacyPostId": 10943,
+  "referenceNumber": "TT-CSIRT 456.08.05.26",
+  "classification": "alert",
+  "title": "Critical Palo Alto Networks PAN-OS vulnerability",
+  "rawTitle": "TT-CSIRT – 456.08.05.26 – CYBERSECURITY ADVISORY: Critical Palo Alto Networks PAN-OS Vulnerability (CVE-2026-0300)",
+  "slug": "tt-csirt-456-08-05-26-cybersecurity-advisory-critical-palo-alto-networks-pan-os-vulnerability-cve-2026-0300",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "CVE-2026-0300 is a critical buffer overflow vulnerability affecting the User-ID™ Authentication Portal (also known as the Captive Portal) service in PAN-OS. Successful exploitation may allow an unauthenticated remote attacker to execute arbitrary code with root privileges on affected PA-Series and VM-Series firewalls through specially crafted packets. Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild.",
+  "cveList": [
+    "CVE-2026-0300"
+  ],
+  "date": "8 May 2026",
+  "rawDate": "2026-05-08T14:31:37",
+  "modifiedDate": "8 May 2026",
+  "rawModifiedDate": "2026-05-08T14:31:38",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">CVE-2026-0300 is a critical buffer overflow vulnerability affecting the User-ID™ Authentication Portal (also known as the Captive Portal) service in PAN-OS. Successful exploitation may allow an unauthenticated remote attacker to execute arbitrary code with root privileges on affected PA-Series and VM-Series firewalls through specially crafted packets. Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Severity: Critical<br>CVSS Score: 9.3<br>Affected Product: Palo Alto Networks PAN-OS</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Remote Code Execution (RCE): The vulnerability may allow unauthenticated attackers to execute arbitrary code with root privileges on affected PAN-OS devices.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected Services: The vulnerability impacts systems configured to use the User-ID™ Authentication Portal (Captive Portal).</p>\n\n\n\n<p class=\"wp-block-paragraph\">Internet Exposure Risk: Systems with Authentication Portal services exposed to the internet or untrusted networks are at significantly higher risk of compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Technical Details</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Affected PAN-OS versions include:<br>• PAN-OS 10.2 versions earlier than 10.2.7-h34, 10.2.10-h36, 10.2.13-h21, 10.2.16-h7 and 10.2.18-h6<br>• PAN-OS 11.1 versions earlier than 11.1.4-h33, 11.1.6-h32, 11.1.7-h6, 11.1.10-h25, 11.1.13-h5 and 11.1.15<br>• PAN-OS 11.2 versions earlier than 11.2.4-h17, 11.2.7-h13, 11.2.10-h6 and 11.2.12<br>• PAN-OS 12.1 versions earlier than 12.1.4-h5 and 12.1.7</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability specifically affects systems configured with:<br>• User-ID Authentication Portal enabled<br>• Captive Portal exposed to the internet or untrusted networks<br>• Internet-facing firewall deployments</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Indicators of Potential Compromise</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should monitor for:<br>• Unexpected administrative account activity<br>• Suspicious outbound connections from firewall appliances<br>• Unknown scheduled tasks or processes<br>• Unauthorized configuration modifications<br>• Unusual authentication portal activity<br>• Unknown files or scripts present on the firewall appliance</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Recommended Actions</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly recommends that organizations:<br>• Immediately restrict Authentication Portal access to trusted internal IP addresses only<br>• Disable the Authentication Portal if not operationally required<br>• Apply vendor-issued hotfixes and software updates once available<br>• Update Threat Prevention signatures and security content<br>• Conduct urgent reviews of internet-facing PAN-OS deployments<br>• Review logs and indicators of compromise (IOCs) for suspicious activity<br>• Implement network segmentation and least privilege access controls</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>What To Do If Compromised</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations suspecting compromise should immediately:<br>• Disconnect affected devices from the network where operationally feasible<br>• Apply the latest vendor-issued security updates and hotfixes<br>• Reset administrative credentials and rotate passwords and API keys<br>• Review firewall and authentication logs for suspicious activity<br>• Conduct threat hunting activities for lateral movement across connected systems<br>• Isolate potentially affected endpoints and servers<br>• Restore systems from verified clean backups where necessary<br>• Preserve forensic evidence including logs and memory captures<br>• Engage incident response personnel and notify relevant stakeholders</p>\n\n\n\n<p class=\"has-black-color has-text-color has-link-color wp-elements-1 wp-block-paragraph\"><strong>Additional information and official remediation guidance can be found at:<br></strong>• <a href=\"https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=chatgpt.com\">Palo Alto Networks Security Advisory – CVE-2026-0300</a><br>• <a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-0300?utm_source=chatgpt.com\">NIST NVD – CVE-2026-0300</a><br>• <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog?utm_source=chatgpt.com\">CISA Known Exploited Vulnerabilities Catalog</a></p>\n\n\n\n<p class=\"has-text-color has-link-color wp-elements-2 wp-block-paragraph\" style=\"color:#070707\">If you have any queries, comments, require assistance or detect suspicious activity please feel free to contact TT-CSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "CVE-2026-0300 is a critical buffer overflow vulnerability affecting the User-ID™ Authentication Portal (also known as the Captive Portal) service in PAN-OS.",
+  "sourceExcerpt": "<p>CVE-2026-0300 is a critical buffer overflow vulnerability affecting the User-ID™ Authentication Portal (also known as the Captive Portal) service in PAN-OS. Successful exploitation may allow an unauthenticated remote attacker to execute arbitrary code with root privileges on affected PA-Series and VM-Series firewalls through specially crafted packets. Palo Alto Networks has confirmed that this vulnerability is [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-456-08-05-26-cybersecurity-advisory-critical-palo-alto-networks-pan-os-vulnerability-cve-2026-0300/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2026-0300 is a critical buffer overflow vulnerability affecting the User-ID™ Authentication Portal (also known as the Captive Portal) service in PAN-OS. Successful exploitation may allow an unauthenticated remote attacker to execute arbitrary code with root privileges on affected PA-Series and VM-Series firewalls through specially crafted packets. Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild.</p>",
+          "text": "CVE-2026-0300 is a critical buffer overflow vulnerability affecting the User-ID™ Authentication Portal (also known as the Captive Portal) service in PAN-OS. Successful exploitation may allow an unauthenticated remote attacker to execute arbitrary code with root privileges on affected PA-Series and VM-Series firewalls through specially crafted packets. Palo Alto Networks has confirmed that this vulnerability is being actively exploited in the wild."
+        },
+        {
+          "type": "metadata-block",
+          "html": "<dl class=\"govuk-summary-list govuk-summary-list--no-border govuk-!-margin-top-4 govuk-!-margin-bottom-6\">\n      <div class=\"govuk-summary-list__row\">\n        <dt class=\"govuk-summary-list__key\">Severity</dt>\n        <dd class=\"govuk-summary-list__value\"><strong class=\"govuk-tag govuk-tag--red\">Critical</strong></dd>\n      </div>\n      <div class=\"govuk-summary-list__row\">\n        <dt class=\"govuk-summary-list__key\">CVSS Score</dt>\n        <dd class=\"govuk-summary-list__value\">9.3</dd>\n      </div>\n      <div class=\"govuk-summary-list__row\">\n        <dt class=\"govuk-summary-list__key\">Affected Product</dt>\n        <dd class=\"govuk-summary-list__value\">Palo Alto Networks PAN-OS</dd>\n      </div></dl>"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Remote Code Execution (RCE): The vulnerability may allow unauthenticated attackers to execute arbitrary code with root privileges on affected PAN-OS devices.</p>",
+          "text": "Remote Code Execution (RCE): The vulnerability may allow unauthenticated attackers to execute arbitrary code with root privileges on affected PAN-OS devices."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Affected Services: The vulnerability impacts systems configured to use the User-ID™ Authentication Portal (Captive Portal).</p>",
+          "text": "Affected Services: The vulnerability impacts systems configured to use the User-ID™ Authentication Portal (Captive Portal)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Internet Exposure Risk: Systems with Authentication Portal services exposed to the internet or untrusted networks are at significantly higher risk of compromise.</p>",
+          "text": "Internet Exposure Risk: Systems with Authentication Portal services exposed to the internet or untrusted networks are at significantly higher risk of compromise."
+        }
+      ]
+    },
+    {
+      "id": "technical-details",
+      "title": "Technical details",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Affected PAN-OS versions include:</p>",
+          "text": "Affected PAN-OS versions include:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>PAN-OS 10.2 versions earlier than 10.2.7-h34, 10.2.10-h36, 10.2.13-h21, 10.2.16-h7 and 10.2.18-h6</li>\n  <li>PAN-OS 11.1 versions earlier than 11.1.4-h33, 11.1.6-h32, 11.1.7-h6, 11.1.10-h25, 11.1.13-h5 and 11.1.15</li>\n  <li>PAN-OS 11.2 versions earlier than 11.2.4-h17, 11.2.7-h13, 11.2.10-h6 and 11.2.12</li>\n  <li>PAN-OS 12.1 versions earlier than 12.1.4-h5 and 12.1.7</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability specifically affects systems configured with:</p>",
+          "text": "The vulnerability specifically affects systems configured with:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>User-ID Authentication Portal enabled</li>\n  <li>Captive Portal exposed to the internet or untrusted networks</li>\n  <li>Internet-facing firewall deployments</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Indicators of potential compromise",
+          "id": "indicators-of-potential-compromise"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Organizations should monitor for:</p>",
+          "text": "Organizations should monitor for:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Unexpected administrative account activity</li>\n  <li>Suspicious outbound connections from firewall appliances</li>\n  <li>Unknown scheduled tasks or processes</li>\n  <li>Unauthorized configuration modifications</li>\n  <li>Unusual authentication portal activity</li>\n  <li>Unknown files or scripts present on the firewall appliance</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "recommended-actions",
+      "title": "Recommended actions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT strongly recommends that organizations:</p>",
+          "text": "TT-CSIRT strongly recommends that organizations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Immediately restrict Authentication Portal access to trusted internal IP addresses only</li>\n  <li>Disable the Authentication Portal if not operationally required</li>\n  <li>Apply vendor-issued hotfixes and software updates once available</li>\n  <li>Update Threat Prevention signatures and security content</li>\n  <li>Conduct urgent reviews of internet-facing PAN-OS deployments</li>\n  <li>Review logs and indicators of compromise (IOCs) for suspicious activity</li>\n  <li>Implement network segmentation and least privilege access controls</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "What to do if compromised",
+          "id": "what-to-do-if-compromised"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Organizations suspecting compromise should immediately:</p>",
+          "text": "Organizations suspecting compromise should immediately:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>Disconnect affected devices from the network where operationally feasible</li>\n  <li>Apply the latest vendor-issued security updates and hotfixes</li>\n  <li>Reset administrative credentials and rotate passwords and API keys</li>\n  <li>Review firewall and authentication logs for suspicious activity</li>\n  <li>Conduct threat hunting activities for lateral movement across connected systems</li>\n  <li>Isolate potentially affected endpoints and servers</li>\n  <li>Restore systems from verified clean backups where necessary</li>\n  <li>Preserve forensic evidence including logs and memory captures</li>\n  <li>Engage incident response personnel and notify relevant stakeholders</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Additional information and official remediation guidance",
+          "id": "additional-information-and-official-remediation-guidance"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li><a href=\"https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=chatgpt.com\">Palo Alto Networks Security Advisory – CVE-2026-0300</a></li>\n  <li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-0300?utm_source=chatgpt.com\">NIST NVD – CVE-2026-0300</a></li>\n  <li><a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog?utm_source=chatgpt.com\">CISA Known Exploited Vulnerabilities Catalog</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "technical-details",
+      "label": "Technical details"
+    },
+    {
+      "id": "indicators-of-potential-compromise",
+      "label": "Indicators of potential compromise",
+      "isSubItem": true
+    },
+    {
+      "id": "recommended-actions",
+      "label": "Recommended actions"
+    },
+    {
+      "id": "what-to-do-if-compromised",
+      "label": "What to do if compromised",
+      "isSubItem": true
+    },
+    {
+      "id": "additional-information-and-official-remediation-guidance",
+      "label": "Additional information and official remediation guidance",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://security.paloaltonetworks.com/CVE-2026-0300?utm_source=chatgpt.com",
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-0300?utm_source=chatgpt.com",
+    "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?utm_source=chatgpt.com"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-456-08-05-26-cybersecurity-advisory-critical-palo-alto-networks-pan-os-vulnerability-cve-2026-0300/",
+    "upstreamDisclosedAt": "2026-05-08T14:31:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

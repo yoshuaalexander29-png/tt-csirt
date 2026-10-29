@@ -1,0 +1,80 @@
+{
+  "id": "4955",
+  "legacyPostId": 4955,
+  "referenceNumber": "TT-CSIRT 391.03.17.21",
+  "classification": "advisory",
+  "title": "Microsoft releases Exchange on-premises mitigation tool",
+  "rawTitle": "TTCSIRT- 391.03.17.21: TTCSIRT ADVISORY- MICROSOFT RELEASES EXCHANGE ON-PREMISES MITIGATION TOOL",
+  "slug": "ttcsirt-391-03-17-21-ttcsirt-advisory-microsoft-releases-exchange-on-premises-mitigation-tool",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released the Exchange On-premises Mitigation Tool (EOMT.ps1) that can automate portions of both the detection and patching process. Microsoft stated the following along with the release: “[the tool is intended] to help customers who do not have dedicated security or IT teams to apply these security updates.",
+  "cveList": [],
+  "date": "17 March 2021",
+  "rawDate": "2021-03-17T11:27:01",
+  "modifiedDate": "17 March 2021",
+  "rawModifiedDate": "2021-03-17T11:27:01",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released the Exchange On-premises Mitigation Tool (EOMT.ps1) that can automate portions of both the detection and patching process. Microsoft stated the following along with the release: &#8220;[the tool is intended] to help customers who do not have dedicated security or IT teams to apply these security updates. </p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">The United States of America&#8217;s Cybersecurity and Infrastructure Agency (CISA) have tested this tool across Exchange Server 2013, 2016, and 2019 deployments. This new tool is designed as an interim mitigation for customers who are unfamiliar with the patch/update process or who have not yet applied the on-premises Exchange security update.”</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team supports CISA&#8217;s decision to encourage users and administrators to review the following resources for more information.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<ul class=\"wp-block-list\"><li>Microsoft’s EOMT.ps1 blog post (<a href=\"https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/\">https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/</a>)</li><li>Alert AA21-062A: Mitigate Microsoft Exchange Server Vulnerabilities (<a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-062a\">https://us-cert.cisa.gov/ncas/alerts/aa21-062a</a>)</li><li>CISA’s Remediating Microsoft Exchange Vulnerabilities&nbsp;web page (<a href=\"https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities \">https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities</a>)</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Microsoft has released the Exchange On-premises Mitigation Tool (EOMT.ps1) that can automate portions of both the detection and patching process.",
+  "sourceExcerpt": "<p>Microsoft has released the Exchange On-premises Mitigation Tool (EOMT.ps1) that can automate portions of both the detection and patching process. Microsoft stated the following along with the release: &#8220;[the tool is intended] to help customers who do not have dedicated security or IT teams to apply these security updates. The United States of America&#8217;s Cybersecurity and Infrastructure [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-391-03-17-21-ttcsirt-advisory-microsoft-releases-exchange-on-premises-mitigation-tool/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released the Exchange On-premises Mitigation Tool (EOMT.ps1) that can automate portions of both the detection and patching process. Microsoft stated the following along with the release: &#8220;[the tool is intended] to help customers who do not have dedicated security or IT teams to apply these security updates.</p>",
+          "text": "Microsoft has released the Exchange On-premises Mitigation Tool (EOMT.ps1) that can automate portions of both the detection and patching process. Microsoft stated the following along with the release: “[the tool is intended] to help customers who do not have dedicated security or IT teams to apply these security updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The United States of America&#8217;s Cybersecurity and Infrastructure Agency (CISA) have tested this tool across Exchange Server 2013, 2016, and 2019 deployments. This new tool is designed as an interim mitigation for customers who are unfamiliar with the patch/update process or who have not yet applied the on-premises Exchange security update.”</p>",
+          "text": "The United States of America’s Cybersecurity and Infrastructure Agency (CISA) have tested this tool across Exchange Server 2013, 2016, and 2019 deployments. This new tool is designed as an interim mitigation for customers who are unfamiliar with the patch/update process or who have not yet applied the on-premises Exchange security update.”"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team supports CISA&#8217;s decision to encourage users and administrators to review the following resources for more information.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team supports CISA’s decision to encourage users and administrators to review the following resources for more information."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Microsoft’s EOMT.ps1 blog post (<a href=\"https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/\">https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/</a>)</li><li>Alert AA21-062A: Mitigate Microsoft Exchange Server Vulnerabilities (<a href=\"https://us-cert.cisa.gov/ncas/alerts/aa21-062a\">https://us-cert.cisa.gov/ncas/alerts/aa21-062a</a>)</li><li>CISA’s Remediating Microsoft Exchange Vulnerabilities&nbsp;web page (<a href=\"https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities \">https://us-cert.cisa.gov/remediating-microsoft-exchange-vulnerabilities</a>)</li></ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc-blog.microsoft.com/2021/03/15/one-click-microsoft-exchange-on-premises-mitigation-tool-march-2021/",
+    "https://us-cert.cisa.gov/ncas/alerts/aa21-062a"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-391-03-17-21-ttcsirt-advisory-microsoft-releases-exchange-on-premises-mitigation-tool/",
+    "upstreamDisclosedAt": "2021-03-17T11:27:01",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

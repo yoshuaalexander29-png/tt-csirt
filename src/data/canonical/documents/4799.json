@@ -1,0 +1,81 @@
+{
+  "id": "4799",
+  "legacyPostId": 4799,
+  "referenceNumber": "TT-CSIRT 374.11.16.20",
+  "classification": "advisory",
+  "title": "Apple releases security updates",
+  "rawTitle": "TTCSIRT-374.11.16.20: TT-CSIRT ADVISORY – Apple Releases Security Updates",
+  "slug": "ttcsirt-373-11-16-20-tt-csirt-advisory-apple-releases-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in multiple products.",
+  "cveList": [],
+  "date": "16 November 2020",
+  "rawDate": "2020-11-16T14:35:32",
+  "modifiedDate": "16 November 2020",
+  "rawModifiedDate": "2020-11-16T14:35:32",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Apple has released security updates to address vulnerabilities in multiple products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">An attacker could exploit some of these vulnerabilities to take control of an affected system. Some of these vulnerabilities have been detected in exploits in the wild.</p>\n\n\n\n<p class=\"wp-block-paragraph\">It is encouraged that users and administrators, review the Apple security pages and apply the necessary updates.<br><br>For further information and support, please visit the links below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTMuMzA0Mjg2NTEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTMxIn0.W-u1p4lpv5JloeGcPpRKI0vWSLZEF-4qIuVeFbPK-j0/s/1193638257/br/89053574161-l\">macOS Big Sur 11.0, 11.0.1</a><br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTMuMzA0Mjg2NTEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3YlMjAlMjBodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTQ2In0.Tlhs48t6VjgerNfuG13q2XE1I9cS04LWyPfdfwoo01M/s/1193638257/br/89053574161-l\">macOS High Sierra 10.13.6, macOS Mojave 10.14.6</a> </p>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit some of these vulnerabilities to take control of an affected system. Some of these vulnerabilities have been detected in exploits in the wild. It is encouraged that users and administrators, review the Apple security pages and apply the necessary updates. For further [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-373-11-16-20-tt-csirt-advisory-apple-releases-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates to address vulnerabilities in multiple products.</p>",
+          "text": "Apple has released security updates to address vulnerabilities in multiple products."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An attacker could exploit some of these vulnerabilities to take control of an affected system. Some of these vulnerabilities have been detected in exploits in the wild.</p>",
+          "text": "An attacker could exploit some of these vulnerabilities to take control of an affected system. Some of these vulnerabilities have been detected in exploits in the wild."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>It is encouraged that users and administrators, review the Apple security pages and apply the necessary updates.</p>",
+          "text": "It is encouraged that users and administrators, review the Apple security pages and apply the necessary updates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the links below:<br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTMuMzA0Mjg2NTEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTMxIn0.W-u1p4lpv5JloeGcPpRKI0vWSLZEF-4qIuVeFbPK-j0/s/1193638257/br/89053574161-l\">macOS Big Sur 11.0, 11.0.1</a><br><a href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTMuMzA0Mjg2NTEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3YlMjAlMjBodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTQ2In0.Tlhs48t6VjgerNfuG13q2XE1I9cS04LWyPfdfwoo01M/s/1193638257/br/89053574161-l\">macOS High Sierra 10.13.6, macOS Mojave 10.14.6</a></p>",
+          "text": "For further information and support, please visit the links below: macOS Big Sur 11.0, 11.0.1 macOS High Sierra 10.13.6, macOS Mojave 10.14.6"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTMuMzA0Mjg2NTEiLCJ1cmwiOiJodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTMxIn0.W-u1p4lpv5JloeGcPpRKI0vWSLZEF-4qIuVeFbPK-j0/s/1193638257/br/89053574161-l",
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDExMTMuMzA0Mjg2NTEiLCJ1cmwiOiJodHRwczovL3VzLWNlcnQuY2lzYS5nb3YlMjAlMjBodHRwczovL3N1cHBvcnQuYXBwbGUuY29tL2VuLXVzL0hUMjExOTQ2In0.Tlhs48t6VjgerNfuG13q2XE1I9cS04LWyPfdfwoo01M/s/1193638257/br/89053574161-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-373-11-16-20-tt-csirt-advisory-apple-releases-security-updates/",
+    "upstreamDisclosedAt": "2020-11-16T14:35:32",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

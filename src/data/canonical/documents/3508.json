@@ -1,0 +1,80 @@
+{
+  "id": "3508",
+  "legacyPostId": 3508,
+  "referenceNumber": "TT-CSIRT #156",
+  "classification": "advisory",
+  "title": "Netcomm security updates",
+  "rawTitle": "TTCSIRT-156.081318: TT-CSIRT Advisory – NetComm Security Updates",
+  "slug": "ttcsirt-156-081318-tt-csirt-advisory-netcomm-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "ICS-CERT has released a security update stating that the NetComm’s Wireless 4G LTE Light Industrial M2M Router is vulnerable to:",
+  "cveList": [],
+  "date": "13 August 2018",
+  "rawDate": "2018-08-13T13:33:37",
+  "modifiedDate": "13 August 2018",
+  "rawModifiedDate": "2018-08-13T13:33:37",
+  "contentHtml": "<p>ICS-CERT has released a security update stating that the NetComm&#8217;s Wireless 4G LTE Light Industrial M2M Router is vulnerable to:</p>\n<p>a) Information Exposure<br />\nb) Cross-site Request Forgery<br />\nc) Cross-site Scripting</p>\n<p>The flaws can be exploited remotely from the Internet and have been classified by ICS-CERT as “critical” while the information disclosure issues are said to be “high severity.”</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the ICS-CERT Website at <a href=\"https://ics-cert.us-cert.gov/advisories/ICSA-18-221-02\"><font size=\"2\" color=\"maroon\">https://ics-cert.us-cert.gov/advisories/ICSA-18-221-02</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "ICS-CERT has released a security update stating that the NetComm&#8217;s Wireless 4G LTE Light Industrial M2M Router is vulnerable to: a) Information Exposure b) Cross-site Request Forgery c)…",
+  "sourceExcerpt": "<p>ICS-CERT has released a security update stating that the NetComm&#8217;s Wireless 4G LTE Light Industrial M2M Router is vulnerable to: a) Information Exposure b) Cross-site Request Forgery c) Cross-site Scripting The flaws can be exploited remotely from the Internet and have been classified by ICS-CERT as “critical” while the information disclosure issues are said to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-156-081318-tt-csirt-advisory-netcomm-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>ICS-CERT has released a security update stating that the NetComm&#8217;s Wireless 4G LTE Light Industrial M2M Router is vulnerable to:</p>",
+          "text": "ICS-CERT has released a security update stating that the NetComm’s Wireless 4G LTE Light Industrial M2M Router is vulnerable to:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Information Exposure<br />\nb) Cross-site Request Forgery<br />\nc) Cross-site Scripting</p>",
+          "text": "a) Information Exposure b) Cross-site Request Forgery c) Cross-site Scripting"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The flaws can be exploited remotely from the Internet and have been classified by ICS-CERT as “critical” while the information disclosure issues are said to be “high severity.”</p>",
+          "text": "The flaws can be exploited remotely from the Internet and have been classified by ICS-CERT as “critical” while the information disclosure issues are said to be “high severity.”"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the ICS-CERT Website at <a href=\"https://ics-cert.us-cert.gov/advisories/ICSA-18-221-02\">https://ics-cert.us-cert.gov/advisories/ICSA-18-221-02</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the ICS-CERT Website at https://ics-cert.us-cert.gov/advisories/ICSA-18-221-02"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://ics-cert.us-cert.gov/advisories/ICSA-18-221-02"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-156-081318-tt-csirt-advisory-netcomm-security-updates/",
+    "upstreamDisclosedAt": "2018-08-13T13:33:37",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

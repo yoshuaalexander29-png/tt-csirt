@@ -1,0 +1,135 @@
+{
+  "id": "3018",
+  "legacyPostId": 3018,
+  "referenceNumber": "TT-CSIRT #050",
+  "classification": "advisory",
+  "title": "Android security updates",
+  "rawTitle": "TTCSIRT-050.100617: TT-CSIRT Advisory – Android Security Updates",
+  "slug": "ttcsirt-050-100617-tt-csirt-advisory-android-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. Details of these vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-0806",
+    "CVE-2017-0809",
+    "CVE-2017-0810",
+    "CVE-2017-0811",
+    "CVE-2017-0812",
+    "CVE-2017-0815",
+    "CVE-2017-0816",
+    "CVE-2017-14496",
+    "CVE-2017-7374",
+    "CVE-2017-9075",
+    "CVE-2017-0827",
+    "CVE-2017-11053",
+    "CVE-2017-9714",
+    "CVE-2017-9683"
+  ],
+  "date": "6 October 2017",
+  "rawDate": "2017-10-06T10:55:45",
+  "modifiedDate": "6 October 2017",
+  "rawModifiedDate": "2017-10-06T10:55:45",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. Details of these vulnerabilities are as follows:</p>\n<p>a) An elevation of privilege vulnerability in the Framework &#8211; (CVE-2017-0806)</p>\n<p>b) Three arbitrary code execution vulnerabilities in the Media Framework &#8211; (CVE-2017-0809, CVE-2017-0810, CVE-2017-0811)</p>\n<p>c) An elevation of privilege vulnerability in the Media Framework &#8211; (CVE-2017-0812)</p>\n<p>d) Two information disclosure vulnerabilities in the Media Framework &#8211; (CVE-2017-0815, CVE-2017-0816)</p>\n<p>e) An arbitrary code execution vulnerability in the System &#8211; (CVE-2017-14496)</p>\n<p>f) Two elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2017-7374, CVE-2017-9075)</p>\n<p>g) An elevation of privilege vulnerability in MediaTek components &#8211; (CVE-2017-0827)</p>\n<p>h) An arbitrary code execution vulnerability in Qualcomm components &#8211; (CVE-2017-11053)</p>\n<p>i) Two elevation of privilege vulnerabilities in Qualcomm components &#8211; (CVE-2017-9714, CVE-2017-9683)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files. Depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2017-094/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2017-094/</a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. Details of these vulnerabilities are as follows: a) An elevation of privilege vulnerability in the Framework &#8211; (CVE-2017-0806) b) Three arbitrary code execution vulnerabilities in the Media Framework [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-050-100617-tt-csirt-advisory-android-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. Details of these vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for arbitrary code execution within the context of a privileged process. Details of these vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) An elevation of privilege vulnerability in the Framework &#8211; (CVE-2017-0806)</p>",
+          "text": "a) An elevation of privilege vulnerability in the Framework – (CVE-2017-0806)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Three arbitrary code execution vulnerabilities in the Media Framework &#8211; (CVE-2017-0809, CVE-2017-0810, CVE-2017-0811)</p>",
+          "text": "b) Three arbitrary code execution vulnerabilities in the Media Framework – (CVE-2017-0809, CVE-2017-0810, CVE-2017-0811)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An elevation of privilege vulnerability in the Media Framework &#8211; (CVE-2017-0812)</p>",
+          "text": "c) An elevation of privilege vulnerability in the Media Framework – (CVE-2017-0812)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Two information disclosure vulnerabilities in the Media Framework &#8211; (CVE-2017-0815, CVE-2017-0816)</p>",
+          "text": "d) Two information disclosure vulnerabilities in the Media Framework – (CVE-2017-0815, CVE-2017-0816)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) An arbitrary code execution vulnerability in the System &#8211; (CVE-2017-14496)</p>",
+          "text": "e) An arbitrary code execution vulnerability in the System – (CVE-2017-14496)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Two elevation of privilege vulnerabilities in Kernel components &#8211; (CVE-2017-7374, CVE-2017-9075)</p>",
+          "text": "f) Two elevation of privilege vulnerabilities in Kernel components – (CVE-2017-7374, CVE-2017-9075)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) An elevation of privilege vulnerability in MediaTek components &#8211; (CVE-2017-0827)</p>",
+          "text": "g) An elevation of privilege vulnerability in MediaTek components – (CVE-2017-0827)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) An arbitrary code execution vulnerability in Qualcomm components &#8211; (CVE-2017-11053)</p>",
+          "text": "h) An arbitrary code execution vulnerability in Qualcomm components – (CVE-2017-11053)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Two elevation of privilege vulnerabilities in Qualcomm components &#8211; (CVE-2017-9714, CVE-2017-9683)</p>",
+          "text": "i) Two elevation of privilege vulnerabilities in Qualcomm components – (CVE-2017-9714, CVE-2017-9683)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files. Depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of a privileged process. These vulnerabilities could be exploited through multiple methods such as email, web browsing, and MMS when processing media files. Depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2017-094/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2017-094/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2017-094/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-arbitrary-code-execution_2017-094/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-050-100617-tt-csirt-advisory-android-security-updates/",
+    "upstreamDisclosedAt": "2017-10-06T10:55:45",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

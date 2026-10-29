@@ -1,0 +1,84 @@
+{
+  "id": "3930",
+  "legacyPostId": 3930,
+  "referenceNumber": "TT-CSIRT #255",
+  "classification": "advisory",
+  "title": "Samba security updates",
+  "rawTitle": "TTCSIRT-255.121119: TT-CSIRT ADVISORY – SAMBA SECURITY UPDATES",
+  "slug": "ttcsirt-255-121119-tt-csirt-advisory-samba-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Samba has released security updates to address vulnerabilities in multiple versions of Samba. TT CSIRT encourages all relevant parties to update your version as soon as possible to prevent potential exploits by cyber attackers who could take control of your system.",
+  "cveList": [
+    "CVE-2019-14861",
+    "CVE-2019-14870"
+  ],
+  "date": "11 December 2019",
+  "rawDate": "2019-12-11T09:50:09",
+  "modifiedDate": "11 December 2019",
+  "rawModifiedDate": "2019-12-11T09:50:09",
+  "contentHtml": "<p>Samba has released security updates to address vulnerabilities in multiple versions of Samba. TT CSIRT encourages all relevant parties to update your version as soon as possible to prevent potential exploits by cyber attackers who could take control of your system.</p>\n<p>TTCSIRT urges users and administrators to review the following Samba Security Announcements and apply the necessary updates and workarounds.</p>\n<p>&nbsp;</p>\n<p>CVE-2019-14861: AD DC zone-named record Denial of Service in DNS management server<br />\n<a href=\"https://www.samba.org/samba/security/CVE-2019-14861.html\">https://www.samba.org/samba/security/CVE-2019-14861.html</a></p>\n<p>&nbsp;</p>\n<p>CVE-2019-14870: Delegation Not Allowed not being enforced<br />\n<a href=\"https://www.samba.org/samba/security/CVE-2019-14870.html\">https://www.samba.org/samba/security/CVE-2019-14870.html</a></p>\n",
+  "displaySummary": "Samba has released security updates to address vulnerabilities in multiple versions of Samba.",
+  "sourceExcerpt": "<p>Samba has released security updates to address vulnerabilities in multiple versions of Samba. TT CSIRT encourages all relevant parties to update your version as soon as possible to prevent potential exploits by cyber attackers who could take control of your system. TTCSIRT urges users and administrators to review the following Samba Security Announcements and apply [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-255-121119-tt-csirt-advisory-samba-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Samba has released security updates to address vulnerabilities in multiple versions of Samba. TT CSIRT encourages all relevant parties to update your version as soon as possible to prevent potential exploits by cyber attackers who could take control of your system.</p>",
+          "text": "Samba has released security updates to address vulnerabilities in multiple versions of Samba. TT CSIRT encourages all relevant parties to update your version as soon as possible to prevent potential exploits by cyber attackers who could take control of your system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT urges users and administrators to review the following Samba Security Announcements and apply the necessary updates and workarounds.</p>",
+          "text": "TTCSIRT urges users and administrators to review the following Samba Security Announcements and apply the necessary updates and workarounds."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-14861: AD DC zone-named record Denial of Service in DNS management server<br />\n<a href=\"https://www.samba.org/samba/security/CVE-2019-14861.html\">https://www.samba.org/samba/security/CVE-2019-14861.html</a></p>",
+          "text": "CVE-2019-14861: AD DC zone-named record Denial of Service in DNS management server https://www.samba.org/samba/security/CVE-2019-14861.html"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CVE-2019-14870: Delegation Not Allowed not being enforced<br />\n<a href=\"https://www.samba.org/samba/security/CVE-2019-14870.html\">https://www.samba.org/samba/security/CVE-2019-14870.html</a></p>",
+          "text": "CVE-2019-14870: Delegation Not Allowed not being enforced https://www.samba.org/samba/security/CVE-2019-14870.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.samba.org/samba/security/CVE-2019-14861.html",
+    "https://www.samba.org/samba/security/CVE-2019-14870.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-255-121119-tt-csirt-advisory-samba-security-updates/",
+    "upstreamDisclosedAt": "2019-12-11T09:50:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

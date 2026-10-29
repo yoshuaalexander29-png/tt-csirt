@@ -1,0 +1,75 @@
+{
+  "id": "2846",
+  "legacyPostId": 2846,
+  "referenceNumber": "TT-CSIRT #021",
+  "classification": "advisory",
+  "title": "Juniper security updates",
+  "rawTitle": "TTCSIRT-021.071717: TT-CSIRT Advisory – Juniper Security Updates",
+  "slug": "ttcsirt-021-071717-tt-csirt-advisory-juniper-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A security researcher testing a Juniper NetScreen Firewall + VPN found multiple stored cross-site scripting vulnerabilities that could be used to elevate privileges through the NetScreen WebUI. A user with the ‘security’ role can inject HTML/JavaScript content into the management session of other users including the administrator. This enables the lower-privileged user to effectively execute commands with the permissions of an administrator.",
+  "cveList": [],
+  "date": "17 July 2017",
+  "rawDate": "2017-07-17T11:42:57",
+  "modifiedDate": "17 July 2017",
+  "rawModifiedDate": "2017-07-17T11:42:57",
+  "contentHtml": "<p>A security researcher testing a Juniper NetScreen Firewall + VPN found multiple stored cross-site scripting vulnerabilities that could be used to elevate privileges through the NetScreen WebUI. A user with the &#8216;security&#8217; role can inject HTML/JavaScript content into the management session of other users including the administrator. This enables the lower-privileged user to effectively execute commands with the permissions of an administrator.</p>\n<p>In order to fix this vulnerability, ScreenOS has been updated to add checks to prevent scripts in WebUI strings.</p>\n<table>\n<tr>\n<td>Further information on this security update can be found on the Juniper Website at <a href=\"https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10782&#038;cat=SIRT_1&#038;actp=LIST\"><font size=\"2\" color=\"maroon\">https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10782&#038;cat=SIRT_1&#038;actp=LIST</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "A security researcher testing a Juniper NetScreen Firewall + VPN found multiple stored cross-site scripting vulnerabilities that could be used to elevate privileges through the NetScreen WebUI.",
+  "sourceExcerpt": "<p>A security researcher testing a Juniper NetScreen Firewall + VPN found multiple stored cross-site scripting vulnerabilities that could be used to elevate privileges through the NetScreen WebUI. A user with the &#8216;security&#8217; role can inject HTML/JavaScript content into the management session of other users including the administrator. This enables the lower-privileged user to effectively execute [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-021-071717-tt-csirt-advisory-juniper-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A security researcher testing a Juniper NetScreen Firewall + VPN found multiple stored cross-site scripting vulnerabilities that could be used to elevate privileges through the NetScreen WebUI. A user with the &#8216;security&#8217; role can inject HTML/JavaScript content into the management session of other users including the administrator. This enables the lower-privileged user to effectively execute commands with the permissions of an administrator.</p>",
+          "text": "A security researcher testing a Juniper NetScreen Firewall + VPN found multiple stored cross-site scripting vulnerabilities that could be used to elevate privileges through the NetScreen WebUI. A user with the ‘security’ role can inject HTML/JavaScript content into the management session of other users including the administrator. This enables the lower-privileged user to effectively execute commands with the permissions of an administrator."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>In order to fix this vulnerability, ScreenOS has been updated to add checks to prevent scripts in WebUI strings.</p>",
+          "text": "In order to fix this vulnerability, ScreenOS has been updated to add checks to prevent scripts in WebUI strings."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this security update can be found on the Juniper Website at <a href=\"https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10782&#038;cat=SIRT_1&#038;actp=LIST\">https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10782&#038;cat=SIRT_1&#038;actp=LIST</a></p>",
+          "text": "Further information on this security update can be found on the Juniper Website at https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10782&#038;cat=SIRT_1&#038;actp=LIST"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://kb.juniper.net/InfoCenter/index?page=content&#038;id=JSA10782&#038;cat=SIRT_1&#038;actp=LIST"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-021-071717-tt-csirt-advisory-juniper-security-updates/",
+    "upstreamDisclosedAt": "2017-07-17T11:42:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

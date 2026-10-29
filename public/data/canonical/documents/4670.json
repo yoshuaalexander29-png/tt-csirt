@@ -1,0 +1,113 @@
+{
+  "id": "4670",
+  "legacyPostId": 4670,
+  "referenceNumber": "TT-CSIRT 333.08.19.20",
+  "classification": "advisory",
+  "title": "Mac malware xcsset campaign",
+  "rawTitle": "TTCSIRT-333.08.19.20: TT-CSIRT ADVISORY- MAC MALWARE XCSSET CAMPAIGN",
+  "slug": "ttcsirt-333-08-19-20-tt-csirt-advisory-mac-malware-xcsset-campaign",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Security researchers at Trend Micro have discovered a new campaign which utilizes developers as a means to spread the XCSSET suite of malware to unsuspecting Mac users.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:15:26",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:15:26",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Security researchers at&nbsp;Trend Micro&nbsp;have discovered a new campaign which utilizes developers as a means to spread the XCSSET suite of malware to unsuspecting Mac users.<br><br>XCSSET is a new&nbsp;Mac malware&nbsp;strain that is capable of hijacking Apple&#8217;s Safari web browser and injecting malicious JavaScript payloads that can steal passwords, financial data and personal information.&nbsp;<br><br>While cybercriminals often use phishing emails and spam to spread other types of malware, this new campaign takes advantage of the fact that developers often share their work online in order to spread XCSSET.<br><br>Trend Micro has already discovered Xcode projects infected with XCSSET on&nbsp;GitHub&nbsp;as well as on VirusTotal which means that this new Mac malware is now making its way around the web.<br><br>Once XCSSET finds its way onto a vulnerable system, the malware targets any installed browsers and uses vulnerabilities to steal user data such as Google, Apple ID and PayPal usernames and passwords, as well as data from Skype, Telegram, Evernote and WeChat, and may even install ransomware.<br><br>On Safari, XCSSET takes advantage of a bug in the browser&#8217;s Data Vault as well a second vulnerability in the way the Safari WebKit operates.<br><br>The first bug allows the malware to circumvent macOS’ System Integrity Protection (SIP) feature to steal Safari cookies while the second bug allows an attacker to launch universal cross-site scripting (UXSS) attacks.<br><br>According to Trend Micro, the UXSS bug can be used to steal user&#8217;s information but also to modify browser sessions to display&nbsp;malicious websites, change cryptocurrency wallet addresses, harvest credit card information from the App Store and steal credentials from a variety of other sources such as Apple ID, Google, PayPal and Yandex.<br><br>The malware was first found inside developer&#8217;s Xcode projects. Xcode is a free integrated development environment (IDE) used by developers on macOS to create applications &nbsp;for iPhone, iPad, Mac, Apple Watch, and Apple TV.<br><br>To protect yourself, make sure you&#8217;re running some of the&nbsp;best Mac antivirus&nbsp;software, because Apple&#8217;s built-in defenses may not be able to catch the malware. You also might want to install apps only from Apple&#8217;s own App Store for the time being.<br><br>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.<br><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Security researchers at Trend Micro have discovered a new campaign which utilizes developers as a means to spread the XCSSET suite of malware to unsuspecting Mac users.",
+  "sourceExcerpt": "<p>Security researchers at&nbsp;Trend Micro&nbsp;have discovered a new campaign which utilizes developers as a means to spread the XCSSET suite of malware to unsuspecting Mac users. XCSSET is a new&nbsp;Mac malware&nbsp;strain that is capable of hijacking Apple&#8217;s Safari web browser and injecting malicious JavaScript payloads that can steal passwords, financial data and personal information.&nbsp; While cybercriminals [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-333-08-19-20-tt-csirt-advisory-mac-malware-xcsset-campaign/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Security researchers at&nbsp;Trend Micro&nbsp;have discovered a new campaign which utilizes developers as a means to spread the XCSSET suite of malware to unsuspecting Mac users.</p>",
+          "text": "Security researchers at Trend Micro have discovered a new campaign which utilizes developers as a means to spread the XCSSET suite of malware to unsuspecting Mac users."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>XCSSET is a new&nbsp;Mac malware&nbsp;strain that is capable of hijacking Apple&#8217;s Safari web browser and injecting malicious JavaScript payloads that can steal passwords, financial data and personal information.&nbsp;</p>",
+          "text": "XCSSET is a new Mac malware strain that is capable of hijacking Apple’s Safari web browser and injecting malicious JavaScript payloads that can steal passwords, financial data and personal information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>While cybercriminals often use phishing emails and spam to spread other types of malware, this new campaign takes advantage of the fact that developers often share their work online in order to spread XCSSET.</p>",
+          "text": "While cybercriminals often use phishing emails and spam to spread other types of malware, this new campaign takes advantage of the fact that developers often share their work online in order to spread XCSSET."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Trend Micro has already discovered Xcode projects infected with XCSSET on&nbsp;GitHub&nbsp;as well as on VirusTotal which means that this new Mac malware is now making its way around the web.</p>",
+          "text": "Trend Micro has already discovered Xcode projects infected with XCSSET on GitHub as well as on VirusTotal which means that this new Mac malware is now making its way around the web."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Once XCSSET finds its way onto a vulnerable system, the malware targets any installed browsers and uses vulnerabilities to steal user data such as Google, Apple ID and PayPal usernames and passwords, as well as data from Skype, Telegram, Evernote and WeChat, and may even install ransomware.</p>",
+          "text": "Once XCSSET finds its way onto a vulnerable system, the malware targets any installed browsers and uses vulnerabilities to steal user data such as Google, Apple ID and PayPal usernames and passwords, as well as data from Skype, Telegram, Evernote and WeChat, and may even install ransomware."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>On Safari, XCSSET takes advantage of a bug in the browser&#8217;s Data Vault as well a second vulnerability in the way the Safari WebKit operates.</p>",
+          "text": "On Safari, XCSSET takes advantage of a bug in the browser’s Data Vault as well a second vulnerability in the way the Safari WebKit operates."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The first bug allows the malware to circumvent macOS’ System Integrity Protection (SIP) feature to steal Safari cookies while the second bug allows an attacker to launch universal cross-site scripting (UXSS) attacks.</p>",
+          "text": "The first bug allows the malware to circumvent macOS’ System Integrity Protection (SIP) feature to steal Safari cookies while the second bug allows an attacker to launch universal cross-site scripting (UXSS) attacks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>According to Trend Micro, the UXSS bug can be used to steal user&#8217;s information but also to modify browser sessions to display&nbsp;malicious websites, change cryptocurrency wallet addresses, harvest credit card information from the App Store and steal credentials from a variety of other sources such as Apple ID, Google, PayPal and Yandex.</p>",
+          "text": "According to Trend Micro, the UXSS bug can be used to steal user’s information but also to modify browser sessions to display malicious websites, change cryptocurrency wallet addresses, harvest credit card information from the App Store and steal credentials from a variety of other sources such as Apple ID, Google, PayPal and Yandex."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The malware was first found inside developer&#8217;s Xcode projects. Xcode is a free integrated development environment (IDE) used by developers on macOS to create applications &nbsp;for iPhone, iPad, Mac, Apple Watch, and Apple TV.</p>",
+          "text": "The malware was first found inside developer’s Xcode projects. Xcode is a free integrated development environment (IDE) used by developers on macOS to create applications  for iPhone, iPad, Mac, Apple Watch, and Apple TV."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To protect yourself, make sure you&#8217;re running some of the&nbsp;best Mac antivirus&nbsp;software, because Apple&#8217;s built-in defenses may not be able to catch the malware. You also might want to install apps only from Apple&#8217;s own App Store for the time being.</p>",
+          "text": "To protect yourself, make sure you’re running some of the best Mac antivirus software, because Apple’s built-in defenses may not be able to catch the malware. You also might want to install apps only from Apple’s own App Store for the time being."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TTCSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-333-08-19-20-tt-csirt-advisory-mac-malware-xcsset-campaign/",
+    "upstreamDisclosedAt": "2020-09-22T23:15:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

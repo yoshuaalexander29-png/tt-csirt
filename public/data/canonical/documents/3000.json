@@ -1,0 +1,149 @@
+{
+  "id": "3000",
+  "legacyPostId": 3000,
+  "referenceNumber": "TT-CSIRT #047",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-047.092917: TT-CSIRT Advisory – CISCO Security Updates",
+  "slug": "security-advisories-ttcsirt-046-092617-tt-csirt-advisory-apple-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Cisco IOS and IOS XE Software, the most severe of which could result in remote code execution. Details of these vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-12240",
+    "CVE-2017-12237",
+    "CVE-2017-12228",
+    "CVE-2017-12233",
+    "CVE-2017-12234",
+    "CVE-2017-12238",
+    "CVE-2017-12235",
+    "CVE-2017-12232",
+    "CVE-2017-12231",
+    "CVE-2017-12239",
+    "CVE-2017-12236",
+    "CVE-2017-12230",
+    "CVE-2017-12229"
+  ],
+  "date": "29 September 2017",
+  "rawDate": "2017-09-29T14:05:30",
+  "modifiedDate": "29 September 2017",
+  "rawModifiedDate": "2017-09-29T14:05:30",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Cisco IOS and IOS XE Software, the most severe of which could result in remote code execution. Details of these vulnerabilities are as follows:</p>\n<p>a) A remote code execution vulnerability exists in the DHCP relay subsystem due to a buffer overflow condition &#8211; (CVE-2017-12240)</p>\n<p>b) A denial of service vulnerability exists in Internet Key Exchange 2 (IKEv2) when processing specially crafted packets &#8211; (CVE-2017-12237)</p>\n<p>c) An information disclosure vulnerability exists in the Cisco Network Plug-and-Play application due to insufficient certificate validation &#8211; (CVE-2017-12228)</p>\n<p>d) Multiple vulnerabilities exist in the Common Industrial Protocol (CIP) due to improper parsing of specially crafted packets, which could allow for denial of service &#8211; (CVE-2017-12233, CVE-2017-12234)</p>\n<p>e) A denial of service vulnerability exists due to a memory management issue in Cisco Catalyst 6800 series switches when receiving a large number of Virtual Private LAN Service (VPLS) MAC entries &#8211; (CVE-2017-12238)</p>\n<p>f) A denial of service vulnerability exists in the PROFINET Discovery and Configuration Protocol (PN-DCP) due to improper parsing of ingress PN-DCP Identify Request packets &#8211; (CVE-2017-12235)</p>\n<p>g) A denial of service vulnerability exists in Cisco Integrated Services Router Generation 2 (ISR G2) routers due to a misclassification of Ethernet frames &#8211; (CVE-2017-12232)</p>\n<p>h) A denial of service vulnerability exists in the implementation of Network Address Translation (NAT) in Cisco IOS due to improper translation of H.323 messages that use the Registration, Admission, and Status (RAS) protocol over IPv4 &#8211; (CVE-2017-12231)</p>\n<p>i) A security bypass vulnerability exists in Cisco ASR 1000 series and cBR-8 routers due to an engineering console port being available on the motherboard of the line cards, which would grant a physical attacker console access to the operating systems of the affected devices &#8211; (CVE-2017-12239)</p>\n<p>j) A security bypass vulnerability exists in the implementation of the Locator/ID Separation Protocol (LISP) due to a logic error introduced via code regression in Cisco IOS XE &#8211; (CVE-2017-12236)</p>\n<p>k) A privilege escalation vulnerability exists in the web-based user interface (Web UI) due to incorrect default permission settings for new users &#8211; (CVE-2017-12230)</p>\n<p>l) A security bypass vulnerability exists in the Web UI REST API due to insufficient input validation &#8211; (CVE-2017-12229)</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute remote code and gain full control of the affected system. Failed exploit attempts could result in a denial of service condition.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-ios-and-ios-xe-could-allow-for-remote-code-execution_2017-091/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-ios-and-ios-xe-could-allow-for-remote-code-execution_2017-091/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Cisco IOS and IOS XE Software, the most severe of which could result in remote code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Cisco IOS and IOS XE Software, the most severe of which could result in remote code execution. Details of these vulnerabilities are as follows: a) A remote code execution vulnerability exists in the DHCP relay subsystem due to a buffer overflow condition &#8211; (CVE-2017-12240) b) A denial of service [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/security-advisories-ttcsirt-046-092617-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Cisco IOS and IOS XE Software, the most severe of which could result in remote code execution. Details of these vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Cisco IOS and IOS XE Software, the most severe of which could result in remote code execution. Details of these vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A remote code execution vulnerability exists in the DHCP relay subsystem due to a buffer overflow condition &#8211; (CVE-2017-12240)</p>",
+          "text": "a) A remote code execution vulnerability exists in the DHCP relay subsystem due to a buffer overflow condition – (CVE-2017-12240)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A denial of service vulnerability exists in Internet Key Exchange 2 (IKEv2) when processing specially crafted packets &#8211; (CVE-2017-12237)</p>",
+          "text": "b) A denial of service vulnerability exists in Internet Key Exchange 2 (IKEv2) when processing specially crafted packets – (CVE-2017-12237)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An information disclosure vulnerability exists in the Cisco Network Plug-and-Play application due to insufficient certificate validation &#8211; (CVE-2017-12228)</p>",
+          "text": "c) An information disclosure vulnerability exists in the Cisco Network Plug-and-Play application due to insufficient certificate validation – (CVE-2017-12228)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Multiple vulnerabilities exist in the Common Industrial Protocol (CIP) due to improper parsing of specially crafted packets, which could allow for denial of service &#8211; (CVE-2017-12233, CVE-2017-12234)</p>",
+          "text": "d) Multiple vulnerabilities exist in the Common Industrial Protocol (CIP) due to improper parsing of specially crafted packets, which could allow for denial of service – (CVE-2017-12233, CVE-2017-12234)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A denial of service vulnerability exists due to a memory management issue in Cisco Catalyst 6800 series switches when receiving a large number of Virtual Private LAN Service (VPLS) MAC entries &#8211; (CVE-2017-12238)</p>",
+          "text": "e) A denial of service vulnerability exists due to a memory management issue in Cisco Catalyst 6800 series switches when receiving a large number of Virtual Private LAN Service (VPLS) MAC entries – (CVE-2017-12238)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) A denial of service vulnerability exists in the PROFINET Discovery and Configuration Protocol (PN-DCP) due to improper parsing of ingress PN-DCP Identify Request packets &#8211; (CVE-2017-12235)</p>",
+          "text": "f) A denial of service vulnerability exists in the PROFINET Discovery and Configuration Protocol (PN-DCP) due to improper parsing of ingress PN-DCP Identify Request packets – (CVE-2017-12235)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) A denial of service vulnerability exists in Cisco Integrated Services Router Generation 2 (ISR G2) routers due to a misclassification of Ethernet frames &#8211; (CVE-2017-12232)</p>",
+          "text": "g) A denial of service vulnerability exists in Cisco Integrated Services Router Generation 2 (ISR G2) routers due to a misclassification of Ethernet frames – (CVE-2017-12232)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) A denial of service vulnerability exists in the implementation of Network Address Translation (NAT) in Cisco IOS due to improper translation of H.323 messages that use the Registration, Admission, and Status (RAS) protocol over IPv4 &#8211; (CVE-2017-12231)</p>",
+          "text": "h) A denial of service vulnerability exists in the implementation of Network Address Translation (NAT) in Cisco IOS due to improper translation of H.323 messages that use the Registration, Admission, and Status (RAS) protocol over IPv4 – (CVE-2017-12231)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) A security bypass vulnerability exists in Cisco ASR 1000 series and cBR-8 routers due to an engineering console port being available on the motherboard of the line cards, which would grant a physical attacker console access to the operating systems of the affected devices &#8211; (CVE-2017-12239)</p>",
+          "text": "i) A security bypass vulnerability exists in Cisco ASR 1000 series and cBR-8 routers due to an engineering console port being available on the motherboard of the line cards, which would grant a physical attacker console access to the operating systems of the affected devices – (CVE-2017-12239)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) A security bypass vulnerability exists in the implementation of the Locator/ID Separation Protocol (LISP) due to a logic error introduced via code regression in Cisco IOS XE &#8211; (CVE-2017-12236)</p>",
+          "text": "j) A security bypass vulnerability exists in the implementation of the Locator/ID Separation Protocol (LISP) due to a logic error introduced via code regression in Cisco IOS XE – (CVE-2017-12236)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) A privilege escalation vulnerability exists in the web-based user interface (Web UI) due to incorrect default permission settings for new users &#8211; (CVE-2017-12230)</p>",
+          "text": "k) A privilege escalation vulnerability exists in the web-based user interface (Web UI) due to incorrect default permission settings for new users – (CVE-2017-12230)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) A security bypass vulnerability exists in the Web UI REST API due to insufficient input validation &#8211; (CVE-2017-12229)</p>",
+          "text": "l) A security bypass vulnerability exists in the Web UI REST API due to insufficient input validation – (CVE-2017-12229)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute remote code and gain full control of the affected system. Failed exploit attempts could result in a denial of service condition.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute remote code and gain full control of the affected system. Failed exploit attempts could result in a denial of service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-ios-and-ios-xe-could-allow-for-remote-code-execution_2017-091/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-ios-and-ios-xe-could-allow-for-remote-code-execution_2017-091/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-ios-and-ios-xe-could-allow-for-remote-code-execution_2017-091/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-ios-and-ios-xe-could-allow-for-remote-code-execution_2017-091/"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/security-advisories-ttcsirt-046-092617-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2017-09-29T14:05:30",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

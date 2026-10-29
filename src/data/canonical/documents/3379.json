@@ -1,0 +1,80 @@
+{
+  "id": "3379",
+  "legacyPostId": 3379,
+  "referenceNumber": "TT-CSIRT #124",
+  "classification": "advisory",
+  "title": "Malware security updates",
+  "rawTitle": "TTCSIRT-124.052518: TT-CSIRT Advisory – Malware Security Updates",
+  "slug": "ttcsirt-124-052518-tt-csirt-advisory-malware-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Talos has reported that a sophisticated modular malware system known as VPNFilter has a destructive capability that can make the affected device unusable.",
+  "cveList": [],
+  "date": "25 May 2018",
+  "rawDate": "2018-05-25T10:59:34",
+  "modifiedDate": "25 May 2018",
+  "rawModifiedDate": "2018-05-25T10:59:34",
+  "contentHtml": "<p>Talos has reported that a sophisticated modular malware system known as VPNFilter  has a destructive capability that can make the affected device unusable.</p>\n<p>Devices known to be affected by VPNFilter include Linksys, MikroTik, NETGEAR, and TP-Link networking equipment as well as QNAP network-attached storage (NAS) devices. In addition, compromised devices may be vulnerable to the collection of network traffic (including website credentials) as well as the monitoring of Modbus supervisory control and data acquisition (SCADA) protocols.</p>\n<p>Because the malware can be triggered to affect devices individually or together, VPNFilter has the potential to cut off internet access for hundreds of thousands of users.</p>\n<table>\n<tr>\n<td>Further information on this malware can be found on the Talos Website at <a href=\"https://blog.talosintelligence.com/2018/05/VPNFilter.html\"><font size=\"2\" color=\"maroon\">https://blog.talosintelligence.com/2018/05/VPNFilter.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Talos has reported that a sophisticated modular malware system known as VPNFilter has a destructive capability that can make the affected device unusable.",
+  "sourceExcerpt": "<p>Talos has reported that a sophisticated modular malware system known as VPNFilter has a destructive capability that can make the affected device unusable. Devices known to be affected by VPNFilter include Linksys, MikroTik, NETGEAR, and TP-Link networking equipment as well as QNAP network-attached storage (NAS) devices. In addition, compromised devices may be vulnerable to the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-124-052518-tt-csirt-advisory-malware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Talos has reported that a sophisticated modular malware system known as VPNFilter  has a destructive capability that can make the affected device unusable.</p>",
+          "text": "Talos has reported that a sophisticated modular malware system known as VPNFilter has a destructive capability that can make the affected device unusable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Devices known to be affected by VPNFilter include Linksys, MikroTik, NETGEAR, and TP-Link networking equipment as well as QNAP network-attached storage (NAS) devices. In addition, compromised devices may be vulnerable to the collection of network traffic (including website credentials) as well as the monitoring of Modbus supervisory control and data acquisition (SCADA) protocols.</p>",
+          "text": "Devices known to be affected by VPNFilter include Linksys, MikroTik, NETGEAR, and TP-Link networking equipment as well as QNAP network-attached storage (NAS) devices. In addition, compromised devices may be vulnerable to the collection of network traffic (including website credentials) as well as the monitoring of Modbus supervisory control and data acquisition (SCADA) protocols."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Because the malware can be triggered to affect devices individually or together, VPNFilter has the potential to cut off internet access for hundreds of thousands of users.</p>",
+          "text": "Because the malware can be triggered to affect devices individually or together, VPNFilter has the potential to cut off internet access for hundreds of thousands of users."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this malware can be found on the Talos Website at <a href=\"https://blog.talosintelligence.com/2018/05/VPNFilter.html\">https://blog.talosintelligence.com/2018/05/VPNFilter.html</a></p>",
+          "text": "Further information on this malware can be found on the Talos Website at https://blog.talosintelligence.com/2018/05/VPNFilter.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://blog.talosintelligence.com/2018/05/VPNFilter.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-124-052518-tt-csirt-advisory-malware-security-updates/",
+    "upstreamDisclosedAt": "2018-05-25T10:59:34",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

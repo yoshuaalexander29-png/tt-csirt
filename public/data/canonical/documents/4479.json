@@ -1,0 +1,99 @@
+{
+  "id": "4479",
+  "legacyPostId": 4479,
+  "referenceNumber": "TT-CSIRT #4479",
+  "classification": "alert",
+  "title": "Guidance on the North Korean cyber threat",
+  "rawTitle": "GUIDANCE ON THE NORTH KOREAN CYBER THREAT",
+  "slug": "guidance-on-the-north-korean-cyber-threat",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The U.S. Departments of State, the Treasury, and Homeland Security, and the Federal Bureau of Investigation are issuing this advisory as a comprehensive resource on the North Korean cyber threat for the international community, network defenders, and the public.",
+  "cveList": [],
+  "date": "16 April 2020",
+  "rawDate": "2020-04-16T07:57:12",
+  "modifiedDate": "16 April 2020",
+  "rawModifiedDate": "2020-04-16T07:57:12",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The U.S. Departments of State, the Treasury, and Homeland Security, and the Federal Bureau of Investigation are issuing this advisory as a comprehensive resource on the North Korean cyber threat for the international community, network defenders, and the public.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The advisory highlights the cyber threat posed by North Korea – formally known as the Democratic People’s Republic of Korea (DPRK) – and provides recommended steps to mitigate the threat.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The DPRK’s malicious cyber activities threaten the United States and the broader international community and, in particular, pose a significant threat to the integrity and stability of the international financial system.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Measures to Counter the DPRK Cyber Threat are as follows:</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly urge governments, industry, civil society, and individuals to take all relevant actions below to protect themselves from and counter the DPRK cyber threat:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Raise Awareness of the DPRK Cyber Threat</li><li>Share Technical Information of the DPRK Cyber Threat</li><li>Implement and Promote Cyber security Best Practices</li><li>Notify Law Enforcement</li><li>Strengthen Anti-Money Laundering (AML) / Countering the Financing of Terrorism (CFT) / Counter-Proliferation Financing (CPF) Compliance</li></ul>\n\n\n\n<p class=\"wp-block-paragraph\">TTCSIRT encourages all organisations to review the CISA Alert (AA20-106A) by referring to the following link for a comprehensive detailing of the aforementioned threats and mitigations:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.us-cert.gov/ncas/alerts/aa20-106a\">https://www.us-cert.gov/ncas/alerts/aa20-106a</a></p>\n",
+  "displaySummary": "The U.S. Departments of State, the Treasury, and Homeland Security, and the Federal Bureau of Investigation are issuing this advisory as a comprehensive resource on the North Korean cyber threat for the international community, network defenders, and the public. The advisory highlights the cyber threat posed by North Korea – formally known as the Democratic",
+  "sourceExcerpt": "<p>The U.S. Departments of State, the Treasury, and Homeland Security, and the Federal Bureau of Investigation are issuing this advisory as a comprehensive resource on the North Korean cyber threat for the international community, network defenders, and the public. The advisory highlights the cyber threat posed by North Korea – formally known as the Democratic [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/guidance-on-the-north-korean-cyber-threat/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The U.S. Departments of State, the Treasury, and Homeland Security, and the Federal Bureau of Investigation are issuing this advisory as a comprehensive resource on the North Korean cyber threat for the international community, network defenders, and the public.</p>",
+          "text": "The U.S. Departments of State, the Treasury, and Homeland Security, and the Federal Bureau of Investigation are issuing this advisory as a comprehensive resource on the North Korean cyber threat for the international community, network defenders, and the public."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The advisory highlights the cyber threat posed by North Korea – formally known as the Democratic People’s Republic of Korea (DPRK) – and provides recommended steps to mitigate the threat.</p>",
+          "text": "The advisory highlights the cyber threat posed by North Korea – formally known as the Democratic People’s Republic of Korea (DPRK) – and provides recommended steps to mitigate the threat."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The DPRK’s malicious cyber activities threaten the United States and the broader international community and, in particular, pose a significant threat to the integrity and stability of the international financial system.&nbsp;</p>",
+          "text": "The DPRK’s malicious cyber activities threaten the United States and the broader international community and, in particular, pose a significant threat to the integrity and stability of the international financial system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Measures to Counter the DPRK Cyber Threat are as follows:</strong></p>",
+          "text": "Measures to Counter the DPRK Cyber Threat are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT strongly urge governments, industry, civil society, and individuals to take all relevant actions below to protect themselves from and counter the DPRK cyber threat:</p>",
+          "text": "TT-CSIRT strongly urge governments, industry, civil society, and individuals to take all relevant actions below to protect themselves from and counter the DPRK cyber threat:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\"><li>Raise Awareness of the DPRK Cyber Threat</li><li>Share Technical Information of the DPRK Cyber Threat</li><li>Implement and Promote Cyber security Best Practices</li><li>Notify Law Enforcement</li><li>Strengthen Anti-Money Laundering (AML) / Countering the Financing of Terrorism (CFT) / Counter-Proliferation Financing (CPF) Compliance</li></ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages all organisations to review the CISA Alert (AA20-106A) by referring to the following link for a comprehensive detailing of the aforementioned threats and mitigations:</p>",
+          "text": "TTCSIRT encourages all organisations to review the CISA Alert (AA20-106A) by referring to the following link for a comprehensive detailing of the aforementioned threats and mitigations:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.us-cert.gov/ncas/alerts/aa20-106a\">https://www.us-cert.gov/ncas/alerts/aa20-106a</a></p>",
+          "text": "https://www.us-cert.gov/ncas/alerts/aa20-106a"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.us-cert.gov/ncas/alerts/aa20-106a"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/guidance-on-the-north-korean-cyber-threat/",
+    "upstreamDisclosedAt": "2020-04-16T07:57:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

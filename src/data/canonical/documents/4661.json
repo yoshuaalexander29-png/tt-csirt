@@ -1,0 +1,109 @@
+{
+  "id": "4661",
+  "legacyPostId": 4661,
+  "referenceNumber": "TT-CSIRT 329.07.30.20",
+  "classification": "advisory",
+  "title": "GRUB2 bootloader is vulnerable to buffer overflow",
+  "rawTitle": "TTCSIRT-329.07.30.20: TT-CSIRT ADVISORY- GRUB2 BOOTLOADER IS VULNERABLE TO BUFFER OVERFLOW",
+  "slug": "ttcsirt-329-07-30-20-tt-csirt-advisory-grub2-bootloader-is-vulnerable-to-buffer-overflow",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "GRUB2 boot loader is vulnerable to buffer overflow, which results in arbitrary code execution during the boot process, even when Secure Boot is enabled.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:09:52",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:09:52",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">GRUB2 boot loader is vulnerable to buffer overflow, which results in arbitrary code execution during the boot process, even when Secure Boot is enabled.<br><br>The impact of this results in an authenticated, local attacker being able to modify the contents of the GRUB2 configuration file to execute arbitrary code that bypasses signature verification.<br><br>This could allow the attacker to gain persistence on the device, even with Secure Boot enabled.<br><br>Because the attacker&#8217;s code runs before the operating system, the attacker could control how the operating system is loaded, directly patch the operating system, or even direct the bootloader to alternate OS images.<br><br><em>All versions of GRUB2 that load commands from an external grub.cfg configuration file are vulnerable.</em><br><br><strong>To mitigate this; GRUB2 needs to be updated to the latest version.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><br><br>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.<br><br>For further review please see the following link:<br><br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2a0fe2e636&amp;e=64e3bb0ab9\">https://www.kb.cert.org/vuls/id/174059</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "GRUB2 boot loader is vulnerable to buffer overflow, which results in arbitrary code execution during the boot process, even when Secure Boot is enabled.",
+  "sourceExcerpt": "<p>GRUB2 boot loader is vulnerable to buffer overflow, which results in arbitrary code execution during the boot process, even when Secure Boot is enabled. The impact of this results in an authenticated, local attacker being able to modify the contents of the GRUB2 configuration file to execute arbitrary code that bypasses signature verification. This could [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-329-07-30-20-tt-csirt-advisory-grub2-bootloader-is-vulnerable-to-buffer-overflow/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>GRUB2 boot loader is vulnerable to buffer overflow, which results in arbitrary code execution during the boot process, even when Secure Boot is enabled.</p>",
+          "text": "GRUB2 boot loader is vulnerable to buffer overflow, which results in arbitrary code execution during the boot process, even when Secure Boot is enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The impact of this results in an authenticated, local attacker being able to modify the contents of the GRUB2 configuration file to execute arbitrary code that bypasses signature verification.</p>",
+          "text": "The impact of this results in an authenticated, local attacker being able to modify the contents of the GRUB2 configuration file to execute arbitrary code that bypasses signature verification."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This could allow the attacker to gain persistence on the device, even with Secure Boot enabled.</p>",
+          "text": "This could allow the attacker to gain persistence on the device, even with Secure Boot enabled."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Because the attacker&#8217;s code runs before the operating system, the attacker could control how the operating system is loaded, directly patch the operating system, or even direct the bootloader to alternate OS images.</p>",
+          "text": "Because the attacker’s code runs before the operating system, the attacker could control how the operating system is loaded, directly patch the operating system, or even direct the bootloader to alternate OS images."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><em>All versions of GRUB2 that load commands from an external grub.cfg configuration file are vulnerable.</em></p>",
+          "text": "All versions of GRUB2 that load commands from an external grub.cfg configuration file are vulnerable."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>To mitigate this; GRUB2 needs to be updated to the latest version.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>",
+          "text": "To mitigate this; GRUB2 needs to be updated to the latest version."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users and administrators to review and apply the necessary updates."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following link",
+          "id": "for-further-review-please-see-the-following-link"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2a0fe2e636&amp;e=64e3bb0ab9\">https://www.kb.cert.org/vuls/id/174059</a></p>",
+          "text": "https://www.kb.cert.org/vuls/id/174059"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-link",
+      "label": "For further review please see the following link",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-329-07-30-20-tt-csirt-advisory-grub2-bootloader-is-vulnerable-to-buffer-overflow/",
+    "upstreamDisclosedAt": "2020-09-22T23:09:52",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

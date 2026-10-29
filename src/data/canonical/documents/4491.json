@@ -1,0 +1,125 @@
+{
+  "id": "4491",
+  "legacyPostId": 4491,
+  "referenceNumber": "TT-CSIRT #311",
+  "classification": "advisory",
+  "title": "Authentication bypass in FortiMail and fortivoice enterprise",
+  "rawTitle": "TTCSIRT-311.050420: TT-CSIRT ADVISORY – AUTHENTICATION BYPASS IN FORTIMAIL AND FORTIVOICE ENTERPRISE",
+  "slug": "ttcsirt-311-050420-tt-csirt-advisory-authentication-bypass-in-fortimail-and-fortivoice-enterprise",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface.",
+  "cveList": [],
+  "date": "4 May 2020",
+  "rawDate": "2020-05-04T10:53:29",
+  "modifiedDate": "4 May 2020",
+  "rawModifiedDate": "2020-05-04T10:53:29",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface.</p>\n\n\n\n<p class=\"wp-block-paragraph\">As a result, this can lead to <em>Improper Access Control</em>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Products Affected:</em><em></em></p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiMail versions 5.4.10 and below.<br>FortiMail versions 6.0.7 and below.<br>FortiMail versions 6.2.2 and below.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiVoiceEntreprise versions 6.0.1 and below.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiMail versions 5.3 and lower are not impacted by this vulnerability.<br>FortiVoiceEnterprise versions 5.3 and lower are not impacted by this vulnerability.</p>\n\n\n\n<p class=\"wp-block-paragraph\">FortiMail Cloud has been upgraded to non-impacted versions.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><em>Solutions:</em><em></em></p>\n\n\n\n<p class=\"wp-block-paragraph\">Please upgrade to FortiMail version 5.4.11 or above.<br>Please upgrade to FortiMail version 6.0.8 or above.<br>Please upgrade to FortiMail version 6.2.3 or above.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Please upgrade to FortiVoiceEntreprise version 6.0.2 or above.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>\n",
+  "displaySummary": "An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password…",
+  "sourceExcerpt": "<p>An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface. As a result, this can lead to Improper Access Control. Products Affected: FortiMail versions 5.4.10 and below.FortiMail versions 6.0.7 and below.FortiMail versions 6.2.2 and [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-311-050420-tt-csirt-advisory-authentication-bypass-in-fortimail-and-fortivoice-enterprise/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface.</p>",
+          "text": "An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>As a result, this can lead to <em>Improper Access Control</em>.</p>",
+          "text": "As a result, this can lead to Improper Access Control ."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Products affected",
+          "id": "products-affected"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>FortiMail versions 5.4.10 and below.<br>FortiMail versions 6.0.7 and below.<br>FortiMail versions 6.2.2 and below.</p>",
+          "text": "FortiMail versions 5.4.10 and below. FortiMail versions 6.0.7 and below. FortiMail versions 6.2.2 and below."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>FortiVoiceEntreprise versions 6.0.1 and below.</p>",
+          "text": "FortiVoiceEntreprise versions 6.0.1 and below."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>FortiMail versions 5.3 and lower are not impacted by this vulnerability.<br>FortiVoiceEnterprise versions 5.3 and lower are not impacted by this vulnerability.</p>",
+          "text": "FortiMail versions 5.3 and lower are not impacted by this vulnerability. FortiVoiceEnterprise versions 5.3 and lower are not impacted by this vulnerability."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>FortiMail Cloud has been upgraded to non-impacted versions.</p>",
+          "text": "FortiMail Cloud has been upgraded to non-impacted versions."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Solutions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please upgrade to FortiMail version 5.4.11 or above.<br>Please upgrade to FortiMail version 6.0.8 or above.<br>Please upgrade to FortiMail version 6.2.3 or above.</p>",
+          "text": "Please upgrade to FortiMail version 5.4.11 or above. Please upgrade to FortiMail version 6.0.8 or above. Please upgrade to FortiMail version 6.2.3 or above."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Please upgrade to FortiVoiceEntreprise version 6.0.2 or above.</p>",
+          "text": "Please upgrade to FortiVoiceEntreprise version 6.0.2 or above."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) encourages users and administrators to review and apply the necessary updates."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "products-affected",
+      "label": "Products affected",
+      "isSubItem": true
+    },
+    {
+      "id": "recommendations",
+      "label": "Solutions"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-311-050420-tt-csirt-advisory-authentication-bypass-in-fortimail-and-fortivoice-enterprise/",
+    "upstreamDisclosedAt": "2020-05-04T10:53:29",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

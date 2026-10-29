@@ -1,0 +1,75 @@
+{
+  "id": "4097",
+  "legacyPostId": 4097,
+  "referenceNumber": "TT-CSIRT #279",
+  "classification": "advisory",
+  "title": "Microsoft releases february 2020 security updates",
+  "rawTitle": "TTCSIRT-279.021220: TT-CSIRT ADVISORY- MICROSOFT RELEASES FEBRUARY 2020 SECURITY UPDATES",
+  "slug": "ttcsirt-279-021220-tt-csirt-advisory-microsoft-releases-february-2020-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released security updates to address multiple vulnerabilities in their software. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "12 February 2020",
+  "rawDate": "2020-02-12T10:36:11",
+  "modifiedDate": "12 February 2020",
+  "rawModifiedDate": "2020-02-12T10:36:11",
+  "contentHtml": "<p>Microsoft has released security updates to address multiple vulnerabilities in their software. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>TT-CSIRT encourages users and administrators to review Microsoft’s February 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>\n<ul>\n<li><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb</a></li>\n<li><a href=\"https://support.microsoft.com/en-us/help/20200211/security-update-deployment-information-february-11-2020\">https://support.microsoft.com/en-us/help/20200211/security-update-deployment-information-february-11-2020</a></li>\n</ul>\n",
+  "displaySummary": "Microsoft has released security updates to address multiple vulnerabilities in their software. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released security updates to address multiple vulnerabilities in their software. An attacker could exploit some of these vulnerabilities to take control of an affected system. TT-CSIRT encourages users and administrators to review Microsoft’s February 2020 Security Update Summary and Deployment Information and apply the necessary updates. https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb https://support.microsoft.com/en-us/help/20200211/security-update-deployment-information-february-11-2020</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-279-021220-tt-csirt-advisory-microsoft-releases-february-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released security updates to address multiple vulnerabilities in their software. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released security updates to address multiple vulnerabilities in their software. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages users and administrators to review Microsoft’s February 2020 Security Update Summary and Deployment Information and apply the necessary updates.</p>",
+          "text": "TT-CSIRT encourages users and administrators to review Microsoft’s February 2020 Security Update Summary and Deployment Information and apply the necessary updates."
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb</a></li>\n<li><a href=\"https://support.microsoft.com/en-us/help/20200211/security-update-deployment-information-february-11-2020\">https://support.microsoft.com/en-us/help/20200211/security-update-deployment-information-february-11-2020</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Feb",
+    "https://support.microsoft.com/en-us/help/20200211/security-update-deployment-information-february-11-2020"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-279-021220-tt-csirt-advisory-microsoft-releases-february-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-02-12T10:36:11",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

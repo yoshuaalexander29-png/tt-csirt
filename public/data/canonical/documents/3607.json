@@ -1,0 +1,77 @@
+{
+  "id": "3607",
+  "legacyPostId": 3607,
+  "referenceNumber": "TT-CSIRT #185",
+  "classification": "advisory",
+  "title": "Samba security updates",
+  "rawTitle": "TTCSIRT-185.112718: TT-CSIRT Advisory – Samba Security Updates",
+  "slug": "ttcsirt-185-112718-tt-csirt-advisory-samba-security-updates",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Samba Team has released a security update stating that all versions of Samba from ver 4.0.0 onwards are vulnerable to infinite query recursions caused by CNAME loops.",
+  "cveList": [
+    "CVE-2018-14629"
+  ],
+  "date": "27 November 2018",
+  "rawDate": "2018-11-27T18:07:38",
+  "modifiedDate": "27 November 2018",
+  "rawModifiedDate": "2018-11-27T18:07:38",
+  "contentHtml": "<p>Samba Team has released a security update stating that all versions of Samba from ver 4.0.0 onwards are vulnerable to infinite query recursions caused by CNAME loops.</p>\n<p>Attackers can exploit this vulnerability by adding and removing Domain Name Service (DNS) Records by using the ldbadd tool.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Samba Website at <a href=\"https://www.samba.org/samba/security/CVE-2018-14629.html\"><font size=\"2\" color=\"maroon\">https://www.samba.org/samba/security/CVE-2018-14629.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Samba Team has released a security update stating that all versions of Samba from ver 4.0.0 onwards are vulnerable to infinite query recursions caused by CNAME loops.",
+  "sourceExcerpt": "<p>Samba Team has released a security update stating that all versions of Samba from ver 4.0.0 onwards are vulnerable to infinite query recursions caused by CNAME loops. Attackers can exploit this vulnerability by adding and removing Domain Name Service (DNS) Records by using the ldbadd tool. Further information on this vulnerability and how it can [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-185-112718-tt-csirt-advisory-samba-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Samba Team has released a security update stating that all versions of Samba from ver 4.0.0 onwards are vulnerable to infinite query recursions caused by CNAME loops.</p>",
+          "text": "Samba Team has released a security update stating that all versions of Samba from ver 4.0.0 onwards are vulnerable to infinite query recursions caused by CNAME loops."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Attackers can exploit this vulnerability by adding and removing Domain Name Service (DNS) Records by using the ldbadd tool.</p>",
+          "text": "Attackers can exploit this vulnerability by adding and removing Domain Name Service (DNS) Records by using the ldbadd tool."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Samba Website at <a href=\"https://www.samba.org/samba/security/CVE-2018-14629.html\">https://www.samba.org/samba/security/CVE-2018-14629.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Samba Website at https://www.samba.org/samba/security/CVE-2018-14629.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.samba.org/samba/security/CVE-2018-14629.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-185-112718-tt-csirt-advisory-samba-security-updates/",
+    "upstreamDisclosedAt": "2018-11-27T18:07:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

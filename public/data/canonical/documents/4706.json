@@ -1,0 +1,73 @@
+{
+  "id": "4706",
+  "legacyPostId": 4706,
+  "referenceNumber": "TT-CSIRT 351.09.03.20",
+  "classification": "advisory",
+  "title": "Cisco iOS xr authenticated user privilege escalation vulnerability",
+  "rawTitle": "TTCSIRT-351.09.03.20: TT-CSIRT ADVISORY – Cisco IOS XR Authenticated User Privilege Escalation Vulnerability",
+  "slug": "ttcsirt-351-09-03-20-tt-csirt-advisory-cisco-ios-xr-authenticated-user-privilege-escalation-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "A vulnerability exists in task group assignment for a specific CLI command in Cisco IOS XR Software could allow an authenticated, local attacker to execute that command, even though administrative privileges should be required. The attacker must have valid credentials on the affected device.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:27:57",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:27:57",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">A vulnerability exists in task group assignment for a specific CLI command in Cisco IOS XR Software could allow an authenticated, local attacker to execute that command, even though administrative privileges should be required. The attacker must have valid credentials on the affected device.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerability is due to incorrect mapping in the source code of task group assignments for a specific command. An attacker could exploit this vulnerability by issuing the command, which they should not be authorized to issue, on an affected device.<br><br>A successful exploit could allow the attacker to invalidate the integrity of the disk and cause the device to restart. This vulnerability could allow a user with&nbsp;<em>read&nbsp;</em>permissions to issue a specific command that should require&nbsp;<em>Administrator&nbsp;</em>privileges.<br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=75355e2b85&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxr-cli-privescl-sDVEmhqv</a><br>&nbsp;<strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "A vulnerability exists in task group assignment for a specific CLI command in Cisco IOS XR Software could allow an authenticated, local attacker to execute that command, even though…",
+  "sourceExcerpt": "<p>A vulnerability exists in task group assignment for a specific CLI command in Cisco IOS XR Software could allow an authenticated, local attacker to execute that command, even though administrative privileges should be required. The attacker must have valid credentials on the affected device. The vulnerability is due to incorrect mapping in the source code of [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-351-09-03-20-tt-csirt-advisory-cisco-ios-xr-authenticated-user-privilege-escalation-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>A vulnerability exists in task group assignment for a specific CLI command in Cisco IOS XR Software could allow an authenticated, local attacker to execute that command, even though administrative privileges should be required. The attacker must have valid credentials on the affected device.</p>",
+          "text": "A vulnerability exists in task group assignment for a specific CLI command in Cisco IOS XR Software could allow an authenticated, local attacker to execute that command, even though administrative privileges should be required. The attacker must have valid credentials on the affected device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to incorrect mapping in the source code of task group assignments for a specific command. An attacker could exploit this vulnerability by issuing the command, which they should not be authorized to issue, on an affected device.</p>",
+          "text": "The vulnerability is due to incorrect mapping in the source code of task group assignments for a specific command. An attacker could exploit this vulnerability by issuing the command, which they should not be authorized to issue, on an affected device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A successful exploit could allow the attacker to invalidate the integrity of the disk and cause the device to restart. This vulnerability could allow a user with&nbsp;<em>read&nbsp;</em>permissions to issue a specific command that should require&nbsp;<em>Administrator&nbsp;</em>privileges.</p>",
+          "text": "A successful exploit could allow the attacker to invalidate the integrity of the disk and cause the device to restart. This vulnerability could allow a user with  read  permissions to issue a specific command that should require  Administrator  privileges."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-351-09-03-20-tt-csirt-advisory-cisco-ios-xr-authenticated-user-privilege-escalation-vulnerability/",
+    "upstreamDisclosedAt": "2020-09-22T23:27:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

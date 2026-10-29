@@ -1,0 +1,123 @@
+{
+  "id": "3361",
+  "legacyPostId": 3361,
+  "referenceNumber": "TT-CSIRT #117",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-117.051418: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-117-051418-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:",
+  "cveList": [
+    "CVE-2018-6120",
+    "CVE-2018-6121",
+    "CVE-2018-6122"
+  ],
+  "date": "14 May 2018",
+  "rawDate": "2018-05-14T12:00:17",
+  "modifiedDate": "14 May 2018",
+  "rawModifiedDate": "2018-05-14T12:00:17",
+  "contentHtml": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:</p>\n<p>a) Heap buffer overflow in PDFium &#8211; (CVE-2018-6120)</p>\n<p>b) Privilege escalation in extensions &#8211; (CVE-2018-6121)</p>\n<p>c) Type confusion in V8 &#8211; (CVE-2018-6122)</p>\n<p>d) Chain leading to sandbox escape</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions or cause denial-of-service conditions.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Chrome Website at <a href=\"https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html\"><font size=\"2\" color=\"maroon\">https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome: a) Heap buffer overflow in PDFium &#8211; (CVE-2018-6120) b) Privilege…",
+  "sourceExcerpt": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome: a) Heap buffer overflow in PDFium &#8211; (CVE-2018-6120) b) Privilege escalation in extensions &#8211; (CVE-2018-6121) c) Type confusion in V8 &#8211; (CVE-2018-6122) d) Chain leading to sandbox escape Successful exploitation of the most severe of these vulnerabilities could [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-117-051418-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:</p>",
+          "text": "Google has released a security update stating that the following vulnerabilities have been discovered in Google Chrome:"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap buffer overflow in pdfium – (CVE-2018-6120)",
+          "id": "heap-buffer-overflow-in-pdfium-cve-2018-6120"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Privilege escalation in extensions – (CVE-2018-6121)",
+          "id": "privilege-escalation-in-extensions-cve-2018-6121"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Type confusion in v8 – (CVE-2018-6122)",
+          "id": "type-confusion-in-v8-cve-2018-6122"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Chain leading to sandbox escape",
+          "id": "chain-leading-to-sandbox-escape"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions or cause denial-of-service conditions.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser, obtain sensitive information, bypass security restrictions and perform unauthorized actions or cause denial-of-service conditions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Chrome Website at <a href=\"https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html\">https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Chrome Website at https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "heap-buffer-overflow-in-pdfium-cve-2018-6120",
+      "label": "Heap buffer overflow in pdfium – (CVE-2018-6120)",
+      "isSubItem": true
+    },
+    {
+      "id": "privilege-escalation-in-extensions-cve-2018-6121",
+      "label": "Privilege escalation in extensions – (CVE-2018-6121)",
+      "isSubItem": true
+    },
+    {
+      "id": "type-confusion-in-v8-cve-2018-6122",
+      "label": "Type confusion in v8 – (CVE-2018-6122)",
+      "isSubItem": true
+    },
+    {
+      "id": "chain-leading-to-sandbox-escape",
+      "label": "Chain leading to sandbox escape",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://chromereleases.googleblog.com/2018/05/stable-channel-update-for-desktop.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-117-051418-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2018-05-14T12:00:17",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "4351",
+  "legacyPostId": 4351,
+  "referenceNumber": "TT-CSIRT #4351",
+  "classification": "alert",
+  "title": "Guidelines for enterprise VPN security",
+  "rawTitle": "Guidelines for Enterprise VPN Security",
+  "slug": "guidelines-for-enterprise-vpn-security",
+  "severity": "medium",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "As more organizations move towards telecommuting (work from home) in an attempt to curtail the spread of COVID-19, the U.S. Cyber and Infrastructure Security Agency (CISA) has issued guidelines for securing enterprise VPN systems. TT-CSIRT encourages all organizations to review the CISA Alert (AA20-073A) and take the necessary actions.",
+  "cveList": [],
+  "date": "16 March 2020",
+  "rawDate": "2020-03-16T11:30:51",
+  "modifiedDate": "16 March 2020",
+  "rawModifiedDate": "2020-03-16T11:30:51",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"> As more organizations move towards telecommuting (work from home) in an attempt to curtail the spread of COVID-19, the U.S. Cyber and Infrastructure Security Agency (CISA) has issued guidelines for securing enterprise VPN systems. TT-CSIRT encourages all organizations to review the <a href=\"https://www.us-cert.gov/ncas/alerts/aa20-073a\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"CISA Alert (AA20-073A)  (opens in a new tab)\">CISA Alert (AA20-073A) </a>and take the necessary actions.  </p>\n",
+  "displaySummary": "As more organizations move towards telecommuting (work from home) in an attempt to curtail the spread of COVID-19, the U.S.",
+  "sourceExcerpt": "<p>As more organizations move towards telecommuting (work from home) in an attempt to curtail the spread of COVID-19, the U.S. Cyber and Infrastructure Security Agency (CISA) has issued guidelines for securing enterprise VPN systems. TT-CSIRT encourages all organizations to review the CISA Alert (AA20-073A) and take the necessary actions.</p>\n",
+  "url": "https://ttcsirt.gov.tt/guidelines-for-enterprise-vpn-security/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>As more organizations move towards telecommuting (work from home) in an attempt to curtail the spread of COVID-19, the U.S. Cyber and Infrastructure Security Agency (CISA) has issued guidelines for securing enterprise VPN systems. TT-CSIRT encourages all organizations to review the <a href=\"https://www.us-cert.gov/ncas/alerts/aa20-073a\" target=\"_blank\" rel=\"noreferrer noopener\" aria-label=\"CISA Alert (AA20-073A)  (opens in a new tab)\">CISA Alert (AA20-073A) </a>and take the necessary actions.</p>",
+          "text": "As more organizations move towards telecommuting (work from home) in an attempt to curtail the spread of COVID-19, the U.S. Cyber and Infrastructure Security Agency (CISA) has issued guidelines for securing enterprise VPN systems. TT-CSIRT encourages all organizations to review the CISA Alert (AA20-073A) and take the necessary actions."
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.us-cert.gov/ncas/alerts/aa20-073a"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/guidelines-for-enterprise-vpn-security/",
+    "upstreamDisclosedAt": "2020-03-16T11:30:51",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

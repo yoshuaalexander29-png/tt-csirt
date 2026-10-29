@@ -1,0 +1,75 @@
+{
+  "id": "3022",
+  "legacyPostId": 3022,
+  "referenceNumber": "TT-CSIRT #052",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-052.101117: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-052-101117-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for code execution.",
+  "cveList": [],
+  "date": "10 October 2017",
+  "rawDate": "2017-10-10T20:39:07",
+  "modifiedDate": "10 October 2017",
+  "rawModifiedDate": "2017-10-10T20:39:07",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for code execution.</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>\n<p>A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance\"><font size=\"2\" color=\"maroon\">https://portal.msrc.microsoft.com/en-us/security-guidance</font></a></p>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for code execution. Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-052-101117-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for code execution.</p>",
+          "text": "Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in an attacker gaining the same privileges as the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website at <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance\">https://portal.msrc.microsoft.com/en-us/security-guidance</a></p>",
+          "text": "A full list of all vulnerabilities and how they can be fixed can be found on the Microsoft Website at https://portal.msrc.microsoft.com/en-us/security-guidance"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://portal.msrc.microsoft.com/en-us/security-guidance"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-052-101117-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2017-10-10T20:39:07",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "3525",
+  "legacyPostId": 3525,
+  "referenceNumber": "TT-CSIRT #161",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-161.090718: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-161-090718-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that the following issues have been found in Mozilla Firefox ver 62.0:",
+  "cveList": [
+    "CVE-2018-12378",
+    "CVE-2017-16541",
+    "CVE-2018-12379"
+  ],
+  "date": "7 September 2018",
+  "rawDate": "2018-09-07T14:51:38",
+  "modifiedDate": "7 September 2018",
+  "rawModifiedDate": "2018-09-07T14:51:38",
+  "contentHtml": "<p>Mozilla has released a security update stating that the following issues have been found in Mozilla Firefox ver 62.0:</p>\n<p>a) A use-after-free vulnerability can occur when an IndexedDB index is deleted while still in use by JavaScript code that is providing payload values to be stored. This results in a potentially exploitable crash &#8211; (CVE-2018-12378).</p>\n<p>b) Browser proxy settings can be bypassed by using the automount feature with autofs to create a mount point on the local file system &#8211; (CVE-2017-16541).</p>\n<p>c) When the Mozilla Updater opens a MAR format file which contains a very long item filename, an out-of-bounds write can be triggered, leading to a potentially exploitable crash &#8211; (CVE-2018-12379).</p>\n<table>\n<tr>\n<td>Further information vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-20/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-20/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that the following issues have been found in Mozilla Firefox ver 62.0: a) A use-after-free vulnerability can occur when an IndexedDB index is…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that the following issues have been found in Mozilla Firefox ver 62.0: a) A use-after-free vulnerability can occur when an IndexedDB index is deleted while still in use by JavaScript code that is providing payload values to be stored. This results in a potentially exploitable crash &#8211; (CVE-2018-12378). [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-161-090718-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that the following issues have been found in Mozilla Firefox ver 62.0:</p>",
+          "text": "Mozilla has released a security update stating that the following issues have been found in Mozilla Firefox ver 62.0:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A use-after-free vulnerability can occur when an IndexedDB index is deleted while still in use by JavaScript code that is providing payload values to be stored. This results in a potentially exploitable crash &#8211; (CVE-2018-12378).</p>",
+          "text": "a) A use-after-free vulnerability can occur when an IndexedDB index is deleted while still in use by JavaScript code that is providing payload values to be stored. This results in a potentially exploitable crash – (CVE-2018-12378)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Browser proxy settings can be bypassed by using the automount feature with autofs to create a mount point on the local file system &#8211; (CVE-2017-16541).</p>",
+          "text": "b) Browser proxy settings can be bypassed by using the automount feature with autofs to create a mount point on the local file system – (CVE-2017-16541)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) When the Mozilla Updater opens a MAR format file which contains a very long item filename, an out-of-bounds write can be triggered, leading to a potentially exploitable crash &#8211; (CVE-2018-12379).</p>",
+          "text": "c) When the Mozilla Updater opens a MAR format file which contains a very long item filename, an out-of-bounds write can be triggered, leading to a potentially exploitable crash – (CVE-2018-12379)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-20/\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-20/</a></p>",
+          "text": "Further information vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2018-20/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2018-20/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-161-090718-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2018-09-07T14:51:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

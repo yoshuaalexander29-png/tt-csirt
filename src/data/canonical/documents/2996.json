@@ -1,0 +1,163 @@
+{
+  "id": "2996",
+  "legacyPostId": 2996,
+  "referenceNumber": "TT-CSIRT #046",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-046.092617: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-046-092617-tt-csirt-advisory-apple-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in watchOS, iOS, tvOS, Xcode, and Safari. The most severe of these vulnerabilities could allow for arbitrary code execution. Details of these vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-1000117",
+    "CVE-2017-7076",
+    "CVE-2017-7134",
+    "CVE-2017-7135",
+    "CVE-2017-7136",
+    "CVE-2017-7137",
+    "CVE-2017-9800",
+    "CVE-2017-7085",
+    "CVE-2017-7106",
+    "CVE-2017-7089",
+    "CVE-2017-7088",
+    "CVE-2017-7072",
+    "CVE-2017-7097",
+    "CVE-2017-7118",
+    "CVE-2017-7133",
+    "CVE-2017-7103",
+    "CVE-2017-7105",
+    "CVE-2017-7108",
+    "CVE-2017-7110",
+    "CVE-2017-7112",
+    "CVE-2017-7115",
+    "CVE-2017-7116"
+  ],
+  "date": "26 September 2017",
+  "rawDate": "2017-09-26T11:44:13",
+  "modifiedDate": "26 September 2017",
+  "rawModifiedDate": "2017-09-26T11:44:13",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in watchOS, iOS, tvOS, Xcode, and Safari. The most severe of these vulnerabilities could allow for arbitrary code execution. Details of these vulnerabilities are as follows:</p>\n<p>a) An ssh:// URL scheme handling issue was addressed through improved input validation <strong>(CVE-2017-1000117)</strong></p>\n<p>b) Multiple memory corruption issues were addressed with improved memory handling <strong>(CVE-2017-7076, CVE-2017-7134, CVE-2017-7135, CVE-2017-7136, CVE-2017-7137)</strong></p>\n<p>c) An input validation issue was addressed through improved input validation <strong>(CVE-2017-9800)</strong></p>\n<p>d) An inconsistent user interface issue was addressed with improved state management <strong>(CVE-2017-7085, CVE-2017-7106)</strong></p>\n<p>e) A logic issue existed in the handling of the parent-tab. This issue was addressed with improved state management <strong>(CVE-2017-7089)</strong></p>\n<p>f) A validation issue existed in AutoDiscover V1. This issue was addressed through requiring TLS <strong>(CVE-2017-7088)</strong></p>\n<p>g) Multiple denial of service issues were addressed through improved memory handling <strong>(CVE-2017-7072)</strong></p>\n<p>h) A memory corruption issue was addressed with improved validation <strong>(CVE-2017-7097)</strong></p>\n<p>i) A denial of service issue was addressed through improved validation <strong>(CVE-2017-7118)</strong></p>\n<p>j) A permissions issue existed. This issue was addressed with improved permission validation <strong>(CVE-2017-7133)</strong></p>\n<p>k) Multiple memory corruption issues were addressed with improved memory handling <strong>(CVE-2017-7103, CVE-2017-7105, CVE-2017-7108, CVE-2017-7110, CVE-2017-7112)</strong></p>\n<p>l) Multiple race conditions were addressed with improved validation <strong>(CVE-2017-7115)</strong></p>\n<p>m) A validation issue was addressed with improved input sanitization <strong>(CVE-2017-7116)</strong></p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution within the context of the application, an attacker gaining the same privileges as the logged-on user, or the bypassing of security restrictions. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-13/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-13/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in watchOS, iOS, tvOS, Xcode, and Safari. The most severe of these vulnerabilities could allow for arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in watchOS, iOS, tvOS, Xcode, and Safari. The most severe of these vulnerabilities could allow for arbitrary code execution. Details of these vulnerabilities are as follows: a) An ssh:// URL scheme handling issue was addressed through improved input validation (CVE-2017-1000117) b) Multiple memory corruption issues were addressed with improved memory [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-046-092617-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in watchOS, iOS, tvOS, Xcode, and Safari. The most severe of these vulnerabilities could allow for arbitrary code execution. Details of these vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in watchOS, iOS, tvOS, Xcode, and Safari. The most severe of these vulnerabilities could allow for arbitrary code execution. Details of these vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) An ssh:// URL scheme handling issue was addressed through improved input validation <strong>(CVE-2017-1000117)</strong></p>",
+          "text": "a) An ssh:// URL scheme handling issue was addressed through improved input validation (CVE-2017-1000117)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Multiple memory corruption issues were addressed with improved memory handling <strong>(CVE-2017-7076, CVE-2017-7134, CVE-2017-7135, CVE-2017-7136, CVE-2017-7137)</strong></p>",
+          "text": "b) Multiple memory corruption issues were addressed with improved memory handling (CVE-2017-7076, CVE-2017-7134, CVE-2017-7135, CVE-2017-7136, CVE-2017-7137)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) An input validation issue was addressed through improved input validation <strong>(CVE-2017-9800)</strong></p>",
+          "text": "c) An input validation issue was addressed through improved input validation (CVE-2017-9800)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) An inconsistent user interface issue was addressed with improved state management <strong>(CVE-2017-7085, CVE-2017-7106)</strong></p>",
+          "text": "d) An inconsistent user interface issue was addressed with improved state management (CVE-2017-7085, CVE-2017-7106)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) A logic issue existed in the handling of the parent-tab. This issue was addressed with improved state management <strong>(CVE-2017-7089)</strong></p>",
+          "text": "e) A logic issue existed in the handling of the parent-tab. This issue was addressed with improved state management (CVE-2017-7089)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) A validation issue existed in AutoDiscover V1. This issue was addressed through requiring TLS <strong>(CVE-2017-7088)</strong></p>",
+          "text": "f) A validation issue existed in AutoDiscover V1. This issue was addressed through requiring TLS (CVE-2017-7088)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Multiple denial of service issues were addressed through improved memory handling <strong>(CVE-2017-7072)</strong></p>",
+          "text": "g) Multiple denial of service issues were addressed through improved memory handling (CVE-2017-7072)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) A memory corruption issue was addressed with improved validation <strong>(CVE-2017-7097)</strong></p>",
+          "text": "h) A memory corruption issue was addressed with improved validation (CVE-2017-7097)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) A denial of service issue was addressed through improved validation <strong>(CVE-2017-7118)</strong></p>",
+          "text": "i) A denial of service issue was addressed through improved validation (CVE-2017-7118)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) A permissions issue existed. This issue was addressed with improved permission validation <strong>(CVE-2017-7133)</strong></p>",
+          "text": "j) A permissions issue existed. This issue was addressed with improved permission validation (CVE-2017-7133)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Multiple memory corruption issues were addressed with improved memory handling <strong>(CVE-2017-7103, CVE-2017-7105, CVE-2017-7108, CVE-2017-7110, CVE-2017-7112)</strong></p>",
+          "text": "k) Multiple memory corruption issues were addressed with improved memory handling (CVE-2017-7103, CVE-2017-7105, CVE-2017-7108, CVE-2017-7110, CVE-2017-7112)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>l) Multiple race conditions were addressed with improved validation <strong>(CVE-2017-7115)</strong></p>",
+          "text": "l) Multiple race conditions were addressed with improved validation (CVE-2017-7115)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>m) A validation issue was addressed with improved input sanitization <strong>(CVE-2017-7116)</strong></p>",
+          "text": "m) A validation issue was addressed with improved input sanitization (CVE-2017-7116)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution within the context of the application, an attacker gaining the same privileges as the logged-on user, or the bypassing of security restrictions. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution within the context of the application, an attacker gaining the same privileges as the logged-on user, or the bypassing of security restrictions. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-13/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-13/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-13/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-13/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-046-092617-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2017-09-26T11:44:13",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "3429",
+  "legacyPostId": 3429,
+  "referenceNumber": "TT-CSIRT #136",
+  "classification": "advisory",
+  "title": "Php security updates",
+  "rawTitle": "TTCSIRT-136.062618: TT-CSIRT Advisory – PHP Security Updates",
+  "slug": "ttcsirt-136-062618-tt-csirt-advisory-php-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "PHP Security Consortium has released a security update stating that the following vulnerabilities have been discovered in PHP Ver 7.1.19 &#038; 7.2.7:",
+  "cveList": [],
+  "date": "26 June 2018",
+  "rawDate": "2018-06-26T13:34:06",
+  "modifiedDate": "26 June 2018",
+  "rawModifiedDate": "2018-06-26T13:34:06",
+  "contentHtml": "<p>PHP Security Consortium has released a security update stating that the following vulnerabilities have been discovered in PHP Ver 7.1.19 &#038; 7.2.7:</p>\n<p>a) Bug #76174 &#8211; openssl extension fails to build with LibreSSL 2.7.</p>\n<p>b) Bug #76296 &#8211; openssl_pkey_get_public does not respect open_basedir.</p>\n<p>c) Bug #76333 &#8211; PHP built-in server does not find files if root path contains special characters.</p>\n<p>d) Bug #76335 &#8211; &#8220;link(): Bad file descriptor&#8221; with non-ASCII path.</p>\n<p>e) Bug #76337 &#8211; segfault when opcache enabled + extension use zend_register_class_alias.</p>\n<p>f) Bug #76367 &#8211; NoRewindIterator segfault 11.</p>\n<p>g) Bug #76410 &#8211; SIGV in zend_mm_alloc_small.</p>\n<p>h) Bug #76383 &#8211; array_map on $GLOBALS returns IS_INDIRECT.</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application. </p>\n<p>Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights while failed exploitation could result in a denial-of-service condition.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-071/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-071/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "PHP Security Consortium has released a security update stating that the following vulnerabilities have been discovered in PHP Ver 7.1.19 &#038; 7.2.7: a) Bug #76174 &#8211; openssl extension…",
+  "sourceExcerpt": "<p>PHP Security Consortium has released a security update stating that the following vulnerabilities have been discovered in PHP Ver 7.1.19 &#038; 7.2.7: a) Bug #76174 &#8211; openssl extension fails to build with LibreSSL 2.7. b) Bug #76296 &#8211; openssl_pkey_get_public does not respect open_basedir. c) Bug #76333 &#8211; PHP built-in server does not find files if [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-136-062618-tt-csirt-advisory-php-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>PHP Security Consortium has released a security update stating that the following vulnerabilities have been discovered in PHP Ver 7.1.19 &#038; 7.2.7:</p>",
+          "text": "PHP Security Consortium has released a security update stating that the following vulnerabilities have been discovered in PHP Ver 7.1.19 &#038; 7.2.7:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Bug #76174 &#8211; openssl extension fails to build with LibreSSL 2.7.</p>",
+          "text": "a) Bug #76174 – openssl extension fails to build with LibreSSL 2.7."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Bug #76296 &#8211; openssl_pkey_get_public does not respect open_basedir.</p>",
+          "text": "b) Bug #76296 – openssl_pkey_get_public does not respect open_basedir."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Bug #76333 &#8211; PHP built-in server does not find files if root path contains special characters.</p>",
+          "text": "c) Bug #76333 – PHP built-in server does not find files if root path contains special characters."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) Bug #76335 &#8211; &#8220;link(): Bad file descriptor&#8221; with non-ASCII path.</p>",
+          "text": "d) Bug #76335 – “link(): Bad file descriptor” with non-ASCII path."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) Bug #76337 &#8211; segfault when opcache enabled + extension use zend_register_class_alias.</p>",
+          "text": "e) Bug #76337 – segfault when opcache enabled + extension use zend_register_class_alias."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) Bug #76367 &#8211; NoRewindIterator segfault 11.</p>",
+          "text": "f) Bug #76367 – NoRewindIterator segfault 11."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Bug #76410 &#8211; SIGV in zend_mm_alloc_small.</p>",
+          "text": "g) Bug #76410 – SIGV in zend_mm_alloc_small."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Bug #76383 &#8211; array_map on $GLOBALS returns IS_INDIRECT.</p>",
+          "text": "h) Bug #76383 – array_map on $GLOBALS returns IS_INDIRECT."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the affected application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights while failed exploitation could result in a denial-of-service condition.</p>",
+          "text": "Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights while failed exploitation could result in a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-071/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-071/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-071/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2018-071/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-136-062618-tt-csirt-advisory-php-security-updates/",
+    "upstreamDisclosedAt": "2018-06-26T13:34:06",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

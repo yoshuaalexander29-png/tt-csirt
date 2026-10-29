@@ -1,0 +1,75 @@
+{
+  "id": "3665",
+  "legacyPostId": 3665,
+  "referenceNumber": "TT-CSIRT #200",
+  "classification": "advisory",
+  "title": "VMware security updates",
+  "rawTitle": "TTCSIRT-200.022119: TT-CSIRT Advisory – VMware Security Updates",
+  "slug": "ttcsirt-200-022119-tt-csirt-advisory-vmware-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "VMWare has released a security update stating that it has discovered a runc container runtime vulnerability for VMware Integrated OpenStack with Kubernetes (VIO-K), VMware PKS (PKS), VMware vCloud Director Container Service Extension (CSE) and vSphere Integrated Containers (VIC).",
+  "cveList": [],
+  "date": "20 February 2019",
+  "rawDate": "2019-02-20T20:07:14",
+  "modifiedDate": "20 February 2019",
+  "rawModifiedDate": "2019-02-20T20:07:14",
+  "contentHtml": "<p>VMWare has released a security update stating that it has discovered a runc container runtime vulnerability for VMware Integrated OpenStack with Kubernetes (VIO-K), VMware PKS (PKS), VMware vCloud Director Container Service Extension (CSE) and vSphere Integrated Containers (VIC).</p>\n<p>Successful exploitation of this issue may allow an attacker to overwrite the contents of a host&#8217;s runc binary and execute arbitrary code.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0001.html\"><font size=\"2\" color=\"maroon\">https://www.vmware.com/security/advisories/VMSA-2019-0001.html</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "VMWare has released a security update stating that it has discovered a runc container runtime vulnerability for VMware Integrated OpenStack with Kubernetes (VIO-K), VMware PKS (PKS), VMware…",
+  "sourceExcerpt": "<p>VMWare has released a security update stating that it has discovered a runc container runtime vulnerability for VMware Integrated OpenStack with Kubernetes (VIO-K), VMware PKS (PKS), VMware vCloud Director Container Service Extension (CSE) and vSphere Integrated Containers (VIC). Successful exploitation of this issue may allow an attacker to overwrite the contents of a host&#8217;s runc [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-200-022119-tt-csirt-advisory-vmware-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>VMWare has released a security update stating that it has discovered a runc container runtime vulnerability for VMware Integrated OpenStack with Kubernetes (VIO-K), VMware PKS (PKS), VMware vCloud Director Container Service Extension (CSE) and vSphere Integrated Containers (VIC).</p>",
+          "text": "VMWare has released a security update stating that it has discovered a runc container runtime vulnerability for VMware Integrated OpenStack with Kubernetes (VIO-K), VMware PKS (PKS), VMware vCloud Director Container Service Extension (CSE) and vSphere Integrated Containers (VIC)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of this issue may allow an attacker to overwrite the contents of a host&#8217;s runc binary and execute arbitrary code.</p>",
+          "text": "Successful exploitation of this issue may allow an attacker to overwrite the contents of a host’s runc binary and execute arbitrary code."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at <a href=\"https://www.vmware.com/security/advisories/VMSA-2019-0001.html\">https://www.vmware.com/security/advisories/VMSA-2019-0001.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the VMware Website at https://www.vmware.com/security/advisories/VMSA-2019-0001.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.vmware.com/security/advisories/VMSA-2019-0001.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-200-022119-tt-csirt-advisory-vmware-security-updates/",
+    "upstreamDisclosedAt": "2019-02-20T20:07:14",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

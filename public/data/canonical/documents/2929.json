@@ -1,0 +1,80 @@
+{
+  "id": "2929",
+  "legacyPostId": 2929,
+  "referenceNumber": "TT-CSIRT #033",
+  "classification": "advisory",
+  "title": "Symantec security updates",
+  "rawTitle": "TTCSIRT-033.081417: TT-CSIRT Advisory – Symantec Security Updates",
+  "slug": "ttcsirt-033-081417-tt-csirt-advisory-symantec-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Symantec has released a security update to address the following security vulnerabilities in Symantec Messaging Gateway:",
+  "cveList": [],
+  "date": "14 August 2017",
+  "rawDate": "2017-08-14T11:05:05",
+  "modifiedDate": "14 August 2017",
+  "rawModifiedDate": "2017-08-14T11:05:05",
+  "contentHtml": "<p>Symantec has released a security update to address the following security vulnerabilities in Symantec Messaging Gateway:</p>\n<p>a) Remote Code Execution &#8211; an individual may obtain the ability to execute commands remotely on a target machine or in a target process. In this type of occurrence, after gaining access to the system, the attacker may attempt to elevate their privileges.</p>\n<p>b) Cross Site Request Forgery &#8211; an issue of cross site request forgery also known as one-click attack and is abbreviated as CSRF or XSRF, which is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the web application trusts. A CSRF attack attempts to exploit the trust that a specific website has in a user&#8217;s browser.</p>\n<table>\n<tr>\n<td>For further information on these vulnerabilities and how they can be mitigated can be found on the Symantec Website at <a href=\"https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20170810_00\"><font size=\"2\" color=\"maroon\">https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20170810_00</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Symantec has released a security update to address the following security vulnerabilities in Symantec Messaging Gateway: a) Remote Code Execution &#8211; an individual may obtain the ability to…",
+  "sourceExcerpt": "<p>Symantec has released a security update to address the following security vulnerabilities in Symantec Messaging Gateway: a) Remote Code Execution &#8211; an individual may obtain the ability to execute commands remotely on a target machine or in a target process. In this type of occurrence, after gaining access to the system, the attacker may attempt [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-033-081417-tt-csirt-advisory-symantec-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Symantec has released a security update to address the following security vulnerabilities in Symantec Messaging Gateway:</p>",
+          "text": "Symantec has released a security update to address the following security vulnerabilities in Symantec Messaging Gateway:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) Remote Code Execution &#8211; an individual may obtain the ability to execute commands remotely on a target machine or in a target process. In this type of occurrence, after gaining access to the system, the attacker may attempt to elevate their privileges.</p>",
+          "text": "a) Remote Code Execution – an individual may obtain the ability to execute commands remotely on a target machine or in a target process. In this type of occurrence, after gaining access to the system, the attacker may attempt to elevate their privileges."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) Cross Site Request Forgery &#8211; an issue of cross site request forgery also known as one-click attack and is abbreviated as CSRF or XSRF, which is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the web application trusts. A CSRF attack attempts to exploit the trust that a specific website has in a user&#8217;s browser.</p>",
+          "text": "b) Cross Site Request Forgery – an issue of cross site request forgery also known as one-click attack and is abbreviated as CSRF or XSRF, which is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the web application trusts. A CSRF attack attempts to exploit the trust that a specific website has in a user’s browser."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information on these vulnerabilities and how they can be mitigated can be found on the Symantec Website at <a href=\"https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20170810_00\">https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20170810_00</a></p>",
+          "text": "For further information on these vulnerabilities and how they can be mitigated can be found on the Symantec Website at https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20170810_00"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&#038;pvid=security_advisory&#038;year=&#038;suid=20170810_00"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-033-081417-tt-csirt-advisory-symantec-security-updates/",
+    "upstreamDisclosedAt": "2017-08-14T11:05:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

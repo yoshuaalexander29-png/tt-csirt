@@ -1,0 +1,167 @@
+{
+  "id": "5451",
+  "legacyPostId": 5451,
+  "referenceNumber": "TT-CSIRT #5451",
+  "classification": "advisory",
+  "title": "Do the basics well",
+  "rawTitle": "Do the basics well",
+  "slug": "do-the-basics-well",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Attacks against local entities have been on the rise over the last 3 years and the TT-CSIRT has issued several advisories, alerts and guidance noting this uptick during that time. The necessary increase in digital transformation initiatives being pursued by both the public and private sector also inadvertently increases our viability as a target for threat actors. Coupled with the added attention which cybercriminals are paying to the region, we see that local organizations can no longer afford to throw a blind eye to cyber security. Cyber security should be treated as an enterprise risk as opposed to being a problem for IT to handle.",
+  "cveList": [],
+  "date": "7 December 2022",
+  "rawDate": "2022-12-07T10:23:46",
+  "modifiedDate": "7 December 2022",
+  "rawModifiedDate": "2022-12-07T10:23:46",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Attacks against local entities have been on the rise over the last 3 years and the TT-CSIRT has issued several advisories, alerts and guidance noting this uptick during that time. The necessary increase in digital transformation initiatives being pursued by both the public and private sector also inadvertently increases our viability as a target for threat actors. Coupled with the added attention which cybercriminals are paying to the region, we see that local organizations can no longer afford to throw a blind eye to cyber security. Cyber security should be treated as an enterprise risk as opposed to being a problem for IT to handle.</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\"><strong>New technology driven ways of doing business broadens our attack surface.</strong>..</p>\n</blockquote>\n\n\n\n<p class=\"wp-block-paragraph\">The top threats to organizations in Trinidad and Tobago continue to be ransomware, phishing, malicious insiders, data leakage and hacking. Local entities are attacked on an almost daily basis. The majority of these attacks are unsuccessful but when they are it can be devastating.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>The vectors by which these attacks are carried out are numerous but these are the most common in our analysis of successful attacks on local organizations:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Exploitation of system vulnerabilities</li>\n\n\n\n<li>Phishing emails with malicious links and/or attachments</li>\n\n\n\n<li>Compromised user credentials</li>\n\n\n\n<li>System misconfigurations</li>\n</ul>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\"><strong>Do the basics well</strong>&#8230;</p>\n</blockquote>\n\n\n\n<p class=\"wp-block-paragraph\">How can local organizations combat this evolving threat landscape? – Do the basics well. In the majority of instances where TT-CSIRT has been called on to respond or provide guidance, the compromise could have potentially been avoided if the organization did the basics well. </p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>Organizations should ensure that these measures are implemented, tested and reviewed to address the four (4) attack vectors highlighted above:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Exploitation of system vulnerabilities<ul><li>Update and patch your systems and software in a timely manner</li></ul>\n<ul class=\"wp-block-list\">\n<li>Subscribe to advisory feeds from your vendors and TT-CSIRT for security update notices</li>\n</ul>\n</li>\n\n\n\n<li>Phishing emails with malicious links and/or attachments<ul><li>User awareness and training</li></ul><ul><li>Email filtering</li></ul>\n<ul class=\"wp-block-list\">\n<li>Endpoint protection</li>\n</ul>\n</li>\n\n\n\n<li>Compromised user credentials\n<ul class=\"wp-block-list\">\n<li>Multi Factor Authentication</li>\n</ul>\n</li>\n\n\n\n<li>System misconfigurations\n<ul class=\"wp-block-list\">\n<li>Use best practice and hardening guides like those provided by the Center for Internet Security (<a href=\"https://www.cisecurity.org/cis-benchmarks/\">https://www.cisecurity.org/cis-benchmarks/</a>)</li>\n</ul>\n</li>\n</ul>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\"><strong>It is critical to maintain offline, encrypted backups of data</strong>&#8230;</p>\n</blockquote>\n\n\n\n<p class=\"wp-block-paragraph\">But attacks aren’t limited to the vectors above. Here are other basic things that should be done to protect your organization from attacks and to ease the pain of recovery in the event you have been compromised:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Maintain backups &#8211; It is critical to maintain offline, encrypted backups of data and to regularly test your backups. Backup procedures should be conducted on a regular basis. It is important that backups be maintained offline as many ransomware variants attempt to find and delete any accessible backups.</li>\n\n\n\n<li>Conduct regular vulnerability scanning to identify and address easily exploitable vulnerabilities, especially those on internet-facing systems.</li>\n\n\n\n<li>Create, maintain, and exercise a basic cyber incident response plan and associated communications plan that includes response and notification procedures for a ransomware incident.</li>\n</ul>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p class=\"wp-block-paragraph\"><strong>It is important that entities possess sufficient internal capacity in order to hold their MSP accountable</strong>&#8230;</p>\n</blockquote>\n\n\n\n<p class=\"wp-block-paragraph\">These are simple measures that can improve the cyber security posture of any organization. However it is noted that entities sometimes do not have the financial resources or technical capacity to execute some of these measures. Many organizations opt to use managed service providers (MSPs) in an attempt to tackle their cyber security issues. However it is important that entities possess sufficient internal capacity in order to hold their MSP accountable and ensure that they are doing the job they have been contracted to do.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>To summarize, as the threat landscape evolves and the number of attacks increase, organizations need to take proactive steps to safeguard themselves and the people they serve. Doing the basics well is the first and most important step in protecting your organization’s future.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><br>References to other important information and resources from TT-CSIRT:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Ransomware Joint Advisory &#8211; <a href=\"https://ttcsirt.gov.tt/ransomware-joint-advisory/\">https://ttcsirt.gov.tt/ransomware-joint-advisory/</a></li>\n\n\n\n<li>Ransomware Prevention &#8211; <a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\">https://ttcsirt.gov.tt/ransomware-prevention/</a></li>\n\n\n\n<li>Ransomware Response Checklist &#8211; <a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\">https://ttcsirt.gov.tt/ransomware-response-checklist/</a></li>\n\n\n\n<li>Social Engineering Tactics &#8211; <a href=\"https://ttcsirt.gov.tt/social-engineering/\">https://ttcsirt.gov.tt/social-engineering/</a></li>\n\n\n\n<li>Get Safe Online TT (Individuals) &#8211; <a href=\"https://www.getsafeonline.tt/\">https://www.getsafeonline.tt/</a></li>\n\n\n\n<li>Get Safe Online TT (Businesses) &#8211; <a href=\"https://www.getsafeonline.tt/business/\">https://www.getsafeonline.tt/business/</a></li>\n</ul>\n",
+  "displaySummary": "Attacks against local entities have been on the rise over the last 3 years and the TT-CSIRT has issued several advisories, alerts and guidance noting this uptick during that time.",
+  "sourceExcerpt": "<p>Attacks against local entities have been on the rise over the last 3 years and the TT-CSIRT has issued several advisories, alerts and guidance noting this uptick during that time. The necessary increase in digital transformation initiatives being pursued by both the public and private sector also inadvertently increases our viability as a target for [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/do-the-basics-well/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Attacks against local entities have been on the rise over the last 3 years and the TT-CSIRT has issued several advisories, alerts and guidance noting this uptick during that time. The necessary increase in digital transformation initiatives being pursued by both the public and private sector also inadvertently increases our viability as a target for threat actors. Coupled with the added attention which cybercriminals are paying to the region, we see that local organizations can no longer afford to throw a blind eye to cyber security. Cyber security should be treated as an enterprise risk as opposed to being a problem for IT to handle.</p>",
+          "text": "Attacks against local entities have been on the rise over the last 3 years and the TT-CSIRT has issued several advisories, alerts and guidance noting this uptick during that time. The necessary increase in digital transformation initiatives being pursued by both the public and private sector also inadvertently increases our viability as a target for threat actors. Coupled with the added attention which cybercriminals are paying to the region, we see that local organizations can no longer afford to throw a blind eye to cyber security. Cyber security should be treated as an enterprise risk as opposed to being a problem for IT to handle."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p class=\"wp-block-paragraph\"><strong>New technology driven ways of doing business broadens our attack surface.</strong>..</p>",
+          "text": "New technology driven ways of doing business broadens our attack surface. .."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The top threats to organizations in Trinidad and Tobago continue to be ransomware, phishing, malicious insiders, data leakage and hacking. Local entities are attacked on an almost daily basis. The majority of these attacks are unsuccessful but when they are it can be devastating.</p>",
+          "text": "The top threats to organizations in Trinidad and Tobago continue to be ransomware, phishing, malicious insiders, data leakage and hacking. Local entities are attacked on an almost daily basis. The majority of these attacks are unsuccessful but when they are it can be devastating."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>The vectors by which these attacks are carried out are numerous but these are the most common in our analysis of successful attacks on local organizations:</p>",
+          "text": "The vectors by which these attacks are carried out are numerous but these are the most common in our analysis of successful attacks on local organizations:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Exploitation of system vulnerabilities</li>\n\n\n\n<li>Phishing emails with malicious links and/or attachments</li>\n\n\n\n<li>Compromised user credentials</li>\n\n\n\n<li>System misconfigurations</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p class=\"wp-block-paragraph\"><strong>Do the basics well</strong>&#8230;</p>",
+          "text": "Do the basics well &#8230;"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>How can local organizations combat this evolving threat landscape? – Do the basics well. In the majority of instances where TT-CSIRT has been called on to respond or provide guidance, the compromise could have potentially been avoided if the organization did the basics well.</p>",
+          "text": "How can local organizations combat this evolving threat landscape? – Do the basics well. In the majority of instances where TT-CSIRT has been called on to respond or provide guidance, the compromise could have potentially been avoided if the organization did the basics well."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>Organizations should ensure that these measures are implemented, tested and reviewed to address the four (4) attack vectors highlighted above:</p>",
+          "text": "Organizations should ensure that these measures are implemented, tested and reviewed to address the four (4) attack vectors highlighted above:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Exploitation of system vulnerabilities<ul><li>Update and patch your systems and software in a timely manner</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Subscribe to advisory feeds from your vendors and TT-CSIRT for security update notices</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>User awareness and training</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\"><li>Email filtering</li></ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Endpoint protection</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Multi Factor Authentication</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Use best practice and hardening guides like those provided by the Center for Internet Security (<a href=\"https://www.cisecurity.org/cis-benchmarks/\">https://www.cisecurity.org/cis-benchmarks/</a>)</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p class=\"wp-block-paragraph\"><strong>It is critical to maintain offline, encrypted backups of data</strong>&#8230;</p>",
+          "text": "It is critical to maintain offline, encrypted backups of data &#8230;"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>But attacks aren’t limited to the vectors above. Here are other basic things that should be done to protect your organization from attacks and to ease the pain of recovery in the event you have been compromised:</p>",
+          "text": "But attacks aren’t limited to the vectors above. Here are other basic things that should be done to protect your organization from attacks and to ease the pain of recovery in the event you have been compromised:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Maintain backups &#8211; It is critical to maintain offline, encrypted backups of data and to regularly test your backups. Backup procedures should be conducted on a regular basis. It is important that backups be maintained offline as many ransomware variants attempt to find and delete any accessible backups.</li>\n\n\n\n<li>Conduct regular vulnerability scanning to identify and address easily exploitable vulnerabilities, especially those on internet-facing systems.</li>\n\n\n\n<li>Create, maintain, and exercise a basic cyber incident response plan and associated communications plan that includes response and notification procedures for a ransomware incident.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p class=\"wp-block-paragraph\"><strong>It is important that entities possess sufficient internal capacity in order to hold their MSP accountable</strong>&#8230;</p>",
+          "text": "It is important that entities possess sufficient internal capacity in order to hold their MSP accountable &#8230;"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>These are simple measures that can improve the cyber security posture of any organization. However it is noted that entities sometimes do not have the financial resources or technical capacity to execute some of these measures. Many organizations opt to use managed service providers (MSPs) in an attempt to tackle their cyber security issues. However it is important that entities possess sufficient internal capacity in order to hold their MSP accountable and ensure that they are doing the job they have been contracted to do.</p>",
+          "text": "These are simple measures that can improve the cyber security posture of any organization. However it is noted that entities sometimes do not have the financial resources or technical capacity to execute some of these measures. Many organizations opt to use managed service providers (MSPs) in an attempt to tackle their cyber security issues. However it is important that entities possess sufficient internal capacity in order to hold their MSP accountable and ensure that they are doing the job they have been contracted to do."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>To summarize, as the threat landscape evolves and the number of attacks increase, organizations need to take proactive steps to safeguard themselves and the people they serve. Doing the basics well is the first and most important step in protecting your organization’s future.</p>",
+          "text": "To summarize, as the threat landscape evolves and the number of attacks increase, organizations need to take proactive steps to safeguard themselves and the people they serve. Doing the basics well is the first and most important step in protecting your organization’s future."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><br>References to other important information and resources from TT-CSIRT:</p>",
+          "text": "References to other important information and resources from TT-CSIRT:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Ransomware Joint Advisory &#8211; <a href=\"https://ttcsirt.gov.tt/ransomware-joint-advisory/\">https://ttcsirt.gov.tt/ransomware-joint-advisory/</a></li>\n\n\n\n<li>Ransomware Prevention &#8211; <a href=\"https://ttcsirt.gov.tt/ransomware-prevention/\">https://ttcsirt.gov.tt/ransomware-prevention/</a></li>\n\n\n\n<li>Ransomware Response Checklist &#8211; <a href=\"https://ttcsirt.gov.tt/ransomware-response-checklist/\">https://ttcsirt.gov.tt/ransomware-response-checklist/</a></li>\n\n\n\n<li>Social Engineering Tactics &#8211; <a href=\"https://ttcsirt.gov.tt/social-engineering/\">https://ttcsirt.gov.tt/social-engineering/</a></li>\n\n\n\n<li>Get Safe Online TT (Individuals) &#8211; <a href=\"https://www.getsafeonline.tt/\">https://www.getsafeonline.tt/</a></li>\n\n\n\n<li>Get Safe Online TT (Businesses) &#8211; <a href=\"https://www.getsafeonline.tt/business/\">https://www.getsafeonline.tt/business/</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/cis-benchmarks/",
+    "https://www.getsafeonline.tt/",
+    "https://www.getsafeonline.tt/business/"
+  ],
+  "readingTimeMinutes": 4,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/do-the-basics-well/",
+    "upstreamDisclosedAt": "2022-12-07T10:23:46",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

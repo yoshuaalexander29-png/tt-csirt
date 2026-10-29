@@ -1,0 +1,205 @@
+{
+  "id": "10613",
+  "legacyPostId": 10613,
+  "referenceNumber": "TT-CSIRT 442.20.07.25",
+  "classification": "advisory",
+  "title": "SharePoint vulnerability",
+  "rawTitle": "TT-CSIRT – 442.20.07.25 – SharePoint Vulnerability",
+  "slug": "tt-csirt-442-20-07-25-sharepoint-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has advised of active attacks targeting on-premises SharePoint Server customers, SharePoint Online M365 is not impacted. The attacks are exploiting a variant of CVE-2025-49706 and being assigned CVE-2025-53770 with a patch currently not available.",
+  "cveList": [
+    "CVE-2025-49706",
+    "CVE-2025-53770",
+    "CVE-2025-53771"
+  ],
+  "date": "20 July 2025",
+  "rawDate": "2025-07-20T18:53:57",
+  "modifiedDate": "21 July 2025",
+  "rawModifiedDate": "2025-07-21T12:40:13",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\">Microsoft has advised of active attacks targeting on-premises SharePoint Server customers, SharePoint Online M365 is not impacted. The attacks are exploiting a variant of CVE-2025-49706 and being assigned CVE-2025-53770 with a patch currently not available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Currently the Microsoft team is actively working to release a security update and will provide additional details as they are available.<br></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Mitigation</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">It’s recommended, to customers with SharePoint Subscription edition, security update provided in CVE-2025-53771 should be applied immediately. On-Premise Microsoft SharePoint Server customers must apply the latest security updates (July 2025 Security Update) or upgrade to a support version of Microsoft SharePoint Server.</p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td>Product</td><td>KB Article</td><td>Security Update</td><td>Fixed Build Number</td></tr><tr><td>Microsoft SharePoint Server 2019</td><td><a href=\"https://support.microsoft.com/help/5002741\">5002741</a></td><td><a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=108259\">Security Update</a></td><td>16.0.10417.20027</td></tr><tr><td>Microsoft SharePoint Enterprise Server 2016</td><td><a href=\"https://support.microsoft.com/help/5002744\">5002744</a></td><td><a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=108257\">Security Update</a></td><td>16.0.5508.1000</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\">For further protection, Configure Antimalware Scan Interface (AMSI) integration in SharePoint, enable Full Mode for optimal protection, and deploy Defender Antivirus on all SharePoint servers which will stop unauthenticated attackers from exploiting this vulnerability. AMSI integration was enabled by default in the September 2023 security update for SharePoint Server 2016/2019 and the Version 23H2 feature update for SharePoint Server Subscription Edition. If you cannot enable AMSI, it is recommended consider disconnecting your server from the internet until a security update is available.</p>\n\n\n\n<p class=\"wp-block-paragraph\">After applying the latest security updates above or enabling AMSI, it is critical to rotate SharePoint server ASP.NET machine keys and restart IIS on all SharePoint servers.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Methods:</strong></p>\n\n\n\n<ol class=\"wp-block-list\">\n<li>Manually via PowerShell</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\">To update the machine keys using PowerShell, use&nbsp;<a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#powershell-cmdlets\" target=\"_blank\" rel=\"noreferrer noopener\">the Update-SPMachineKey cmdlet</a>.</p>\n\n\n\n<ol start=\"2\" class=\"wp-block-list\">\n<li>Manually via Central Admin<br>Trigger the Machine Key Rotation timer job by performing the following steps:\n<ol class=\"wp-block-list\">\n<li>Navigate to the Central Administration site.</li>\n\n\n\n<li>Go to Monitoring -> Review job definition.</li>\n\n\n\n<li>Search for Machine Key Rotation Job and select Run Now.</li>\n</ol>\n</li>\n</ol>\n\n\n\n<p class=\"wp-block-paragraph\">After the rotation has completed, restart IIS on all SharePoint servers using <strong>iisreset.exe</strong>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Detection</strong><br>It&#8217;s recommended to deploy Defender for Endpoint or equivalent solution to detect and block post-exploit activity.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Microsoft Defender Antivirus</strong>&nbsp;provides detection and protection against components and behaviors related to this threat under the detection name:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Exploit:Script/SuspSignoutReq.A</li>\n\n\n\n<li>Trojan:Win32/HijackSharePointServer.A</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Microsoft Defender for Endpoint</strong>&nbsp;provides alerts that may indicate threat activity associated with this threat with the following alert titles in the Microsoft Defender Security Center portal which indicates threat activity:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Possible web shell installation</li>\n\n\n\n<li>Possible exploitation of SharePoint server vulnerabilities</li>\n\n\n\n<li>Suspicious IIS worker process behavior</li>\n\n\n\n<li>‘SuspSignoutReq’ malware was blocked on a SharePoint server</li>\n\n\n\n<li>HijackSharePointServer’ malware was blocked on a SharePoint server</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Note:</strong> These alerts, however, can be triggered by unrelated threat activity. Look for the creation of spinstall0.aspx, which indicates successful post-exploitation of CVE-2025-53770.&nbsp;<a href=\"https://security.microsoft.com/v2/advanced-hunting?query=H4sIAC8YfGgAA42RTUvDQBCG37Pgf1g8i7SC3jzUtmLBqjSKFLzUpDQrzQcm-AHib_fZiaGCe5AlzOw7M8_MTiZa61VeKfYCu8VOUdYq1arRvvb0Kac35WgvfI68irzM7rdakZej5ngN9kBzzTTWQjdK9KWhHjkPUM-5T9F7bahTs3eoc0hXGpkftOAvIdyjJDDjc3TzXtO5MOUMdpigUU2sxLbEtpyBjmy-Wu8_tApKjLF7R4yym6SmvtIzNSlxx5zeCF12QfwQdfJrv32PoM_gejK97S902bCBQEyN0fyZ7H9VY_yCsyKWscWQ09XGeLE_GfQFSm0baumZmTayd3rUkrd-EO8YiS6JHeuEv9nvJlR2VKcncmPbcZbRQP0GDl8cmYQCAAA&amp;timeRangeId=week\">Run query in the Microsoft 365 Defender</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References:<br><a href=\"https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/\">https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/</a></strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">If you have any queries, comments or require assistance, please feel free to contact TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Microsoft has advised of active attacks targeting on-premises SharePoint Server customers, SharePoint Online M365 is not impacted.",
+  "sourceExcerpt": "<p>Microsoft has advised of active attacks targeting on-premises SharePoint Server customers, SharePoint Online M365 is not impacted. The attacks are exploiting a variant of CVE-2025-49706 and being assigned CVE-2025-53770 with a patch currently not available. Currently the Microsoft team is actively working to release a security update and will provide additional details as they are [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-442-20-07-25-sharepoint-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has advised of active attacks targeting on-premises SharePoint Server customers, SharePoint Online M365 is not impacted. The attacks are exploiting a variant of CVE-2025-49706 and being assigned CVE-2025-53770 with a patch currently not available.</p>",
+          "text": "Microsoft has advised of active attacks targeting on-premises SharePoint Server customers, SharePoint Online M365 is not impacted. The attacks are exploiting a variant of CVE-2025-49706 and being assigned CVE-2025-53770 with a patch currently not available."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Currently the Microsoft team is actively working to release a security update and will provide additional details as they are available.<br></p>",
+          "text": "Currently the Microsoft team is actively working to release a security update and will provide additional details as they are available."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Mitigation",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>It’s recommended, to customers with SharePoint Subscription edition, security update provided in CVE-2025-53771 should be applied immediately. On-Premise Microsoft SharePoint Server customers must apply the latest security updates (July 2025 Security Update) or upgrade to a support version of Microsoft SharePoint Server.</p>",
+          "text": "It’s recommended, to customers with SharePoint Subscription edition, security update provided in CVE-2025-53771 should be applied immediately. On-Premise Microsoft SharePoint Server customers must apply the latest security updates (July 2025 Security Update) or upgrade to a support version of Microsoft SharePoint Server."
+        },
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">Product</th><th scope=\"col\" class=\"govuk-table__header govuk-table__header--numeric\">KB Article</th><th scope=\"col\" class=\"govuk-table__header\">Security Update</th><th scope=\"col\" class=\"govuk-table__header govuk-table__header--numeric\">Fixed Build Number</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Microsoft SharePoint Server 2019</th><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\"><a href=\"https://support.microsoft.com/help/5002741\">5002741</a></td><td class=\"govuk-table__cell\"><a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=108259\">Security Update</a></td><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\">16.0.10417.20027</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\">Microsoft SharePoint Enterprise Server 2016</th><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\"><a href=\"https://support.microsoft.com/help/5002744\">5002744</a></td><td class=\"govuk-table__cell\"><a href=\"https://www.microsoft.com/en-us/download/details.aspx?id=108257\">Security Update</a></td><td class=\"govuk-table__cell govuk-table__cell--numeric govuk-!-font-tabular-numbers\">16.0.5508.1000</td></tr></tbody>\n      </table>\n    </div>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further protection, Configure Antimalware Scan Interface (AMSI) integration in SharePoint, enable Full Mode for optimal protection, and deploy Defender Antivirus on all SharePoint servers which will stop unauthenticated attackers from exploiting this vulnerability. AMSI integration was enabled by default in the September 2023 security update for SharePoint Server 2016/2019 and the Version 23H2 feature update for SharePoint Server Subscription Edition. If you cannot enable AMSI, it is recommended consider disconnecting your server from the internet until a security update is available.</p>",
+          "text": "For further protection, Configure Antimalware Scan Interface (AMSI) integration in SharePoint, enable Full Mode for optimal protection, and deploy Defender Antivirus on all SharePoint servers which will stop unauthenticated attackers from exploiting this vulnerability. AMSI integration was enabled by default in the September 2023 security update for SharePoint Server 2016/2019 and the Version 23H2 feature update for SharePoint Server Subscription Edition. If you cannot enable AMSI, it is recommended consider disconnecting your server from the internet until a security update is available."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>After applying the latest security updates above or enabling AMSI, it is critical to rotate SharePoint server ASP.NET machine keys and restart IIS on all SharePoint servers.</p>",
+          "text": "After applying the latest security updates above or enabling AMSI, it is critical to rotate SharePoint server ASP.NET machine keys and restart IIS on all SharePoint servers."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Methods",
+          "id": "methods"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" class=\"wp-block-list\">\n<li>Manually via PowerShell</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>To update the machine keys using PowerShell, use&nbsp;<a href=\"https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#powershell-cmdlets\" target=\"_blank\" rel=\"noreferrer noopener\">the Update-SPMachineKey cmdlet</a>.</p>",
+          "text": "To update the machine keys using PowerShell, use  the Update-SPMachineKey cmdlet ."
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\" start=\"2\" class=\"wp-block-list\">\n<li>Manually via Central Admin<br>Trigger the Machine Key Rotation timer job by performing the following steps:\n<ol class=\"wp-block-list\">\n<li>Navigate to the Central Administration site.</li>\n\n\n\n<li>Go to Monitoring -> Review job definition.</li>\n\n\n\n<li>Search for Machine Key Rotation Job and select Run Now.</li>\n</ol>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>After the rotation has completed, restart IIS on all SharePoint servers using <strong>iisreset.exe</strong>.</p>",
+          "text": "After the rotation has completed, restart IIS on all SharePoint servers using iisreset.exe ."
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>It&#8217;s recommended to deploy Defender for Endpoint or equivalent solution to detect and block post-exploit activity.</p>",
+          "text": "It’s recommended to deploy Defender for Endpoint or equivalent solution to detect and block post-exploit activity."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft defender antivirus",
+          "id": "microsoft-defender-antivirus"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>&nbsp;provides detection and protection against components and behaviors related to this threat under the detection name:</p>",
+          "text": "provides detection and protection against components and behaviors related to this threat under the detection name:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Exploit:Script/SuspSignoutReq.A</li>\n\n\n\n<li>Trojan:Win32/HijackSharePointServer.A</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Microsoft defender for endpoint",
+          "id": "microsoft-defender-for-endpoint"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>&nbsp;provides alerts that may indicate threat activity associated with this threat with the following alert titles in the Microsoft Defender Security Center portal which indicates threat activity:</p>",
+          "text": "provides alerts that may indicate threat activity associated with this threat with the following alert titles in the Microsoft Defender Security Center portal which indicates threat activity:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Possible web shell installation</li>\n\n\n\n<li>Possible exploitation of SharePoint server vulnerabilities</li>\n\n\n\n<li>Suspicious IIS worker process behavior</li>\n\n\n\n<li>‘SuspSignoutReq’ malware was blocked on a SharePoint server</li>\n\n\n\n<li>HijackSharePointServer’ malware was blocked on a SharePoint server</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>Note:</strong> These alerts, however, can be triggered by unrelated threat activity. Look for the creation of spinstall0.aspx, which indicates successful post-exploitation of CVE-2025-53770.&nbsp;<a href=\"https://security.microsoft.com/v2/advanced-hunting?query=H4sIAC8YfGgAA42RTUvDQBCG37Pgf1g8i7SC3jzUtmLBqjSKFLzUpDQrzQcm-AHib_fZiaGCe5AlzOw7M8_MTiZa61VeKfYCu8VOUdYq1arRvvb0Kac35WgvfI68irzM7rdakZej5ngN9kBzzTTWQjdK9KWhHjkPUM-5T9F7bahTs3eoc0hXGpkftOAvIdyjJDDjc3TzXtO5MOUMdpigUU2sxLbEtpyBjmy-Wu8_tApKjLF7R4yym6SmvtIzNSlxx5zeCF12QfwQdfJrv32PoM_gejK97S902bCBQEyN0fyZ7H9VY_yCsyKWscWQ09XGeLE_GfQFSm0baumZmTayd3rUkrd-EO8YiS6JHeuEv9nvJlR2VKcncmPbcZbRQP0GDl8cmYQCAAA&amp;timeRangeId=week\">Run query in the Microsoft 365 Defender</a>.</p>",
+          "text": "Note: These alerts, however, can be triggered by unrelated threat activity. Look for the creation of spinstall0.aspx, which indicates successful post-exploitation of CVE-2025-53770.  Run query in the Microsoft 365 Defender ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong>References:<br><a href=\"https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/\">https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/</a></strong></p>",
+          "text": "References: https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "recommendations",
+      "label": "Mitigation"
+    },
+    {
+      "id": "methods",
+      "label": "Methods",
+      "isSubItem": true
+    },
+    {
+      "id": "detection",
+      "label": "Detection"
+    },
+    {
+      "id": "microsoft-defender-antivirus",
+      "label": "Microsoft defender antivirus",
+      "isSubItem": true
+    },
+    {
+      "id": "microsoft-defender-for-endpoint",
+      "label": "Microsoft defender for endpoint",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.microsoft.com/help/5002741",
+    "https://www.microsoft.com/en-us/download/details.aspx?id=108259",
+    "https://support.microsoft.com/help/5002744",
+    "https://www.microsoft.com/en-us/download/details.aspx?id=108257",
+    "https://learn.microsoft.com/en-us/sharepoint/security-for-sharepoint-server/improved-asp-net-view-state-security-key-management#powershell-cmdlets",
+    "https://security.microsoft.com/v2/advanced-hunting?query=H4sIAC8YfGgAA42RTUvDQBCG37Pgf1g8i7SC3jzUtmLBqjSKFLzUpDQrzQcm-AHib_fZiaGCe5AlzOw7M8_MTiZa61VeKfYCu8VOUdYq1arRvvb0Kac35WgvfI68irzM7rdakZej5ngN9kBzzTTWQjdK9KWhHjkPUM-5T9F7bahTs3eoc0hXGpkftOAvIdyjJDDjc3TzXtO5MOUMdpigUU2sxLbEtpyBjmy-Wu8_tApKjLF7R4yym6SmvtIzNSlxx5zeCF12QfwQdfJrv32PoM_gejK97S902bCBQEyN0fyZ7H9VY_yCsyKWscWQ09XGeLE_GfQFSm0baumZmTayd3rUkrd-EO8YiS6JHeuEv9nvJlR2VKcncmPbcZbRQP0GDl8cmYQCAAA&amp;timeRangeId=week",
+    "https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-442-20-07-25-sharepoint-vulnerability/",
+    "upstreamDisclosedAt": "2025-07-20T18:53:57",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "3641",
+  "legacyPostId": 3641,
+  "referenceNumber": "TT-CSIRT #193",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-193.010419: TT-CSIRT Advisory – Cisco Security Updates",
+  "slug": "ttcsirt-193-010419-tt-csirt-advisory-cisco-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released a security update stating that an issue in the authorization subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated but unprivileged, (levels 0 and 1), remote attacker to perform privileged actions by using the web management interface.",
+  "cveList": [],
+  "date": "4 January 2019",
+  "rawDate": "2019-01-04T19:23:02",
+  "modifiedDate": "4 January 2019",
+  "rawModifiedDate": "2019-01-04T19:23:02",
+  "contentHtml": "<p>Cisco has released a security update stating that an issue in the authorization subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated but unprivileged, (levels 0 and 1), remote attacker to perform privileged actions by using the web management interface.</p>\n<p>The vulnerability is due to improper validation of user privileges when using the web management interface. An attacker could exploit this by sending specific HTTP requests via HTTPS to an affected device as an unprivileged user. </p>\n<p>An exploit could allow the attacker to retrieve files (including the running configuration) from the device or to upload and replace software images on the device.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181219-asa-privesc\"><font size=\"2\" color=\"maroon\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181219-asa-privesc</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Cisco has released a security update stating that an issue in the authorization subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated but unprivileged,…",
+  "sourceExcerpt": "<p>Cisco has released a security update stating that an issue in the authorization subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated but unprivileged, (levels 0 and 1), remote attacker to perform privileged actions by using the web management interface. The vulnerability is due to improper validation of user privileges when using [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-193-010419-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released a security update stating that an issue in the authorization subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated but unprivileged, (levels 0 and 1), remote attacker to perform privileged actions by using the web management interface.</p>",
+          "text": "Cisco has released a security update stating that an issue in the authorization subsystem of Cisco Adaptive Security Appliance (ASA) Software could allow an authenticated but unprivileged, (levels 0 and 1), remote attacker to perform privileged actions by using the web management interface."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerability is due to improper validation of user privileges when using the web management interface. An attacker could exploit this by sending specific HTTP requests via HTTPS to an affected device as an unprivileged user.</p>",
+          "text": "The vulnerability is due to improper validation of user privileges when using the web management interface. An attacker could exploit this by sending specific HTTP requests via HTTPS to an affected device as an unprivileged user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>An exploit could allow the attacker to retrieve files (including the running configuration) from the device or to upload and replace software images on the device.</p>",
+          "text": "An exploit could allow the attacker to retrieve files (including the running configuration) from the device or to upload and replace software images on the device."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181219-asa-privesc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181219-asa-privesc</a></p>",
+          "text": "Further information on this vulnerability and how it can be mitigated can be found on the Cisco Website at https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181219-asa-privesc"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20181219-asa-privesc"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-193-010419-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2019-01-04T19:23:02",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

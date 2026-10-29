@@ -1,0 +1,102 @@
+{
+  "id": "4098",
+  "legacyPostId": 4098,
+  "referenceNumber": "TT-CSIRT #278",
+  "classification": "advisory",
+  "title": "Mozilla releases security updates for multiple products",
+  "rawTitle": "TTCSIRT-278.021220: TT-CSIRT ADVISORY- MOZILLA RELEASES SECURITY UPDATES FOR MULTIPLE PRODUCTS",
+  "slug": "ttcsirt-278-021220-tt-csirt-advisory-mozilla-releases-security-updates-for-multiple-products",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "12 February 2020",
+  "rawDate": "2020-02-12T10:28:16",
+  "modifiedDate": "12 February 2020",
+  "rawModifiedDate": "2020-02-12T10:28:16",
+  "contentHtml": "<p>Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users administrators to review the following Mozilla Security Advisories and apply the necessary updates:</p>\n<ul>\n<li>Firefox 73</li>\n<li>Firefox ESR 68.5</li>\n<li>Thunderbird 68.5</li>\n</ul>\n<p>For further review please see the following links:</p>\n<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-05/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-05/</a></p>\n<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-06/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-06/</a></p>\n<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-07/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-07/</a></p>\n",
+  "displaySummary": "Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird.",
+  "sourceExcerpt": "<p>Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system. The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users administrators to review the following Mozilla Security Advisories and apply the necessary updates: Firefox [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-278-021220-tt-csirt-advisory-mozilla-releases-security-updates-for-multiple-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Mozilla has released security updates to address vulnerabilities in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users administrators to review the following Mozilla Security Advisories and apply the necessary updates:</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (CSIRT) encourages users administrators to review the following Mozilla Security Advisories and apply the necessary updates:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>Firefox 73</li>\n<li>Firefox ESR 68.5</li>\n<li>Thunderbird 68.5</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "For further review please see the following links",
+          "id": "for-further-review-please-see-the-following-links"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-05/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-05/</a></p>",
+          "text": "https://www.mozilla.org/en-US/security/advisories/mfsa2020-05/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-06/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-06/</a></p>",
+          "text": "https://www.mozilla.org/en-US/security/advisories/mfsa2020-06/"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-07/\">https://www.mozilla.org/en-US/security/advisories/mfsa2020-07/</a></p>",
+          "text": "https://www.mozilla.org/en-US/security/advisories/mfsa2020-07/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "for-further-review-please-see-the-following-links",
+      "label": "For further review please see the following links",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2020-05/",
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2020-06/",
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2020-07/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-278-021220-tt-csirt-advisory-mozilla-releases-security-updates-for-multiple-products/",
+    "upstreamDisclosedAt": "2020-02-12T10:28:16",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

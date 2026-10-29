@@ -1,0 +1,73 @@
+{
+  "id": "4716",
+  "legacyPostId": 4716,
+  "referenceNumber": "TT-CSIRT 356.09.09.20",
+  "classification": "advisory",
+  "title": "Microsoft releases september 2020 security updates",
+  "rawTitle": "TTCSIRT-356.09.09.20: TT-CSIRT ADVISORY – Microsoft Releases September 2020 Security Updates",
+  "slug": "ttcsirt-356-09-09-20-tt-csirt-advisory-microsoft-releases-september-2020-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:31:26",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:31:26",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.<br><br>The security updates released concerns&nbsp;Microsoft Windows, Microsoft Edge (EdgeHTML-based &amp;&nbsp;Chromium-based), Microsoft ChakraCore, Internet Explorer, SQL Server, Microsoft JET Database Engine, Microsoft Office and Microsoft Office Services and Web Apps, Microsoft Dynamics, Visual Studio, Microsoft Exchange Server, SQL Server, ASP.NET, Microsoft OneDrive and Azure DevOps.<br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2c899ad366&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Sep</a><br><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. The security updates released concerns&nbsp;Microsoft Windows, Microsoft Edge (EdgeHTML-based &amp;&nbsp;Chromium-based), Microsoft ChakraCore, Internet Explorer, SQL Server, Microsoft JET Database Engine, Microsoft Office and Microsoft Office Services and Web Apps, [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-356-09-09-20-tt-csirt-advisory-microsoft-releases-september-2020-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Microsoft has released updates to address vulnerabilities in Microsoft software. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The security updates released concerns&nbsp;Microsoft Windows, Microsoft Edge (EdgeHTML-based &amp;&nbsp;Chromium-based), Microsoft ChakraCore, Internet Explorer, SQL Server, Microsoft JET Database Engine, Microsoft Office and Microsoft Office Services and Web Apps, Microsoft Dynamics, Visual Studio, Microsoft Exchange Server, SQL Server, ASP.NET, Microsoft OneDrive and Azure DevOps.</p>",
+          "text": "The security updates released concerns Microsoft Windows, Microsoft Edge (EdgeHTML-based & Chromium-based), Microsoft ChakraCore, Internet Explorer, SQL Server, Microsoft JET Database Engine, Microsoft Office and Microsoft Office Services and Web Apps, Microsoft Dynamics, Visual Studio, Microsoft Exchange Server, SQL Server, ASP.NET, Microsoft OneDrive and Azure DevOps."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2c899ad366&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Sep</a></p>",
+          "text": "For further information and support, please visit the following link: https://portal.msrc.microsoft.com/en-us/security-guidance/releasenotedetail/2020-Sep"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-356-09-09-20-tt-csirt-advisory-microsoft-releases-september-2020-security-updates/",
+    "upstreamDisclosedAt": "2020-09-22T23:31:26",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

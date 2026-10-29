@@ -1,0 +1,275 @@
+{
+  "id": "3032",
+  "legacyPostId": 3032,
+  "referenceNumber": "TT-CSIRT #054",
+  "classification": "advisory",
+  "title": "Chrome security updates",
+  "rawTitle": "TTCSIRT-054.101917: TT-CSIRT Advisory – Chrome Security Updates",
+  "slug": "ttcsirt-054-101917-tt-csirt-advisory-chrome-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:",
+  "cveList": [
+    "CVE-2017-5124",
+    "CVE-2017-5125",
+    "CVE-2017-5126",
+    "CVE-2017-5127",
+    "CVE-2017-5128",
+    "CVE-2017-5129",
+    "CVE-2017-5132",
+    "CVE-2017-5130",
+    "CVE-2017-5131",
+    "CVE-2017-5133",
+    "CVE-2017-15386",
+    "CVE-2017-15387",
+    "CVE-2017-15388",
+    "CVE-2017-15389",
+    "CVE-2017-15390",
+    "CVE-2017-15391",
+    "CVE-2017-15392",
+    "CVE-2017-15393",
+    "CVE-2017-15394",
+    "CVE-2017-15395"
+  ],
+  "date": "19 October 2017",
+  "rawDate": "2017-10-19T16:04:22",
+  "modifiedDate": "19 October 2017",
+  "rawModifiedDate": "2017-10-19T16:04:22",
+  "contentHtml": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:</p>\n<p>a)UXSS with MHTML &#8211; (CVE-2017-5124)</p>\n<p>b)Heap overfin Skia &#8211; (CVE-2017-5125)</p>\n<p>c) Use after free in PDFium &#8211; (CVE-2017-5126)</p>\n<p>d) Use after free in PDFium &#8211; (CVE-2017-5127)</p>\n<p>e) Heap overflow in WebGL &#8211; (CVE-2017-5128)</p>\n<p>f) Use after free in WebAudio &#8211; (CVE-2017-5129)</p>\n<p>g) Incorrect stack manipulation in WebAssembly- (CVE-2017-5132)</p>\n<p>h) Heap overfin libxml2 &#8211; (CVE-2017-5130)</p>\n<p>i) Out of bounds write in Skia &#8211; (CVE-2017-5131)</p>\n<p>j) Out of bounds write in Skia &#8211; (CVE-2017-5133)</p>\n<p>k) UI spoofing in Blink &#8211; (CVE-2017-15386)</p>\n<p>l) Content security bypass &#8211; (CVE-2017-15387)</p>\n<p>m) Out of bounds read in Skia &#8211; (CVE-2017-15388)</p>\n<p>n) URL spoofing in OmniBox &#8211; (CVE-2017-15389)</p>\n<p>o) URL spoofing in OmniBox &#8211; (CVE-2017-15390)</p>\n<p>p) Extension limitation bypass in Extensions &#8211; (CVE-2017-15391)</p>\n<p>q) Incorrect registry key handling in PlatformIntegration &#8211; (CVE-2017-15392)</p>\n<p>r) Referrer leak in Devtools &#8211; (CVE-2017-15393)</p>\n<p>s) URL spoofing in extensions UI &#8211; (CVE-2017-15394)</p>\n<p>t) Null pointer dereference in ImageCapture &#8211; (CVE-2017-15395)</p>\n<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-102/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-102/</font></a></p>\n",
+  "displaySummary": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution.",
+  "sourceExcerpt": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows: a)UXSS with MHTML &#8211; (CVE-2017-5124) b)Heap overfin Skia &#8211; (CVE-2017-5125) c) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-054-101917-tt-csirt-advisory-chrome-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:</p>",
+          "text": "Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could result in arbitrary code execution. These vulnerabilities can be exploited if a user visits, or is redirected to, a specially crafted web page. Details of the vulnerabilities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a)UXSS with MHTML &#8211; (CVE-2017-5124)</p>",
+          "text": "a)UXSS with MHTML – (CVE-2017-5124)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b)Heap overfin Skia &#8211; (CVE-2017-5125)</p>",
+          "text": "b)Heap overfin Skia – (CVE-2017-5125)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in pdfium – (CVE-2017-5126)",
+          "id": "use-after-free-in-pdfium-cve-2017-5126"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in pdfium – (CVE-2017-5127)",
+          "id": "use-after-free-in-pdfium-cve-2017-5127"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap overflow in webgl – (CVE-2017-5128)",
+          "id": "heap-overflow-in-webgl-cve-2017-5128"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Use after free in webaudio – (CVE-2017-5129)",
+          "id": "use-after-free-in-webaudio-cve-2017-5129"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) Incorrect stack manipulation in WebAssembly- (CVE-2017-5132)</p>",
+          "text": "g) Incorrect stack manipulation in WebAssembly- (CVE-2017-5132)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Heap overfin libxml2 – (CVE-2017-5130)",
+          "id": "heap-overfin-libxml2-cve-2017-5130"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds write in skia – (CVE-2017-5131)",
+          "id": "out-of-bounds-write-in-skia-cve-2017-5131"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds write in skia – (CVE-2017-5133)",
+          "id": "out-of-bounds-write-in-skia-cve-2017-5133"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Ui spoofing in blink – (CVE-2017-15386)",
+          "id": "ui-spoofing-in-blink-cve-2017-15386"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Content security bypass – (CVE-2017-15387)",
+          "id": "content-security-bypass-cve-2017-15387"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Out of bounds read in skia – (CVE-2017-15388)",
+          "id": "out-of-bounds-read-in-skia-cve-2017-15388"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoofing in omnibox – (CVE-2017-15389)",
+          "id": "url-spoofing-in-omnibox-cve-2017-15389"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoofing in omnibox – (CVE-2017-15390)",
+          "id": "url-spoofing-in-omnibox-cve-2017-15390"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>p) Extension limitation bypass in Extensions &#8211; (CVE-2017-15391)</p>",
+          "text": "p) Extension limitation bypass in Extensions – (CVE-2017-15391)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>q) Incorrect registry key handling in PlatformIntegration &#8211; (CVE-2017-15392)</p>",
+          "text": "q) Incorrect registry key handling in PlatformIntegration – (CVE-2017-15392)"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Referrer leak in devtools – (CVE-2017-15393)",
+          "id": "referrer-leak-in-devtools-cve-2017-15393"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "URL spoofing in extensions ui – (CVE-2017-15394)",
+          "id": "url-spoofing-in-extensions-ui-cve-2017-15394"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>t) Null pointer dereference in ImageCapture &#8211; (CVE-2017-15395)</p>",
+          "text": "t) Null pointer dereference in ImageCapture – (CVE-2017-15395)"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be fixed can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-102/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-102/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be fixed can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-102/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "use-after-free-in-pdfium-cve-2017-5126",
+      "label": "Use after free in pdfium – (CVE-2017-5126)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-pdfium-cve-2017-5127",
+      "label": "Use after free in pdfium – (CVE-2017-5127)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-overflow-in-webgl-cve-2017-5128",
+      "label": "Heap overflow in webgl – (CVE-2017-5128)",
+      "isSubItem": true
+    },
+    {
+      "id": "use-after-free-in-webaudio-cve-2017-5129",
+      "label": "Use after free in webaudio – (CVE-2017-5129)",
+      "isSubItem": true
+    },
+    {
+      "id": "heap-overfin-libxml2-cve-2017-5130",
+      "label": "Heap overfin libxml2 – (CVE-2017-5130)",
+      "isSubItem": true
+    },
+    {
+      "id": "out-of-bounds-write-in-skia-cve-2017-5131",
+      "label": "Out of bounds write in skia – (CVE-2017-5131)",
+      "isSubItem": true
+    },
+    {
+      "id": "out-of-bounds-write-in-skia-cve-2017-5133",
+      "label": "Out of bounds write in skia – (CVE-2017-5133)",
+      "isSubItem": true
+    },
+    {
+      "id": "ui-spoofing-in-blink-cve-2017-15386",
+      "label": "Ui spoofing in blink – (CVE-2017-15386)",
+      "isSubItem": true
+    },
+    {
+      "id": "content-security-bypass-cve-2017-15387",
+      "label": "Content security bypass – (CVE-2017-15387)",
+      "isSubItem": true
+    },
+    {
+      "id": "out-of-bounds-read-in-skia-cve-2017-15388",
+      "label": "Out of bounds read in skia – (CVE-2017-15388)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoofing-in-omnibox-cve-2017-15389",
+      "label": "URL spoofing in omnibox – (CVE-2017-15389)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoofing-in-omnibox-cve-2017-15390",
+      "label": "URL spoofing in omnibox – (CVE-2017-15390)",
+      "isSubItem": true
+    },
+    {
+      "id": "referrer-leak-in-devtools-cve-2017-15393",
+      "label": "Referrer leak in devtools – (CVE-2017-15393)",
+      "isSubItem": true
+    },
+    {
+      "id": "url-spoofing-in-extensions-ui-cve-2017-15394",
+      "label": "URL spoofing in extensions ui – (CVE-2017-15394)",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2017-102/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-054-101917-tt-csirt-advisory-chrome-security-updates/",
+    "upstreamDisclosedAt": "2017-10-19T16:04:22",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

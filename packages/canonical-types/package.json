@@ -1,0 +1,22 @@
+{
+  "name": "@ttcsirt/canonical-types",
+  "version": "1.0.0",
+  "description": "Shared canonical domain contracts, AST definitions, and schemas for TT-CSIRT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./advisory": "./src/advisory.ts",
+    "./content": "./src/content.ts",
+    "./taxonomy": "./src/taxonomy.ts",
+    "./vulnerability": "./src/vulnerability.ts",
+    "./media": "./src/media.ts",
+    "./version": "./src/version.ts",
+    "./publication": "./src/publication.ts",
+    "./audit": "./src/audit.ts",
+    "./validation": "./src/validation.ts",
+    "./discovery": "./src/discovery.ts"
+  },
+  "private": true
+}

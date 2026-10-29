@@ -1,0 +1,90 @@
+{
+  "id": "3625",
+  "legacyPostId": 3625,
+  "referenceNumber": "TT-CSIRT #189",
+  "classification": "advisory",
+  "title": "Mozilla security updates",
+  "rawTitle": "TTCSIRT-189.121318: TT-CSIRT Advisory – Mozilla Security Updates",
+  "slug": "ttcsirt-189-121318-tt-csirt-advisory-mozilla-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Mozilla has released a security update stating that it has discovered the following issues with Microsoft FireFox ver 64.0:",
+  "cveList": [],
+  "date": "13 December 2018",
+  "rawDate": "2018-12-13T17:42:35",
+  "modifiedDate": "13 December 2018",
+  "rawModifiedDate": "2018-12-13T17:42:35",
+  "contentHtml": "<p>Mozilla has released a security update stating that it has discovered the following issues with Microsoft FireFox ver 64.0:</p>\n<p>a) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content, when working with the VertexBuffer11 module.</p>\n<p>b) A use-after-free vulnerability can occur after deleting a selection element due to a weak reference to the select element in the options collection.</p>\n<p>c) A buffer overflow can occur in the Skia library during buffer offset calculations with hardware accelerated canvas 2D actions due to the use of 32-bit calculations instead of 64-bit.</p>\n<p>d) A same-origin policy violation allowing the theft of cross-origin URL entries when using the Javascript location property can cause a redirection to another site using performance.getEntries().</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-29/\"><font size=\"2\" color=\"maroon\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-29/</a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Mozilla has released a security update stating that it has discovered the following issues with Microsoft FireFox ver 64.0: a) A buffer overflow occurs when drawing and validating elements with…",
+  "sourceExcerpt": "<p>Mozilla has released a security update stating that it has discovered the following issues with Microsoft FireFox ver 64.0: a) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content, when working with the VertexBuffer11 module. b) A use-after-free vulnerability can occur after deleting a selection element [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-189-121318-tt-csirt-advisory-mozilla-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Mozilla has released a security update stating that it has discovered the following issues with Microsoft FireFox ver 64.0:</p>",
+          "text": "Mozilla has released a security update stating that it has discovered the following issues with Microsoft FireFox ver 64.0:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content, when working with the VertexBuffer11 module.</p>",
+          "text": "a) A buffer overflow occurs when drawing and validating elements with the ANGLE graphics library, used for WebGL content, when working with the VertexBuffer11 module."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A use-after-free vulnerability can occur after deleting a selection element due to a weak reference to the select element in the options collection.</p>",
+          "text": "b) A use-after-free vulnerability can occur after deleting a selection element due to a weak reference to the select element in the options collection."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) A buffer overflow can occur in the Skia library during buffer offset calculations with hardware accelerated canvas 2D actions due to the use of 32-bit calculations instead of 64-bit.</p>",
+          "text": "c) A buffer overflow can occur in the Skia library during buffer offset calculations with hardware accelerated canvas 2D actions due to the use of 32-bit calculations instead of 64-bit."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) A same-origin policy violation allowing the theft of cross-origin URL entries when using the Javascript location property can cause a redirection to another site using performance.getEntries().</p>",
+          "text": "d) A same-origin policy violation allowing the theft of cross-origin URL entries when using the Javascript location property can cause a redirection to another site using performance.getEntries()."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2018-29/\">https://www.mozilla.org/en-US/security/advisories/mfsa2018-29/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Mozilla Website at https://www.mozilla.org/en-US/security/advisories/mfsa2018-29/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.mozilla.org/en-US/security/advisories/mfsa2018-29/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-189-121318-tt-csirt-advisory-mozilla-security-updates/",
+    "upstreamDisclosedAt": "2018-12-13T17:42:35",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,702 @@
+/* ==========================================================================
+   TT-CSIRT RiskReadiness 3D Game Stylesheet
+   GDS Design System & High-Contrast Accessibility Compliant
+   ========================================================================== */
+
+.risk-game__play {
+  position: relative;
+  width: 100%;
+}
+
+.risk-game__frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 480px;
+  overflow: hidden;
+  background: #c3d9d2;
+  border: 4px solid #0b0c0c;
+  outline: none;
+}
+
+.risk-game__frame:focus-visible {
+  outline: 4px solid #ffdd00;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px #0b0c0c;
+}
+
+.risk-game__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+.risk-game__topbar {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  background: rgba(255, 253, 248, 0.94);
+  border-left: 5px solid #005ea5;
+  box-shadow: 0 2px 4px rgba(11, 12, 12, 0.15);
+}
+
+.risk-game__progress-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.risk-game__progress-copy strong {
+  font-size: 16px;
+  line-height: 20px;
+  color: #0b0c0c;
+}
+
+.risk-game__progress-copy span {
+  font-size: 14px;
+  line-height: 18px;
+  color: #505a5f;
+}
+
+.risk-game__topbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.risk-game__collectible-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #173e3a;
+}
+
+.risk-game__collectible-count span {
+  color: #d98553;
+}
+
+.risk-game__traversal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: #173e3a;
+  color: #ffdd00;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  animation: pulse-badge 1.2s infinite alternate ease-in-out;
+}
+
+@keyframes pulse-badge {
+  0% { transform: scale(0.98); opacity: 0.9; }
+  100% { transform: scale(1.02); opacity: 1; }
+}
+
+.risk-game__objective-cue {
+  position: absolute;
+  z-index: 5;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  background: #005ea5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fff, 0 3px 6px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
+
+.risk-game__loading {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: #c3d9d2;
+  color: #0b0c0c;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Workshop */
+.risk-game__workshop {
+  position: absolute;
+  z-index: 3;
+  left: 20px;
+  bottom: 20px;
+  max-width: 440px;
+  padding: 20px;
+  background: #fffdf8;
+  border-top: 5px solid #005ea5;
+  box-shadow: 0 4px 12px rgba(11, 12, 12, 0.2);
+}
+
+.risk-game__workshop-copy h3 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.risk-game__eyebrow {
+  margin: 0 0 5px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #005ea5;
+}
+
+.risk-game__variant-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 5px;
+  margin-block: 15px;
+}
+
+.risk-game__variant {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+  min-height: 60px;
+  padding: 7px 2px;
+  border: 2px solid #82939a;
+  background: #fff;
+  color: #0b0c0c;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.risk-game__variant.is-selected {
+  border-color: #005ea5;
+  background: #eaf4f8;
+  box-shadow: inset 0 -3px #005ea5;
+}
+
+.risk-game__variant-dot {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #384b52;
+  border-radius: 50%;
+  background: #c96d52;
+}
+
+.risk-game__variant-dot--1 { background: #c96d52; }
+.risk-game__variant-dot--2 { background: #d5994c; }
+.risk-game__variant-dot--3 { background: #bb6687; }
+.risk-game__variant-dot--4 { background: #4c9d91; }
+.risk-game__variant-dot--5 { background: #8669a9; }
+
+.risk-game__tints {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.risk-game__tint {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  padding: 0;
+  border: 2px solid #82939a;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.risk-game__tint span {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #505a5f;
+  border-radius: 50%;
+}
+
+.risk-game__tint.is-selected {
+  border: 3px solid #005ea5;
+}
+
+.risk-game__workshop-caption {
+  margin: 10px 0;
+  color: #505a5f;
+  font-size: 14px;
+}
+
+.risk-game__primary,
+.risk-game__secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 45px;
+  margin: 10px 10px 0 0;
+  padding: 10px 15px;
+  border: 0;
+  background: #005ea5;
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.risk-game__primary:hover {
+  background: #003f70;
+}
+
+.risk-game__secondary {
+  border: 2px solid #005ea5;
+  background: #fff;
+  color: #005ea5;
+}
+
+.risk-game__secondary:hover {
+  background: #eaf4f8;
+}
+
+/* Dialogue & Questions */
+.risk-game__dialogue {
+  position: absolute;
+  z-index: 10;
+  inset: auto 20px 20px;
+  max-width: 640px;
+  box-sizing: border-box;
+  max-height: min(68%, 460px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 18px 24px 20px;
+  border-top: 5px solid #d98553;
+  border-radius: 4px;
+  background: #fffdf8;
+  color: #0b0c0c;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+}
+
+.risk-game__dialogue-content {
+  min-width: 0;
+}
+
+.risk-game__speaker {
+  margin: 0 0 5px;
+  color: #173e3a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.risk-game__dialogue-text {
+  max-width: 68ch;
+  margin: 0;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.risk-game__choices {
+  display: grid;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.risk-game__choice {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 10px 14px;
+  border: 2px solid #687b77;
+  background: #fff;
+  color: #0b0c0c;
+  font: inherit;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  cursor: pointer;
+  word-break: break-word;
+}
+
+.risk-game__choice:hover {
+  border-color: #176b68;
+  background: #e7f2ee;
+}
+
+.risk-game__choice-key {
+  display: grid;
+  width: 25px;
+  height: 25px;
+  place-items: center;
+  border: 1px solid #687b77;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+/* Pause screen */
+.risk-game__pause {
+  position: absolute;
+  z-index: 6;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+  padding: clamp(20px, 5vw, 55px);
+  background: rgba(19, 54, 53, 0.95);
+  color: #fff;
+}
+
+.risk-game__pause h3 {
+  max-width: 14ch;
+  margin: 0 0 10px;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.1;
+}
+
+.risk-game__pause > p:not(.risk-game__eyebrow) {
+  max-width: 48ch;
+  margin: 0 0 15px;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.risk-game__pause .risk-game__eyebrow {
+  color: #c8e6dd;
+}
+
+.risk-game__pause .risk-game__primary,
+.risk-game__pause .risk-game__secondary {
+  min-height: 48px;
+  margin: 5px 0;
+}
+
+/* Gameplay Controls & HUD */
+.risk-game__action {
+  position: absolute;
+  z-index: 4;
+  right: 20px;
+  bottom: 80px;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 48px;
+  margin: 0;
+  padding: 10px 18px;
+  border: 0;
+  background: #0065a8;
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.risk-game__action:hover {
+  background: #004f84;
+}
+
+.risk-game__homing-action {
+  position: absolute;
+  z-index: 4;
+  right: 20px;
+  bottom: 140px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 8px 16px;
+  background: #ffdd00;
+  color: #0b0c0c;
+  border: 2px solid #0b0c0c;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  animation: pulse-homing 0.8s infinite alternate ease-in-out;
+}
+
+@keyframes pulse-homing {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.04); }
+}
+
+.risk-game__control-hint {
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+  left: 20px;
+  padding: 8px 14px;
+  background: rgba(23, 62, 58, 0.92);
+  color: #fff;
+  font-size: 13px;
+  line-height: 19px;
+  border-left: 4px solid #ffdd00;
+}
+
+.risk-game__control-hint strong {
+  margin-right: 5px;
+  color: #f4c875;
+}
+
+.risk-game__sound {
+  min-height: 35px;
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #a9c3bd;
+  background: #173e3a;
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.risk-game__toast {
+  position: absolute;
+  z-index: 5;
+  top: 85px;
+  left: 50%;
+  max-width: calc(100% - 30px);
+  margin: 0;
+  padding: 10px 18px;
+  transform: translateX(-50%);
+  background: #fffdf8;
+  border-left: 5px solid #d98553;
+  font-weight: 700;
+  line-height: 23px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Touch analog joystick */
+.risk-game__joystick-container {
+  display: none;
+}
+
+.risk-game__dpad {
+  display: none;
+}
+
+.risk-game__jump {
+  display: none;
+}
+
+/* Sharp UI Overlay Layer - Zero Blur Isolation */
+.risk-game__topbar,
+.risk-game__workshop,
+.risk-game__dialogue,
+.risk-game__pause,
+.risk-game__action,
+.risk-game__homing-action,
+.risk-game__jump,
+.risk-game__sound,
+.risk-game__joystick-container,
+.risk-game__control-hint,
+.risk-game__toast,
+.risk-game__choice,
+.risk-game__primary,
+.risk-game__secondary {
+  isolation: isolate;
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* High Contrast Yellow Focus Rings */
+.risk-game__choice:focus-visible,
+.risk-game__primary:focus-visible,
+.risk-game__secondary:focus-visible,
+.risk-game__action:focus-visible,
+.risk-game__homing-action:focus-visible,
+.risk-game__dpad button:focus-visible,
+.risk-game__jump:focus-visible,
+.risk-game__sound:focus-visible,
+.risk-game__variant:focus-visible,
+.risk-game__tint:focus-visible {
+  outline: 4px solid #ffdd00 !important;
+  outline-offset: 0 !important;
+  box-shadow: inset 0 0 0 2px #0b0c0c !important;
+}
+
+.risk-game__screen-reader-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* Mobile responsive layout */
+@media (max-width: 639px) {
+  .risk-game__frame {
+    height: 560px;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+
+  .risk-game__topbar {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 8px 10px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .risk-game__progress-copy strong {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .risk-game__progress-copy span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .risk-game__collectible-count {
+    font-size: 14px;
+  }
+
+  .risk-game__workshop {
+    inset: auto 10px 10px;
+    width: auto;
+    max-height: 60%;
+    padding: 12px;
+  }
+
+  .risk-game__workshop-copy h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .risk-game__variant-list {
+    gap: 4px;
+    margin-block: 8px;
+  }
+
+  .risk-game__variant {
+    min-height: 52px;
+    font-size: 11px;
+  }
+
+  .risk-game__dialogue {
+    inset: auto 10px 10px;
+    max-width: none;
+    box-sizing: border-box;
+    max-height: min(70%, 360px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    padding: 12px 14px 16px;
+  }
+
+  .risk-game__control-hint {
+    display: none;
+  }
+
+  .risk-game__action {
+    right: 10px;
+    bottom: 84px;
+    min-height: 48px;
+    max-width: calc(100% - 150px);
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .risk-game__homing-action {
+    right: 10px;
+    bottom: 142px;
+    min-height: 44px;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  /* Analog Virtual Joystick */
+  .risk-game__joystick-container {
+    position: absolute;
+    z-index: 3;
+    left: 15px;
+    bottom: 15px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(23, 62, 58, 0.45);
+    border: 2px solid rgba(255, 255, 255, 0.65);
+    border-radius: 50%;
+    touch-action: none;
+    user-select: none;
+  }
+
+  .risk-game__joystick-knob {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #fffdf8;
+    border: 2px solid #173e3a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+  }
+
+  .risk-game__jump {
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    bottom: 18px;
+    display: block;
+    min-width: 68px;
+    min-height: 54px;
+    padding-inline: 12px;
+    background: #fff;
+    border: 2px solid #173e3a;
+    border-radius: 4px;
+    color: #173e3a;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    touch-action: none;
+    user-select: none;
+  }
+
+  .risk-game__jump:active {
+    background: #ffdd00;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .risk-game__toast,
+  .risk-game__traversal-badge,
+  .risk-game__homing-action {
+    animation: none;
+    transition: none;
+  }
+}

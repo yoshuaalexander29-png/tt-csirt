@@ -1,0 +1,73 @@
+{
+  "id": "4720",
+  "legacyPostId": 4720,
+  "referenceNumber": "TT-CSIRT 358.09.09.20",
+  "classification": "advisory",
+  "title": "Google releases security updates for Chrome",
+  "rawTitle": "TTCSIRT-358.09.09.20: TT-CSIRT ADVISORY – Google Releases Security Updates for Chrome",
+  "slug": "ttcsirt-358-09-09-20-tt-csirt-advisory-google-releases-security-updates-for-chrome",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Google has released Chrome version 85.0.4183.102 for Windows, Mac, and Linux.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:33:12",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:33:12",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Google has released Chrome version 85.0.4183.102 for Windows, Mac, and Linux.<br><br>This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.<br><br>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=a2ac8440bd&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop.html</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "Google has released Chrome version 85.0.4183.102 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.",
+  "sourceExcerpt": "<p>Google has released Chrome version 85.0.4183.102 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system. For further information and support, please visit the following link:https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop.html If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-358-09-09-20-tt-csirt-advisory-google-releases-security-updates-for-chrome/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Google has released Chrome version 85.0.4183.102 for Windows, Mac, and Linux.</p>",
+          "text": "Google has released Chrome version 85.0.4183.102 for Windows, Mac, and Linux."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.</p>",
+          "text": "This version addresses vulnerabilities that an attacker could exploit to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=a2ac8440bd&amp;e=64e3bb0ab9\" target=\"_blank\" rel=\"noreferrer noopener\">https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop.html</a></p>",
+          "text": "For further information and support, please visit the following link: https://chromereleases.googleblog.com/2020/09/stable-channel-update-for-desktop.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-358-09-09-20-tt-csirt-advisory-google-releases-security-updates-for-chrome/",
+    "upstreamDisclosedAt": "2020-09-22T23:33:12",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

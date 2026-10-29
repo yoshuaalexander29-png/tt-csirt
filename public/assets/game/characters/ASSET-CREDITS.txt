@@ -1,0 +1,9 @@
+Wizard Creation model and atlas
+Author: Johannes Nienaber Creations
+Source: https://opengameart.org/content/wizard-creation
+License: CC0 1.0 Universal (public domain dedication)
+Files: wizzard_man_1.gltf, wizzard_man_1.bin, atlass_1.png
+
+Kaya (non-playable model)
+Source: Kenney Platformer Kit (character-oobi.glb)
+License: CC0; see ../kenney/License.txt

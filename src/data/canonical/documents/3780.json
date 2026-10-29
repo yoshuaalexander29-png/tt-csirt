@@ -1,0 +1,89 @@
+{
+  "id": "3780",
+  "legacyPostId": 3780,
+  "referenceNumber": "TT-CSIRT #227",
+  "classification": "advisory",
+  "title": "Microsoft security updates",
+  "rawTitle": "TTCSIRT-227.092019: TT-CSIRT Advisory – Microsoft Security Updates",
+  "slug": "ttcsirt-227-092019-tt-csirt-advisory-microsoft-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update stating that it has discovered the following vulnerabilities in Microsoft SharePoint Server 2019:",
+  "cveList": [
+    "CVE-2019-1257",
+    "CVE-2019-1260",
+    "CVE-2019-1261"
+  ],
+  "date": "20 September 2019",
+  "rawDate": "2019-09-20T13:33:55",
+  "modifiedDate": "20 September 2019",
+  "rawModifiedDate": "2019-09-20T13:33:55",
+  "contentHtml": "<p>Microsoft has released a security update stating that it has discovered the following vulnerabilities in Microsoft SharePoint Server 2019:</p>\n<p>a) CVE-2019-1257 &#8211; the software fails to check the source markup of an application package. An attacker who successfully exploits the vulnerability could run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account.</p>\n<p>b) CVE-2019-1260 &#8211; an authenticated attacker could send a specially crafted request to an affected server, thereby allowing the impersonation of another SharePoint user.</p>\n<p>c) CVE-2019-1261 &#8211; a spoofing vulnerability exists in Microsoft SharePoint when it improperly handles requests to authorize applications, resulting in cross-site request forgery (CSRF).</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at <a href=\"https://support.microsoft.com/en-us/help/4475596/security-update-for-sharepoint-server-2019-september-10\"><font size=\"2\" color=\"maroon\">https://support.microsoft.com/en-us/help/4475596/security-update-for-sharepoint-server-2019-september-10</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Microsoft has released a security update stating that it has discovered the following vulnerabilities in Microsoft SharePoint Server 2019: a) CVE-2019-1257 &#8211; the software fails to check…",
+  "sourceExcerpt": "<p>Microsoft has released a security update stating that it has discovered the following vulnerabilities in Microsoft SharePoint Server 2019: a) CVE-2019-1257 &#8211; the software fails to check the source markup of an application package. An attacker who successfully exploits the vulnerability could run arbitrary code in the context of the SharePoint application pool and the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-227-092019-tt-csirt-advisory-microsoft-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update stating that it has discovered the following vulnerabilities in Microsoft SharePoint Server 2019:</p>",
+          "text": "Microsoft has released a security update stating that it has discovered the following vulnerabilities in Microsoft SharePoint Server 2019:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) CVE-2019-1257 &#8211; the software fails to check the source markup of an application package. An attacker who successfully exploits the vulnerability could run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account.</p>",
+          "text": "a) CVE-2019-1257 – the software fails to check the source markup of an application package. An attacker who successfully exploits the vulnerability could run arbitrary code in the context of the SharePoint application pool and the SharePoint server farm account."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) CVE-2019-1260 &#8211; an authenticated attacker could send a specially crafted request to an affected server, thereby allowing the impersonation of another SharePoint user.</p>",
+          "text": "b) CVE-2019-1260 – an authenticated attacker could send a specially crafted request to an affected server, thereby allowing the impersonation of another SharePoint user."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) CVE-2019-1261 &#8211; a spoofing vulnerability exists in Microsoft SharePoint when it improperly handles requests to authorize applications, resulting in cross-site request forgery (CSRF).</p>",
+          "text": "c) CVE-2019-1261 – a spoofing vulnerability exists in Microsoft SharePoint when it improperly handles requests to authorize applications, resulting in cross-site request forgery (CSRF)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at <a href=\"https://support.microsoft.com/en-us/help/4475596/security-update-for-sharepoint-server-2019-september-10\">https://support.microsoft.com/en-us/help/4475596/security-update-for-sharepoint-server-2019-september-10</a></p>",
+          "text": "Further information on these vulnerabilities and how they can be mitigated can be found on the Microsoft Website at https://support.microsoft.com/en-us/help/4475596/security-update-for-sharepoint-server-2019-september-10"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.microsoft.com/en-us/help/4475596/security-update-for-sharepoint-server-2019-september-10"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-227-092019-tt-csirt-advisory-microsoft-security-updates/",
+    "upstreamDisclosedAt": "2019-09-20T13:33:55",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

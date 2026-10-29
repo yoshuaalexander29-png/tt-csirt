@@ -1,0 +1,77 @@
+{
+  "id": "4736",
+  "legacyPostId": 4736,
+  "referenceNumber": "TT-CSIRT 366.10.14.20",
+  "classification": "advisory",
+  "title": "Apache Tomcat security updates",
+  "rawTitle": "TTCSIRT-366.10.14.20: TT-CSIRT ADVISORY – Apache Tomcat Security Updates",
+  "slug": "ttcsirt-366-10-14-20-tt-csirt-advisory-apache-tomcat-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to obtain sensitive information.",
+  "cveList": [
+    "CVE-2020-13943"
+  ],
+  "date": "14 October 2020",
+  "rawDate": "2020-10-14T12:43:09",
+  "modifiedDate": "14 October 2020",
+  "rawModifiedDate": "2020-10-14T12:43:09",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to obtain sensitive information. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Administrators are encouraged to review Apache Security Advisory for CVE-2020-13943 and upgrade to the appropriate version.</p>\n\n\n\n<p class=\"wp-block-paragraph\">For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MTgxNzEiLCJ1cmwiOiJodHRwOi8vbWFpbC1hcmNoaXZlcy51cy5hcGFjaGUub3JnL21vZF9tYm94L3d3dy1hbm5vdW5jZS8yMDIwMTAubWJveC8lM0MyYjc2N2M2ZS1kY2I5LTU4MTYtYmQ2OS1hM2JjMDc3MWZlZjMlNDBhcGFjaGUub3JnJTNFIn0.Fbil8HzZH9M7sSJxzZGydjCaVuQM8MS2p4Hvo0wJ7Uo/s/1193638257/br/86836469032-l\" target=\"_blank\">Apache Security updates</a></p>\n",
+  "displaySummary": "The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to obtain sensitive information.",
+  "sourceExcerpt": "<p>The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to obtain sensitive information.  Administrators are encouraged to review Apache Security Advisory for CVE-2020-13943 and upgrade to the appropriate version. For further information and support, please visit the following link:Apache Security updates</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-366-10-14-20-tt-csirt-advisory-apache-tomcat-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to obtain sensitive information.</p>",
+          "text": "The Apache Software Foundation has released a security advisory to address a vulnerability in Apache Tomcat. An attacker could exploit this vulnerability to obtain sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are encouraged to review Apache Security Advisory for CVE-2020-13943 and upgrade to the appropriate version.</p>",
+          "text": "Administrators are encouraged to review Apache Security Advisory for CVE-2020-13943 and upgrade to the appropriate version."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MTgxNzEiLCJ1cmwiOiJodHRwOi8vbWFpbC1hcmNoaXZlcy51cy5hcGFjaGUub3JnL21vZF9tYm94L3d3dy1hbm5vdW5jZS8yMDIwMTAubWJveC8lM0MyYjc2N2M2ZS1kY2I5LTU4MTYtYmQ2OS1hM2JjMDc3MWZlZjMlNDBhcGFjaGUub3JnJTNFIn0.Fbil8HzZH9M7sSJxzZGydjCaVuQM8MS2p4Hvo0wJ7Uo/s/1193638257/br/86836469032-l\" target=\"_blank\">Apache Security updates</a></p>",
+          "text": "For further information and support, please visit the following link: Apache Security updates"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MTgxNzEiLCJ1cmwiOiJodHRwOi8vbWFpbC1hcmNoaXZlcy51cy5hcGFjaGUub3JnL21vZF9tYm94L3d3dy1hbm5vdW5jZS8yMDIwMTAubWJveC8lM0MyYjc2N2M2ZS1kY2I5LTU4MTYtYmQ2OS1hM2JjMDc3MWZlZjMlNDBhcGFjaGUub3JnJTNFIn0.Fbil8HzZH9M7sSJxzZGydjCaVuQM8MS2p4Hvo0wJ7Uo/s/1193638257/br/86836469032-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-366-10-14-20-tt-csirt-advisory-apache-tomcat-security-updates/",
+    "upstreamDisclosedAt": "2020-10-14T12:43:09",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

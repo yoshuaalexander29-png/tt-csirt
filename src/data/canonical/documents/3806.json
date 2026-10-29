@@ -1,0 +1,84 @@
+{
+  "id": "3806",
+  "legacyPostId": 3806,
+  "referenceNumber": "TT-CSIRT #229",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-229.092719: TT-CSIRT ADVISORY – APPLE SECURITY UPDATES",
+  "slug": "ttcsirt-229-092719-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit one of these vulnerabilities to obtain access to sensitive information.",
+  "cveList": [
+    "CVE-2019-8641",
+    "CVE-2019-8775",
+    "CVE-2019-8654",
+    "CVE-2019-8725"
+  ],
+  "date": "27 September 2019",
+  "rawDate": "2019-09-27T10:29:22",
+  "modifiedDate": "27 September 2019",
+  "rawModifiedDate": "2019-09-27T10:29:22",
+  "contentHtml": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit one of these vulnerabilities to obtain access to sensitive information.</p>\n<p>TTCSIRT encourages users and administrators to review Apple’s security updates page and apply the necessary updates:</p>\n<p><a href=\"https://support.apple.com/en-us/HT201222\" target=\"_blank\" rel=\"noopener\">https://support.apple.com/en-us/HT201222</a></p>\n<p>&nbsp;</p>\n<p>1) CVE-2019-8641 – A remote attacker may be able to cause unexpected application termination or arbitrary code execution. Affects macOS Sierra 10.12.6, macOS High Sierra 10.13.6, and macOS Mojave 10.14.6.</p>\n<p>2) CVE-2019-8641 – A remote attacker may be able to cause unexpected application termination or arbitrary code execution. Affects Apple Watch Series 1 and Apple Watch Series 2.</p>\n<p>3) CVE-2019-8641 – A remote attacker may be able to cause unexpected application termination or arbitrary code execution. Affects iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch 6th generation.</p>\n<p>4) CVE-2019-8775 &#8211; A person with physical access to an iOS device may be able to access contacts from the lock screen. Affects iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation.</p>\n<p>5) CVE-2019-8654 – Visiting a malicious website may lead to user interface spoofing</p>\n<p>6) CVE-2019-8725 – Service workers may leak private browsing history</p>\n",
+  "displaySummary": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit one of these vulnerabilities to obtain access to sensitive information.",
+  "sourceExcerpt": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit one of these vulnerabilities to obtain access to sensitive information. TTCSIRT encourages users and administrators to review Apple’s security updates page and apply the necessary updates: https://support.apple.com/en-us/HT201222 &nbsp; 1) CVE-2019-8641 – A remote attacker may be able to cause unexpected [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-229-092719-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit one of these vulnerabilities to obtain access to sensitive information.</p>",
+          "text": "Apple has released security updates to address vulnerabilities in multiple products. An attacker could exploit one of these vulnerabilities to obtain access to sensitive information."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT encourages users and administrators to review Apple’s security updates page and apply the necessary updates:</p>",
+          "text": "TTCSIRT encourages users and administrators to review Apple’s security updates page and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://support.apple.com/en-us/HT201222\" target=\"_blank\" rel=\"noopener\">https://support.apple.com/en-us/HT201222</a></p>",
+          "text": "https://support.apple.com/en-us/HT201222"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>CVE-2019-8641 – A remote attacker may be able to cause unexpected application termination or arbitrary code execution. Affects macOS Sierra 10.12.6, macOS High Sierra 10.13.6, and macOS Mojave 10.14.6.</li>\n  <li>CVE-2019-8641 – A remote attacker may be able to cause unexpected application termination or arbitrary code execution. Affects Apple Watch Series 1 and Apple Watch Series 2.</li>\n  <li>CVE-2019-8641 – A remote attacker may be able to cause unexpected application termination or arbitrary code execution. Affects iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch 6th generation.</li>\n  <li>CVE-2019-8775 &#8211; A person with physical access to an iOS device may be able to access contacts from the lock screen. Affects iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation.</li>\n  <li>CVE-2019-8654 – Visiting a malicious website may lead to user interface spoofing</li>\n  <li>CVE-2019-8725 – Service workers may leak private browsing history</li>\n</ol>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.apple.com/en-us/HT201222"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-229-092719-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2019-09-27T10:29:22",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

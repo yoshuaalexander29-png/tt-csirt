@@ -1,0 +1,158 @@
+{
+  "id": "5685",
+  "legacyPostId": 5685,
+  "referenceNumber": "TT-CSIRT #424",
+  "classification": "advisory",
+  "title": "17.01.24: patch SonicWall firewall still vulnerable to CVE-2023-0656 and",
+  "rawTitle": "TT-CSIRT – 424 17.01.24: Patch SonicWall Firewall Still Vulnerable to CVE-2023-0656 and CVE-2022-22274",
+  "slug": "tt-csirt-424-17-01-24-patch-sonicwall-firewall-still-vulnerable-to-cve-2023-0656-cve-2022-22274",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "SonicWall Firewalls CVE-2022-22274 and CVE-2023-0656 have CVSS score of 9.4 and 7.5 respectively. A proof-of-concept has been published therefore the vulnerabilities are more susceptible to exploitation.",
+  "cveList": [
+    "CVE-2023-0656",
+    "CVE-2022-22274"
+  ],
+  "date": "17 January 2024",
+  "rawDate": "2024-01-17T10:39:40",
+  "modifiedDate": "17 January 2024",
+  "rawModifiedDate": "2024-01-17T10:39:40",
+  "contentHtml": "<p><strong>Severity: Critical </strong></p>\n<p><strong>Overview:</strong></p>\n<p>SonicWall Firewalls CVE-2022-22274 and CVE-2023-0656 have CVSS score of 9.4 and 7.5 respectively. A proof-of-concept has been published therefore the vulnerabilities are more susceptible to exploitation.</p>\n<p><strong>Affected Systems:</strong></p>\n<p>Various SonicWall devices, including TZ series, NSa models, NSsp series, and NSv models, are susceptible to the mentioned vulnerabilities.</p>\n<p><a href=\"http://192.168.70.12/wp-content/uploads/2024/01/Capture1-1.png\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-5688\" src=\"http://192.168.70.12/wp-content/uploads/2024/01/Capture1-1-300x227.png\" alt=\"\" width=\"523\" height=\"395\" srcset=\"https://ttcsirt.gov.tt/wp-content/uploads/2024/01/Capture1-1-300x227.png 300w, https://ttcsirt.gov.tt/wp-content/uploads/2024/01/Capture1-1-768x582.png 768w\" sizes=\"(max-width: 523px) 100vw, 523px\" /></a></p>\n<p><strong>Description:</strong></p>\n<p>Over 178,000 SonicWall firewalls exposed on the internet are vulnerable to security flaws that could result in denial of service (DoS) and remote code execution (RCE). The vulnerabilities, identified as CVE-2022-22274 with a CVSS score of 9.4, involve a stack-based buffer overflow in SonicOS via HTTP requests, which allows a remote, unauthenticated attacker to cause a DoS or potentially execute code on the firewall<strong>. </strong></p>\n<p>Similarly, CVE-2023-0656 is a Stack-based buffer overflow vulnerability in the SonicOS allows a remote unauthenticated attacker to cause Denial of Service (DoS), which could cause an impacted firewall to crash.</p>\n<p><strong>Recommendations:</strong></p>\n<p>To patch the Buffer Overflow Vulnerability, upgrade to the latest SonicOS or firmware versions.</p>\n<p>If patching cannot be performed at this point in time, SonicWall’s PSIRT strongly recommends that administrators limit SonicOS management access to trusted sources (and/or disable management access from untrusted internet sources) by modifying the existing SonicOS Management access rules (SSH/HTTPS/HTTP Management). This will only allow management access from trusted source IP addresses.</p>\n<p><strong>References:</strong></p>\n<ul>\n<li><strong><a href=\"https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0003\">https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0003</a></strong></li>\n<li><strong><a href=\"https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0004\">https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0004</a></strong></li>\n<li><strong><a href=\"https://thehackernews.com/2024/01/alert-over-178000-sonicwall-firewalls.html\">https://thehackernews.com/2024/01/alert-over-178000-sonicwall-firewalls.html</a></strong></li>\n<li><strong><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22274\">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22274</a></strong></li>\n<li><strong><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2022-22274\">https://nvd.nist.gov/vuln/detail/CVE-2022-22274</a></strong></li>\n<li><strong><a href=\"https://thesecmaster.com/how-to-fix-cve-2022-22274-a-critical-buffer-overflow-vulnerability-in-sonicos-sonicwall-firewall/#:~:text=What%20is%20this%3F-,How%20To%20Fix%20CVE%2D2022%2D22274%2D%20A%20Critical%20Buffer,earlier%20should%20upgrade%20to%207.0\">https://thesecmaster.com/how-to-fix-cve-2022-22274-a-critical-buffer-overflow-vulnerability-in-sonicos-sonicwall-firewall/#:~:text=What%20is%20this%3F-,How%20To%20Fix%20CVE%2D2022%2D22274%2D%20A%20Critical%20Buffer,earlier%20should%20upgrade%20to%207.0</a></strong><strong>.</strong></li>\n</ul>\n<p><strong>Contact Information:</strong></p>\n<p>If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n",
+  "displaySummary": "Technical advisory detailing security vulnerabilities, affected versions, and remediation guidance.",
+  "sourceExcerpt": "<p>Severity: Critical Overview: SonicWall Firewalls CVE-2022-22274 and CVE-2023-0656 have CVSS score of 9.4 and 7.5 respectively. A proof-of-concept has been published therefore the vulnerabilities are more susceptible to exploitation. Affected Systems: Various SonicWall devices, including TZ series, NSa models, NSsp series, and NSv models, are susceptible to the mentioned vulnerabilities. Description: Over 178,000 SonicWall firewalls [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-424-17-01-24-patch-sonicwall-firewall-still-vulnerable-to-cve-2023-0656-cve-2022-22274/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Severity: critical",
+          "id": "severity-critical"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>SonicWall Firewalls CVE-2022-22274 and CVE-2023-0656 have CVSS score of 9.4 and 7.5 respectively. A proof-of-concept has been published therefore the vulnerabilities are more susceptible to exploitation.</p>",
+          "text": "SonicWall Firewalls CVE-2022-22274 and CVE-2023-0656 have CVSS score of 9.4 and 7.5 respectively. A proof-of-concept has been published therefore the vulnerabilities are more susceptible to exploitation."
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected systems",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Various SonicWall devices, including TZ series, NSa models, NSsp series, and NSv models, are susceptible to the mentioned vulnerabilities.</p>",
+          "text": "Various SonicWall devices, including TZ series, NSa models, NSsp series, and NSv models, are susceptible to the mentioned vulnerabilities."
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "title": "Description",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Over 178,000 SonicWall firewalls exposed on the internet are vulnerable to security flaws that could result in denial of service (DoS) and remote code execution (RCE). The vulnerabilities, identified as CVE-2022-22274 with a CVSS score of 9.4, involve a stack-based buffer overflow in SonicOS via HTTP requests, which allows a remote, unauthenticated attacker to cause a DoS or potentially execute code on the firewall<strong>. </strong></p>",
+          "text": "Over 178,000 SonicWall firewalls exposed on the internet are vulnerable to security flaws that could result in denial of service (DoS) and remote code execution (RCE). The vulnerabilities, identified as CVE-2022-22274 with a CVSS score of 9.4, involve a stack-based buffer overflow in SonicOS via HTTP requests, which allows a remote, unauthenticated attacker to cause a DoS or potentially execute code on the firewall ."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Similarly, CVE-2023-0656 is a Stack-based buffer overflow vulnerability in the SonicOS allows a remote unauthenticated attacker to cause Denial of Service (DoS), which could cause an impacted firewall to crash.</p>",
+          "text": "Similarly, CVE-2023-0656 is a Stack-based buffer overflow vulnerability in the SonicOS allows a remote unauthenticated attacker to cause Denial of Service (DoS), which could cause an impacted firewall to crash."
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>To patch the Buffer Overflow Vulnerability, upgrade to the latest SonicOS or firmware versions.</p>",
+          "text": "To patch the Buffer Overflow Vulnerability, upgrade to the latest SonicOS or firmware versions."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If patching cannot be performed at this point in time, SonicWall’s PSIRT strongly recommends that administrators limit SonicOS management access to trusted sources (and/or disable management access from untrusted internet sources) by modifying the existing SonicOS Management access rules (SSH/HTTPS/HTTP Management). This will only allow management access from trusted source IP addresses.</p>",
+          "text": "If patching cannot be performed at this point in time, SonicWall’s PSIRT strongly recommends that administrators limit SonicOS management access to trusted sources (and/or disable management access from untrusted internet sources) by modifying the existing SonicOS Management access rules (SSH/HTTPS/HTTP Management). This will only allow management access from trusted source IP addresses."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li><strong><a href=\"https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0003\">https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0003</a></strong></li>\n<li><strong><a href=\"https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0004\">https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0004</a></strong></li>\n<li><strong><a href=\"https://thehackernews.com/2024/01/alert-over-178000-sonicwall-firewalls.html\">https://thehackernews.com/2024/01/alert-over-178000-sonicwall-firewalls.html</a></strong></li>\n<li><strong><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22274\">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22274</a></strong></li>\n<li><strong><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2022-22274\">https://nvd.nist.gov/vuln/detail/CVE-2022-22274</a></strong></li>\n<li><strong><a href=\"https://thesecmaster.com/how-to-fix-cve-2022-22274-a-critical-buffer-overflow-vulnerability-in-sonicos-sonicwall-firewall/#:~:text=What%20is%20this%3F-,How%20To%20Fix%20CVE%2D2022%2D22274%2D%20A%20Critical%20Buffer,earlier%20should%20upgrade%20to%207.0\">https://thesecmaster.com/how-to-fix-cve-2022-22274-a-critical-buffer-overflow-vulnerability-in-sonicos-sonicwall-firewall/#:~:text=What%20is%20this%3F-,How%20To%20Fix%20CVE%2D2022%2D22274%2D%20A%20Critical%20Buffer,earlier%20should%20upgrade%20to%207.0</a></strong><strong>.</strong></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "severity-critical",
+      "label": "Severity: critical",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected systems"
+    },
+    {
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "http://192.168.70.12/wp-content/uploads/2024/01/Capture1-1.png",
+    "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0003",
+    "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0004",
+    "https://thehackernews.com/2024/01/alert-over-178000-sonicwall-firewalls.html",
+    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22274",
+    "https://nvd.nist.gov/vuln/detail/CVE-2022-22274",
+    "https://thesecmaster.com/how-to-fix-cve-2022-22274-a-critical-buffer-overflow-vulnerability-in-sonicos-sonicwall-firewall/#:~:text=What%20is%20this%3F-,How%20To%20Fix%20CVE%2D2022%2D22274%2D%20A%20Critical%20Buffer,earlier%20should%20upgrade%20to%207.0"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-424-17-01-24-patch-sonicwall-firewall-still-vulnerable-to-cve-2023-0656-cve-2022-22274/",
+    "upstreamDisclosedAt": "2024-01-17T10:39:40",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

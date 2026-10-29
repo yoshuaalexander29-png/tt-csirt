@@ -1,0 +1,271 @@
+/**
+ * TT-CSIRT Service Navigation
+ * Follows GOV.UK layout_super_navigation_header architecture:
+ * - Semantic tree: nav > div.govuk-width-container > div (columns) > column (h2 + ul.govuk-list > li > a.govuk-link)
+ * - Section titles are non-interactive semantic headings (h2.govuk-heading-s)
+ * - Navigation destinations are semantic GOV.UK hyperlinks (a.govuk-link.govuk-link--inverse)
+ * - Neutral full-bleed panel surface with content aligned to site grid (.govuk-width-container)
+ * - Strict GDS 5px-modulo spacing scale (10px, 15px, 20px, 25px, 30px)
+ * - Authentic GDS yellow focus box (#ffdd00) with #0b0c0c text across all interactive links
+ * - Pristine viewport engineering: no horizontal scroll, no clipping, min 44px mobile touch targets
+ */
+
+.ttcsirt-navigation {
+  position: relative;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 0fr;
+  width: 100%;
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 0;
+  box-shadow: none;
+  font-family: var(--font-family-sans, "GDS Transport", Arial, sans-serif);
+  transition: none;
+}
+
+.ttcsirt-navigation:not(.ttcsirt-navigation--open) {
+  grid-template-rows: 0fr;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ttcsirt-navigation--open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  visibility: visible;
+  border-top: 1px solid #d6d8d9;
+}
+
+.ttcsirt-navigation__inner {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  transition: none;
+}
+
+/* Match the site container only once its max width and both gutters fit. */
+@media (min-width: 1080px) {
+  .ttcsirt-navigation__inner {
+    width: 100%;
+  }
+}
+
+.ttcsirt-navigation--open .ttcsirt-navigation__inner {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.govuk-generic-header:has(.ttcsirt-header-menu-toggle:focus-visible) .ttcsirt-navigation--open {
+  transition: none;
+}
+
+.govuk-generic-header:has(.ttcsirt-header-menu-toggle:focus-visible) .ttcsirt-navigation--open .ttcsirt-navigation__inner {
+  transition: none;
+}
+
+/* ==========================================================================
+   Navigation Columns Grid (Desktop >= 769px: 4 cols; Tablet 641px-768px: 2 cols)
+   ========================================================================== */
+.ttcsirt-navigation__grid,
+.ttcsirt-navigation__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 30px;
+  row-gap: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+  .ttcsirt-navigation__grid,
+  .ttcsirt-navigation__list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 30px;
+    row-gap: 25px;
+  }
+}
+
+.ttcsirt-navigation__column,
+.ttcsirt-navigation__item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   Non-interactive Column Section Heading
+   Scoped strictly to .ttcsirt-navigation to avoid altering global headings.
+   Adheres to authentic GOV.UK Frontend 6.4.0 heading-m typography scale:
+   - Desktop (>= 641px): 24px (1.5rem), line-height: 1.25 (30px), bold (700)
+   - Mobile (< 641px): 21px (1.3125rem), line-height: 1.1904761905 (25px), bold (700)
+   - GDS spacing: 20px margin-bottom (desktop), 15px (mobile)
+   ========================================================================== */
+.ttcsirt-navigation .govuk-heading-m.ttcsirt-navigation__column-heading,
+.ttcsirt-navigation__column-heading {
+  color: #0b0c0c !important;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* ==========================================================================
+   Destinations Links List
+   ========================================================================== */
+.ttcsirt-navigation__links-list,
+.ttcsirt-navigation__sub-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.ttcsirt-navigation__link-item,
+.ttcsirt-navigation__sub-item {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Destination Link (GOV.UK Link Pattern)
+   ========================================================================== */
+.ttcsirt-navigation .ttcsirt-navigation__link,
+.ttcsirt-navigation .ttcsirt-navigation__sub-link {
+  display: inline;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: var(--ttcsirt-nav-link, #1d70b8) !important;
+  text-decoration-line: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+  text-underline-offset: 0.1em;
+  text-decoration-skip-ink: auto;
+  padding: 2px 0;
+  box-sizing: border-box;
+}
+
+.ttcsirt-navigation .ttcsirt-navigation__link:visited,
+.ttcsirt-navigation .ttcsirt-navigation__sub-link:visited {
+  color: var(--ttcsirt-nav-link-visited, #4c2c92) !important;
+}
+
+.ttcsirt-navigation .ttcsirt-navigation__link:hover,
+.ttcsirt-navigation .ttcsirt-navigation__sub-link:hover {
+  color: var(--ttcsirt-nav-link-hover, #003078) !important;
+  text-decoration-line: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+  text-underline-offset: 0.1em;
+  text-decoration-skip-ink: auto;
+}
+
+/* Current page active state */
+.ttcsirt-navigation .ttcsirt-navigation__link--current,
+.ttcsirt-navigation .ttcsirt-navigation__sub-link--current,
+.ttcsirt-navigation .ttcsirt-navigation__link[aria-current="page"],
+.ttcsirt-navigation .ttcsirt-navigation__sub-link[aria-current="page"] {
+  box-shadow: inset 0 -3px 0 0 var(--ttcsirt-nav-link, #1d70b8);
+  color: var(--ttcsirt-nav-link, #1d70b8) !important;
+}
+
+/* ==========================================================================
+   Authentic GDS Yellow Keyboard Focus State
+   ========================================================================== */
+.ttcsirt-navigation__link:focus,
+.ttcsirt-navigation__sub-link:focus,
+.ttcsirt-navigation__link:focus:hover,
+.ttcsirt-navigation__sub-link:focus:hover {
+  position: relative;
+  z-index: 5;
+  outline: 3px solid transparent !important;
+  background-color: #ffdd00 !important;
+  color: #0b0c0c !important;
+  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+  text-decoration: none !important;
+}
+
+/* ==========================================================================
+   Responsive Viewport Reflow (< 641px Mobile)
+   ========================================================================== */
+@media (max-width: 640px) {
+  .ttcsirt-navigation--open .ttcsirt-navigation__inner {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .ttcsirt-navigation__grid,
+  .ttcsirt-navigation__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ttcsirt-navigation__column,
+  .ttcsirt-navigation__item {
+    border-bottom: 1px solid #d6d8d9;
+    padding-bottom: 20px;
+  }
+
+  .ttcsirt-navigation__column:last-child,
+  .ttcsirt-navigation__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .ttcsirt-navigation .govuk-heading-m.ttcsirt-navigation__column-heading,
+  .ttcsirt-navigation__column-heading {
+    font-size: 21px;
+    line-height: 1.1904761905;
+    margin-bottom: 15px;
+  }
+
+  .ttcsirt-navigation__links-list,
+  .ttcsirt-navigation__sub-list {
+    gap: 5px;
+  }
+
+  .ttcsirt-navigation__link-item,
+  .ttcsirt-navigation__sub-item {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ttcsirt-navigation__link,
+  .ttcsirt-navigation__sub-link {
+    display: inline;
+    padding: 6px 0;
+    font-size: 16px;
+    text-decoration-line: underline;
+    text-decoration-thickness: max(1px, 0.0625rem);
+    text-underline-offset: 0.1em;
+    text-decoration-skip-ink: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ttcsirt-navigation,
+  .ttcsirt-navigation__inner {
+    transition: none;
+  }
+}

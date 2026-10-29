@@ -1,0 +1,99 @@
+{
+  "id": "5274",
+  "legacyPostId": 5274,
+  "referenceNumber": "TT-CSIRT 407.07.10.22",
+  "classification": "advisory",
+  "title": "FortiOS critical security vulnerability",
+  "rawTitle": "TT-CSIRT-407.07.10.22: FortiOS Critical Security Vulnerability",
+  "slug": "tt-csirt-407-07-10-22-fortios-critical-security-vulnerability",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Updated 10/10/2022 – Fortinet has issued an official PSIRT advisory that includes workaround steps for those who cannot immediately update their assets: https://www.fortiguard.com/psirt/FG-IR-22-377",
+  "cveList": [
+    "CVE-2022-40684"
+  ],
+  "date": "7 October 2022",
+  "rawDate": "2022-10-07T13:07:25",
+  "modifiedDate": "7 October 2022",
+  "rawModifiedDate": "2022-10-07T13:07:25",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Updated 10/10/2022 &#8211; Fortinet has issued an official PSIRT advisory that includes workaround steps for those who cannot immediately update their assets: <a rel=\"noreferrer noopener\" href=\"https://www.fortiguard.com/psirt/FG-IR-22-377\" target=\"_blank\">https://www.fortiguard.com/psirt/FG-IR-22-377</a><br><br>Note that updating your device continues to be the preferred recommended action by TT-CSIRT.<br><br>Original Advisory:</p>\n\n\n\n<p class=\"wp-block-paragraph\">Fortinet has released security updates to address a critical vulnerability in its FortiOS (and subsequently FortiGate) and FortiProxy products. This is a critical authentication bypass vulnerability that received a CVSSv3 score of 9.6. By sending specially crafted HTTP or HTTPS requests to a vulnerable target, a remote attacker with access to the management interface could perform administrator operations.</p>\n\n\n\n<p class=\"wp-block-paragraph\">While Fortinet has not yet issued an official PSIRT advisory, TT-CSIRT strongly encourages administrators to review the following release from Tenable and apply the necessary updates immediately:</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.tenable.com/blog/cve-2022-40684-critical-authentication-bypass-in-fortios-and-fortiproxy\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.tenable.com/blog/cve-2022-40684-critical-authentication-bypass-in-fortios-and-fortiproxy</a></p>\n",
+  "displaySummary": "Updated 10/10/2022 &#8211; Fortinet has issued an official PSIRT advisory that includes workaround steps for those who cannot immediately update their assets:…",
+  "sourceExcerpt": "<p>Updated 10/10/2022 &#8211; Fortinet has issued an official PSIRT advisory that includes workaround steps for those who cannot immediately update their assets: https://www.fortiguard.com/psirt/FG-IR-22-377 Note that updating your device continues to be the preferred recommended action by TT-CSIRT. Original Advisory: Fortinet has released security updates to address a critical vulnerability in its FortiOS (and subsequently FortiGate) [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-407-07-10-22-fortios-critical-security-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Updated 10/10/2022 &#8211; Fortinet has issued an official PSIRT advisory that includes workaround steps for those who cannot immediately update their assets: <a rel=\"noreferrer noopener\" href=\"https://www.fortiguard.com/psirt/FG-IR-22-377\" target=\"_blank\">https://www.fortiguard.com/psirt/FG-IR-22-377</a></p>",
+          "text": "Updated 10/10/2022 – Fortinet has issued an official PSIRT advisory that includes workaround steps for those who cannot immediately update their assets: https://www.fortiguard.com/psirt/FG-IR-22-377"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Note that updating your device continues to be the preferred recommended action by TT-CSIRT.</p>",
+          "text": "Note that updating your device continues to be the preferred recommended action by TT-CSIRT."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Original advisory",
+          "id": "original-advisory"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Fortinet has released security updates to address a critical vulnerability in its FortiOS (and subsequently FortiGate) and FortiProxy products. This is a critical authentication bypass vulnerability that received a CVSSv3 score of 9.6. By sending specially crafted HTTP or HTTPS requests to a vulnerable target, a remote attacker with access to the management interface could perform administrator operations.</p>",
+          "text": "Fortinet has released security updates to address a critical vulnerability in its FortiOS (and subsequently FortiGate) and FortiProxy products. This is a critical authentication bypass vulnerability that received a CVSSv3 score of 9.6. By sending specially crafted HTTP or HTTPS requests to a vulnerable target, a remote attacker with access to the management interface could perform administrator operations."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>While Fortinet has not yet issued an official PSIRT advisory, TT-CSIRT strongly encourages administrators to review the following release from Tenable and apply the necessary updates immediately:</p>",
+          "text": "While Fortinet has not yet issued an official PSIRT advisory, TT-CSIRT strongly encourages administrators to review the following release from Tenable and apply the necessary updates immediately:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.tenable.com/blog/cve-2022-40684-critical-authentication-bypass-in-fortios-and-fortiproxy\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.tenable.com/blog/cve-2022-40684-critical-authentication-bypass-in-fortios-and-fortiproxy</a></p>",
+          "text": "https://www.tenable.com/blog/cve-2022-40684-critical-authentication-bypass-in-fortios-and-fortiproxy"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "original-advisory",
+      "label": "Original advisory",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.fortiguard.com/psirt/FG-IR-22-377",
+    "https://www.tenable.com/blog/cve-2022-40684-critical-authentication-bypass-in-fortios-and-fortiproxy"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-407-07-10-22-fortios-critical-security-vulnerability/",
+    "upstreamDisclosedAt": "2022-10-07T13:07:25",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

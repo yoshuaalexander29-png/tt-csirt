@@ -1,0 +1,198 @@
+{
+  "id": "11064",
+  "legacyPostId": 11064,
+  "referenceNumber": "TT-CSIRT 461.25.09.26",
+  "classification": "alert",
+  "title": "Critical WordPress vulnerability",
+  "rawTitle": "461.25.09.26- Critical WordPress Vulnerability CVE-2026-87902",
+  "slug": "461-25-09-26-critical-wordpress-vulnerability-cve-2026-87902",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Critical",
+  "cveList": [
+    "CVE-2026-87902"
+  ],
+  "date": "25 September 2026",
+  "rawDate": "2026-09-25T14:03:28",
+  "modifiedDate": "25 September 2026",
+  "rawModifiedDate": "2026-09-25T14:03:30",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"><strong>Severity:</strong> Critical<br><strong>CVSS Score:</strong> 9.2<br><strong>Affected Product:</strong> WordPress Core<br><strong>Affected Versions:</strong> WordPress 4.7.0 through 7.1.1</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Overview</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT is advising organizations using WordPress to urgently apply security updates for CVE-2026-87902, a critical WordPress Core vulnerability that allows attackers to access unintended PHP files and achieve remote code execution. Exploitation has also been observed using public scanning and proof-of-concept tools increasing the risk of automated attacks against vulnerable internet-facing WordPress sites.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Impact</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>access files outside of the intended WordPress theme directory</li>\n\n\n\n<li>execute malicious PHP code</li>\n\n\n\n<li>modify or compromise website content</li>\n\n\n\n<li>access sensitive information or credentials</li>\n\n\n\n<li>establish persistence on the affected server</li>\n\n\n\n<li>use the compromised system to support further malicious activity.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Indicators of Potential Exploitation</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Suspicious directory traversal patterns in pagename parameters, including encoded values such as %2e%2e or %252e%252e.</li>\n\n\n\n<li>References to pearcmd.php, config-show, or config-create.</li>\n\n\n\n<li>Unusual requests targeting /index.php or the website root.</li>\n\n\n\n<li>Unexpected PHP files in writable directories such as /tmp or /var/tmp.</li>\n\n\n\n<li>Monitor for variations in request methods, encoding, and user-agent strings, rather than relying only on IP addresses or a single exploit pattern.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Recommended Actions</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Update WordPress immediately to version 7.1.2 or the applicable patched release.</li>\n\n\n\n<li>Confirm automatic security updates were successfully applied.</li>\n\n\n\n<li>Review web server, WAF, and application logs for suspicious activity.</li>\n\n\n\n<li>Inspect WordPress and writable directories for unexpected PHP files or artefacts.</li>\n\n\n\n<li>Apply temporary WAF/web server rules to block directory traversal attempts.</li>\n\n\n\n<li>Enforce least privilege for web server and PHP service accounts.</li>\n\n\n\n<li>Maintain secure backups and verify restoration procedures.</li>\n\n\n\n<li>If compromise is suspected, isolate the system, preserve logs, investigate, and remediate before restoring service.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">TT-CSIRT strongly recommends that organizations prioritize patching and immediately review affected systems for signs of compromise.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong><a href=\"https://wordpress.org/documentation/wordpress-version/version-7-1-2\">WordPress 7.1.2 Security Release</a></strong></li>\n\n\n\n<li><a href=\"•%09https:/patchstack.com/articles/cve-2026-87902-attackers-started-probing-wordpress-sites-hours-after-the-patch\">Patchstack – CVE-2026-87902: Attackers Started Probing WordPress Sites Hours After the Patch</a></li>\n\n\n\n<li><a href=\"https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release\">Tech Insider – WordPress CVE-2026-87902 Exploited Hours After Disclosure</a></li>\n\n\n\n<li><a href=\"https://tech-insider.org/wordpress-cve-2026-87902-exploited-hours-disclosure\">Help Net Security – WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902)</a></li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n",
+  "displaySummary": "Technical advisory detailing security vulnerabilities, affected versions, and remediation guidance.",
+  "sourceExcerpt": "<p>Severity: CriticalCVSS Score: 9.2Affected Product: WordPress CoreAffected Versions: WordPress 4.7.0 through 7.1.1 Overview TT-CSIRT is advising organizations using WordPress to urgently apply security updates for CVE-2026-87902, a critical WordPress Core vulnerability that allows attackers to access unintended PHP files and achieve remote code execution. Exploitation has also been observed using public scanning and proof-of-concept tools increasing [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/461-25-09-26-critical-wordpress-vulnerability-cve-2026-87902/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Severity",
+          "id": "severity"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Critical</p>",
+          "text": "Critical"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "CVSS score",
+          "id": "cvss-score"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>9.2</p>",
+          "text": "9.2"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Affected product",
+          "id": "affected-product"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress Core</p>",
+          "text": "WordPress Core"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT is advising organizations using WordPress to urgently apply security updates for CVE-2026-87902, a critical WordPress Core vulnerability that allows attackers to access unintended PHP files and achieve remote code execution. Exploitation has also been observed using public scanning and proof-of-concept tools increasing the risk of automated attacks against vulnerable internet-facing WordPress sites.</p>",
+          "text": "TT-CSIRT is advising organizations using WordPress to urgently apply security updates for CVE-2026-87902, a critical WordPress Core vulnerability that allows attackers to access unintended PHP files and achieve remote code execution. Exploitation has also been observed using public scanning and proof-of-concept tools increasing the risk of automated attacks against vulnerable internet-facing WordPress sites."
+        }
+      ]
+    },
+    {
+      "id": "affected-versions",
+      "title": "Affected versions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress 4.7.0 through 7.1.1</p>",
+          "text": "WordPress 4.7.0 through 7.1.1"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>access files outside of the intended WordPress theme directory</li>\n\n\n\n<li>execute malicious PHP code</li>\n\n\n\n<li>modify or compromise website content</li>\n\n\n\n<li>access sensitive information or credentials</li>\n\n\n\n<li>establish persistence on the affected server</li>\n\n\n\n<li>use the compromised system to support further malicious activity.</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Indicators of potential exploitation",
+          "id": "indicators-of-potential-exploitation"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Suspicious directory traversal patterns in pagename parameters, including encoded values such as %2e%2e or %252e%252e.</li>\n\n\n\n<li>References to pearcmd.php, config-show, or config-create.</li>\n\n\n\n<li>Unusual requests targeting /index.php or the website root.</li>\n\n\n\n<li>Unexpected PHP files in writable directories such as /tmp or /var/tmp.</li>\n\n\n\n<li>Monitor for variations in request methods, encoding, and user-agent strings, rather than relying only on IP addresses or a single exploit pattern.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "recommended-actions",
+      "title": "Recommended actions",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Update WordPress immediately to version 7.1.2 or the applicable patched release.</li>\n\n\n\n<li>Confirm automatic security updates were successfully applied.</li>\n\n\n\n<li>Review web server, WAF, and application logs for suspicious activity.</li>\n\n\n\n<li>Inspect WordPress and writable directories for unexpected PHP files or artefacts.</li>\n\n\n\n<li>Apply temporary WAF/web server rules to block directory traversal attempts.</li>\n\n\n\n<li>Enforce least privilege for web server and PHP service accounts.</li>\n\n\n\n<li>Maintain secure backups and verify restoration procedures.</li>\n\n\n\n<li>If compromise is suspected, isolate the system, preserve logs, investigate, and remediate before restoring service.</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT strongly recommends that organizations prioritize patching and immediately review affected systems for signs of compromise.</p>",
+          "text": "TT-CSIRT strongly recommends that organizations prioritize patching and immediately review affected systems for signs of compromise."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong><a href=\"https://wordpress.org/documentation/wordpress-version/version-7-1-2\">WordPress 7.1.2 Security Release</a></strong></li>\n\n\n\n<li><a href=\"•%09https:/patchstack.com/articles/cve-2026-87902-attackers-started-probing-wordpress-sites-hours-after-the-patch\">Patchstack – CVE-2026-87902: Attackers Started Probing WordPress Sites Hours After the Patch</a></li>\n\n\n\n<li><a href=\"https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release\">Tech Insider – WordPress CVE-2026-87902 Exploited Hours After Disclosure</a></li>\n\n\n\n<li><a href=\"https://tech-insider.org/wordpress-cve-2026-87902-exploited-hours-disclosure\">Help Net Security – WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902)</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "severity",
+      "label": "Severity",
+      "isSubItem": true
+    },
+    {
+      "id": "cvss-score",
+      "label": "CVSS score",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-product",
+      "label": "Affected product",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-versions",
+      "label": "Affected versions"
+    },
+    {
+      "id": "impact",
+      "label": "Impact"
+    },
+    {
+      "id": "indicators-of-potential-exploitation",
+      "label": "Indicators of potential exploitation",
+      "isSubItem": true
+    },
+    {
+      "id": "recommended-actions",
+      "label": "Recommended actions"
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://wordpress.org/documentation/wordpress-version/version-7-1-2",
+    "https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release",
+    "https://tech-insider.org/wordpress-cve-2026-87902-exploited-hours-disclosure"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/461-25-09-26-critical-wordpress-vulnerability-cve-2026-87902/",
+    "upstreamDisclosedAt": "2026-09-25T14:03:28",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

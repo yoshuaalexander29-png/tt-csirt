@@ -1,0 +1,78 @@
+{
+  "id": "5702",
+  "legacyPostId": 5702,
+  "referenceNumber": "TT-CSIRT 426.14.02.24",
+  "classification": "advisory",
+  "title": "Critical patches issued for Microsoft products",
+  "rawTitle": "TT-CSIRT-426.14.02.24: Critical Patches Issued for Microsoft Products",
+  "slug": "tt-csirt-426-14-02-24-critical-patches-issued-for-microsoft-products",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released security updates to address vulnerabilities in multiple products; the most severe of which could allow for remote code execution. Additionally, two (2) zero day vulnerabilities related to Microsoft products have been identified that are CVE-2024-21351 – Windows SmartScreen Security Feature Bypass Vulnerability and CVE-2024-21412 – Internet Shortcut Files Security Feature Bypass Vulnerability. Affected Systems: The following is a list of affected systems:",
+  "cveList": [
+    "CVE-2024-21351",
+    "CVE-2024-21412"
+  ],
+  "date": "14 February 2024",
+  "rawDate": "2024-02-14T09:51:41",
+  "modifiedDate": "14 February 2024",
+  "rawModifiedDate": "2024-02-14T09:51:41",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released security updates to address vulnerabilities in multiple products; the most severe of which could allow for remote code execution. Additionally, two (2) zero day vulnerabilities related to Microsoft products have been identified that are CVE-2024-21351 &#8211; Windows SmartScreen Security Feature Bypass Vulnerability and CVE-2024-21412 &#8211; Internet Shortcut Files Security Feature Bypass Vulnerability.<br />Affected Systems:<br />The following is a list of affected systems: <br />• .NET<br />• Azure Active Directory<br />• Azure Stack<br />• Internet Shortcut Files<br />• Microsoft ActiveX<br />• Microsoft Defender for Endpoint<br />• Microsoft Dynamics<br />• Microsoft Edge (Chromiumbased)<br />• Microsoft Exchange Server (Critical)<br />• Microsoft Office<br />• Microsoft Teams for Android<br />• Microsoft WDAC ODBC Driver<br />• Microsoft WDAC OLE DB provider for SQL<br />• Microsoft Windows<br />• Microsoft Windows DNS<br />• Role: DNS Server<br />• Skype for Business<br />• SQL Server<br />• Trusted Compute Base<br />• Windows HyperV<br />• Windows Internet Connection Sharing (ICS)<br />• Windows Kernel<br />• Windows LDAP<br />• Windows Message Queuing<br />• Windows OLE<br />• Windows SmartScreen<br />• Windows USB Serial Driver<br />• Windows Win32K ICOMP<br /><br />TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:<br /><a href=\"https://msrc.microsoft.com/update-guide/\">https://msrc.microsoft.com/update-guide/</a><br /><a href=\"https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-13-2024_2024-020\">https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-13-2024_2024-020</a></p>\n<p>If you have any queries, comments or require assistance, please feel free to contact the TT-CSIRT via contacts@ttcsirt.gov.tt</p>\n",
+  "displaySummary": "Microsoft has released security updates to address vulnerabilities in multiple products; the most severe of which could allow for remote code execution.",
+  "sourceExcerpt": "<p>Microsoft has released security updates to address vulnerabilities in multiple products; the most severe of which could allow for remote code execution. Additionally, two (2) zero day vulnerabilities related to Microsoft products have been identified that are CVE-2024-21351 &#8211; Windows SmartScreen Security Feature Bypass Vulnerability and CVE-2024-21412 &#8211; Internet Shortcut Files Security Feature Bypass Vulnerability.Affected [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/tt-csirt-426-14-02-24-critical-patches-issued-for-microsoft-products/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released security updates to address vulnerabilities in multiple products; the most severe of which could allow for remote code execution. Additionally, two (2) zero day vulnerabilities related to Microsoft products have been identified that are CVE-2024-21351 &#8211; Windows SmartScreen Security Feature Bypass Vulnerability and CVE-2024-21412 &#8211; Internet Shortcut Files Security Feature Bypass Vulnerability. Affected Systems: The following is a list of affected systems:</p>",
+          "text": "Microsoft has released security updates to address vulnerabilities in multiple products; the most severe of which could allow for remote code execution. Additionally, two (2) zero day vulnerabilities related to Microsoft products have been identified that are CVE-2024-21351 – Windows SmartScreen Security Feature Bypass Vulnerability and CVE-2024-21412 – Internet Shortcut Files Security Feature Bypass Vulnerability. Affected Systems: The following is a list of affected systems:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n  <li>.NET</li>\n  <li>Azure Active Directory</li>\n  <li>Azure Stack</li>\n  <li>Internet Shortcut Files</li>\n  <li>Microsoft ActiveX</li>\n  <li>Microsoft Defender for Endpoint</li>\n  <li>Microsoft Dynamics</li>\n  <li>Microsoft Edge (Chromiumbased)</li>\n  <li>Microsoft Exchange Server (Critical)</li>\n  <li>Microsoft Office</li>\n  <li>Microsoft Teams for Android</li>\n  <li>Microsoft WDAC ODBC Driver</li>\n  <li>Microsoft WDAC OLE DB provider for SQL</li>\n  <li>Microsoft Windows</li>\n  <li>Microsoft Windows DNS</li>\n  <li>Role: DNS Server</li>\n  <li>Skype for Business</li>\n  <li>SQL Server</li>\n  <li>Trusted Compute Base</li>\n  <li>Windows HyperV</li>\n  <li>Windows Internet Connection Sharing (ICS)</li>\n  <li>Windows Kernel</li>\n  <li>Windows LDAP</li>\n  <li>Windows Message Queuing</li>\n  <li>Windows OLE</li>\n  <li>Windows SmartScreen</li>\n  <li>Windows USB Serial Driver</li>\n  <li>Windows Win32K ICOMP</li>\n</ul>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately:<br /><a href=\"https://msrc.microsoft.com/update-guide/\">https://msrc.microsoft.com/update-guide/</a><br /><a href=\"https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-13-2024_2024-020\">https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-13-2024_2024-020</a></p>",
+          "text": "TT-CSIRT encourages administrators to review the following releases and take the necessary actions immediately: https://msrc.microsoft.com/update-guide/ https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-13-2024_2024-020"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://msrc.microsoft.com/update-guide/",
+    "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-13-2024_2024-020"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/tt-csirt-426-14-02-24-critical-patches-issued-for-microsoft-products/",
+    "upstreamDisclosedAt": "2024-02-14T09:51:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "3936",
+  "legacyPostId": 3936,
+  "referenceNumber": "TT-CSIRT #256",
+  "classification": "advisory",
+  "title": "WordPress update",
+  "rawTitle": "TTCSIRT-256.121619:TT-CSIRT ADVISORY- WORDPRESS UPDATE",
+  "slug": "ttcsirt-256-121619tt-csirt-advisory-wordpress-update",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "WordPress 5.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website.",
+  "cveList": [],
+  "date": "16 December 2019",
+  "rawDate": "2019-12-16T10:38:23",
+  "modifiedDate": "16 December 2019",
+  "rawModifiedDate": "2019-12-16T10:38:23",
+  "contentHtml": "<p>WordPress 5.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website.</p>\n<p>TTCSIRT urges users and administrators to review WordPress Security and Maintenance Release and upgrade to WordPress 5.3.1.</p>\n<p>For further review please see the following link: <a href=\"https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/\">https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/</a></p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "WordPress 5.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website.",
+  "sourceExcerpt": "<p>WordPress 5.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website. TTCSIRT urges users and administrators to review WordPress Security and Maintenance Release and upgrade to WordPress 5.3.1. For further review please see the following link: https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/ &nbsp;</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-256-121619tt-csirt-advisory-wordpress-update/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress 5.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website.</p>",
+          "text": "WordPress 5.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTCSIRT urges users and administrators to review WordPress Security and Maintenance Release and upgrade to WordPress 5.3.1.</p>",
+          "text": "TTCSIRT urges users and administrators to review WordPress Security and Maintenance Release and upgrade to WordPress 5.3.1."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further review please see the following link: <a href=\"https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/\">https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/</a></p>",
+          "text": "For further review please see the following link: https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-256-121619tt-csirt-advisory-wordpress-update/",
+    "upstreamDisclosedAt": "2019-12-16T10:38:23",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

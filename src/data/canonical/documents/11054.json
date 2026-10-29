@@ -1,0 +1,295 @@
+{
+  "id": "11054",
+  "legacyPostId": 11054,
+  "referenceNumber": "TT-CSIRT 460.23.09.26",
+  "classification": "alert",
+  "title": "Critical check point vulnerabilities under active exploitation CVE-2026-85102 and",
+  "rawTitle": "460.23.09.26- Critical Check Point Vulnerabilities Under Active Exploitation CVE-2026-85102 and CVE-2026-93616",
+  "slug": "460-23-09-26-critical-check-point-vulnerabilities-under-active-exploitation-cve-2026-85102-and-cve-2026-93616",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Critical",
+  "cveList": [
+    "CVE-2026-85102",
+    "CVE-2026-93616"
+  ],
+  "date": "23 September 2026",
+  "rawDate": "2026-09-23T11:16:41",
+  "modifiedDate": "25 September 2026",
+  "rawModifiedDate": "2026-09-25T14:04:46",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\"><strong>Severity:</strong> Critical</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>CVSS Score:</strong> 9.8</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected Vendor:</strong> Check Point Software Technologies</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Exploitation Status:</strong> Active exploitation observed</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Date:</strong> 23 September 2026</p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Overview</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is advising organizations and system administrators of two (2) critical vulnerabilities affecting Check Point Security Gateway, Spark Firewall and Security Management products.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The vulnerabilities are identified as CVE-2026-85102 and CVE-2026-93616, with both carrying a CVSS score of 9.8 and may allow an unauthenticated remote attacker to compromise affected systems.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations using the affected Check Point products are strongly advised to review their environment and apply the available security fixes immediately as both of the following vulnerabilities are being actively exploited in the wild:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>CVE-2026-85102</strong> – <strong>One day exploitation-</strong> Pre-authentication remote code execution vulnerability in Security Gateway’s VPN certificate handling</li>\n</ul>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>CVE-2026-85102</strong>&#8211; <strong>Zero-day, limited exploitation</strong> &#8211; Pre-authentication path traversal vulnerability in the Check Point Management web service</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Affected Products</strong></p>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>CVE</strong></td><td><strong>Affected Products</strong></td><td><strong>Affected Versions</strong></td></tr><tr><td><strong>CVE-2026-85102</strong></td><td>Security Gateway; Spark Firewall (Centrally Managed); Spark Firewall (Locally Managed)</td><td>R81 (EOS), R81.10 (EOS), R81.10.X, R81.10.X, R81.20, R82, R82.00.X, R82.00.X, R82.10</td></tr><tr><td><strong>CVE-2026-93616</strong></td><td>Security Management</td><td>R82.20 R82.10 Jumbo Hotfix Take 44 or lower R82 Jumbo Hotfix Take 126 or lower R81.20 Jumbo Hotfix Take 166 or lower R81.10 Jumbo Hotfix Take 190 or lower (EoS) R80, R80.10, R80.20, R80.30, R80.40, R81 (all EoS)</td></tr></tbody></table></figure>\n\n\n\n<p class=\"wp-block-paragraph\"><strong><em>Administrators should note that Check Point Live Patch Take 28/29 does not remediate CVE-2026-93616.</em></strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Indicators and Detection</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">For CVE-2026-85102, Check Point observed exploitation attempts originating from anonymization infrastructure, including VPN services and proxy networks.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Observed malicious or suspicious certificate subjects include:</p>\n\n\n\n<p class=\"wp-block-paragraph\">CN=vpn,OU=users,O=global</p>\n\n\n\n<p class=\"wp-block-paragraph\">CN=vpn-user,OU=users,O=global</p>\n\n\n\n<p class=\"wp-block-paragraph\">CN=vpnuser,OU=users,O=global</p>\n\n\n\n<p class=\"wp-block-paragraph\">Organizations should review logs for:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Unusual certificate-based Mobile Access authentication;</li>\n\n\n\n<li>Unexpected or unauthorized Mobile Access users;</li>\n\n\n\n<li>Authentication originating from unusual or anonymized IP addresses;</li>\n\n\n\n<li>Internal network, port or service scanning following a Mobile Access login;</li>\n\n\n\n<li>Unusual administrative activity;</li>\n\n\n\n<li>Unexpected scripts, Java classes or files on Security Management systems;</li>\n\n\n\n<li>Other anomalous activity occurring before or following suspicious authentication events.</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>Recommendations</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>CVE-2026-85102</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Review your logs for anomalous certificate-based Mobile Access logins.</li>\n\n\n\n<li>Look for second stage activity originating from suspicious logged-in users via Mobile Access.</li>\n\n\n\n<li>Apply patches for CVE-2026-85102 via Check Point SK1000117</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>CVE-2026-93616</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Limit access to your Management Servers behind a Security Gateway/Check Point Firewall</li>\n\n\n\n<li>Make sure that access to port TCP/19009 is only possible from Trusted IP addresses.</li>\n\n\n\n<li>If you already have a Security Gateway / Check Point Firewall with implied rules enabled, make sure your Trusted Clients are limited to trusted internal IP addresses.</li>\n\n\n\n<li>Apply patches for CVE-2026-93616 via Check Point SK1000171</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>References</strong></p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Check Point Security Advisory – Active Exploitation of CVE-2026-85102 and CVE-2026-93616 <a href=\"https://blog.checkpoint.com/security/security-advisory-action-required-active-exploitation-of-cve-2026-85102-and-a-management-pre-authentication-vulnerability-cve-2026-93616/\">Security Advisory – Action Required – Active Exploitation of CVE-2026-85102 and a Management Pre-Authentication Vulnerability CVE-2026-93616 &#8211; Check Point Blog</a> </li>\n\n\n\n<li>Check Point Security Knowledge Base – SK1000117 <a href=\"https://support.checkpoint.com/results/sk/sk1000117\">https://support.checkpoint.com/results/sk/sk1000117</a>/</li>\n\n\n\n<li>Check Point Security Knowledge Base – SK1000171 <a href=\"https://support.checkpoint.com/results/sk/sk1000171/\">https://support.checkpoint.com/results/sk/sk1000171/</a></li>\n</ul>\n",
+  "displaySummary": "Technical advisory detailing security vulnerabilities, affected versions, and remediation guidance.",
+  "sourceExcerpt": "<p>Severity: Critical CVSS Score: 9.8 Affected Vendor: Check Point Software Technologies Exploitation Status: Active exploitation observed Date: 23 September 2026 Overview The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is advising organizations and system administrators of two (2) critical vulnerabilities affecting Check Point Security Gateway, Spark Firewall and Security Management products. The vulnerabilities [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/460-23-09-26-critical-check-point-vulnerabilities-under-active-exploitation-cve-2026-85102-and-cve-2026-93616/",
+  "categoryName": "Alert",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Severity",
+          "id": "severity"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Critical</p>",
+          "text": "Critical"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "CVSS score",
+          "id": "cvss-score"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>9.8</p>",
+          "text": "9.8"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Affected vendor",
+          "id": "affected-vendor"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Check Point Software Technologies</p>",
+          "text": "Check Point Software Technologies"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Exploitation status",
+          "id": "exploitation-status"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Active exploitation observed</p>",
+          "text": "Active exploitation observed"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Date",
+          "id": "date"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>23 September 2026</p>",
+          "text": "23 September 2026"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is advising organizations and system administrators of two (2) critical vulnerabilities affecting Check Point Security Gateway, Spark Firewall and Security Management products.</p>",
+          "text": "The Trinidad and Tobago Cyber Security Incident Response Team (TT-CSIRT) is advising organizations and system administrators of two (2) critical vulnerabilities affecting Check Point Security Gateway, Spark Firewall and Security Management products."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The vulnerabilities are identified as CVE-2026-85102 and CVE-2026-93616, with both carrying a CVSS score of 9.8 and may allow an unauthenticated remote attacker to compromise affected systems.</p>",
+          "text": "The vulnerabilities are identified as CVE-2026-85102 and CVE-2026-93616, with both carrying a CVSS score of 9.8 and may allow an unauthenticated remote attacker to compromise affected systems."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Organizations using the affected Check Point products are strongly advised to review their environment and apply the available security fixes immediately as both of the following vulnerabilities are being actively exploited in the wild:</p>",
+          "text": "Organizations using the affected Check Point products are strongly advised to review their environment and apply the available security fixes immediately as both of the following vulnerabilities are being actively exploited in the wild:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>CVE-2026-85102</strong> – <strong>One day exploitation-</strong> Pre-authentication remote code execution vulnerability in Security Gateway’s VPN certificate handling</li>\n</ul>"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li><strong>CVE-2026-85102</strong>&#8211; <strong>Zero-day, limited exploitation</strong> &#8211; Pre-authentication path traversal vulnerability in the Check Point Management web service</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "affected-systems",
+      "title": "Affected products",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "table",
+          "html": "<div class=\"govuk-table-responsive\" tabIndex=\"0\" role=\"region\" aria-label=\"Advisory specification table\">\n      <table class=\"govuk-table govuk-!-margin-bottom-4\">\n        <caption class=\"govuk-table__caption govuk-visually-hidden\">Technical advisory data table</caption>\n        <thead class=\"govuk-table__head\"><tr class=\"govuk-table__row\"><th scope=\"col\" class=\"govuk-table__header\">CVE</th><th scope=\"col\" class=\"govuk-table__header\">Affected Products</th><th scope=\"col\" class=\"govuk-table__header\">Affected Versions</th></tr></thead>\n        <tbody class=\"govuk-table__body\"><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>CVE-2026-85102</strong></th><td class=\"govuk-table__cell\">Security Gateway; Spark Firewall (Centrally Managed); Spark Firewall (Locally Managed)</td><td class=\"govuk-table__cell\">R81 (EOS), R81.10 (EOS), R81.10.X, R81.10.X, R81.20, R82, R82.00.X, R82.00.X, R82.10</td></tr><tr class=\"govuk-table__row\"><th scope=\"row\" class=\"govuk-table__header\"><strong>CVE-2026-93616</strong></th><td class=\"govuk-table__cell\">Security Management</td><td class=\"govuk-table__cell\">R82.20 R82.10 Jumbo Hotfix Take 44 or lower R82 Jumbo Hotfix Take 126 or lower R81.20 Jumbo Hotfix Take 166 or lower R81.10 Jumbo Hotfix Take 190 or lower (EoS) R80, R80.10, R80.20, R80.30, R80.40, R81 (all EoS)</td></tr></tbody>\n      </table>\n    </div>"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><strong><em>Administrators should note that Check Point Live Patch Take 28/29 does not remediate CVE-2026-93616.</em></strong></p>",
+          "text": "Administrators should note that Check Point Live Patch Take 28/29 does not remediate CVE-2026-93616."
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Indicators and detection",
+          "id": "indicators-and-detection"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For CVE-2026-85102, Check Point observed exploitation attempts originating from anonymization infrastructure, including VPN services and proxy networks.</p>",
+          "text": "For CVE-2026-85102, Check Point observed exploitation attempts originating from anonymization infrastructure, including VPN services and proxy networks."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Observed malicious or suspicious certificate subjects include:</p>",
+          "text": "Observed malicious or suspicious certificate subjects include:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CN=vpn,OU=users,O=global</p>",
+          "text": "CN=vpn,OU=users,O=global"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CN=vpn-user,OU=users,O=global</p>",
+          "text": "CN=vpn-user,OU=users,O=global"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>CN=vpnuser,OU=users,O=global</p>",
+          "text": "CN=vpnuser,OU=users,O=global"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Organizations should review logs for",
+          "id": "organizations-should-review-logs-for"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Unusual certificate-based Mobile Access authentication;</li>\n\n\n\n<li>Unexpected or unauthorized Mobile Access users;</li>\n\n\n\n<li>Authentication originating from unusual or anonymized IP addresses;</li>\n\n\n\n<li>Internal network, port or service scanning following a Mobile Access login;</li>\n\n\n\n<li>Unusual administrative activity;</li>\n\n\n\n<li>Unexpected scripts, Java classes or files on Security Management systems;</li>\n\n\n\n<li>Other anomalous activity occurring before or following suspicious authentication events.</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "recommendations",
+      "title": "Recommendations",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "CVE-2026-85102",
+          "id": "cve-2026-85102"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Review your logs for anomalous certificate-based Mobile Access logins.</li>\n\n\n\n<li>Look for second stage activity originating from suspicious logged-in users via Mobile Access.</li>\n\n\n\n<li>Apply patches for CVE-2026-85102 via Check Point SK1000117</li>\n</ul>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "CVE-2026-93616",
+          "id": "cve-2026-93616"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Limit access to your Management Servers behind a Security Gateway/Check Point Firewall</li>\n\n\n\n<li>Make sure that access to port TCP/19009 is only possible from Trusted IP addresses.</li>\n\n\n\n<li>If you already have a Security Gateway / Check Point Firewall with implied rules enabled, make sure your Trusted Clients are limited to trusted internal IP addresses.</li>\n\n\n\n<li>Apply patches for CVE-2026-93616 via Check Point SK1000171</li>\n</ul>"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\" class=\"wp-block-list\">\n<li>Check Point Security Advisory – Active Exploitation of CVE-2026-85102 and CVE-2026-93616 <a href=\"https://blog.checkpoint.com/security/security-advisory-action-required-active-exploitation-of-cve-2026-85102-and-a-management-pre-authentication-vulnerability-cve-2026-93616/\">Security Advisory – Action Required – Active Exploitation of CVE-2026-85102 and a Management Pre-Authentication Vulnerability CVE-2026-93616 &#8211; Check Point Blog</a></li>\n\n\n\n<li>Check Point Security Knowledge Base – SK1000117 <a href=\"https://support.checkpoint.com/results/sk/sk1000117\">https://support.checkpoint.com/results/sk/sk1000117</a>/</li>\n\n\n\n<li>Check Point Security Knowledge Base – SK1000171 <a href=\"https://support.checkpoint.com/results/sk/sk1000171/\">https://support.checkpoint.com/results/sk/sk1000171/</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "severity",
+      "label": "Severity",
+      "isSubItem": true
+    },
+    {
+      "id": "cvss-score",
+      "label": "CVSS score",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-vendor",
+      "label": "Affected vendor",
+      "isSubItem": true
+    },
+    {
+      "id": "exploitation-status",
+      "label": "Exploitation status",
+      "isSubItem": true
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "isSubItem": true
+    },
+    {
+      "id": "affected-systems",
+      "label": "Affected products"
+    },
+    {
+      "id": "indicators-and-detection",
+      "label": "Indicators and detection",
+      "isSubItem": true
+    },
+    {
+      "id": "organizations-should-review-logs-for",
+      "label": "Organizations should review logs for",
+      "isSubItem": true
+    },
+    {
+      "id": "recommendations",
+      "label": "Recommendations"
+    },
+    {
+      "id": "cve-2026-85102",
+      "label": "CVE-2026-85102",
+      "isSubItem": true
+    },
+    {
+      "id": "cve-2026-93616",
+      "label": "CVE-2026-93616",
+      "isSubItem": true
+    },
+    {
+      "id": "references",
+      "label": "References"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://blog.checkpoint.com/security/security-advisory-action-required-active-exploitation-of-cve-2026-85102-and-a-management-pre-authentication-vulnerability-cve-2026-93616/",
+    "https://support.checkpoint.com/results/sk/sk1000117",
+    "https://support.checkpoint.com/results/sk/sk1000171/"
+  ],
+  "readingTimeMinutes": 3,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/460-23-09-26-critical-check-point-vulnerabilities-under-active-exploitation-cve-2026-85102-and-cve-2026-93616/",
+    "upstreamDisclosedAt": "2026-09-23T11:16:41",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

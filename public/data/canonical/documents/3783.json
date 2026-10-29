@@ -1,0 +1,125 @@
+{
+  "id": "3783",
+  "legacyPostId": 3783,
+  "referenceNumber": "TT-CSIRT #228",
+  "classification": "advisory",
+  "title": "Cisco security updates",
+  "rawTitle": "TTCSIRT-228.092719: TT-CSIRT ADVISORY – CISCO SECURITY UPDATES",
+  "slug": "ttcsirt-228-092619-tt-csirt-advisory-cisco-security-updates",
+  "severity": "critical",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Cisco has released security updates to address vulnerabilities affecting multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "cveList": [
+    "CVE-2018-0296",
+    "CVE-2019-1620",
+    "CVE-2019-1619",
+    "CVE-2019-1901",
+    "CVE-2019-12646",
+    "CVE-2019-12652",
+    "CVE-2019-12648",
+    "CVE-2019-12650",
+    "CVE-2019-12651",
+    "CVE-2019-12654",
+    "CVE-2019-12653",
+    "CVE-2019-12658",
+    "CVE-2019-12656",
+    "CVE-2019-12655",
+    "CVE-2019-12657",
+    "CVE-2019-12649",
+    "CVE-2019-12647",
+    "CVE-2019-1621",
+    "CVE-2018-15459"
+  ],
+  "date": "27 September 2019",
+  "rawDate": "2019-09-27T09:59:42",
+  "modifiedDate": "27 September 2019",
+  "rawModifiedDate": "2019-09-27T09:59:42",
+  "contentHtml": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden field--item\">\n<p>Cisco has released security updates to address vulnerabilities affecting multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>\n<p>TTSCIRT urges users and administrators to review the Cisco Security Advisories page and apply the necessary updates:</p>\n<p><a href=\"https://tools.cisco.com/security/center/publicationListing.x\" target=\"_blank\" rel=\"noopener\">https://tools.cisco.com/security/center/publicationListing.x</a></p>\n</div>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><strong>CRITICAL</strong></p>\n<p style=\"text-align: left;\">1) CVE-2018-0296 – Cisco Adaptive Security Appliance Web Services Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">2) CVE-2019-1620 – Cisco Data Center Network Manager Arbitrary File Upload and Remote Code Execution Vulnerability</p>\n<p style=\"text-align: left;\">3) CVE-2019-1619 – Cisco Data Center Network Manager Authentication Bypass Vulnerability</p>\n<p>&nbsp;</p>\n<p style=\"text-align: left;\"><strong>HIGH</strong></p>\n<p style=\"text-align: left;\">1) CVE-2019-1901 – Cisco Nexus 9000 Series ACI Mode Switch Software Link Layer Discovery Protocol Buffer Overflow Vulnerability</p>\n<p style=\"text-align: left;\">2) CVE-2019-12646 – Cisco IOS XE Software NAT Session Initiation Protocol Application Layer Gateway Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">3) CVE-2019-12652 – Cisco Catalyst 4000 Series Switches TCP Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">4) CVE-2019-12648 – Cisco IOx for IOS Software Guest Operating System Unauthorized Access Vulnerability</p>\n<p style=\"text-align: left;\">5) CVE-2019-12650 &amp; CVE-2019-12651 – Cisco IOS XE Software Web UI Command Injection Vulnerabilities</p>\n<p style=\"text-align: left;\">6) CVE-2019-12654 – Cisco IOS and IOS XE Software Session Initiation Protocol Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">7) CVE-2019-12653 – Cisco IOS XE Software Raw Socket Transport Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">8) CVE-2019-12658 – Cisco IOS XE Software Filesystem Exhaustion Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">9) CVE-2019-12656 – Cisco IOx Application Environment Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">10) CVE-2019-12655 – Cisco IOS XE Software FTP Application Layer Gateway for NAT, NAT64, and ZBFW Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">11) CVE-2019-12657 – Cisco IOS XE Software Unified Threat Defense Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">12) CVE-2019-12649 – Cisco IOS XE Software Digital Signature Verification Bypass Vulnerability</p>\n<p style=\"text-align: left;\">13) CVE-2019-12647 – Cisco IOS and IOS XE Software IP Ident Denial of Service Vulnerability</p>\n<p style=\"text-align: left;\">14) CVE-2019-1621 – Cisco Data Center Network Manager Arbitrary File Download Vulnerability</p>\n<p style=\"text-align: left;\">15) CVE-2018-15459 – Cisco Identity Services Engine Privilege Escalation Vulnerability</p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "Cisco has released security updates to address vulnerabilities affecting multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.",
+  "sourceExcerpt": "<p>Cisco has released security updates to address vulnerabilities affecting multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. TTSCIRT urges users and administrators to review the Cisco Security Advisories page and apply the necessary updates: https://tools.cisco.com/security/center/publicationListing.x &nbsp; CRITICAL 1) CVE-2018-0296 – Cisco Adaptive Security Appliance [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-228-092619-tt-csirt-advisory-cisco-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Cisco has released security updates to address vulnerabilities affecting multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.</p>",
+          "text": "Cisco has released security updates to address vulnerabilities affecting multiple Cisco products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>TTSCIRT urges users and administrators to review the Cisco Security Advisories page and apply the necessary updates:</p>",
+          "text": "TTSCIRT urges users and administrators to review the Cisco Security Advisories page and apply the necessary updates:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://tools.cisco.com/security/center/publicationListing.x\" target=\"_blank\" rel=\"noopener\">https://tools.cisco.com/security/center/publicationListing.x</a></p>",
+          "text": "https://tools.cisco.com/security/center/publicationListing.x"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "Critical",
+          "id": "critical"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>CVE-2018-0296 – Cisco Adaptive Security Appliance Web Services Denial of Service Vulnerability</li>\n  <li>CVE-2019-1620 – Cisco Data Center Network Manager Arbitrary File Upload and Remote Code Execution Vulnerability</li>\n  <li>CVE-2019-1619 – Cisco Data Center Network Manager Authentication Bypass Vulnerability</li>\n</ol>"
+        },
+        {
+          "type": "subheading",
+          "level": 3,
+          "title": "High",
+          "id": "high"
+        },
+        {
+          "type": "list",
+          "html": "<ol class=\"govuk-list govuk-list--number\">\n  <li>CVE-2019-1901 – Cisco Nexus 9000 Series ACI Mode Switch Software Link Layer Discovery Protocol Buffer Overflow Vulnerability</li>\n  <li>CVE-2019-12646 – Cisco IOS XE Software NAT Session Initiation Protocol Application Layer Gateway Denial of Service Vulnerability</li>\n  <li>CVE-2019-12652 – Cisco Catalyst 4000 Series Switches TCP Denial of Service Vulnerability</li>\n  <li>CVE-2019-12648 – Cisco IOx for IOS Software Guest Operating System Unauthorized Access Vulnerability</li>\n  <li>CVE-2019-12650 &amp; CVE-2019-12651 – Cisco IOS XE Software Web UI Command Injection Vulnerabilities</li>\n  <li>CVE-2019-12654 – Cisco IOS and IOS XE Software Session Initiation Protocol Denial of Service Vulnerability</li>\n  <li>CVE-2019-12653 – Cisco IOS XE Software Raw Socket Transport Denial of Service Vulnerability</li>\n  <li>CVE-2019-12658 – Cisco IOS XE Software Filesystem Exhaustion Denial of Service Vulnerability</li>\n  <li>CVE-2019-12656 – Cisco IOx Application Environment Denial of Service Vulnerability</li>\n  <li>CVE-2019-12655 – Cisco IOS XE Software FTP Application Layer Gateway for NAT, NAT64, and ZBFW Denial of Service Vulnerability</li>\n  <li>CVE-2019-12657 – Cisco IOS XE Software Unified Threat Defense Denial of Service Vulnerability</li>\n  <li>CVE-2019-12649 – Cisco IOS XE Software Digital Signature Verification Bypass Vulnerability</li>\n  <li>CVE-2019-12647 – Cisco IOS and IOS XE Software IP Ident Denial of Service Vulnerability</li>\n  <li>CVE-2019-1621 – Cisco Data Center Network Manager Arbitrary File Download Vulnerability</li>\n  <li>CVE-2018-15459 – Cisco Identity Services Engine Privilege Escalation Vulnerability</li>\n</ol>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "critical",
+      "label": "Critical",
+      "isSubItem": true
+    },
+    {
+      "id": "high",
+      "label": "High",
+      "isSubItem": true
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://tools.cisco.com/security/center/publicationListing.x"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-228-092619-tt-csirt-advisory-cisco-security-updates/",
+    "upstreamDisclosedAt": "2019-09-27T09:59:42",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

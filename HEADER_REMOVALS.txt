@@ -1,0 +1,35 @@
+Legacy header-only artifacts removed from this cleaned copy
+
+One-off scripts (not referenced by package scripts/imports/automated test config):
+fix_header.cjs
+fix_header.js
+fix_header_bg.py
+fix_all_header_css.cjs
+rewrite_header.cjs
+test_header.cjs
+test_header_detail.cjs
+debug-nav.cjs
+fix_desktop_nav_audit.py
+fix_servicenav_toggle.cjs
+fix_servicenav_react.cjs
+fix_servicenav_width.cjs
+fix_mobile_nav_colors.py
+fix_service_nav_colors.py
+patch_header.cjs
+patch_header2.cjs
+patch_header_hierarchical.cjs
+patch_nav.py
+fix-nav.cjs
+
+Superseded red/black masthead/menu screenshots:
+header_hover_line.png
+current_header.png
+header_desktop.png
+header_mobile.png
+nav-1024.png
+nav-1280.png
+nav-1440.png
+nav-1920.png
+
+Unreferenced prototype directory removed in full:
+tmp-gds/

@@ -1,0 +1,75 @@
+{
+  "id": "3249",
+  "legacyPostId": 3249,
+  "referenceNumber": "TT-CSIRT #101",
+  "classification": "advisory",
+  "title": "Adobe security updates",
+  "rawTitle": "TTCSIRT-101.031618: TT-CSIRT Advisory – Adobe Security Updates",
+  "slug": "ttcsirt-101-031618-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Adobe has released a security update stating that a vulnerability has been discovered in Adobe Dreamweaver where an OS Command Injection could be inserted into the URI Handler of the application.",
+  "cveList": [],
+  "date": "16 March 2018",
+  "rawDate": "2018-03-16T13:38:03",
+  "modifiedDate": "16 March 2018",
+  "rawModifiedDate": "2018-03-16T13:38:03",
+  "contentHtml": "<p>Adobe has released a security update stating that a vulnerability has been discovered in Adobe Dreamweaver where an OS Command Injection could be inserted into the URI Handler of the application.</p>\n<p>This could allow the attacker to perform arbitrary remote code execution.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on Adobe Website at <a href=\"https://helpx.adobe.com/security/products/dreamweaver/apsb18-07.html\"><font size=\"2\" color=\"maroon\">https://helpx.adobe.com/security/products/dreamweaver/apsb18-07.html</a></font></td>\n</tr>\n</table>\n",
+  "displaySummary": "Adobe has released a security update stating that a vulnerability has been discovered in Adobe Dreamweaver where an OS Command Injection could be inserted into the URI Handler of the application.",
+  "sourceExcerpt": "<p>Adobe has released a security update stating that a vulnerability has been discovered in Adobe Dreamweaver where an OS Command Injection could be inserted into the URI Handler of the application. This could allow the attacker to perform arbitrary remote code execution. Further information on this vulnerability and how it can be fixed can be [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-101-031618-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Adobe has released a security update stating that a vulnerability has been discovered in Adobe Dreamweaver where an OS Command Injection could be inserted into the URI Handler of the application.</p>",
+          "text": "Adobe has released a security update stating that a vulnerability has been discovered in Adobe Dreamweaver where an OS Command Injection could be inserted into the URI Handler of the application."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>This could allow the attacker to perform arbitrary remote code execution.</p>",
+          "text": "This could allow the attacker to perform arbitrary remote code execution."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on Adobe Website at <a href=\"https://helpx.adobe.com/security/products/dreamweaver/apsb18-07.html\">https://helpx.adobe.com/security/products/dreamweaver/apsb18-07.html</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on Adobe Website at https://helpx.adobe.com/security/products/dreamweaver/apsb18-07.html"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://helpx.adobe.com/security/products/dreamweaver/apsb18-07.html"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-101-031618-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2018-03-16T13:38:03",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

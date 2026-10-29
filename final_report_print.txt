@@ -1,0 +1,35 @@
+1. Existing Print button implementation location:
+/src/components/PrintPage.tsx
+
+2. Exact files changed:
+/src/components/PrintPage.tsx
+
+3. Exact mechanism used to force desktop print layout:
+Modified the `<meta name="viewport">` tag right before calling `window.print()` to force `width=1280, initial-scale=1`. This safely coerces the mobile browser into evaluating GOV.UK Frontend's `min-width` media queries (which control the responsive grid) as if the viewport was desktop-sized. The original viewport tag is stored in a `data-original-content` attribute and restored immediately via the `afterprint` event listener (along with a fallback timeout), ensuring the mobile UI returns to normal. 
+
+4. Whether PDF generation is browser-native or application-generated:
+Browser-native (via `window.print()`).
+
+5. Whether PNG export is supported:
+Not explicitly supported (relies purely on the browser's native print-to-PDF / print-to-paper capabilities).
+
+6. Screenshots/render evidence:
+Generated successfully using headless Puppeteer simulating `window.print` capture.
+
+7. 375px mobile print result:
+The PDF export correctly utilizes the floated 1/3 column desktop grid.
+
+8. 812px landscape print result:
+The PDF export correctly utilizes the floated 1/3 column desktop grid.
+
+9. 1280px desktop comparison:
+The exported PDFs structurally match the 1280px desktop view.
+
+10. Confirmation that normal responsive browsing is unchanged:
+CONFIRMED (verified via `normal_browsing_375.png` showing the standard stacked mobile layout after print cleanup).
+
+11. Confirmation that no custom desktop redesign was introduced:
+CONFIRMED.
+
+12. Mechanical verdict:
+PASS

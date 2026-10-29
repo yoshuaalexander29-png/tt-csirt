@@ -1,0 +1,73 @@
+{
+  "id": "4702",
+  "legacyPostId": 4702,
+  "referenceNumber": "TT-CSIRT 349.09.03.20",
+  "classification": "advisory",
+  "title": "Emotet new delivery using a new word lure document",
+  "rawTitle": "TTCSIRT-349.09.03.20: TT-CSIRT ADVISORY – Emotet new delivery using a new Word lure document",
+  "slug": "ttcsirt-349-09-03-20-tt-csirt-advisory-emotet-new-delivery-using-a-new-word-lure-document",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "The Emotet botnet continues to evolve, and now uses a Microsoft Word template to spread its malware. Known as “Red Dawn,” the new infection method involves the user downloading a Word file, and then the file prompts them to enable macros to read the document.",
+  "cveList": [],
+  "date": "22 September 2020",
+  "rawDate": "2020-09-22T23:26:08",
+  "modifiedDate": "22 September 2020",
+  "rawModifiedDate": "2020-09-22T23:26:08",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">The Emotet botnet continues to evolve, and now uses a Microsoft Word template to spread its malware. Known as &#8220;Red Dawn,&#8221; the new infection method involves the user downloading a Word file, and then the file prompts them to enable macros to read the document.<br><br>If enabled, the macros then download Emotet onto the victim&#8217;s machine. Emotet spam emails try to entice users with information on COVID-19, financial documents or package tracking.<br><br>For further information, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2bae20f5dc&amp;e=64e3bb0ab9\">https://www.bleepingcomputer.com/news/security/emotet-malwares-new-red-dawn-attachment-is-just-as-dangerous/</a><br><br><strong>If you have any queries or comments with regards to this advisory, please feel free to contact TTCSIRT via <a href=\"mailto:contacts@ttcsirt.gov.tt\">contacts@ttcsirt.gov.tt</a></strong></p>\n",
+  "displaySummary": "The Emotet botnet continues to evolve, and now uses a Microsoft Word template to spread its malware.",
+  "sourceExcerpt": "<p>The Emotet botnet continues to evolve, and now uses a Microsoft Word template to spread its malware. Known as &#8220;Red Dawn,&#8221; the new infection method involves the user downloading a Word file, and then the file prompts them to enable macros to read the document. If enabled, the macros then download Emotet onto the victim&#8217;s [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-349-09-03-20-tt-csirt-advisory-emotet-new-delivery-using-a-new-word-lure-document/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Emotet botnet continues to evolve, and now uses a Microsoft Word template to spread its malware. Known as &#8220;Red Dawn,&#8221; the new infection method involves the user downloading a Word file, and then the file prompts them to enable macros to read the document.</p>",
+          "text": "The Emotet botnet continues to evolve, and now uses a Microsoft Word template to spread its malware. Known as “Red Dawn,” the new infection method involves the user downloading a Word file, and then the file prompts them to enable macros to read the document."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If enabled, the macros then download Emotet onto the victim&#8217;s machine. Emotet spam emails try to entice users with information on COVID-19, financial documents or package tracking.</p>",
+          "text": "If enabled, the macros then download Emotet onto the victim’s machine. Emotet spam emails try to entice users with information on COVID-19, financial documents or package tracking."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information, please visit the following link:<br><a href=\"https://ttcsirt.us5.list-manage.com/track/click?u=0ec494c836302c5c3517fbf18&amp;id=2bae20f5dc&amp;e=64e3bb0ab9\">https://www.bleepingcomputer.com/news/security/emotet-malwares-new-red-dawn-attachment-is-just-as-dangerous/</a></p>",
+          "text": "For further information, please visit the following link: https://www.bleepingcomputer.com/news/security/emotet-malwares-new-red-dawn-attachment-is-just-as-dangerous/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-349-09-03-20-tt-csirt-advisory-emotet-new-delivery-using-a-new-word-lure-document/",
+    "upstreamDisclosedAt": "2020-09-22T23:26:08",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

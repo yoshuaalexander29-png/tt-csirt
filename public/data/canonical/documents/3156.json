@@ -1,0 +1,75 @@
+{
+  "id": "3156",
+  "legacyPostId": 3156,
+  "referenceNumber": "TT-CSIRT #080",
+  "classification": "advisory",
+  "title": "Lenovo security updates",
+  "rawTitle": "TTCSIRT-080.012218: TT-CSIRT Advisory – Lenovo Security Updates",
+  "slug": "ttcsirt-080-012218-tt-csirt-advisory-lenovo-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Lenovo has released a security update for its Enterprise Network Operating System (ENOS) stating that an authentication bypass mechanism known as “HP Backdoor” was discovered during a Lenovo security audit in the Telnet and Serial Console management interfaces as well as the SSH and Web management interfaces under certain limited and unlikely conditions. This bypass mechanism can be accessed when performing local authentication under specific circumstances using credentials that are unique to each switch.",
+  "cveList": [],
+  "date": "22 January 2018",
+  "rawDate": "2018-01-22T11:59:05",
+  "modifiedDate": "22 January 2018",
+  "rawModifiedDate": "2018-01-22T11:59:05",
+  "contentHtml": "<p>Lenovo has released a security update for its Enterprise Network Operating System (ENOS) stating that an authentication bypass mechanism known as “HP Backdoor” was discovered during a Lenovo security audit in the Telnet and Serial Console management interfaces as well as the SSH and Web management interfaces under certain limited and unlikely conditions. This bypass mechanism can be accessed when performing local authentication under specific circumstances using credentials that are unique to each switch. </p>\n<p>If exploited, an attacker could gain access to the switch management interface, permitting settings changes that could result in exposing traffic passing through the switch, subtle malfunctions in the attached infrastructure, and partial or complete denial of service. Severity: High.</p>\n<table>\n<tr>\n<td>Further information on this vulnerability and how it can be fixed can be found on the Lenovo Website at <a href=\"https://support.lenovo.com/us/en/product_security/len-16095\"><font size=\"2\" color=\"maroon\">https://support.lenovo.com/us/en/product_security/len-16095</a></font></td>\n</tr>\n</table>\n",
+  "displaySummary": "Lenovo has released a security update for its Enterprise Network Operating System (ENOS) stating that an authentication bypass mechanism known as “HP Backdoor” was discovered during a Lenovo…",
+  "sourceExcerpt": "<p>Lenovo has released a security update for its Enterprise Network Operating System (ENOS) stating that an authentication bypass mechanism known as “HP Backdoor” was discovered during a Lenovo security audit in the Telnet and Serial Console management interfaces as well as the SSH and Web management interfaces under certain limited and unlikely conditions. This bypass [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-080-012218-tt-csirt-advisory-lenovo-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Lenovo has released a security update for its Enterprise Network Operating System (ENOS) stating that an authentication bypass mechanism known as “HP Backdoor” was discovered during a Lenovo security audit in the Telnet and Serial Console management interfaces as well as the SSH and Web management interfaces under certain limited and unlikely conditions. This bypass mechanism can be accessed when performing local authentication under specific circumstances using credentials that are unique to each switch.</p>",
+          "text": "Lenovo has released a security update for its Enterprise Network Operating System (ENOS) stating that an authentication bypass mechanism known as “HP Backdoor” was discovered during a Lenovo security audit in the Telnet and Serial Console management interfaces as well as the SSH and Web management interfaces under certain limited and unlikely conditions. This bypass mechanism can be accessed when performing local authentication under specific circumstances using credentials that are unique to each switch."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>If exploited, an attacker could gain access to the switch management interface, permitting settings changes that could result in exposing traffic passing through the switch, subtle malfunctions in the attached infrastructure, and partial or complete denial of service. Severity: High.</p>",
+          "text": "If exploited, an attacker could gain access to the switch management interface, permitting settings changes that could result in exposing traffic passing through the switch, subtle malfunctions in the attached infrastructure, and partial or complete denial of service. Severity: High."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on this vulnerability and how it can be fixed can be found on the Lenovo Website at <a href=\"https://support.lenovo.com/us/en/product_security/len-16095\">https://support.lenovo.com/us/en/product_security/len-16095</a></p>",
+          "text": "Further information on this vulnerability and how it can be fixed can be found on the Lenovo Website at https://support.lenovo.com/us/en/product_security/len-16095"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://support.lenovo.com/us/en/product_security/len-16095"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-080-012218-tt-csirt-advisory-lenovo-security-updates/",
+    "upstreamDisclosedAt": "2018-01-22T11:59:05",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

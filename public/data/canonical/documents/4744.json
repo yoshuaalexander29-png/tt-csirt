@@ -1,0 +1,82 @@
+{
+  "id": "4744",
+  "legacyPostId": 4744,
+  "referenceNumber": "TT-CSIRT 369.10.14.20",
+  "classification": "advisory",
+  "title": "Microsoft addresses Windows tcp/ip rce/dos vulnerability",
+  "rawTitle": "TTCSIRT-369.10.14.20: TT-CSIRT ADVISORY – Microsoft Addresses Windows TCP/IP RCE/DoS Vulnerability",
+  "slug": "ttcsirt-369-10-14-20-tt-csirt-advisory-microsoft-addresses-windows-tcp-ip-rce-dos-vulnerability",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Microsoft has released a security update to address a protocol vulnerability—CVE-2020-16898—in Windows Transmission Control Protocol (TCP)/IP stack handling of Internet Control Message Protocol version 6 (ICMPv6) Router Advertisement packets.",
+  "cveList": [
+    "CVE-2020-16898"
+  ],
+  "date": "14 October 2020",
+  "rawDate": "2020-10-14T14:17:38",
+  "modifiedDate": "14 October 2020",
+  "rawModifiedDate": "2020-10-14T14:17:38",
+  "contentHtml": "\n<p class=\"wp-block-paragraph\">Microsoft has released a security update to address a protocol vulnerability—CVE-2020-16898—in Windows Transmission Control Protocol (TCP)/IP stack handling of Internet Control Message Protocol version 6 (ICMPv6) Router Advertisement packets. </p>\n\n\n\n<p class=\"wp-block-paragraph\">A remote attacker could exploit this vulnerability to take control of an affected system or cause a denial-of-service condition.<br> <br>Administrators are encouraged to review and apply the necessary updates or workaround.<br><br>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MjM5MzEiLCJ1cmwiOiJodHRwczovL3BvcnRhbC5tc3JjLm1pY3Jvc29mdC5jb20vZW4tVVMvc2VjdXJpdHktZ3VpZGFuY2UvYWR2aXNvcnkvQ1ZFLTIwMjAtMTY4OTgifQ.qtwe4j8trH7H94mTH4dDpJRglfx-ie5iBZAnnOilCpY/s/1193638257/br/86843042289-l\" target=\"_blank\">Microsoft Security Advisory</a></p>\n",
+  "displaySummary": "Microsoft has released a security update to address a protocol vulnerability—CVE-2020-16898—in Windows Transmission Control Protocol (TCP)/IP stack handling of Internet Control Message Protocol…",
+  "sourceExcerpt": "<p>Microsoft has released a security update to address a protocol vulnerability—CVE-2020-16898—in Windows Transmission Control Protocol (TCP)/IP stack handling of Internet Control Message Protocol version 6 (ICMPv6) Router Advertisement packets. A remote attacker could exploit this vulnerability to take control of an affected system or cause a denial-of-service condition. Administrators are encouraged to review and apply the [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-369-10-14-20-tt-csirt-advisory-microsoft-addresses-windows-tcp-ip-rce-dos-vulnerability/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Microsoft has released a security update to address a protocol vulnerability—CVE-2020-16898—in Windows Transmission Control Protocol (TCP)/IP stack handling of Internet Control Message Protocol version 6 (ICMPv6) Router Advertisement packets.</p>",
+          "text": "Microsoft has released a security update to address a protocol vulnerability—CVE-2020-16898—in Windows Transmission Control Protocol (TCP)/IP stack handling of Internet Control Message Protocol version 6 (ICMPv6) Router Advertisement packets."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>A remote attacker could exploit this vulnerability to take control of an affected system or cause a denial-of-service condition.</p>",
+          "text": "A remote attacker could exploit this vulnerability to take control of an affected system or cause a denial-of-service condition."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Administrators are encouraged to review and apply the necessary updates or workaround.</p>",
+          "text": "Administrators are encouraged to review and apply the necessary updates or workaround."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>For further information and support, please visit the following link:<br><a rel=\"noreferrer noopener\" href=\"https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MjM5MzEiLCJ1cmwiOiJodHRwczovL3BvcnRhbC5tc3JjLm1pY3Jvc29mdC5jb20vZW4tVVMvc2VjdXJpdHktZ3VpZGFuY2UvYWR2aXNvcnkvQ1ZFLTIwMjAtMTY4OTgifQ.qtwe4j8trH7H94mTH4dDpJRglfx-ie5iBZAnnOilCpY/s/1193638257/br/86843042289-l\" target=\"_blank\">Microsoft Security Advisory</a></p>",
+          "text": "For further information and support, please visit the following link: Microsoft Security Advisory"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://lnks.gd/l/eyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMDEwMTQuMjg3MjM5MzEiLCJ1cmwiOiJodHRwczovL3BvcnRhbC5tc3JjLm1pY3Jvc29mdC5jb20vZW4tVVMvc2VjdXJpdHktZ3VpZGFuY2UvYWR2aXNvcnkvQ1ZFLTIwMjAtMTY4OTgifQ.qtwe4j8trH7H94mTH4dDpJRglfx-ie5iBZAnnOilCpY/s/1193638257/br/86843042289-l"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-369-10-14-20-tt-csirt-advisory-microsoft-addresses-windows-tcp-ip-rce-dos-vulnerability/",
+    "upstreamDisclosedAt": "2020-10-14T14:17:38",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "3461",
+  "legacyPostId": 3461,
+  "referenceNumber": "TT-CSIRT #144",
+  "classification": "advisory",
+  "title": "Apple security updates",
+  "rawTitle": "TTCSIRT-144.071618: TT-CSIRT Advisory – Apple Security Updates",
+  "slug": "ttcsirt-144-071618-tt-csirt-advisory-apple-security-updates",
+  "severity": "high",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Apple has released a security update stating that the following vulnerabilities have been discovered in iTunes, iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, watchOS, tvOS, and iOS:",
+  "cveList": [
+    "CVE-2018-4293",
+    "CVE-2018-4290",
+    "CVE-2018-4269",
+    "CVE-2018-4271",
+    "CVE-2018-4273",
+    "CVE-2018-4289",
+    "CVE-2018-4248",
+    "CVE-2018-4178",
+    "CVE-2018-4266",
+    "CVE-2018-4260",
+    "CVE-2018-4279",
+    "CVE-2018-4261",
+    "CVE-2018-4262",
+    "CVE-2018-4282",
+    "CVE-2018-4283",
+    "CVE-2018-4284",
+    "CVE-2018-4285"
+  ],
+  "date": "16 July 2018",
+  "rawDate": "2018-07-16T14:51:21",
+  "modifiedDate": "16 July 2018",
+  "rawModifiedDate": "2018-07-16T14:51:21",
+  "contentHtml": "<p>Apple has released a security update stating that the following vulnerabilities have been discovered in iTunes, iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, watchOS, tvOS, and iOS:</p>\n<p>a) A cookie management issue was addressed with improved checks &#8211; (CVE-2018-4293).</p>\n<p>b) A denial of service issue was addressed with improved memory handling &#8211; (CVE-2018-4290).</p>\n<p>c) Multiple memory corruption issues were addressed with improved input validation &#8211; (CVE-2018-4269, CVE-2018-4271, CVE-2018-4273).</p>\n<p>d) An information disclosure issue was addressed by removing the vulnerable code &#8211; (CVE-2018-4289).</p>\n<p>e) An out-of-bounds read was addressed with improved input validation &#8211; (CVE-2018-4248).</p>\n<p>f) A permissions issue existed in which execute permission was incorrectly granted. This issue was addressed with improved permission validation &#8211; (CVE-2018-4178).</p>\n<p>g) A race condition was addressed with additional validation &#8211; (CVE-2018-4266).</p>\n<p>h) Multiple inconsistent user interface issues were addressed with improved state management &#8211; (CVE-2018-4260, CVE-2018-4279).</p>\n<p>i) Multiple memory corruption issues were addressed with improved memory handling &#8211; (CVE-2018-4261, CVE-2018-4262).</p>\n<p>j) Multiple out-of-bounds read issues existed that led to the disclosure of kernel memory. This was addressed with improved input validation &#8211; (CVE-2018-4282, CVE-2018-4283).</p>\n<p>k) Multiple type confusion issues were addressed with improved memory handling &#8211; (CVE-2018-4284, CVE-2018-4285).</p>\n<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker having administrator privileges to install programs; view, change, or delete data; or create new accounts with full user rights.</p>\n<table>\n<tr>\n<td>Further information on these vulnerabilities and how they can mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-076/\"><font size=\"2\" color=\"maroon\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-076/</font></a></td>\n</tr>\n</table>\n",
+  "displaySummary": "Apple has released a security update stating that the following vulnerabilities have been discovered in iTunes, iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, watchOS,…",
+  "sourceExcerpt": "<p>Apple has released a security update stating that the following vulnerabilities have been discovered in iTunes, iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, watchOS, tvOS, and iOS: a) A cookie management issue was addressed with improved checks &#8211; (CVE-2018-4293). b) A denial of service issue was addressed with improved memory handling [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-144-071618-tt-csirt-advisory-apple-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Apple has released a security update stating that the following vulnerabilities have been discovered in iTunes, iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, watchOS, tvOS, and iOS:</p>",
+          "text": "Apple has released a security update stating that the following vulnerabilities have been discovered in iTunes, iCloud for Windows, Safari, macOS High Sierra, Sierra, and El Capitan, watchOS, tvOS, and iOS:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>a) A cookie management issue was addressed with improved checks &#8211; (CVE-2018-4293).</p>",
+          "text": "a) A cookie management issue was addressed with improved checks – (CVE-2018-4293)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>b) A denial of service issue was addressed with improved memory handling &#8211; (CVE-2018-4290).</p>",
+          "text": "b) A denial of service issue was addressed with improved memory handling – (CVE-2018-4290)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>c) Multiple memory corruption issues were addressed with improved input validation &#8211; (CVE-2018-4269, CVE-2018-4271, CVE-2018-4273).</p>",
+          "text": "c) Multiple memory corruption issues were addressed with improved input validation – (CVE-2018-4269, CVE-2018-4271, CVE-2018-4273)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>d) An information disclosure issue was addressed by removing the vulnerable code &#8211; (CVE-2018-4289).</p>",
+          "text": "d) An information disclosure issue was addressed by removing the vulnerable code – (CVE-2018-4289)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>e) An out-of-bounds read was addressed with improved input validation &#8211; (CVE-2018-4248).</p>",
+          "text": "e) An out-of-bounds read was addressed with improved input validation – (CVE-2018-4248)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>f) A permissions issue existed in which execute permission was incorrectly granted. This issue was addressed with improved permission validation &#8211; (CVE-2018-4178).</p>",
+          "text": "f) A permissions issue existed in which execute permission was incorrectly granted. This issue was addressed with improved permission validation – (CVE-2018-4178)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>g) A race condition was addressed with additional validation &#8211; (CVE-2018-4266).</p>",
+          "text": "g) A race condition was addressed with additional validation – (CVE-2018-4266)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>h) Multiple inconsistent user interface issues were addressed with improved state management &#8211; (CVE-2018-4260, CVE-2018-4279).</p>",
+          "text": "h) Multiple inconsistent user interface issues were addressed with improved state management – (CVE-2018-4260, CVE-2018-4279)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>i) Multiple memory corruption issues were addressed with improved memory handling &#8211; (CVE-2018-4261, CVE-2018-4262).</p>",
+          "text": "i) Multiple memory corruption issues were addressed with improved memory handling – (CVE-2018-4261, CVE-2018-4262)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>j) Multiple out-of-bounds read issues existed that led to the disclosure of kernel memory. This was addressed with improved input validation &#8211; (CVE-2018-4282, CVE-2018-4283).</p>",
+          "text": "j) Multiple out-of-bounds read issues existed that led to the disclosure of kernel memory. This was addressed with improved input validation – (CVE-2018-4282, CVE-2018-4283)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>k) Multiple type confusion issues were addressed with improved memory handling &#8211; (CVE-2018-4284, CVE-2018-4285).</p>",
+          "text": "k) Multiple type confusion issues were addressed with improved memory handling – (CVE-2018-4284, CVE-2018-4285)."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Successful exploitation of the most severe of these vulnerabilities could result in an attacker having administrator privileges to install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+          "text": "Successful exploitation of the most severe of these vulnerabilities could result in an attacker having administrator privileges to install programs; view, change, or delete data; or create new accounts with full user rights."
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Further information on these vulnerabilities and how they can mitigated can be found at <a href=\"https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-076/\">https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-076/</a></p>",
+          "text": "Further information on these vulnerabilities and how they can mitigated can be found at https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-076/"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2018-076/"
+  ],
+  "readingTimeMinutes": 2,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-144-071618-tt-csirt-advisory-apple-security-updates/",
+    "upstreamDisclosedAt": "2018-07-16T14:51:21",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

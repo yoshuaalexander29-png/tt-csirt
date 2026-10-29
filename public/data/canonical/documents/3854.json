@@ -1,0 +1,70 @@
+{
+  "id": "3854",
+  "legacyPostId": 3854,
+  "referenceNumber": "TT-CSIRT #237",
+  "classification": "advisory",
+  "title": "WordPress security updates",
+  "rawTitle": "TTCSIRT-237.101619: TT-CSIRT ADVISORY – WORDPRESS SECURITY UPDATES",
+  "slug": "ttcsirt-237-101619-tt-csirt-advisory-adobe-security-updates",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "WordPress version 5.2.4 has been released. WordPress 5.2.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website. TTCSIRT encourages users and administrators to review the following publications from WordPress and update your website forthwith:",
+  "cveList": [],
+  "date": "16 October 2019",
+  "rawDate": "2019-10-16T08:05:27",
+  "modifiedDate": "16 October 2019",
+  "rawModifiedDate": "2019-10-16T08:05:27",
+  "contentHtml": "<p>WordPress version 5.2.4 has been released. WordPress 5.2.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website. TTCSIRT encourages users and administrators to review the following publications from WordPress and update your website forthwith:</p>\n<ul>\n<li>New Release Blog Post:<br />\n<a href=\"https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/\">https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/<br />\n</a></li>\n<li>How to update WordPress:<br />\n<a href=\"https://wordpress.org/support/article/updating-wordpress/\">https://wordpress.org/support/article/updating-wordpress/</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+  "displaySummary": "WordPress version 5.2.4 has been released. WordPress 5.2.3 and prior versions are affected by multiple vulnerabilities.",
+  "sourceExcerpt": "<p>WordPress version 5.2.4 has been released. WordPress 5.2.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website. TTCSIRT encourages users and administrators to review the following publications from WordPress and update your website forthwith: New Release Blog Post: https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/ How to [&hellip;]</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-237-101619-tt-csirt-advisory-adobe-security-updates/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>WordPress version 5.2.4 has been released. WordPress 5.2.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website. TTCSIRT encourages users and administrators to review the following publications from WordPress and update your website forthwith:</p>",
+          "text": "WordPress version 5.2.4 has been released. WordPress 5.2.3 and prior versions are affected by multiple vulnerabilities. An attacker could exploit some of these vulnerabilities to take control of an affected website. TTCSIRT encourages users and administrators to review the following publications from WordPress and update your website forthwith:"
+        },
+        {
+          "type": "list",
+          "html": "<ul class=\"govuk-list govuk-list--bullet\">\n<li>New Release Blog Post:<br />\n<a href=\"https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/\">https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/<br />\n</a></li>\n<li>How to update WordPress:<br />\n<a href=\"https://wordpress.org/support/article/updating-wordpress/\">https://wordpress.org/support/article/updating-wordpress/</a></li>\n</ul>"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/",
+    "https://wordpress.org/support/article/updating-wordpress/"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-237-101619-tt-csirt-advisory-adobe-security-updates/",
+    "upstreamDisclosedAt": "2019-10-16T08:05:27",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}

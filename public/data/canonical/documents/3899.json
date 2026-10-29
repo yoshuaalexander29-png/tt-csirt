@@ -1,0 +1,70 @@
+{
+  "id": "3899",
+  "legacyPostId": 3899,
+  "referenceNumber": "TT-CSIRT #247",
+  "classification": "advisory",
+  "title": "Phishing emails",
+  "rawTitle": "TTCSIRT-247.112619: TT-CSIRT ADVISORY – PHISHING EMAILS",
+  "slug": "ttcsirt-247-112619-tt-csirt-advisory-phishing-emails",
+  "severity": "low",
+  "tlp": "TLP:CLEAR",
+  "leadParagraph": "Zscaler has reported a phishing campaign that is abusing Appspot.com and Web.app; both legitimate domains associated with Google Cloud. The campaign deploys well-executed landing pages that spoof the two widely used sites. TTCSIRT strongly encourages administrators to review the following report from Zscaler and blacklist the listed domains and URLs:",
+  "cveList": [],
+  "date": "6 December 2019",
+  "rawDate": "2019-12-06T14:09:48",
+  "modifiedDate": "6 December 2019",
+  "rawModifiedDate": "2019-12-06T14:09:48",
+  "contentHtml": "<p>Zscaler has reported a phishing campaign that is abusing Appspot.com and Web.app; both legitimate domains associated with Google Cloud. The campaign deploys well-executed landing pages that spoof the two widely used sites. TTCSIRT strongly encourages administrators to review the following report from Zscaler and blacklist the listed domains and URLs:</p>\n<p><a href=\"https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud\">https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud</a></p>\n",
+  "displaySummary": "Zscaler has reported a phishing campaign that is abusing Appspot.com and Web.app; both legitimate domains associated with Google Cloud.",
+  "sourceExcerpt": "<p>Zscaler has reported a phishing campaign that is abusing Appspot.com and Web.app; both legitimate domains associated with Google Cloud. The campaign deploys well-executed landing pages that spoof the two widely used sites. TTCSIRT strongly encourages administrators to review the following report from Zscaler and blacklist the listed domains and URLs: https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud</p>\n",
+  "url": "https://ttcsirt.gov.tt/ttcsirt-247-112619-tt-csirt-advisory-phishing-emails/",
+  "categoryName": "Advisory",
+  "sections": [
+    {
+      "id": "advisory-overview",
+      "title": "Overview",
+      "level": 2,
+      "nodes": [
+        {
+          "type": "paragraph",
+          "html": "<p>Zscaler has reported a phishing campaign that is abusing Appspot.com and Web.app; both legitimate domains associated with Google Cloud. The campaign deploys well-executed landing pages that spoof the two widely used sites. TTCSIRT strongly encourages administrators to review the following report from Zscaler and blacklist the listed domains and URLs:</p>",
+          "text": "Zscaler has reported a phishing campaign that is abusing Appspot.com and Web.app; both legitimate domains associated with Google Cloud. The campaign deploys well-executed landing pages that spoof the two widely used sites. TTCSIRT strongly encourages administrators to review the following report from Zscaler and blacklist the listed domains and URLs:"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p><a href=\"https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud\">https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud</a></p>",
+          "text": "https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud"
+        }
+      ]
+    }
+  ],
+  "navItems": [
+    {
+      "id": "advisory-overview",
+      "label": "Overview"
+    },
+    {
+      "id": "source-provenance",
+      "label": "Authoritative source"
+    },
+    {
+      "id": "emergency-reporting",
+      "label": "Emergency reporting"
+    },
+    {
+      "id": "related-resources",
+      "label": "Related resources"
+    }
+  ],
+  "externalReferences": [
+    "https://www.zscaler.com/blogs/research/phishing-attacks-abusing-appspotcom-and-webapp-domains-google-cloud"
+  ],
+  "readingTimeMinutes": 1,
+  "isPublicDeliveryReady": true,
+  "provenance": {
+    "originatingAgency": "TT-CSIRT Vulnerability Coordination Team",
+    "sourceReferenceUrl": "https://ttcsirt.gov.tt/ttcsirt-247-112619-tt-csirt-advisory-phishing-emails/",
+    "upstreamDisclosedAt": "2019-12-06T14:09:48",
+    "importedAt": "2026-09-28T15:20:00Z"
+  }
+}
